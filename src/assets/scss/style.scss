@@ -1,0 +1,23 @@
+
+// visual grid
+$visual-grid: true;
+$visual-grid-color: yellow;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.2;
+
+// base
+@import
+  "node_modules/normalize.scss/normalize",
+  "bourbon",
+  "base/base", // includes grid-settings, which must be imported before neat
+  "neat";
+
+  // modules
+  @import
+    "modules/common",
+    "modules/visual-grid";
+
+body {
+  @include linear-gradient(to top, red, orange);
+  height: 100vh;
+}

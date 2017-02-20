@@ -1,0 +1,14 @@
+// neat's visual-grid is 100% of $max-width
+
+// if your containing elements have margin on screens
+// below $max-width, set the max-width of the visual-grid
+// here to match
+
+// body:before {
+//   @include media($sm-up) {
+//     max-width: calc(100% - 2rem);
+//   }
+//   @include media($lg-up) {
+//     max-width: $lg;
+//   }
+// }
