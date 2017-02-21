@@ -5,6 +5,10 @@ $visual-grid-color: yellow;
 $visual-grid-index: front;
 $visual-grid-opacity: 0.2;
 
+
+// suppress warnings about bourbon 5
+$output-bourbon-deprecation-warnings: false;
+
 // base
 @import
   "node_modules/normalize.scss/normalize",
@@ -12,10 +16,18 @@ $visual-grid-opacity: 0.2;
   "base/base", // includes grid-settings, which must be imported before neat
   "neat";
 
-  // modules
-  @import
-    "modules/common",
-    "modules/visual-grid";
+// modules
+@import
+  "modules/common",
+  "modules/visual-grid";
+
+body:before {
+  display: none;
+}
+
+body.grid:before {
+  display: block;
+}
 
 body {
   @include linear-gradient(to top, red, orange);

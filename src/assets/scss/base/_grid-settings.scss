@@ -14,7 +14,7 @@ $l: em(769);
 $xl: em(1180);
 $xxl: em(1600);
 
-$s-up: new-breakpoint(min-width $s 12);
+$s-up: new-breakpoint(min-width $s 4);
 $m-up: new-breakpoint(min-width $m 12);
 $l-up: new-breakpoint(min-width $l 12);
 $xl-up: new-breakpoint(min-width $xl 12);
