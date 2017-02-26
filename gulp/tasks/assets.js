@@ -16,9 +16,6 @@ const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 const when = require('gulp-if');
 
-// Bourbon & Neat
-const neat = require('node-neat');
-
 // 'gulp scripts' -- creates a index.js file from your JavaScript files and
 // creates a Sourcemap for it
 // 'gulp scripts --prod' -- creates a index.js file from your JavaScript files,
@@ -66,8 +63,7 @@ gulp.task('styles', () =>
   gulp.src('src/assets/scss/style.scss')
     .pipe(when(!argv.prod, sourcemaps.init()))
     .pipe(sass({
-      precision: 10,
-      includePaths: neat.includePaths // for node-neat
+      precision: 10
     }).on('error', sass.logError))
     .pipe(postcss([
       autoprefixer({browsers: 'last 1 version'})

@@ -1,8 +1,8 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: AKC Canine Retreat
-description: 
-url: http://www.akccanineretreat.com
+title: Jekyllized Boilerplate
+description:
+url: http://www.example.com
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -14,9 +14,9 @@ exclude: ['assets']
 # NOTE: Don't use @ in front of your Twitter username
 author:
   name: Ryan Deussing
-  email: 
-  uri: 
-  bio: 
+  email:
+  uri:
+  bio:
   twitter:
   github:
 
@@ -30,10 +30,10 @@ lsi: false
 limit_posts: 10
 
 # Permalink structure and pagination options
-permalink: none
-paginate: 10
-paginate_path: 'page:num'
-excerpt_separator: ''
+# permalink: none
+# paginate: 10
+# paginate_path: 'page:num'
+# excerpt_separator: ''
 
 # Markdown library and options
 markdown: redcarpet
