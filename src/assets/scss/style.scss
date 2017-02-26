@@ -1,35 +1,44 @@
-
-// visual grid
-$visual-grid: true;
-$visual-grid-color: yellow;
-$visual-grid-index: front;
-$visual-grid-opacity: 0.2;
-
-
 // suppress warnings about bourbon 5
-$output-bourbon-deprecation-warnings: false;
+// $output-bourbon-deprecation-warnings: false;
 
 // base
 @import
   "node_modules/normalize.scss/normalize",
-  "bourbon",
-  "base/base", // includes grid-settings, which must be imported before neat
-  "neat";
+  "vars",
+  "neat/neat";
 
 // modules
 @import
-  "modules/common",
-  "modules/visual-grid";
-
-body:before {
-  display: none;
-}
-
-body.grid:before {
-  display: block;
-}
+  "modules/common";
 
 body {
-  @include linear-gradient(to top, red, orange);
+
+}
+
+.container {
+  // @include grid-visual(null, $desktop-grid);
+  @include grid-container;
+}
+
+.example-1__column-2 {
+  @include grid-column(2);
+}
+.example-1__column-4 {
+  @include grid-column;
+    @include grid-media($desktop-grid) {
+      @include grid-column(4 of 16);
+    }
+}
+.example-1__column-8 {
+  @include grid-column;
+    @include grid-media($desktop-grid) {
+      @include grid-column(8 of 16);
+    }
+}
+
+.example__column--fancy {
+  // background-image: linear-gradient(to bottom right, #21e9f4, #00d4ff);
+  // color: #fff;
   height: 100vh;
+  background-image: linear-gradient(to bottom right, #21e9f4, #00d4ff);
 }

@@ -12,43 +12,43 @@ html {
 // }
 
 
-h1, h2, h3, h4, h5 {
-  font-weight: normal;
-}
+// h1, h2, h3, h4, h5 {
+//   font-weight: normal;
+// }
 
-.container {
-  @include outer-container;
-}
+// .container {
+//   @include outer-container;
+// }
 
-.hide-s {
-  @include media($s){
-    display: none;
-  }
-  @include media($m){
-    display: block;
-  }
-}
+// .hide-s {
+//   @include media($s){
+//     display: none;
+//   }
+//   @include media($m){
+//     display: block;
+//   }
+// }
 
-.hide-m {
-  @include media($s){
-    display: block;
-  }
-  @include media($m){
-    display: none;
-  }
-}
+// .hide-m {
+//   @include media($s){
+//     display: block;
+//   }
+//   @include media($m){
+//     display: none;
+//   }
+// }
 
-.hide-l {
-  @include media($s){
-    display: block;
-  }
-  @include media($m){
-    display: block;
-  }
-  @include media($l){
-    display: none;
-  }
-}
+// .hide-l {
+//   @include media($s){
+//     display: block;
+//   }
+//   @include media($m){
+//     display: block;
+//   }
+//   @include media($l){
+//     display: none;
+//   }
+// }
 
 
 
