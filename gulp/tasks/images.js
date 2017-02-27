@@ -30,3 +30,10 @@ gulp.task('uploads', () =>
     .pipe(gulp.dest('.tmp/uploads'))
     .pipe(gulp.dest('src/uploads')) // for cloud cannon
 );
+
+// 'gulp videos' -- copies videos directory
+gulp.task('videos', () =>
+  gulp.src('src/assets/videos/**/*')
+    .pipe(gulp.dest('.tmp/assets/videos'))
+    .pipe(gulp.dest('src/assets/videos')) // for cloud cannon
+);

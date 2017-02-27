@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="{% if page.class %}{{ page.class }}{% endif %}">
 
     {% include header.html %}
 
@@ -20,5 +20,9 @@
   <!-- endinject -->
 
   </body>
+
+  {% if page.class == 'home' %}
+    {% include js-home.html %}
+  {% endif %}
 
 </html>

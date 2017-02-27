@@ -1,0 +1,48 @@
+// GRID
+header.grid-container {
+  @include grid-container;
+}
+
+
+// STYLES
+.grid-column {
+  @include grid-media($desktop-grid) {
+    @include grid-column(14 of 16);
+    @include grid-push(1 of 16);
+  }
+
+  @include breakpoint(lg) {
+    .va-wrapper {
+      height: 72px;
+      text-align: center;
+    }
+    .va-wrapper img {
+      @include vertical-align();
+      width: 145px;
+    }
+    .left {
+      float: left;
+      height: 100%;
+      a {
+        padding-left: 2rem;
+      }
+    }
+    .right {
+      float: right;
+      height: 100%;
+      a {
+        padding-right: 2rem;
+      }
+    }
+    .left a, .right a {
+      @include vertical-align();
+      text-decoration: none;
+      color: $text;
+      font-weight: 100;
+      letter-spacing: 1px;
+      display: inline-block;
+    }
+
+  }
+
+}

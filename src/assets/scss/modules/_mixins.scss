@@ -1,0 +1,56 @@
+// MEDIA QUERIES
+//
+// @include breakpoint(sm) {...}
+// @include breakpoint(480px) {...}
+// @include breakpoint(640px, 767px) {...}
+
+@mixin breakpoint($min: 0, $max: 0) {
+  $type: type-of($min);
+  @if $type == string {
+    @if $min == xs {
+        @media (max-width: 575px) { @content; } // max 543
+      }
+      @else if $min == sm {
+        @media (min-width: 576px) { @content; }  // min 544
+      }
+      @else if $min == md {
+        @media (min-width: 768px) { @content; } // min 768
+      }
+      @else if $min == lg {
+        @media (min-width: 992px) { @content; } // min 992
+      }
+      @else if $min == xl {
+       @media (min-width: 1200px) { @content; } // min 1200
+      }
+      @else if $min == xxl {
+       @media (min-width: 1440px) { @content; } // min 1440
+      }
+    @else {
+      @warn "Breakpoint mixin supports: xs, sm, md, lg, xl, xxl";
+    }
+  }
+  @else if $type == number {
+    $query: "all" !default;
+    @if $min != 0 and $max != 0 {
+      $query: "(min-width: #{$min}) and (max-width: #{$max})";
+    }
+    @else if $min != 0 and $max == 0 {
+      $query: "(min-width: #{$min})";
+    }
+    @else if $min == 0 and $max != 0 {
+      $query: "(max-width: #{$max})";
+    }
+    @media #{$query} {
+      @content;
+    }
+  }
+}
+
+// VERTICAL ALIGN
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

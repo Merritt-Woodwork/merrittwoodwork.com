@@ -357,6 +357,198 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+header.grid-container::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+@media only screen and (min-width: 992px) {
+  .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media (min-width: 992px) {
+  .grid-column .va-wrapper {
+    height: 72px;
+    text-align: center; }
+  .grid-column .va-wrapper img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 145px; }
+  .grid-column .left {
+    float: left;
+    height: 100%; }
+    .grid-column .left a {
+      padding-left: 2rem; }
+  .grid-column .right {
+    float: right;
+    height: 100%; }
+    .grid-column .right a {
+      padding-right: 2rem; }
+  .grid-column .left a, .grid-column .right a {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: #202020;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: inline-block; } }
+
+@media only screen and (min-width: 992px) {
+  footer.container {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+footer.container::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+@media (min-width: 992px) {
+  footer.container .va-wrapper {
+    height: 72px;
+    text-align: center; }
+  footer.container .left {
+    float: left;
+    height: 100%; }
+  footer.container .right {
+    float: right;
+    height: 100%; }
+  footer.container .left p, footer.container .right p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #202020;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: inline-block; } }
+
+body.home {
+  /**
+    Just some basic styling for the closing trigger
+  **/ }
+  body.home .header-video {
+    position: relative;
+    overflow: hidden;
+    clear: both; }
+    body.home .header-video::after {
+      clear: both;
+      content: "";
+      display: block; }
+    body.home .header-video img {
+      height: 100%; }
+  body.home .header-video iframe,
+  body.home .header-video video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  body.home .header-video iframe {
+    height: 100%;
+    width: 100%; }
+  body.home .header-video video {
+    width: 100%; }
+  body.home .header-video__teaser-video {
+    width: 100%;
+    height: auto; }
+  body.home .header-video__media {
+    width: 100%;
+    height: auto; }
+  @media only screen and (min-width: 992px) {
+    body.home .headline {
+      width: calc(37.5% - 23.375px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  @media (min-width: 992px) {
+    body.home .headline {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 63px;
+      line-height: 1;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      body.home .headline:hover {
+        cursor: pointer; } }
+  body.home .headline a {
+    display: block;
+    text-decoration: none;
+    padding: 0 3rem 3rem 0; }
+    body.home .headline a:hover {
+      background-color: transparent; }
+  body.home .headline span {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 1.16;
+    border-bottom: 1px solid #a45833; }
+  body.home .header-video__close-trigger {
+    z-index: 99;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: .5rem 1rem;
+    right: 30px;
+    top: 30px;
+    transition: background .3s;
+    border: none;
+    text-transform: uppercase; }
+  body.home .header-video__close-trigger:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer; }
+
+@font-face {
+  font-family: 'Portrait Web';
+  src: url("/assets/fonts/Portrait-Light-Web.eot");
+  src: url("/assets/fonts/Portrait-Light-Web.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Portrait-Light-Web.woff2") format("woff2"), url("/assets/fonts/Portrait-Light-Web.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'UniversLT-Condensed';
+  src: url("/assets/fonts/321C3D_0_0.eot");
+  src: url("/assets/fonts/321C3D_0_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/321C3D_0_0.woff2") format("woff2"), url("/assets/fonts//321C3D_0_0.woff") format("woff"), url("/assets/fonts/321C3D_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'UniversLTPro-UltraCn';
+  src: url("/assets/fonts/321C3D_1_0.eot");
+  src: url("/assets/fonts/321C3D_1_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/321C3D_1_0.woff2") format("woff2"), url("/assets/fonts/321C3D_1_0.woff") format("woff"), url("/assets/fonts/321C3D_1_0.ttf") format("truetype"); }
+
+.copy-text {
+  font-family: 'Portrait Web';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal; }
+
+.header-text {
+  font-family: UniversLT-Condensed;
+  font-weight: normal;
+  font-style: normal; }
+
+.header-text-condensed {
+  font-family: UniversLTPro-UltraCn;
+  font-weight: normal;
+  font-style: normal; }
+
 .container::after {
   clear: both;
   content: "";
@@ -373,9 +565,9 @@ html {
   margin-left: 20px; }
   @media only screen and (min-width: 992px) {
     .example-1__column-4 {
-      width: calc(25% - 25px);
+      width: calc(25% - 21.25px);
       float: left;
-      margin-left: 20px; } }
+      margin-left: 17px; } }
 
 .example-1__column-8 {
   width: calc(100% - 40px);
@@ -383,9 +575,9 @@ html {
   margin-left: 20px; }
   @media only screen and (min-width: 992px) {
     .example-1__column-8 {
-      width: calc(50% - 30px);
+      width: calc(50% - 25.5px);
       float: left;
-      margin-left: 20px; } }
+      margin-left: 17px; } }
 
 .example__column--fancy {
   height: 100vh;

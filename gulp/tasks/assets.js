@@ -26,6 +26,7 @@ gulp.task('scripts', () =>
   gulp.src([
     'node_modules/jquery/dist/jquery.js',
     'src/assets/javascript/vendor.js',
+    'src/assets/javascript/modernizr.js',
     'src/assets/javascript/main.js'
   ])
     .pipe(newer('.tmp/assets/javascript/index.js', {dest: '.tmp/assets/javascript', ext: '.js'}))
