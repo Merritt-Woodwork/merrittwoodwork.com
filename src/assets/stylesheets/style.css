@@ -431,46 +431,42 @@ footer.container::after {
     letter-spacing: 1px;
     display: inline-block; } }
 
-body.home {
-  /**
-    Just some basic styling for the closing trigger
-  **/ }
-  body.home .header-video {
-    position: relative;
-    overflow: hidden;
-    clear: both; }
-    body.home .header-video::after {
-      clear: both;
-      content: "";
-      display: block; }
-    body.home .header-video img {
-      height: 100%; }
-  body.home .header-video iframe,
-  body.home .header-video video {
+body.home section.header-video {
+  position: relative;
+  overflow: hidden;
+  clear: both; }
+  body.home section.header-video::after {
+    clear: both;
+    content: "";
+    display: block; }
+  body.home section.header-video img {
+    height: 100%; }
+  body.home section.header-video iframe,
+  body.home section.header-video video {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0; }
-  body.home .header-video iframe {
+  body.home section.header-video iframe {
     height: 100%;
     width: 100%; }
-  body.home .header-video video {
+  body.home section.header-video video {
     width: 100%; }
-  body.home .header-video__teaser-video {
+  body.home section.header-video .header-video__teaser-video {
     width: 100%;
     height: auto; }
-  body.home .header-video__media {
+  body.home section.header-video .header-video__media {
     width: 100%;
     height: auto; }
   @media only screen and (min-width: 992px) {
-    body.home .headline {
+    body.home section.header-video .headline {
       width: calc(37.5% - 23.375px);
       float: left;
       margin-left: 17px;
       margin-left: calc(6.25% - 18.0625px + 34px); } }
   @media (min-width: 992px) {
-    body.home .headline {
+    body.home section.header-video .headline {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -479,15 +475,15 @@ body.home {
       letter-spacing: 2px;
       color: #FFFFFF;
       text-transform: uppercase; }
-      body.home .headline:hover {
+      body.home section.header-video .headline:hover {
         cursor: pointer; } }
-  body.home .headline a {
+  body.home section.header-video .headline a {
     display: block;
     text-decoration: none;
     padding: 0 3rem 3rem 0; }
-    body.home .headline a:hover {
+    body.home section.header-video .headline a:hover {
       background-color: transparent; }
-  body.home .headline span {
+  body.home section.header-video .headline span {
     display: inline-block;
     text-transform: uppercase;
     color: #fff;
@@ -495,7 +491,7 @@ body.home {
     font-size: 18px;
     line-height: 1.16;
     border-bottom: 1px solid #a45833; }
-  body.home .header-video__close-trigger {
+  body.home section.header-video .header-video__close-trigger {
     z-index: 99;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
@@ -511,9 +507,42 @@ body.home {
     transition: background .3s;
     border: none;
     text-transform: uppercase; }
-  body.home .header-video__close-trigger:hover {
+  body.home section.header-video .header-video__close-trigger:hover {
     background-color: rgba(0, 0, 0, 0.4);
     cursor: pointer; }
+
+body.home section.intro {
+  background-color: #f8f7f5;
+  text-align: center; }
+  @media (min-width: 1200px) {
+    body.home section.intro {
+      padding: 170px 0 120px 0; } }
+  @media only screen and (min-width: 992px) {
+    body.home section.intro .grid-column {
+      width: calc(62.5% - 27.625px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(18.75% - 20.1875px + 34px); } }
+  body.home section.intro h1 {
+    font-size: 46px;
+    line-height: 1.17;
+    font-weight: 300;
+    text-align: center;
+    color: #A45833; }
+
+.grid-container {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 17px, transparent 17px, transparent calc(6.25% - 18.0625px + 17px), rgba(0, 212, 255, 0.25) calc(6.25% - 18.0625px + 17px), rgba(0, 212, 255, 0.25) calc(6.25% - 18.0625px + 17px + 17px), transparent calc(6.25% - 18.0625px + 17px + 17px), transparent calc(12.5% - 19.125px + 17px), rgba(0, 212, 255, 0.25) calc(12.5% - 19.125px + 17px), rgba(0, 212, 255, 0.25) calc(12.5% - 19.125px + 17px + 17px), transparent calc(12.5% - 19.125px + 17px + 17px), transparent calc(18.75% - 20.1875px + 17px), rgba(0, 212, 255, 0.25) calc(18.75% - 20.1875px + 17px), rgba(0, 212, 255, 0.25) calc(18.75% - 20.1875px + 17px + 17px), transparent calc(18.75% - 20.1875px + 17px + 17px), transparent calc(25% - 21.25px + 17px), rgba(0, 212, 255, 0.25) calc(25% - 21.25px + 17px), rgba(0, 212, 255, 0.25) calc(25% - 21.25px + 17px + 17px), transparent calc(25% - 21.25px + 17px + 17px), transparent calc(31.25% - 22.3125px + 17px), rgba(0, 212, 255, 0.25) calc(31.25% - 22.3125px + 17px), rgba(0, 212, 255, 0.25) calc(31.25% - 22.3125px + 17px + 17px), transparent calc(31.25% - 22.3125px + 17px + 17px), transparent calc(37.5% - 23.375px + 17px), rgba(0, 212, 255, 0.25) calc(37.5% - 23.375px + 17px), rgba(0, 212, 255, 0.25) calc(37.5% - 23.375px + 17px + 17px), transparent calc(37.5% - 23.375px + 17px + 17px), transparent calc(43.75% - 24.4375px + 17px), rgba(0, 212, 255, 0.25) calc(43.75% - 24.4375px + 17px), rgba(0, 212, 255, 0.25) calc(43.75% - 24.4375px + 17px + 17px), transparent calc(43.75% - 24.4375px + 17px + 17px), transparent calc(50% - 25.5px + 17px), rgba(0, 212, 255, 0.25) calc(50% - 25.5px + 17px), rgba(0, 212, 255, 0.25) calc(50% - 25.5px + 17px + 17px), transparent calc(50% - 25.5px + 17px + 17px), transparent calc(56.25% - 26.5625px + 17px), rgba(0, 212, 255, 0.25) calc(56.25% - 26.5625px + 17px), rgba(0, 212, 255, 0.25) calc(56.25% - 26.5625px + 17px + 17px), transparent calc(56.25% - 26.5625px + 17px + 17px), transparent calc(62.5% - 27.625px + 17px), rgba(0, 212, 255, 0.25) calc(62.5% - 27.625px + 17px), rgba(0, 212, 255, 0.25) calc(62.5% - 27.625px + 17px + 17px), transparent calc(62.5% - 27.625px + 17px + 17px), transparent calc(68.75% - 28.6875px + 17px), rgba(0, 212, 255, 0.25) calc(68.75% - 28.6875px + 17px), rgba(0, 212, 255, 0.25) calc(68.75% - 28.6875px + 17px + 17px), transparent calc(68.75% - 28.6875px + 17px + 17px), transparent calc(75% - 29.75px + 17px), rgba(0, 212, 255, 0.25) calc(75% - 29.75px + 17px), rgba(0, 212, 255, 0.25) calc(75% - 29.75px + 17px + 17px), transparent calc(75% - 29.75px + 17px + 17px), transparent calc(81.25% - 30.8125px + 17px), rgba(0, 212, 255, 0.25) calc(81.25% - 30.8125px + 17px), rgba(0, 212, 255, 0.25) calc(81.25% - 30.8125px + 17px + 17px), transparent calc(81.25% - 30.8125px + 17px + 17px), transparent calc(87.5% - 31.875px + 17px), rgba(0, 212, 255, 0.25) calc(87.5% - 31.875px + 17px), rgba(0, 212, 255, 0.25) calc(87.5% - 31.875px + 17px + 17px), transparent calc(87.5% - 31.875px + 17px + 17px), transparent calc(93.75% - 32.9375px + 17px), rgba(0, 212, 255, 0.25) calc(93.75% - 32.9375px + 17px), rgba(0, 212, 255, 0.25) calc(93.75% - 32.9375px + 17px + 17px), transparent calc(93.75% - 32.9375px + 17px + 17px), transparent calc(100% - 17px), rgba(0, 212, 255, 0.25) calc(100% - 17px), rgba(0, 212, 255, 0.25) calc(100%)); }
+  .grid-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  @media (min-width: 1200px) {
+    .grid-container {
+      width: 1200px; } }
+  @media (min-width: 1440px) {
+    .grid-container {
+      width: 1440px; } }
 
 @font-face {
   font-family: 'Portrait Web';

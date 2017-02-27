@@ -16,6 +16,31 @@
   "modules/footer",
   "modules/home";
 
+// grid-container
+.grid-container {
+  @include grid-container;
+    margin: 0 auto;
+    @include grid-visual(null, $desktop-grid);
+    // .grid-column {
+    //   background-image: linear-gradient(to bottom right, #21e9f4, #00d4ff);
+    // }
+    // @include breakpoint(sm) {
+    //   width: 375px;
+    // }
+    // @include breakpoint(md) {
+    //   width: 768px;
+    // }
+    // @include breakpoint(lg) {
+    //   width: 992px;
+    // }
+    @include breakpoint(xl) {
+      width: 1200px;
+    }
+    @include breakpoint(xxl) {
+      width: 1440px;
+    }
+  }
+
   // fonts
   @font-face {
       font-family: 'Portrait Web';
