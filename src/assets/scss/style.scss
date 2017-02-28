@@ -20,7 +20,7 @@
 .grid-container {
   @include grid-container;
     margin: 0 auto;
-    @include grid-visual(null, $desktop-grid);
+    // @include grid-visual(null, $desktop-grid);
     // .grid-column {
     //   background-image: linear-gradient(to bottom right, #21e9f4, #00d4ff);
     // }

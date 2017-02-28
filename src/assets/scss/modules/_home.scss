@@ -117,8 +117,25 @@ body.home {
       font-size: 46px;
       line-height: 1.17;
       font-weight: 300;
+      margin: 0;
       text-align: center;
       color: #A45833;
+      margin-bottom: 40px;
+    }
+    h3 {
+      font-size: 18px;
+      line-height: 1.5;
+      border-bottom: 1px solid #a45833;
+      letter-spacing: 1px;
+      color: #202020;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      a {
+        color: #202020;
+        text-decoration: none;
+      }
     }
   }
 
