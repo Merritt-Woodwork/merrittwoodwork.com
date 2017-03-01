@@ -26,7 +26,7 @@ footer.container {
     }
     .left p, .right p {
       @include vertical-align();
-      margin-bottom: 0;
+      margin: 0;
       text-decoration: none;
       color: $text;
       font-weight: 100;
