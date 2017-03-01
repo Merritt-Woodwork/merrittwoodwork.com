@@ -570,6 +570,7 @@ body.home section.case-studies {
         width: 60%; } }
   body.home section.case-studies .case-study {
     display: flex;
+    flex-wrap: wrap;
     align-items: stretch;
     height: 360px;
     margin-bottom: 35px; }
@@ -582,40 +583,42 @@ body.home section.case-studies {
     flex-basis: 40%;
     position: relative; }
     @media (min-width: 1200px) {
-      body.home section.case-studies .case-study:nth-child(odd) .case-study-info {
-        padding-left: 55px;
-        padding-top: 61px;
-        padding-right: 55px;
-        padding-bottom: 33px; }
-        body.home section.case-studies .case-study:nth-child(odd) .case-study-info h5 {
-          font-size: 12px;
-          letter-spacing: 2px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0px;
-          margin-bottom: .8em; }
-        body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
-          font-size: 44px;
-          letter-spacing: 1px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin: 0; }
-        body.home section.case-studies .case-study:nth-child(odd) .case-study-info h3 {
-          position: absolute;
-          bottom: 33px;
-          left: 60px;
-          font-size: 18px;
-          line-height: 1.5;
-          border-bottom: 1px solid #a45833;
-          letter-spacing: 1px;
+      body.home section.case-studies .case-study:nth-child(odd) .case-study-info .wrapper {
+        position: absolute; } }
+  @media (min-width: 1200px) and (min-width: 1200px) {
+    body.home section.case-studies .case-study:nth-child(odd) .case-study-info .wrapper {
+      left: 55px;
+      top: 61px; } }
+    @media (min-width: 1200px) {
+      body.home section.case-studies .case-study:nth-child(odd) .case-study-info h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: .8em; }
+      body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
+        font-size: 44px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0; }
+      body.home section.case-studies .case-study:nth-child(odd) .case-study-info h3 {
+        position: absolute;
+        bottom: 33px;
+        left: 60px;
+        font-size: 18px;
+        line-height: 1.5;
+        border-bottom: 1px solid #a45833;
+        letter-spacing: 1px;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0; }
+        body.home section.case-studies .case-study:nth-child(odd) .case-study-info h3 a {
           color: #fff;
-          text-transform: uppercase;
-          display: inline-block;
-          margin-left: 0;
-          margin-right: 0; }
-          body.home section.case-studies .case-study:nth-child(odd) .case-study-info h3 a {
-            color: #fff;
-            text-decoration: none; } }
+          text-decoration: none; } }
   body.home section.case-studies .case-study:nth-child(even) .case-study-image {
     order: 2;
     flex-basis: 60%;
@@ -626,40 +629,42 @@ body.home section.case-studies {
     flex-basis: 40%;
     position: relative; }
     @media (min-width: 1200px) {
-      body.home section.case-studies .case-study:nth-child(even) .case-study-info {
-        padding-left: 55px;
-        padding-top: 61px;
-        padding-right: 55px;
-        padding-bottom: 33px; }
-        body.home section.case-studies .case-study:nth-child(even) .case-study-info h5 {
-          font-size: 12px;
-          letter-spacing: 2px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0px;
-          margin-bottom: .8em; }
-        body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
-          font-size: 44px;
-          letter-spacing: 1px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin: 0; }
-        body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 {
-          position: absolute;
-          bottom: 33px;
-          left: 60px;
-          font-size: 18px;
-          line-height: 1.5;
-          border-bottom: 1px solid #a45833;
-          letter-spacing: 1px;
+      body.home section.case-studies .case-study:nth-child(even) .case-study-info .wrapper {
+        position: absolute; } }
+  @media (min-width: 1200px) and (min-width: 1200px) {
+    body.home section.case-studies .case-study:nth-child(even) .case-study-info .wrapper {
+      left: 55px;
+      top: 61px; } }
+    @media (min-width: 1200px) {
+      body.home section.case-studies .case-study:nth-child(even) .case-study-info h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: .8em; }
+      body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
+        font-size: 44px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0; }
+      body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 {
+        position: absolute;
+        bottom: 33px;
+        left: 60px;
+        font-size: 18px;
+        line-height: 1.5;
+        border-bottom: 1px solid #a45833;
+        letter-spacing: 1px;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0; }
+        body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 a {
           color: #fff;
-          text-transform: uppercase;
-          display: inline-block;
-          margin-left: 0;
-          margin-right: 0; }
-          body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 a {
-            color: #fff;
-            text-decoration: none; } }
+          text-decoration: none; } }
 
 body.home section.next {
   height: 500px;
