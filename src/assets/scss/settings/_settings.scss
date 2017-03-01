@@ -3,12 +3,19 @@
 $neat-grid: () !default;
 $neat-custom-grid: () !default;
 
+$mobile-grid: (
+  columns: 8,
+  gutter: 16px,
+  media: 300px,
+  direction: ltr,
+);
+
 $desktop-grid: (
   columns: 16,
   gutter: 17px,
   media: 992px,
   direction: ltr,
-  );
+);
 
 
 /// If you need multiple grids in a single project, you can do

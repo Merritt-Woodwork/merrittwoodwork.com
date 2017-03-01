@@ -20,6 +20,7 @@
 .grid-container {
   @include grid-container;
     margin: 0 auto;
+    width: 86.6666%;
     // @include grid-visual(null, $desktop-grid);
     // .grid-column {
     //   background-image: linear-gradient(to bottom right, #21e9f4, #00d4ff);
@@ -28,11 +29,11 @@
     //   width: 375px;
     // }
     // @include breakpoint(md) {
-    //   width: 768px;
+    //   width: 86.6666%;
     // }
-    // @include breakpoint(lg) {
-    //   width: 992px;
-    // }
+    @include breakpoint(lg) {
+      width: 992px;
+    }
     @include breakpoint(xl) {
       width: 1200px;
     }

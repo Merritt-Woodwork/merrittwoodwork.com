@@ -459,12 +459,29 @@ body.home section.header-video {
   body.home section.header-video .header-video__media {
     width: 100%;
     height: auto; }
+  @media only screen and (min-width: 300px) {
+    body.home section.header-video .headline {
+      width: calc(87.5% - 30px);
+      float: left;
+      margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
     body.home section.header-video .headline {
       width: calc(37.5% - 23.375px);
       float: left;
       margin-left: 17px;
       margin-left: calc(6.25% - 18.0625px + 34px); } }
+  @media (min-width: 300px) {
+    body.home section.header-video .headline {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 36px;
+      line-height: 1.1;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      body.home section.header-video .headline:hover {
+        cursor: pointer; } }
   @media (min-width: 992px) {
     body.home section.header-video .headline {
       position: absolute;
@@ -513,10 +530,22 @@ body.home section.header-video {
 
 body.home section.intro {
   background-color: #f8f7f5;
-  text-align: center; }
+  text-align: center;
+  padding: 85px 0 60px 0; }
+  @media (min-width: 768px) {
+    body.home section.intro {
+      padding: 136px 0 96px 0; } }
+  @media (min-width: 992px) {
+    body.home section.intro {
+      padding: 170px 0 120px 0; } }
   @media (min-width: 1200px) {
     body.home section.intro {
       padding: 170px 0 120px 0; } }
+  @media only screen and (min-width: 300px) {
+    body.home section.intro .grid-column {
+      width: calc(100% - 32px);
+      float: left;
+      margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
     body.home section.intro .grid-column {
       width: calc(62.5% - 27.625px);
@@ -702,11 +731,15 @@ body.home section.next {
       margin: 0; }
 
 .grid-container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 86.6666%; }
   .grid-container::after {
     clear: both;
     content: "";
     display: block; }
+  @media (min-width: 992px) {
+    .grid-container {
+      width: 992px; } }
   @media (min-width: 1200px) {
     .grid-container {
       width: 1200px; } }

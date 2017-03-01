@@ -38,14 +38,26 @@ body.home {
     }
 
     .headline {
+      @include grid-media($mobile-grid) {
+        @include grid-column(7 of 8);
+      }
       @include grid-media($desktop-grid) {
         @include grid-column(6 of 16);
         @include grid-push(1 of 16);
       }
+      @include breakpoint(300px) {
+        @include vertical-align(absolute);
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        &:hover {
+          cursor: pointer;
+        }
+      }
       @include breakpoint(lg) {
-        @include vertical-align(absolute)
-        // position: absolute;
-        // z-index: 99;
+        @include vertical-align(absolute);
         font-size: 63px;
         line-height: 1;
         letter-spacing: 2px;
@@ -104,10 +116,21 @@ body.home {
   section.intro {
     background-color: #f8f7f5;
     text-align: center;
+    padding: 85px 0 60px 0; // 50%
+    @include breakpoint(md) {
+      // 70%
+      padding: 136px 0 96px 0;
+    }
+    @include breakpoint(lg) {
+      padding: 170px 0 120px 0;
+    }
     @include breakpoint(xl) {
       padding: 170px 0 120px 0;
     }
     .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(8 of 8);
+      }
       @include grid-media($desktop-grid) {
         @include grid-column(10 of 16);
         @include grid-push(3 of 16);
