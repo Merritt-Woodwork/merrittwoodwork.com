@@ -1,10 +1,26 @@
 // GRID
-footer.container {
+footer.grid-container {
+  // @include grid-media($mobile-grid) {
+  //   @include grid-column(12 of 12);
+  // }
+  // @include grid-media($mid-grid) {
+  //   @include grid-column(14 of 16);
+  //   @include grid-push(1, $mid-grid);
+  // }
+  // @include grid-media($desktop-grid) {
+  //   @include grid-column(14 of 16);
+  //   @include grid-push(1, $desktop-grid);
+  // }
+}
+
+// STYLES
+footer.grid-column {
   @include grid-media($mobile-grid) {
     @include grid-column(12 of 12);
   }
   @include grid-media($mid-grid) {
-    @include grid-column(16 of 16);
+    @include grid-column(14 of 16);
+    @include grid-push(1, $mid-grid);
   }
   @include grid-media($desktop-grid) {
     @include grid-column(14 of 16);
@@ -12,49 +28,46 @@ footer.container {
   }
 }
 
-// STYLES
-// STYLES
-footer.container {
-  @include breakpoint(300px, 700px) {
-    .va-wrapper {
-      padding-top: 27px;
-      padding-bottom: 16px;
-      text-align: left;
+  footer {
+    @include breakpoint(300px, 700px) {
+      .va-wrapper {
+        padding-top: 27px;
+        padding-bottom: 16px;
+        text-align: left;
+      }
+      .left p, .right p {
+        // @include vertical-align();
+        margin: 0;
+        text-decoration: none;
+        color: $text;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
     }
-    .left p, .right p {
-      // @include vertical-align();
-      margin: 0;
-      text-decoration: none;
-      color: $text;
-      font-weight: 100;
-      letter-spacing: 1px;
-      display: inline-block;
+
+    @include breakpoint(701px) {
+      .va-wrapper {
+        height: 72px;
+        text-align: center;
+      }
+      .left {
+        float: left;
+        height: 100%;
+      }
+      .right {
+        float: right;
+        height: 100%;
+      }
+      .left p, .right p {
+        @include vertical-align();
+        margin: 0;
+        text-decoration: none;
+        color: $text;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
+
     }
   }
-
-  @include breakpoint(701px) {
-    .va-wrapper {
-      height: 72px;
-      text-align: center;
-    }
-    .left {
-      float: left;
-      height: 100%;
-    }
-    .right {
-      float: right;
-      height: 100%;
-    }
-    .left p, .right p {
-      @include vertical-align();
-      margin: 0;
-      text-decoration: none;
-      color: $text;
-      font-weight: 100;
-      letter-spacing: 1px;
-      display: inline-block;
-    }
-
-  }
-
-}
