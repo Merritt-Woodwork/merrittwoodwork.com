@@ -41,7 +41,7 @@ body.home {
       @include grid-media($mobile-grid) {
         @include grid-column(7 of 8);
       }
-      @include grid-media($desktop-grid) {
+      @include grid-media($mid-grid) {
         @include grid-column(6 of 16);
         @include grid-push(1 of 16);
       }
@@ -131,7 +131,7 @@ body.home {
       @include grid-media($mobile-grid) {
         @include grid-column(8 of 8);
       }
-      @include grid-media($desktop-grid) {
+      @include grid-media($mid-grid) {
         @include grid-column(10 of 16);
         @include grid-push(3 of 16);
       }
@@ -164,8 +164,17 @@ body.home {
 
   section.case-studies {
     background-color: #FFF;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    @include breakpoint(md) {
+      // 80%
+      padding-top: 80px;
+      padding-bottom: 160px;
+    }
+    @include breakpoint(xl) {
+      padding-top: 100px;
+      padding-bottom: 200px;
+    }
     h3 {
       font-size: 18px;
       // line-height: 1.5;
@@ -183,6 +192,13 @@ body.home {
       }
     }
     .grid-column {
+      @include grid-media($mid-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+        img {
+          width: 60%;
+        }
+      }
       @include grid-media($desktop-grid) {
         @include grid-column(12 of 16);
         @include grid-push(2 of 16);
@@ -195,38 +211,127 @@ body.home {
       display: flex;
       flex-wrap: wrap;
       align-items: stretch;
-      height: 360px;
+      height: 396px;
+      @include breakpoint(701px) {
+        height: 288px;
+      }
+      @include breakpoint(md) {
+        height: 288px;
+      }
+      @include breakpoint(xl) {
+        height: 360px;
+      }
       margin-bottom: 35px;
     }
     .case-study:nth-child(odd) {
       .case-study-image {
-        // @include breakpoint(md) {
-        //   flex-basis: 100%;
-        // }
-        // @include breakpoint(lg) {
-        //   flex-basis: 60%;
-        // }
-        flex-basis: 60%;
+        @include breakpoint(300px, 700px) {
+          flex-basis: 100%;
+          height: 216px;
+        }
+        @include breakpoint(701px) {
+          flex-basis: 60%;
+        }
         background-size: cover;
         background-position: center;
       }
       .case-study-info {
         background-color: #202020;
-        // @include breakpoint(md) {
-        //   flex-basis: 100%;
-        // }
-        // @include breakpoint(lg) {
-        //   flex-basis: 40%;
-        // }
-        flex-basis: 40%;
+        @include breakpoint(300px, 700px) {
+          flex-basis: 100%;
+          height: 180px;
+        }
+        @include breakpoint(701px) {
+          flex-basis: 40%;
+        }
         position: relative;
+        @include breakpoint(300px) {
+          .wrapper {
+            position: absolute;
+            left: 27px; // 50%
+            top: 30px; // 50%
+          }
+          h5 {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: .8em;
+          }
+          h2 {
+            font-size: 28px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin: 0;
+            padding-right: 30px;
+          }
+          h3 {
+            position: absolute;
+            bottom: 16px; // 50%
+            left: 30px; // 50%
+            font-size: 16px;
+            line-height: 1.5;
+            border-bottom: 1px solid #a45833;
+            letter-spacing: 1px;
+            color: #fff;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-left: 0;
+            margin-right: 0;
+            a {
+              color: #fff;
+              text-decoration: none;
+            }
+          }
+        }
+        @include breakpoint(md) {
+          .wrapper {
+            position: absolute;
+            // 80%
+            left: 44px;
+            top: 49px;
+          }
+          h5 {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: .8em;
+          }
+          h2 {
+            font-size: 44px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin: 0;
+          }
+          h3 {
+            position: absolute;
+            bottom: 33px;
+            left: 48px; // 80%
+            font-size: 18px;
+            line-height: 1.5;
+            border-bottom: 1px solid #a45833;
+            letter-spacing: 1px;
+            color: #fff;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-left: 0;
+            margin-right: 0;
+            a {
+              color: #fff;
+              text-decoration: none;
+            }
+          }
+        }
         @include breakpoint(xl) {
           .wrapper {
             position: absolute;
-            @include breakpoint(xl) {
-              left: 55px;
-              top: 61px;
-            }
+            left: 55px;
+            top: 61px;
           }
           h5 {
             font-size: 12px;
@@ -267,22 +372,116 @@ body.home {
 
     .case-study:nth-child(even) {
       .case-study-image {
-        order: 2;
-        flex-basis: 60%;
+        @include breakpoint(300px, 700px) {
+          flex-basis: 100%;
+          height: 216px;
+        }
+        @include breakpoint(701px) {
+          flex-basis: 60%;
+          order: 2;
+        }
+        // flex-basis: 60%;
+        // order: 2;
         background-size: cover;
         background-position: center;
       }
       .case-study-info {
         background-color: #202020;
-        flex-basis: 40%;
+        @include breakpoint(300px, 700px) {
+          flex-basis: 100%;
+          height: 180px;
+        }
+        @include breakpoint(701px) {
+          flex-basis: 40%;
+        }
         position: relative;
+        @include breakpoint(300px) {
+          .wrapper {
+            position: absolute;
+            left: 27px; // 50%
+            top: 30px;  // 50%
+          }
+          h5 {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: .8em;
+          }
+          h2 {
+            font-size: 28px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 28px;
+          }
+          h3 {
+            position: absolute;
+            bottom: 16px; // 50%
+            left: 30px; // 50%
+            font-size: 16px;
+            line-height: 1.5;
+            border-bottom: 1px solid #a45833;
+            letter-spacing: 1px;
+            color: #fff;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-left: 0;
+            margin-right: 0;
+            a {
+              color: #fff;
+              text-decoration: none;
+            }
+          }
+        }
+        @include breakpoint(md) {
+          .wrapper {
+            position: absolute;
+            // 80%
+            left: 44px;
+            top: 49px;
+          }
+          h5 {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: .8em;
+          }
+          h2 {
+            font-size: 44px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin: 0;
+          }
+          h3 {
+            position: absolute;
+            bottom: 33px;
+            left: 60px;
+            font-size: 18px;
+            line-height: 1.5;
+            border-bottom: 1px solid #a45833;
+            letter-spacing: 1px;
+            color: #fff;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-left: 0;
+            margin-right: 0;
+            a {
+              color: #fff;
+              text-decoration: none;
+            }
+          }
+        }
         @include breakpoint(xl) {
           .wrapper {
             position: absolute;
-            @include breakpoint(xl) {
-              left: 55px;
-              top: 61px;
-            }
+            left: 55px;
+            top: 61px;
           }
           h5 {
             font-size: 12px;
@@ -323,15 +522,31 @@ body.home {
   }
 
   section.next {
-    height: 500px;
+    height: 250px;
+    @include breakpoint(md) {
+      // 80%
+      height: 400px;
+    }
+    @include breakpoint(xl) {
+      height: 500px;
+    }
     background-color: #202020;
     text-align: center;
     .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(2 of 12);
+        // @include grid-push(1 of 12);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
       @include grid-media($desktop-grid) {
         @include grid-column(2 of 16);
         @include grid-push(1 of 16);
       }
       .color {
+
         width: 100%;
         height: 18px;
         background-color: #A45833;

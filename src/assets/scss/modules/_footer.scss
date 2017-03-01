@@ -1,5 +1,11 @@
 // GRID
 footer.container {
+  @include grid-media($mobile-grid) {
+    @include grid-column(12 of 12);
+  }
+  @include grid-media($mid-grid) {
+    @include grid-column(16 of 16);
+  }
   @include grid-media($desktop-grid) {
     @include grid-column(14 of 16);
     @include grid-push(1, $desktop-grid);
@@ -9,9 +15,24 @@ footer.container {
 // STYLES
 // STYLES
 footer.container {
-  @include grid-container;
+  @include breakpoint(300px, 700px) {
+    .va-wrapper {
+      padding-top: 27px;
+      padding-bottom: 16px;
+      text-align: left;
+    }
+    .left p, .right p {
+      // @include vertical-align();
+      margin: 0;
+      text-decoration: none;
+      color: $text;
+      font-weight: 100;
+      letter-spacing: 1px;
+      display: inline-block;
+    }
+  }
 
-  @include breakpoint(lg) {
+  @include breakpoint(701px) {
     .va-wrapper {
       height: 72px;
       text-align: center;

@@ -10,10 +10,17 @@ $mobile-grid: (
   direction: ltr,
 );
 
-$desktop-grid: (
+$mid-grid: (
   columns: 16,
   gutter: 17px,
   media: 992px,
+  direction: ltr,
+);
+
+$desktop-grid: (
+  columns: 16,
+  gutter: 17px,
+  media: 1200px,
   direction: ltr,
 );
 
