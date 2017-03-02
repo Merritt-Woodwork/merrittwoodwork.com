@@ -1,8 +1,8 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: Jekyllized Boilerplate
+title: Merritt Woodwork
 description:
-url: http://www.example.com
+url: http://www.merrittwoodwork.com
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -13,7 +13,7 @@ exclude: ['assets']
 # called by using 'site.author.name' and so on
 # NOTE: Don't use @ in front of your Twitter username
 author:
-  name: Ryan Deussing
+  name:
   email:
   uri:
   bio:
