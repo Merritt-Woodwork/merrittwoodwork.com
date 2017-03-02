@@ -10924,6 +10924,11 @@ window.Modernizr = (function( window, document, undefined ) {
 ;
 (function() {
 
+  var main = $('main');
+  setTimeout(function(){
+    $(main).fadeIn().removeClass('load').addClass('loaded');
+  }, 250);
+
   (function() {
     var triggerBttn = document.getElementById( 'trigger-overlay' ),
       overlay = document.querySelector( 'div.overlay' ),

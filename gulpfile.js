@@ -7,10 +7,12 @@ const requireDir = require('require-dir');
 const tasks = requireDir('./gulp/tasks', {recurse: true}); // eslint-disable-line
 
 // 'gulp inject' -- injects your CSS and JS into either the header or the footer
-gulp.task('inject', gulp.parallel('inject:head', 'inject:footer'));
+// disabling b/c relative path issue for surge.sh
+// gulp.task('inject', gulp.parallel('inject:head', 'inject:footer'));
 
 // 'gulp build:site' -- copies, builds, and then copies it again
-gulp.task('build:site', gulp.series('site:tmp', 'inject', 'site', 'copy:site'));
+// gulp.task('build:site', gulp.series('site:tmp', 'inject', 'site', 'copy:site'));
+gulp.task('build:site', gulp.series('site:tmp', 'site', 'copy:site'));
 
 // 'gulp assets' -- cleans out your assets and rebuilds them
 // 'gulp assets --prod' -- cleans out your assets and rebuilds them with
