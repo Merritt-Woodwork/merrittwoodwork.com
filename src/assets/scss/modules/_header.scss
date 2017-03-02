@@ -6,7 +6,30 @@ header.grid-container {
 
 // STYLES
 
+
+
+@include breakpoint(300px, 991px) {
+  .header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    background-color: #fff;
+    z-index: 99;
+  }
+}
+
 header {
+
+  @include breakpoint(300px, 991px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    // z-index: 999;
+  }
 
 
   .grid-column {
@@ -22,8 +45,22 @@ header {
       @include grid-push(1 of 16);
     }
 
+    .c-hamburger {
+      @include breakpoint(300px, 991px) {
+        position: absolute;
+        top: 3px;
+        right: 0px;
+        margin: 0px !important;
+        // margin-right: .75rem;
+      }
+      @include breakpoint(lg) {
+        display: none;
+      }
+    }
+
     @include breakpoint(300px, 991px) {
       .menu {
+        width: 60px;
         // @include vertical-align();
         height: 45px;
         float: right;

@@ -14,6 +14,7 @@
   "modules/mixins",
   "modules/header",
   "modules/mobile-nav",
+  "modules/hamburger",
   "modules/footer",
   "modules/home";
 
@@ -80,6 +81,11 @@
   }
 
 body {
-
+  @include breakpoint(300px, 991px) {
+    margin-top: 45px;
+    &.open {
+      overflow: hidden;
+    }
+  }
 }
 

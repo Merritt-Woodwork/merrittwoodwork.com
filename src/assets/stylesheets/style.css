@@ -362,6 +362,24 @@ header.grid-container::after {
   content: "";
   display: block; }
 
+@media (min-width: 300px) and (max-width: 991px) {
+  .header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    background-color: #fff;
+    z-index: 99; } }
+
+@media (min-width: 300px) and (max-width: 991px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px; } }
+
 @media only screen and (min-width: 300px) {
   header .grid-column {
     width: calc(100% - 32px);
@@ -383,7 +401,19 @@ header.grid-container::after {
     margin-left: calc(6.25% - 18.0625px + 34px); } }
 
 @media (min-width: 300px) and (max-width: 991px) {
+  header .grid-column .c-hamburger {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    margin: 0px !important; } }
+
+@media (min-width: 992px) {
+  header .grid-column .c-hamburger {
+    display: none; } }
+
+@media (min-width: 300px) and (max-width: 991px) {
   header .grid-column .menu {
+    width: 60px;
     height: 45px;
     float: right;
     font-size: 14px;
@@ -665,6 +695,101 @@ header.grid-container::after {
   .overlay {
     display: none; } }
 
+button.c-hamburger {
+  background-color: #FFF; }
+  button.c-hamburger:hover {
+    background-color: #FFF; }
+
+.c-hamburger {
+  display: block;
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
+  margin: 0 1rem;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s; }
+
+.c-hamburger:focus {
+  outline: none; }
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 19px;
+  left: 5px;
+  right: 5px;
+  height: 1px;
+  background: #878787; }
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #878787;
+  content: ""; }
+
+.c-hamburger span::before {
+  top: -4px; }
+
+.c-hamburger span::after {
+  bottom: -4px; }
+
+/**
+ * Style 2
+ *
+ * Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+ * down to center and transform into an "x".
+ */
+.c-hamburger--htx {
+  background-color: #fff; }
+
+.c-hamburger--htx span {
+  transition: background 0s 0.3s; }
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s; }
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform; }
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform; }
+
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+  background-color: #fff; }
+
+.c-hamburger--htx.is-active span {
+  background: none; }
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg); }
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg); }
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, 0.3s; }
+
 @media only screen and (min-width: 300px) {
   footer.grid-column {
     width: calc(100% - 32px);
@@ -758,7 +883,24 @@ body.home section.header-video {
       float: left;
       margin-left: 17px;
       margin-left: calc(6.25% - 18.0625px + 34px); } }
-  @media (min-width: 300px) and (max-width: 700px) {
+  @media (min-width: 300px) and (max-width: 374px) {
+    body.home section.header-video .headline {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      body.home section.header-video .headline:hover {
+        cursor: pointer; }
+      body.home section.header-video .headline a {
+        display: block;
+        text-decoration: none; }
+        body.home section.header-video .headline a:hover {
+          background-color: transparent; } }
+  @media (min-width: 375px) and (max-width: 700px) {
     body.home section.header-video .headline {
       position: absolute;
       top: 50%;
@@ -769,7 +911,12 @@ body.home section.header-video {
       color: #FFFFFF;
       text-transform: uppercase; }
       body.home section.header-video .headline:hover {
-        cursor: pointer; } }
+        cursor: pointer; }
+      body.home section.header-video .headline a {
+        display: block;
+        text-decoration: none; }
+        body.home section.header-video .headline a:hover {
+          background-color: transparent; } }
   @media (min-width: 701px) {
     body.home section.header-video .headline {
       position: absolute;
@@ -781,13 +928,13 @@ body.home section.header-video {
       color: #FFFFFF;
       text-transform: uppercase; }
       body.home section.header-video .headline:hover {
-        cursor: pointer; } }
-  body.home section.header-video .headline a {
-    display: block;
-    text-decoration: none;
-    padding: 0 3rem 3rem 0; }
-    body.home section.header-video .headline a:hover {
-      background-color: transparent; }
+        cursor: pointer; }
+      body.home section.header-video .headline a {
+        display: block;
+        text-decoration: none;
+        padding: 0 3rem 3rem 0; }
+        body.home section.header-video .headline a:hover {
+          background-color: transparent; } }
   body.home section.header-video .headline span {
     display: inline-block;
     text-transform: uppercase;
@@ -841,13 +988,18 @@ body.home section.intro {
       margin-left: 17px;
       margin-left: calc(18.75% - 20.1875px + 34px); } }
   body.home section.intro h1 {
-    font-size: 46px;
+    font-size: 36px;
+    line-height: 1.25;
     line-height: 1.17;
     font-weight: 300;
     margin: 0;
     text-align: center;
     color: #A45833;
     margin-bottom: 40px; }
+    @media (min-width: 992px) {
+      body.home section.intro h1 {
+        font-size: 46px;
+        line-height: 1.17; } }
   body.home section.intro h3 {
     font-size: 18px;
     line-height: 1.5;
@@ -1078,7 +1230,8 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0;
-        font-size: 28px; }
+        font-size: 28px;
+        padding-right: 30px; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 {
         position: absolute;
         bottom: 16px;
@@ -1266,5 +1419,11 @@ body.home section.next {
   font-family: UniversLTPro-UltraCn;
   font-weight: normal;
   font-style: normal; }
+
+@media (min-width: 300px) and (max-width: 991px) {
+  body {
+    margin-top: 45px; }
+    body.open {
+      overflow: hidden; } }
 
 /*# sourceMappingURL=style.css.map */
