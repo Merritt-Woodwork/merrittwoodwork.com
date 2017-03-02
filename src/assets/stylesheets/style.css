@@ -1018,6 +1018,9 @@ body.home section.case-studies {
   background-color: #FFF;
   padding-top: 50px;
   padding-bottom: 100px; }
+  @media (min-width: 300px) and (max-width: 768px) {
+    body.home section.case-studies .grid-container {
+      width: 100%; } }
   @media (min-width: 768px) {
     body.home section.case-studies {
       padding-top: 80px;

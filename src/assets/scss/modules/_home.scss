@@ -194,6 +194,11 @@ body.home {
   }
 
   section.case-studies {
+    @include breakpoint(300px, 768px) {
+      .grid-container {
+        width: 100%;
+      }
+    }
     background-color: #FFF;
     padding-top: 50px;
     padding-bottom: 100px;
