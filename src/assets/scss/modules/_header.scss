@@ -5,44 +5,92 @@ header.grid-container {
 
 
 // STYLES
-.grid-column {
-  @include grid-media($desktop-grid) {
-    @include grid-column(14 of 16);
-    @include grid-push(1 of 16);
-  }
 
-  @include breakpoint(lg) {
-    .va-wrapper {
-      height: 72px;
-      text-align: center;
+header {
+
+
+  .grid-column {
+    @include grid-media($mobile-grid) {
+      @include grid-column(12 of 12);
     }
-    .va-wrapper img {
-      @include vertical-align();
-      width: 145px;
+    @include grid-media($mid-grid) {
+      @include grid-column(14 of 16);
+      @include grid-push(1 of 16);
     }
-    .left {
-      float: left;
-      height: 100%;
-      a {
-        padding-left: 2rem;
+    @include grid-media($desktop-grid) {
+      @include grid-column(14 of 16);
+      @include grid-push(1 of 16);
+    }
+
+    @include breakpoint(300px, 991px) {
+      .menu {
+        // @include vertical-align();
+        height: 45px;
+        float: right;
+        font-size: 14px;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 1px;
+        color: #202020;
+        p {
+          @include vertical-align();
+          margin: 0;
+        }
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      .va-wrapper {
+        height: 45px;
+      }
+      .va-wrapper img {
+        @include vertical-align();
+        width: 145px;
+      }
+      .left, .right {
+        display: none;
       }
     }
-    .right {
-      float: right;
-      height: 100%;
-      a {
-        padding-right: 2rem;
+
+    @include breakpoint(lg) {
+      .menu {
+        display: none;
       }
-    }
-    .left a, .right a {
-      @include vertical-align();
-      text-decoration: none;
-      color: $text;
-      font-weight: 100;
-      letter-spacing: 1px;
-      display: inline-block;
+      .va-wrapper {
+        height: 72px;
+        text-align: center;
+      }
+      .va-wrapper img {
+        @include vertical-align();
+        width: 145px;
+      }
+      .left {
+        display: block;
+        float: left;
+        height: 100%;
+        a {
+          padding-left: 2rem;
+        }
+      }
+      .right {
+        display: block;
+        float: right;
+        height: 100%;
+        a {
+          padding-right: 2rem;
+        }
+      }
+      .left a, .right a {
+        @include vertical-align();
+        text-decoration: none;
+        color: $text;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
+
     }
 
   }
-
 }

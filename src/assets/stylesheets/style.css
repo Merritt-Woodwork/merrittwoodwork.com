@@ -362,33 +362,77 @@ header.grid-container::after {
   content: "";
   display: block; }
 
-@media only screen and (min-width: 1200px) {
-  .grid-column {
+@media only screen and (min-width: 300px) {
+  header .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  header .grid-column {
     width: calc(87.5% - 31.875px);
     float: left;
     margin-left: 17px;
     margin-left: calc(6.25% - 18.0625px + 34px); } }
 
-@media (min-width: 992px) {
-  .grid-column .va-wrapper {
-    height: 72px;
-    text-align: center; }
-  .grid-column .va-wrapper img {
+@media only screen and (min-width: 1200px) {
+  header .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media (min-width: 300px) and (max-width: 991px) {
+  header .grid-column .menu {
+    height: 45px;
+    float: right;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #202020; }
+    header .grid-column .menu p {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin: 0; }
+    header .grid-column .menu:hover {
+      cursor: pointer; }
+  header .grid-column .va-wrapper {
+    height: 45px; }
+  header .grid-column .va-wrapper img {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     width: 145px; }
-  .grid-column .left {
+  header .grid-column .left, header .grid-column .right {
+    display: none; } }
+
+@media (min-width: 992px) {
+  header .grid-column .menu {
+    display: none; }
+  header .grid-column .va-wrapper {
+    height: 72px;
+    text-align: center; }
+  header .grid-column .va-wrapper img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 145px; }
+  header .grid-column .left {
+    display: block;
     float: left;
     height: 100%; }
-    .grid-column .left a {
+    header .grid-column .left a {
       padding-left: 2rem; }
-  .grid-column .right {
+  header .grid-column .right {
+    display: block;
     float: right;
     height: 100%; }
-    .grid-column .right a {
+    header .grid-column .right a {
       padding-right: 2rem; }
-  .grid-column .left a, .grid-column .right a {
+  header .grid-column .left a, header .grid-column .right a {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -397,6 +441,229 @@ header.grid-container::after {
     font-weight: 100;
     letter-spacing: 1px;
     display: inline-block; } }
+
+.overlay .grid-container, .overlay .grid-column {
+  height: 100%; }
+
+@media only screen and (min-width: 300px) {
+  .overlay .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media (min-width: 300px) and (max-width: 567px) {
+  /* Overlay style */
+  .overlay {
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 45px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.95); }
+  /* Overlay closing cross */
+  .overlay .overlay-close {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    border: none;
+    background: url(../img/cross.png) no-repeat center center;
+    text-indent: 200%;
+    color: transparent;
+    outline: none;
+    z-index: 100; }
+  /* Menu style */
+  .overlay nav {
+    text-align: left;
+    position: relative;
+    top: 20%;
+    height: 60%;
+    font-size: 36px;
+    transform: translateY(-20%); }
+  .overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative; }
+  .overlay ul li {
+    display: block;
+    height: 20%;
+    height: calc(100% / 7);
+    min-height: 54px; }
+  .overlay ul li a {
+    font-weight: 300;
+    display: block;
+    color: #202020;
+    transition: color 0.2s;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .overlay ul li a:hover,
+  .overlay ul li a:focus {
+    color: #202020; }
+  /* Effects */
+  .overlay-huge {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0s 0.5s; }
+  .overlay-huge.open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s; }
+  .overlay-huge nav {
+    perspective: 1200px; }
+  .overlay-huge nav ul {
+    opacity: 0.4; }
+  .overlay-huge.open nav ul {
+    opacity: 1;
+    transform: rotateX(0deg); } }
+
+@media (min-width: 568px) and (max-width: 736px) {
+  /* Overlay style */
+  .overlay {
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 45px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.95); }
+  /* Overlay closing cross */
+  .overlay .overlay-close {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    border: none;
+    background: url(../img/cross.png) no-repeat center center;
+    text-indent: 200%;
+    color: transparent;
+    outline: none;
+    z-index: 100; }
+  /* Menu style */
+  .overlay nav {
+    text-align: left;
+    position: relative;
+    top: 35vh;
+    font-size: 36px;
+    padding-bottom: 20vh;
+    transform: translateY(-20%); }
+  .overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative; }
+  .overlay ul li {
+    display: block;
+    height: 20%;
+    height: calc(100% / 7);
+    min-height: 54px; }
+  .overlay ul li a {
+    font-weight: 300;
+    display: block;
+    color: #202020;
+    transition: color 0.2s;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .overlay ul li a:hover,
+  .overlay ul li a:focus {
+    color: #202020; }
+  /* Effects */
+  .overlay-huge {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0s 0.5s; }
+  .overlay-huge.open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s; }
+  .overlay-huge nav {
+    perspective: 1200px; }
+  .overlay-huge nav ul {
+    opacity: 0.4; }
+  .overlay-huge.open nav ul {
+    opacity: 1;
+    transform: rotateX(0deg); } }
+
+@media (min-width: 737px) and (max-width: 991px) {
+  /* Overlay style */
+  .overlay {
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 45px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.95); }
+  /* Overlay closing cross */
+  .overlay .overlay-close {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    overflow: hidden;
+    border: none;
+    background: url(../img/cross.png) no-repeat center center;
+    text-indent: 200%;
+    color: transparent;
+    outline: none;
+    z-index: 100; }
+  /* Menu style */
+  .overlay nav {
+    text-align: left;
+    position: relative;
+    top: 25vh;
+    font-size: 44px;
+    padding-bottom: 20vh;
+    transform: translateY(-20%); }
+  .overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative; }
+  .overlay ul li {
+    display: block;
+    height: 25%;
+    height: calc(100% / 7);
+    min-height: 65px; }
+  .overlay ul li a {
+    font-weight: 300;
+    display: block;
+    color: #202020;
+    transition: color 0.2s;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .overlay ul li a:hover,
+  .overlay ul li a:focus {
+    color: #202020; }
+  /* Effects */
+  .overlay-huge {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0s 0.5s; }
+  .overlay-huge.open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s; }
+  .overlay-huge nav {
+    perspective: 1200px; }
+  .overlay-huge nav ul {
+    opacity: 0.4; }
+  .overlay-huge.open nav ul {
+    opacity: 1;
+    transform: rotateX(0deg); } }
+
+@media (min-width: 992px) {
+  .overlay {
+    display: none; } }
 
 @media only screen and (min-width: 300px) {
   footer.grid-column {
@@ -680,7 +947,7 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin-top: 0px;
-        margin-bottom: .8em; }
+        margin-bottom: 0; }
       body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
         font-size: 28px;
         letter-spacing: 1px;
@@ -804,7 +1071,7 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin-top: 0px;
-        margin-bottom: .8em; }
+        margin-bottom: 0; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
         font-size: 28px;
         letter-spacing: 1px;
