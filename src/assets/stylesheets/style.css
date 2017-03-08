@@ -1136,7 +1136,7 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin-top: 0px;
-        margin-bottom: .8em; }
+        margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
         font-size: 44px;
         letter-spacing: 1px;
@@ -1170,7 +1170,7 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin-top: 0px;
-        margin-bottom: .8em; }
+        margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
         font-size: 44px;
         letter-spacing: 1px;
@@ -1261,7 +1261,7 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin-top: 0px;
-        margin-bottom: .8em; }
+        margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
         font-size: 44px;
         letter-spacing: 1px;
@@ -1295,7 +1295,7 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin-top: 0px;
-        margin-bottom: .8em; }
+        margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
         font-size: 44px;
         letter-spacing: 1px;
