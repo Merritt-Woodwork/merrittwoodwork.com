@@ -372,13 +372,14 @@ header.grid-container::after {
     background-color: #fff;
     z-index: 99; } }
 
-@media (min-width: 300px) and (max-width: 991px) {
-  header {
+@media (min-width: 992px) {
+  .header-wrapper {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 45px; } }
+    background-color: #fff;
+    z-index: 99; } }
 
 @media only screen and (min-width: 300px) {
   header .grid-column {
@@ -1436,5 +1437,9 @@ main.loaded {
     margin-top: 45px; }
     body.open {
       overflow: hidden; } }
+
+@media (min-width: 992px) {
+  body {
+    margin-top: 72px; } }
 
 /*# sourceMappingURL=style.css.map */
