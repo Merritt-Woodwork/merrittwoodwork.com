@@ -1104,7 +1104,8 @@ body.home section.case-studies {
         margin-bottom: 0; }
       body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
         font-size: 28px;
-        letter-spacing: 1px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0;
@@ -1139,7 +1140,8 @@ body.home section.case-studies {
         margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
         font-size: 44px;
-        letter-spacing: 1px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0; }
@@ -1173,7 +1175,8 @@ body.home section.case-studies {
         margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(odd) .case-study-info h2 {
         font-size: 44px;
-        letter-spacing: 1px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0; }
@@ -1228,7 +1231,8 @@ body.home section.case-studies {
         margin-bottom: 0; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
         font-size: 28px;
-        letter-spacing: 1px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0;
@@ -1264,7 +1268,8 @@ body.home section.case-studies {
         margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
         font-size: 44px;
-        letter-spacing: 1px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0; }
@@ -1298,7 +1303,8 @@ body.home section.case-studies {
         margin-bottom: 7px; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h2 {
         font-size: 44px;
-        letter-spacing: 1px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0; }
