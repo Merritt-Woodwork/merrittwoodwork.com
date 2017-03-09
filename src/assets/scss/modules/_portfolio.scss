@@ -1,6 +1,54 @@
 body.portfolio {
 
   section.casestudies {
+    @include breakpoint(300px, 799px) {
+      .flex-container {
+        background-color: $near-black;
+      }
+      .flex-item-left {
+        position: relative;
+        width: calc(86.6666% - 32px); // to match grid
+        margin: 0 auto;
+      }
+      .inner {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      h3 {
+        padding-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: $text;
+        text-transform: uppercase;
+      }
+      a {
+        text-decoration: none;
+        h5 {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2 {
+          font-size: 36px;
+          line-height: 36px;
+          letter-spacing: 1.5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 50px;
+        }
+      }
+      a.view {
+        display: none;
+      }
+      .flex-item-right {
+        display: none;
+      }
+    }
 
     @include breakpoint(800px) {
       .flex-container {
@@ -45,8 +93,8 @@ body.portfolio {
           margin-bottom: 0px;
         }
         h2 {
-          font-size: 34px;
-          line-height: 34px;
+          font-size: 36px;
+          line-height: 36px;
           letter-spacing: 1.5px;
           color: #FFFFFF;
           text-transform: uppercase;
@@ -157,8 +205,61 @@ body.portfolio {
         }
       }
     }
-
   }
 
+  section.next {
+    height: 250px;
+    @include breakpoint(md) {
+      // 80%
+      height: 400px;
+    }
+    @include breakpoint(xl) {
+      height: 500px;
+    }
+    background-color: $near-black;
+    text-align: center;
+    .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(3 of 8);
+        // @include grid-push(1 of 12);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
+      @include grid-media($desktop-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
+      .color {
+
+        width: 100%;
+        height: 18px;
+        background-color: #A45833;
+        margin-top: -9px;
+      }
+    }
+    .center {
+      @include vertical-align;
+    }
+    a {
+      text-decoration: none;
+      h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #A45833;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: .8em;
+      }
+      h2 {
+        font-size: 44px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+  }
 
 }

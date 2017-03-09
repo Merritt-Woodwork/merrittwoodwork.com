@@ -2448,6 +2448,45 @@ body.home section.next {
       text-transform: uppercase;
       margin: 0; }
 
+@media (min-width: 300px) and (max-width: 799px) {
+  body.portfolio section.casestudies .flex-container {
+    background-color: #202020; }
+  body.portfolio section.casestudies .flex-item-left {
+    position: relative;
+    width: calc(86.6666% - 32px);
+    margin: 0 auto; }
+  body.portfolio section.casestudies .inner {
+    padding-top: 60px;
+    padding-bottom: 40px; }
+  body.portfolio section.casestudies h3 {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #202020;
+    text-transform: uppercase; }
+  body.portfolio section.casestudies a {
+    text-decoration: none; }
+    body.portfolio section.casestudies a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    body.portfolio section.casestudies a h2 {
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 50px; }
+  body.portfolio section.casestudies a.view {
+    display: none; }
+  body.portfolio section.casestudies .flex-item-right {
+    display: none; } }
+
 @media (min-width: 800px) {
   body.portfolio section.casestudies .flex-container {
     display: flex;
@@ -2484,8 +2523,8 @@ body.home section.next {
       margin-top: 0px;
       margin-bottom: 0px; }
     body.portfolio section.casestudies a h2 {
-      font-size: 34px;
-      line-height: 34px;
+      font-size: 36px;
+      line-height: 36px;
       letter-spacing: 1.5px;
       color: #FFFFFF;
       text-transform: uppercase;
@@ -2575,6 +2614,58 @@ body.home section.next {
         font-size: 18px;
         line-height: 1.16;
         border-bottom: 1px solid #a45833; } }
+
+body.portfolio section.next {
+  height: 250px;
+  background-color: #202020;
+  text-align: center; }
+  @media (min-width: 768px) {
+    body.portfolio section.next {
+      height: 400px; } }
+  @media (min-width: 1200px) {
+    body.portfolio section.next {
+      height: 500px; } }
+  @media only screen and (min-width: 300px) {
+    body.portfolio section.next .grid-column {
+      width: calc(37.5% - 22px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 992px) {
+    body.portfolio section.next .grid-column {
+      width: calc(12.5% - 19.125px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  @media only screen and (min-width: 1200px) {
+    body.portfolio section.next .grid-column {
+      width: calc(12.5% - 19.125px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  body.portfolio section.next .grid-column .color {
+    width: 100%;
+    height: 18px;
+    background-color: #A45833;
+    margin-top: -9px; }
+  body.portfolio section.next .center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  body.portfolio section.next a {
+    text-decoration: none; }
+    body.portfolio section.next a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #A45833;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: .8em; }
+    body.portfolio section.next a h2 {
+      font-size: 44px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin: 0; }
 
 .grid-container {
   margin: 0 auto;
