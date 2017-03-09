@@ -184,8 +184,12 @@ body.home {
       color: #202020;
       text-transform: uppercase;
       display: inline-block;
-      margin-left: 3rem;
-      margin-right: 3rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      @include breakpoint(md) {
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
       a {
         color: #202020;
         text-decoration: none;

@@ -2048,8 +2048,12 @@ body.home section.intro {
     color: #202020;
     text-transform: uppercase;
     display: inline-block;
-    margin-left: 3rem;
-    margin-right: 3rem; }
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    @media (min-width: 768px) {
+      body.home section.intro h3 {
+        margin-left: 3rem;
+        margin-right: 3rem; } }
     body.home section.intro h3 a {
       color: #202020;
       text-decoration: none; }
