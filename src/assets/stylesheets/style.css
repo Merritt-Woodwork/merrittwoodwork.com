@@ -2635,13 +2635,14 @@ body.portfolio section.gallery {
   body.portfolio section.gallery h3 {
     margin-top: 100px;
     font-size: 18px;
-    margin-bottom: 1em;
+    margin-bottom: .7em;
     text-align: center;
     letter-spacing: 1px;
     color: #202020;
     text-transform: uppercase; }
   body.portfolio section.gallery .tabs {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 55px; }
     body.portfolio section.gallery .tabs a {
       font-size: 12px;
       color: #202020;
@@ -2655,6 +2656,14 @@ body.portfolio section.gallery {
         margin-left: 0px; }
       body.portfolio section.gallery .tabs a.active {
         border-bottom: 2px solid #a45833; }
+  body.portfolio section.gallery .gutter-sizer {
+    width: 2%; }
+  body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+    width: 31%; }
+  body.portfolio section.gallery .grid-item {
+    margin-bottom: 20px; }
+  body.portfolio section.gallery img {
+    width: 100%; }
 
 body.portfolio section.next {
   height: 250px;

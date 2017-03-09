@@ -20,5 +20,13 @@
         })
     })
 
+    $('.grid').masonry({
+      // options
+      columnWidth: '.grid-sizer',
+      itemSelector: '.grid-item',
+      gutter: '.gutter-sizer',
+      percentPosition: true
+    });
+
   })();
 </script>
