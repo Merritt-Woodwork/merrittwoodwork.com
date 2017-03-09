@@ -1,0 +1,24 @@
+<script>
+  (function() {
+
+    // http://stackoverflow.com/a/12016228/6014258
+    var preloadImgs = [];
+    $('.casestudy').each(function() {
+        var img = new Image();
+        img.src = "/assets/images/" + $(this).data("img");
+        preloadImgs.push(img);
+    });
+
+    // swap main image on hover
+    var imageDiv = $('#image');
+    var caseStudyLinks = $('.casestudy');
+    caseStudyLinks.each(function(){
+        $(this).hover(function(){
+            var image = $(this).data("img");
+            var imagePath = "/assets/images/" + image;
+            imageDiv.css('background-image', 'url('+ imagePath +')')
+        })
+    })
+
+  })();
+</script>

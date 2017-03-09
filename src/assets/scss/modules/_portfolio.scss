@@ -2,39 +2,25 @@ body.portfolio {
 
   section.casestudies {
 
-    .grid-container {
-      @include grid-collapse;
-      background-color: khaki;
-    }
-    .grid-column.left {
-      @include grid-media($mobile-grid) {
-        @include grid-column(8 of 8);
-      }
-      @include grid-media($mid-grid) {
-        @include grid-column(7 of 16);
-        @include grid-push(1 of 16);
-      }
-    }
-    .grid-column.right {
-      @include grid-media($mobile-grid) {
-        @include grid-column(8 of 8);
-      }
-      @include grid-media($mid-grid) {
-        @include grid-column(8 of 16);
-      }
-    }
-
     @include breakpoint(lg) {
-      .left {
-        background-color: green;
+      .flex-container {
+        display: flex;
+        align-items: stretch;
       }
-      .right {
-        // background-color: orange;
+      .flex-item-left, .flex-item-right {
+        position: relative;
+        flex-basis: 50%;
+        height: 670px; // .82%
       }
-      .right-inner {
-        @include grid-collapse;
-        height: 600px;
-        background: url('https://unsplash.it/800/600/?random');
+      .flex-item-left {
+        background-color: $near-black;
+        color: white;
+      }
+      .flex-item-right {
+        flex-basis: 50%;
+        background: url('/assets/images/portfolio-cakewalk.jpg');
+        background-position: center;
+        background-size: cover;
       }
       h3 {
         margin-top: 100px;
@@ -44,7 +30,88 @@ body.portfolio {
         color: $text;
         text-transform: uppercase;
       }
+      .inner {
+        margin-left: 91px;
+        margin-top: 79px;
+      }
+      a {
+        text-decoration: none;
+        h5 {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2 {
+          font-size: 44px;
+          line-height: 44px;
+          letter-spacing: 1.5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 56px;
+        }
+      }
+      a.view {
+        position: absolute;
+        left: 91px;
+        bottom: 75px;
+        span {
+          display: inline-block;
+          text-transform: uppercase;
+          color: #fff;
+          letter-spacing: 2px;
+          font-size: 18px;
+          line-height: 1.16;
+          border-bottom: 1px solid #a45833;
+        }
+      }
+    }
 
+    @include breakpoint(xl) {
+      .flex-item-left, .flex-item-right {
+        height: 818px;
+        .inner {
+          margin-left: 91px;
+          margin-top: 79px;
+        }
+        a {
+          text-decoration: none;
+          h5 {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 0px;
+          }
+          h2 {
+            font-size: 44px;
+            line-height: 44px;
+            letter-spacing: 1.5px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 56px;
+          }
+        }
+        a.view {
+          position: absolute;
+          left: 91px;
+          bottom: 75px;
+          span {
+            display: inline-block;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 18px;
+            line-height: 1.16;
+            border-bottom: 1px solid #a45833;
+          }
+        }
+      }
     }
 
   }

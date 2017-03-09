@@ -2448,53 +2448,97 @@ body.home section.next {
       text-transform: uppercase;
       margin: 0; }
 
-body.portfolio section.casestudies .grid-container {
-  margin-left: -20px;
-  margin-right: -20px;
-  width: calc(100% + 40px);
-  background-color: khaki; }
-
-@media only screen and (min-width: 300px) {
-  body.portfolio section.casestudies .grid-column.left {
-    width: calc(100% - 32px);
-    float: left;
-    margin-left: 16px; } }
-
-@media only screen and (min-width: 992px) {
-  body.portfolio section.casestudies .grid-column.left {
-    width: calc(43.75% - 24.4375px);
-    float: left;
-    margin-left: 17px;
-    margin-left: calc(6.25% - 18.0625px + 34px); } }
-
-@media only screen and (min-width: 300px) {
-  body.portfolio section.casestudies .grid-column.right {
-    width: calc(100% - 32px);
-    float: left;
-    margin-left: 16px; } }
-
-@media only screen and (min-width: 992px) {
-  body.portfolio section.casestudies .grid-column.right {
-    width: calc(50% - 25.5px);
-    float: left;
-    margin-left: 17px; } }
-
 @media (min-width: 992px) {
-  body.portfolio section.casestudies .left {
-    background-color: green; }
-  body.portfolio section.casestudies .right-inner {
-    margin-left: -20px;
-    margin-right: -20px;
-    width: calc(100% + 40px);
-    height: 600px;
-    background: url("https://unsplash.it/800/600/?random"); }
+  body.portfolio section.casestudies .flex-container {
+    display: flex;
+    align-items: stretch; }
+  body.portfolio section.casestudies .flex-item-left, body.portfolio section.casestudies .flex-item-right {
+    position: relative;
+    flex-basis: 50%;
+    height: 670px; }
+  body.portfolio section.casestudies .flex-item-left {
+    background-color: #202020;
+    color: white; }
+  body.portfolio section.casestudies .flex-item-right {
+    flex-basis: 50%;
+    background: url("/assets/images/portfolio-cakewalk.jpg");
+    background-position: center;
+    background-size: cover; }
   body.portfolio section.casestudies h3 {
     margin-top: 100px;
     font-size: 18px;
     text-align: center;
     letter-spacing: 1px;
     color: #202020;
-    text-transform: uppercase; } }
+    text-transform: uppercase; }
+  body.portfolio section.casestudies .inner {
+    margin-left: 91px;
+    margin-top: 79px; }
+  body.portfolio section.casestudies a {
+    text-decoration: none; }
+    body.portfolio section.casestudies a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    body.portfolio section.casestudies a h2 {
+      font-size: 44px;
+      line-height: 44px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 56px; }
+  body.portfolio section.casestudies a.view {
+    position: absolute;
+    left: 91px;
+    bottom: 75px; }
+    body.portfolio section.casestudies a.view span {
+      display: inline-block;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 2px;
+      font-size: 18px;
+      line-height: 1.16;
+      border-bottom: 1px solid #a45833; } }
+
+@media (min-width: 1200px) {
+  body.portfolio section.casestudies .flex-item-left, body.portfolio section.casestudies .flex-item-right {
+    height: 818px; }
+    body.portfolio section.casestudies .flex-item-left .inner, body.portfolio section.casestudies .flex-item-right .inner {
+      margin-left: 91px;
+      margin-top: 79px; }
+    body.portfolio section.casestudies .flex-item-left a, body.portfolio section.casestudies .flex-item-right a {
+      text-decoration: none; }
+      body.portfolio section.casestudies .flex-item-left a h5, body.portfolio section.casestudies .flex-item-right a h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 0px; }
+      body.portfolio section.casestudies .flex-item-left a h2, body.portfolio section.casestudies .flex-item-right a h2 {
+        font-size: 44px;
+        line-height: 44px;
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 56px; }
+    body.portfolio section.casestudies .flex-item-left a.view, body.portfolio section.casestudies .flex-item-right a.view {
+      position: absolute;
+      left: 91px;
+      bottom: 75px; }
+      body.portfolio section.casestudies .flex-item-left a.view span, body.portfolio section.casestudies .flex-item-right a.view span {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 18px;
+        line-height: 1.16;
+        border-bottom: 1px solid #a45833; } }
 
 .grid-container {
   margin: 0 auto;
