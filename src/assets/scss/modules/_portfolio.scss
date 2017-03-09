@@ -20,7 +20,7 @@ body.portfolio {
         @include grid-column(8 of 8);
       }
       @include grid-media($mid-grid) {
-        @include grid-column(7 of 16);
+        @include grid-column(8 of 16);
       }
     }
 
@@ -29,7 +29,12 @@ body.portfolio {
         background-color: green;
       }
       .right {
-        background-color: orange;
+        // background-color: orange;
+      }
+      .right-inner {
+        @include grid-collapse;
+        height: 600px;
+        background: url('https://unsplash.it/800/600/?random');
       }
       h3 {
         margin-top: 100px;
