@@ -111,7 +111,7 @@ body.home {
         letter-spacing: 2px;
         font-size: 18px;
         line-height: 1.16;
-        border-bottom: 1px solid #a45833;
+        border-bottom: 1px solid $brand;
       }
     }
 
@@ -182,7 +182,7 @@ body.home {
     h3 {
       font-size: 18px;
       line-height: 1.5;
-      border-bottom: 1px solid #a45833;
+      border-bottom: 1px solid $brand;
       letter-spacing: 1px;
       color: $near-black;
       text-transform: uppercase;
@@ -317,7 +317,7 @@ body.home {
             left: 30px; // 50%
             font-size: 16px;
             line-height: 1.5;
-            border-bottom: 1px solid #a45833;
+            border-bottom: 1px solid $brand;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
@@ -359,7 +359,7 @@ body.home {
             left: 48px; // 80%
             font-size: 18px;
             line-height: 1.5;
-            border-bottom: 1px solid #a45833;
+            border-bottom: 1px solid $brand;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
@@ -400,7 +400,7 @@ body.home {
             left: 60px;
             font-size: 18px;
             line-height: 1.5;
-            border-bottom: 1px solid #a45833;
+            border-bottom: 1px solid $brand;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
@@ -471,7 +471,7 @@ body.home {
             left: 30px; // 50%
             font-size: 16px;
             line-height: 1.5;
-            border-bottom: 1px solid #a45833;
+            border-bottom: 1px solid $brand;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
@@ -513,7 +513,7 @@ body.home {
             left: 60px;
             font-size: 18px;
             line-height: 1.5;
-            border-bottom: 1px solid #a45833;
+            border-bottom: 1px solid $brand;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
@@ -554,7 +554,7 @@ body.home {
             left: 60px;
             font-size: 18px;
             line-height: 1.5;
-            border-bottom: 1px solid #a45833;
+            border-bottom: 1px solid $brand;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
