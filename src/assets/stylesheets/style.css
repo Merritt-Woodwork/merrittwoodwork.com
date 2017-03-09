@@ -2617,10 +2617,6 @@ body.home section.next {
 
 body.portfolio section.gallery {
   margin-bottom: 200px; }
-  body.portfolio section.gallery .grid-container::after {
-    clear: both;
-    content: "";
-    display: block; }
   @media only screen and (min-width: 300px) {
     body.portfolio section.gallery .grid-column {
       width: calc(100% - 32px);
@@ -2632,6 +2628,10 @@ body.portfolio section.gallery {
       float: left;
       margin-left: 17px;
       margin-left: calc(6.25% - 18.0625px + 34px); } }
+  body.portfolio section.gallery .grid-container::after {
+    clear: both;
+    content: "";
+    display: block; }
   body.portfolio section.gallery h3 {
     margin-top: 100px;
     font-size: 18px;
@@ -2657,11 +2657,18 @@ body.portfolio section.gallery {
       body.portfolio section.gallery .tabs a.active {
         border-bottom: 2px solid #a45833; }
   body.portfolio section.gallery .gutter-sizer {
-    width: 2%; }
+    width: 5%; }
   body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
-    width: 31%; }
-  body.portfolio section.gallery .grid-item {
-    margin-bottom: 20px; }
+    width: 30%; }
+  @media (min-width: 800px) {
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 28px; } }
+  @media (min-width: 992px) {
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 38px; } }
+  @media (min-width: 1200px) {
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 50px; } }
   body.portfolio section.gallery img {
     width: 100%; }
 

@@ -209,9 +209,6 @@ body.portfolio {
 
   section.gallery {
     margin-bottom: 200px;
-    .grid-container {
-      @include grid-container;
-    }
     .grid-column {
       @include grid-media($mobile-grid) {
         @include grid-column(8 of 8);
@@ -220,6 +217,9 @@ body.portfolio {
         @include grid-column(14 of 16);
         @include grid-push(1 of 16);
       }
+    }
+    .grid-container {
+      @include grid-container;
     }
     h3 {
       margin-top: 100px;
@@ -251,14 +251,27 @@ body.portfolio {
       }
     }
     .gutter-sizer {
-      width: 2%;
+      width: 5%;
     }
     .grid-sizer, .grid-item {
-      width: 31%;
+      width: 30%;
     }
-    .grid-item {
-      margin-bottom: 20px;
+    @include breakpoint(800px) {
+      .grid-item {
+        margin-bottom: 28px;
+      }
     }
+    @include breakpoint(lg) {
+      .grid-item {
+        margin-bottom: 38px;
+      }
+    }
+    @include breakpoint(xl) {
+      .grid-item {
+        margin-bottom: 50px;
+      }
+    }
+
     img {
       width: 100%;
     }
