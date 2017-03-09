@@ -6,6 +6,10 @@ header.grid-container {
 
 // STYLES
 
+.left a, .right a {
+  transition: all 0.3s ease;
+}
+
 @include breakpoint(300px, 991px) {
   .header-wrapper {
     position: fixed;
@@ -118,9 +122,17 @@ header {
         float: left;
         height: 100%;
         a {
-          padding-left: 1.5rem;
+          margin-left: 1.5rem;
+          padding-bottom: 5px;
+          border-bottom: 2px solid transparent;
           &:first-of-type {
-            padding-left: 0;
+            margin-left: 0;
+          }
+          &.active {
+            border-bottom: 2px solid $brand;
+          }
+          &:hover{
+            border-bottom: 2px solid $brand;
           }
         }
       }
@@ -129,9 +141,17 @@ header {
         float: right;
         height: 100%;
         a {
-          padding-right: 1.5rem;
+          margin-right: 1.5rem;
+          padding-bottom: 5px;
+          border-bottom: 2px solid transparent;
           &:last-of-type {
-            padding-right: 0;
+            margin-right: 0;
+          }
+          &.active {
+            border-bottom: 2px solid $brand;
+          }
+          &:hover{
+            border-bottom: 2px solid $brand;
           }
         }
       }
@@ -149,17 +169,17 @@ header {
     @include breakpoint(xl) {
       .left {
         a {
-          padding-left: 2rem;
+          margin-left: 2rem;
           &:first-of-type {
-            padding-left: 0;
+            margin-left: 0;
           }
         }
       }
       .right {
         a {
-          padding-right: 2rem;
+          margin-right: 2rem;
           &:last-of-type {
-            padding-right: 0;
+            margin-right: 0;
           }
         }
       }

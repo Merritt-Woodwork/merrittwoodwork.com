@@ -2,7 +2,7 @@
   <header class="grid-container">
     <div class="grid-column">
       <div class="va-wrapper">
-        <img src="assets/images/logo.png" alt="MERRITT">
+        <a href="/"><img src="/assets/images/logo.png" alt="MERRITT"></a>
         <div id="trigger-overlay" class="menu header-text">
         <p>menu</p>
         <button class="c-hamburger c-hamburger--htx">
@@ -10,15 +10,15 @@
         </button>
         </div>
         <div class="left header-text">
-          <a href="">PORTFOLIO</a>
-          <a href="">CAPABILITIES</a>
-          <a href="">ABOUT</a>
+          <a {% if page.class == 'portfolio' %}class="active"{% endif %} href="/portfolio">PORTFOLIO</a>
+          <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">CAPABILITIES</a>
+          <a {% if page.class == 'about' %}class="active"{% endif %} href="/about">ABOUT</a>
         </div>
         <div class="right header-text">
-          <a href="">CLIENTS</a>
-          <a href="">PRESS</a>
-          <a href="">CAREERS</a>
-          <a href="">CONTACT</a>
+          <a {% if page.class == 'clients' %}class="active"{% endif %} href="/clients">CLIENTS</a>
+          <a {% if page.class == 'press' %}class="active"{% endif %} href="/press">PRESS</a>
+          <a {% if page.class == 'careers' %}class="active"{% endif %} href="/careers">CAREERS</a>
+          <a {% if page.class == 'contact' %}class="active"{% endif %} href="/contact">CONTACT</a>
         </div>
       </div>
     </div>

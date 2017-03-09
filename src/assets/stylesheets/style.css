@@ -1390,6 +1390,9 @@ header.grid-container::after {
   content: "";
   display: block; }
 
+.left a, .right a {
+  transition: all 0.3s ease; }
+
 @media (min-width: 300px) and (max-width: 991px) {
   .header-wrapper {
     position: fixed;
@@ -1480,17 +1483,29 @@ header {
       float: left;
       height: 100%; }
       header .grid-column .left a {
-        padding-left: 1.5rem; }
+        margin-left: 1.5rem;
+        padding-bottom: 5px;
+        border-bottom: 2px solid transparent; }
         header .grid-column .left a:first-of-type {
-          padding-left: 0; }
+          margin-left: 0; }
+        header .grid-column .left a.active {
+          border-bottom: 2px solid #a45833; }
+        header .grid-column .left a:hover {
+          border-bottom: 2px solid #a45833; }
     header .grid-column .right {
       display: block;
       float: right;
       height: 100%; }
       header .grid-column .right a {
-        padding-right: 1.5rem; }
+        margin-right: 1.5rem;
+        padding-bottom: 5px;
+        border-bottom: 2px solid transparent; }
         header .grid-column .right a:last-of-type {
-          padding-right: 0; }
+          margin-right: 0; }
+        header .grid-column .right a.active {
+          border-bottom: 2px solid #a45833; }
+        header .grid-column .right a:hover {
+          border-bottom: 2px solid #a45833; }
     header .grid-column .left a, header .grid-column .right a {
       position: relative;
       top: 50%;
@@ -1502,13 +1517,13 @@ header {
       display: inline-block; } }
   @media (min-width: 1200px) {
     header .grid-column .left a {
-      padding-left: 2rem; }
+      margin-left: 2rem; }
       header .grid-column .left a:first-of-type {
-        padding-left: 0; }
+        margin-left: 0; }
     header .grid-column .right a {
-      padding-right: 2rem; }
+      margin-right: 2rem; }
       header .grid-column .right a:last-of-type {
-        padding-right: 0; } }
+        margin-right: 0; } }
 
 .overlay .grid-container, .overlay .grid-column {
   height: 100%; }
@@ -2384,7 +2399,7 @@ body.home section.next {
       height: 500px; } }
   @media only screen and (min-width: 300px) {
     body.home section.next .grid-column {
-      width: calc(16.6666666667% - 18.6666666667px);
+      width: calc(37.5% - 22px);
       float: left;
       margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
