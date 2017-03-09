@@ -45,6 +45,9 @@ body.home {
         @include grid-column(6 of 16);
         @include grid-push(1 of 16);
       }
+      p {
+        margin: 0;
+      }
       @include breakpoint(300px, 374px) {
         @include vertical-align(absolute);
         font-size: 28px;
