@@ -6,8 +6,6 @@ header.grid-container {
 
 // STYLES
 
-
-
 @include breakpoint(300px, 991px) {
   .header-wrapper {
     position: fixed;
@@ -120,7 +118,10 @@ header {
         float: left;
         height: 100%;
         a {
-          padding-left: 2rem;
+          padding-left: 1.5rem;
+          &:first-of-type {
+            padding-left: 0;
+          }
         }
       }
       .right {
@@ -128,7 +129,10 @@ header {
         float: right;
         height: 100%;
         a {
-          padding-right: 2rem;
+          padding-right: 1.5rem;
+          &:last-of-type {
+            padding-right: 0;
+          }
         }
       }
       .left a, .right a {
@@ -140,6 +144,25 @@ header {
         display: inline-block;
       }
 
+    }
+
+    @include breakpoint(xl) {
+      .left {
+        a {
+          padding-left: 2rem;
+          &:first-of-type {
+            padding-left: 0;
+          }
+        }
+      }
+      .right {
+        a {
+          padding-right: 2rem;
+          &:last-of-type {
+            padding-right: 0;
+          }
+        }
+      }
     }
 
   }

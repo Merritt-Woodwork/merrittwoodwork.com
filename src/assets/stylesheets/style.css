@@ -452,13 +452,17 @@ header {
       float: left;
       height: 100%; }
       header .grid-column .left a {
-        padding-left: 2rem; }
+        padding-left: 1.5rem; }
+        header .grid-column .left a:first-of-type {
+          padding-left: 0; }
     header .grid-column .right {
       display: block;
       float: right;
       height: 100%; }
       header .grid-column .right a {
-        padding-right: 2rem; }
+        padding-right: 1.5rem; }
+        header .grid-column .right a:last-of-type {
+          padding-right: 0; }
     header .grid-column .left a, header .grid-column .right a {
       position: relative;
       top: 50%;
@@ -468,6 +472,15 @@ header {
       font-weight: 100;
       letter-spacing: 1px;
       display: inline-block; } }
+  @media (min-width: 1200px) {
+    header .grid-column .left a {
+      padding-left: 2rem; }
+      header .grid-column .left a:first-of-type {
+        padding-left: 0; }
+    header .grid-column .right a {
+      padding-right: 2rem; }
+      header .grid-column .right a:last-of-type {
+        padding-right: 0; } }
 
 .overlay .grid-container, .overlay .grid-column {
   height: 100%; }
