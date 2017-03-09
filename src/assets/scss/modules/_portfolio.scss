@@ -2,7 +2,7 @@ body.portfolio {
 
   section.casestudies {
 
-    @include breakpoint(lg) {
+    @include breakpoint(800px) {
       .flex-container {
         display: flex;
         align-items: stretch;
@@ -10,7 +10,7 @@ body.portfolio {
       .flex-item-left, .flex-item-right {
         position: relative;
         flex-basis: 50%;
-        height: 670px; // .82%
+        height: 540px;
       }
       .flex-item-left {
         background-color: $near-black;
@@ -29,6 +29,50 @@ body.portfolio {
         letter-spacing: 1px;
         color: $text;
         text-transform: uppercase;
+      }
+      .inner {
+        margin-left: 35px;
+        margin-top: 55px;
+      }
+      a {
+        text-decoration: none;
+        h5 {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2 {
+          font-size: 34px;
+          line-height: 34px;
+          letter-spacing: 1.5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 30px;
+        }
+      }
+      a.view {
+        position: absolute;
+        left: 35px;
+        bottom: 35px;
+        span {
+          display: inline-block;
+          text-transform: uppercase;
+          color: #fff;
+          letter-spacing: 2px;
+          font-size: 18px;
+          line-height: 1.16;
+          border-bottom: 1px solid #a45833;
+        }
+      }
+    }
+
+    @include breakpoint(lg) {
+      .flex-item-left, .flex-item-right {
+        height: 676px;
       }
       .inner {
         margin-left: 91px;

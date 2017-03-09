@@ -2448,14 +2448,14 @@ body.home section.next {
       text-transform: uppercase;
       margin: 0; }
 
-@media (min-width: 992px) {
+@media (min-width: 800px) {
   body.portfolio section.casestudies .flex-container {
     display: flex;
     align-items: stretch; }
   body.portfolio section.casestudies .flex-item-left, body.portfolio section.casestudies .flex-item-right {
     position: relative;
     flex-basis: 50%;
-    height: 670px; }
+    height: 540px; }
   body.portfolio section.casestudies .flex-item-left {
     background-color: #202020;
     color: white; }
@@ -2471,6 +2471,42 @@ body.home section.next {
     letter-spacing: 1px;
     color: #202020;
     text-transform: uppercase; }
+  body.portfolio section.casestudies .inner {
+    margin-left: 35px;
+    margin-top: 55px; }
+  body.portfolio section.casestudies a {
+    text-decoration: none; }
+    body.portfolio section.casestudies a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    body.portfolio section.casestudies a h2 {
+      font-size: 34px;
+      line-height: 34px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 30px; }
+  body.portfolio section.casestudies a.view {
+    position: absolute;
+    left: 35px;
+    bottom: 35px; }
+    body.portfolio section.casestudies a.view span {
+      display: inline-block;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 2px;
+      font-size: 18px;
+      line-height: 1.16;
+      border-bottom: 1px solid #a45833; } }
+
+@media (min-width: 992px) {
+  body.portfolio section.casestudies .flex-item-left, body.portfolio section.casestudies .flex-item-right {
+    height: 676px; }
   body.portfolio section.casestudies .inner {
     margin-left: 91px;
     margin-top: 79px; }
