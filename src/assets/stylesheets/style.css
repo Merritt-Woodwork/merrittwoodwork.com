@@ -1413,7 +1413,7 @@ header.grid-container::after {
     z-index: 99; } }
 
 header {
-  font-size: 15px; }
+  font-size: 12px; }
   @media only screen and (min-width: 300px) {
     header .grid-column {
       width: calc(100% - 32px);
@@ -1882,7 +1882,7 @@ button.c-hamburger {
     text-decoration: none;
     color: #202020;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 1px;
     display: inline-block; } }
 
@@ -1903,7 +1903,7 @@ button.c-hamburger {
     margin: 0;
     text-decoration: none;
     color: #202020;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
     letter-spacing: 1px;
     display: inline-block; } }
