@@ -2912,7 +2912,9 @@ body.portfolio section.gallery {
     body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
       width: 48%; }
     body.portfolio section.gallery .grid-item {
-      margin-bottom: 5px; } }
+      margin-bottom: 5px; }
+    body.portfolio section.gallery .grid-item:hover {
+      cursor: pointer; } }
   @media (min-width: 568px) {
     body.portfolio section.gallery .gutter-sizer {
       width: 4%; }

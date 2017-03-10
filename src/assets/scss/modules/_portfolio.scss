@@ -302,6 +302,9 @@ body.portfolio {
       .grid-item {
         margin-bottom: 5px;
       }
+      .grid-item:hover{
+        cursor: pointer;
+      }
     }
 
     @include breakpoint(568px) {
