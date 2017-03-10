@@ -2702,11 +2702,25 @@ body.portfolio section.gallery {
     display: block; }
   @media (min-width: 300px) {
     body.portfolio section.gallery .gutter-sizer {
+      width: 4%; }
+    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+      width: 48%; }
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 5px; } }
+  @media (min-width: 568px) {
+    body.portfolio section.gallery .gutter-sizer {
+      width: 4%; }
+    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+      width: 48%; }
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 14px; } }
+  @media (min-width: 736px) {
+    body.portfolio section.gallery .gutter-sizer {
       width: 2%; }
     body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
       width: 49%; }
     body.portfolio section.gallery .grid-item {
-      margin-bottom: 5px; } }
+      margin-bottom: 6px; } }
   @media (min-width: 800px) {
     body.portfolio section.gallery .gutter-sizer {
       width: 5%; }

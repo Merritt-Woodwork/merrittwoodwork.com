@@ -293,6 +293,32 @@ body.portfolio {
 
     @include breakpoint(300px) {
       .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 5px;
+      }
+    }
+
+    @include breakpoint(568px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 14px;
+      }
+    }
+
+    @include breakpoint(736px) {
+      .gutter-sizer {
         width: 2%;
       }
       .grid-sizer, .grid-item {
@@ -300,7 +326,7 @@ body.portfolio {
         width: 49%;
       }
       .grid-item {
-        margin-bottom: 5px;
+        margin-bottom: 6px;
       }
     }
 
