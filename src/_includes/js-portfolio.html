@@ -81,7 +81,7 @@
     });
 
 
-
+    // init Isotope
     var $grid = $('.grid').isotope({
                   // options
                   columnWidth: '.grid-sizer',
@@ -91,6 +91,25 @@
                     percentPosition: true
                   }
                 });
+
+    // trigger layout after each image loads to avoid overlap
+    $grid.imagesLoaded().progress( function() {
+      $grid.isotope('layout');
+    });
+
+    // trigger layout after each image loads to avoid overlap
+    // var $grid = $('.grid').imagesLoaded( function() {
+    //   // init Isotope after all images have loaded
+    //   $grid.isotope({
+    //     // options
+    //     columnWidth: '.grid-sizer',
+    //     itemSelector: '.grid-item',
+    //     masonry: {
+    //       gutter: '.gutter-sizer',
+    //       percentPosition: true
+    //     }
+    //   });
+    // });
 
 
 

@@ -1435,7 +1435,7 @@ header {
     header .grid-column .c-hamburger {
       position: absolute;
       top: 3px;
-      right: 0px;
+      right: -16px;
       margin: 0px !important; } }
   @media (min-width: 992px) {
     header .grid-column .c-hamburger {
@@ -1459,6 +1459,7 @@ header {
       header .grid-column .menu:hover {
         cursor: pointer; }
     header .grid-column .va-wrapper {
+      position: relative;
       height: 45px; }
     header .grid-column .va-wrapper img {
       position: relative;

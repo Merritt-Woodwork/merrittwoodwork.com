@@ -64,7 +64,7 @@ header {
       @include breakpoint(300px, 991px) {
         position: absolute;
         top: 3px;
-        right: 0px;
+        right: -16px;
         margin: 0px !important;
         // margin-right: .75rem;
       }
@@ -94,6 +94,7 @@ header {
         }
       }
       .va-wrapper {
+        position: relative;
         height: 45px;
       }
       .va-wrapper img {
