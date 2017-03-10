@@ -220,7 +220,10 @@ body.portfolio {
       }
     }
     h3 {
-      margin-top: 100px;
+      margin-top: 50px;
+      @include breakpoint(md) {
+        margin-top: 100px;
+      }
       font-size: 18px;
       margin-bottom: .7em;
       text-align: center;
@@ -230,22 +233,42 @@ body.portfolio {
     }
     .tabs {
       text-align: center;
-      margin-bottom: 43px;
+      @include breakpoint(300px, 768px) {
+        margin-bottom: 30px;
+      }
+      @include breakpoint(769px) {
+        margin-bottom: 43px;
+      }
+      .mobile-wrapper {
+        @include breakpoint(300px, 768px) {
+          display: block;
+          width: 86.6666%;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+          margin-bottom: 1rem;
+        }
+        @include breakpoint(769px) {
+          display: inline-block;
+          @include breakpoint(md) {
+            margin-left: 50px;
+          }
+          &:first-of-type {
+            margin-left: 0px;
+          }
+        }
+      }
       a {
         font-size: 12px;
         color: $text;
-        display: inline-block;
-        border-bottom: 2px solid transparent;
-        @include breakpoint(md) {
-          margin-left: 50px;
+        @include breakpoint(769px) {
+          display: inline-block;
         }
+        border-bottom: 2px solid transparent;
         margin-bottom: 1em;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 1px;
-        &:first-of-type {
-          margin-left: 0px;
-        }
         &.active {
           border-bottom: 2px solid $brand;
         }
@@ -267,44 +290,27 @@ body.portfolio {
     .grid-container {
       @include grid-container;
     }
-    // h3 {
-    //   margin-top: 100px;
-    //   font-size: 18px;
-    //   margin-bottom: .7em;
-    //   text-align: center;
-    //   letter-spacing: 1px;
-    //   color: $text;
-    //   text-transform: uppercase;
-    // }
-    // .tabs {
-    //   text-align: center;
-    //   margin-bottom: 55px;
-    //   a {
-    //     font-size: 12px;
-    //     color: $text;
-    //     display: inline-block;
-    //     border-bottom: 2px solid transparent;
-    //     @include breakpoint(md) {
-    //       margin-left: 50px;
-    //     }
-    //     text-decoration: none;
-    //     text-transform: uppercase;
-    //     letter-spacing: 1px;
-    //     &:first-of-type {
-    //       margin-left: 0px;
-    //     }
-    //     &.active {
-    //       border-bottom: 2px solid $brand;
-    //     }
-    //   }
-    // }
-    .gutter-sizer {
-      width: 5%;
+
+    @include breakpoint(300px) {
+      .gutter-sizer {
+        width: 2%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 49%;
+      }
+      .grid-item {
+        margin-bottom: 5px;
+      }
     }
-    .grid-sizer, .grid-item {
-      width: 30%;
-    }
+
     @include breakpoint(800px) {
+      .gutter-sizer {
+        width: 5%;
+      }
+      .grid-sizer, .grid-item {
+        width: 30%;
+      }
       .grid-item {
         margin-bottom: 28px;
       }

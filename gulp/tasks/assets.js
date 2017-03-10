@@ -27,6 +27,7 @@ gulp.task('scripts', () =>
     'node_modules/jquery/dist/jquery.js',
     'src/assets/javascript/vendor.js',
     'src/assets/javascript/classie.js',
+    'src/assets/javascript/enquire.js',
     'src/assets/javascript/isotope.pkgd.js',
     'src/assets/javascript/modernizr.js',
     'src/assets/javascript/main.js'

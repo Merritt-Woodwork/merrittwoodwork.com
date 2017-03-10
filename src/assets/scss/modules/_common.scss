@@ -20,32 +20,56 @@ html {
 //   @include outer-container;
 // }
 
-// .hide-s {
-//   @include media($s){
+// .db-mobile {
+//   @include breakpoint(300px, 768px){
+//     display: block;
+//   }
+//   @include breakpoint(md){
 //     display: none;
 //   }
-//   @include media($m){
+// }
+
+// .dib-mobile {
+//   @include breakpoint(300px, 768px){
+//     display: inline-block !important;
+//   }
+//   @include breakpoint(md){
+//     display: none;
+//   }
+// }
+
+// .dib-not-mobile {
+//   @include breakpoint(769px){
+//     display: inline-block;
+//   }
+// }
+
+// .hide-s {
+//   @include breakpoint(sm){
+//     display: none;
+//   }
+//   @include breakpoint(md){
 //     display: block;
 //   }
 // }
 
 // .hide-m {
-//   @include media($s){
+//   @include breakpoint(sm){
 //     display: block;
 //   }
-//   @include media($m){
+//   @include breakpoint(md){
 //     display: none;
 //   }
 // }
 
 // .hide-l {
-//   @include media($s){
+//   @include breakpoint(sm){
 //     display: block;
 //   }
-//   @include media($m){
+//   @include breakpoint(md){
 //     display: block;
 //   }
-//   @include media($l){
+//   @include breakpoint(lg){
 //     display: none;
 //   }
 // }
