@@ -1,35 +1,74 @@
 body.portfolio {
 
   section.casestudies {
+    @include breakpoint(300px, 799px) {
+      .flex-container {
+        background-color: $near-black;
+      }
+      .flex-item-left {
+        position: relative;
+        width: calc(86.6666% - 32px); // to match grid
+        margin: 0 auto;
+      }
+      .inner {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      h3 {
+        padding-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: $text;
+        text-transform: uppercase;
+      }
+      a {
+        text-decoration: none;
+        h5 {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2 {
+          font-size: 36px;
+          line-height: 36px;
+          letter-spacing: 1.5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 50px;
+        }
+      }
+      a.view {
+        display: none;
+      }
+      .flex-item-right {
+        display: none;
+      }
+    }
 
-    .grid-container {
-      @include grid-collapse;
-      background-color: khaki;
-    }
-    .grid-column.left {
-      @include grid-media($mobile-grid) {
-        @include grid-column(8 of 8);
+    @include breakpoint(800px) {
+      .flex-container {
+        display: flex;
+        align-items: stretch;
       }
-      @include grid-media($mid-grid) {
-        @include grid-column(7 of 16);
-        @include grid-push(1 of 16);
+      .flex-item-left, .flex-item-right {
+        position: relative;
+        flex-basis: 50%;
+        height: 540px;
       }
-    }
-    .grid-column.right {
-      @include grid-media($mobile-grid) {
-        @include grid-column(8 of 8);
+      .flex-item-left {
+        background-color: $near-black;
+        color: white;
       }
-      @include grid-media($mid-grid) {
-        @include grid-column(7 of 16);
-      }
-    }
-
-    @include breakpoint(lg) {
-      .left {
-        background-color: green;
-      }
-      .right {
-        background-color: orange;
+      .flex-item-right {
+        flex-basis: 50%;
+        background: url('/assets/images/portfolio-cakewalk.jpg');
+        background-position: center;
+        background-size: cover;
       }
       h3 {
         margin-top: 100px;
@@ -39,10 +78,342 @@ body.portfolio {
         color: $text;
         text-transform: uppercase;
       }
+      .inner {
+        margin-left: 35px;
+        margin-top: 55px;
+      }
+      a {
+        text-decoration: none;
+        h5 {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2 {
+          font-size: 36px;
+          line-height: 36px;
+          letter-spacing: 1.5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 30px;
+        }
+      }
+      a.view {
+        position: absolute;
+        left: 35px;
+        bottom: 35px;
+        span {
+          display: inline-block;
+          text-transform: uppercase;
+          color: #fff;
+          letter-spacing: 2px;
+          font-size: 18px;
+          line-height: 1.16;
+          border-bottom: 1px solid #a45833;
+        }
+      }
+    }
 
+    @include breakpoint(lg) {
+      .flex-item-left, .flex-item-right {
+        height: 676px;
+      }
+      .inner {
+        margin-left: 91px;
+        margin-top: 79px;
+      }
+      a {
+        text-decoration: none;
+        h5 {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2 {
+          font-size: 44px;
+          line-height: 44px;
+          letter-spacing: 1.5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 56px;
+        }
+      }
+      a.view {
+        position: absolute;
+        left: 91px;
+        bottom: 75px;
+        span {
+          display: inline-block;
+          text-transform: uppercase;
+          color: #fff;
+          letter-spacing: 2px;
+          font-size: 18px;
+          line-height: 1.16;
+          border-bottom: 1px solid #a45833;
+        }
+      }
+    }
+
+    @include breakpoint(xl) {
+      .flex-item-left, .flex-item-right {
+        height: 818px;
+        .inner {
+          margin-left: 91px;
+          margin-top: 79px;
+        }
+        a {
+          text-decoration: none;
+          h5 {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0px;
+            margin-bottom: 0px;
+          }
+          h2 {
+            font-size: 44px;
+            line-height: 44px;
+            letter-spacing: 1.5px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 56px;
+          }
+        }
+        a.view {
+          position: absolute;
+          left: 91px;
+          bottom: 75px;
+          span {
+            display: inline-block;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 2px;
+            font-size: 18px;
+            line-height: 1.16;
+            border-bottom: 1px solid #a45833;
+          }
+        }
+      }
+    }
+  }
+
+  section.gallery-tabs {
+    .full-grid-container {
+      @include grid-container;
+    }
+    .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(16 of 16);
+      }
+    }
+    h3 {
+      margin-top: 50px;
+      @include breakpoint(md) {
+        margin-top: 100px;
+      }
+      font-size: 18px;
+      margin-bottom: .7em;
+      text-align: center;
+      letter-spacing: 1px;
+      color: $text;
+      text-transform: uppercase;
+    }
+    .tabs {
+      text-align: center;
+      @include breakpoint(300px, 768px) {
+        margin-bottom: 30px;
+      }
+      @include breakpoint(769px) {
+        margin-bottom: 43px;
+      }
+      .mobile-wrapper {
+        @include breakpoint(300px, 768px) {
+          display: block;
+          width: 86.6666%;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+          margin-bottom: 1rem;
+        }
+        @include breakpoint(769px) {
+          display: inline-block;
+          @include breakpoint(md) {
+            margin-left: 50px;
+          }
+          &:first-of-type {
+            margin-left: 0px;
+          }
+        }
+      }
+      a {
+        font-size: 12px;
+        color: $text;
+        @include breakpoint(769px) {
+          display: inline-block;
+        }
+        border-bottom: 2px solid transparent;
+        margin-bottom: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &.active {
+          border-bottom: 2px solid $brand;
+        }
+      }
+    }
+  }
+
+  section.gallery {
+    margin-bottom: 200px;
+    .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+    .grid-container {
+      @include grid-container;
+    }
+
+    @include breakpoint(300px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 5px;
+      }
+      .grid-item:hover{
+        cursor: pointer;
+      }
+    }
+
+    @include breakpoint(568px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 14px;
+      }
+    }
+
+    @include breakpoint(736px) {
+      .gutter-sizer {
+        width: 2%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 49%;
+      }
+      .grid-item {
+        margin-bottom: 6px;
+      }
+    }
+
+    @include breakpoint(800px) {
+      .gutter-sizer {
+        width: 5%;
+      }
+      .grid-sizer, .grid-item {
+        width: 30%;
+      }
+      .grid-item {
+        margin-bottom: 28px;
+      }
+    }
+    @include breakpoint(lg) {
+      .grid-item {
+        margin-bottom: 38px;
+      }
+    }
+    @include breakpoint(xl) {
+      .grid-item {
+        margin-bottom: 46px;
+      }
+    }
+
+    img {
+      width: 100%;
     }
 
   }
 
+  section.next {
+    height: 250px;
+    @include breakpoint(md) {
+      // 80%
+      height: 400px;
+    }
+    @include breakpoint(xl) {
+      height: 500px;
+    }
+    background-color: $near-black;
+    text-align: center;
+    .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(3 of 8);
+        // @include grid-push(1 of 12);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
+      @include grid-media($desktop-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
+      .color {
+
+        width: 100%;
+        height: 18px;
+        background-color: #A45833;
+        margin-top: -9px;
+      }
+    }
+    .center {
+      @include vertical-align;
+    }
+    a {
+      text-decoration: none;
+      h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #A45833;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: .8em;
+      }
+      h2 {
+        font-size: 44px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+  }
 
 }

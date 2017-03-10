@@ -1,0 +1,106 @@
+<script>
+  (function() {
+
+    enquire.register("screen and (max-width:799px)", {
+
+        // OPTIONAL
+        // If supplied, triggered when a media query matches.
+        match : function() {},
+
+        // OPTIONAL
+        // If supplied, triggered when the media query transitions
+        // *from a matched state to an unmatched state*.
+        unmatch : function() {},
+
+        // OPTIONAL
+        // If supplied, triggered once, when the handler is registered.
+        setup : function() {},
+
+        // OPTIONAL, defaults to false
+        // If set to true, defers execution of the setup function
+        // until the first time the media query is matched
+        deferSetup : true,
+
+        // OPTIONAL
+        // If supplied, triggered when handler is unregistered.
+        // Place cleanup code here
+        destroy : function() {}
+
+    });
+
+    enquire.register("screen and (min-width:800px)", {
+
+        // OPTIONAL
+        // If supplied, triggered when a media query matches.
+        match : function() {
+            // http://stackoverflow.com/a/12016228/6014258
+            var preloadImgs = [];
+            $('.casestudy').each(function() {
+                var img = new Image();
+                img.src = "/assets/images/" + $(this).data("img");
+                preloadImgs.push(img);
+            });
+
+            // swap main image on hover
+            var imageDiv = $('#image');
+            var caseStudyLinks = $('.casestudy');
+            caseStudyLinks.each(function(){
+                $(this).hover(function(){
+                    var image = $(this).data("img");
+                    var imagePath = "/assets/images/" + image;
+                    imageDiv.css('background-image', 'url('+ imagePath +')')
+                })
+            })
+        },
+
+        // OPTIONAL
+        // If supplied, triggered when the media query transitions
+        // *from a matched state to an unmatched state*.
+        unmatch : function() {
+            var caseStudyLinks = $('.casestudy');
+            caseStudyLinks.each(function(){
+                $(this).unbind('mouseenter mouseleave');
+                // http://stackoverflow.com/a/805243/6014258
+            })
+        },
+
+        // OPTIONAL
+        // If supplied, triggered once, when the handler is registered.
+        setup : function() {},
+
+        // OPTIONAL, defaults to false
+        // If set to true, defers execution of the setup function
+        // until the first time the media query is matched
+        deferSetup : true,
+
+        // OPTIONAL
+        // If supplied, triggered when handler is unregistered.
+        // Place cleanup code here
+        destroy : function() {}
+
+    });
+
+
+
+    var $grid = $('.grid').isotope({
+                  // options
+                  columnWidth: '.grid-sizer',
+                  itemSelector: '.grid-item',
+                  masonry: {
+                    gutter: '.gutter-sizer',
+                    percentPosition: true
+                  }
+                });
+
+
+
+    $('.tabs').on( 'click', '.isoFilter', function(e) {
+        e.preventDefault();
+        $(this).parents().find('.isoFilter').removeClass('active');
+        $(this).addClass('active');
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+
+  })();
+</script>

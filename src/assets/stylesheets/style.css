@@ -2448,49 +2448,554 @@ body.home section.next {
       text-transform: uppercase;
       margin: 0; }
 
-body.portfolio section.casestudies .grid-container {
-  margin-left: -20px;
-  margin-right: -20px;
-  width: calc(100% + 40px);
-  background-color: khaki; }
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+/* ==========================================================================
+   Remodal's necessary styles
+   ========================================================================== */
+/* Hide scroll bar */
+html.remodal-is-locked {
+  overflow: hidden;
+  touch-action: none; }
 
-@media only screen and (min-width: 300px) {
-  body.portfolio section.casestudies .grid-column.left {
-    width: calc(100% - 32px);
-    float: left;
-    margin-left: 16px; } }
+/* Anti FOUC */
+.remodal,
+[data-remodal-id] {
+  display: none; }
 
-@media only screen and (min-width: 992px) {
-  body.portfolio section.casestudies .grid-column.left {
-    width: calc(43.75% - 24.4375px);
-    float: left;
-    margin-left: 17px;
-    margin-left: calc(6.25% - 18.0625px + 34px); } }
+/* Necessary styles of the overlay */
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+  display: none; }
 
-@media only screen and (min-width: 300px) {
-  body.portfolio section.casestudies .grid-column.right {
-    width: calc(100% - 32px);
-    float: left;
-    margin-left: 16px; } }
+/* Necessary styles of the wrapper */
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  overflow: auto;
+  text-align: center;
+  -webkit-overflow-scrolling: touch; }
 
-@media only screen and (min-width: 992px) {
-  body.portfolio section.casestudies .grid-column.right {
-    width: calc(43.75% - 24.4375px);
-    float: left;
-    margin-left: 17px; } }
+.remodal-wrapper:after {
+  display: inline-block;
+  height: 100%;
+  margin-left: -0.05em;
+  content: ""; }
 
-@media (min-width: 992px) {
-  body.portfolio section.casestudies .left {
-    background-color: green; }
-  body.portfolio section.casestudies .right {
-    background-color: orange; }
+/* Fix iPad, iPhone glitches */
+.remodal-overlay,
+.remodal-wrapper {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+/* Necessary styles of the modal dialog */
+.remodal {
+  position: relative;
+  outline: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
+
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block; }
+
+/*
+ *  Remodal - v1.1.1
+ *  Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+ *  http://vodkabears.github.io/remodal/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
+/* ==========================================================================
+   Remodal's default mobile first theme
+   ========================================================================== */
+/* Default theme styles for the background */
+.remodal-bg.remodal-is-opening,
+.remodal-bg.remodal-is-opened {
+  filter: blur(3px); }
+
+/* Default theme styles of the overlay */
+.remodal-overlay {
+  background: rgba(255, 255, 255, 0.75); }
+
+.remodal-overlay.remodal-is-opening,
+.remodal-overlay.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards; }
+
+.remodal-overlay.remodal-is-opening {
+  animation-name: remodal-overlay-opening-keyframes; }
+
+.remodal-overlay.remodal-is-closing {
+  animation-name: remodal-overlay-closing-keyframes; }
+
+/* Default theme styles of the wrapper */
+.remodal-wrapper {
+  padding: 10px 10px 0; }
+
+/* Default theme styles of the modal dialog */
+.remodal {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10vh;
+  transform: translate3d(0, 0, 0);
+  color: #2b2e38;
+  background: transparent; }
+  .remodal img {
+    max-width: 100%;
+    max-height: 80vh; }
+
+.remodal.remodal-is-opening,
+.remodal.remodal-is-closing {
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards; }
+
+.remodal.remodal-is-opening {
+  animation-name: remodal-opening-keyframes; }
+
+.remodal.remodal-is-closing {
+  animation-name: remodal-closing-keyframes; }
+
+/* Vertical align of the modal dialog */
+.remodal,
+.remodal-wrapper:after {
+  vertical-align: middle; }
+
+/* Close button */
+/* Dialog buttons */
+.remodal-confirm,
+.remodal-cancel {
+  font: inherit;
+  display: inline-block;
+  overflow: visible;
+  min-width: 110px;
+  margin: 0;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border: 0;
+  outline: 0; }
+
+.remodal-confirm {
+  color: #fff;
+  background: #81c784; }
+
+.remodal-confirm:hover,
+.remodal-confirm:focus {
+  background: #66bb6a; }
+
+.remodal-cancel {
+  color: #fff;
+  background: #e57373; }
+
+.remodal-cancel:hover,
+.remodal-cancel:focus {
+  background: #ef5350; }
+
+/* Remove inner padding and border in Firefox 4+ for the button tag. */
+.remodal-confirm::-moz-focus-inner,
+.remodal-cancel::-moz-focus-inner,
+.remodal-close::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* Keyframes
+   ========================================================================== */
+
+@keyframes remodal-opening-keyframes {
+  from {
+    transform: scale(1.05);
+    opacity: 0; }
+  to {
+    transform: none;
+    opacity: 1;
+    filter: blur(0); } }
+
+@keyframes remodal-closing-keyframes {
+  from {
+    transform: scale(1);
+    opacity: 1; }
+  to {
+    transform: scale(0.95);
+    opacity: 0;
+    filter: blur(0); } }
+
+@keyframes remodal-overlay-opening-keyframes {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes remodal-overlay-closing-keyframes {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@media (min-width: 300px) and (max-width: 799px) {
+  body.portfolio section.casestudies .flex-container {
+    background-color: #202020; }
+  body.portfolio section.casestudies .flex-item-left {
+    position: relative;
+    width: calc(86.6666% - 32px);
+    margin: 0 auto; }
+  body.portfolio section.casestudies .inner {
+    padding-top: 60px;
+    padding-bottom: 40px; }
+  body.portfolio section.casestudies h3 {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #202020;
+    text-transform: uppercase; }
+  body.portfolio section.casestudies a {
+    text-decoration: none; }
+    body.portfolio section.casestudies a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    body.portfolio section.casestudies a h2 {
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 50px; }
+  body.portfolio section.casestudies a.view {
+    display: none; }
+  body.portfolio section.casestudies .flex-item-right {
+    display: none; } }
+
+@media (min-width: 800px) {
+  body.portfolio section.casestudies .flex-container {
+    display: flex;
+    align-items: stretch; }
+  body.portfolio section.casestudies .flex-item-left, body.portfolio section.casestudies .flex-item-right {
+    position: relative;
+    flex-basis: 50%;
+    height: 540px; }
+  body.portfolio section.casestudies .flex-item-left {
+    background-color: #202020;
+    color: white; }
+  body.portfolio section.casestudies .flex-item-right {
+    flex-basis: 50%;
+    background: url("/assets/images/portfolio-cakewalk.jpg");
+    background-position: center;
+    background-size: cover; }
   body.portfolio section.casestudies h3 {
     margin-top: 100px;
     font-size: 18px;
     text-align: center;
     letter-spacing: 1px;
     color: #202020;
-    text-transform: uppercase; } }
+    text-transform: uppercase; }
+  body.portfolio section.casestudies .inner {
+    margin-left: 35px;
+    margin-top: 55px; }
+  body.portfolio section.casestudies a {
+    text-decoration: none; }
+    body.portfolio section.casestudies a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    body.portfolio section.casestudies a h2 {
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 30px; }
+  body.portfolio section.casestudies a.view {
+    position: absolute;
+    left: 35px;
+    bottom: 35px; }
+    body.portfolio section.casestudies a.view span {
+      display: inline-block;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 2px;
+      font-size: 18px;
+      line-height: 1.16;
+      border-bottom: 1px solid #a45833; } }
+
+@media (min-width: 992px) {
+  body.portfolio section.casestudies .flex-item-left, body.portfolio section.casestudies .flex-item-right {
+    height: 676px; }
+  body.portfolio section.casestudies .inner {
+    margin-left: 91px;
+    margin-top: 79px; }
+  body.portfolio section.casestudies a {
+    text-decoration: none; }
+    body.portfolio section.casestudies a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    body.portfolio section.casestudies a h2 {
+      font-size: 44px;
+      line-height: 44px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 56px; }
+  body.portfolio section.casestudies a.view {
+    position: absolute;
+    left: 91px;
+    bottom: 75px; }
+    body.portfolio section.casestudies a.view span {
+      display: inline-block;
+      text-transform: uppercase;
+      color: #fff;
+      letter-spacing: 2px;
+      font-size: 18px;
+      line-height: 1.16;
+      border-bottom: 1px solid #a45833; } }
+
+@media (min-width: 1200px) {
+  body.portfolio section.casestudies .flex-item-left, body.portfolio section.casestudies .flex-item-right {
+    height: 818px; }
+    body.portfolio section.casestudies .flex-item-left .inner, body.portfolio section.casestudies .flex-item-right .inner {
+      margin-left: 91px;
+      margin-top: 79px; }
+    body.portfolio section.casestudies .flex-item-left a, body.portfolio section.casestudies .flex-item-right a {
+      text-decoration: none; }
+      body.portfolio section.casestudies .flex-item-left a h5, body.portfolio section.casestudies .flex-item-right a h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 0px; }
+      body.portfolio section.casestudies .flex-item-left a h2, body.portfolio section.casestudies .flex-item-right a h2 {
+        font-size: 44px;
+        line-height: 44px;
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 56px; }
+    body.portfolio section.casestudies .flex-item-left a.view, body.portfolio section.casestudies .flex-item-right a.view {
+      position: absolute;
+      left: 91px;
+      bottom: 75px; }
+      body.portfolio section.casestudies .flex-item-left a.view span, body.portfolio section.casestudies .flex-item-right a.view span {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 18px;
+        line-height: 1.16;
+        border-bottom: 1px solid #a45833; } }
+
+body.portfolio section.gallery-tabs .full-grid-container::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+@media only screen and (min-width: 300px) {
+  body.portfolio section.gallery-tabs .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  body.portfolio section.gallery-tabs .grid-column {
+    width: calc(100% - 34px);
+    float: left;
+    margin-left: 17px; } }
+
+body.portfolio section.gallery-tabs h3 {
+  margin-top: 50px;
+  font-size: 18px;
+  margin-bottom: .7em;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #202020;
+  text-transform: uppercase; }
+  @media (min-width: 768px) {
+    body.portfolio section.gallery-tabs h3 {
+      margin-top: 100px; } }
+
+body.portfolio section.gallery-tabs .tabs {
+  text-align: center; }
+  @media (min-width: 300px) and (max-width: 768px) {
+    body.portfolio section.gallery-tabs .tabs {
+      margin-bottom: 30px; } }
+  @media (min-width: 769px) {
+    body.portfolio section.gallery-tabs .tabs {
+      margin-bottom: 43px; } }
+  @media (min-width: 300px) and (max-width: 768px) {
+    body.portfolio section.gallery-tabs .tabs .mobile-wrapper {
+      display: block;
+      width: 86.6666%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      margin-bottom: 1rem; } }
+  @media (min-width: 769px) {
+    body.portfolio section.gallery-tabs .tabs .mobile-wrapper {
+      display: inline-block; } }
+  @media (min-width: 769px) and (min-width: 768px) {
+    body.portfolio section.gallery-tabs .tabs .mobile-wrapper {
+      margin-left: 50px; } }
+  @media (min-width: 769px) {
+      body.portfolio section.gallery-tabs .tabs .mobile-wrapper:first-of-type {
+        margin-left: 0px; } }
+  body.portfolio section.gallery-tabs .tabs a {
+    font-size: 12px;
+    color: #202020;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    @media (min-width: 769px) {
+      body.portfolio section.gallery-tabs .tabs a {
+        display: inline-block; } }
+    body.portfolio section.gallery-tabs .tabs a.active {
+      border-bottom: 2px solid #a45833; }
+
+body.portfolio section.gallery {
+  margin-bottom: 200px; }
+  @media only screen and (min-width: 300px) {
+    body.portfolio section.gallery .grid-column {
+      width: calc(100% - 32px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 992px) {
+    body.portfolio section.gallery .grid-column {
+      width: calc(87.5% - 31.875px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  body.portfolio section.gallery .grid-container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  @media (min-width: 300px) {
+    body.portfolio section.gallery .gutter-sizer {
+      width: 4%; }
+    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+      width: 48%; }
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 5px; }
+    body.portfolio section.gallery .grid-item:hover {
+      cursor: pointer; } }
+  @media (min-width: 568px) {
+    body.portfolio section.gallery .gutter-sizer {
+      width: 4%; }
+    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+      width: 48%; }
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 14px; } }
+  @media (min-width: 736px) {
+    body.portfolio section.gallery .gutter-sizer {
+      width: 2%; }
+    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+      width: 49%; }
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 6px; } }
+  @media (min-width: 800px) {
+    body.portfolio section.gallery .gutter-sizer {
+      width: 5%; }
+    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+      width: 30%; }
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 28px; } }
+  @media (min-width: 992px) {
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 38px; } }
+  @media (min-width: 1200px) {
+    body.portfolio section.gallery .grid-item {
+      margin-bottom: 46px; } }
+  body.portfolio section.gallery img {
+    width: 100%; }
+
+body.portfolio section.next {
+  height: 250px;
+  background-color: #202020;
+  text-align: center; }
+  @media (min-width: 768px) {
+    body.portfolio section.next {
+      height: 400px; } }
+  @media (min-width: 1200px) {
+    body.portfolio section.next {
+      height: 500px; } }
+  @media only screen and (min-width: 300px) {
+    body.portfolio section.next .grid-column {
+      width: calc(37.5% - 22px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 992px) {
+    body.portfolio section.next .grid-column {
+      width: calc(12.5% - 19.125px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  @media only screen and (min-width: 1200px) {
+    body.portfolio section.next .grid-column {
+      width: calc(12.5% - 19.125px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  body.portfolio section.next .grid-column .color {
+    width: 100%;
+    height: 18px;
+    background-color: #A45833;
+    margin-top: -9px; }
+  body.portfolio section.next .center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  body.portfolio section.next a {
+    text-decoration: none; }
+    body.portfolio section.next a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #A45833;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: .8em; }
+    body.portfolio section.next a h2 {
+      font-size: 44px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin: 0; }
 
 .grid-container {
   margin: 0 auto;
