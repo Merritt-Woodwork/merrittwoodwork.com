@@ -20,12 +20,22 @@
         })
     })
 
-    $('.grid').masonry({
-      // options
-      columnWidth: '.grid-sizer',
-      itemSelector: '.grid-item',
-      gutter: '.gutter-sizer',
-      percentPosition: true
+    var $grid = $('.grid').isotope({
+                  // options
+                  columnWidth: '.grid-sizer',
+                  itemSelector: '.grid-item',
+                  masonry: {
+                    gutter: '.gutter-sizer',
+                    percentPosition: true
+                  }
+                });
+
+
+
+    $('.tabs').on( 'click', '.isoFilter', function(e) {
+        e.preventDefault();
+         var filterValue = $(this).attr('data-filter');
+         $grid.isotope({ filter: filterValue });
     });
 
   })();

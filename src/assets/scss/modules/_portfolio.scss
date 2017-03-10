@@ -207,6 +207,52 @@ body.portfolio {
     }
   }
 
+  section.gallery-tabs {
+    .full-grid-container {
+      @include grid-container;
+    }
+    .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(16 of 16);
+      }
+    }
+    h3 {
+      margin-top: 100px;
+      font-size: 18px;
+      margin-bottom: .7em;
+      text-align: center;
+      letter-spacing: 1px;
+      color: $text;
+      text-transform: uppercase;
+    }
+    .tabs {
+      text-align: center;
+      margin-bottom: 43px;
+      a {
+        font-size: 12px;
+        color: $text;
+        display: inline-block;
+        border-bottom: 2px solid transparent;
+        @include breakpoint(md) {
+          margin-left: 50px;
+        }
+        margin-bottom: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &:first-of-type {
+          margin-left: 0px;
+        }
+        &.active {
+          border-bottom: 2px solid $brand;
+        }
+      }
+    }
+  }
+
   section.gallery {
     margin-bottom: 200px;
     .grid-column {
@@ -221,35 +267,37 @@ body.portfolio {
     .grid-container {
       @include grid-container;
     }
-    h3 {
-      margin-top: 100px;
-      font-size: 18px;
-      margin-bottom: .7em;
-      text-align: center;
-      letter-spacing: 1px;
-      color: $text;
-      text-transform: uppercase;
-    }
-    .tabs {
-      text-align: center;
-      margin-bottom: 55px;
-      a {
-        font-size: 12px;
-        color: $text;
-        display: inline-block;
-        border-bottom: 2px solid transparent;
-        margin-left: 50px;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        &:first-of-type {
-          margin-left: 0px;
-        }
-        &.active {
-          border-bottom: 2px solid $brand;
-        }
-      }
-    }
+    // h3 {
+    //   margin-top: 100px;
+    //   font-size: 18px;
+    //   margin-bottom: .7em;
+    //   text-align: center;
+    //   letter-spacing: 1px;
+    //   color: $text;
+    //   text-transform: uppercase;
+    // }
+    // .tabs {
+    //   text-align: center;
+    //   margin-bottom: 55px;
+    //   a {
+    //     font-size: 12px;
+    //     color: $text;
+    //     display: inline-block;
+    //     border-bottom: 2px solid transparent;
+    //     @include breakpoint(md) {
+    //       margin-left: 50px;
+    //     }
+    //     text-decoration: none;
+    //     text-transform: uppercase;
+    //     letter-spacing: 1px;
+    //     &:first-of-type {
+    //       margin-left: 0px;
+    //     }
+    //     &.active {
+    //       border-bottom: 2px solid $brand;
+    //     }
+    //   }
+    // }
     .gutter-sizer {
       width: 5%;
     }
@@ -268,7 +316,7 @@ body.portfolio {
     }
     @include breakpoint(xl) {
       .grid-item {
-        margin-bottom: 50px;
+        margin-bottom: 46px;
       }
     }
 

@@ -2615,6 +2615,52 @@ body.home section.next {
         line-height: 1.16;
         border-bottom: 1px solid #a45833; } }
 
+body.portfolio section.gallery-tabs .full-grid-container::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+@media only screen and (min-width: 300px) {
+  body.portfolio section.gallery-tabs .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  body.portfolio section.gallery-tabs .grid-column {
+    width: calc(100% - 34px);
+    float: left;
+    margin-left: 17px; } }
+
+body.portfolio section.gallery-tabs h3 {
+  margin-top: 100px;
+  font-size: 18px;
+  margin-bottom: .7em;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #202020;
+  text-transform: uppercase; }
+
+body.portfolio section.gallery-tabs .tabs {
+  text-align: center;
+  margin-bottom: 43px; }
+  body.portfolio section.gallery-tabs .tabs a {
+    font-size: 12px;
+    color: #202020;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    @media (min-width: 768px) {
+      body.portfolio section.gallery-tabs .tabs a {
+        margin-left: 50px; } }
+    body.portfolio section.gallery-tabs .tabs a:first-of-type {
+      margin-left: 0px; }
+    body.portfolio section.gallery-tabs .tabs a.active {
+      border-bottom: 2px solid #a45833; }
+
 body.portfolio section.gallery {
   margin-bottom: 200px; }
   @media only screen and (min-width: 300px) {
@@ -2632,30 +2678,6 @@ body.portfolio section.gallery {
     clear: both;
     content: "";
     display: block; }
-  body.portfolio section.gallery h3 {
-    margin-top: 100px;
-    font-size: 18px;
-    margin-bottom: .7em;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #202020;
-    text-transform: uppercase; }
-  body.portfolio section.gallery .tabs {
-    text-align: center;
-    margin-bottom: 55px; }
-    body.portfolio section.gallery .tabs a {
-      font-size: 12px;
-      color: #202020;
-      display: inline-block;
-      border-bottom: 2px solid transparent;
-      margin-left: 50px;
-      text-decoration: none;
-      text-transform: uppercase;
-      letter-spacing: 1px; }
-      body.portfolio section.gallery .tabs a:first-of-type {
-        margin-left: 0px; }
-      body.portfolio section.gallery .tabs a.active {
-        border-bottom: 2px solid #a45833; }
   body.portfolio section.gallery .gutter-sizer {
     width: 5%; }
   body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
@@ -2668,7 +2690,7 @@ body.portfolio section.gallery {
       margin-bottom: 38px; } }
   @media (min-width: 1200px) {
     body.portfolio section.gallery .grid-item {
-      margin-bottom: 50px; } }
+      margin-bottom: 46px; } }
   body.portfolio section.gallery img {
     width: 100%; }
 
