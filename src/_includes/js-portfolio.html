@@ -34,8 +34,10 @@
 
     $('.tabs').on( 'click', '.isoFilter', function(e) {
         e.preventDefault();
-         var filterValue = $(this).attr('data-filter');
-         $grid.isotope({ filter: filterValue });
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
     });
 
   })();
