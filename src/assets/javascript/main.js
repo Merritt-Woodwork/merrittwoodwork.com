@@ -1,5 +1,9 @@
 (function() {
 
+  $(function() {
+      FastClick.attach(document.body);
+  });
+
   var main = $('main');
   setTimeout(function(){
     $(main).fadeIn().removeClass('load').addClass('loaded');

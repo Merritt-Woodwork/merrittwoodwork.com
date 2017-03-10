@@ -28,6 +28,7 @@ gulp.task('scripts', () =>
     'src/assets/javascript/vendor.js',
     'src/assets/javascript/remodal-custom.js',
     'src/assets/javascript/classie.js',
+    'src/assets/javascript/fastclick.js',
     'src/assets/javascript/enquire.js',
     'src/assets/javascript/isotope.pkgd.js',
     'src/assets/javascript/modernizr.js',
