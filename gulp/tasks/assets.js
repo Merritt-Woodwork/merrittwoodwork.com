@@ -26,6 +26,7 @@ gulp.task('scripts', () =>
   gulp.src([
     'node_modules/jquery/dist/jquery.js',
     'src/assets/javascript/vendor.js',
+    'src/assets/javascript/smooth-scroll.js',
     'src/assets/javascript/imagesloaded.js',
     'src/assets/javascript/remodal-custom.js',
     'src/assets/javascript/classie.js',

@@ -1,6 +1,11 @@
 <script>
   (function() {
 
+    smoothScroll.init({
+        easing: 'easeInOutCubic',
+        speed: 400
+    });
+
     enquire.register("screen and (max-width:799px)", {
 
         // OPTIONAL
