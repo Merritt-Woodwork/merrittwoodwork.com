@@ -14,7 +14,7 @@ body.portfolio {
 
     .grid-column {
       @include grid-media($mobile-grid) {
-        @include grid-column(4 of 8);
+        @include grid-column(8 of 8);
       }
       @include grid-media($mid-grid) {
         @include grid-column(7 of 16);
@@ -23,7 +23,60 @@ body.portfolio {
     }
 
     @include breakpoint(300px, 799px) {
+      .left {
+        float: left;
+        width: 100%;
+        height: 504px;
+        background-color: $near-black;
+      }
+      .right {
+        display: none;
+      }
+      .grid-container {
+        position: relative;
+      }
 
+      .grid-column {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+      }
+
+      .inner {
+        // margin-left: 91px;
+        margin-top: 60px;
+      }
+      h3 {
+        padding-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: $text;
+        text-transform: uppercase;
+      }
+      a {
+        text-decoration: none;
+        h5 {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        h2 {
+          font-size: 36px;
+          line-height: 36px;
+          letter-spacing: 1.5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 50px;
+        }
+      }
+      a.view {
+        display: none;
+      }
     }
 
     @include breakpoint(800px) {

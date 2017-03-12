@@ -2659,7 +2659,7 @@ body.portfolio section.casestudies-grid h3 {
 
 @media only screen and (min-width: 300px) {
   body.portfolio section.casestudies-grid .grid-column {
-    width: calc(50% - 24px);
+    width: calc(100% - 32px);
     float: left;
     margin-left: 16px; } }
 
@@ -2669,6 +2669,49 @@ body.portfolio section.casestudies-grid h3 {
     float: left;
     margin-left: 17px;
     margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media (min-width: 300px) and (max-width: 799px) {
+  body.portfolio section.casestudies-grid .left {
+    float: left;
+    width: 100%;
+    height: 504px;
+    background-color: #202020; }
+  body.portfolio section.casestudies-grid .right {
+    display: none; }
+  body.portfolio section.casestudies-grid .grid-container {
+    position: relative; }
+  body.portfolio section.casestudies-grid .grid-column {
+    position: absolute;
+    top: 0;
+    bottom: 0; }
+  body.portfolio section.casestudies-grid .inner {
+    margin-top: 60px; }
+  body.portfolio section.casestudies-grid h3 {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #202020;
+    text-transform: uppercase; }
+  body.portfolio section.casestudies-grid a {
+    text-decoration: none; }
+    body.portfolio section.casestudies-grid a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+    body.portfolio section.casestudies-grid a h2 {
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: 1.5px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 50px; }
+  body.portfolio section.casestudies-grid a.view {
+    display: none; } }
 
 @media (min-width: 800px) {
   body.portfolio section.casestudies-grid .left, body.portfolio section.casestudies-grid .right {
