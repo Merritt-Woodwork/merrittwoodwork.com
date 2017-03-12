@@ -1,6 +1,6 @@
 body.portfolio {
 
-  section.casestudies-grid {
+  section.casestudies {
     // clear: both;
 
     h3 {
@@ -105,7 +105,7 @@ body.portfolio {
 
       .inner {
         // margin-left: 91px;
-        margin-top: 79px;
+        margin-top: 55px;
       }
       h3 {
         margin-top: 100px;
@@ -168,7 +168,7 @@ body.portfolio {
       }
 
       .inner {
-        margin-top: 55px;
+        margin-top: 79px;
       }
       a {
         text-decoration: none;
@@ -219,212 +219,212 @@ body.portfolio {
     }
   }
 
-  section.casestudies {
-    @include breakpoint(300px, 799px) {
-      .flex-container {
-        background-color: $near-black;
-      }
-      .flex-item-left {
-        position: relative;
-        width: calc(86.6666% - 32px); // to match grid
-        margin: 0 auto;
-      }
-      .inner {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      h3 {
-        padding-top: 10px;
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        color: $text;
-        text-transform: uppercase;
-      }
-      a {
-        text-decoration: none;
-        h5 {
-          font-size: 12px;
-          letter-spacing: 2px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0px;
-          margin-bottom: 0px;
-        }
-        h2 {
-          font-size: 36px;
-          line-height: 36px;
-          letter-spacing: 1.5px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0;
-          margin-bottom: 50px;
-        }
-      }
-      a.view {
-        display: none;
-      }
-      .flex-item-right {
-        display: none;
-      }
-    }
+  // section.casestudies {
+  //   @include breakpoint(300px, 799px) {
+  //     .flex-container {
+  //       background-color: $near-black;
+  //     }
+  //     .flex-item-left {
+  //       position: relative;
+  //       width: calc(86.6666% - 32px); // to match grid
+  //       margin: 0 auto;
+  //     }
+  //     .inner {
+  //       padding-top: 60px;
+  //       padding-bottom: 40px;
+  //     }
+  //     h3 {
+  //       padding-top: 10px;
+  //       font-size: 18px;
+  //       text-align: center;
+  //       letter-spacing: 1px;
+  //       color: $text;
+  //       text-transform: uppercase;
+  //     }
+  //     a {
+  //       text-decoration: none;
+  //       h5 {
+  //         font-size: 12px;
+  //         letter-spacing: 2px;
+  //         color: #FFFFFF;
+  //         text-transform: uppercase;
+  //         margin-top: 0px;
+  //         margin-bottom: 0px;
+  //       }
+  //       h2 {
+  //         font-size: 36px;
+  //         line-height: 36px;
+  //         letter-spacing: 1.5px;
+  //         color: #FFFFFF;
+  //         text-transform: uppercase;
+  //         margin-top: 0;
+  //         margin-bottom: 50px;
+  //       }
+  //     }
+  //     a.view {
+  //       display: none;
+  //     }
+  //     .flex-item-right {
+  //       display: none;
+  //     }
+  //   }
 
-    @include breakpoint(800px) {
-      .flex-container {
-        display: flex;
-        align-items: stretch;
-      }
-      .flex-item-left, .flex-item-right {
-        position: relative;
-        flex-basis: 50%;
-        height: 540px;
-      }
-      .flex-item-left {
-        background-color: $near-black;
-        color: white;
-      }
-      .flex-item-right {
-        flex-basis: 50%;
-        background: url('/assets/images/portfolio-cakewalk.jpg');
-        background-position: center;
-        background-size: cover;
-      }
-      h3 {
-        margin-top: 100px;
-        font-size: 18px;
-        text-align: center;
-        letter-spacing: 1px;
-        color: $text;
-        text-transform: uppercase;
-      }
-      .inner {
-        margin-left: 35px;
-        margin-top: 55px;
-      }
-      a {
-        text-decoration: none;
-        h5 {
-          font-size: 12px;
-          letter-spacing: 2px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0px;
-          margin-bottom: 0px;
-        }
-        h2 {
-          font-size: 36px;
-          line-height: 36px;
-          letter-spacing: 1.5px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0;
-          margin-bottom: 30px;
-        }
-      }
-      a.view {
-        position: absolute;
-        left: 35px;
-        bottom: 35px;
-        span {
-          display: inline-block;
-          text-transform: uppercase;
-          color: #fff;
-          letter-spacing: 2px;
-          font-size: 18px;
-          line-height: 1.16;
-          border-bottom: 1px solid #a45833;
-        }
-      }
-    }
+  //   @include breakpoint(800px) {
+  //     .flex-container {
+  //       display: flex;
+  //       align-items: stretch;
+  //     }
+  //     .flex-item-left, .flex-item-right {
+  //       position: relative;
+  //       flex-basis: 50%;
+  //       height: 540px;
+  //     }
+  //     .flex-item-left {
+  //       background-color: $near-black;
+  //       color: white;
+  //     }
+  //     .flex-item-right {
+  //       flex-basis: 50%;
+  //       background: url('/assets/images/portfolio-cakewalk.jpg');
+  //       background-position: center;
+  //       background-size: cover;
+  //     }
+  //     h3 {
+  //       margin-top: 100px;
+  //       font-size: 18px;
+  //       text-align: center;
+  //       letter-spacing: 1px;
+  //       color: $text;
+  //       text-transform: uppercase;
+  //     }
+  //     .inner {
+  //       margin-left: 35px;
+  //       margin-top: 55px;
+  //     }
+  //     a {
+  //       text-decoration: none;
+  //       h5 {
+  //         font-size: 12px;
+  //         letter-spacing: 2px;
+  //         color: #FFFFFF;
+  //         text-transform: uppercase;
+  //         margin-top: 0px;
+  //         margin-bottom: 0px;
+  //       }
+  //       h2 {
+  //         font-size: 36px;
+  //         line-height: 36px;
+  //         letter-spacing: 1.5px;
+  //         color: #FFFFFF;
+  //         text-transform: uppercase;
+  //         margin-top: 0;
+  //         margin-bottom: 30px;
+  //       }
+  //     }
+  //     a.view {
+  //       position: absolute;
+  //       left: 35px;
+  //       bottom: 35px;
+  //       span {
+  //         display: inline-block;
+  //         text-transform: uppercase;
+  //         color: #fff;
+  //         letter-spacing: 2px;
+  //         font-size: 18px;
+  //         line-height: 1.16;
+  //         border-bottom: 1px solid #a45833;
+  //       }
+  //     }
+  //   }
 
-    @include breakpoint(lg) {
-      .flex-item-left, .flex-item-right {
-        height: 676px;
-      }
-      .inner {
-        margin-left: 91px;
-        margin-top: 79px;
-      }
-      a {
-        text-decoration: none;
-        h5 {
-          font-size: 12px;
-          letter-spacing: 2px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0px;
-          margin-bottom: 0px;
-        }
-        h2 {
-          font-size: 44px;
-          line-height: 44px;
-          letter-spacing: 1.5px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          margin-top: 0;
-          margin-bottom: 56px;
-        }
-      }
-      a.view {
-        position: absolute;
-        left: 91px;
-        bottom: 75px;
-        span {
-          display: inline-block;
-          text-transform: uppercase;
-          color: #fff;
-          letter-spacing: 2px;
-          font-size: 18px;
-          line-height: 1.16;
-          border-bottom: 1px solid #a45833;
-        }
-      }
-    }
+  //   @include breakpoint(lg) {
+  //     .flex-item-left, .flex-item-right {
+  //       height: 676px;
+  //     }
+  //     .inner {
+  //       margin-left: 91px;
+  //       margin-top: 79px;
+  //     }
+  //     a {
+  //       text-decoration: none;
+  //       h5 {
+  //         font-size: 12px;
+  //         letter-spacing: 2px;
+  //         color: #FFFFFF;
+  //         text-transform: uppercase;
+  //         margin-top: 0px;
+  //         margin-bottom: 0px;
+  //       }
+  //       h2 {
+  //         font-size: 44px;
+  //         line-height: 44px;
+  //         letter-spacing: 1.5px;
+  //         color: #FFFFFF;
+  //         text-transform: uppercase;
+  //         margin-top: 0;
+  //         margin-bottom: 56px;
+  //       }
+  //     }
+  //     a.view {
+  //       position: absolute;
+  //       left: 91px;
+  //       bottom: 75px;
+  //       span {
+  //         display: inline-block;
+  //         text-transform: uppercase;
+  //         color: #fff;
+  //         letter-spacing: 2px;
+  //         font-size: 18px;
+  //         line-height: 1.16;
+  //         border-bottom: 1px solid #a45833;
+  //       }
+  //     }
+  //   }
 
-    @include breakpoint(xl) {
-      .flex-item-left, .flex-item-right {
-        height: 818px;
-        .inner {
-          margin-left: 91px;
-          margin-top: 79px;
-        }
-        a {
-          text-decoration: none;
-          h5 {
-            font-size: 12px;
-            letter-spacing: 2px;
-            color: #FFFFFF;
-            text-transform: uppercase;
-            margin-top: 0px;
-            margin-bottom: 0px;
-          }
-          h2 {
-            font-size: 44px;
-            line-height: 44px;
-            letter-spacing: 1.5px;
-            color: #FFFFFF;
-            text-transform: uppercase;
-            margin-top: 0;
-            margin-bottom: 56px;
-          }
-        }
-        a.view {
-          position: absolute;
-          left: 91px;
-          bottom: 75px;
-          span {
-            display: inline-block;
-            text-transform: uppercase;
-            color: #fff;
-            letter-spacing: 2px;
-            font-size: 18px;
-            line-height: 1.16;
-            border-bottom: 1px solid #a45833;
-          }
-        }
-      }
-    }
-  }
+  //   @include breakpoint(xl) {
+  //     .flex-item-left, .flex-item-right {
+  //       height: 818px;
+  //       .inner {
+  //         margin-left: 91px;
+  //         margin-top: 79px;
+  //       }
+  //       a {
+  //         text-decoration: none;
+  //         h5 {
+  //           font-size: 12px;
+  //           letter-spacing: 2px;
+  //           color: #FFFFFF;
+  //           text-transform: uppercase;
+  //           margin-top: 0px;
+  //           margin-bottom: 0px;
+  //         }
+  //         h2 {
+  //           font-size: 44px;
+  //           line-height: 44px;
+  //           letter-spacing: 1.5px;
+  //           color: #FFFFFF;
+  //           text-transform: uppercase;
+  //           margin-top: 0;
+  //           margin-bottom: 56px;
+  //         }
+  //       }
+  //       a.view {
+  //         position: absolute;
+  //         left: 91px;
+  //         bottom: 75px;
+  //         span {
+  //           display: inline-block;
+  //           text-transform: uppercase;
+  //           color: #fff;
+  //           letter-spacing: 2px;
+  //           font-size: 18px;
+  //           line-height: 1.16;
+  //           border-bottom: 1px solid #a45833;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
   section.gallery-tabs {
     .full-grid-container {

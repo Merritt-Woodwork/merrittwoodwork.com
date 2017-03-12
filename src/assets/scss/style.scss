@@ -61,6 +61,12 @@ body.grid {
     }
   }
 
+  .grid-container.fluid {
+    @include breakpoint(xxl) {
+      width: 100%;
+    }
+  }
+
   // fonts
   @font-face {
       font-family: 'Portrait Web';
