@@ -1848,20 +1848,20 @@ button.c-hamburger {
   transition-delay: 0s, 0.3s; }
 
 @media only screen and (min-width: 300px) {
-  footer.grid-column {
+  footer .grid-column {
     width: calc(100% - 32px);
     float: left;
     margin-left: 16px; } }
 
 @media only screen and (min-width: 992px) {
-  footer.grid-column {
+  footer .grid-column {
     width: calc(87.5% - 31.875px);
     float: left;
     margin-left: 17px;
     margin-left: calc(6.25% - 18.0625px + 34px); } }
 
 @media only screen and (min-width: 1200px) {
-  footer.grid-column {
+  footer .grid-column {
     width: calc(87.5% - 31.875px);
     float: left;
     margin-left: 17px;
