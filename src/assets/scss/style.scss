@@ -35,12 +35,15 @@ body.grid {
   }
 }
 
-// .grid-collapse {
-//   @include grid-container;
-//   @include breakpoint(lg) {
-//     @include grid-collapse($mid-grid);
-//   }
-// }
+.grid-collapse {
+  @include grid-container;
+  @include breakpoint(300px, 799px) {
+    @include grid-collapse($mobile-grid);
+  }
+  @include breakpoint(lg) {
+    @include grid-collapse($mid-grid);
+  }
+}
 
 // grid-container
 .grid-container {
