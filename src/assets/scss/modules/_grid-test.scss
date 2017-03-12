@@ -1,5 +1,23 @@
 body.grid-test {
 
+  .column-1 {
+    @include grid-column()
+    @include grid-media($mid-grid) {
+      @include grid-column(8 of 16);
+      // @include grid-push(1 of 16);
+      background-color: firebrick;
+    }
+  }
+  .column-2 {
+    @include grid-column()
+    @include grid-media($mid-grid) {
+      @include grid-column(8 of 16);
+      // @include grid-push(1 of 16);
+      background-color: lightblue;
+    }
+  }
+
+
   .outer.grid-container {
     .outer.grid-column {
       @include grid-column()
