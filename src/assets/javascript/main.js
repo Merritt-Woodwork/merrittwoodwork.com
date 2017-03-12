@@ -1,14 +1,25 @@
 (function() {
 
+  // visual grid
+  var k = new Kibo();
+  k.down(['g'], function() {
+    $('body').addClass('grid');
+  }).up('g', function() {
+    $('body').removeClass('grid');
+  });
+
+  // remove 300ms delay on mobile
   $(function() {
       FastClick.attach(document.body);
   });
 
+  // fade-in content
   var main = $('main');
   setTimeout(function(){
     $(main).fadeIn().removeClass('load').addClass('loaded');
   }, 250);
 
+  // mobile menu
   (function() {
     var triggerBttn = document.getElementById( 'trigger-overlay' ),
       overlay = document.querySelector( 'div.overlay' ),

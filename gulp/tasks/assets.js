@@ -25,7 +25,7 @@ gulp.task('scripts', () =>
   // top to bottom, so you want vendor scripts etc on top
   gulp.src([
     'node_modules/jquery/dist/jquery.js',
-    'src/assets/javascript/vendor.js',
+    'src/assets/javascript/kibo.js',
     'src/assets/javascript/smooth-scroll.js',
     'src/assets/javascript/imagesloaded.js',
     'src/assets/javascript/remodal-custom.js',

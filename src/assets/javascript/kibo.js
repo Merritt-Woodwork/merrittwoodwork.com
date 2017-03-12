@@ -1,8 +1,3 @@
-'use strict';
-
-//
-// KIBO
-//
 var Kibo = function(element) {
   this.element = element || window.document;
   this.initialize();

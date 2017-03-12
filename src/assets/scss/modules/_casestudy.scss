@@ -1,0 +1,80 @@
+body.casestudy {
+
+  .hero {
+    .grid-column {
+      @include grid-media($mid-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+    .hero-image {
+      background-image: url("/assets/images/casestudy-cakewalk.jpg");
+      background-size: cover;
+      background-position: center;
+      @include breakpoint(lg) {
+        height: 621px;
+      }
+    }
+  }
+
+  .grid-container {
+    @include grid-container;
+  }
+
+  .project-info {
+    height: 500px;
+  }
+
+  .project-info .outer.grid-column {
+    @include breakpoint(xl) {
+      margin-top: -145px;
+    }
+    background-color: white;
+    @include grid-media($mobile-grid) {
+      @include grid-column(8 of 8);
+    }
+    @include grid-media($mid-grid) {
+      @include grid-column(12 of 16);
+      @include grid-push(2 of 16);
+    }
+  }
+
+  .project-info .title.grid-column {
+    @include grid-collapse;
+    background-color: yellow;
+    // @include grid-media($mobile-grid) {
+    //   @include grid-column(8 of 8);
+    // }
+    @include grid-media($mid-grid) {
+      @include grid-column(4 of 14);
+      @include grid-push(1 of 14);
+    }
+    .project-details {
+      @include breakpoint(lg) {
+        h2 {
+          font-size: 44px;
+          line-height: 44px;
+          letter-spacing: 1.5px;
+          color: $near-black;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .project-info .details.grid-column {
+    // @include grid-collapse;
+    background-color: green;
+    // @include grid-media($mobile-grid) {
+    //   @include grid-column(8 of 8);
+    // }
+    @include grid-media($mid-grid) {
+      @include grid-column(7 of 14);
+      @include grid-push(1 of 14);
+    }
+  }
+
+
+}

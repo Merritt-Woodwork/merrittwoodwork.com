@@ -1,25 +1,27 @@
-<div class="header-wrapper">
+<div class="fixed-header-wrapper">
   <header class="grid-container">
-    <div class="grid-column">
-      <div class="va-wrapper">
-        <a href="/"><img src="/assets/images/logo.png" alt="MERRITT"></a>
+    <div class="grid-collapse">
+      <div class="grid-column">
+        <div class="va-wrapper">
+          <a href="/"><img src="/assets/images/logo.png" alt="MERRITT"></a>
 
-        <div id="trigger-overlay" class="menu header-text">
-        <p>menu</p>
-        <button class="c-hamburger c-hamburger--htx">
-          <span>toggle menu</span>
-        </button>
-        </div>
-        <div class="left header-text">
-          <a {% if page.class == 'portfolio' %}class="active"{% endif %} href="/portfolio">PORTFOLIO</a>
-          <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">CAPABILITIES</a>
-          <a {% if page.class == 'about' %}class="active"{% endif %} href="/about">ABOUT</a>
-        </div>
-        <div class="right header-text">
-          <a {% if page.class == 'clients' %}class="active"{% endif %} href="/clients">CLIENTS</a>
-          <a {% if page.class == 'press' %}class="active"{% endif %} href="/press">PRESS</a>
-          <a {% if page.class == 'careers' %}class="active"{% endif %} href="/careers">CAREERS</a>
-          <a {% if page.class == 'contact' %}class="active"{% endif %} href="/contact">CONTACT</a>
+          <div id="trigger-overlay" class="menu header-text">
+          <p>menu</p>
+          <button class="c-hamburger c-hamburger--htx">
+            <span>toggle menu</span>
+          </button>
+          </div>
+          <div class="left header-text">
+            <a {% if page.class == 'portfolio' %}class="active"{% endif %} href="/portfolio">PORTFOLIO</a>
+            <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">CAPABILITIES</a>
+            <a {% if page.class == 'about' %}class="active"{% endif %} href="/about">ABOUT</a>
+          </div>
+          <div class="right header-text">
+            <a {% if page.class == 'clients' %}class="active"{% endif %} href="/clients">CLIENTS</a>
+            <a {% if page.class == 'press' %}class="active"{% endif %} href="/press">PRESS</a>
+            <a {% if page.class == 'careers' %}class="active"{% endif %} href="/careers">CAREERS</a>
+            <a {% if page.class == 'contact' %}class="active"{% endif %} href="/contact">CONTACT</a>
+          </div>
         </div>
       </div>
     </div>

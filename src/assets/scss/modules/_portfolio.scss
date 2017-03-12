@@ -287,9 +287,6 @@ body.portfolio {
         @include grid-push(1 of 16);
       }
     }
-    .grid-container {
-      @include grid-container;
-    }
 
     @include breakpoint(300px) {
       .gutter-sizer {

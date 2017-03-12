@@ -1,6 +1,10 @@
 // suppress warnings about bourbon 5
 // $output-bourbon-deprecation-warnings: false;
 
+// .grid-column {
+//   background-image: linear-gradient(to bottom right, #21e9f4, #00d4ff);
+// }
+
 // base
 @import
   "node_modules/normalize.scss/normalize",
@@ -20,7 +24,23 @@
   "modules/home",
   "modules/remodal",
   "modules/remodal-theme",
-  "modules/portfolio";
+  "modules/portfolio",
+  "modules/casestudy",
+  "modules/grid-test";
+
+// visual grid
+body.grid {
+  .grid-container {
+    @include grid-visual(rgba(255, 255, 0, .5), $mid-grid);
+  }
+}
+
+// .grid-collapse {
+//   @include grid-container;
+//   @include breakpoint(lg) {
+//     @include grid-collapse($mid-grid);
+//   }
+// }
 
 // grid-container
 .grid-container {

@@ -1,0 +1,41 @@
+body.grid-test {
+
+  .outer.grid-container {
+    .outer.grid-column {
+      @include grid-column()
+      @include grid-media($mid-grid) {
+        @include grid-column(16 of 16);
+        // @include grid-push(1 of 16);
+        background-color: gray;
+        height: 500px;
+        // background-color: red;
+      }
+    }
+    .inner.grid-column {
+      // @include grid-column();
+      // @include grid-column(7 of 14, $mid-grid);
+      @include grid-media($mid-grid) {
+        @include grid-column(7 of 14);
+      }
+    }
+    .collapse {
+      @include grid-collapse($mid-grid);
+      @include grid-container;
+    }
+    .left {
+      background-color: khaki;
+    }
+    .right {
+      background-color: goldenrod;
+    }
+  }
+
+
+
+
+
+
+
+}
+
+

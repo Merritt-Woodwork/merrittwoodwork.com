@@ -1,17 +1,5 @@
-// GRID
-header.grid-container {
-  @include grid-container;
-}
-
-
-// STYLES
-
-.left a, .right a {
-  transition: all 0.3s ease;
-}
-
 @include breakpoint(300px, 991px) {
-  .header-wrapper {
+  .fixed-header-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +11,7 @@ header.grid-container {
 }
 
 @include breakpoint(lg) {
-  .header-wrapper {
+  .fixed-header-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -73,10 +61,13 @@ header {
       }
     }
 
+    .left a, .right a {
+      transition: all 0.3s ease;
+    }
+
     @include breakpoint(300px, 991px) {
       .menu {
         width: 60px;
-        // @include vertical-align();
         height: 45px;
         float: right;
         font-size: 14px;
@@ -169,7 +160,9 @@ header {
         }
       }
       .left a, .right a {
-        @include vertical-align();
+        position: relative;
+        top: 60%;
+        transform: translateY(-60%);
         text-decoration: none;
         color: $text;
         font-weight: 100;
