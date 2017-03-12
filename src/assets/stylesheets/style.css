@@ -3005,44 +3005,29 @@ body.casestudy .hero .hero-image {
     body.casestudy .hero .hero-image {
       height: 621px; } }
 
-body.casestudy .grid-container::after {
-  clear: both;
-  content: "";
-  display: block; }
-
 body.casestudy .project-info {
-  height: 500px; }
-
-body.casestudy .project-info .outer.grid-column {
-  background-color: white; }
+  height: 500px;
+  padding-top: 50px; }
   @media (min-width: 1200px) {
-    body.casestudy .project-info .outer.grid-column {
-      margin-top: -145px; } }
-  @media only screen and (min-width: 300px) {
-    body.casestudy .project-info .outer.grid-column {
-      width: calc(100% - 32px);
-      float: left;
-      margin-left: 16px; } }
+    body.casestudy .project-info .outer.grid-container {
+      margin-top: -145px;
+      height: 500px; } }
   @media only screen and (min-width: 992px) {
-    body.casestudy .project-info .outer.grid-column {
+    body.casestudy .project-info .grid-column {
+      background-color: white;
+      height: 500px;
       width: calc(75% - 29.75px);
       float: left;
       margin-left: 17px;
       margin-left: calc(12.5% - 19.125px + 34px); } }
-
-body.casestudy .project-info .title.grid-column {
-  margin-left: -20px;
-  margin-right: -20px;
-  width: calc(100% + 40px);
-  background-color: yellow; }
   @media only screen and (min-width: 992px) {
-    body.casestudy .project-info .title.grid-column {
-      width: calc(28.5714285714% - 21.8571428571px);
+    body.casestudy .project-info .grid-column--title {
+      width: calc(25% - 21.25px);
       float: left;
       margin-left: 17px;
-      margin-left: calc(7.1428571429% - 18.2142857143px + 34px); } }
+      margin-left: calc(8.3333333333% - 18.4166666667px + 34px); } }
   @media (min-width: 992px) {
-    body.casestudy .project-info .title.grid-column .project-details h2 {
+    body.casestudy .project-info .grid-column--title .title h2 {
       font-size: 44px;
       line-height: 44px;
       letter-spacing: 1.5px;
@@ -3050,15 +3035,12 @@ body.casestudy .project-info .title.grid-column {
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 0; } }
-
-body.casestudy .project-info .details.grid-column {
-  background-color: green; }
   @media only screen and (min-width: 992px) {
-    body.casestudy .project-info .details.grid-column {
+    body.casestudy .project-info .grid-column--details {
       width: calc(50% - 25.5px);
       float: left;
       margin-left: 17px;
-      margin-left: calc(7.1428571429% - 18.2142857143px + 34px); } }
+      margin-left: calc(8.3333333333% - 18.4166666667px + 34px); } }
 
 body.grid-test .column-1 {
   width: calc(100% - 40px);
@@ -3117,6 +3099,9 @@ body.grid-test .outer.grid-container .right {
 
 body.grid .grid-container {
   background-image: linear-gradient(to right, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5) 17px, transparent 17px, transparent calc(6.25% - 18.0625px + 17px), rgba(255, 255, 0, 0.5) calc(6.25% - 18.0625px + 17px), rgba(255, 255, 0, 0.5) calc(6.25% - 18.0625px + 17px + 17px), transparent calc(6.25% - 18.0625px + 17px + 17px), transparent calc(12.5% - 19.125px + 17px), rgba(255, 255, 0, 0.5) calc(12.5% - 19.125px + 17px), rgba(255, 255, 0, 0.5) calc(12.5% - 19.125px + 17px + 17px), transparent calc(12.5% - 19.125px + 17px + 17px), transparent calc(18.75% - 20.1875px + 17px), rgba(255, 255, 0, 0.5) calc(18.75% - 20.1875px + 17px), rgba(255, 255, 0, 0.5) calc(18.75% - 20.1875px + 17px + 17px), transparent calc(18.75% - 20.1875px + 17px + 17px), transparent calc(25% - 21.25px + 17px), rgba(255, 255, 0, 0.5) calc(25% - 21.25px + 17px), rgba(255, 255, 0, 0.5) calc(25% - 21.25px + 17px + 17px), transparent calc(25% - 21.25px + 17px + 17px), transparent calc(31.25% - 22.3125px + 17px), rgba(255, 255, 0, 0.5) calc(31.25% - 22.3125px + 17px), rgba(255, 255, 0, 0.5) calc(31.25% - 22.3125px + 17px + 17px), transparent calc(31.25% - 22.3125px + 17px + 17px), transparent calc(37.5% - 23.375px + 17px), rgba(255, 255, 0, 0.5) calc(37.5% - 23.375px + 17px), rgba(255, 255, 0, 0.5) calc(37.5% - 23.375px + 17px + 17px), transparent calc(37.5% - 23.375px + 17px + 17px), transparent calc(43.75% - 24.4375px + 17px), rgba(255, 255, 0, 0.5) calc(43.75% - 24.4375px + 17px), rgba(255, 255, 0, 0.5) calc(43.75% - 24.4375px + 17px + 17px), transparent calc(43.75% - 24.4375px + 17px + 17px), transparent calc(50% - 25.5px + 17px), rgba(255, 255, 0, 0.5) calc(50% - 25.5px + 17px), rgba(255, 255, 0, 0.5) calc(50% - 25.5px + 17px + 17px), transparent calc(50% - 25.5px + 17px + 17px), transparent calc(56.25% - 26.5625px + 17px), rgba(255, 255, 0, 0.5) calc(56.25% - 26.5625px + 17px), rgba(255, 255, 0, 0.5) calc(56.25% - 26.5625px + 17px + 17px), transparent calc(56.25% - 26.5625px + 17px + 17px), transparent calc(62.5% - 27.625px + 17px), rgba(255, 255, 0, 0.5) calc(62.5% - 27.625px + 17px), rgba(255, 255, 0, 0.5) calc(62.5% - 27.625px + 17px + 17px), transparent calc(62.5% - 27.625px + 17px + 17px), transparent calc(68.75% - 28.6875px + 17px), rgba(255, 255, 0, 0.5) calc(68.75% - 28.6875px + 17px), rgba(255, 255, 0, 0.5) calc(68.75% - 28.6875px + 17px + 17px), transparent calc(68.75% - 28.6875px + 17px + 17px), transparent calc(75% - 29.75px + 17px), rgba(255, 255, 0, 0.5) calc(75% - 29.75px + 17px), rgba(255, 255, 0, 0.5) calc(75% - 29.75px + 17px + 17px), transparent calc(75% - 29.75px + 17px + 17px), transparent calc(81.25% - 30.8125px + 17px), rgba(255, 255, 0, 0.5) calc(81.25% - 30.8125px + 17px), rgba(255, 255, 0, 0.5) calc(81.25% - 30.8125px + 17px + 17px), transparent calc(81.25% - 30.8125px + 17px + 17px), transparent calc(87.5% - 31.875px + 17px), rgba(255, 255, 0, 0.5) calc(87.5% - 31.875px + 17px), rgba(255, 255, 0, 0.5) calc(87.5% - 31.875px + 17px + 17px), transparent calc(87.5% - 31.875px + 17px + 17px), transparent calc(93.75% - 32.9375px + 17px), rgba(255, 255, 0, 0.5) calc(93.75% - 32.9375px + 17px), rgba(255, 255, 0, 0.5) calc(93.75% - 32.9375px + 17px + 17px), transparent calc(93.75% - 32.9375px + 17px + 17px), transparent calc(100% - 17px), rgba(255, 255, 0, 0.5) calc(100% - 17px), rgba(255, 255, 0, 0.5) calc(100%)); }
+
+body {
+  overflow-x: hidden; }
 
 .grid-collapse::after {
   clear: both;

@@ -35,6 +35,10 @@ body.grid {
   }
 }
 
+body {
+  overflow-x: hidden; // deal with grid-collapse negative margin
+}
+
 .grid-collapse {
   @include grid-container;
   @include breakpoint(300px, 799px) {
