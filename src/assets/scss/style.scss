@@ -47,19 +47,9 @@ body.grid {
 
 // grid-container
 .grid-container {
-  @include grid-container;
+    @include grid-container;
     margin: 0 auto;
     width: 86.6666%;
-    // @include grid-visual(null, $desktop-grid);
-    // .grid-column {
-    //   background-image: linear-gradient(to bottom right, #21e9f4, #00d4ff);
-    // }
-    // @include breakpoint(sm) {
-    //   width: 375px;
-    // }
-    // @include breakpoint(md) {
-    //   width: 86.6666%;
-    // }
     @include breakpoint(lg) {
       width: 992px;
     }
