@@ -2650,12 +2650,14 @@ html.remodal-is-locked {
     opacity: 0; } }
 
 body.portfolio section.casestudies h3 {
-  margin-top: 100px;
   font-size: 18px;
   text-align: center;
   letter-spacing: 1px;
   color: #202020;
   text-transform: uppercase; }
+  @media (min-width: 768px) {
+    body.portfolio section.casestudies h3 {
+      margin-top: 100px; } }
 
 @media only screen and (min-width: 300px) {
   body.portfolio section.casestudies .grid-column {
@@ -2670,12 +2672,21 @@ body.portfolio section.casestudies h3 {
     margin-left: 17px;
     margin-left: calc(6.25% - 18.0625px + 34px); } }
 
-@media (min-width: 300px) and (max-width: 799px) {
+@media (min-width: 300px) and (max-width: 500px) {
+  body.portfolio section.casestudies .left {
+    float: left;
+    width: 100%;
+    height: 575px;
+    background-color: #202020; } }
+
+@media (min-width: 501px) and (max-width: 799px) {
   body.portfolio section.casestudies .left {
     float: left;
     width: 100%;
     height: 504px;
-    background-color: #202020; }
+    background-color: #202020; } }
+
+@media (min-width: 300px) and (max-width: 799px) {
   body.portfolio section.casestudies .right {
     display: none; }
   body.portfolio section.casestudies .grid-container {
@@ -3112,7 +3123,7 @@ body.casestudy .project-info {
       color: #202020;
       text-transform: uppercase;
       margin-top: 0;
-      margin-bottom: 0; } }
+      margin-bottom: 25px; } }
   @media (min-width: 992px) {
     body.casestudy .project-info .grid-column--title h2 {
       font-size: 44px;
@@ -3375,6 +3386,35 @@ body.casestudy section.next {
       color: #FFFFFF;
       text-transform: uppercase;
       margin: 0; }
+
+body.grid-test .column-1 {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+  @media only screen and (min-width: 992px) {
+    body.grid-test .column-1 {
+      width: calc(50% - 25.5px);
+      float: left;
+      margin-left: 17px;
+      background-color: firebrick; } }
+
+@media only screen and (min-width: 992px) {
+  body.grid-test .inner-grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    background-color: lightgreen; } }
+
+body.grid-test .column-2 {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+  @media only screen and (min-width: 992px) {
+    body.grid-test .column-2 {
+      width: calc(50% - 25.5px);
+      float: left;
+      margin-left: 17px;
+      background-color: lightblue; } }
 
 body.grid .grid-container {
   background-image: linear-gradient(to right, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.5) 17px, transparent 17px, transparent calc(6.25% - 18.0625px + 17px), rgba(255, 255, 0, 0.5) calc(6.25% - 18.0625px + 17px), rgba(255, 255, 0, 0.5) calc(6.25% - 18.0625px + 17px + 17px), transparent calc(6.25% - 18.0625px + 17px + 17px), transparent calc(12.5% - 19.125px + 17px), rgba(255, 255, 0, 0.5) calc(12.5% - 19.125px + 17px), rgba(255, 255, 0, 0.5) calc(12.5% - 19.125px + 17px + 17px), transparent calc(12.5% - 19.125px + 17px + 17px), transparent calc(18.75% - 20.1875px + 17px), rgba(255, 255, 0, 0.5) calc(18.75% - 20.1875px + 17px), rgba(255, 255, 0, 0.5) calc(18.75% - 20.1875px + 17px + 17px), transparent calc(18.75% - 20.1875px + 17px + 17px), transparent calc(25% - 21.25px + 17px), rgba(255, 255, 0, 0.5) calc(25% - 21.25px + 17px), rgba(255, 255, 0, 0.5) calc(25% - 21.25px + 17px + 17px), transparent calc(25% - 21.25px + 17px + 17px), transparent calc(31.25% - 22.3125px + 17px), rgba(255, 255, 0, 0.5) calc(31.25% - 22.3125px + 17px), rgba(255, 255, 0, 0.5) calc(31.25% - 22.3125px + 17px + 17px), transparent calc(31.25% - 22.3125px + 17px + 17px), transparent calc(37.5% - 23.375px + 17px), rgba(255, 255, 0, 0.5) calc(37.5% - 23.375px + 17px), rgba(255, 255, 0, 0.5) calc(37.5% - 23.375px + 17px + 17px), transparent calc(37.5% - 23.375px + 17px + 17px), transparent calc(43.75% - 24.4375px + 17px), rgba(255, 255, 0, 0.5) calc(43.75% - 24.4375px + 17px), rgba(255, 255, 0, 0.5) calc(43.75% - 24.4375px + 17px + 17px), transparent calc(43.75% - 24.4375px + 17px + 17px), transparent calc(50% - 25.5px + 17px), rgba(255, 255, 0, 0.5) calc(50% - 25.5px + 17px), rgba(255, 255, 0, 0.5) calc(50% - 25.5px + 17px + 17px), transparent calc(50% - 25.5px + 17px + 17px), transparent calc(56.25% - 26.5625px + 17px), rgba(255, 255, 0, 0.5) calc(56.25% - 26.5625px + 17px), rgba(255, 255, 0, 0.5) calc(56.25% - 26.5625px + 17px + 17px), transparent calc(56.25% - 26.5625px + 17px + 17px), transparent calc(62.5% - 27.625px + 17px), rgba(255, 255, 0, 0.5) calc(62.5% - 27.625px + 17px), rgba(255, 255, 0, 0.5) calc(62.5% - 27.625px + 17px + 17px), transparent calc(62.5% - 27.625px + 17px + 17px), transparent calc(68.75% - 28.6875px + 17px), rgba(255, 255, 0, 0.5) calc(68.75% - 28.6875px + 17px), rgba(255, 255, 0, 0.5) calc(68.75% - 28.6875px + 17px + 17px), transparent calc(68.75% - 28.6875px + 17px + 17px), transparent calc(75% - 29.75px + 17px), rgba(255, 255, 0, 0.5) calc(75% - 29.75px + 17px), rgba(255, 255, 0, 0.5) calc(75% - 29.75px + 17px + 17px), transparent calc(75% - 29.75px + 17px + 17px), transparent calc(81.25% - 30.8125px + 17px), rgba(255, 255, 0, 0.5) calc(81.25% - 30.8125px + 17px), rgba(255, 255, 0, 0.5) calc(81.25% - 30.8125px + 17px + 17px), transparent calc(81.25% - 30.8125px + 17px + 17px), transparent calc(87.5% - 31.875px + 17px), rgba(255, 255, 0, 0.5) calc(87.5% - 31.875px + 17px), rgba(255, 255, 0, 0.5) calc(87.5% - 31.875px + 17px + 17px), transparent calc(87.5% - 31.875px + 17px + 17px), transparent calc(93.75% - 32.9375px + 17px), rgba(255, 255, 0, 0.5) calc(93.75% - 32.9375px + 17px), rgba(255, 255, 0, 0.5) calc(93.75% - 32.9375px + 17px + 17px), transparent calc(93.75% - 32.9375px + 17px + 17px), transparent calc(100% - 17px), rgba(255, 255, 0, 0.5) calc(100% - 17px), rgba(255, 255, 0, 0.5) calc(100%)); }
