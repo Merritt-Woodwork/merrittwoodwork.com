@@ -1,8 +1,20 @@
 body.casestudy {
 
+  @include breakpoint(300px, 1199px) {
+    .fluid.grid-container {
+      width: 100%;
+    }
+  }
+
   .hero {
     .grid-column {
-      @include grid-media($mid-grid) {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(16 of 16);
+      }
+      @include grid-media($xl-grid) {
         @include grid-column(14 of 16);
         @include grid-push(1 of 16);
       }
@@ -11,7 +23,15 @@ body.casestudy {
       background-image: url("/assets/images/casestudy-cakewalk.jpg");
       background-size: cover;
       background-position: center;
-      // border: 1px solid red;
+      @include breakpoint(300px, 500px) {
+        height: 33vh;
+      }
+      @include breakpoint(501px, 767px) {
+        height: 250px;
+      }
+      @include breakpoint(md) {
+        height: 480px;
+      }
       @include breakpoint(lg) {
         height: 621px;
       }
@@ -27,7 +47,10 @@ body.casestudy {
       }
     }
     .grid-column {
-      @include grid-media($mid-grid) {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
         padding-top: 91px;
         background-color: white;
         @include grid-column(12 of 16);
@@ -35,10 +58,10 @@ body.casestudy {
       }
     }
     .grid-column--title {
-      // @include grid-media($mobile-grid) {
-      //   @include grid-column(8 of 8);
-      // }
-      @include grid-media($mid-grid) {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
         @include grid-column(3 of 12);
         @include grid-push(1 of 12);
       }
@@ -58,7 +81,7 @@ body.casestudy {
       // @include grid-media($mobile-grid) {
       //   @include grid-column(8 of 8);
       // }
-      @include grid-media($mid-grid) {
+      @include grid-media($lg-grid) {
         @include grid-column(6 of 12);
         @include grid-push(1 of 12);
       }
@@ -106,10 +129,10 @@ body.casestudy {
     }
 
     .grid-column {
-      @include grid-media($mobile-grid) {
+      @include grid-media($sm-grid) {
         @include grid-column(8 of 8);
       }
-      @include grid-media($mid-grid) {
+      @include grid-media($lg-grid) {
         @include grid-column(14 of 16);
         @include grid-push(1 of 16);
       }
@@ -198,15 +221,15 @@ body.casestudy {
     background-color: $near-black;
     text-align: center;
     .grid-column {
-      @include grid-media($mobile-grid) {
+      @include grid-media($sm-grid) {
         @include grid-column(3 of 8);
         // @include grid-push(1 of 12);
       }
-      @include grid-media($mid-grid) {
+      @include grid-media($lg-grid) {
         @include grid-column(2 of 16);
         @include grid-push(1 of 16);
       }
-      @include grid-media($desktop-grid) {
+      @include grid-media($xl-grid) {
         @include grid-column(2 of 16);
         @include grid-push(1 of 16);
       }

@@ -3,7 +3,7 @@
     height: 100%;
   }
   .grid-column {
-    @include grid-media($mobile-grid) {
+    @include grid-media($sm-grid) {
       @include grid-column(12 of 12);
     }
   }

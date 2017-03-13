@@ -25,13 +25,13 @@
   "modules/remodal",
   "modules/remodal-theme",
   "modules/portfolio",
-  "modules/casestudy",
-  "modules/grid-test";
+  "modules/casestudy";
+  // "modules/grid-test";
 
 // visual grid
 body.grid {
   .grid-container {
-    @include grid-visual(rgba(255, 255, 0, .5), $mid-grid);
+    @include grid-visual(rgba(255, 255, 0, .5), $lg-grid);
   }
 }
 
@@ -41,11 +41,11 @@ body {
 
 .grid-collapse {
   @include grid-container;
-  @include breakpoint(300px, 799px) {
-    @include grid-collapse($mobile-grid);
+  @include breakpoint(300px, 991px) {
+    @include grid-collapse($sm-grid);
   }
   @include breakpoint(lg) {
-    @include grid-collapse($mid-grid);
+    @include grid-collapse($lg-grid);
   }
 }
 
@@ -65,11 +65,11 @@ body {
     }
   }
 
-  .grid-container.fluid {
-    @include breakpoint(xxl) {
-      width: 100%;
-    }
-  }
+  // .grid-container.fluid {
+  //   @include breakpoint(xxl) {
+  //     width: 100%;
+  //   }
+  // }
 
   // fonts
   @font-face {

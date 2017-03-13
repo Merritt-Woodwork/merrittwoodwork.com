@@ -1,15 +1,15 @@
 footer {
   .grid-column {
-    @include grid-media($mobile-grid) {
+    @include grid-media($sm-grid) {
       @include grid-column(12 of 12);
     }
-    @include grid-media($mid-grid) {
+    @include grid-media($lg-grid) {
       @include grid-column(14 of 16);
-      @include grid-push(1, $mid-grid);
+      @include grid-push(1, $lg-grid);
     }
-    @include grid-media($desktop-grid) {
+    @include grid-media($xl-grid) {
       @include grid-column(14 of 16);
-      @include grid-push(1, $desktop-grid);
+      @include grid-push(1, $xl-grid);
     }
   }
 

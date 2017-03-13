@@ -13,10 +13,10 @@ body.portfolio {
     }
 
     .grid-column {
-      @include grid-media($mobile-grid) {
+      @include grid-media($sm-grid) {
         @include grid-column(8 of 8);
       }
-      @include grid-media($mid-grid) {
+      @include grid-media($lg-grid) {
         @include grid-column(7 of 16);
         @include grid-push(1 of 16);
       }
@@ -431,10 +431,10 @@ body.portfolio {
       @include grid-container;
     }
     .grid-column {
-      @include grid-media($mobile-grid) {
+      @include grid-media($sm-grid) {
         @include grid-column(8 of 8);
       }
-      @include grid-media($mid-grid) {
+      @include grid-media($lg-grid) {
         @include grid-column(16 of 16);
       }
     }
@@ -498,10 +498,10 @@ body.portfolio {
   section.gallery {
     margin-bottom: 200px;
     .grid-column {
-      @include grid-media($mobile-grid) {
+      @include grid-media($sm-grid) {
         @include grid-column(8 of 8);
       }
-      @include grid-media($mid-grid) {
+      @include grid-media($lg-grid) {
         @include grid-column(14 of 16);
         @include grid-push(1 of 16);
       }
@@ -589,15 +589,15 @@ body.portfolio {
     background-color: $near-black;
     text-align: center;
     .grid-column {
-      @include grid-media($mobile-grid) {
+      @include grid-media($sm-grid) {
         @include grid-column(3 of 8);
         // @include grid-push(1 of 12);
       }
-      @include grid-media($mid-grid) {
+      @include grid-media($lg-grid) {
         @include grid-column(2 of 16);
         @include grid-push(1 of 16);
       }
-      @include grid-media($desktop-grid) {
+      @include grid-media($xl-grid) {
         @include grid-column(2 of 16);
         @include grid-push(1 of 16);
       }
