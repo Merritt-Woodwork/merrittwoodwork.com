@@ -1,0 +1,262 @@
+body.about {
+
+  @include breakpoint(300px, 1199px) {
+    .fluid.grid-container {
+      width: 100%;
+    }
+  }
+
+  .hero {
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(16 of 16);
+      }
+      @include grid-media($xl-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+    .hero-image {
+      background-image: url("/assets/images/hero-about.jpg");
+      background-size: cover;
+      background-position: center;
+      @include breakpoint(300px, 500px) {
+        height: 33vh;
+      }
+      @include breakpoint(501px, 767px) {
+        height: 250px;
+      }
+      @include breakpoint(md) {
+        height: 480px;
+      }
+      @include breakpoint(lg) {
+        height: 621px;
+      }
+    }
+  }
+
+  .project-info {
+    padding-top: 50px;
+    .outer.grid-container {
+      @include breakpoint(xl) {
+        margin-top: -175px;
+        // height: 500px;
+      }
+    }
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        padding-top: 91px;
+        background-color: white;
+        @include grid-column(12 of 16);
+        @include grid-push(2 of 16);
+      }
+    }
+    .grid-column--title {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($md-grid) {
+        @include grid-column(3 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(3 of 12);
+        @include grid-push(1 of 12);
+      }
+      @include breakpoint(xs) {
+        h2 {
+          font-size: 36px;
+          line-height: 36px;
+          letter-spacing: 1.5px;
+          color: $near-black;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 25px;
+        }
+      }
+      @include breakpoint(sm) {
+        h2 {
+          font-size: 36px;
+          line-height: 36px;
+          letter-spacing: 1.5px;
+          color: $near-black;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 25px;
+        }
+      }
+      @include breakpoint(md) {
+        h2 {
+          font-size: 44px;
+          line-height: 44px;
+          letter-spacing: 1.5px;
+          color: $near-black;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 25px;
+        }
+      }
+      @include breakpoint(lg) {
+        h2 {
+          font-size: 44px;
+          line-height: 44px;
+          letter-spacing: 1.5px;
+          color: $near-black;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .grid-column--details {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($md-grid) {
+        @include grid-column(5 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(6 of 12);
+        @include grid-push(1 of 12);
+      }
+      @include breakpoint(xs) {
+        h3 {
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 1px;
+          color: $text;
+          margin-top: 30px;
+          margin-bottom: 6px;
+          text-transform: uppercase;
+          &:first-of-type {
+            margin-top: 0px;
+          }
+        }
+        p {
+          font-size: 19px;
+          line-height: 27px;
+          color: $near-black;
+          margin: 0;
+        }
+        ul {
+          padding-left: 1.5em;
+          margin: 0;
+          li {
+            padding-left: .3em;
+            font-size: 19px;
+            line-height: 27px;
+            color: $near-black;
+            margin-top: 0;
+            margin-bottom: 6px;
+          }
+        }
+        margin-bottom: 40px;
+      }
+      @include breakpoint(sm) {
+        h3 {
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 1px;
+          color: $text;
+          margin-top: 30px;
+          margin-bottom: 6px;
+          text-transform: uppercase;
+          &:first-of-type {
+            margin-top: 0px;
+          }
+        }
+        p {
+          font-size: 19px;
+          line-height: 27px;
+          color: $near-black;
+          margin: 0;
+        }
+        ul {
+          padding-left: 1.5em;
+          margin: 0;
+          li {
+            padding-left: .3em;
+            font-size: 19px;
+            line-height: 27px;
+            color: $near-black;
+            margin-top: 0;
+            margin-bottom: 6px;
+          }
+        }
+        margin-bottom: 40px;
+      }
+      @include breakpoint(md) {
+        h3 {
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 1px;
+          color: $text;
+          margin-top: 30px;
+          margin-bottom: 6px;
+          text-transform: uppercase;
+          &:first-of-type {
+            margin-top: 0px;
+          }
+        }
+        p {
+          font-size: 19px;
+          line-height: 27px;
+          color: $near-black;
+          margin: 0;
+        }
+        ul {
+          padding-left: 1.5em;
+          margin: 0;
+          li {
+            padding-left: .3em;
+            font-size: 19px;
+            line-height: 27px;
+            color: $near-black;
+            margin-top: 0;
+            margin-bottom: 6px;
+          }
+        }
+        margin-bottom: 40px;
+      }
+      @include breakpoint(lg) {
+        h3 {
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 1px;
+          color: $text;
+          margin-top: 30px;
+          margin-bottom: 6px;
+          text-transform: uppercase;
+          &:first-of-type {
+            margin-top: 0px;
+          }
+        }
+        p {
+          font-size: 19px;
+          line-height: 27px;
+          color: $near-black;
+          margin: 0;
+        }
+        ul {
+          padding-left: 1.5em;
+          margin: 0;
+          li {
+            padding-left: .3em;
+            font-size: 19px;
+            line-height: 27px;
+            color: $near-black;
+            margin-top: 0;
+            margin-bottom: 6px;
+          }
+        }
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+}
