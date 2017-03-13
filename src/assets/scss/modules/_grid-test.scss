@@ -15,7 +15,7 @@ body.grid-test {
 
   .inner-grid-column {
     @include grid-media($lg-grid) {
-      @include grid-column(7 of 8);
+      @include grid-column(8 of 8);
       // @include grid-push(1 of 16);
       background-color: lightgreen;
     }

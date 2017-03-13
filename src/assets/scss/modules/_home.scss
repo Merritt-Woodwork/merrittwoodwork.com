@@ -1,13 +1,13 @@
 body.home {
 
   section.header-video {
-    @include grid-container;
+    // @include grid-container;
     position: relative;
     overflow: hidden;
     clear: both;
     img {
       height: 100% !important;
-      // position: absolute;
+      position: absolute;
     }
     iframe,
     video {
@@ -37,11 +37,18 @@ body.home {
       height: auto;
     }
 
+    .grid-container {
+    }
+
     .headline {
       @include grid-media($sm-grid) {
         @include grid-column(7 of 8);
       }
       @include grid-media($lg-grid) {
+        @include grid-column(8 of 16);
+        @include grid-push(1 of 16);
+      }
+      @include grid-media($xl-grid) {
         @include grid-column(6 of 16);
         @include grid-push(1 of 16);
       }
