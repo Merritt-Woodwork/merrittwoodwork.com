@@ -1,0 +1,30 @@
+<script>
+  (function() {
+
+  // init Isotope
+  var $grid = $('.grid').isotope({
+                // options
+                columnWidth: '.grid-sizer',
+                itemSelector: '.grid-item',
+                masonry: {
+                  gutter: '.gutter-sizer',
+                  percentPosition: true
+                }
+              });
+
+  // trigger layout after each image loads to avoid overlap
+  $grid.imagesLoaded().progress( function() {
+    $grid.isotope('layout');
+  });
+
+  $('.tabs').on( 'click', '.isoFilter', function(e) {
+      e.preventDefault();
+      $(this).parents().find('.isoFilter').removeClass('active');
+      $(this).addClass('active');
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+  });
+
+
+  })();
+</script>

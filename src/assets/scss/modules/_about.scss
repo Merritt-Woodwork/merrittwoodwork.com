@@ -313,7 +313,124 @@ body.about {
     }
   }
 
+  section.gallery {
+    @include breakpoint(xs) {
+      margin-bottom: 40px;
+    }
+    @include breakpoint(sm) {
+      margin-bottom: 75px;
+    }
+    @include breakpoint(md) {
+      margin-bottom: 100px;
+    }
+    @include breakpoint(lg) {
+      margin-bottom: 200px;
+    }
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(12 of 16);
+        @include grid-push(2 of 16);
+      }
+    }
 
+    h3 {
+      @include breakpoint(xs) {
+        margin-top: 50px;
+      }
+      @include breakpoint(sm) {
+        margin-top: 70px;
+      }
+      @include breakpoint(md) {
+        margin-top: 93px;
+      }
+      @include breakpoint(lg) {
+        margin-top: 120px;
+      }
+      @include breakpoint(xl) {
+        margin-top: 146px;
+      }
+      @include breakpoint(xxl) {
+        margin-top: 175px;
+      }
+      font-size: 18px;
+      margin-bottom: 1.5em;
+      text-align: center;
+      letter-spacing: 1px;
+      color: $text;
+      text-transform: uppercase;
+    }
+
+    @include breakpoint(300px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 5px;
+      }
+      .grid-item:hover{
+        cursor: pointer;
+      }
+    }
+
+    @include breakpoint(568px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 14px;
+      }
+    }
+
+    @include breakpoint(736px) {
+      .gutter-sizer {
+        width: 2%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 49%;
+      }
+      .grid-item {
+        margin-bottom: 6px;
+      }
+    }
+
+    @include breakpoint(800px) {
+      .gutter-sizer {
+        width: 5%;
+      }
+      .grid-sizer, .grid-item {
+        width: 30%;
+      }
+      .grid-item {
+        margin-bottom: 28px;
+      }
+    }
+    @include breakpoint(lg) {
+      .grid-item {
+        margin-bottom: 38px;
+      }
+    }
+    @include breakpoint(xl) {
+      .grid-item {
+        margin-bottom: 46px;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 
 
   section.next {
