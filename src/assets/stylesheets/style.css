@@ -2886,57 +2886,79 @@ body.portfolio section.gallery-tabs .tabs {
     body.portfolio section.gallery-tabs .tabs a.active {
       border-bottom: 2px solid #a45833; }
 
-body.portfolio section.gallery {
-  margin-bottom: 200px; }
-  @media only screen and (min-width: 300px) {
-    body.portfolio section.gallery .grid-column {
-      width: calc(100% - 32px);
-      float: left;
-      margin-left: 16px; } }
-  @media only screen and (min-width: 992px) {
-    body.portfolio section.gallery .grid-column {
-      width: calc(87.5% - 31.875px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  @media (min-width: 300px) {
-    body.portfolio section.gallery .gutter-sizer {
-      width: 4%; }
-    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
-      width: 48%; }
-    body.portfolio section.gallery .grid-item {
-      margin-bottom: 5px; }
-    body.portfolio section.gallery .grid-item:hover {
-      cursor: pointer; } }
-  @media (min-width: 568px) {
-    body.portfolio section.gallery .gutter-sizer {
-      width: 4%; }
-    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
-      width: 48%; }
-    body.portfolio section.gallery .grid-item {
-      margin-bottom: 14px; } }
-  @media (min-width: 736px) {
-    body.portfolio section.gallery .gutter-sizer {
-      width: 2%; }
-    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
-      width: 49%; }
-    body.portfolio section.gallery .grid-item {
-      margin-bottom: 6px; } }
-  @media (min-width: 800px) {
-    body.portfolio section.gallery .gutter-sizer {
-      width: 5%; }
-    body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
-      width: 30%; }
-    body.portfolio section.gallery .grid-item {
-      margin-bottom: 28px; } }
-  @media (min-width: 992px) {
-    body.portfolio section.gallery .grid-item {
-      margin-bottom: 38px; } }
-  @media (min-width: 1200px) {
-    body.portfolio section.gallery .grid-item {
-      margin-bottom: 46px; } }
-  body.portfolio section.gallery img {
-    width: 100%; }
+@media (max-width: 575px) {
+  body.portfolio section.gallery {
+    margin-bottom: 40px; } }
+
+@media (min-width: 576px) {
+  body.portfolio section.gallery {
+    margin-bottom: 75px; } }
+
+@media (min-width: 768px) {
+  body.portfolio section.gallery {
+    margin-bottom: 100px; } }
+
+@media (min-width: 992px) {
+  body.portfolio section.gallery {
+    margin-bottom: 200px; } }
+
+@media only screen and (min-width: 300px) {
+  body.portfolio section.gallery .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  body.portfolio section.gallery .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media (min-width: 300px) {
+  body.portfolio section.gallery .gutter-sizer {
+    width: 4%; }
+  body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+    width: 48%; }
+  body.portfolio section.gallery .grid-item {
+    margin-bottom: 5px; }
+  body.portfolio section.gallery .grid-item:hover {
+    cursor: pointer; } }
+
+@media (min-width: 568px) {
+  body.portfolio section.gallery .gutter-sizer {
+    width: 4%; }
+  body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+    width: 48%; }
+  body.portfolio section.gallery .grid-item {
+    margin-bottom: 14px; } }
+
+@media (min-width: 736px) {
+  body.portfolio section.gallery .gutter-sizer {
+    width: 2%; }
+  body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+    width: 49%; }
+  body.portfolio section.gallery .grid-item {
+    margin-bottom: 6px; } }
+
+@media (min-width: 800px) {
+  body.portfolio section.gallery .gutter-sizer {
+    width: 5%; }
+  body.portfolio section.gallery .grid-sizer, body.portfolio section.gallery .grid-item {
+    width: 30%; }
+  body.portfolio section.gallery .grid-item {
+    margin-bottom: 28px; } }
+
+@media (min-width: 992px) {
+  body.portfolio section.gallery .grid-item {
+    margin-bottom: 38px; } }
+
+@media (min-width: 1200px) {
+  body.portfolio section.gallery .grid-item {
+    margin-bottom: 46px; } }
+
+body.portfolio section.gallery img {
+  width: 100%; }
 
 body.portfolio section.next {
   height: 250px;
@@ -3053,12 +3075,44 @@ body.casestudy .project-info {
       width: calc(100% - 32px);
       float: left;
       margin-left: 16px; } }
+  @media only screen and (min-width: 769px) {
+    body.casestudy .project-info .grid-column--title {
+      width: calc(37.5% - 22px);
+      float: left;
+      margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
     body.casestudy .project-info .grid-column--title {
       width: calc(25% - 21.25px);
       float: left;
       margin-left: 17px;
       margin-left: calc(8.3333333333% - 18.4166666667px + 34px); } }
+  @media (max-width: 575px) {
+    body.casestudy .project-info .grid-column--title h2 {
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: 1.5px;
+      color: #202020;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 25px; } }
+  @media (min-width: 576px) {
+    body.casestudy .project-info .grid-column--title h2 {
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: 1.5px;
+      color: #202020;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    body.casestudy .project-info .grid-column--title h2 {
+      font-size: 44px;
+      line-height: 44px;
+      letter-spacing: 1.5px;
+      color: #202020;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0; } }
   @media (min-width: 992px) {
     body.casestudy .project-info .grid-column--title h2 {
       font-size: 44px;
@@ -3068,12 +3122,106 @@ body.casestudy .project-info {
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 0; } }
+  @media only screen and (min-width: 300px) {
+    body.casestudy .project-info .grid-column--details {
+      width: calc(100% - 32px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 769px) {
+    body.casestudy .project-info .grid-column--details {
+      width: calc(62.5% - 26px);
+      float: left;
+      margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
     body.casestudy .project-info .grid-column--details {
       width: calc(50% - 25.5px);
       float: left;
       margin-left: 17px;
       margin-left: calc(8.3333333333% - 18.4166666667px + 34px); } }
+  @media (max-width: 575px) {
+    body.casestudy .project-info .grid-column--details {
+      margin-bottom: 40px; }
+      body.casestudy .project-info .grid-column--details h3 {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 1px;
+        color: #202020;
+        margin-top: 30px;
+        margin-bottom: 6px;
+        text-transform: uppercase; }
+        body.casestudy .project-info .grid-column--details h3:first-of-type {
+          margin-top: 0px; }
+      body.casestudy .project-info .grid-column--details p {
+        font-size: 19px;
+        line-height: 27px;
+        color: #202020;
+        margin: 0; }
+      body.casestudy .project-info .grid-column--details ul {
+        padding-left: 1.5em;
+        margin: 0; }
+        body.casestudy .project-info .grid-column--details ul li {
+          padding-left: .3em;
+          font-size: 19px;
+          line-height: 27px;
+          color: #202020;
+          margin-top: 0;
+          margin-bottom: 6px; } }
+  @media (min-width: 576px) {
+    body.casestudy .project-info .grid-column--details {
+      margin-bottom: 40px; }
+      body.casestudy .project-info .grid-column--details h3 {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 1px;
+        color: #202020;
+        margin-top: 30px;
+        margin-bottom: 6px;
+        text-transform: uppercase; }
+        body.casestudy .project-info .grid-column--details h3:first-of-type {
+          margin-top: 0px; }
+      body.casestudy .project-info .grid-column--details p {
+        font-size: 19px;
+        line-height: 27px;
+        color: #202020;
+        margin: 0; }
+      body.casestudy .project-info .grid-column--details ul {
+        padding-left: 1.5em;
+        margin: 0; }
+        body.casestudy .project-info .grid-column--details ul li {
+          padding-left: .3em;
+          font-size: 19px;
+          line-height: 27px;
+          color: #202020;
+          margin-top: 0;
+          margin-bottom: 6px; } }
+  @media (min-width: 768px) {
+    body.casestudy .project-info .grid-column--details {
+      margin-bottom: 40px; }
+      body.casestudy .project-info .grid-column--details h3 {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 1px;
+        color: #202020;
+        margin-top: 30px;
+        margin-bottom: 6px;
+        text-transform: uppercase; }
+        body.casestudy .project-info .grid-column--details h3:first-of-type {
+          margin-top: 0px; }
+      body.casestudy .project-info .grid-column--details p {
+        font-size: 19px;
+        line-height: 27px;
+        color: #202020;
+        margin: 0; }
+      body.casestudy .project-info .grid-column--details ul {
+        padding-left: 1.5em;
+        margin: 0; }
+        body.casestudy .project-info .grid-column--details ul li {
+          padding-left: .3em;
+          font-size: 19px;
+          line-height: 27px;
+          color: #202020;
+          margin-top: 0;
+          margin-bottom: 6px; } }
   @media (min-width: 992px) {
     body.casestudy .project-info .grid-column--details {
       margin-bottom: 100px; }
@@ -3103,55 +3251,78 @@ body.casestudy .project-info {
           margin-top: 0;
           margin-bottom: 6px; } }
 
-body.casestudy section.gallery {
-  margin-bottom: 200px; }
-  body.casestudy section.gallery img {
-    width: 100%;
-    display: block; }
-  @media only screen and (min-width: 300px) {
-    body.casestudy section.gallery .grid-column {
-      width: calc(100% - 32px);
-      float: left;
-      margin-left: 16px; } }
-  @media only screen and (min-width: 992px) {
-    body.casestudy section.gallery .grid-column {
-      width: calc(87.5% - 31.875px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  @media (min-width: 300px) {
-    body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
-      width: 100%; }
-    body.casestudy section.gallery .grid-item {
-      margin-bottom: 27px; } }
-  @media (min-width: 568px) {
-    body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
-      width: 100%; }
-    body.casestudy section.gallery .grid-item {
-      margin-bottom: 27px; } }
-  @media (min-width: 736px) {
-    body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
-      width: 100%; }
-    body.casestudy section.gallery .grid-item {
-      margin-bottom: 27px; } }
-  @media (min-width: 800px) {
-    body.casestudy section.gallery .gutter-sizer {
-      width: 4%; }
-    body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
-      width: 48%; }
-    body.casestudy section.gallery .grid-item--width2 {
-      width: 100%; }
-    body.casestudy section.gallery .grid-item {
-      margin-bottom: 28px; } }
-  @media (min-width: 992px) {
-    body.casestudy section.gallery .grid-item {
-      margin-bottom: 36px; } }
-  @media (min-width: 1200px) {
-    body.casestudy section.gallery .grid-item {
-      margin-bottom: 40px; } }
-  @media (min-width: 1440px) {
-    body.casestudy section.gallery .grid-item {
-      margin-bottom: 48px; } }
+@media (max-width: 575px) {
+  body.casestudy section.gallery {
+    margin-bottom: 40px; } }
+
+@media (min-width: 576px) {
+  body.casestudy section.gallery {
+    margin-bottom: 75px; } }
+
+@media (min-width: 768px) {
+  body.casestudy section.gallery {
+    margin-bottom: 100px; } }
+
+@media (min-width: 992px) {
+  body.casestudy section.gallery {
+    margin-bottom: 200px; } }
+
+body.casestudy section.gallery img {
+  width: 100%;
+  display: block; }
+
+@media only screen and (min-width: 300px) {
+  body.casestudy section.gallery .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  body.casestudy section.gallery .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media (min-width: 300px) {
+  body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
+    width: 100%; }
+  body.casestudy section.gallery .grid-item {
+    margin-bottom: 27px; } }
+
+@media (min-width: 568px) {
+  body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
+    width: 100%; }
+  body.casestudy section.gallery .grid-item {
+    margin-bottom: 27px; } }
+
+@media (min-width: 736px) {
+  body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
+    width: 100%; }
+  body.casestudy section.gallery .grid-item {
+    margin-bottom: 27px; } }
+
+@media (min-width: 800px) {
+  body.casestudy section.gallery .gutter-sizer {
+    width: 4%; }
+  body.casestudy section.gallery .grid-sizer, body.casestudy section.gallery .grid-item {
+    width: 48%; }
+  body.casestudy section.gallery .grid-item--width2 {
+    width: 100%; }
+  body.casestudy section.gallery .grid-item {
+    margin-bottom: 28px; } }
+
+@media (min-width: 992px) {
+  body.casestudy section.gallery .grid-item {
+    margin-bottom: 36px; } }
+
+@media (min-width: 1200px) {
+  body.casestudy section.gallery .grid-item {
+    margin-bottom: 40px; } }
+
+@media (min-width: 1440px) {
+  body.casestudy section.gallery .grid-item {
+    margin-bottom: 48px; } }
 
 body.casestudy section.next {
   height: 250px;

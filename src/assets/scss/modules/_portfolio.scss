@@ -496,7 +496,18 @@ body.portfolio {
   }
 
   section.gallery {
-    margin-bottom: 200px;
+    @include breakpoint(xs) {
+      margin-bottom: 40px;
+    }
+    @include breakpoint(sm) {
+      margin-bottom: 75px;
+    }
+    @include breakpoint(md) {
+      margin-bottom: 100px;
+    }
+    @include breakpoint(lg) {
+      margin-bottom: 200px;
+    }
     .grid-column {
       @include grid-media($sm-grid) {
         @include grid-column(8 of 8);
