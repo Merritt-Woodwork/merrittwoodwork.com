@@ -43,7 +43,6 @@ body.casestudy {
     .outer.grid-container {
       @include breakpoint(xl) {
         margin-top: -175px;
-        // height: 500px;
       }
     }
     .grid-column {
