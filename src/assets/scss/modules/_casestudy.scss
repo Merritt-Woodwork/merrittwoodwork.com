@@ -19,18 +19,17 @@ body.casestudy {
   }
 
   .project-info {
-    height: 500px;
     padding-top: 50px;
     .outer.grid-container {
-        @include breakpoint(xl) {
-          margin-top: -145px;
-          height: 500px;
-        }
+      @include breakpoint(xl) {
+        margin-top: -175px;
+        // height: 500px;
       }
+    }
     .grid-column {
       @include grid-media($mid-grid) {
+        padding-top: 91px;
         background-color: white;
-        height: 500px;
         @include grid-column(12 of 16);
         @include grid-push(2 of 16);
       }
@@ -43,17 +42,15 @@ body.casestudy {
         @include grid-column(3 of 12);
         @include grid-push(1 of 12);
       }
-      .title {
-        @include breakpoint(lg) {
-          h2 {
-            font-size: 44px;
-            line-height: 44px;
-            letter-spacing: 1.5px;
-            color: $near-black;
-            text-transform: uppercase;
-            margin-top: 0;
-            margin-bottom: 0;
-          }
+      @include breakpoint(lg) {
+        h2 {
+          font-size: 44px;
+          line-height: 44px;
+          letter-spacing: 1.5px;
+          color: $near-black;
+          text-transform: uppercase;
+          margin-top: 0;
+          margin-bottom: 0;
         }
       }
     }
@@ -65,23 +62,183 @@ body.casestudy {
         @include grid-column(6 of 12);
         @include grid-push(1 of 12);
       }
+      @include breakpoint(lg) {
+        h3 {
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 1px;
+          color: $text;
+          margin-top: 30px;
+          margin-bottom: 6px;
+          text-transform: uppercase;
+          &:first-of-type {
+            margin-top: 0px;
+          }
+        }
+        p {
+          font-size: 19px;
+          line-height: 27px;
+          color: $near-black;
+          margin: 0;
+        }
+        ul {
+          padding-left: 1.5em;
+          margin: 0;
+          li {
+            padding-left: .3em;
+            font-size: 19px;
+            line-height: 27px;
+            color: $near-black;
+            margin-top: 0;
+            margin-bottom: 6px;
+          }
+        }
+      }
     }
   }
 
+  section.gallery {
+    margin-bottom: 200px;
+    img {
+      width: 100%;
+    }
+
+    .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+
+    @include breakpoint(300px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 5px;
+      }
+      .grid-item:hover{
+        cursor: pointer;
+      }
+    }
+
+    @include breakpoint(568px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 14px;
+      }
+    }
+
+    @include breakpoint(736px) {
+      .gutter-sizer {
+        width: 2%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 49%;
+      }
+      .grid-item {
+        margin-bottom: 6px;
+      }
+    }
+
+    @include breakpoint(800px) {
+      .gutter-sizer {
+        width: 2%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 49%;
+      }
+      .grid-item--width2 {
+        width: 100%;
+      }
+      .grid-item {
+        margin-bottom: 28px;
+      }
+    }
+
+    @include breakpoint(lg) {
+      .grid-item {
+        margin-bottom: 38px;
+      }
+    }
+
+    @include breakpoint(xl) {
+      .grid-item {
+        margin-bottom: 46px;
+      }
+    }
 
 
+  }
 
-  // .project-info .details.grid-column {
-    // @include grid-collapse;
-    // background-color: green;
-    // @include grid-media($mobile-grid) {
-    //   @include grid-column(8 of 8);
-    // }
-  //   @include grid-media($mid-grid) {
-  //     @include grid-column(7 of 14);
-  //     @include grid-push(1 of 14);
-  //   }
-  // }
+  section.next {
+    height: 250px;
+    @include breakpoint(md) {
+      // 80%
+      height: 400px;
+    }
+    @include breakpoint(xl) {
+      height: 500px;
+    }
+    background-color: $near-black;
+    text-align: center;
+    .grid-column {
+      @include grid-media($mobile-grid) {
+        @include grid-column(3 of 8);
+        // @include grid-push(1 of 12);
+      }
+      @include grid-media($mid-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
+      @include grid-media($desktop-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
+      .color {
 
+        width: 100%;
+        height: 18px;
+        background-color: #A45833;
+        margin-top: -9px;
+      }
+    }
+    .center {
+      @include vertical-align;
+    }
+    a {
+      text-decoration: none;
+      h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #A45833;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: .8em;
+      }
+      h2 {
+        font-size: 44px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+  }
 
 }

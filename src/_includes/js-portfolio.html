@@ -102,22 +102,6 @@
       $grid.isotope('layout');
     });
 
-    // trigger layout after each image loads to avoid overlap
-    // var $grid = $('.grid').imagesLoaded( function() {
-    //   // init Isotope after all images have loaded
-    //   $grid.isotope({
-    //     // options
-    //     columnWidth: '.grid-sizer',
-    //     itemSelector: '.grid-item',
-    //     masonry: {
-    //       gutter: '.gutter-sizer',
-    //       percentPosition: true
-    //     }
-    //   });
-    // });
-
-
-
     $('.tabs').on( 'click', '.isoFilter', function(e) {
         e.preventDefault();
         $(this).parents().find('.isoFilter').removeClass('active');
