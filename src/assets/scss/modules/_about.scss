@@ -53,12 +53,15 @@ body.about {
   section.offset-images {
     @include breakpoint(xs) {
       margin-top: 40px;
+      margin-bottom: 40px;
     }
     @include breakpoint(sm) {
       margin-top: 75px;
+      margin-bottom: 75px;
     }
     @include breakpoint(md) {
       margin-top: 100px;
+      margin-bottom: 100px;
     }
     @include breakpoint(lg) {
       margin-top: 130px;
@@ -66,7 +69,7 @@ body.about {
     }
     @include breakpoint(xl) {
       margin-top: 130px;
-      margin-bottom: 200px;
+      margin-bottom: 130px;
     }
     .grid-column {
       @include grid-media($sm-grid) {
@@ -132,6 +135,44 @@ body.about {
           max-width: 496px;
         }
       }
+    }
+  }
+
+  section.text-block {
+    background-color: #f8f7f5;
+    text-align: center;
+    padding: 85px 0 85px 0; // 50%
+    @include breakpoint(md) {
+      // 70%
+      padding: 108px 0 108px 0;
+    }
+    @include breakpoint(lg) {
+      padding: 140px 0 140px 0;
+    }
+    @include breakpoint(xl) {
+      padding: 170px 0 170px 0;
+    }
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(10 of 16);
+        @include grid-push(3 of 16);
+      }
+    }
+    h1 {
+      font-size: 36px;
+      line-height: 1.25;
+      @include breakpoint(lg) {
+        font-size: 46px;
+        line-height: 1.17;
+      }
+      line-height: 1.17;
+      font-weight: 300;
+      margin: 0;
+      text-align: center;
+      color: #A45833;
     }
   }
 
