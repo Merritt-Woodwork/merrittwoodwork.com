@@ -39,8 +39,11 @@ body.casestudy {
   }
 
   .headline-block.pull {
-    @include breakpoint(300px, 991px) {
-      margin-top: 50px;
+    @include breakpoint(xs) {
+      padding-top: 50px;
+    }
+    @include breakpoint(sm) {
+      padding-top: 75px;
     }
     @include breakpoint(lg) {
       margin-top: -130px;

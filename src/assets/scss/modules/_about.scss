@@ -39,8 +39,11 @@ body.about {
   }
 
   .headline-block.pull {
-    @include breakpoint(300px, 991px) {
-      margin-top: 50px;
+    @include breakpoint(xs) {
+      padding-top: 50px;
+    }
+    @include breakpoint(sm) {
+      padding-top: 75px;
     }
     @include breakpoint(lg) {
       margin-top: -130px;
@@ -59,12 +62,16 @@ body.about {
     }
     @include breakpoint(lg) {
       margin-top: 130px;
+      margin-bottom: 100px;
+    }
+    @include breakpoint(xl) {
+      margin-top: 130px;
       margin-bottom: 200px;
     }
     .grid-column {
       @include grid-media($sm-grid) {
-        @include grid-column(6 of 8);
-        @include grid-push(1 of 8);
+        @include grid-column(8 of 8);
+        // @include grid-push(1 of 8);
       }
       @include grid-media($lg-grid) {
         @include grid-column(12 of 16);
@@ -72,16 +79,18 @@ body.about {
       }
     }
     .left {
+      @include breakpoint(300px, 767px) {
+        margin-bottom: 30px;
+      }
       @include breakpoint(md) {
         float: left;
       }
-
       img {
          width: 100%;
          max-width: 100%;
          @include breakpoint(md) {
-           width: 220px;
-           max-width: 220px;
+           width: 40vw;
+           max-width: 40vw;
          }
          @include breakpoint(lg) {
            width: 341px;
@@ -104,8 +113,8 @@ body.about {
          max-width: 100%;
          @include breakpoint(md) {
           margin-top: 74px;
-          width: 220px;
-          max-width: 220px;
+          width: 40vw;
+          max-width: 40vw;
          }
          @include breakpoint(lg) {
            margin-top: 96px;

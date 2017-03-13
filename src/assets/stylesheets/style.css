@@ -3267,9 +3267,13 @@ body.casestudy .hero .hero-image {
     body.casestudy .hero .hero-image {
       height: 621px; } }
 
-@media (min-width: 300px) and (max-width: 991px) {
+@media (max-width: 575px) {
   body.casestudy .headline-block.pull {
-    margin-top: 50px; } }
+    padding-top: 50px; } }
+
+@media (min-width: 576px) {
+  body.casestudy .headline-block.pull {
+    padding-top: 75px; } }
 
 @media (min-width: 992px) {
   body.casestudy .headline-block.pull {
@@ -3449,9 +3453,13 @@ body.about .hero .hero-image {
     body.about .hero .hero-image {
       height: 621px; } }
 
-@media (min-width: 300px) and (max-width: 991px) {
+@media (max-width: 575px) {
   body.about .headline-block.pull {
-    margin-top: 50px; } }
+    padding-top: 50px; } }
+
+@media (min-width: 576px) {
+  body.about .headline-block.pull {
+    padding-top: 75px; } }
 
 @media (min-width: 992px) {
   body.about .headline-block.pull {
@@ -3472,14 +3480,18 @@ body.about .hero .hero-image {
 @media (min-width: 992px) {
   body.about section.offset-images {
     margin-top: 130px;
+    margin-bottom: 100px; } }
+
+@media (min-width: 1200px) {
+  body.about section.offset-images {
+    margin-top: 130px;
     margin-bottom: 200px; } }
 
 @media only screen and (min-width: 300px) {
   body.about section.offset-images .grid-column {
-    width: calc(75% - 28px);
+    width: calc(100% - 32px);
     float: left;
-    margin-left: 16px;
-    margin-left: calc(12.5% - 18px + 32px); } }
+    margin-left: 16px; } }
 
 @media only screen and (min-width: 992px) {
   body.about section.offset-images .grid-column {
@@ -3487,6 +3499,10 @@ body.about .hero .hero-image {
     float: left;
     margin-left: 17px;
     margin-left: calc(12.5% - 19.125px + 34px); } }
+
+@media (min-width: 300px) and (max-width: 767px) {
+  body.about section.offset-images .left {
+    margin-bottom: 30px; } }
 
 @media (min-width: 768px) {
   body.about section.offset-images .left {
@@ -3497,8 +3513,8 @@ body.about section.offset-images .left img {
   max-width: 100%; }
   @media (min-width: 768px) {
     body.about section.offset-images .left img {
-      width: 220px;
-      max-width: 220px; } }
+      width: 40vw;
+      max-width: 40vw; } }
   @media (min-width: 992px) {
     body.about section.offset-images .left img {
       width: 341px;
@@ -3520,8 +3536,8 @@ body.about section.offset-images .right {
     @media (min-width: 768px) {
       body.about section.offset-images .right img {
         margin-top: 74px;
-        width: 220px;
-        max-width: 220px; } }
+        width: 40vw;
+        max-width: 40vw; } }
     @media (min-width: 992px) {
       body.about section.offset-images .right img {
         margin-top: 96px;
