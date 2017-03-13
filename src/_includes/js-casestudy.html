@@ -5,9 +5,9 @@
   // init Isotope
   var $grid = $('.grid').isotope({
                 // options
-                columnWidth: '.grid-sizer',
                 itemSelector: '.grid-item',
                 masonry: {
+                  columnWidth: '.grid-sizer',
                   gutter: '.gutter-sizer',
                   percentPosition: true
                 }
@@ -17,6 +17,7 @@
   $grid.imagesLoaded().progress( function() {
     $grid.isotope('layout');
   });
+
 
   })();
 </script>

@@ -93,6 +93,7 @@ body.casestudy {
             margin-bottom: 6px;
           }
         }
+        margin-bottom: 100px;
       }
     }
   }
@@ -101,6 +102,7 @@ body.casestudy {
     margin-bottom: 200px;
     img {
       width: 100%;
+      display: block;
     }
 
     .grid-column {
@@ -114,54 +116,43 @@ body.casestudy {
     }
 
     @include breakpoint(300px) {
-      .gutter-sizer {
-        width: 4%;
-      }
       .grid-sizer, .grid-item {
         // width: calc(48% + 8px);
-        width: 48%;
+        width: 100%;
       }
       .grid-item {
-        margin-bottom: 5px;
-      }
-      .grid-item:hover{
-        cursor: pointer;
+        margin-bottom: 27px;
       }
     }
 
     @include breakpoint(568px) {
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 100%;
+      }
+      .grid-item {
+        margin-bottom: 27px;
+      }
+    }
+
+    @include breakpoint(736px) {
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 100%;
+      }
+      .grid-item {
+        margin-bottom: 27px;
+      }
+    }
+
+    @include breakpoint(800px) {
+
       .gutter-sizer {
         width: 4%;
       }
       .grid-sizer, .grid-item {
         // width: calc(48% + 8px);
         width: 48%;
-      }
-      .grid-item {
-        margin-bottom: 14px;
-      }
-    }
-
-    @include breakpoint(736px) {
-      .gutter-sizer {
-        width: 2%;
-      }
-      .grid-sizer, .grid-item {
-        // width: calc(48% + 8px);
-        width: 49%;
-      }
-      .grid-item {
-        margin-bottom: 6px;
-      }
-    }
-
-    @include breakpoint(800px) {
-      .gutter-sizer {
-        width: 2%;
-      }
-      .grid-sizer, .grid-item {
-        // width: calc(48% + 8px);
-        width: 49%;
       }
       .grid-item--width2 {
         width: 100%;
@@ -173,18 +164,27 @@ body.casestudy {
 
     @include breakpoint(lg) {
       .grid-item {
-        margin-bottom: 38px;
+        margin-bottom: 36px;
       }
     }
 
     @include breakpoint(xl) {
       .grid-item {
-        margin-bottom: 46px;
+        margin-bottom: 40px;
+      }
+    }
+
+    @include breakpoint(xxl) {
+      .grid-item {
+        margin-bottom: 48px;
       }
     }
 
 
   }
+
+
+
 
   section.next {
     height: 250px;
