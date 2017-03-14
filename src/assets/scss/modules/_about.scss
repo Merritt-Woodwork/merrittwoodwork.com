@@ -488,4 +488,60 @@ body.about {
     }
   }
 
+  .remodal {
+    h2 {
+      font-size: 36px;
+      @include breakpoint(768px) {
+        font-size: 44px;
+      }
+      line-height: 1;
+      margin: 0;
+      color: $text;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    h5 {
+      font-size: 12px;
+      margin-top: .8em;
+      margin-bottom: 0;
+      color: $text;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: left;
+      padding-bottom: 5%;
+      @include breakpoint(768px) {
+        padding-bottom: 10%;
+      }
+    }
+    p {
+      font-size: 19px;
+      line-height: 27px;
+      @include breakpoint(768px) {
+        padding: 0 70px;
+      }
+      margin-top: 0;
+      margin-bottom: 1em;
+      text-align: left;
+    }
+    p.quote {
+      font-size: 24px;
+      line-height: 36px;
+      @include breakpoint(768px) {
+        font-size: 36px;
+        line-height: 45px;
+      }
+      color: $brand;
+      @include breakpoint(768px) {
+        text-align: center;
+      }
+      padding-bottom: 5%;
+      @include breakpoint(768px) {
+        padding: 0 30px 10% 30px;
+      }
+      margin: 0;
+    }
+
+  }
+
 }
