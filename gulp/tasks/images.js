@@ -21,12 +21,12 @@ gulp.task('images', () =>
 // 'gulp uploads' -- copies uploads directory
 gulp.task('uploads', () =>
   gulp.src('src/uploads/**/*')
-    .pipe(cache(imagemin([
-      imagemin.gifsicle({interlaced: true}),
-      imagemin.jpegtran({progressive: true}),
-      imagemin.optipng(),
-      imagemin.svgo({plugins: [{cleanupIDs: false}]})
-    ])))
+    // .pipe(cache(imagemin([
+    //   imagemin.gifsicle({interlaced: true}),
+    //   imagemin.jpegtran({progressive: true}),
+    //   imagemin.optipng(),
+    //   imagemin.svgo({plugins: [{cleanupIDs: false}]})
+    // ])))
     .pipe(gulp.dest('.tmp/uploads'))
     .pipe(gulp.dest('src/uploads')) // for cloud cannon
 );
