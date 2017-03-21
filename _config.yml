@@ -4,10 +4,10 @@ title: Merritt Woodwork
 description:
 url: http://www.merrittwoodwork.com
 
-# Used so Jekyll outputs the site correctly so Gulp can do what it wants
-source: .tmp/src
-destination: .tmp/dist
-exclude: ['assets']
+# CloudCannon uses these:
+source: src
+destination: dist
+exclude:
 
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on

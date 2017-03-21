@@ -8,8 +8,13 @@
 
   <!-- CSS -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="/assets/stylesheets/style.css">
   <!-- endinject -->
+
+  <!-- for cloudcannon -->
+  {% if jekyll.environment == 'production' %}
+    <link rel=stylesheet href=/assets/stylesheets/style.css>
+  {% endif %}
+  <!-- end -->
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/touch/apple-touch-icon-144-precomposed.png">

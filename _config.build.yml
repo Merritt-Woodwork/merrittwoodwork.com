@@ -1,8 +1,15 @@
 # Run during the 'gulp build' command
-# Overrides these options in _config.yml
+# Overrides _config.yml
+
+# these are the required settings for jekyllized
+# that can't live in _config.yml b/c that is what cloudcannon must use
+source: .tmp/src
+destination: .tmp/dist
+exclude: ['assets']
 
 # Hides your drafts and future posts
 future: false
 show_drafts: false
 # Removes the upper limit for posts generated
 limit_posts: 0
+
