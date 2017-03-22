@@ -1687,7 +1687,7 @@ header {
       height: 100%; }
       header .grid-column .left a {
         margin-left: 1.5rem;
-        padding-bottom: 5px;
+        padding-bottom: 6px;
         border-bottom: 1px solid transparent; }
         header .grid-column .left a:first-of-type {
           margin-left: 0; }
@@ -1703,7 +1703,7 @@ header {
       height: 100%; }
       header .grid-column .right a {
         margin-right: 1.5rem;
-        padding-bottom: 5px;
+        padding-bottom: 6px;
         border-bottom: 1px solid transparent; }
         header .grid-column .right a:last-of-type {
           margin-right: 0; }
@@ -2207,6 +2207,7 @@ body.home section.header-video {
     letter-spacing: 2px;
     font-size: 18px;
     line-height: 1.16;
+    padding-bottom: 6px;
     border-bottom: 1px solid #a45833; }
   body.home section.header-video .header-video__close-trigger {
     z-index: 99;
@@ -2267,7 +2268,7 @@ body.home section.intro {
         line-height: 1.17; } }
   body.home section.intro h3 {
     font-size: 18px;
-    line-height: 1.5;
+    padding-bottom: 6px;
     border-bottom: 1px solid #a45833;
     letter-spacing: 1px;
     color: #202020;
@@ -2385,7 +2386,7 @@ body.home section.case-studies {
         bottom: 16px;
         left: 30px;
         font-size: 16px;
-        line-height: 1.5;
+        padding-bottom: 6px;
         border-bottom: 1px solid #a45833;
         letter-spacing: 1px;
         color: #fff;
@@ -3976,6 +3977,7 @@ body.about section.gallery h3 {
       color: #202020;
       letter-spacing: 1px;
       margin-top: .8rem;
+      padding-bottom: 6px;
       border-bottom: 1px solid #a45833; }
   body.about section.gallery .grid-item:hover {
     cursor: pointer; } }
