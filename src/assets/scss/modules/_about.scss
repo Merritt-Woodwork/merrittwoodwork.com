@@ -82,6 +82,14 @@ body.about {
       }
     }
     .left {
+      p {
+        text-transform: uppercase;
+        font-size: 12px;
+        color: $text;
+        letter-spacing: 1px;
+        margin-top: .8rem;
+        margin-bottom: 0;
+      }
       @include breakpoint(300px, 767px) {
         margin-bottom: 30px;
       }
@@ -111,6 +119,14 @@ body.about {
     }
     .right {
       float: right;
+      p {
+        text-transform: uppercase;
+        font-size: 12px;
+        color: $text;
+        letter-spacing: 1px;
+        margin-top: .8rem;
+        margin-bottom: 0;
+      }
       img {
          width: 100%;
          max-width: 100%;
@@ -372,7 +388,30 @@ body.about {
         width: 48%;
       }
       .grid-item {
-        margin-bottom: 5px;
+        .staff-name {
+          margin-top: 1rem;
+          margin-bottom: 0;
+          text-align: left;
+        }
+        .staff-title {
+          text-transform: uppercase;
+          font-size: 12px;
+          color: $text;
+          letter-spacing: 1px;
+          margin-top: 2px;
+          margin-bottom: 0;
+        }
+        .staff-bio {
+          display: inline-block;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 12px;
+          color: $text;
+          letter-spacing: 1px;
+          margin-top: .8rem;
+          border-bottom: 1px solid $brand;
+        }
+        margin-bottom: 30px;
       }
       .grid-item:hover{
         cursor: pointer;
@@ -388,7 +427,7 @@ body.about {
         width: 48%;
       }
       .grid-item {
-        margin-bottom: 14px;
+        margin-bottom: 30px;
       }
     }
 
