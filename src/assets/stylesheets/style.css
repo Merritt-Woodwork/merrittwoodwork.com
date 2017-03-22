@@ -1688,13 +1688,13 @@ header {
       header .grid-column .left a {
         margin-left: 1.5rem;
         padding-bottom: 5px;
-        border-bottom: 2px solid transparent; }
+        border-bottom: 1px solid transparent; }
         header .grid-column .left a:first-of-type {
           margin-left: 0; }
         header .grid-column .left a.active {
-          border-bottom: 2px solid #a45833; }
+          border-bottom: 1px solid #a45833; }
         header .grid-column .left a:hover {
-          border-bottom: 2px solid #a45833; }
+          border-bottom: 1px solid #a45833; }
     header .grid-column .right {
       display: block;
       position: absolute;
@@ -1704,13 +1704,13 @@ header {
       header .grid-column .right a {
         margin-right: 1.5rem;
         padding-bottom: 5px;
-        border-bottom: 2px solid transparent; }
+        border-bottom: 1px solid transparent; }
         header .grid-column .right a:last-of-type {
           margin-right: 0; }
         header .grid-column .right a.active {
-          border-bottom: 2px solid #a45833; }
+          border-bottom: 1px solid #a45833; }
         header .grid-column .right a:hover {
-          border-bottom: 2px solid #a45833; }
+          border-bottom: 1px solid #a45833; }
     header .grid-column .left a, header .grid-column .right a {
       position: relative;
       top: 60%;

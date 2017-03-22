@@ -125,15 +125,15 @@ header {
         a {
           margin-left: 1.5rem;
           padding-bottom: 5px;
-          border-bottom: 2px solid transparent;
+          border-bottom: 1px solid transparent;
           &:first-of-type {
             margin-left: 0;
           }
           &.active {
-            border-bottom: 2px solid $brand;
+            border-bottom: 1px solid $brand;
           }
           &:hover{
-            border-bottom: 2px solid $brand;
+            border-bottom: 1px solid $brand;
           }
         }
       }
@@ -147,15 +147,15 @@ header {
         a {
           margin-right: 1.5rem;
           padding-bottom: 5px;
-          border-bottom: 2px solid transparent;
+          border-bottom: 1px solid transparent;
           &:last-of-type {
             margin-right: 0;
           }
           &.active {
-            border-bottom: 2px solid $brand;
+            border-bottom: 1px solid $brand;
           }
           &:hover{
-            border-bottom: 2px solid $brand;
+            border-bottom: 1px solid $brand;
           }
         }
       }

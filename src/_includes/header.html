@@ -12,7 +12,7 @@
           </button>
           </div>
           <div class="left header-text">
-            <a {% if page.class == 'portfolio' %}class="active"{% endif %} href="/portfolio">PORTFOLIO</a>
+            <a {% if page.class == 'portfolio' or page.class == 'casestudy' %}class="active"{% endif %} href="/portfolio">PORTFOLIO</a>
             <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">CAPABILITIES</a>
             <a {% if page.class == 'about' %}class="active"{% endif %} href="/about">ABOUT</a>
           </div>
