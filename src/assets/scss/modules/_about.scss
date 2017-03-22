@@ -282,7 +282,7 @@ body.about {
 
   section.headline-block.flow {
     .grid-column {
-      @include breakpoint(sm) {
+      @include breakpoint(xs) {
         padding-top: 50px;
         padding-bottom: 50px;
       }

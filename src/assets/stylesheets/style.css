@@ -3849,7 +3849,7 @@ body.about section.text-block {
         font-size: 46px;
         line-height: 1.17; } }
 
-@media (min-width: 576px) {
+@media (max-width: 575px) {
   body.about section.headline-block.flow .grid-column {
     padding-top: 50px;
     padding-bottom: 50px; } }
@@ -4184,6 +4184,11 @@ body.grid .grid-container {
   @media (min-width: 1440px) {
     .grid-container {
       width: 1440px; } }
+
+@media (max-width: 1199px) {
+  .grid-container.fluid .grid-column {
+    width: 100% !important;
+    margin: 0 !important; } }
 
 @font-face {
   font-family: 'Portrait Web';
