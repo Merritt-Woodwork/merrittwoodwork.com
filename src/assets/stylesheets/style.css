@@ -1859,9 +1859,6 @@ section.jumbo-hero {
     color: white; }
     @media (min-width: 300px) and (max-width: 374px) {
       section.jumbo-hero h1 {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
         font-size: 28px;
         line-height: 1.1;
         letter-spacing: 2px;
@@ -1869,9 +1866,6 @@ section.jumbo-hero {
         text-transform: uppercase; } }
     @media (min-width: 375px) and (max-width: 700px) {
       section.jumbo-hero h1 {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 2px;
@@ -1879,14 +1873,22 @@ section.jumbo-hero {
         text-transform: uppercase; } }
     @media (min-width: 701px) {
       section.jumbo-hero h1 {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
         font-size: 63px;
         line-height: 1;
         letter-spacing: 2px;
         color: #FFFFFF;
         text-transform: uppercase; } }
+  @media only screen and (min-width: 300px) {
+    section.jumbo-hero .headline {
+      width: calc(87.5% - 30px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 992px) {
+    section.jumbo-hero .headline {
+      width: calc(50% - 25.5px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
 
 @media (min-width: 300px) and (max-width: 991px) {
   .fixed-header-wrapper {

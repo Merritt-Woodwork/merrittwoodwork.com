@@ -508,7 +508,7 @@ section.jumbo-hero {
   h1 {
     color: white;
     @include breakpoint(300px, 374px) {
-      @include vertical-align(absolute);
+      // @include vertical-align(absolute);
       font-size: 28px;
       line-height: 1.1;
       letter-spacing: 2px;
@@ -516,7 +516,7 @@ section.jumbo-hero {
       text-transform: uppercase;
     }
     @include breakpoint(375px, 700px) {
-      @include vertical-align(absolute);
+      // @include vertical-align(absolute);
       font-size: 36px;
       line-height: 1.1;
       letter-spacing: 2px;
@@ -524,12 +524,21 @@ section.jumbo-hero {
       text-transform: uppercase;
     }
     @include breakpoint(701px) {
-      @include vertical-align(absolute);
+      // @include vertical-align(absolute);
       font-size: 63px;
       line-height: 1;
       letter-spacing: 2px;
       color: #FFFFFF;
       text-transform: uppercase;
+    }
+  }
+  .headline {
+    @include grid-media($sm-grid) {
+      @include grid-column(7 of 8);
+    }
+    @include grid-media($lg-grid) {
+      @include grid-column(8 of 16);
+      @include grid-push(1 of 16);
     }
   }
 }
