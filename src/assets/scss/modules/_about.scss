@@ -40,22 +40,26 @@ body.about {
 
   section.offset-images {
     @include breakpoint(xs) {
-      margin-top: 40px;
-      margin-bottom: 40px;
+      margin-top: 26px;
+      margin-bottom: 26px;
     }
     @include breakpoint(sm) {
-      margin-top: 75px;
-      margin-bottom: 75px;
+      margin-top: 52px;
+      margin-bottom: 52px;
     }
     @include breakpoint(md) {
-      margin-top: 100px;
-      margin-bottom: 100px;
+      margin-top: 69px;
+      margin-bottom: 69px;
     }
     @include breakpoint(lg) {
-      margin-top: 130px;
-      margin-bottom: 100px;
+      margin-top: 90px;
+      margin-bottom: 90px;
     }
     @include breakpoint(xl) {
+      margin-top: 108px;
+      margin-bottom: 108px;
+    }
+    @include breakpoint(xxl) {
       margin-top: 130px;
       margin-bottom: 130px;
     }
@@ -145,19 +149,23 @@ body.about {
   section.offset-images.bottom {
     @include breakpoint(xs) {
       margin-top: 0px;
-      margin-bottom: 40px;
+      margin-bottom: 26px;
     }
     @include breakpoint(sm) {
       margin-top: 0px;
-      margin-bottom: 75px;
+      margin-bottom: 52px;
     }
     @include breakpoint(md) {
       margin-top: 0px;
-      margin-bottom: 100px;
+      margin-bottom: 69px;
     }
     @include breakpoint(lg) {
       margin-top: 0px;
-      margin-bottom: 100px;
+      margin-bottom: 90px;
+    }
+    @include breakpoint(xl) {
+      margin-top: 0px;
+      margin-bottom: 103px;
     }
     @include breakpoint(xl) {
       margin-top: 0px;
