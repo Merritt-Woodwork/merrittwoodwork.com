@@ -3,6 +3,24 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.small .wrapper {
+  @media (max-width: 768px) {
+    display: block;
+  }
+  @media (min-width: 769px) {
+    display: none;
+  }
+}
+
+.not-small .wrapper {
+  @media (max-width: 768px) {
+    display: none;
+  }
+  @media (min-width: 769px) {
+    display: block;
+  }
+}
+
 // LIST-BLOCK
 section.list-block {
   background-color: #f8f7f5;
@@ -401,8 +419,10 @@ section.image-text-block {
     }
   }
   .grid-column {
-    @include grid-media($sm-grid) {
+    @media (min-width: 769px) {
       display: flex; // to use flexbox inside
+    }
+    @include grid-media($sm-grid) {
       @include grid-column(8 of 8);
       background-color: white;
     }
@@ -430,8 +450,19 @@ section.image-text-block {
         letter-spacing: 1.5px;
         color: $near-black;
         text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 25px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 19px;
+        line-height: 27px;
+        color: $near-black;
+        margin: 0 0 1em 0;
+      }
+    }
+    @media (min-width: 768px) {
+      p {
+        margin-bottom: 2rem;
       }
     }
     @include breakpoint(sm) {
@@ -451,7 +482,7 @@ section.image-text-block {
         margin: 0 0 1em 0;
       }
     }
-    @include breakpoint(md) {
+    @media (min-width: 769px) {
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -460,6 +491,8 @@ section.image-text-block {
       .wrapper {
         flex: 0 1 auto;
       }
+    }
+    @include breakpoint(md) {
       h2 {
         font-size: 44px;
         line-height: 44px;
@@ -473,7 +506,7 @@ section.image-text-block {
     @include breakpoint(xl) {
     }
   }
-  .grid-column--copy {
+  .grid-column--image {
     @include grid-media($sm-grid) {
       @include grid-column(8 of 8);
     }
@@ -483,6 +516,9 @@ section.image-text-block {
     @include grid-media($lg-grid) {
       @include grid-column(8 of 14);
       // @include grid-push(1 of 12);
+    }
+    @media (max-width: 768px) {
+      margin-bottom: 1.5rem
     }
     @include breakpoint(xs) {
       img {

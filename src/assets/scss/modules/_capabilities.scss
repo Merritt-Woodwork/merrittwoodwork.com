@@ -38,14 +38,43 @@
   }
 
   .image-text-block.top {
+    @include breakpoint(xs) {
+      margin-top: 45px;
+      margin-bottom: 16px;
+    }
+    @include breakpoint(sm) {
+      margin-top: 96px;
+      margin-bottom: 34px;
+    }
+    @include breakpoint(md) {
+      margin-top: 128px;
+      margin-bottom: 45px;
+    }
+    @include breakpoint(lg) {
+      margin-top: 165px;
+      margin-bottom: 58px;
+    }
     @include breakpoint(xl) {
       margin-top: 200px;
       margin-bottom: 70px;
     }
   }
   .image-text-block.bottom {
-    @include breakpoint(xl) {
+    @include breakpoint(xs) {
       margin-top: 0;
+      margin-bottom: 16px;
+    }
+    @include breakpoint(sm) {
+      margin-top: 0;
+      margin-bottom: 34px;
+    }
+    @include breakpoint(md) {
+      margin-bottom: 128px;
+    }
+    @include breakpoint(lg) {
+      margin-bottom: 165px;
+    }
+    @include breakpoint(xl) {
       margin-bottom: 200px;
     }
   }
