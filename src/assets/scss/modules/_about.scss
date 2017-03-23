@@ -38,21 +38,21 @@ body.about {
     }
   }
 
-  .headline-block.pull {
-    @include breakpoint(xs) {
-      padding-top: 50px;
-    }
-    @include breakpoint(sm) {
-      padding-top: 75px;
-    }
-    @include breakpoint(lg) {
-      padding-top: 0;
-      .grid-column {
-        margin-top: -130px;
-        padding-top: 90px;
-      }
-    }
-  }
+  // .headline-block.pull {
+  //   @include breakpoint(xs) {
+  //     padding-top: 50px;
+  //   }
+  //   @include breakpoint(sm) {
+  //     padding-top: 75px;
+  //   }
+  //   @include breakpoint(lg) {
+  //     padding-top: 0;
+  //     .grid-column {
+  //       margin-top: -130px;
+  //       padding-top: 90px;
+  //     }
+  //   }
+  // }
 
   section.offset-images {
     @include breakpoint(xs) {
