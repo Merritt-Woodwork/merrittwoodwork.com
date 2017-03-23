@@ -3,7 +3,7 @@ const gulp = require('gulp');
 const del = require('del');
 
 gulp.task('clean:assets', () => {
-  return del(['.tmp/**/*', '!.tmp/assets', '!.tmp/assets/images', '!.tmp/assets/images/**/*', 'dist/assets']);
+  return del(['.tmp/**/*', '!.tmp/assets', '!.tmp/assets/images', '!.tmp/uploads/**/*', 'dist/assets']);
 });
 gulp.task('clean:images', () => {
   return del(['.tmp/assets/images', 'dist/assets/images']);

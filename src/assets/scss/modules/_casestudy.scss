@@ -20,7 +20,7 @@ body.casestudy {
       }
     }
     .hero-image {
-      background-image: url("/assets/images/casestudy-cakewalk.jpg");
+      background-image: url("/uploads/casestudy-cakewalk.jpg");
       background-size: cover;
       background-position: center;
       @include breakpoint(300px, 500px) {
@@ -46,7 +46,11 @@ body.casestudy {
       padding-top: 75px;
     }
     @include breakpoint(lg) {
-      margin-top: -130px;
+      padding-top: 0;
+      .grid-column {
+        margin-top: -130px;
+        padding-top: 90px;
+      }
     }
   }
 

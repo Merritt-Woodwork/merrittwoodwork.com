@@ -20,7 +20,7 @@ body.about {
       }
     }
     .hero-image {
-      background-image: url("/assets/images/hero-about.jpg");
+      background-image: url("/uploads/hero-about.jpg");
       background-size: cover;
       background-position: center;
       @include breakpoint(300px, 500px) {
@@ -46,7 +46,11 @@ body.about {
       padding-top: 75px;
     }
     @include breakpoint(lg) {
-      margin-top: -130px;
+      padding-top: 0;
+      .grid-column {
+        margin-top: -130px;
+        padding-top: 90px;
+      }
     }
   }
 

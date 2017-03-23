@@ -1,0 +1,81 @@
+.capabilities {
+  @include breakpoint(300px, 1199px) {
+    .fluid.grid-container {
+      width: 100%;
+    }
+  }
+
+  .hero {
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(16 of 16);
+      }
+      @include grid-media($xl-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+    .hero-image {
+      background-image: url("/uploads/hero-about.jpg");
+      background-size: cover;
+      background-position: center;
+      @include breakpoint(300px, 500px) {
+        height: 33vh;
+      }
+      @include breakpoint(501px, 767px) {
+        height: 250px;
+      }
+      @include breakpoint(md) {
+        height: 480px;
+      }
+      @include breakpoint(lg) {
+        height: 621px;
+      }
+    }
+  }
+
+  .headline-block.pull {
+    @include breakpoint(xs) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    @include breakpoint(sm) {
+      padding-top: 75px;
+      padding-bottom: 75px;
+    }
+    @include breakpoint(md) {
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+    @include breakpoint(lg) {
+      padding-top: 0;
+      padding-bottom: 0;
+      .grid-column {
+        margin-top: -130px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+    }
+    @include breakpoint(xl) {
+      // padding-top: 0;
+      .grid-column {
+        margin-top: -130px;
+        padding-top: 85px;
+        padding-bottom: 85px;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+}

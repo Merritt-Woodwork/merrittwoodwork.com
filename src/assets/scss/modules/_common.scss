@@ -3,6 +3,90 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// LIST-BLOCK
+section.list-block {
+  background-color: #f8f7f5;
+  .outer.grid-container {
+  }
+  .grid-column {
+    @include grid-media($sm-grid) {
+      @include grid-column(8 of 8);
+    }
+    @include grid-media($lg-grid) {
+      @include grid-column(12 of 16);
+      @include grid-push(3 of 16);
+    }
+    @include grid-media($xl-grid) {
+      @include grid-column(12 of 16);
+      @include grid-push(2 of 16);
+    }
+    @include breakpoint(xs) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    @include breakpoint(sm) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    @include breakpoint(md) {
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+    @include breakpoint(lg) {
+      padding-top: 83px;
+      padding-bottom: 83px;
+    }
+    @include breakpoint(xl) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  .list-column {
+    @include grid-media($sm-grid) {
+      @include grid-column(4 of 8);
+    }
+    @include grid-media($md-grid) {
+      @include grid-column(4 of 8);
+    }
+    @include grid-media($lg-grid) {
+      @include grid-column(4 of 12);
+      // @include grid-push(1 of 12);
+    }
+    @include grid-media($xl-grid) {
+      @include grid-column(2 of 12);
+      @include grid-push(1 of 12);
+    }
+    @include breakpoint(xs) {
+      p {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 1.75rem;
+        letter-spacing: 1px;
+        color: #202020;
+        text-transform: uppercase;
+      }
+    }
+    @include breakpoint(sm) {
+      p {
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 1.75rem;
+        letter-spacing: 1px;
+        color: #202020;
+        text-transform: uppercase;
+      }
+
+    }
+    @include breakpoint(md) {
+
+    }
+    @include breakpoint(lg) {
+
+    }
+  }
+
+}
+
 // HEADLINE BLOCK
 .headline-block {
   .outer.grid-container {
@@ -17,7 +101,6 @@ html {
       background-color: white;
     }
     @include grid-media($lg-grid) {
-      padding-top: 91px;
       background-color: white;
       @include grid-column(12 of 16);
       @include grid-push(2 of 16);
