@@ -39,22 +39,26 @@ section.list-block {
       @include grid-push(2 of 16);
     }
     @include breakpoint(xs) {
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
     @include breakpoint(sm) {
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
     @include breakpoint(md) {
-      padding-top: 64px;
-      padding-bottom: 64px;
+      padding-top: 53px;
+      padding-bottom: 53px;
     }
     @include breakpoint(lg) {
+      padding-top: 69px;
+      padding-bottom:693px;
+    }
+    @include breakpoint(xl) {
       padding-top: 83px;
       padding-bottom: 83px;
     }
-    @include breakpoint(xl) {
+    @include breakpoint(xxl) {
       padding-top: 100px;
       padding-bottom: 100px;
     }
@@ -253,32 +257,39 @@ section.headline-block {
 section.headline-block.flow {
   .grid-column {
     @include breakpoint(xs) {
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
     @include breakpoint(sm) {
-      padding-top: 96px;
-      padding-bottom: 96px;
+      padding-top: 80px;
+      padding-bottom: 80px;
       .inner-wrapper {
         float: left;
         margin-bottom: 48px;
       }
     }
     @include breakpoint(md) {
-      padding-top: 128px;
-      padding-bottom: 128px;
+      padding-top: 106px;
+      padding-bottom: 106px;
       .inner-wrapper {
         margin-bottom: 64px;
       }
     }
     @include breakpoint(lg) {
-      padding-top: 165px;
-      padding-bottom: 165px;
+      padding-top: 138px;
+      padding-bottom: 138px;
       .inner-wrapper {
         margin-bottom: 83px;
       }
     }
     @include breakpoint(xl) {
+      padding-top: 166px;
+      padding-bottom: 166px;
+      .inner-wrapper {
+        margin-bottom: 100px;
+      }
+    }
+    @include breakpoint(xxl) {
       padding-top: 200px;
       padding-bottom: 200px;
       .inner-wrapper {
@@ -541,6 +552,30 @@ section.image-text-block {
 
 section.jumbo-hero {
   background-color: #202020;
+  @include breakpoint(xs) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @include breakpoint(sm) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  @include breakpoint(md) {
+    padding-top: 106px;
+    padding-bottom: 106px;
+  }
+  @include breakpoint(lg) {
+    padding-top: 138px;
+    padding-bottom: 138px;
+  }
+  @include breakpoint(xl) {
+    padding-top: 166px;
+    padding-bottom: 166px;
+  }
+  @include breakpoint(xxl) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
   h1 {
     color: white;
     @include breakpoint(300px, 374px) {
@@ -558,6 +593,7 @@ section.jumbo-hero {
       letter-spacing: 2px;
       color: #FFFFFF;
       text-transform: uppercase;
+      font-weight: 600;
     }
     @include breakpoint(701px) {
       // @include vertical-align(absolute);
@@ -566,6 +602,7 @@ section.jumbo-hero {
       letter-spacing: 2px;
       color: #FFFFFF;
       text-transform: uppercase;
+      font-weight: 600;
     }
   }
   .headline {

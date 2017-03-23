@@ -1422,21 +1422,25 @@ section.list-block {
       margin-left: calc(12.5% - 19.125px + 34px); } }
   @media (max-width: 575px) {
     section.list-block .grid-column {
-      padding-top: 50px;
-      padding-bottom: 50px; } }
+      padding-top: 20px;
+      padding-bottom: 20px; } }
   @media (min-width: 576px) {
     section.list-block .grid-column {
-      padding-top: 50px;
-      padding-bottom: 50px; } }
+      padding-top: 40px;
+      padding-bottom: 40px; } }
   @media (min-width: 768px) {
     section.list-block .grid-column {
-      padding-top: 64px;
-      padding-bottom: 64px; } }
+      padding-top: 53px;
+      padding-bottom: 53px; } }
   @media (min-width: 992px) {
+    section.list-block .grid-column {
+      padding-top: 69px;
+      padding-bottom: 693px; } }
+  @media (min-width: 1200px) {
     section.list-block .grid-column {
       padding-top: 83px;
       padding-bottom: 83px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     section.list-block .grid-column {
       padding-top: 100px;
       padding-bottom: 100px; } }
@@ -1615,32 +1619,39 @@ section.list-block {
 
 @media (max-width: 575px) {
   section.headline-block.flow .grid-column {
-    padding-top: 50px;
-    padding-bottom: 50px; } }
+    padding-top: 40px;
+    padding-bottom: 40px; } }
 
 @media (min-width: 576px) {
   section.headline-block.flow .grid-column {
-    padding-top: 96px;
-    padding-bottom: 96px; }
+    padding-top: 80px;
+    padding-bottom: 80px; }
     section.headline-block.flow .grid-column .inner-wrapper {
       float: left;
       margin-bottom: 48px; } }
 
 @media (min-width: 768px) {
   section.headline-block.flow .grid-column {
-    padding-top: 128px;
-    padding-bottom: 128px; }
+    padding-top: 106px;
+    padding-bottom: 106px; }
     section.headline-block.flow .grid-column .inner-wrapper {
       margin-bottom: 64px; } }
 
 @media (min-width: 992px) {
   section.headline-block.flow .grid-column {
-    padding-top: 165px;
-    padding-bottom: 165px; }
+    padding-top: 138px;
+    padding-bottom: 138px; }
     section.headline-block.flow .grid-column .inner-wrapper {
       margin-bottom: 83px; } }
 
 @media (min-width: 1200px) {
+  section.headline-block.flow .grid-column {
+    padding-top: 166px;
+    padding-bottom: 166px; }
+    section.headline-block.flow .grid-column .inner-wrapper {
+      margin-bottom: 100px; } }
+
+@media (min-width: 1440px) {
   section.headline-block.flow .grid-column {
     padding-top: 200px;
     padding-bottom: 200px; }
@@ -1889,6 +1900,30 @@ section.text-block {
 
 section.jumbo-hero {
   background-color: #202020; }
+  @media (max-width: 575px) {
+    section.jumbo-hero {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  @media (min-width: 576px) {
+    section.jumbo-hero {
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+  @media (min-width: 768px) {
+    section.jumbo-hero {
+      padding-top: 106px;
+      padding-bottom: 106px; } }
+  @media (min-width: 992px) {
+    section.jumbo-hero {
+      padding-top: 138px;
+      padding-bottom: 138px; } }
+  @media (min-width: 1200px) {
+    section.jumbo-hero {
+      padding-top: 166px;
+      padding-bottom: 166px; } }
+  @media (min-width: 1440px) {
+    section.jumbo-hero {
+      padding-top: 200px;
+      padding-bottom: 200px; } }
   section.jumbo-hero h1 {
     color: white; }
     @media (min-width: 300px) and (max-width: 374px) {
@@ -1904,14 +1939,16 @@ section.jumbo-hero {
         line-height: 1.1;
         letter-spacing: 2px;
         color: #FFFFFF;
-        text-transform: uppercase; } }
+        text-transform: uppercase;
+        font-weight: 600; } }
     @media (min-width: 701px) {
       section.jumbo-hero h1 {
         font-size: 63px;
         line-height: 1;
         letter-spacing: 2px;
         color: #FFFFFF;
-        text-transform: uppercase; } }
+        text-transform: uppercase;
+        font-weight: 600; } }
   @media only screen and (min-width: 300px) {
     section.jumbo-hero .headline {
       width: calc(87.5% - 30px);
@@ -2495,7 +2532,8 @@ body.home section.header-video {
       line-height: 1.1;
       letter-spacing: 2px;
       color: #FFFFFF;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: 600; }
       body.home section.header-video .headline:hover {
         cursor: pointer; }
       body.home section.header-video .headline a {
@@ -2512,7 +2550,8 @@ body.home section.header-video {
       line-height: 1.1;
       letter-spacing: 2px;
       color: #FFFFFF;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: 600; }
       body.home section.header-video .headline:hover {
         cursor: pointer; }
       body.home section.header-video .headline a {
@@ -2529,7 +2568,8 @@ body.home section.header-video {
       line-height: 1;
       letter-spacing: 2px;
       color: #FFFFFF;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: 600; }
       body.home section.header-video .headline:hover {
         cursor: pointer; }
       body.home section.header-video .headline a {
