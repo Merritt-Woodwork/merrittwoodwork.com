@@ -246,43 +246,7 @@ body.about {
     }
   }
 
-  section.text-block {
-    background-color: #f8f7f5;
-    text-align: center;
-    padding: 85px 0 85px 0; // 50%
-    @include breakpoint(md) {
-      // 70%
-      padding: 108px 0 108px 0;
-    }
-    @include breakpoint(lg) {
-      padding: 140px 0 140px 0;
-    }
-    @include breakpoint(xl) {
-      padding: 170px 0 170px 0;
-    }
-    .grid-column {
-      @include grid-media($sm-grid) {
-        @include grid-column(8 of 8);
-      }
-      @include grid-media($lg-grid) {
-        @include grid-column(10 of 16);
-        @include grid-push(3 of 16);
-      }
-    }
-    h1 {
-      font-size: 36px;
-      line-height: 1.25;
-      @include breakpoint(lg) {
-        font-size: 46px;
-        line-height: 1.17;
-      }
-      line-height: 1.17;
-      font-weight: 300;
-      margin: 0;
-      text-align: center;
-      color: #A45833;
-    }
-  }
+
 
   .single-image-block {
     @include breakpoint(300px, 768px) {

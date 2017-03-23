@@ -1683,6 +1683,43 @@ section.next {
       text-transform: uppercase;
       margin: 0; }
 
+section.text-block {
+  background-color: #f8f7f5;
+  text-align: center;
+  padding: 85px 0 85px 0; }
+  @media (min-width: 768px) {
+    section.text-block {
+      padding: 108px 0 108px 0; } }
+  @media (min-width: 992px) {
+    section.text-block {
+      padding: 140px 0 140px 0; } }
+  @media (min-width: 1200px) {
+    section.text-block {
+      padding: 170px 0 170px 0; } }
+  @media only screen and (min-width: 300px) {
+    section.text-block .grid-column {
+      width: calc(100% - 32px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 992px) {
+    section.text-block .grid-column {
+      width: calc(62.5% - 27.625px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(18.75% - 20.1875px + 34px); } }
+  section.text-block h1 {
+    font-size: 36px;
+    line-height: 1.25;
+    line-height: 1.17;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    color: #A45833; }
+    @media (min-width: 992px) {
+      section.text-block h1 {
+        font-size: 46px;
+        line-height: 1.17; } }
+
 @media (min-width: 300px) and (max-width: 991px) {
   .fixed-header-wrapper {
     position: fixed;
@@ -3863,43 +3900,6 @@ body.about section.offset-images.bottom .right {
         margin-top: 140px;
         width: 600px;
         max-width: 600px; } }
-
-body.about section.text-block {
-  background-color: #f8f7f5;
-  text-align: center;
-  padding: 85px 0 85px 0; }
-  @media (min-width: 768px) {
-    body.about section.text-block {
-      padding: 108px 0 108px 0; } }
-  @media (min-width: 992px) {
-    body.about section.text-block {
-      padding: 140px 0 140px 0; } }
-  @media (min-width: 1200px) {
-    body.about section.text-block {
-      padding: 170px 0 170px 0; } }
-  @media only screen and (min-width: 300px) {
-    body.about section.text-block .grid-column {
-      width: calc(100% - 32px);
-      float: left;
-      margin-left: 16px; } }
-  @media only screen and (min-width: 992px) {
-    body.about section.text-block .grid-column {
-      width: calc(62.5% - 27.625px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(18.75% - 20.1875px + 34px); } }
-  body.about section.text-block h1 {
-    font-size: 36px;
-    line-height: 1.25;
-    line-height: 1.17;
-    font-weight: 300;
-    margin: 0;
-    text-align: center;
-    color: #A45833; }
-    @media (min-width: 992px) {
-      body.about section.text-block h1 {
-        font-size: 46px;
-        line-height: 1.17; } }
 
 @media (min-width: 300px) and (max-width: 768px) {
   body.about .single-image-block .fluid.grid-container {
