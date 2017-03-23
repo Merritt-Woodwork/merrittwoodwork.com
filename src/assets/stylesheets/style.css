@@ -1853,6 +1853,41 @@ section.text-block {
   section.image-text-block .grid-column--copy img {
     width: 100%; } }
 
+section.jumbo-hero {
+  background-color: #202020; }
+  section.jumbo-hero h1 {
+    color: white; }
+    @media (min-width: 300px) and (max-width: 374px) {
+      section.jumbo-hero h1 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase; } }
+    @media (min-width: 375px) and (max-width: 700px) {
+      section.jumbo-hero h1 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase; } }
+    @media (min-width: 701px) {
+      section.jumbo-hero h1 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 63px;
+        line-height: 1;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase; } }
+
 @media (min-width: 300px) and (max-width: 991px) {
   .fixed-header-wrapper {
     position: fixed;
@@ -4237,6 +4272,16 @@ body.about .remodal p.quote {
   @media (min-width: 992px) {
     .capabilities .hero .hero-image {
       height: 621px; } }
+
+@media (min-width: 1200px) {
+  .capabilities .image-text-block.top {
+    margin-top: 200px;
+    margin-bottom: 70px; } }
+
+@media (min-width: 1200px) {
+  .capabilities .image-text-block.bottom {
+    margin-top: 0;
+    margin-bottom: 200px; } }
 
 body.grid-test .column-1 {
   width: calc(100% - 40px);

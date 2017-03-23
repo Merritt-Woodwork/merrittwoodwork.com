@@ -503,6 +503,37 @@ section.image-text-block {
   }
 }
 
+section.jumbo-hero {
+  background-color: #202020;
+  h1 {
+    color: white;
+    @include breakpoint(300px, 374px) {
+      @include vertical-align(absolute);
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+    @include breakpoint(375px, 700px) {
+      @include vertical-align(absolute);
+      font-size: 36px;
+      line-height: 1.1;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+    @include breakpoint(701px) {
+      @include vertical-align(absolute);
+      font-size: 63px;
+      line-height: 1;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+  }
+}
+
 
 
 

@@ -37,7 +37,18 @@
     }
   }
 
-
+  .image-text-block.top {
+    @include breakpoint(xl) {
+      margin-top: 200px;
+      margin-bottom: 70px;
+    }
+  }
+  .image-text-block.bottom {
+    @include breakpoint(xl) {
+      margin-top: 0;
+      margin-bottom: 200px;
+    }
+  }
 
 
 }
