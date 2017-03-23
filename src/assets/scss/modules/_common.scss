@@ -143,21 +143,10 @@ section.list-block {
       h2 {
         font-size: 44px;
         line-height: 44px;
-        letter-spacing: 1.5px;
-        color: $near-black;
-        text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 25px;
       }
     }
     @include breakpoint(lg) {
       h2 {
-        font-size: 44px;
-        line-height: 44px;
-        letter-spacing: 1.5px;
-        color: $near-black;
-        text-transform: uppercase;
-        margin-top: 0;
         margin-bottom: 0;
       }
     }
@@ -238,69 +227,46 @@ section.list-block {
       }
     }
     @include breakpoint(md) {
-      h3 {
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 1px;
-        color: $text;
-        margin-top: 30px;
-        margin-bottom: 6px;
-        text-transform: uppercase;
-        &:first-of-type {
-          margin-top: 0px;
-        }
+    }
+    @include breakpoint(lg) {
+    }
+  }
+}
+
+section.headline-block.flow {
+  .grid-column {
+    @include breakpoint(xs) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    @include breakpoint(sm) {
+      padding-top: 96px;
+      padding-bottom: 96px;
+      .inner-wrapper {
+        float: left;
+        margin-bottom: 48px;
       }
-      p {
-        font-size: 19px;
-        line-height: 27px;
-        color: $near-black;
-        margin: 0 0 1em 0;
-      }
-      ul {
-        padding-left: 1.5em;
-        margin: 0;
-        li {
-          padding-left: .3em;
-          font-size: 19px;
-          line-height: 27px;
-          color: $near-black;
-          margin-top: 0;
-          margin-bottom: 6px;
-        }
+    }
+    @include breakpoint(md) {
+      padding-top: 128px;
+      padding-bottom: 128px;
+      .inner-wrapper {
+        margin-bottom: 64px;
       }
     }
     @include breakpoint(lg) {
-      h3 {
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 1px;
-        color: $text;
-        margin-top: 30px;
-        margin-bottom: 6px;
-        text-transform: uppercase;
-        &:first-of-type {
-          margin-top: 0px;
-        }
+      padding-top: 165px;
+      padding-bottom: 165px;
+      .inner-wrapper {
+        margin-bottom: 83px;
       }
-      p {
-        font-size: 19px;
-        line-height: 27px;
-        color: $near-black;
-        margin: 0 0 1em 0;
+    }
+    @include breakpoint(xl) {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      .inner-wrapper {
+        margin-bottom: 100px;
       }
-      ul {
-        padding-left: 1.5em;
-        margin: 0;
-        li {
-          padding-left: .3em;
-          font-size: 19px;
-          line-height: 27px;
-          color: $near-black;
-          margin-top: 0;
-          margin-bottom: 6px;
-        }
-      }
-
     }
   }
 }

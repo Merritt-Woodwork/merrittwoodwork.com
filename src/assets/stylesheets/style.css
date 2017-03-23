@@ -1519,21 +1519,10 @@ section.list-block {
 @media (min-width: 768px) {
   .headline-block .grid-column--headline h2 {
     font-size: 44px;
-    line-height: 44px;
-    letter-spacing: 1.5px;
-    color: #202020;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 25px; } }
+    line-height: 44px; } }
 
 @media (min-width: 992px) {
   .headline-block .grid-column--headline h2 {
-    font-size: 44px;
-    line-height: 44px;
-    letter-spacing: 1.5px;
-    color: #202020;
-    text-transform: uppercase;
-    margin-top: 0;
     margin-bottom: 0; } }
 
 @media only screen and (min-width: 300px) {
@@ -1608,59 +1597,39 @@ section.list-block {
       margin-top: 0;
       margin-bottom: 6px; } }
 
+@media (max-width: 575px) {
+  section.headline-block.flow .grid-column {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
+
+@media (min-width: 576px) {
+  section.headline-block.flow .grid-column {
+    padding-top: 96px;
+    padding-bottom: 96px; }
+    section.headline-block.flow .grid-column .inner-wrapper {
+      float: left;
+      margin-bottom: 48px; } }
+
 @media (min-width: 768px) {
-  .headline-block .grid-column--copy h3 {
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 1px;
-    color: #202020;
-    margin-top: 30px;
-    margin-bottom: 6px;
-    text-transform: uppercase; }
-    .headline-block .grid-column--copy h3:first-of-type {
-      margin-top: 0px; }
-  .headline-block .grid-column--copy p {
-    font-size: 19px;
-    line-height: 27px;
-    color: #202020;
-    margin: 0 0 1em 0; }
-  .headline-block .grid-column--copy ul {
-    padding-left: 1.5em;
-    margin: 0; }
-    .headline-block .grid-column--copy ul li {
-      padding-left: .3em;
-      font-size: 19px;
-      line-height: 27px;
-      color: #202020;
-      margin-top: 0;
-      margin-bottom: 6px; } }
+  section.headline-block.flow .grid-column {
+    padding-top: 128px;
+    padding-bottom: 128px; }
+    section.headline-block.flow .grid-column .inner-wrapper {
+      margin-bottom: 64px; } }
 
 @media (min-width: 992px) {
-  .headline-block .grid-column--copy h3 {
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 1px;
-    color: #202020;
-    margin-top: 30px;
-    margin-bottom: 6px;
-    text-transform: uppercase; }
-    .headline-block .grid-column--copy h3:first-of-type {
-      margin-top: 0px; }
-  .headline-block .grid-column--copy p {
-    font-size: 19px;
-    line-height: 27px;
-    color: #202020;
-    margin: 0 0 1em 0; }
-  .headline-block .grid-column--copy ul {
-    padding-left: 1.5em;
-    margin: 0; }
-    .headline-block .grid-column--copy ul li {
-      padding-left: .3em;
-      font-size: 19px;
-      line-height: 27px;
-      color: #202020;
-      margin-top: 0;
-      margin-bottom: 6px; } }
+  section.headline-block.flow .grid-column {
+    padding-top: 165px;
+    padding-bottom: 165px; }
+    section.headline-block.flow .grid-column .inner-wrapper {
+      margin-bottom: 83px; } }
+
+@media (min-width: 1200px) {
+  section.headline-block.flow .grid-column {
+    padding-top: 200px;
+    padding-bottom: 200px; }
+    section.headline-block.flow .grid-column .inner-wrapper {
+      margin-bottom: 100px; } }
 
 @media (min-width: 300px) and (max-width: 991px) {
   .fixed-header-wrapper {
@@ -3931,31 +3900,6 @@ body.about section.text-block {
       body.about section.text-block h1 {
         font-size: 46px;
         line-height: 1.17; } }
-
-@media (max-width: 575px) {
-  body.about section.headline-block.flow .grid-column {
-    padding-top: 50px;
-    padding-bottom: 50px; } }
-
-@media (min-width: 576px) {
-  body.about section.headline-block.flow .grid-column {
-    padding-top: 96px;
-    padding-bottom: 96px; } }
-
-@media (min-width: 768px) {
-  body.about section.headline-block.flow .grid-column {
-    padding-top: 128px;
-    padding-bottom: 128px; } }
-
-@media (min-width: 992px) {
-  body.about section.headline-block.flow .grid-column {
-    padding-top: 165px;
-    padding-bottom: 165px; } }
-
-@media (min-width: 1200px) {
-  body.about section.headline-block.flow .grid-column {
-    padding-top: 200px;
-    padding-bottom: 200px; } }
 
 @media (min-width: 300px) and (max-width: 768px) {
   body.about .single-image-block .fluid.grid-container {
