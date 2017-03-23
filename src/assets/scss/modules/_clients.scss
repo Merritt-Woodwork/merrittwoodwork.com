@@ -1,30 +1,82 @@
 .clients {
 
+  section.client-list:nth-child(odd) {
+    background-color: #f8f7f5;
+  }
+
   section.client-list {
     .label-column {
-      @include grid-media($xl-grid) {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
         @include grid-column(2 of 16);
         @include grid-push(1 of 16);
       }
     }
     .list-column {
-      @include grid-media($xl-grid) {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
         @include grid-column(12 of 16);
       }
     }
     .inner-grid {
-      @include grid-column(12 of 12);
-      .inner-grid-column {
-        background-color: red;
-        @include grid-column(4 of 12);
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+        .inner-grid-column {
+          @include grid-column(4 of 8);
+        }
       }
+      @include grid-media($lg-grid) {
+        @include grid-column(12 of 12);
+        .inner-grid-column {
+          @include grid-column(4 of 12);
+        }
+      }
+
+    }
+    @include breakpoint(xs) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    @include breakpoint(sm) {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    @include breakpoint(md) {
+      padding-top: 53px;
+      padding-bottom: 53px;
+    }
+    @include breakpoint(lg) {
+      padding-top: 69px;
+      padding-bottom: 69px;
+    }
+    @include breakpoint(xl) {
+      padding-top: 83px;
+      padding-bottom: 83px;
+    }
+    @include breakpoint(xxl) {
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
   }
 
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #202020;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
 
   h3 {
     font-size: 18px;
-    margin-bottom: 1.5em;
+    margin: 0 0 1.5rem 0;
+    @include breakpoint(lg) {
+      margin: 0;
+    }
     letter-spacing: 1px;
     color: $text;
     text-transform: uppercase;
