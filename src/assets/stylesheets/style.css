@@ -1631,6 +1631,58 @@ section.list-block {
     section.headline-block.flow .grid-column .inner-wrapper {
       margin-bottom: 100px; } }
 
+section.next {
+  height: 250px;
+  background-color: #202020;
+  text-align: center; }
+  @media (min-width: 768px) {
+    section.next {
+      height: 400px; } }
+  @media (min-width: 1200px) {
+    section.next {
+      height: 500px; } }
+  @media only screen and (min-width: 300px) {
+    section.next .grid-column {
+      width: calc(37.5% - 22px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 992px) {
+    section.next .grid-column {
+      width: calc(12.5% - 19.125px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  @media only screen and (min-width: 1200px) {
+    section.next .grid-column {
+      width: calc(12.5% - 19.125px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  section.next .grid-column .color {
+    width: 100%;
+    height: 18px;
+    background-color: #A45833;
+    margin-top: -9px; }
+  section.next .center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  section.next a {
+    text-decoration: none; }
+    section.next a h5 {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #A45833;
+      text-transform: uppercase;
+      margin-top: 0px;
+      margin-bottom: .8em; }
+    section.next a h2 {
+      font-size: 44px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin: 0; }
+
 @media (min-width: 300px) and (max-width: 991px) {
   .fixed-header-wrapper {
     position: fixed;
@@ -3558,58 +3610,6 @@ body.casestudy section.gallery img {
   body.casestudy section.gallery .grid-item {
     margin-bottom: 48px; } }
 
-body.casestudy section.next {
-  height: 250px;
-  background-color: #202020;
-  text-align: center; }
-  @media (min-width: 768px) {
-    body.casestudy section.next {
-      height: 400px; } }
-  @media (min-width: 1200px) {
-    body.casestudy section.next {
-      height: 500px; } }
-  @media only screen and (min-width: 300px) {
-    body.casestudy section.next .grid-column {
-      width: calc(37.5% - 22px);
-      float: left;
-      margin-left: 16px; } }
-  @media only screen and (min-width: 992px) {
-    body.casestudy section.next .grid-column {
-      width: calc(12.5% - 19.125px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  @media only screen and (min-width: 1200px) {
-    body.casestudy section.next .grid-column {
-      width: calc(12.5% - 19.125px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  body.casestudy section.next .grid-column .color {
-    width: 100%;
-    height: 18px;
-    background-color: #A45833;
-    margin-top: -9px; }
-  body.casestudy section.next .center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
-  body.casestudy section.next a {
-    text-decoration: none; }
-    body.casestudy section.next a h5 {
-      font-size: 12px;
-      letter-spacing: 2px;
-      color: #A45833;
-      text-transform: uppercase;
-      margin-top: 0px;
-      margin-bottom: .8em; }
-    body.casestudy section.next a h2 {
-      font-size: 44px;
-      letter-spacing: 1px;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      margin: 0; }
-
 @media (min-width: 300px) and (max-width: 1199px) {
   body.about .fluid.grid-container {
     width: 100%; } }
@@ -4042,58 +4042,6 @@ body.about section.gallery h3 {
 
 body.about section.gallery img {
   width: 100%; }
-
-body.about section.next {
-  height: 250px;
-  background-color: #202020;
-  text-align: center; }
-  @media (min-width: 768px) {
-    body.about section.next {
-      height: 400px; } }
-  @media (min-width: 1200px) {
-    body.about section.next {
-      height: 500px; } }
-  @media only screen and (min-width: 300px) {
-    body.about section.next .grid-column {
-      width: calc(37.5% - 22px);
-      float: left;
-      margin-left: 16px; } }
-  @media only screen and (min-width: 992px) {
-    body.about section.next .grid-column {
-      width: calc(12.5% - 19.125px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  @media only screen and (min-width: 1200px) {
-    body.about section.next .grid-column {
-      width: calc(12.5% - 19.125px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  body.about section.next .grid-column .color {
-    width: 100%;
-    height: 18px;
-    background-color: #A45833;
-    margin-top: -9px; }
-  body.about section.next .center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
-  body.about section.next a {
-    text-decoration: none; }
-    body.about section.next a h5 {
-      font-size: 12px;
-      letter-spacing: 2px;
-      color: #A45833;
-      text-transform: uppercase;
-      margin-top: 0px;
-      margin-bottom: .8em; }
-    body.about section.next a h2 {
-      font-size: 44px;
-      letter-spacing: 1px;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      margin: 0; }
 
 body.about .remodal h2 {
   font-size: 36px;
