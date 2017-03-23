@@ -333,11 +333,22 @@ section.headline-block.flow {
 
 section.next {
   height: 250px;
+  @include breakpoint(xs) {
+    height: 100px;
+  }
+  @include breakpoint(sm) {
+    height: 200px;
+  }
   @include breakpoint(md) {
-    // 80%
-    height: 400px;
+    height: 265px;
+  }
+  @include breakpoint(lg) {
+    height: 345px;
   }
   @include breakpoint(xl) {
+    height: 415px;
+  }
+  @include breakpoint(xxl) {
     height: 500px;
   }
   background-color: $near-black;
@@ -356,7 +367,6 @@ section.next {
       @include grid-push(1 of 16);
     }
     .color {
-
       width: 100%;
       height: 18px;
       background-color: #A45833;
@@ -610,8 +620,35 @@ section.jumbo-hero {
       @include grid-column(7 of 8);
     }
     @include grid-media($lg-grid) {
+      @include grid-column(12 of 16);
+      @include grid-push(1 of 16);
+    }
+    @include grid-media($xl-grid) {
       @include grid-column(8 of 16);
       @include grid-push(1 of 16);
+    }
+  }
+}
+
+.jumbo-hero-color {
+  .grid-column {
+    @include grid-media($sm-grid) {
+      @include grid-column(3 of 8);
+      // @include grid-push(1 of 12);
+    }
+    @include grid-media($lg-grid) {
+      @include grid-column(2 of 16);
+      @include grid-push(1 of 16);
+    }
+    @include grid-media($xl-grid) {
+      @include grid-column(2 of 16);
+      @include grid-push(1 of 16);
+    }
+    .color {
+      width: 100%;
+      height: 18px;
+      background-color: #A45833;
+      margin-top: -9px;
     }
   }
 }

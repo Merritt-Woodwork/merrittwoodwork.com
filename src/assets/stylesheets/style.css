@@ -1692,10 +1692,22 @@ section.next {
   height: 250px;
   background-color: #202020;
   text-align: center; }
+  @media (max-width: 575px) {
+    section.next {
+      height: 100px; } }
+  @media (min-width: 576px) {
+    section.next {
+      height: 200px; } }
   @media (min-width: 768px) {
     section.next {
-      height: 400px; } }
+      height: 265px; } }
+  @media (min-width: 992px) {
+    section.next {
+      height: 345px; } }
   @media (min-width: 1200px) {
+    section.next {
+      height: 415px; } }
+  @media (min-width: 1440px) {
     section.next {
       height: 500px; } }
   @media only screen and (min-width: 300px) {
@@ -1956,10 +1968,42 @@ section.jumbo-hero {
       margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
     section.jumbo-hero .headline {
+      width: calc(75% - 29.75px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  @media only screen and (min-width: 1200px) {
+    section.jumbo-hero .headline {
       width: calc(50% - 25.5px);
       float: left;
       margin-left: 17px;
       margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 300px) {
+  .jumbo-hero-color .grid-column {
+    width: calc(37.5% - 22px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  .jumbo-hero-color .grid-column {
+    width: calc(12.5% - 19.125px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 1200px) {
+  .jumbo-hero-color .grid-column {
+    width: calc(12.5% - 19.125px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+.jumbo-hero-color .grid-column .color {
+  width: 100%;
+  height: 18px;
+  background-color: #A45833;
+  margin-top: -9px; }
 
 @media (min-width: 300px) and (max-width: 991px) {
   .fixed-header-wrapper {
@@ -4405,6 +4449,36 @@ body.about .remodal p.quote {
 @media (min-width: 1200px) {
   .capabilities .image-text-block.bottom {
     margin-bottom: 200px; } }
+
+@media only screen and (min-width: 1200px) {
+  .clients section.client-list .label-column {
+    width: calc(12.5% - 19.125px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 1200px) {
+  .clients section.client-list .list-column {
+    width: calc(75% - 29.75px);
+    float: left;
+    margin-left: 17px; } }
+
+.clients section.client-list .inner-grid {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+  .clients section.client-list .inner-grid .inner-grid-column {
+    background-color: red;
+    width: calc(33.3333333333% - 26.6666666667px);
+    float: left;
+    margin-left: 20px; }
+
+.clients h3 {
+  font-size: 18px;
+  margin-bottom: 1.5em;
+  letter-spacing: 1px;
+  color: #202020;
+  text-transform: uppercase; }
 
 body.grid-test .column-1 {
   width: calc(100% - 40px);

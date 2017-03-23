@@ -1,3 +1,33 @@
 .clients {
 
+  section.client-list {
+    .label-column {
+      @include grid-media($xl-grid) {
+        @include grid-column(2 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+    .list-column {
+      @include grid-media($xl-grid) {
+        @include grid-column(12 of 16);
+      }
+    }
+    .inner-grid {
+      @include grid-column(12 of 12);
+      .inner-grid-column {
+        background-color: red;
+        @include grid-column(4 of 12);
+      }
+    }
+  }
+
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 1.5em;
+    letter-spacing: 1px;
+    color: $text;
+    text-transform: uppercase;
+  }
+
 }
