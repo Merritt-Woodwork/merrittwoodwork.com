@@ -38,22 +38,6 @@ body.casestudy {
     }
   }
 
-  // .headline-block.pull {
-  //   @include breakpoint(xs) {
-  //     padding-top: 50px;
-  //   }
-  //   @include breakpoint(sm) {
-  //     padding-top: 75px;
-  //   }
-  //   @include breakpoint(lg) {
-  //     padding-top: 0;
-  //     .grid-column {
-  //       margin-top: -130px;
-  //       padding-top: 90px;
-  //     }
-  //   }
-  // }
-
   section.gallery {
     @include breakpoint(xs) {
       margin-bottom: 40px;

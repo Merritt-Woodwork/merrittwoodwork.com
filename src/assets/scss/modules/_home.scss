@@ -275,6 +275,7 @@ body.home {
       }
       margin-bottom: 35px;
     }
+
     .case-study:nth-child(odd) {
       .case-study-image {
         @include breakpoint(300px, 700px) {
