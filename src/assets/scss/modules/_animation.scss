@@ -12,7 +12,7 @@
 
 .customFadeInUp {
   animation-name: customFadeInUp;
-  animation-delay: 1s;
+  animation-delay: .5s;
 }
 
 @-webkit-keyframes fadeIn {
@@ -27,5 +27,5 @@
 
 .staggerFadeIn {
   animation-name: fadeIn;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }

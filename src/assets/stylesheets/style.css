@@ -4566,11 +4566,11 @@ body.about .remodal p.quote {
 
 .customFadeInUp {
   animation-name: customFadeInUp;
-  animation-delay: 1s; }
+  animation-delay: .5s; }
 
 .staggerFadeIn {
   animation-name: fadeIn;
-  animation-delay: 1.5s; }
+  animation-delay: 1s; }
 
 body[data-aos-duration='50'] [data-aos], [data-aos][data-aos][data-aos-duration='50'] {
   transition-duration: 50ms; }
