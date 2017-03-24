@@ -336,25 +336,23 @@ section.headline-block.flow {
   }
 }
 
+
 section.next {
-  height: 250px;
   @include breakpoint(xs) {
-    height: 100px;
+    height: 300px;
   }
   @include breakpoint(sm) {
-    height: 200px;
+    height: 300px;
   }
   @include breakpoint(md) {
-    height: 265px;
+    height: 400px;
   }
   @include breakpoint(lg) {
-    height: 345px;
   }
   @include breakpoint(xl) {
-    height: 415px;
+    height: 500px;
   }
   @include breakpoint(xxl) {
-    height: 500px;
   }
   background-color: $near-black;
   text-align: center;

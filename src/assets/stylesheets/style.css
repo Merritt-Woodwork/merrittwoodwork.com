@@ -1697,25 +1697,18 @@ section.list-block {
     padding-bottom: 85px; } }
 
 section.next {
-  height: 250px;
   background-color: #202020;
   text-align: center; }
   @media (max-width: 575px) {
     section.next {
-      height: 100px; } }
+      height: 300px; } }
   @media (min-width: 576px) {
     section.next {
-      height: 200px; } }
+      height: 300px; } }
   @media (min-width: 768px) {
     section.next {
-      height: 265px; } }
-  @media (min-width: 992px) {
-    section.next {
-      height: 345px; } }
+      height: 400px; } }
   @media (min-width: 1200px) {
-    section.next {
-      height: 415px; } }
-  @media (min-width: 1440px) {
     section.next {
       height: 500px; } }
   @media only screen and (min-width: 300px) {
@@ -3131,58 +3124,6 @@ body.home section.case-studies {
         body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 a {
           color: #fff;
           text-decoration: none; } }
-
-body.home section.next {
-  height: 250px;
-  background-color: #202020;
-  text-align: center; }
-  @media (min-width: 768px) {
-    body.home section.next {
-      height: 400px; } }
-  @media (min-width: 1200px) {
-    body.home section.next {
-      height: 500px; } }
-  @media only screen and (min-width: 300px) {
-    body.home section.next .grid-column {
-      width: calc(37.5% - 22px);
-      float: left;
-      margin-left: 16px; } }
-  @media only screen and (min-width: 992px) {
-    body.home section.next .grid-column {
-      width: calc(12.5% - 19.125px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  @media only screen and (min-width: 1200px) {
-    body.home section.next .grid-column {
-      width: calc(12.5% - 19.125px);
-      float: left;
-      margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
-  body.home section.next .grid-column .color {
-    width: 100%;
-    height: 18px;
-    background-color: #A45833;
-    margin-top: -9px; }
-  body.home section.next .center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
-  body.home section.next a {
-    text-decoration: none; }
-    body.home section.next a h5 {
-      font-size: 12px;
-      letter-spacing: 2px;
-      color: #A45833;
-      text-transform: uppercase;
-      margin-top: 0px;
-      margin-bottom: .8em; }
-    body.home section.next a h2 {
-      font-size: 44px;
-      letter-spacing: 1px;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      margin: 0; }
 
 /*
  *  Remodal - v1.1.1
