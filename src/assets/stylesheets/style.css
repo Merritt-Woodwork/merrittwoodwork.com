@@ -3979,10 +3979,9 @@ body.portfolio section.next {
 
 @media only screen and (min-width: 1200px) {
   body.casestudy .hero .grid-column {
-    width: calc(87.5% - 31.875px);
+    width: calc(100% - 34px);
     float: left;
-    margin-left: 17px;
-    margin-left: calc(6.25% - 18.0625px + 34px); } }
+    margin-left: 17px; } }
 
 body.casestudy .hero .hero-image {
   background-image: url("/uploads/casestudy-cakewalk.jpg");
@@ -4121,6 +4120,36 @@ body.about .hero .hero-image {
   @media (min-width: 992px) {
     body.about .hero .hero-image {
       height: 621px; } }
+
+@media (max-width: 575px) {
+  body.about .headline-block.pull {
+    padding-top: 50px;
+    padding-bottom: 22px; } }
+
+@media (min-width: 576px) {
+  body.about .headline-block.pull {
+    padding-top: 75px;
+    padding-bottom: 32px; } }
+
+@media (min-width: 768px) {
+  body.about .headline-block.pull {
+    padding-top: 90px;
+    padding-bottom: 39px; } }
+
+@media (min-width: 992px) {
+  body.about .headline-block.pull {
+    padding-top: 0;
+    padding-bottom: 0; }
+    body.about .headline-block.pull .grid-column {
+      margin-top: -130px;
+      padding-top: 70px;
+      padding-bottom: 30px; } }
+
+@media (min-width: 1200px) {
+  body.about .headline-block.pull .grid-column {
+    margin-top: -130px;
+    padding-top: 85px;
+    padding-bottom: 36px; } }
 
 @media (max-width: 575px) {
   body.about section.offset-images {
@@ -4547,10 +4576,9 @@ body.about .remodal p.quote {
 
 @media only screen and (min-width: 1200px) {
   .capabilities .hero .grid-column {
-    width: calc(87.5% - 31.875px);
+    width: calc(100% - 34px);
     float: left;
-    margin-left: 17px;
-    margin-left: calc(6.25% - 18.0625px + 34px); } }
+    margin-left: 17px; } }
 
 .capabilities .hero .hero-image {
   background-image: url("/uploads/hero-about.jpg");
@@ -5465,11 +5493,10 @@ body.grid .grid-container {
     .grid-container {
       width: 1440px; } }
 
-.grid-container.fluid {
-  width: 100%; }
+@media (max-width: 1234px) {
   .grid-container.fluid .grid-column {
     width: 100% !important;
-    margin: 0 !important; }
+    margin: 0 !important; } }
 
 @font-face {
   font-family: 'Portrait Web';

@@ -15,8 +15,8 @@ body.casestudy {
         @include grid-column(16 of 16);
       }
       @include grid-media($xl-grid) {
-        @include grid-column(14 of 16);
-        @include grid-push(1 of 16);
+        @include grid-column(16 of 16);
+        // @include grid-push(1 of 16);
       }
     }
     .hero-image {
