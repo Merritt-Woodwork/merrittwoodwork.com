@@ -220,14 +220,20 @@ body.portfolio {
     }
 
     @include breakpoint(xl) {
-
+      .left, .right {
+        height: calc(100vh - 140px);
+      }
+      .inner {
+        margin-top: 15vh;
+      }
     }
 
     @include breakpoint(xxl) {
       .left, .right {
         float: left;
         width: 50%;
-        height: 818px;
+        // height: 818px;
+        height: calc(100vh - 140px);
       }
     }
   }

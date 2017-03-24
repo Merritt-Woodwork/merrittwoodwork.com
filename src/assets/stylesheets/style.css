@@ -3606,11 +3606,17 @@ body.portfolio section.casestudies h3 {
       line-height: 1.16;
       border-bottom: 1px solid #a45833; } }
 
+@media (min-width: 1200px) {
+  body.portfolio section.casestudies .left, body.portfolio section.casestudies .right {
+    height: calc(100vh - 140px); }
+  body.portfolio section.casestudies .inner {
+    margin-top: 15vh; } }
+
 @media (min-width: 1440px) {
   body.portfolio section.casestudies .left, body.portfolio section.casestudies .right {
     float: left;
     width: 50%;
-    height: 818px; } }
+    height: calc(100vh - 140px); } }
 
 body.portfolio section.gallery-tabs .full-grid-container::after {
   clear: both;
