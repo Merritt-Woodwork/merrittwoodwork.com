@@ -73,12 +73,13 @@ html, body {
 
   // full-width outer grid hack
   .grid-container.fluid {
-    @media (max-width: 1199px) {
+    width: 100%;
+    // @media (max-width: 1199px) {
       .grid-column {
         width: 100% !important;
         margin: 0 !important;
       }
-    }
+    // }
   }
 
 

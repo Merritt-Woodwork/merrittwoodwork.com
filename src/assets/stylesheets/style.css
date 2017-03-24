@@ -4101,10 +4101,9 @@ body.casestudy section.gallery img {
 
 @media only screen and (min-width: 1200px) {
   body.about .hero .grid-column {
-    width: calc(87.5% - 31.875px);
+    width: calc(100% - 34px);
     float: left;
-    margin-left: 17px;
-    margin-left: calc(6.25% - 18.0625px + 34px); } }
+    margin-left: 17px; } }
 
 body.about .hero .hero-image {
   background-image: url("/uploads/hero-about.jpg");
@@ -5466,10 +5465,11 @@ body.grid .grid-container {
     .grid-container {
       width: 1440px; } }
 
-@media (max-width: 1199px) {
+.grid-container.fluid {
+  width: 100%; }
   .grid-container.fluid .grid-column {
     width: 100% !important;
-    margin: 0 !important; } }
+    margin: 0 !important; }
 
 @font-face {
   font-family: 'Portrait Web';
