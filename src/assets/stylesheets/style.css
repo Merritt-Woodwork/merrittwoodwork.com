@@ -2114,7 +2114,7 @@ header {
       height: 100%; }
       header .grid-column .left a {
         margin-left: 1.5rem;
-        padding-bottom: 6px;
+        padding-bottom: 2px;
         border-bottom: 1px solid transparent; }
         header .grid-column .left a:first-of-type {
           margin-left: 0; }
@@ -2130,7 +2130,7 @@ header {
       height: 100%; }
       header .grid-column .right a {
         margin-right: 1.5rem;
-        padding-bottom: 6px;
+        padding-bottom: 2px;
         border-bottom: 1px solid transparent; }
         header .grid-column .right a:last-of-type {
           margin-right: 0; }
@@ -2634,7 +2634,7 @@ body.home section.header-video {
     letter-spacing: 2px;
     font-size: 18px;
     line-height: 1.16;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
     border-bottom: 1px solid #a45833; }
   body.home section.header-video .header-video__close-trigger {
     z-index: 99;
@@ -2695,7 +2695,7 @@ body.home section.intro {
         line-height: 1.17; } }
   body.home section.intro h3 {
     font-size: 18px;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
     border-bottom: 1px solid #a45833;
     letter-spacing: 1px;
     color: #202020;
@@ -2813,7 +2813,7 @@ body.home section.case-studies {
         bottom: 16px;
         left: 30px;
         font-size: 16px;
-        padding-bottom: 6px;
+        padding-bottom: 2px;
         border-bottom: 1px solid #a45833;
         letter-spacing: 1px;
         color: #fff;
@@ -3672,7 +3672,7 @@ body.portfolio section.gallery-tabs .tabs {
   body.portfolio section.gallery-tabs .tabs a {
     font-size: 12px;
     color: #202020;
-    border-bottom: 2px solid transparent;
+    border-bottom: 1px solid transparent;
     margin-bottom: 1em;
     text-decoration: none;
     text-transform: uppercase;
@@ -3681,7 +3681,7 @@ body.portfolio section.gallery-tabs .tabs {
       body.portfolio section.gallery-tabs .tabs a {
         display: inline-block; } }
     body.portfolio section.gallery-tabs .tabs a.active {
-      border-bottom: 2px solid #a45833; }
+      border-bottom: 1px solid #a45833; }
 
 @media (max-width: 575px) {
   body.portfolio section.gallery {
