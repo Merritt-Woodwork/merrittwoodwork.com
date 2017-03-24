@@ -4728,6 +4728,10 @@ body.about .remodal p.quote {
   animation-name: fadeIn;
   animation-delay: 1s; }
 
+.fastStaggerFadeIn {
+  animation-name: fadeIn;
+  animation-delay: .75s; }
+
 body[data-aos-duration='50'] [data-aos], [data-aos][data-aos][data-aos-duration='50'] {
   transition-duration: 50ms; }
 

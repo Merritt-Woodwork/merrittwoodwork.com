@@ -29,3 +29,8 @@
   animation-name: fadeIn;
   animation-delay: 1s;
 }
+
+.fastStaggerFadeIn {
+  animation-name: fadeIn;
+  animation-delay: .75s;
+}
