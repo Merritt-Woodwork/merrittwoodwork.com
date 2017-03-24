@@ -1492,6 +1492,14 @@ section.list-block {
 @media only screen and (min-width: 992px) {
   section.headline-block .grid-column {
     background-color: white;
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 1200px) {
+  section.headline-block .grid-column {
+    background-color: white;
     width: calc(75% - 29.75px);
     float: left;
     margin-left: 17px;
@@ -2969,7 +2977,7 @@ body.home section.case-studies {
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 {
         position: absolute;
         bottom: 33px;
-        left: 60px;
+        left: 44px;
         font-size: 18px;
         line-height: 1.5;
         border-bottom: 1px solid #a45833;

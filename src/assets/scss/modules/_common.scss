@@ -123,6 +123,11 @@ section.headline-block {
     }
     @include grid-media($lg-grid) {
       background-color: white;
+      @include grid-column(14 of 16);
+      @include grid-push(1 of 16);
+    }
+    @include grid-media($xl-grid) {
+      background-color: white;
       @include grid-column(12 of 16);
       @include grid-push(2 of 16);
     }
