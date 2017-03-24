@@ -379,11 +379,21 @@ section.next {
     }
   }
   .center {
-    @include vertical-align;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .link-wrapper {
+    flex: 0 1 auto;
   }
   a {
+    display: inline-block;
     text-decoration: none;
+    // background-color: red;
+    padding: 2rem;
     h5 {
+      transition: all 0.3s ease;
       font-size: 12px;
       letter-spacing: 2px;
       color: #A45833;
@@ -392,14 +402,62 @@ section.next {
       margin-bottom: .8em;
     }
     h2 {
+      transition: all 0.3s ease;
       font-size: 44px;
       letter-spacing: 1px;
       color: #FFFFFF;
       text-transform: uppercase;
       margin: 0;
+      display: inline-block;
+    }
+    span {
+      transition: all 0.3s ease;
+      display: inline-block;
+      background-color: #202020;
     }
   }
+  a:hover {
+    h5 {
+      transform: translateY(20px);
+    }
+    span {
+      transform: translateY(-20px);
+    }
+  }
+  h2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+  }
+  h2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background: $brand;
+    transition: width .5s ease;
+  }
+  a:hover h2:before {
+    width: 100%;
+    background: $brand;
+    transition: width .5s ease;
+  }
+  a:hover h2:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+  }
 }
+
+
 
 section.text-block {
   background-color: #f8f7f5;

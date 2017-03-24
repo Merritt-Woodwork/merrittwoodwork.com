@@ -1741,12 +1741,18 @@ section.next {
     background-color: #A45833;
     margin-top: -9px; }
   section.next .center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  section.next .link-wrapper {
+    flex: 0 1 auto; }
   section.next a {
-    text-decoration: none; }
+    display: inline-block;
+    text-decoration: none;
+    padding: 2rem; }
     section.next a h5 {
+      transition: all 0.3s ease;
       font-size: 12px;
       letter-spacing: 2px;
       color: #A45833;
@@ -1754,11 +1760,48 @@ section.next {
       margin-top: 0px;
       margin-bottom: .8em; }
     section.next a h2 {
+      transition: all 0.3s ease;
       font-size: 44px;
       letter-spacing: 1px;
       color: #FFFFFF;
       text-transform: uppercase;
-      margin: 0; }
+      margin: 0;
+      display: inline-block; }
+    section.next a span {
+      transition: all 0.3s ease;
+      display: inline-block;
+      background-color: #202020; }
+  section.next a:hover h5 {
+    transform: translateY(20px); }
+  section.next a:hover span {
+    transform: translateY(-20px); }
+  section.next h2:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    transition: width 0s ease, background .5s ease; }
+  section.next h2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background: #a45833;
+    transition: width .5s ease; }
+  section.next a:hover h2:before {
+    width: 100%;
+    background: #a45833;
+    transition: width .5s ease; }
+  section.next a:hover h2:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease; }
 
 section.text-block {
   background-color: #f8f7f5;
