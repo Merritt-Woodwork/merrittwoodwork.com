@@ -337,6 +337,7 @@ body.about {
           margin-bottom: 0;
         }
         .staff-bio {
+          transition: all 0.3s ease;
           display: inline-block;
           text-transform: uppercase;
           text-decoration: none;
@@ -344,8 +345,12 @@ body.about {
           color: $text;
           letter-spacing: 1px;
           margin-top: .8rem;
-          padding-bottom: 6px;
+          padding-bottom: 2px;
           border-bottom: 1px solid $brand;
+          &:hover {
+            color: $brand;
+            border-bottom: 1px solid transparent;
+          }
         }
         margin-bottom: 30px;
       }

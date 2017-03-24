@@ -2684,6 +2684,7 @@ body.home section.header-video {
         body.home section.header-video .headline a:hover {
           background-color: transparent; } }
   body.home section.header-video .headline span {
+    transition: all 0.3s ease;
     display: inline-block;
     text-transform: uppercase;
     color: #fff;
@@ -2692,6 +2693,9 @@ body.home section.header-video {
     line-height: 1.16;
     padding-bottom: 2px;
     border-bottom: 1px solid #a45833; }
+    body.home section.header-video .headline span:hover {
+      color: #a45833;
+      border-bottom: 1px solid transparent; }
   body.home section.header-video .header-video__close-trigger {
     z-index: 99;
     position: absolute;
@@ -2750,6 +2754,7 @@ body.home section.intro {
         font-size: 46px;
         line-height: 1.17; } }
   body.home section.intro h3 {
+    transition: all 0.3s ease;
     font-size: 18px;
     padding-bottom: 2px;
     border-bottom: 1px solid #a45833;
@@ -2764,8 +2769,13 @@ body.home section.intro {
         margin-left: 3rem;
         margin-right: 3rem; } }
     body.home section.intro h3 a {
+      transition: all 0.3s ease;
       color: #202020;
       text-decoration: none; }
+  body.home section.intro h3:hover {
+    border-bottom: 1px solid transparent; }
+    body.home section.intro h3:hover a {
+      color: #a45833; }
 
 body.home section.case-studies {
   background-color: #FFF;
@@ -2869,8 +2879,6 @@ body.home section.case-studies {
         bottom: 16px;
         left: 30px;
         font-size: 16px;
-        padding-bottom: 2px;
-        border-bottom: 1px solid #a45833;
         letter-spacing: 1px;
         color: #fff;
         text-transform: uppercase;
@@ -2878,8 +2886,14 @@ body.home section.case-studies {
         margin-left: 0;
         margin-right: 0; }
         body.home section.case-studies .case-study:nth-child(odd) .case-study-info h3 a {
+          transition: all 0.3s ease;
           color: #fff;
-          text-decoration: none; } }
+          text-decoration: none;
+          padding-bottom: 2px;
+          border-bottom: 1px solid #a45833; }
+          body.home section.case-studies .case-study:nth-child(odd) .case-study-info h3 a:hover {
+            color: #a45833;
+            border-bottom: 1px solid transparent; } }
     @media (min-width: 768px) {
       body.home section.case-studies .case-study:nth-child(odd) .case-study-info .wrapper {
         position: absolute;
@@ -2904,8 +2918,6 @@ body.home section.case-studies {
         bottom: 33px;
         left: 48px;
         font-size: 18px;
-        line-height: 1.5;
-        border-bottom: 1px solid #a45833;
         letter-spacing: 1px;
         color: #fff;
         text-transform: uppercase;
@@ -2939,8 +2951,6 @@ body.home section.case-studies {
         bottom: 33px;
         left: 60px;
         font-size: 18px;
-        line-height: 1.5;
-        border-bottom: 1px solid #a45833;
         letter-spacing: 1px;
         color: #fff;
         text-transform: uppercase;
@@ -3608,13 +3618,17 @@ body.portfolio section.casestudies h3 {
     left: 0;
     bottom: 35px; }
     body.portfolio section.casestudies a.view span {
+      transition: all 0.3s ease;
       display: inline-block;
       text-transform: uppercase;
       color: #fff;
       letter-spacing: 2px;
       font-size: 18px;
       line-height: 1.16;
-      border-bottom: 1px solid #a45833; } }
+      border-bottom: 1px solid #a45833; }
+      body.portfolio section.casestudies a.view span:hover {
+        color: #a45833;
+        border-bottom: 1px solid transparent; } }
 
 @media (min-width: 992px) {
   body.portfolio section.casestudies .left, body.portfolio section.casestudies .right {
@@ -3651,13 +3665,17 @@ body.portfolio section.casestudies h3 {
     bottom: 75px;
     left: 0; }
     body.portfolio section.casestudies a.view span {
+      transition: all 0.3s ease;
       display: inline-block;
       text-transform: uppercase;
       color: #fff;
       letter-spacing: 2px;
       font-size: 18px;
       line-height: 1.16;
-      border-bottom: 1px solid #a45833; } }
+      border-bottom: 1px solid #a45833; }
+      body.portfolio section.casestudies a.view span:hover {
+        color: #a45833;
+        border-bottom: 1px solid transparent; } }
 
 @media (min-width: 1200px) {
   body.portfolio section.casestudies .left, body.portfolio section.casestudies .right {
@@ -3726,6 +3744,8 @@ body.portfolio section.gallery-tabs .tabs {
       body.portfolio section.gallery-tabs .tabs .mobile-wrapper:first-of-type {
         margin-left: 0px; } }
   body.portfolio section.gallery-tabs .tabs a {
+    transition: all 0.3s ease;
+    position: relative;
     font-size: 12px;
     color: #202020;
     border-bottom: 1px solid transparent;
@@ -3738,6 +3758,39 @@ body.portfolio section.gallery-tabs .tabs {
         display: inline-block; } }
     body.portfolio section.gallery-tabs .tabs a.active {
       border-bottom: 1px solid #a45833; }
+  body.portfolio section.gallery-tabs .tabs a:hover {
+    border-bottom: 1px solid transparent; }
+  body.portfolio section.gallery-tabs .tabs a.active:hover {
+    border-bottom: 1px solid #a45833; }
+  body.portfolio section.gallery-tabs .tabs a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    transition: width 0s ease, background .5s ease; }
+  body.portfolio section.gallery-tabs .tabs a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background: #a45833;
+    transition: width .5s ease; }
+  body.portfolio section.gallery-tabs .tabs a:hover:before {
+    width: 100%;
+    background: #a45833;
+    transition: width .5s ease; }
+  body.portfolio section.gallery-tabs .tabs a:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease; }
+  body.portfolio section.gallery-tabs .tabs a.active:before, body.portfolio section.gallery-tabs .tabs a.active:after, body.portfolio section.gallery-tabs .tabs a.active:hover:before, body.portfolio section.gallery-tabs .tabs a.active:hover:after {
+    display: none; }
 
 @media (max-width: 575px) {
   body.portfolio section.gallery {
@@ -4331,6 +4384,7 @@ body.about section.gallery h3 {
       margin-top: 2px;
       margin-bottom: 0; }
     body.about section.gallery .grid-item .staff-bio {
+      transition: all 0.3s ease;
       display: inline-block;
       text-transform: uppercase;
       text-decoration: none;
@@ -4338,8 +4392,11 @@ body.about section.gallery h3 {
       color: #202020;
       letter-spacing: 1px;
       margin-top: .8rem;
-      padding-bottom: 6px;
+      padding-bottom: 2px;
       border-bottom: 1px solid #a45833; }
+      body.about section.gallery .grid-item .staff-bio:hover {
+        color: #a45833;
+        border-bottom: 1px solid transparent; }
   body.about section.gallery .grid-item:hover {
     cursor: pointer; } }
 

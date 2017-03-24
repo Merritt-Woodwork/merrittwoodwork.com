@@ -112,6 +112,7 @@ body.home {
       }
 
       span {
+        transition: all 0.3s ease;
         display: inline-block;
         text-transform: uppercase;
         color: #fff;
@@ -120,6 +121,10 @@ body.home {
         line-height: 1.16;
         padding-bottom: 2px;
         border-bottom: 1px solid $brand;
+        &:hover {
+          color: $brand;
+          border-bottom: 1px solid transparent;
+        }
       }
     }
 
@@ -188,6 +193,7 @@ body.home {
       margin-bottom: 40px;
     }
     h3 {
+      transition: all 0.3s ease;
       font-size: 18px;
       // line-height: 1.5;
       padding-bottom: 2px;
@@ -203,8 +209,15 @@ body.home {
         margin-right: 3rem;
       }
       a {
+        transition: all 0.3s ease;
         color: $near-black;
         text-decoration: none;
+      }
+    }
+    h3:hover {
+      border-bottom: 1px solid transparent;
+      a {
+        color: $brand;
       }
     }
   }
@@ -327,8 +340,6 @@ body.home {
             left: 30px; // 50%
             font-size: 16px;
             // line-height: 1.5;
-            padding-bottom: 2px;
-            border-bottom: 1px solid $brand;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
@@ -336,8 +347,15 @@ body.home {
             margin-left: 0;
             margin-right: 0;
             a {
+              transition: all 0.3s ease;
               color: #fff;
               text-decoration: none;
+              padding-bottom: 2px;
+              border-bottom: 1px solid $brand;
+              &:hover {
+                color: $brand;
+                border-bottom: 1px solid transparent;
+              }
             }
           }
         }
@@ -369,8 +387,7 @@ body.home {
             bottom: 33px;
             left: 48px; // 80%
             font-size: 18px;
-            line-height: 1.5;
-            border-bottom: 1px solid $brand;
+            // line-height: 1.5;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;
@@ -410,8 +427,7 @@ body.home {
             bottom: 33px;
             left: 60px;
             font-size: 18px;
-            line-height: 1.5;
-            border-bottom: 1px solid $brand;
+            // line-height: 1.5;
             letter-spacing: 1px;
             color: #fff;
             text-transform: uppercase;

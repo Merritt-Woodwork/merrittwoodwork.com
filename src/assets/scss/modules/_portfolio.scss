@@ -153,6 +153,7 @@ body.portfolio {
         left: 0;
         bottom: 35px;
         span {
+          transition: all 0.3s ease;
           display: inline-block;
           text-transform: uppercase;
           color: #fff;
@@ -160,6 +161,10 @@ body.portfolio {
           font-size: 18px;
           line-height: 1.16;
           border-bottom: 1px solid #a45833;
+          &:hover {
+            color: $brand;
+            border-bottom: 1px solid transparent;
+          }
         }
       }
     }
@@ -208,6 +213,7 @@ body.portfolio {
         bottom: 75px;
         left: 0;
         span {
+          transition: all 0.3s ease;
           display: inline-block;
           text-transform: uppercase;
           color: #fff;
@@ -215,6 +221,10 @@ body.portfolio {
           font-size: 18px;
           line-height: 1.16;
           border-bottom: 1px solid #a45833;
+          &:hover {
+            color: $brand;
+            border-bottom: 1px solid transparent;
+          }
         }
       }
     }
@@ -290,6 +300,8 @@ body.portfolio {
         }
       }
       a {
+        transition: all 0.3s ease;
+        position: relative;
         font-size: 12px;
         color: $text;
         @include breakpoint(769px) {
@@ -303,6 +315,47 @@ body.portfolio {
         &.active {
           border-bottom: 1px solid $brand;
         }
+      }
+      a:hover {
+        // color: $brand;
+        border-bottom: 1px solid transparent;
+      }
+      a.active:hover {
+        border-bottom: 1px solid $brand;
+      }
+      a:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        transition: width 0s ease, background .5s ease;
+      }
+      a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        background: $brand;
+        transition: width .5s ease;
+      }
+      a:hover:before {
+        width: 100%;
+        background: $brand;
+        transition: width .5s ease;
+      }
+      a:hover:after {
+        width: 100%;
+        background: transparent;
+        transition: all 0s ease;
+      }
+      a.active:before, a.active:after,a.active:hover:before, a.active:hover:after {
+        display: none;
       }
     }
   }
