@@ -24,14 +24,6 @@
 
 header {
 
-  // @include breakpoint(300px, 991px) {
-  //   position: fixed;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   height: 45px;
-  //   // z-index: 999;
-  // }
 
   font-size: 12px;
 
@@ -123,6 +115,7 @@ header {
         // float: left;
         height: 100%;
         a {
+          position: relative;
           margin-left: 1.5rem;
           padding-bottom: 2px;
           border-bottom: 1px solid transparent;
@@ -132,9 +125,43 @@ header {
           &.active {
             border-bottom: 1px solid $brand;
           }
-          &:hover{
-            border-bottom: 1px solid $brand;
-          }
+          // &:hover{
+          //   border-bottom: 1px solid $brand;
+          // }
+        }
+        a:before {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 1px;
+          width: 0;
+          transition: width 0s ease, background .5s ease;
+        }
+        a:after {
+          content: '';
+          display: block;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          height: 1px;
+          width: 0;
+          background: $brand;
+          transition: width .5s ease;
+        }
+        a:hover:before {
+          width: 100%;
+          background: $brand;
+          transition: width .5s ease;
+        }
+        a:hover:after {
+          width: 100%;
+          background: transparent;
+          transition: all 0s ease;
+        }
+        a.active:before, a.active:after,a.active:hover:before, a.active:hover:after {
+          display: none;
         }
       }
       .right {
@@ -145,6 +172,7 @@ header {
         // float: right;
         height: 100%;
         a {
+          position: relative;
           margin-right: 1.5rem;
           padding-bottom: 2px;
           border-bottom: 1px solid transparent;
@@ -154,9 +182,43 @@ header {
           &.active {
             border-bottom: 1px solid $brand;
           }
-          &:hover{
-            border-bottom: 1px solid $brand;
-          }
+          // &:hover{
+          //   border-bottom: 1px solid $brand;
+          // }
+        }
+        a:before {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 1px;
+          width: 0;
+          transition: width 0s ease, background .5s ease;
+        }
+        a:after {
+          content: '';
+          display: block;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          height: 1px;
+          width: 0;
+          background: $brand;
+          transition: width .5s ease;
+        }
+        a:hover:before {
+          width: 100%;
+          background: $brand;
+          transition: width .5s ease;
+        }
+        a:hover:after {
+          width: 100%;
+          background: transparent;
+          transition: all 0s ease;
+        }
+        a.active:before, a.active:after,a.active:hover:before, a.active:hover:after {
+          display: none;
         }
       }
       .left a, .right a {

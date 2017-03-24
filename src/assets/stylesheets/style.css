@@ -2113,6 +2113,7 @@ header {
       left: 0;
       height: 100%; }
       header .grid-column .left a {
+        position: relative;
         margin-left: 1.5rem;
         padding-bottom: 2px;
         border-bottom: 1px solid transparent; }
@@ -2120,8 +2121,35 @@ header {
           margin-left: 0; }
         header .grid-column .left a.active {
           border-bottom: 1px solid #a45833; }
-        header .grid-column .left a:hover {
-          border-bottom: 1px solid #a45833; }
+      header .grid-column .left a:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        transition: width 0s ease, background .5s ease; }
+      header .grid-column .left a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        background: #a45833;
+        transition: width .5s ease; }
+      header .grid-column .left a:hover:before {
+        width: 100%;
+        background: #a45833;
+        transition: width .5s ease; }
+      header .grid-column .left a:hover:after {
+        width: 100%;
+        background: transparent;
+        transition: all 0s ease; }
+      header .grid-column .left a.active:before, header .grid-column .left a.active:after, header .grid-column .left a.active:hover:before, header .grid-column .left a.active:hover:after {
+        display: none; }
     header .grid-column .right {
       display: block;
       position: absolute;
@@ -2129,6 +2157,7 @@ header {
       right: 0;
       height: 100%; }
       header .grid-column .right a {
+        position: relative;
         margin-right: 1.5rem;
         padding-bottom: 2px;
         border-bottom: 1px solid transparent; }
@@ -2136,8 +2165,35 @@ header {
           margin-right: 0; }
         header .grid-column .right a.active {
           border-bottom: 1px solid #a45833; }
-        header .grid-column .right a:hover {
-          border-bottom: 1px solid #a45833; }
+      header .grid-column .right a:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        transition: width 0s ease, background .5s ease; }
+      header .grid-column .right a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        background: #a45833;
+        transition: width .5s ease; }
+      header .grid-column .right a:hover:before {
+        width: 100%;
+        background: #a45833;
+        transition: width .5s ease; }
+      header .grid-column .right a:hover:after {
+        width: 100%;
+        background: transparent;
+        transition: all 0s ease; }
+      header .grid-column .right a.active:before, header .grid-column .right a.active:after, header .grid-column .right a.active:hover:before, header .grid-column .right a.active:hover:after {
+        display: none; }
     header .grid-column .left a, header .grid-column .right a {
       position: relative;
       top: 60%;
