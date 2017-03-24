@@ -1960,7 +1960,7 @@ section.jumbo-hero {
         letter-spacing: 2px;
         color: #FFFFFF;
         text-transform: uppercase;
-        font-weight: 600; } }
+        font-weight: 300; } }
     @media (min-width: 701px) {
       section.jumbo-hero h1 {
         font-size: 63px;
@@ -1968,7 +1968,7 @@ section.jumbo-hero {
         letter-spacing: 2px;
         color: #FFFFFF;
         text-transform: uppercase;
-        font-weight: 600; } }
+        font-weight: 300; } }
   @media only screen and (min-width: 300px) {
     section.jumbo-hero .headline {
       width: calc(87.5% - 30px);
@@ -2584,8 +2584,7 @@ body.home section.header-video {
       line-height: 1.1;
       letter-spacing: 2px;
       color: #FFFFFF;
-      text-transform: uppercase;
-      font-weight: 600; }
+      text-transform: uppercase; }
       body.home section.header-video .headline:hover {
         cursor: pointer; }
       body.home section.header-video .headline a {
@@ -2602,8 +2601,7 @@ body.home section.header-video {
       line-height: 1.1;
       letter-spacing: 2px;
       color: #FFFFFF;
-      text-transform: uppercase;
-      font-weight: 600; }
+      text-transform: uppercase; }
       body.home section.header-video .headline:hover {
         cursor: pointer; }
       body.home section.header-video .headline a {
@@ -2620,8 +2618,7 @@ body.home section.header-video {
       line-height: 1;
       letter-spacing: 2px;
       color: #FFFFFF;
-      text-transform: uppercase;
-      font-weight: 600; }
+      text-transform: uppercase; }
       body.home section.header-video .headline:hover {
         cursor: pointer; }
       body.home section.header-video .headline a {

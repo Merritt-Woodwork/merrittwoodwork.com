@@ -608,7 +608,7 @@ section.jumbo-hero {
       letter-spacing: 2px;
       color: #FFFFFF;
       text-transform: uppercase;
-      font-weight: 600;
+      font-weight: 300;
     }
     @include breakpoint(701px) {
       // @include vertical-align(absolute);
@@ -617,7 +617,7 @@ section.jumbo-hero {
       letter-spacing: 2px;
       color: #FFFFFF;
       text-transform: uppercase;
-      font-weight: 600;
+      font-weight: 300;
     }
   }
   .headline {
