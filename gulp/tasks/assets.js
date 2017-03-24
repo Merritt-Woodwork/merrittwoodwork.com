@@ -30,6 +30,7 @@ gulp.task('scripts', () =>
     'src/assets/javascript/imagesloaded.js',
     'src/assets/javascript/remodal-custom.js',
     'src/assets/javascript/classie.js',
+    'src/assets/javascript/aos.js',
     'src/assets/javascript/fastclick.js',
     'src/assets/javascript/enquire.js',
     'src/assets/javascript/isotope.pkgd.js',

@@ -1,0 +1,31 @@
+@keyframes customFadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.customFadeInUp {
+  animation-name: customFadeInUp;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.staggerFadeIn {
+  animation-name: fadeIn;
+  animation-delay: 1.5s;
+}
