@@ -1,0 +1,203 @@
+.press {
+
+  section.contact-details {
+    margin-top: -9px;
+    background-color: #f8f7f5;
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+    @include breakpoint(xs) {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    @include breakpoint(sm) {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    @include breakpoint(md) {
+      padding-top: 53px;
+      padding-bottom: 53px;
+    }
+    @include breakpoint(lg) {
+      padding-top: 69px;
+      padding-bottom: 69px;
+    }
+    @include breakpoint(xl) {
+      padding-top: 83px;
+      padding-bottom: 83px;
+    }
+    @include breakpoint(xxl) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    @include breakpoint(xs) {
+      h3 {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 1.5px;
+        color: $text;
+        margin-top: 30px;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        &:first-of-type {
+          margin-top: 0px;
+        }
+      }
+      p {
+        font-size: 19px;
+        line-height: 27px;
+        color: $near-black;
+        margin: 0;
+      }
+      a {
+        transition: all 0.3s ease;
+        text-decoration: none;
+        color: $text;
+        letter-spacing: 1px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid $brand;
+        &:hover {
+          color: $brand;
+          border-bottom: 1px solid transparent;
+        }
+      }
+    }
+    @include breakpoint(sm) {
+      h3 {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 1.5px;
+        color: $text;
+        margin-top: 30px;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        &:first-of-type {
+          margin-top: 0px;
+        }
+      }
+      p {
+        font-size: 19px;
+        line-height: 27px;
+        color: $near-black;
+        margin: 0;
+      }
+      a {
+        transition: all 0.3s ease;
+        text-decoration: none;
+        color: $text;
+        letter-spacing: 1px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid $brand;
+        &:hover {
+          color: $brand;
+          border-bottom: 1px solid transparent;
+        }
+      }
+    }
+  }
+
+  section.gallery {
+    @include breakpoint(xs) {
+      margin-bottom: 40px;
+    }
+    @include breakpoint(sm) {
+      margin-bottom: 75px;
+    }
+    @include breakpoint(md) {
+      margin-bottom: 100px;
+    }
+    @include breakpoint(lg) {
+      margin-bottom: 200px;
+    }
+    @include breakpoint(300px, 768px) {
+      padding-top: 30px;
+    }
+    @include breakpoint(769px) {
+      padding-top: 43px;
+    }
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+
+    @include breakpoint(300px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 4%;
+      }
+      .grid-item:hover{
+        cursor: pointer;
+      }
+    }
+
+    @include breakpoint(568px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 48%;
+      }
+      .grid-item {
+        margin-bottom: 4%;
+      }
+    }
+
+    @include breakpoint(736px) {
+      .gutter-sizer {
+        width: 2%;
+      }
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 49%;
+      }
+      .grid-item {
+        margin-bottom: 2%;
+      }
+    }
+
+    @include breakpoint(800px) {
+      .gutter-sizer {
+        width: 4%;
+      }
+      .grid-sizer, .grid-item {
+        width: 22%;
+      }
+      .grid-item {
+        margin-bottom: 28px;
+      }
+    }
+    @include breakpoint(lg) {
+      .grid-item {
+        margin-bottom: 38px;
+      }
+    }
+    @include breakpoint(xl) {
+      .grid-item {
+        margin-bottom: 46px;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+}
