@@ -7,6 +7,9 @@
     height: 45px;
     background-color: #fff;
     z-index: 99;
+    .grid-container {
+      width: 100%;
+    }
   }
 }
 
@@ -28,9 +31,9 @@ header {
   font-size: 12px;
 
   .grid-column {
-    @include grid-media($sm-grid) {
-      @include grid-column(12 of 12);
-    }
+    // @include grid-media($sm-grid) {
+    //   @include grid-column(12 of 12);
+    // }
     @include grid-media($lg-grid) {
       @include grid-column(14 of 16);
       @include grid-push(1 of 16);
@@ -42,9 +45,10 @@ header {
 
     .c-hamburger {
       @include breakpoint(300px, 991px) {
+        // display: none;
         position: absolute;
         top: 3px;
-        right: -16px;
+        right: 15px;
         margin: 0px !important;
         // margin-right: .75rem;
       }
@@ -58,8 +62,10 @@ header {
     }
 
     @include breakpoint(300px, 991px) {
+
       .menu {
-        width: 60px;
+        position: relative;
+        width: 0px;
         height: 45px;
         float: right;
         font-size: 14px;
@@ -71,6 +77,7 @@ header {
         p {
           @include vertical-align();
           margin: 0;
+          display: inline-block;
         }
         &:hover{
           cursor: pointer;
@@ -83,6 +90,7 @@ header {
       .va-wrapper img {
         @include vertical-align();
         width: 145px;
+        margin-left: 25px;
       }
       .left, .right {
         display: none;

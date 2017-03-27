@@ -37,14 +37,30 @@
     }
   }
 
+  .headline-block.pull {
+    @include breakpoint(xs) {
+      padding-bottom: 50px;
+    }
+    @include breakpoint(sm) {
+      padding-bottom: 75px;
+    }
+    @include breakpoint(md) {
+      padding-bottom: 90px;
+    }
+    @include breakpoint(lg) {
+    }
+    @include breakpoint(xl) {
+    }
+  }
+
   .image-text-block.top {
     @include breakpoint(xs) {
       margin-top: 45px;
-      margin-bottom: 16px;
+      margin-bottom: 45px;
     }
     @include breakpoint(sm) {
       margin-top: 96px;
-      margin-bottom: 34px;
+      margin-bottom: 45px;
     }
     @include breakpoint(md) {
       margin-top: 128px;

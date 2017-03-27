@@ -42,7 +42,7 @@ body.home {
 
     .headline {
       @include grid-media($sm-grid) {
-        @include grid-column(7 of 8);
+        @include grid-column(6 of 8);
       }
       @include grid-media($lg-grid) {
         @include grid-column(8 of 16);
@@ -198,7 +198,7 @@ body.home {
       // line-height: 1.5;
       padding-bottom: 2px;
       border-bottom: 1px solid $brand;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       color: $near-black;
       text-transform: uppercase;
       display: inline-block;
@@ -245,7 +245,7 @@ body.home {
       // line-height: 1.5;
       // border-bottom: 1px solid #a45833;
       // display: inline-block;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       color: $near-black;
       text-transform: uppercase;
       margin-left: 3rem;
@@ -340,7 +340,7 @@ body.home {
             left: 30px; // 50%
             font-size: 16px;
             // line-height: 1.5;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
             display: inline-block;
@@ -388,7 +388,7 @@ body.home {
             left: 48px; // 80%
             font-size: 18px;
             // line-height: 1.5;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
             display: inline-block;
@@ -428,7 +428,7 @@ body.home {
             left: 60px;
             font-size: 18px;
             // line-height: 1.5;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
             display: inline-block;
@@ -499,7 +499,7 @@ body.home {
             font-size: 16px;
             line-height: 1.5;
             border-bottom: 1px solid $brand;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
             display: inline-block;
@@ -541,7 +541,7 @@ body.home {
             font-size: 18px;
             line-height: 1.5;
             border-bottom: 1px solid $brand;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
             display: inline-block;
@@ -582,7 +582,7 @@ body.home {
             font-size: 18px;
             line-height: 1.5;
             border-bottom: 1px solid $brand;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
             display: inline-block;

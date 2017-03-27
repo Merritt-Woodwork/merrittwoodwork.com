@@ -1575,7 +1575,7 @@ section.list-block {
   section.headline-block .grid-column--copy h3 {
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     color: #202020;
     margin-top: 30px;
     margin-bottom: 6px;
@@ -1602,7 +1602,7 @@ section.list-block {
   section.headline-block .grid-column--copy h3 {
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     color: #202020;
     margin-top: 30px;
     margin-bottom: 6px;
@@ -1628,7 +1628,10 @@ section.list-block {
 @media (max-width: 575px) {
   section.headline-block.flow .grid-column {
     padding-top: 40px;
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+    section.headline-block.flow .grid-column .inner-wrapper {
+      float: left;
+      margin-bottom: 48px; } }
 
 @media (min-width: 576px) {
   section.headline-block.flow .grid-column {
@@ -1669,17 +1672,17 @@ section.list-block {
 @media (max-width: 575px) {
   .headline-block.pull {
     padding-top: 50px;
-    padding-bottom: 50px; } }
+    padding-bottom: 0px; } }
 
 @media (min-width: 576px) {
   .headline-block.pull {
     padding-top: 75px;
-    padding-bottom: 75px; } }
+    padding-bottom: 0px; } }
 
 @media (min-width: 768px) {
   .headline-block.pull {
     padding-top: 90px;
-    padding-bottom: 90px; } }
+    padding-bottom: 0px; } }
 
 @media (min-width: 992px) {
   .headline-block.pull {
@@ -1688,13 +1691,13 @@ section.list-block {
     .headline-block.pull .grid-column {
       margin-top: -130px;
       padding-top: 70px;
-      padding-bottom: 70px; } }
+      padding-bottom: 0px; } }
 
 @media (min-width: 1200px) {
   .headline-block.pull .grid-column {
     margin-top: -130px;
     padding-top: 85px;
-    padding-bottom: 85px; } }
+    padding-bottom: 0px; } }
 
 section.next {
   background-color: #202020;
@@ -1924,6 +1927,10 @@ section.text-block {
   section.image-text-block .grid-column--headline h2 {
     margin-bottom: 25px; } }
 
+@media (min-width: 1200px) {
+  section.image-text-block .grid-column--headline .wrapper {
+    margin-right: 2rem; } }
+
 @media only screen and (min-width: 300px) {
   section.image-text-block .grid-column--image {
     width: calc(100% - 32px);
@@ -2057,7 +2064,9 @@ section.jumbo-hero {
     right: 0;
     height: 45px;
     background-color: #fff;
-    z-index: 99; } }
+    z-index: 99; }
+    .fixed-header-wrapper .grid-container {
+      width: 100%; } }
 
 @media (min-width: 992px) {
   .fixed-header-wrapper {
@@ -2070,11 +2079,6 @@ section.jumbo-hero {
 
 header {
   font-size: 12px; }
-  @media only screen and (min-width: 300px) {
-    header .grid-column {
-      width: calc(100% - 32px);
-      float: left;
-      margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
     header .grid-column {
       width: calc(87.5% - 31.875px);
@@ -2091,7 +2095,7 @@ header {
     header .grid-column .c-hamburger {
       position: absolute;
       top: 3px;
-      right: -16px;
+      right: 15px;
       margin: 0px !important; } }
   @media (min-width: 992px) {
     header .grid-column .c-hamburger {
@@ -2100,7 +2104,8 @@ header {
     transition: all 0.3s ease; }
   @media (min-width: 300px) and (max-width: 991px) {
     header .grid-column .menu {
-      width: 60px;
+      position: relative;
+      width: 0px;
       height: 45px;
       float: right;
       font-size: 14px;
@@ -2113,7 +2118,8 @@ header {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        margin: 0; }
+        margin: 0;
+        display: inline-block; }
       header .grid-column .menu:hover {
         cursor: pointer; }
     header .grid-column .va-wrapper {
@@ -2123,7 +2129,8 @@ header {
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-      width: 145px; }
+      width: 145px;
+      margin-left: 25px; }
     header .grid-column .left, header .grid-column .right {
       display: none; } }
   @media (min-width: 992px) {
@@ -2267,7 +2274,7 @@ header {
     height: 100%;
     top: 45px;
     left: 0;
-    background: rgba(255, 255, 255, 0.95); }
+    background: white; }
   /* Overlay closing cross */
   .overlay .overlay-close {
     width: 80px;
@@ -2304,6 +2311,7 @@ header {
   .overlay ul li a {
     font-weight: 300;
     display: block;
+    letter-spacing: 1.5px;
     color: #202020;
     transition: color 0.2s;
     text-decoration: none;
@@ -2374,6 +2382,7 @@ header {
   .overlay ul li a {
     font-weight: 300;
     display: block;
+    letter-spacing: 1.5px;
     color: #202020;
     transition: color 0.2s;
     text-decoration: none;
@@ -2443,6 +2452,7 @@ header {
     min-height: 65px; }
   .overlay ul li a {
     font-weight: 300;
+    letter-spacing: 1.5px;
     display: block;
     color: #202020;
     transition: color 0.2s;
@@ -2495,7 +2505,7 @@ button.c-hamburger {
   border-radius: none;
   border: none;
   cursor: pointer;
-  transition: background 0.3s; }
+  transition: background 0.1s; }
 
 .c-hamburger:focus {
   outline: none; }
@@ -2507,7 +2517,7 @@ button.c-hamburger {
   left: 5px;
   right: 5px;
   height: 1px;
-  background: #878787; }
+  background: #202020; }
 
 .c-hamburger span::before,
 .c-hamburger span::after {
@@ -2516,7 +2526,7 @@ button.c-hamburger {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #878787;
+  background-color: #202020;
   content: ""; }
 
 .c-hamburger span::before {
@@ -2535,12 +2545,12 @@ button.c-hamburger {
   background-color: #fff; }
 
 .c-hamburger--htx span {
-  transition: background 0s 0.3s; }
+  transition: background 0s 0.1s; }
 
 .c-hamburger--htx span::before,
 .c-hamburger--htx span::after {
-  transition-duration: 0.3s, 0.3s;
-  transition-delay: 0.3s, 0s; }
+  transition-duration: 0.1s, 0.1s;
+  transition-delay: 0.1s, 0s; }
 
 .c-hamburger--htx span::before {
   transition-property: top, transform; }
@@ -2565,7 +2575,7 @@ button.c-hamburger {
 
 .c-hamburger--htx.is-active span::before,
 .c-hamburger--htx.is-active span::after {
-  transition-delay: 0s, 0.3s; }
+  transition-delay: 0s, 0.1s; }
 
 @media only screen and (min-width: 300px) {
   footer .grid-column {
@@ -2650,7 +2660,7 @@ body.home section.header-video {
     height: auto; }
   @media only screen and (min-width: 300px) {
     body.home section.header-video .headline {
-      width: calc(87.5% - 30px);
+      width: calc(75% - 28px);
       float: left;
       margin-left: 16px; } }
   @media only screen and (min-width: 992px) {
@@ -2794,7 +2804,7 @@ body.home section.intro {
     font-size: 18px;
     padding-bottom: 2px;
     border-bottom: 1px solid #a45833;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     color: #202020;
     text-transform: uppercase;
     display: inline-block;
@@ -2830,7 +2840,7 @@ body.home section.case-studies {
       padding-bottom: 200px; } }
   body.home section.case-studies h3 {
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     color: #202020;
     text-transform: uppercase;
     margin-left: 3rem;
@@ -2915,7 +2925,7 @@ body.home section.case-studies {
         bottom: 16px;
         left: 30px;
         font-size: 16px;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
         display: inline-block;
@@ -2954,7 +2964,7 @@ body.home section.case-studies {
         bottom: 33px;
         left: 48px;
         font-size: 18px;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
         display: inline-block;
@@ -2987,7 +2997,7 @@ body.home section.case-studies {
         bottom: 33px;
         left: 60px;
         font-size: 18px;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
         display: inline-block;
@@ -3045,7 +3055,7 @@ body.home section.case-studies {
         font-size: 16px;
         line-height: 1.5;
         border-bottom: 1px solid #a45833;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
         display: inline-block;
@@ -3080,7 +3090,7 @@ body.home section.case-studies {
         font-size: 18px;
         line-height: 1.5;
         border-bottom: 1px solid #a45833;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
         display: inline-block;
@@ -3115,7 +3125,7 @@ body.home section.case-studies {
         font-size: 18px;
         line-height: 1.5;
         border-bottom: 1px solid #a45833;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
         display: inline-block;
@@ -4539,14 +4549,26 @@ body.about .remodal p.quote {
       height: 621px; } }
 
 @media (max-width: 575px) {
+  .capabilities .headline-block.pull {
+    padding-bottom: 50px; } }
+
+@media (min-width: 576px) {
+  .capabilities .headline-block.pull {
+    padding-bottom: 75px; } }
+
+@media (min-width: 768px) {
+  .capabilities .headline-block.pull {
+    padding-bottom: 90px; } }
+
+@media (max-width: 575px) {
   .capabilities .image-text-block.top {
     margin-top: 45px;
-    margin-bottom: 16px; } }
+    margin-bottom: 45px; } }
 
 @media (min-width: 576px) {
   .capabilities .image-text-block.top {
     margin-top: 96px;
-    margin-bottom: 34px; } }
+    margin-bottom: 45px; } }
 
 @media (min-width: 768px) {
   .capabilities .image-text-block.top {
@@ -4673,7 +4695,7 @@ body.about .remodal p.quote {
 .clients h3 {
   font-size: 18px;
   margin: 0 0 1.5rem 0;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   color: #202020;
   text-transform: uppercase; }
   @media (min-width: 992px) {
@@ -5420,7 +5442,7 @@ body.grid .grid-container {
 
 .grid-container {
   margin: 0 auto;
-  width: 86.6666%; }
+  width: 95%; }
   .grid-container::after {
     clear: both;
     content: "";

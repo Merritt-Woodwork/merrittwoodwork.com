@@ -18,7 +18,7 @@
     height: 100%;
     top: 45px;
     left: 0;
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,1);
   }
 
   /* Overlay closing cross */
@@ -67,6 +67,7 @@
   .overlay ul li a {
     font-weight: 300;
     display: block;
+    letter-spacing: 1.5px;
     color: #202020;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -179,6 +180,7 @@
   .overlay ul li a {
     font-weight: 300;
     display: block;
+    letter-spacing: 1.5px;
     color: #202020;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -289,6 +291,7 @@
 
   .overlay ul li a {
     font-weight: 300;
+    letter-spacing: 1.5px;
     display: block;
     color: #202020;
     -webkit-transition: color 0.2s;

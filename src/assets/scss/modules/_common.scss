@@ -192,7 +192,7 @@ section.headline-block {
       h3 {
         font-size: 18px;
         line-height: 21px;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: $text;
         margin-top: 30px;
         margin-bottom: 6px;
@@ -224,7 +224,7 @@ section.headline-block {
       h3 {
         font-size: 18px;
         line-height: 21px;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
         color: $text;
         margin-top: 30px;
         margin-bottom: 6px;
@@ -264,6 +264,10 @@ section.headline-block.flow {
     @include breakpoint(xs) {
       padding-top: 40px;
       padding-bottom: 40px;
+      .inner-wrapper {
+        float: left;
+        margin-bottom: 48px;
+      }
     }
     @include breakpoint(sm) {
       padding-top: 80px;
@@ -307,15 +311,15 @@ section.headline-block.flow {
 .headline-block.pull {
   @include breakpoint(xs) {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
   @include breakpoint(sm) {
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 0px;
   }
   @include breakpoint(md) {
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 0px;
   }
   @include breakpoint(lg) {
     padding-top: 0;
@@ -323,7 +327,7 @@ section.headline-block.flow {
     .grid-column {
       margin-top: -130px;
       padding-top: 70px;
-      padding-bottom: 70px;
+      padding-bottom: 0px;
     }
   }
   @include breakpoint(xl) {
@@ -331,7 +335,7 @@ section.headline-block.flow {
     .grid-column {
       margin-top: -130px;
       padding-top: 85px;
-      padding-bottom: 85px;
+      padding-bottom: 0px;
     }
   }
 }
@@ -586,6 +590,9 @@ section.image-text-block {
       }
     }
     @include breakpoint(xl) {
+      .wrapper {
+        margin-right: 2rem;
+      }
     }
   }
   .grid-column--image {

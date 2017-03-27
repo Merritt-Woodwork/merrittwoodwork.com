@@ -59,7 +59,8 @@ html, body {
 .grid-container {
     @include grid-container;
     margin: 0 auto;
-    width: 86.6666%;
+    width: 95%;
+    // width: calc(100vw - 20px);
     @include breakpoint(lg) {
       width: 992px;
     }
@@ -70,6 +71,12 @@ html, body {
       width: 1440px;
     }
   }
+
+  // .inner-grid-container {
+  //   clear: both;
+  //   content: "";
+  //   display: block;
+  // }
 
   // full-width outer grid hack
   .grid-container.fluid {
