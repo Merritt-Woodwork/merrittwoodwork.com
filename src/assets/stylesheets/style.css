@@ -2105,7 +2105,7 @@ header {
   @media (min-width: 300px) and (max-width: 991px) {
     header .grid-column .menu {
       position: relative;
-      width: 0px;
+      width: 90px;
       height: 45px;
       float: right;
       font-size: 14px;
@@ -4653,7 +4653,7 @@ body.about .remodal p.quote {
         margin-left: 17px; } }
   @media (max-width: 575px) {
     .clients section.client-list {
-      padding-top: 20px;
+      padding-top: 40px;
       padding-bottom: 20px; } }
   @media (min-width: 576px) {
     .clients section.client-list {
@@ -5826,6 +5826,154 @@ body.about .remodal p.quote {
       .contact section.contact-details a:hover {
         color: #a45833;
         border-bottom: 1px solid transparent; } }
+
+.contact section.case-studies {
+  background-color: #FFF;
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  @media (min-width: 300px) and (max-width: 768px) {
+    .contact section.case-studies .grid-container {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .contact section.case-studies {
+      padding-top: 80px;
+      padding-bottom: 160px; } }
+  @media (min-width: 1200px) {
+    .contact section.case-studies {
+      padding-top: 100px;
+      padding-bottom: 200px; } }
+  .contact section.case-studies h3 {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #202020;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: #202020; }
+    .contact section.case-studies h3.header {
+      text-align: center;
+      margin-bottom: 2rem; }
+  @media only screen and (min-width: 992px) {
+    .contact section.case-studies .grid-column {
+      width: calc(87.5% - 31.875px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); }
+      .contact section.case-studies .grid-column img {
+        width: 60%; } }
+  @media only screen and (min-width: 1200px) {
+    .contact section.case-studies .grid-column {
+      width: calc(75% - 29.75px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(12.5% - 19.125px + 34px); }
+      .contact section.case-studies .grid-column img {
+        width: 60%; } }
+  .contact section.case-studies .case-study {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 396px;
+    margin-bottom: 35px; }
+    @media (min-width: 701px) {
+      .contact section.case-studies .case-study {
+        height: 288px; } }
+    @media (min-width: 768px) {
+      .contact section.case-studies .case-study {
+        height: 288px; } }
+    @media (min-width: 1200px) {
+      .contact section.case-studies .case-study {
+        height: 360px; } }
+  .contact section.case-studies .case-study-info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    position: relative; }
+    .contact section.case-studies .case-study-info .wrapper {
+      flex: 0 1 auto; }
+    @media (min-width: 300px) and (max-width: 700px) {
+      .contact section.case-studies .case-study-info {
+        flex-basis: 100%;
+        height: 220px; } }
+    @media (min-width: 701px) {
+      .contact section.case-studies .case-study-info {
+        flex-basis: 40%; } }
+    @media (min-width: 300px) {
+      .contact section.case-studies .case-study-info h5 {
+        font-size: 12px;
+        line-height: 1;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0; }
+        .contact section.case-studies .case-study-info h5.phone {
+          margin-top: 1em; }
+      .contact section.case-studies .case-study-info h2 {
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0 0 1rem 0;
+        padding-right: 30px; } }
+    @media (min-width: 768px) {
+      .contact section.case-studies .case-study-info h5 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0; }
+        .contact section.case-studies .case-study-info h5.phone {
+          margin-top: 1em; }
+      .contact section.case-studies .case-study-info h2 {
+        font-size: 28px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0 0 1rem 0;
+        padding-right: 30px; } }
+    @media (min-width: 1200px) {
+      .contact section.case-studies .case-study-info h5 {
+        font-size: 12px;
+        line-height: 1.3;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0; }
+        .contact section.case-studies .case-study-info h5.phone {
+          margin-top: 1em; }
+      .contact section.case-studies .case-study-info h2 {
+        font-size: 44px;
+        line-height: 1.1;
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin: 0 0 1rem 0;
+        padding-right: 30px; } }
+  .contact section.case-studies .case-study:nth-child(odd) .case-study-image {
+    background-size: cover;
+    background-position: center; }
+    @media (min-width: 300px) and (max-width: 700px) {
+      .contact section.case-studies .case-study:nth-child(odd) .case-study-image {
+        flex-basis: 100%;
+        height: 216px; } }
+    @media (min-width: 701px) {
+      .contact section.case-studies .case-study:nth-child(odd) .case-study-image {
+        flex-basis: 60%; } }
+  .contact section.case-studies .case-study:nth-child(even) .case-study-image {
+    background-size: cover;
+    background-position: center; }
+    @media (min-width: 300px) and (max-width: 700px) {
+      .contact section.case-studies .case-study:nth-child(even) .case-study-image {
+        flex-basis: 100%;
+        height: 216px; } }
+    @media (min-width: 701px) {
+      .contact section.case-studies .case-study:nth-child(even) .case-study-image {
+        flex-basis: 60%;
+        order: 2; } }
 
 @keyframes customFadeInUp {
   from {
