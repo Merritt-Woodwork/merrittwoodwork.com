@@ -1,0 +1,399 @@
+.internships {
+
+  section.gallery-tabs {
+    text-align: center;
+    margin-top: -9px;
+    .full-grid-container {
+      @include grid-container;
+    }
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(16 of 16);
+      }
+    }
+    h3 {
+      display: inline-block;
+      margin-top: 50px;
+      @include breakpoint(md) {
+        margin-top: 59px;
+      }
+      font-size: 18px;
+      margin-bottom: 1.5rem;
+      letter-spacing: 1.5px;
+      color: $text;
+      text-transform: uppercase;
+      @include breakpoint(300px, 500px) {
+        margin-left: 1rem;
+      }
+      @include breakpoint(501px) {
+        margin-left: 3rem;
+      }
+      &:first-of-type {
+        margin-left: 0px;
+      }
+      a {
+        transition: all 0.3s ease;
+        position: relative;
+        color: $text;
+        border-bottom: 1px solid transparent;
+        margin-bottom: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &.active {
+          border-bottom: 1px solid $brand;
+        }
+      }
+      a:hover {
+        border-bottom: 1px solid transparent;
+      }
+      a.active:hover {
+        border-bottom: 1px solid $brand;
+      }
+      a:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        transition: width 0s ease, background .5s ease;
+      }
+      a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        background: $brand;
+        transition: width .5s ease;
+      }
+      a:hover:before {
+        width: 100%;
+        background: $brand;
+        transition: width .5s ease;
+      }
+      a:hover:after {
+        width: 100%;
+        background: transparent;
+        transition: all 0s ease;
+      }
+      a.active:before, a.active:after,a.active:hover:before, a.active:hover:after {
+        display: none;
+      }
+    }
+    .tabs {
+      text-align: center;
+      @include breakpoint(300px, 768px) {
+        margin-bottom: 30px;
+      }
+      @include breakpoint(769px) {
+        margin-bottom: 70px;
+      }
+      .mobile-wrapper {
+        @include breakpoint(300px, 768px) {
+          display: inline-block;
+          text-align: left;
+          margin-bottom: 1rem;
+        }
+        @include breakpoint(769px) {
+          display: inline-block;
+        }
+        @include breakpoint(300px, 799px) {
+          margin-left: 20px;
+        }
+        &:first-of-type {
+          margin-left: 0px;
+        }
+        @include breakpoint(800px) {
+          margin-left: 50px;
+        }
+        &:first-of-type {
+          margin-left: 0px;
+        }
+      }
+      a {
+        transition: all 0.3s ease;
+        position: relative;
+        font-size: 12px;
+        color: $text;
+        @include breakpoint(769px) {
+          display: inline-block;
+        }
+        border-bottom: 1px solid transparent;
+        margin-bottom: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &.active {
+          border-bottom: 1px solid $brand;
+        }
+      }
+      a:hover {
+        // color: $brand;
+        border-bottom: 1px solid transparent;
+      }
+      a.active:hover {
+        border-bottom: 1px solid $brand;
+      }
+      a:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        transition: width 0s ease, background .5s ease;
+      }
+      a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        width: 0;
+        background: $brand;
+        transition: width .5s ease;
+      }
+      a:hover:before {
+        width: 100%;
+        background: $brand;
+        transition: width .5s ease;
+      }
+      a:hover:after {
+        width: 100%;
+        background: transparent;
+        transition: all 0s ease;
+      }
+      a.active:before, a.active:after,a.active:hover:before, a.active:hover:after {
+        display: none;
+      }
+    }
+  }
+
+  .headline-block.flow {
+    .grid-column {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  section.gallery {
+    @include breakpoint(xs) {
+      h2 {
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 1.5px;
+        color: $near-black;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 25px;
+      }
+      margin-bottom: 40px;
+
+    }
+    @include breakpoint(sm) {
+      h2 {
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 1.5px;
+        color: $near-black;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 25px;
+      }
+      margin-bottom: 75px;
+    }
+    @include breakpoint(md) {
+      h2 {
+        font-size: 44px;
+        line-height: 44px;
+      }
+      margin-bottom: 100px;
+    }
+    @include breakpoint(lg) {
+      h2 {
+        margin-bottom: 0;
+      }
+      margin-bottom: 200px;
+    }
+    .grid-column {
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      // @include grid-media($md-grid) {
+      //   @include grid-column(16 of 16);
+      // }
+      @include grid-media($lg-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
+
+    @include breakpoint(300px) {
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 100%;
+      }
+      .grid-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        // height: 200px;
+        margin-bottom: 1rem;
+        .job-title {
+          @include breakpoint(300px, 991px) {
+            flex-basis: 100%;
+          }
+          @include breakpoint(992px) {
+            flex-basis: 60%;
+          }
+          h2 {
+            padding-right: 2rem;
+          }
+        }
+        .job-info {
+          @include breakpoint(300px, 991px) {
+            flex-basis: 100%;
+          }
+          @include breakpoint(992px) {
+            flex-basis: 40%;
+          }
+          p {
+            font-size: 19px;
+            line-height: 27px;
+            color: $near-black;
+            margin: 0 0 0 0;
+          }
+          h3 {
+            transition: all 0.3s ease;
+            font-size: 18px;
+            // line-height: 1.5;
+            padding-bottom: 2px;
+            margin-top: 1.25rem;
+            border-bottom: 1px solid $brand;
+            letter-spacing: 1.5px;
+            color: $near-black;
+            text-transform: uppercase;
+            display: inline-block;
+            a {
+              transition: all 0.3s ease;
+              color: $near-black;
+              text-decoration: none;
+            }
+          }
+          h3:hover {
+            border-bottom: 1px solid transparent;
+            a {
+              color: $brand;
+            }
+          }
+        }
+      }
+    }
+
+    @include breakpoint(568px) {
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 100%;
+      }
+      .grid-item {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    @include breakpoint(736px) {
+      .grid-sizer, .grid-item {
+        // width: calc(48% + 8px);
+        width: 100%;
+      }
+      .grid-item {
+        margin-bottom: 2rem;
+      }
+    }
+
+    @include breakpoint(800px) {
+      .grid-sizer, .grid-item {
+        width: 100%;
+      }
+      .grid-item {
+        margin-bottom: 2rem;
+      }
+
+    }
+    @include breakpoint(lg) {
+      .gutter-sizer {
+        width: 2%;
+      }
+      .grid-sizer, .grid-item {
+        width: 46%;
+      }
+      .grid-item {
+        margin-bottom: 83px;
+      }
+    }
+    @include breakpoint(xl) {
+      .grid-item {
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+  section.headline-block.flow {
+    .grid-column {
+      @include breakpoint(xs) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .inner-wrapper {
+          float: left;
+          margin-bottom: 48px;
+        }
+      }
+      @include breakpoint(sm) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .inner-wrapper {
+          float: left;
+          margin-bottom: 48px;
+        }
+      }
+      @include breakpoint(md) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .inner-wrapper {
+          margin-bottom: 64px;
+        }
+      }
+      @include breakpoint(lg) {
+        padding-top: 49px;
+        padding-bottom: 49px;
+        .inner-wrapper {
+          margin-bottom: 83px;
+        }
+      }
+      @include breakpoint(xl) {
+        padding-top: 58px;
+        padding-bottom: 58px;
+        .inner-wrapper {
+          margin-bottom: 100px;
+        }
+      }
+      @include breakpoint(xxl) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        .inner-wrapper {
+          margin-bottom: 100px;
+        }
+      }
+    }
+  }
+
+}
