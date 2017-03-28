@@ -1,0 +1,63 @@
+.job {
+  .headline-block.flow {
+    .inner-wrapper {
+      margin-bottom: 0px !important;
+    }
+    .grid-column {
+      @include breakpoint(xs) {
+        padding-top: .75em;
+        padding-bottom: .75em;
+      }
+      @include breakpoint(sm) {
+        padding-top: 27px;
+        padding-bottom: 27px;
+      }
+      @include breakpoint(md) {
+        padding-top: 27px;
+        padding-bottom: 27px;
+      }
+      @include breakpoint(lg) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      @include breakpoint(xl) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+  .headline-block.flow.top {
+    @include breakpoint(xs) {
+      padding-top: 2rem
+    }
+    @include breakpoint(sm) {
+      padding-top: 54px;
+    }
+    @include breakpoint(md) {
+      padding-top: 54px;
+    }
+    @include breakpoint(lg) {
+      padding-top: 100px;
+    }
+    @include breakpoint(xl) {
+      padding-top: 100px;
+    }
+  }
+  .headline-block.flow.bottom {
+    @include breakpoint(xs) {
+      padding-bottom: 2rem
+    }
+    @include breakpoint(sm) {
+      padding-bottom: 54px;
+    }
+    @include breakpoint(md) {
+      padding-bottom: 54px;
+    }
+    @include breakpoint(lg) {
+      padding-bottom: 100px;
+    }
+    @include breakpoint(xl) {
+      padding-bottom: 100px;
+    }
+  }
+}

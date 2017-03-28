@@ -5320,6 +5320,74 @@ body.about .remodal p.quote {
     .jobs section.headline-block.flow .grid-column .inner-wrapper {
       margin-bottom: 100px; } }
 
+.job .headline-block.flow .inner-wrapper {
+  margin-bottom: 0px !important; }
+
+@media (max-width: 575px) {
+  .job .headline-block.flow .grid-column {
+    padding-top: .75em;
+    padding-bottom: .75em; } }
+
+@media (min-width: 576px) {
+  .job .headline-block.flow .grid-column {
+    padding-top: 27px;
+    padding-bottom: 27px; } }
+
+@media (min-width: 768px) {
+  .job .headline-block.flow .grid-column {
+    padding-top: 27px;
+    padding-bottom: 27px; } }
+
+@media (min-width: 992px) {
+  .job .headline-block.flow .grid-column {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
+
+@media (min-width: 1200px) {
+  .job .headline-block.flow .grid-column {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
+
+@media (max-width: 575px) {
+  .job .headline-block.flow.top {
+    padding-top: 2rem; } }
+
+@media (min-width: 576px) {
+  .job .headline-block.flow.top {
+    padding-top: 54px; } }
+
+@media (min-width: 768px) {
+  .job .headline-block.flow.top {
+    padding-top: 54px; } }
+
+@media (min-width: 992px) {
+  .job .headline-block.flow.top {
+    padding-top: 100px; } }
+
+@media (min-width: 1200px) {
+  .job .headline-block.flow.top {
+    padding-top: 100px; } }
+
+@media (max-width: 575px) {
+  .job .headline-block.flow.bottom {
+    padding-bottom: 2rem; } }
+
+@media (min-width: 576px) {
+  .job .headline-block.flow.bottom {
+    padding-bottom: 54px; } }
+
+@media (min-width: 768px) {
+  .job .headline-block.flow.bottom {
+    padding-bottom: 54px; } }
+
+@media (min-width: 992px) {
+  .job .headline-block.flow.bottom {
+    padding-bottom: 100px; } }
+
+@media (min-width: 1200px) {
+  .job .headline-block.flow.bottom {
+    padding-bottom: 100px; } }
+
 .internships section.gallery-tabs {
   text-align: center;
   margin-top: -9px; }
