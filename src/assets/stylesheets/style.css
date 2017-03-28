@@ -5721,6 +5721,112 @@ body.about .remodal p.quote {
     .internships section.headline-block.flow .grid-column .inner-wrapper {
       margin-bottom: 100px; } }
 
+.contact section.contact-details {
+  margin-top: -9px;
+  background-color: #f8f7f5; }
+  @media only screen and (min-width: 300px) {
+    .contact section.contact-details .grid-column {
+      width: calc(100% - 32px);
+      float: left;
+      margin-left: 16px; } }
+  @media only screen and (min-width: 992px) {
+    .contact section.contact-details .grid-column {
+      width: calc(37.5% - 23.375px);
+      float: left;
+      margin-left: 17px;
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
+  @media (max-width: 575px) {
+    .contact section.contact-details .grid-column.top {
+      padding-bottom: 3rem; } }
+  @media (min-width: 576px) {
+    .contact section.contact-details .grid-column.top {
+      padding-bottom: 3rem; } }
+  @media (min-width: 992px) {
+    .contact section.contact-details .grid-column.top {
+      padding-bottom: 3rem; } }
+  @media (max-width: 575px) {
+    .contact section.contact-details .grid-column.bottom {
+      padding-bottom: 3rem; } }
+  @media (min-width: 576px) {
+    .contact section.contact-details .grid-column.bottom {
+      padding-bottom: 3rem; } }
+  @media (max-width: 575px) {
+    .contact section.contact-details {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  @media (min-width: 576px) {
+    .contact section.contact-details {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
+  @media (min-width: 768px) {
+    .contact section.contact-details {
+      padding-top: 53px;
+      padding-bottom: 53px; } }
+  @media (min-width: 992px) {
+    .contact section.contact-details {
+      padding-top: 69px;
+      padding-bottom: 69px; } }
+  @media (min-width: 1200px) {
+    .contact section.contact-details {
+      padding-top: 83px;
+      padding-bottom: 83px; } }
+  @media (min-width: 1440px) {
+    .contact section.contact-details {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  @media (max-width: 575px) {
+    .contact section.contact-details h3 {
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 1.5px;
+      color: #202020;
+      margin-top: 30px;
+      margin-bottom: 1rem;
+      text-transform: uppercase; }
+      .contact section.contact-details h3:first-of-type {
+        margin-top: 0px; }
+    .contact section.contact-details p {
+      font-size: 19px;
+      line-height: 27px;
+      color: #202020;
+      margin: 0; }
+    .contact section.contact-details a {
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #202020;
+      letter-spacing: 1px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #a45833; }
+      .contact section.contact-details a:hover {
+        color: #a45833;
+        border-bottom: 1px solid transparent; } }
+  @media (min-width: 576px) {
+    .contact section.contact-details h3 {
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 1.5px;
+      color: #202020;
+      margin-top: 30px;
+      margin-bottom: 1rem;
+      text-transform: uppercase; }
+      .contact section.contact-details h3:first-of-type {
+        margin-top: 0px; }
+    .contact section.contact-details p {
+      font-size: 19px;
+      line-height: 27px;
+      color: #202020;
+      margin: 0; }
+    .contact section.contact-details a {
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #202020;
+      letter-spacing: 1px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #a45833; }
+      .contact section.contact-details a:hover {
+        color: #a45833;
+        border-bottom: 1px solid transparent; } }
+
 @keyframes customFadeInUp {
   from {
     opacity: 0;
