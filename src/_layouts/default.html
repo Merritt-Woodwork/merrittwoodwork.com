@@ -46,28 +46,12 @@
 
   </body>
 
-  {% if page.class == 'home' %}
-    {% include js-home.html %}
+  {% if page.class %}
+
+    {% include js-{{page.class}}.html %}
+
   {% endif %}
 
-  {% if page.class == 'capabilities' %}
-    {% include js-capabilities.html %}
-  {% endif %}
 
-  {% if page.class == 'portfolio' %}
-    {% include js-portfolio.html %}
-  {% endif %}
-
-  {% if page.class == 'casestudy' %}
-    {% include js-casestudy.html %}
-  {% endif %}
-
-  {% if page.class == 'about' %}
-    {% include js-about.html %}
-  {% endif %}
-
-  {% if page.class == 'press' %}
-    {% include js-press.html %}
-  {% endif %}
 
 </html>
