@@ -1,5 +1,5 @@
 ---
-
+headline: 'WHEN PERFECTION IS THE ONLY OPTION, THE MOST EXACTING AND ACCLAIMED ARCHITECTS, DESIGNERS, BUILDERS AND OWNERS CALL UPON MERRITT.'
 ---
 
 <section class="jumbo-hero">
@@ -7,7 +7,7 @@
     <div class="grid-container">
       <!-- <div class="grid-collapse"> -->
         <div class="headline header-text-condensed">
-          <h1 class="animated customFadeInUp">WHEN PERFECTION IS THE ONLY OPTION, THE MOST EXACTING AND ACCLAIMED ARCHITECTS, DESIGNERS, BUILDERS AND OWNERS CALL UPON MERRITT. </h1>
+          <h1 class="animated customFadeInUp">{{ page.headline }}</h1>
         </div>
       <!-- </div> -->
     </div>
@@ -24,163 +24,16 @@
     <div class="label-column">
       <h3 class="header-text-condensed">architects</h3>
     </div>
+    {% assign architects = site.data.clients | where:"type","architect" %}
     <div class="list-column">
       <div class="grid-collapse">
         <div class="inner-grid">
           <div class="grid-collapse">
+            {% for item in architects %}
             <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
+              <p class="copy-text">{{ item.name }}</p>
             </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Sawyer | Berson Architecture & Landscape Architecture, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
+            {% endfor %}
           <div class="grid-collapse">
         </div>
       </div>
@@ -193,163 +46,38 @@
     <div class="label-column">
       <h3 class="header-text-condensed">interior designers</h3>
     </div>
+    {% assign designers = site.data.clients | where:"type","interior designer" %}
     <div class="list-column">
       <div class="grid-collapse">
         <div class="inner-grid">
           <div class="grid-collapse">
+            {% for item in designers %}
             <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
+              <p class="copy-text">{{ item.name }}</p>
             </div>
+            {% endfor %}
+          <div class="grid-collapse">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="client-list ">
+  <div class="grid-container">
+    <div class="label-column">
+      <h3 class="header-text-condensed">builders &amp; shipyards</h3>
+    </div>
+    {% assign builders = site.data.clients | where:"type","builder" %}
+    <div class="list-column">
+      <div class="grid-collapse">
+        <div class="inner-grid">
+          <div class="grid-collapse">
+            {% for item in builders %}
             <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
+              <p class="copy-text">{{ item.name }}</p>
             </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Sawyer | Berson Architecture & Landscape Architecture, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Frederick Fisher & Partners Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
+            {% endfor %}
           <div class="grid-collapse">
         </div>
       </div>
@@ -362,31 +90,16 @@
     <div class="label-column">
       <h3 class="header-text-condensed">owner representatives</h3>
     </div>
+    {% assign owners = site.data.clients | where:"type","owner rep" %}
     <div class="list-column">
       <div class="grid-collapse">
         <div class="inner-grid">
           <div class="grid-collapse">
+            {% for item in owners %}
             <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
+              <p class="copy-text">{{ item.name }}</p>
             </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Ferguson & Shamamian Architects, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Andrew Skurman Architects</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Callison RTKL Associates</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Diller Scofidio + Renfro</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Sawyer | Berson Architecture & Landscape Architecture, LLP</p>
-            </div>
-            <div class="inner-grid-column">
-              <p class="copy-text">Albert, Righter & Tittmann Architects</p>
-            </div>
+            {% endfor %}
           <div class="grid-collapse">
         </div>
       </div>
