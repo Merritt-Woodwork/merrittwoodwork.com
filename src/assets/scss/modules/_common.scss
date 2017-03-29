@@ -205,7 +205,7 @@ section.headline-block {
         font-size: 19px;
         line-height: 27px;
         color: $near-black;
-        margin: 0 0 1em 0;
+        margin: 0 0 .5em 0;
       }
       ul {
         padding-left: 1.5em;
@@ -237,7 +237,7 @@ section.headline-block {
         font-size: 19px;
         line-height: 27px;
         color: $near-black;
-        margin: 0 0 1em 0;
+        margin: 0 0 .5em 0;
       }
       ul {
         padding-left: 1.5em;
@@ -292,15 +292,15 @@ section.headline-block.flow {
       }
     }
     @include breakpoint(xl) {
-      padding-top: 166px;
-      padding-bottom: 166px;
+      padding-top: 140px;
+      padding-bottom: 140px;
       .inner-wrapper {
         margin-bottom: 100px;
       }
     }
     @include breakpoint(xxl) {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 150px;
+      padding-bottom: 150px;
       .inner-wrapper {
         margin-bottom: 100px;
       }
@@ -543,7 +543,7 @@ section.image-text-block {
         font-size: 19px;
         line-height: 27px;
         color: $near-black;
-        margin: 0 0 1em 0;
+        margin: 0 0 .5em 0;
       }
     }
     @media (min-width: 768px) {
@@ -565,7 +565,7 @@ section.image-text-block {
         font-size: 19px;
         line-height: 27px;
         color: $near-black;
-        margin: 0 0 1em 0;
+        margin: 0 0 .5em 0;
       }
     }
     @media (min-width: 769px) {
@@ -647,12 +647,12 @@ section.jumbo-hero {
     padding-bottom: 138px;
   }
   @include breakpoint(xl) {
-    padding-top: 166px;
-    padding-bottom: 166px;
+    padding-top: 140px;
+    padding-bottom: 140px;
   }
   @include breakpoint(xxl) {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
   h1 {
     color: white;

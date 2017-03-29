@@ -1586,7 +1586,7 @@ section.list-block {
     font-size: 19px;
     line-height: 27px;
     color: #202020;
-    margin: 0 0 1em 0; }
+    margin: 0 0 .5em 0; }
   section.headline-block .grid-column--copy ul {
     padding-left: 1.5em;
     margin: 0; }
@@ -1613,7 +1613,7 @@ section.list-block {
     font-size: 19px;
     line-height: 27px;
     color: #202020;
-    margin: 0 0 1em 0; }
+    margin: 0 0 .5em 0; }
   section.headline-block .grid-column--copy ul {
     padding-left: 1.5em;
     margin: 0; }
@@ -1657,15 +1657,15 @@ section.list-block {
 
 @media (min-width: 1200px) {
   section.headline-block.flow .grid-column {
-    padding-top: 166px;
-    padding-bottom: 166px; }
+    padding-top: 140px;
+    padding-bottom: 140px; }
     section.headline-block.flow .grid-column .inner-wrapper {
       margin-bottom: 100px; } }
 
 @media (min-width: 1440px) {
   section.headline-block.flow .grid-column {
-    padding-top: 200px;
-    padding-bottom: 200px; }
+    padding-top: 150px;
+    padding-bottom: 150px; }
     section.headline-block.flow .grid-column .inner-wrapper {
       margin-bottom: 100px; } }
 
@@ -1887,7 +1887,7 @@ section.text-block {
     font-size: 19px;
     line-height: 27px;
     color: #202020;
-    margin: 0 0 1em 0; } }
+    margin: 0 0 .5em 0; } }
 
 @media (min-width: 768px) {
   section.image-text-block .grid-column--headline p {
@@ -1906,7 +1906,7 @@ section.text-block {
     font-size: 19px;
     line-height: 27px;
     color: #202020;
-    margin: 0 0 1em 0; } }
+    margin: 0 0 .5em 0; } }
 
 @media (min-width: 769px) {
   section.image-text-block .grid-column--headline {
@@ -1981,12 +1981,12 @@ section.jumbo-hero {
       padding-bottom: 138px; } }
   @media (min-width: 1200px) {
     section.jumbo-hero {
-      padding-top: 166px;
-      padding-bottom: 166px; } }
+      padding-top: 140px;
+      padding-bottom: 140px; } }
   @media (min-width: 1440px) {
     section.jumbo-hero {
-      padding-top: 200px;
-      padding-bottom: 200px; } }
+      padding-top: 150px;
+      padding-bottom: 150px; } }
   section.jumbo-hero h1 {
     color: white; }
     @media (min-width: 300px) and (max-width: 374px) {
@@ -3800,7 +3800,7 @@ body.portfolio section.gallery-tabs .tabs {
 
 @media (min-width: 992px) {
   body.portfolio section.gallery {
-    margin-bottom: 200px; } }
+    margin-bottom: 150px; } }
 
 @media only screen and (min-width: 300px) {
   body.portfolio section.gallery .grid-column {
@@ -3974,7 +3974,7 @@ body.casestudy .hero .hero-image {
 @media (min-width: 1200px) {
   body.casestudy section.gallery {
     margin-top: 100px;
-    margin-bottom: 200px; } }
+    margin-bottom: 150px; } }
 
 body.casestudy section.gallery img {
   width: 100%;
@@ -4346,7 +4346,7 @@ body.about .single-image-block img {
 
 @media (min-width: 992px) {
   body.about section.gallery {
-    margin-bottom: 200px; } }
+    margin-bottom: 150px; } }
 
 @media only screen and (min-width: 300px) {
   body.about section.gallery .grid-column {
@@ -4486,7 +4486,7 @@ body.about .remodal p {
   font-size: 19px;
   line-height: 27px;
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   text-align: left; }
   @media (min-width: 768px) {
     body.about .remodal p {
@@ -4577,12 +4577,12 @@ body.about .remodal p.quote {
 
 @media (min-width: 992px) {
   .capabilities .image-text-block.top {
-    margin-top: 165px;
+    margin-top: 135px;
     margin-bottom: 58px; } }
 
 @media (min-width: 1200px) {
   .capabilities .image-text-block.top {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 70px; } }
 
 @media (max-width: 575px) {
@@ -4601,11 +4601,11 @@ body.about .remodal p.quote {
 
 @media (min-width: 992px) {
   .capabilities .image-text-block.bottom {
-    margin-bottom: 165px; } }
+    margin-bottom: 135px; } }
 
 @media (min-width: 1200px) {
   .capabilities .image-text-block.bottom {
-    margin-bottom: 200px; } }
+    margin-bottom: 150px; } }
 
 .clients section.client-list:nth-child(odd) {
   background-color: #f8f7f5; }
@@ -4751,7 +4751,7 @@ body.about .remodal p.quote {
       transition: all 0.3s ease;
       text-decoration: none;
       color: #202020;
-      letter-spacing: 1px;
+      letter-spacing: 0px;
       padding-bottom: 2px;
       border-bottom: 1px solid #a45833; }
       .press section.contact-details a:hover {
@@ -4777,7 +4777,7 @@ body.about .remodal p.quote {
       transition: all 0.3s ease;
       text-decoration: none;
       color: #202020;
-      letter-spacing: 1px;
+      letter-spacing: 0px;
       padding-bottom: 2px;
       border-bottom: 1px solid #a45833; }
       .press section.contact-details a:hover {
@@ -4798,7 +4798,7 @@ body.about .remodal p.quote {
 
 @media (min-width: 992px) {
   .press section.gallery {
-    margin-bottom: 200px; } }
+    margin-bottom: 150px; } }
 
 @media (min-width: 300px) and (max-width: 768px) {
   .press section.gallery {
@@ -5179,7 +5179,7 @@ body.about .remodal p.quote {
 
 @media (min-width: 992px) {
   .jobs section.gallery {
-    margin-bottom: 200px; }
+    margin-bottom: 150px; }
     .jobs section.gallery h2 {
       margin-bottom: 0; } }
 
@@ -5580,7 +5580,7 @@ body.about .remodal p.quote {
 
 @media (min-width: 992px) {
   .internships section.gallery {
-    margin-bottom: 200px; }
+    margin-bottom: 150px; }
     .internships section.gallery h2 {
       margin-bottom: 0; } }
 
@@ -5837,11 +5837,11 @@ body.about .remodal p.quote {
   @media (min-width: 768px) {
     .contact section.case-studies {
       padding-top: 80px;
-      padding-bottom: 160px; } }
+      padding-bottom: 140px; } }
   @media (min-width: 1200px) {
     .contact section.case-studies {
       padding-top: 100px;
-      padding-bottom: 200px; } }
+      padding-bottom: 150px; } }
   .contact section.case-studies h3 {
     font-size: 18px;
     letter-spacing: 1.5px;

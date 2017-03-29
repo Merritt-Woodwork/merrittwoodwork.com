@@ -279,7 +279,7 @@ body.about {
       }
     }
     @include breakpoint(xl) {
-      // padding-bottom: 200px;
+      // padding-bottom: 150px;
     }
     .grid-column {
       @include grid-media($sm-grid) {
@@ -307,7 +307,7 @@ body.about {
       margin-bottom: 100px;
     }
     @include breakpoint(lg) {
-      margin-bottom: 200px;
+      margin-bottom: 150px;
     }
     .grid-column {
       @include grid-media($sm-grid) {
@@ -477,7 +477,7 @@ body.about {
         padding: 0 70px;
       }
       margin-top: 0;
-      margin-bottom: 1em;
+      margin-bottom: .5em;
       text-align: left;
     }
     p.quote {

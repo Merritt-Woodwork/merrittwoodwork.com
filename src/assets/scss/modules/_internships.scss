@@ -223,7 +223,7 @@
       h2 {
         margin-bottom: 0;
       }
-      margin-bottom: 200px;
+      margin-bottom: 150px;
     }
     .grid-column {
       @include grid-media($sm-grid) {
@@ -247,7 +247,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        // height: 200px;
+        // height: 150px;
         margin-bottom: 1rem;
         .job-title {
           @include breakpoint(300px, 991px) {

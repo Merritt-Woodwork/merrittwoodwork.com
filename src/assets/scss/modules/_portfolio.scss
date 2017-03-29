@@ -371,7 +371,7 @@ body.portfolio {
       margin-bottom: 100px;
     }
     @include breakpoint(lg) {
-      margin-bottom: 200px;
+      margin-bottom: 150px;
     }
     .grid-column {
       @include grid-media($sm-grid) {

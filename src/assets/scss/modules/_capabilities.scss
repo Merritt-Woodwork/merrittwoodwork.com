@@ -67,11 +67,11 @@
       margin-bottom: 45px;
     }
     @include breakpoint(lg) {
-      margin-top: 165px;
+      margin-top: 135px;
       margin-bottom: 58px;
     }
     @include breakpoint(xl) {
-      margin-top: 200px;
+      margin-top: 150px;
       margin-bottom: 70px;
     }
   }
@@ -88,10 +88,10 @@
       margin-bottom: 128px;
     }
     @include breakpoint(lg) {
-      margin-bottom: 165px;
+      margin-bottom: 135px;
     }
     @include breakpoint(xl) {
-      margin-bottom: 200px;
+      margin-bottom: 150px;
     }
   }
 
