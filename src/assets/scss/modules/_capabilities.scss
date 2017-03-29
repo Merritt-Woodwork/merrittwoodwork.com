@@ -19,7 +19,6 @@
       }
     }
     .hero-image {
-      background-image: url("/uploads/hero-about.jpg");
       background-size: cover;
       background-position: center;
       @include breakpoint(300px, 500px) {

@@ -1,23 +1,43 @@
 ---
-
+hero_image: /uploads/hero-about.jpg
+intro_block:
+  headline: OUR CAPABILITIES AND EXPERTISE
+  details: |
+    Bringing our clients’ wildest interiors dreams to life is our calling and what drives us every single day. To meet this challenge, we have built ourselves into a multi-faceted company capable of delivering on every request, regardless of scope, materials and demand. Our only limitation is our clients’ imaginations.
+services:
+  - CONSULTATION
+  - ENGINEERING
+  - SPECIALTY MATERIALS
+  - WOODWORK & JOINERY MANUFACTURING
+  - ARCHITECTURAL METALWORK
+  - CLASSICAL DECORATION
+  - HARDWARE
+  - CARPENTRY
+specialty_materials_image: /uploads/capabilities-materials.jpg
+woodwork_and_joinery_image: /uploads/capabilities-woodwork.jpg
+architectural_metalwork_image: /uploads/capabilities-metalwork.jpg
+classical_decoration_image: /uploads/capabilities-decoration.jpg
+hardware_image: /uploads/capabilities-hardware.jpg
+carpentry_image: /uploads/capabilities-carpentry.jpg
 ---
 <section class="hero">
   <div class="grid-container fluid">
     <div class="grid-column">
-      <div class="hero-image animated fastStaggerFadeIn rellax" data-rellax-speed="-3"></div>
+      <div class="hero-image animated fastStaggerFadeIn rellax" data-rellax-speed="-3" style="background-image: url({{ page.hero_image }});"></div>
     </div>
   </div>
 </section>
+
 
 <section class="headline-block pull">
   <div class="outer grid-container">
       <div class="grid-column animated customFadeInUp">
         <div class="grid-collapse">
         <div class="grid-column--headline">
-          <h2 class="header-text-condensed">OUR CAPABILITIES AND EXPERTISE</h2>
+          <h2 class="header-text-condensed">{{ page.intro_block.headline }}</h2>
         </div>
         <div class="grid-column--copy">
-          <p class="copy-text">Bringing our clients’ wildest interiors dreams to life is our calling and what drives us every single day. To meet this challenge, we have built ourselves into a multi-faceted company capable of delivering on every request, regardless of scope, materials and demand. Our only limitation is our clients’ imaginations.</p>
+          <p class="copy-text">{{ page.intro_block.details }}</p>
         </div>
       </div>
       </div>
@@ -28,30 +48,11 @@
   <div class="outer grid-container">
       <div class="grid-column">
         <div class="grid-collapse">
+          {% for item in page.services %}
           <div class="list-column">
-            <p class="header-text-condensed">consultation</p>
+            <p class="header-text-condensed">{{ item }}</p>
           </div>
-          <div class="list-column">
-            <p class="header-text-condensed">engineering</p>
-          </div>
-          <div class="list-column">
-            <p class="header-text-condensed">specialty materials</p>
-          </div>
-          <div class="list-column">
-            <p class="header-text-condensed">woodwork & joinery manufacturing</p>
-          </div>
-          <div class="list-column">
-            <p class="header-text-condensed">architectural metalwork</p>
-          </div>
-          <div class="list-column">
-            <p class="header-text-condensed">classical decoration</p>
-          </div>
-          <div class="list-column">
-            <p class="header-text-condensed">hardware</p>
-          </div>
-          <div class="list-column">
-            <p class="header-text-condensed">carpentry</p>
-          </div>
+          {% endfor %}
       </div>
       </div>
   </div>
@@ -61,21 +62,23 @@
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">
+
         <div class="inner-wrapper">
           <div class="grid-column--headline" data-aos="fade-up">
-            <h2 class="header-text-condensed">Consultation</h2>
+            <h2 class="header-text-condensed editable">Consultation</h2>
           </div>
           <div class="grid-column--copy" data-aos="fade-up">
-            <p class="copy-text">Industry-leading, one-of-a-kind, tailored programs that have proven to compress the overall project schedule, immensely enhance the coordination and provide a platform for perfect construction.</p>
+            <p class="copy-text editable">Industry-leading, one-of-a-kind, tailored programs that have proven to compress the overall project schedule, immensely enhance the coordination and provide a platform for perfect construction.</p>
           </div>
         </div>
 
         <div class="grid-column--headline" data-aos="fade-up">
-          <h2 class="header-text-condensed">Engineering</h2>
+          <h2 class="header-text-condensed editable">Engineering</h2>
         </div>
         <div class="grid-column--copy" data-aos="fade-up">
-          <p class="copy-text">Global engineered solutions integrating all aspects of interior construction. </p>
+          <p class="copy-text editable">Global engineered solutions integrating all aspects of interior construction. </p>
         </div>
+
       </div>
     </div>
   </div>
@@ -84,7 +87,7 @@
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text">Merritt’s integrated approach and specialized services set new standards for luxury interiors.</h1>
+        <h1 class="copy-text editable">Merritt’s integrated approach and specialized services set new standards for luxury interiors.</h1>
       </div>
   </div>
 </section>
@@ -95,19 +98,19 @@
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed">Specialty Materials</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">Specialty Materials</h2>
+              <p class="copy-text editable">
                 Worldwide procurement of the finest raw materials and artisans, providing seamless integration.
               </p>
             </div>
           </div>
           <div class="grid-column--image">
-            <img src="/uploads/capabilities-materials.jpg" alt="">
+            <img src="{{ page.specialty_materials_image }}" alt="">
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed">Specialty Materials</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">Specialty Materials</h2>
+              <p class="copy-text editable">
                 Worldwide procurement of the finest raw materials and artisans, providing seamless integration.
               </p>
             </div>
@@ -122,12 +125,12 @@
     <div class="grid-column">
       <div class="grid-collapse">
           <div class="grid-column--image">
-            <img src="/uploads/capabilities-woodwork.jpg" alt="">
+            <img src="{{ page.woodwork_and_joinery_image }}" alt="">
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed">woodwork & JOINERY MANUFACTURING</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">woodwork & JOINERY MANUFACTURING</h2>
+              <p class="copy-text editable">
                 142,00 sq. ft. of manufacturing encompassing the most advanced technology without compromising the fine art of hand craftsmanship.
               </p>
             </div>
@@ -140,7 +143,7 @@
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text">We hold ourselves to the highest standards and never deliver less than the absolute best.</h1>
+        <h1 class="copy-text editable">We hold ourselves to the highest standards and never deliver less than the absolute best.</h1>
       </div>
   </div>
 </section>
@@ -151,19 +154,19 @@
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed">ARCHITECTURAL METALWORK</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">ARCHITECTURAL METALWORK</h2>
+              <p class="copy-text editable">
                 Crafted in house ensuring integration, schedule and quality avoiding complication and delay.
               </p>
             </div>
           </div>
           <div class="grid-column--image">
-            <img src="/uploads/capabilities-metalwork.jpg" alt="">
+            <img src="{{ page.architectural_metalwork_image }}" alt="">
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed">ARCHITECTURAL METALWORK</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">ARCHITECTURAL METALWORK</h2>
+              <p class="copy-text editable">
                 Crafted in house ensuring integration, schedule and quality avoiding complication and delay.
               </p>
             </div>
@@ -178,12 +181,12 @@
     <div class="grid-column">
       <div class="grid-collapse">
           <div class="grid-column--image">
-            <img src="/uploads/capabilities-decoration.jpg" alt="">
+            <img src="{{ page.classical_decoration_image }}" alt="">
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed">Classical Decoration</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">Classical Decoration</h2>
+              <p class="copy-text editable">
                 Directed by British Master Wood Carvers Ian Agrell and Adam Thorpe, we provide custom hand carved architectural elements for residential, yacht, sacred and commercial projects.
               </p>
             </div>
@@ -196,7 +199,7 @@
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text">Our service is comprehensive from design concept to project delivery. </h1>
+        <h1 class="copy-text editable">Our service is comprehensive from design concept to project delivery. </h1>
       </div>
   </div>
 </section>
@@ -207,19 +210,19 @@
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed">hardware</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">hardware</h2>
+              <p class="copy-text editable">
                 Custom hardware expertly coordinated, scheduled and procured in association with the finest manufacturers.
               </p>
             </div>
           </div>
           <div class="grid-column--image">
-            <img src="/uploads/capabilities-hardware.jpg" alt="">
+            <img src="{{ page.hardware_image }}" alt="">
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed">hardware</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">hardware</h2>
+              <p class="copy-text editable">
                 Custom hardware expertly coordinated, scheduled and procured in association with the finest manufacturers.
               </p>
             </div>
@@ -234,12 +237,12 @@
     <div class="grid-column">
       <div class="grid-collapse">
           <div class="grid-column--image">
-            <img src="/uploads/capabilities-carpentry.jpg" alt="">
+            <img src="{{ page.carpentry_image }}" alt="">
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed">Carpentry</h2>
-              <p class="copy-text">
+              <h2 class="header-text-condensed editable">Carpentry</h2>
+              <p class="copy-text editable">
                 The final act. Merritt self performs all of our carpentry requirements.
               </p>
             </div>
@@ -252,7 +255,7 @@
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text">With a large production capacity, and offices situated around the globe, we are well positioned to deliver anywhere in the world, on time and within budget.</h1>
+        <h1 class="copy-text editable">With a large production capacity, and offices situated around the globe, we are well positioned to deliver anywhere in the world, on time and within budget.</h1>
       </div>
   </div>
 </section>
