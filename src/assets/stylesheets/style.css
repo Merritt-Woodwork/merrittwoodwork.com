@@ -2094,7 +2094,7 @@ header {
   @media (min-width: 300px) and (max-width: 991px) {
     header .grid-column .c-hamburger {
       position: absolute;
-      top: 3px;
+      top: 2px;
       right: 15px;
       margin: 0px !important; } }
   @media (min-width: 992px) {
@@ -2674,7 +2674,8 @@ body.home section.header-video {
       width: calc(37.5% - 23.375px);
       float: left;
       margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); } }
+      margin-left: calc(6.25% - 18.0625px + 34px);
+      max-width: 30% !important; } }
   body.home section.header-video .headline p {
     margin: 0; }
   @media (min-width: 300px) and (max-width: 374px) {

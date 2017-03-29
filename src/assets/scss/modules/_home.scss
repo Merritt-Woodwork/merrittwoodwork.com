@@ -51,6 +51,7 @@ body.home {
       @include grid-media($xl-grid) {
         @include grid-column(6 of 16);
         @include grid-push(1 of 16);
+        max-width: 30% !important;
       }
       p {
         margin: 0;
