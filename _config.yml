@@ -28,6 +28,113 @@ job-types:
   - full time
   - part time
 
+collections:
+  case_studies:
+    output: true
+    permalink: /portfolio/:slug/
+    _hide_content: true
+
+  jobs:
+    output: true
+    permalink: /careers/job/:slug
+    _hide_content: true
+
+  internships:
+    output: true
+    permalink: /careers/internship/:slug
+    _hide_content: true
+
+defaults:
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
+      class: "home"
+  -
+    scope:
+      path: "portfolio.html"
+    values:
+      layout: "default"
+      class: "portfolio"
+      permalink: "/portfolio/"
+  -
+    scope:
+      path: "about.html"
+    values:
+      layout: "default"
+      class: "about"
+      permalink: "/about/"
+  -
+    scope:
+      path: "capabilities.html"
+    values:
+      layout: "default"
+      class: "capabilities"
+      permalink: "/capabilities/"
+  -
+    scope:
+      path: "careers.html"
+    values:
+      layout: "default"
+      class: "careers"
+      permalink: "/careers/"
+  -
+    scope:
+      path: "jobs.html"
+    values:
+      layout: "default"
+      class: "jobs"
+      permalink: "/careers/jobs/"
+  -
+    scope:
+      path: "internships.html"
+    values:
+      layout: "default"
+      class: "internships"
+      permalink: "/careers/internships/"
+  -
+    scope:
+      path: ""
+      type: "case_studies"
+    values:
+      layout: "casestudy"
+      class: "casestudy"
+  -
+    scope:
+      path: "clients.html"
+    values:
+      layout: "default"
+      class: "clients"
+      permalink: "/clients/"
+  -
+    scope:
+      path: "contact.html"
+    values:
+      layout: "default"
+      class: "contact"
+      permalink: "/contact/"
+  -
+    scope:
+      path: "press.html"
+    values:
+      layout: "default"
+      class: "press"
+      permalink: "/press/"
+  -
+    scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "job"
+      class: "job"
+  -
+    scope:
+      path: ""
+      type: "internships"
+    values:
+      layout: "job"
+      class: "job"
 
 
 # Extending Jekyll
