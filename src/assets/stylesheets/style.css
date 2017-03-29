@@ -3376,7 +3376,7 @@ html.remodal-is-locked {
     background: #f8f7f5; }
     @media (min-width: 768px) {
       .about .remodal {
-        padding: 35px 50px; } }
+        padding: 60px; } }
   .about .remodal.remodal-is-opening,
   .about .remodal.remodal-is-closing {
     animation-duration: 0.3s;
@@ -3390,8 +3390,8 @@ html.remodal-is-locked {
     vertical-align: middle; }
   .about .remodal-close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 20px;
     display: block;
     overflow: visible;
     width: 35px;
@@ -3483,7 +3483,7 @@ html.remodal-is-locked {
     opacity: 0; } }
   @media only screen and (min-width: 769px) {
     .about .remodal {
-      max-width: 800px; } }
+      max-width: 850px; } }
   .about .lt-ie9 .remodal-overlay {
     background: #2b2e38; }
   .about .lt-ie9 .remodal {
@@ -4100,7 +4100,7 @@ body.about .hero .hero-image {
   body.about .headline-block.pull .grid-column {
     margin-top: -130px;
     padding-top: 85px;
-    padding-bottom: 36px; } }
+    padding-bottom: 85px; } }
 
 @media (max-width: 575px) {
   body.about section.offset-images {
@@ -4124,12 +4124,12 @@ body.about .hero .hero-image {
 
 @media (min-width: 1200px) {
   body.about section.offset-images {
-    margin-top: 108px;
+    margin-top: 59px;
     margin-bottom: 108px; } }
 
 @media (min-width: 1440px) {
   body.about section.offset-images {
-    margin-top: 130px;
+    margin-top: 81px;
     margin-bottom: 130px; } }
 
 @media only screen and (min-width: 300px) {
@@ -4457,6 +4457,11 @@ body.about section.gallery h3 {
 body.about section.gallery img {
   width: 100%; }
 
+body.about .c-hamburger:hover span::before,
+body.about .c-hamburger:hover span::after {
+  transition: all 0.3s ease;
+  background-color: #a45833; }
+
 body.about .remodal h2 {
   font-size: 36px;
   line-height: 1;
@@ -4550,15 +4555,33 @@ body.about .remodal p.quote {
 
 @media (max-width: 575px) {
   .capabilities .headline-block.pull {
-    padding-bottom: 50px; } }
+    padding-top: 50px;
+    padding-bottom: 22px; } }
 
 @media (min-width: 576px) {
   .capabilities .headline-block.pull {
-    padding-bottom: 75px; } }
+    padding-top: 75px;
+    padding-bottom: 32px; } }
 
 @media (min-width: 768px) {
   .capabilities .headline-block.pull {
-    padding-bottom: 90px; } }
+    padding-top: 90px;
+    padding-bottom: 39px; } }
+
+@media (min-width: 992px) {
+  .capabilities .headline-block.pull {
+    padding-top: 0;
+    padding-bottom: 0; }
+    .capabilities .headline-block.pull .grid-column {
+      margin-top: -130px;
+      padding-top: 70px;
+      padding-bottom: 30px; } }
+
+@media (min-width: 1200px) {
+  .capabilities .headline-block.pull .grid-column {
+    margin-top: -130px;
+    padding-top: 85px;
+    padding-bottom: 85px; } }
 
 @media (max-width: 575px) {
   .capabilities .image-text-block.top {

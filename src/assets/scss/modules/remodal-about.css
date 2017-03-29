@@ -59,7 +59,7 @@
     margin-bottom: 10px;
     padding: 35px 15px;
     @include breakpoint(768px) {
-      padding: 35px 50px;
+      padding: 60px;
     }
 
 
@@ -99,8 +99,8 @@
 
   .remodal-close {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 20px;
 
     display: block;
     overflow: visible;
@@ -313,7 +313,7 @@
 
   @media only screen and (min-width: 769px) {
     .remodal {
-      max-width: 800px;
+      max-width: 850px;
     }
   }
 

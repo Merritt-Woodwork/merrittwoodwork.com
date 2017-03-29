@@ -39,17 +39,33 @@
 
   .headline-block.pull {
     @include breakpoint(xs) {
-      padding-bottom: 50px;
+      padding-top: 50px;
+      padding-bottom: 22px;
     }
     @include breakpoint(sm) {
-      padding-bottom: 75px;
+      padding-top: 75px;
+      padding-bottom: 32px;
     }
     @include breakpoint(md) {
-      padding-bottom: 90px;
+      padding-top: 90px;
+      padding-bottom: 39px;
     }
     @include breakpoint(lg) {
+      padding-top: 0;
+      padding-bottom: 0;
+      .grid-column {
+        margin-top: -130px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+      }
     }
     @include breakpoint(xl) {
+      // padding-top: 0;
+      .grid-column {
+        margin-top: -130px;
+        padding-top: 85px;
+        padding-bottom: 85px;
+      }
     }
   }
 
