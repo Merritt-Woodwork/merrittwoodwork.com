@@ -1,6 +1,8 @@
 ---
 title: Cakewalk
+work_type: superyacht
 hero_image: /uploads/casestudy-cakewalk.jpg
+portfolio_image: /uploads/portfolio-cakewalk.jpg
 details:
   - heading: Exterior Designer
     copy_markdown: >-

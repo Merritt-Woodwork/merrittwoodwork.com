@@ -1,21 +1,28 @@
 ---
-
+case_studies:
+  - cakewalk
 ---
+
 
 <section class="casestudies">
   <h3 class="header-text-condensed">case studies</h3>
   <div class="left"></div>
-  <div id="images" class="right"></div>
+  {% assign slug = page.case_studies[0] %}
+  {% assign first_case_study = site.case_studies | where:"slug", slug | first %}
+  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
 
   <div class="grid-container">
     <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
         <div class="inner animated customFadeInUp">
-          <a href="./casestudy" class="casestudy" data-img="portfolio-cakewalk.jpg">
-            <h5 class="header-text">Superyacht</h5>
-            <h2 class="header-text-condensed">Cakewalk</h2>
-          </a>
-          <a href="./casestudy" class="casestudy" data-img="portfolio-east-hampton.jpg">
+          {% for item in page.case_studies %}
+            {% assign case = site.case_studies | where:"slug",item | first %}
+            <a href="{{case.url}}" class="casestudy" data-img="portfolio-cakewalk.jpg">
+              <h5 class="header-text">{{case.work_type}}</h5>
+              <h2 class="header-text-condensed">{{case.title}}</h2>
+            </a>
+          {% endfor %}
+         <!--  <a href="./casestudy" class="casestudy" data-img="portfolio-east-hampton.jpg">
             <h5 class="header-text">Traditional</h5>
             <h2 class="header-text-condensed">East Hampton Residence</h2>
           </a>
@@ -27,7 +34,7 @@
             <h5 class="header-text">Contemporary</h5>
             <h2 class="header-text-condensed">Malibu Beach House</h2>
           </a>
-        </div>
+        </div> -->
         <a data-scroll href="#gallery" class="view header-text-condensed animated staggerFadeIn" id="header-video__play-trigger"><span>view gallery</span></a>
       </div>
     <!-- </div> -->
