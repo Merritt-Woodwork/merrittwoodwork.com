@@ -13,12 +13,43 @@ services:
   - CLASSICAL DECORATION
   - HARDWARE
   - CARPENTRY
-specialty_materials_image: /uploads/capabilities-materials.jpg
-woodwork_and_joinery_image: /uploads/capabilities-woodwork.jpg
-architectural_metalwork_image: /uploads/capabilities-metalwork.jpg
-classical_decoration_image: /uploads/capabilities-decoration.jpg
-hardware_image: /uploads/capabilities-hardware.jpg
-carpentry_image: /uploads/capabilities-carpentry.jpg
+expertise:
+  top:
+    headline: CONSULTATION
+    details: |
+      Industry-leading, one-of-a-kind, tailored programs that have proven to compress the overall project schedule, immensely enhance the coordination and provide a platform for perfect construction.
+  bottom:
+    headline: ENGINEERING
+    details: |
+      Global engineered solutions integrating all aspects of interior construction.
+capability_block_a:
+  top:
+    headline: SPECIALTY MATERIALS
+    details: Worldwide procurement of the finest raw materials and artisans, providing seamless integration.
+    image: /uploads/capabilities-materials.jpg
+  bottom:
+    headline: WOODWORK & JOINERY MANUFACTURING
+    details: 142,00 sq. ft. of manufacturing encompassing the most advanced technology without compromising the fine art of hand craftsmanship.
+    image: /uploads/capabilities-woodwork.jpg
+capability_block_b:
+  top:
+    headline: ARCHITECTURAL METALWORK
+    details: Crafted in house ensuring integration, schedule and quality avoiding complication and delay.
+    image: /uploads/capabilities-metalwork.jpg
+  bottom:
+    headline: CLASSICAL DECORATION
+    details: Directed by British Master Wood Carvers Ian Agrell and Adam Thorpe, we provide custom hand carved architectural elements for residential, yacht, sacred and commercial projects.
+    image: /uploads/capabilities-decoration.jpg
+capability_block_c:
+  top:
+    headline: hardware
+    details: Custom hardware expertly coordinated, scheduled and procured in association with the finest manufacturers.
+    image: /uploads/capabilities-hardware.jpg
+  bottom:
+    headline: carpentry
+    details: The final act. Merritt self performs all of our carpentry requirements.
+    image: /uploads/capabilities-carpentry.jpg
+
 ---
 <section class="hero">
   <div class="grid-container fluid">
@@ -65,18 +96,18 @@ carpentry_image: /uploads/capabilities-carpentry.jpg
 
         <div class="inner-wrapper">
           <div class="grid-column--headline" data-aos="fade-up">
-            <h2 class="header-text-condensed editable">Consultation</h2>
+            <h2 class="header-text-condensed editable">{{page.expertise.top.headline}}</h2>
           </div>
           <div class="grid-column--copy" data-aos="fade-up">
-            <p class="copy-text editable">Industry-leading, one-of-a-kind, tailored programs that have proven to compress the overall project schedule, immensely enhance the coordination and provide a platform for perfect construction.</p>
+            <p class="copy-text editable">{{page.expertise.top.details}}</p>
           </div>
         </div>
 
         <div class="grid-column--headline" data-aos="fade-up">
-          <h2 class="header-text-condensed editable">Engineering</h2>
+          <h2 class="header-text-condensed editable">{{page.expertise.bottom.headline}}</h2>
         </div>
         <div class="grid-column--copy" data-aos="fade-up">
-          <p class="copy-text editable">Global engineered solutions integrating all aspects of interior construction. </p>
+          <p class="copy-text editable">{{page.expertise.bottom.details}} </p>
         </div>
 
       </div>
@@ -98,20 +129,20 @@ carpentry_image: /uploads/capabilities-carpentry.jpg
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">Specialty Materials</h2>
-              <p class="copy-text editable">
-                Worldwide procurement of the finest raw materials and artisans, providing seamless integration.
+              <h2 class="header-text-condensed">{{page.capability_block_a.top.headline}}</h2>
+              <p class="copy-text">
+                {{page.capability_block_a.top.details}}
               </p>
             </div>
           </div>
           <div class="grid-column--image">
-            <img src="{{ page.specialty_materials_image }}" alt="">
+            <img src="{{page.capability_block_a.top.image}}" alt="">
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">Specialty Materials</h2>
-              <p class="copy-text editable">
-                Worldwide procurement of the finest raw materials and artisans, providing seamless integration.
+              <h2 class="header-text-condensed">{{page.capability_block_a.top.headline}}</h2>
+              <p class="copy-text">
+                {{page.capability_block_a.top.details}}
               </p>
             </div>
           </div>
@@ -125,13 +156,13 @@ carpentry_image: /uploads/capabilities-carpentry.jpg
     <div class="grid-column">
       <div class="grid-collapse">
           <div class="grid-column--image">
-            <img src="{{ page.woodwork_and_joinery_image }}" alt="">
+            <img src="{{page.capability_block_a.bottom.image}}" alt="">
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">woodwork & JOINERY MANUFACTURING</h2>
+              <h2 class="header-text-condensed editable">{{page.capability_block_a.bottom.headline}}</h2>
               <p class="copy-text editable">
-                142,00 sq. ft. of manufacturing encompassing the most advanced technology without compromising the fine art of hand craftsmanship.
+                {{page.capability_block_a.bottom.details}}
               </p>
             </div>
           </div>
@@ -154,20 +185,20 @@ carpentry_image: /uploads/capabilities-carpentry.jpg
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">ARCHITECTURAL METALWORK</h2>
+              <h2 class="header-text-condensed editable">{{page.capability_block_b.top.headline}}</h2>
               <p class="copy-text editable">
-                Crafted in house ensuring integration, schedule and quality avoiding complication and delay.
+                {{page.capability_block_b.top.details}}
               </p>
             </div>
           </div>
           <div class="grid-column--image">
-            <img src="{{ page.architectural_metalwork_image }}" alt="">
+            <img src="{{page.capability_block_b.top.image}}" alt="">
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">ARCHITECTURAL METALWORK</h2>
+              <h2 class="header-text-condensed editable">{{page.capability_block_b.top.headline}}</h2>
               <p class="copy-text editable">
-                Crafted in house ensuring integration, schedule and quality avoiding complication and delay.
+                {{page.capability_block_b.top.details}}
               </p>
             </div>
           </div>
@@ -181,13 +212,13 @@ carpentry_image: /uploads/capabilities-carpentry.jpg
     <div class="grid-column">
       <div class="grid-collapse">
           <div class="grid-column--image">
-            <img src="{{ page.classical_decoration_image }}" alt="">
+            <img src="{{page.capability_block_b.bottom.image}}" alt="">
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">Classical Decoration</h2>
+              <h2 class="header-text-condensed editable">{{page.capability_block_b.bottom.headline}}</h2>
               <p class="copy-text editable">
-                Directed by British Master Wood Carvers Ian Agrell and Adam Thorpe, we provide custom hand carved architectural elements for residential, yacht, sacred and commercial projects.
+                {{page.capability_block_b.bottom.details}}
               </p>
             </div>
           </div>
@@ -210,20 +241,20 @@ carpentry_image: /uploads/capabilities-carpentry.jpg
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">hardware</h2>
+              <h2 class="header-text-condensed editable">{{page.capability_block_c.top.headline}}</h2>
               <p class="copy-text editable">
-                Custom hardware expertly coordinated, scheduled and procured in association with the finest manufacturers.
+                {{page.capability_block_c.top.details}}
               </p>
             </div>
           </div>
           <div class="grid-column--image">
-            <img src="{{ page.hardware_image }}" alt="">
+            <img src="{{page.capability_block_c.top.image}}" alt="">
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">hardware</h2>
+              <h2 class="header-text-condensed editable">{{page.capability_block_c.top.headline}}</h2>
               <p class="copy-text editable">
-                Custom hardware expertly coordinated, scheduled and procured in association with the finest manufacturers.
+                {{page.capability_block_c.top.details}}
               </p>
             </div>
           </div>
@@ -237,13 +268,13 @@ carpentry_image: /uploads/capabilities-carpentry.jpg
     <div class="grid-column">
       <div class="grid-collapse">
           <div class="grid-column--image">
-            <img src="{{ page.carpentry_image }}" alt="">
+            <img src="{{page.capability_block_c.bottom.image}}" alt="">
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">Carpentry</h2>
+              <h2 class="header-text-condensed editable">{{page.capability_block_c.bottom.headline}}</h2>
               <p class="copy-text editable">
-                The final act. Merritt self performs all of our carpentry requirements.
+                {{page.capability_block_c.bottom.details}}
               </p>
             </div>
           </div>
