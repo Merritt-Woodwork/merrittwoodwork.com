@@ -42,7 +42,7 @@
       var preloadImgs = [];
       $('.casestudy').each(function() {
         var img = new Image();
-        img.src = "/uploads/" + $(this).data("img");
+        img.src = $(this).data("img");
         preloadImgs.push(img);
       });
 
@@ -52,8 +52,7 @@
       caseStudyLinks.each(function() {
         $(this).hover(function() {
           var image = $(this).data("img");
-          var imagePath = "/uploads/" + image;
-          imageDiv.css('background-image', 'url(' + imagePath + ')')
+          imageDiv.css('background-image', 'url(' + image + ')')
         })
       })
     },

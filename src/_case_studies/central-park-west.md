@@ -1,28 +1,26 @@
 ---
-title: East Hampton Residence
-work_type: traditional
-hero_image: /uploads/casestudy-east-hampton.jpg
-portfolio_image: /uploads/portfolio-east-hampton.jpg
+title: Central Park West
+work_type: transitional
+hero_image: /uploads/casestudy-cpw.jpg
+portfolio_image: /uploads/portfolio-cpw.jpg
 details:
   - heading: architect
     copy_markdown: >-
-      Hart Howerton
+      Robert A.M. Stern Architects LLP
   - heading: interior designer
     copy_markdown: >-
-      Bunny Williams Inc.
+      Droulers Architecture & Interior Design
   - heading: Builder
     copy_markdown: >-
-      Bulgin & Associates Inc.
+      Silver Rail Construction
   - heading: specialties
     copy_markdown: >-
-      - French polish finish
+      - Consulting services to drive layout, framing, flooring, penetrations and trade coordination
 
-      - Lumber / timber veneer grade logs (boules) required to execute design aesthetic
-
-      - Custom metal, lighting and glass integration
+      - Metal, stone, upholstery, glass and mirror integration
   - heading: species
     copy_markdown: >-
-      European Baltic Pine, Birdseye maple, American Black Cherry, American White Oak
+      Lacewood, South American Mahogany, Fiddleback English Sycamore, Figured Makore
 image_blocks:
   - image_block:
       image: /uploads/east-hampton-1.jpg

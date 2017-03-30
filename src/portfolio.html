@@ -2,6 +2,8 @@
 case_studies:
   - cakewalk
   - east-hampton-residence
+  - central-park-west
+  - malibu-beach-house
 ---
 
 
@@ -18,26 +20,14 @@ case_studies:
         <div class="inner animated customFadeInUp">
           {% for item in page.case_studies %}
             {% assign case = site.case_studies | where:"slug",item | first %}
-            <a href="{{case.url}}" class="casestudy" data-img="portfolio-cakewalk.jpg">
+            <a href="{{case.url}}" class="casestudy" data-img="{{case.portfolio_image}}">
               <h5 class="header-text">{{case.work_type}}</h5>
               <h2 class="header-text-condensed">{{case.title}}</h2>
             </a>
           {% endfor %}
-         <!--  <a href="./casestudy" class="casestudy" data-img="portfolio-east-hampton.jpg">
-            <h5 class="header-text">Traditional</h5>
-            <h2 class="header-text-condensed">East Hampton Residence</h2>
-          </a>
-          <a href="./casestudy" class="casestudy" data-img="portfolio-cpw.jpg">
-            <h5 class="header-text">Transitional</h5>
-            <h2 class="header-text-condensed">15 Central Park West</h2>
-          </a>
-          <a href="./casestudy" class="casestudy" data-img="portfolio-malibu.jpg">
-            <h5 class="header-text">Contemporary</h5>
-            <h2 class="header-text-condensed">Malibu Beach House</h2>
-          </a>
-        </div> -->
-        <a data-scroll href="#gallery" class="view header-text-condensed animated staggerFadeIn" id="header-video__play-trigger"><span>view gallery</span></a>
+
       </div>
+      <a data-scroll href="#gallery" class="view header-text-condensed animated staggerFadeIn" id="header-video__play-trigger"><span>view gallery</span></a>
     <!-- </div> -->
   </div>
 </section>
