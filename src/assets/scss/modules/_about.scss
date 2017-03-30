@@ -472,7 +472,7 @@ body.about {
       text-align: left;
       padding-bottom: 5%;
       @include breakpoint(768px) {
-        padding-bottom: 10%;
+        padding-bottom: 8%;
       }
     }
     p {
@@ -498,7 +498,7 @@ body.about {
       }
       padding-bottom: 5%;
       @include breakpoint(768px) {
-        padding: 0 30px 10% 30px;
+        padding: 2% 30px 10% 30px;
       }
       margin: 0;
     }
