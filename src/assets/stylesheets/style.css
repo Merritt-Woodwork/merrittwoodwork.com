@@ -4057,7 +4057,6 @@ body.casestudy section.gallery img {
     margin-left: 17px; } }
 
 body.about .hero .hero-image {
-  background-image: url("/uploads/hero-about.jpg");
   background-size: cover;
   background-position: center; }
   @media (min-width: 300px) and (max-width: 500px) {
