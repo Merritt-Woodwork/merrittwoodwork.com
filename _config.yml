@@ -33,12 +33,13 @@ collections:
     output: true
     permalink: /portfolio/:slug/
     _hide_content: true
-
+  staff:
+    output: false
+    _hide_content: true
   jobs:
     output: true
     permalink: /careers/job/:slug
     _hide_content: true
-
   internships:
     output: true
     permalink: /careers/internship/:slug

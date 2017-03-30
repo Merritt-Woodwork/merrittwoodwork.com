@@ -113,162 +113,21 @@
       <div class="grid">
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
+        {% assign people = site.staff | sort:"display_order" %}
+        {% for person in people %}
         <div class="grid-item">
           <div data-aos="fade-up">
             <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
+              <img src="{{person.image}}" alt="">
             </a>
             <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
+              <h3 class="header-text-condensed staff-name">{{person.name}}</h3>
+              <p class="staff-title header-text">{{person.title}}</p>
               <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
             </div>
           </div>
         </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-         <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-         <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-         <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-         <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
-        <div class="grid-item">
-          <div data-aos="fade-up">
-            <a data-remodal-target="modal">
-              <img src="/uploads/staff-1.jpg" alt="">
-            </a>
-            <div class="name">
-              <h3 class="header-text-condensed staff-name">G. MICHAEL MERRITT</h3>
-              <p class="staff-title header-text">PRESIDENT & CHIEF EXECUTIVE OFFICER</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
-            </div>
-          </div>
-        </div>
+       {% endfor %}
       </div>
     </div>
   </div>
