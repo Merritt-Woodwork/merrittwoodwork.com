@@ -22,6 +22,7 @@ expertise:
     headline: ENGINEERING
     details: |
       Global engineered solutions integrating all aspects of interior construction.
+text_block_a: Merritt’s integrated approach and specialized services set new standards for luxury interiors.
 capability_block_a:
   top:
     headline: SPECIALTY MATERIALS
@@ -31,6 +32,7 @@ capability_block_a:
     headline: WOODWORK & JOINERY MANUFACTURING
     details: 142,00 sq. ft. of manufacturing encompassing the most advanced technology without compromising the fine art of hand craftsmanship.
     image: /uploads/capabilities-woodwork.jpg
+text_block_b: We hold ourselves to the highest standards and never deliver less than the absolute best.
 capability_block_b:
   top:
     headline: ARCHITECTURAL METALWORK
@@ -40,6 +42,7 @@ capability_block_b:
     headline: CLASSICAL DECORATION
     details: Directed by British Master Wood Carvers Ian Agrell and Adam Thorpe, we provide custom hand carved architectural elements for residential, yacht, sacred and commercial projects.
     image: /uploads/capabilities-decoration.jpg
+text_block_c: Our service is comprehensive from design concept to project delivery.
 capability_block_c:
   top:
     headline: hardware
@@ -49,7 +52,7 @@ capability_block_c:
     headline: carpentry
     details: The final act. Merritt self performs all of our carpentry requirements.
     image: /uploads/capabilities-carpentry.jpg
-
+text_block_d: With a large production capacity, and offices situated around the globe, we are well positioned to deliver anywhere in the world, on time and within budget.
 ---
 <section class="hero">
   <div class="grid-container fluid">
@@ -96,18 +99,18 @@ capability_block_c:
 
         <div class="inner-wrapper">
           <div class="grid-column--headline" data-aos="fade-up">
-            <h2 class="header-text-condensed editable">{{page.expertise.top.headline}}</h2>
+            <h2 class="header-text-condensed">{{page.expertise.top.headline}}</h2>
           </div>
           <div class="grid-column--copy" data-aos="fade-up">
-            <p class="copy-text editable">{{page.expertise.top.details}}</p>
+            <p class="copy-text">{{page.expertise.top.details}}</p>
           </div>
         </div>
 
         <div class="grid-column--headline" data-aos="fade-up">
-          <h2 class="header-text-condensed editable">{{page.expertise.bottom.headline}}</h2>
+          <h2 class="header-text-condensed">{{page.expertise.bottom.headline}}</h2>
         </div>
         <div class="grid-column--copy" data-aos="fade-up">
-          <p class="copy-text editable">{{page.expertise.bottom.details}} </p>
+          <p class="copy-text">{{page.expertise.bottom.details}} </p>
         </div>
 
       </div>
@@ -118,7 +121,7 @@ capability_block_c:
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text editable">Merritt’s integrated approach and specialized services set new standards for luxury interiors.</h1>
+        <h1 class="copy-text">{{page.text_block_a}}</h1>
       </div>
   </div>
 </section>
@@ -160,8 +163,8 @@ capability_block_c:
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">{{page.capability_block_a.bottom.headline}}</h2>
-              <p class="copy-text editable">
+              <h2 class="header-text-condensed">{{page.capability_block_a.bottom.headline}}</h2>
+              <p class="copy-text">
                 {{page.capability_block_a.bottom.details}}
               </p>
             </div>
@@ -174,7 +177,7 @@ capability_block_c:
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text editable">We hold ourselves to the highest standards and never deliver less than the absolute best.</h1>
+        <h1 class="copy-text">{{page.text_block_b}}</h1>
       </div>
   </div>
 </section>
@@ -185,8 +188,8 @@ capability_block_c:
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">{{page.capability_block_b.top.headline}}</h2>
-              <p class="copy-text editable">
+              <h2 class="header-text-condensed">{{page.capability_block_b.top.headline}}</h2>
+              <p class="copy-text">
                 {{page.capability_block_b.top.details}}
               </p>
             </div>
@@ -196,8 +199,8 @@ capability_block_c:
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">{{page.capability_block_b.top.headline}}</h2>
-              <p class="copy-text editable">
+              <h2 class="header-text-condensed">{{page.capability_block_b.top.headline}}</h2>
+              <p class="copy-text">
                 {{page.capability_block_b.top.details}}
               </p>
             </div>
@@ -216,8 +219,8 @@ capability_block_c:
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">{{page.capability_block_b.bottom.headline}}</h2>
-              <p class="copy-text editable">
+              <h2 class="header-text-condensed">{{page.capability_block_b.bottom.headline}}</h2>
+              <p class="copy-text">
                 {{page.capability_block_b.bottom.details}}
               </p>
             </div>
@@ -230,7 +233,7 @@ capability_block_c:
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text editable">Our service is comprehensive from design concept to project delivery. </h1>
+        <h1 class="copy-text">{{page.text_block_c}}</h1>
       </div>
   </div>
 </section>
@@ -241,8 +244,8 @@ capability_block_c:
       <div class="grid-collapse">
           <div class="grid-column--headline not-small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">{{page.capability_block_c.top.headline}}</h2>
-              <p class="copy-text editable">
+              <h2 class="header-text-condensed">{{page.capability_block_c.top.headline}}</h2>
+              <p class="copy-text">
                 {{page.capability_block_c.top.details}}
               </p>
             </div>
@@ -252,8 +255,8 @@ capability_block_c:
           </div>
           <div class="grid-column--headline small">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">{{page.capability_block_c.top.headline}}</h2>
-              <p class="copy-text editable">
+              <h2 class="header-text-condensed">{{page.capability_block_c.top.headline}}</h2>
+              <p class="copy-text">
                 {{page.capability_block_c.top.details}}
               </p>
             </div>
@@ -272,8 +275,8 @@ capability_block_c:
           </div>
           <div class="grid-column--headline">
             <div class="wrapper">
-              <h2 class="header-text-condensed editable">{{page.capability_block_c.bottom.headline}}</h2>
-              <p class="copy-text editable">
+              <h2 class="header-text-condensed">{{page.capability_block_c.bottom.headline}}</h2>
+              <p class="copy-text">
                 {{page.capability_block_c.bottom.details}}
               </p>
             </div>
@@ -286,7 +289,7 @@ capability_block_c:
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
-        <h1 class="copy-text editable">With a large production capacity, and offices situated around the globe, we are well positioned to deliver anywhere in the world, on time and within budget.</h1>
+        <h1 class="copy-text">{{page.text_block_d}}</h1>
       </div>
   </div>
 </section>
