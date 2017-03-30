@@ -20,7 +20,6 @@ body.casestudy {
       }
     }
     .hero-image {
-      background-image: url("/uploads/casestudy-cakewalk.jpg");
       background-size: cover;
       background-position: center;
       @include breakpoint(300px, 500px) {

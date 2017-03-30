@@ -5,7 +5,7 @@ layout: default
   <div class="grid-container fluid">
     <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
-        <div class="hero-image animated fastStaggerFadeIn rellax" data-rellax-speed="-2.5"></div>
+        <div class="hero-image animated fastStaggerFadeIn rellax" data-rellax-speed="-2.5" style="background-image: url({{page.hero_image}});"></div>
       <!-- </div> -->
     </div>
   </div>
@@ -15,37 +15,15 @@ layout: default
   <div class="outer grid-container">
       <div class="grid-column animated customFadeInUp">
         <div class="grid-column--headline">
-          <h2 class="header-text-condensed">Cakewalk</h2>
+          <h2 class="header-text-condensed">{{page.title}}</h2>
         </div>
         <div class="grid-column--copy">
-          <h3 class="header-text-condensed">Exterior Designer</h3>
-          <p class="copy-text">Tim Heywood Design</p>
-
-          <h3 class="header-text-condensed">Naval Architect</h3>
-          <p class="copy-text">Azure Naval Architecture</p>
-
-          <h3 class="header-text-condensed">Interior Designer</h3>
-          <p class="copy-text">Dalton Designs Inc.</p>
-
-          <h3 class="header-text-condensed">Length</h3>
-          <p class="copy-text">86M</p>
-
-          <h3 class="header-text-condensed">Specialties</h3>
-          <ul>
-            <li class="copy-text">Project wide detail book</li>
-            <li class="copy-text">Veneer, timber and finish specifications</li>
-            <li class="copy-text">Control mockups</li>
-            <li class="copy-text">Complete engineering</li>
-            <li class="copy-text">Fabrication</li>
-            <li class="copy-text">Delivery and install</li>
-            <li class="copy-text">Upholstery, leather, metal, glass, mirror, lighting, and shade integration</li>
-          </ul>
-
-          <h3 class="header-text-condensed">Species</h3>
-          <p class="copy-text">American Black Cherry, East Indian Rosewood, American Rift Sawn White Oak</p>
+          {% for item in page.details %}
+            <h3 class="header-text-condensed">{{item.heading}}</h3>
+            <p class="copy-text">{{item.copy_markdown | markdownify}}</p>
+          {% endfor %}
         </div>
       </div>
-
   </div>
 </section>
 
@@ -57,17 +35,22 @@ layout: default
       <div class="grid-sizer"></div>
       <div class="gutter-sizer"></div>
 
-      <div class="grid-item grid-item--width2">
-        <img src="/uploads/cakewalk-1.jpg" alt="">
-      </div>
+      {% for block in page.image_blocks %}
+        {% if block.image_block.image %}
+          <div class="grid-item grid-item--width2">
+            <img src="{{block.image_block.image}}" alt="">
+          </div>
+        {% endif %}
+        {% if block.image_pair.right_image %}
+          <div class="grid-item">
+            <img src="{{block.image_pair.left_image}}" alt="">
+          </div>
 
-      <div class="grid-item">
-        <img src="/uploads/cakewalk-2.jpg" alt="">
-      </div>
-
-      <div class="grid-item">
-        <img src="/uploads/cakewalk-3.jpg" alt="">
-      </div>
+          <div class="grid-item">
+            <img src="{{block.image_pair.right_image}}" alt="">
+          </div>
+        {% endif %}
+      {% endfor %}
 
       </div>
     </div>
