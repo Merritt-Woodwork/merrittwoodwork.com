@@ -101,18 +101,18 @@ next:
       <div class="grid-collapse">
 
         <div class="inner-wrapper">
-          <div class="grid-column--headline" data-aos="fade-up">
+          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <h2 class="header-text-condensed">{{page.expertise.top.headline}}</h2>
           </div>
-          <div class="grid-column--copy" data-aos="fade-up">
+          <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <p class="copy-text">{{page.expertise.top.details}}</p>
           </div>
         </div>
 
-        <div class="grid-column--headline" data-aos="fade-up">
+        <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
           <h2 class="header-text-condensed">{{page.expertise.bottom.headline}}</h2>
         </div>
-        <div class="grid-column--copy" data-aos="fade-up">
+        <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
           <p class="copy-text">{{page.expertise.bottom.details}} </p>
         </div>
 
@@ -129,7 +129,7 @@ next:
   </div>
 </section>
 
-<section class="image-text-block top" data-aos="fade-up">
+<section class="image-text-block top" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">
@@ -157,7 +157,7 @@ next:
   </div>
 </section>
 
-<section class="image-text-block bottom" data-aos="fade-up">
+<section class="image-text-block bottom" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">
@@ -185,7 +185,7 @@ next:
   </div>
 </section>
 
-<section class="image-text-block top" data-aos="fade-up">
+<section class="image-text-block top" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">
@@ -213,7 +213,7 @@ next:
   </div>
 </section>
 
-<section class="image-text-block bottom" data-aos="fade-up">
+<section class="image-text-block bottom" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">
@@ -241,7 +241,7 @@ next:
   </div>
 </section>
 
-<section class="image-text-block top" data-aos="fade-up">
+<section class="image-text-block top" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">
@@ -269,7 +269,7 @@ next:
   </div>
 </section>
 
-<section class="image-text-block bottom" data-aos="fade-up">
+<section class="image-text-block bottom" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">

@@ -155,7 +155,7 @@ next:
         {% assign people = site.staff | sort:"display_order" %}
         {% for person in people %}
         <div class="grid-item">
-          <div data-aos="fade-up">
+          <div {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <a data-remodal-target="modal-{{person.name | slugify}}">
               <img src="{{person.image}}" alt="">
             </a>

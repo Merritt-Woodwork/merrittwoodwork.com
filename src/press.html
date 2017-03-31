@@ -68,7 +68,7 @@ next:
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
         {% for item in page.clippings %}
-        <div class="grid-item superyacht" data-aos="fade-up">
+        <div class="grid-item superyacht" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
           {% if item.pdf %}<a href="#">{% endif %}
             <img src="{{item.image}}" alt="">
           {% if item.pdf %}</a>{% endif %}

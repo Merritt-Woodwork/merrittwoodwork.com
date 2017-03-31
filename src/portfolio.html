@@ -118,7 +118,7 @@ next:
         {% for item in page.gallery_items %}
           <div class="grid-item {{item.work-type}}">
             <a data-remodal-target="modal-{{item.image}}">
-              <img src="{{item.image}}" data-aos="fade-up" alt="">
+              <img src="{{item.image}}" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %} alt="">
             </a>
           </div>
           <div class="remodal" data-remodal-id="modal-{{item.image}}">

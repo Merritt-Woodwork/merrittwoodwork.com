@@ -66,28 +66,28 @@ next:
     <div class="grid-column">
       <div class="grid-collapse">
         <div class="inner-wrapper">
-          <div class="grid-column--headline" data-aos="fade-up">
+          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <h2 class="header-text-condensed">{{page.culture_block.headline}}</h2>
           </div>
-          <div class="grid-column--copy" data-aos="fade-up">
+          <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             {{page.culture_block.details | markdownify}}
           </div>
         </div>
 
         <div class="inner-wrapper">
-          <div class="grid-column--headline" data-aos="fade-up">
+          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <h2 class="header-text-condensed">{{page.benefits_block.headline}}</h2>
           </div>
-          <div class="grid-column--copy" data-aos="fade-up">
+          <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             {{page.benefits_block.details | markdownify}}
           </div>
         </div>
 
         <div class="inner-wrapper">
-          <div class="grid-column--headline" data-aos="fade-up">
+          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <h2 class="header-text-condensed">{{page.equal_opp_block.headline}}</h2>
           </div>
-          <div class="grid-column--copy" data-aos="fade-up">
+          <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             {{page.equal_opp_block.details | markdownify}}
           </div>
         </div>
