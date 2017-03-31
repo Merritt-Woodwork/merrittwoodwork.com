@@ -29,7 +29,7 @@ layout: default
             <h2 class="header-text-condensed">job description</h2>
           </div>
           <div class="grid-column--copy copy-text">
-            {{page.description | markdownify}}
+            {{page.description_markdown | markdownify}}
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ layout: default
             <h2 class="header-text-condensed">Duties & responsibilities</h2>
           </div>
           <div class="grid-column--copy copy-text">
-            {{page.responsibilities | markdownify}}
+            {{page.responsibilities_markdown | markdownify}}
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ layout: default
             <h2 class="header-text-condensed">Requirements & Qualifications</h2>
           </div>
           <div class="grid-column--copy copy-text">
-            {{page.requirements | markdownify}}
+            {{page.requirements_markdown | markdownify}}
           </div>
         </div>
       </div>
