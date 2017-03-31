@@ -12,7 +12,7 @@
         @include grid-push(1 of 16);
       }
     }
-    .grid-column.top {
+    .grid-column {
       @include breakpoint(xs) {
         padding-bottom: 3rem;
       }
@@ -29,22 +29,7 @@
       @include breakpoint(xxl) {
       }
     }
-    .grid-column.bottom {
-      @include breakpoint(xs) {
-        padding-bottom: 3rem;
-      }
-      @include breakpoint(sm) {
-        padding-bottom: 3rem;
-      }
-      @include breakpoint(md) {
-      }
-      @include breakpoint(lg) {
-      }
-      @include breakpoint(xl) {
-      }
-      @include breakpoint(xxl) {
-      }
-    }
+
     @include breakpoint(xs) {
       padding-top: 40px;
       padding-bottom: 40px;

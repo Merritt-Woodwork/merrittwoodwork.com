@@ -5769,19 +5769,13 @@ body.about .remodal p.quote {
       margin-left: 17px;
       margin-left: calc(6.25% - 18.0625px + 34px); } }
   @media (max-width: 575px) {
-    .contact section.contact-details .grid-column.top {
+    .contact section.contact-details .grid-column {
       padding-bottom: 3rem; } }
   @media (min-width: 576px) {
-    .contact section.contact-details .grid-column.top {
+    .contact section.contact-details .grid-column {
       padding-bottom: 3rem; } }
   @media (min-width: 992px) {
-    .contact section.contact-details .grid-column.top {
-      padding-bottom: 3rem; } }
-  @media (max-width: 575px) {
-    .contact section.contact-details .grid-column.bottom {
-      padding-bottom: 3rem; } }
-  @media (min-width: 576px) {
-    .contact section.contact-details .grid-column.bottom {
+    .contact section.contact-details .grid-column {
       padding-bottom: 3rem; } }
   @media (max-width: 575px) {
     .contact section.contact-details {

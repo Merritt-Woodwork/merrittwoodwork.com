@@ -1,4 +1,5 @@
 ---
+headline: IF YOU'RE READY TO EXPERIENCE TRUE LUXURY woodwork AND JOINERY, WE'RE READY TO BRING YOUR DREAMS TO LIFE.
 ---
 
 <section class="jumbo-hero">
@@ -6,7 +7,7 @@
     <div class="grid-container">
       <!-- <div class="grid-collapse"> -->
         <div class="headline header-text-condensed">
-          <h1 class="animated customFadeInUp">IF YOU'RE READY TO EXPERIENCE TRUE LUXURY woodwork AND JOINERY, WE'RE READY TO BRING YOUR DREAMS TO LIFE.</h1>
+          <h1 class="animated customFadeInUp">{{page.headline}}</h1>
         </div>
       <!-- </div> -->
     </div>
@@ -22,24 +23,15 @@
 
 <section class="contact-details">
   <div class="grid-container">
-    <div class="grid-column top">
-      <h3 class="header-text-condensed">GENERAL INQUIRIES</h3>
-      <p class="copy-text">+1 440 942 0205</p>
-      <p class="copy-text"><a href="mailto:inquiries@merrittwoodwork.com">inquiries@merrittwoodwork.com</a></p>
-    </div>
-    <div class="grid-column top">
-      <h3 class="header-text-condensed">media inquiries</h3>
-      <p class="copy-text">Jenifer Barry</p>
-      <p class="copy-text">+1 310 396-7851</p>
-      <p class="copy-text"><a href="mailto:mediainquiries@merrittwoodwork.com">mediainquiries@merrittwoodwork.com</a></p>
-    </div>
-    <div class="grid-column bottom">
-      <h3 class="header-text-condensed">REQUEST A CONSULTATION</h3>
-      <p class="copy-text">Mark Mantione</p>
-      <p class="copy-text">VP of Sales and Marketing</p>
-      <p class="copy-text">+1 212 203 6626</p>
-      <p class="copy-text"><a href="mailto:mfm@merrittwoodwork.com">mfm@merrittwoodwork.com</a></p>
-    </div>
+    {% for contact in site.data.contacts %}
+      <div class="grid-column">
+        <h3 class="header-text-condensed">{{contact.headline}}</h3>
+        {% if contact.name %}<p class="copy-text">{{contact.name}}</p>{% endif %}
+        {% if contact.title %}<p class="copy-text">{{contact.title}}</p>{% endif %}
+        <p class="copy-text">{{contact.telephone}}</p>
+        <p class="copy-text"><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
+      </div>
+    {% endfor %}
     <div class="grid-column">
       <h3 class="header-text-condensed">careers</h3>
       <p class="copy-text"><a href="mailto:careers@merrittwoodwork.com">careers@merrittwoodwork.com</a></p>
@@ -50,102 +42,23 @@
 
 <section class="case-studies">
   <h3 class="header header-text-condensed" data-aos="fade-up">locations</h3>
-    <div class="grid-container">
-      <!-- <div class="grid-collapse"> -->
-        <div class="grid-column">
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('/uploads/location-ohio.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h2 class="header-text-condensed">ohio</h2>
-                <h5 class="header-text title">corporate office</h5>
-                <h5 class="header-text address-1">7198 industrial park blvd.</h5>
-                <h5 class="header-text address-2">mentor, oh 44060</h5>
-                <h5 class="header-text phone">phone +1 440 942 0205</h5>
-              </div>
-            </div>
+  <div class="grid-container">
+    <div class="grid-column">
+      {% for location in site.data.locations %}
+        <div class="case-study" data-aos="fade-up">
+          <div class="case-study-image" style="background-image: url({{location.image}});">
           </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('/uploads/location-california.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h2 class="header-text-condensed">california</h2>
-                <h5 class="header-text title">corporate office</h5>
-                <h5 class="header-text address-1">7198 industrial park blvd.</h5>
-                <h5 class="header-text address-2">mentor, oh 44060</h5>
-                <h5 class="header-text phone">phone +1 440 942 0205</h5>
-              </div>
-            </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('/uploads/location-florida.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h2 class="header-text-condensed">florida</h2>
-                <h5 class="header-text title">corporate office</h5>
-                <h5 class="header-text address-1">7198 industrial park blvd.</h5>
-                <h5 class="header-text address-2">mentor, oh 44060</h5>
-                <h5 class="header-text phone">phone +1 440 942 0205</h5>
-              </div>
-            </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('/uploads/location-germany.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h2 class="header-text-condensed">germany</h2>
-                <h5 class="header-text title">corporate office</h5>
-                <h5 class="header-text address-1">7198 industrial park blvd.</h5>
-                <h5 class="header-text address-2">mentor, oh 44060</h5>
-                <h5 class="header-text phone">phone +1 440 942 0205</h5>
-              </div>
-            </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('/uploads/location-newjersey.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h2 class="header-text-condensed">new jersey</h2>
-                <h5 class="header-text title">corporate office</h5>
-                <h5 class="header-text address-1">7198 industrial park blvd.</h5>
-                <h5 class="header-text address-2">mentor, oh 44060</h5>
-                <h5 class="header-text phone">phone +1 440 942 0205</h5>
-              </div>
-            </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('/uploads/location-utah.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h2 class="header-text-condensed">utah</h2>
-                <h5 class="header-text title">corporate office</h5>
-                <h5 class="header-text address-1">7198 industrial park blvd.</h5>
-                <h5 class="header-text address-2">mentor, oh 44060</h5>
-                <h5 class="header-text phone">phone +1 440 942 0205</h5>
-              </div>
-            </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('/uploads/location-wisconsin.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h2 class="header-text-condensed">wisconsin</h2>
-                <h5 class="header-text title">corporate office</h5>
-                <h5 class="header-text address-1">7198 industrial park blvd.</h5>
-                <h5 class="header-text address-2">mentor, oh 44060</h5>
-                <h5 class="header-text phone">phone +1 440 942 0205</h5>
-              </div>
+          <div class="case-study-info">
+            <div class="wrapper">
+              <h2 class="header-text-condensed">{{location.name}}</h2>
+              <h5 class="header-text title">{{location.address_1}}</h5>
+              <h5 class="header-text address-1">{{location.address_2}}</h5>
+              <h5 class="header-text address-2">{{location.city}}, {{location.state}} {{location.zip}}</h5>
+              <h5 class="header-text phone">{{location.telephone}}</h5>
             </div>
           </div>
         </div>
-      <!-- </div> -->
+      {% endfor %}
     </div>
   </div>
 </section>

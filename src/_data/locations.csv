@@ -1,8 +1,8 @@
-name,address_1,address_2,city,state,zip,telephone
-ohio,corporate office,7198 Industrial Park Blvd.,Mentor,OH,44060,+1 440 942 0205
-california,709 N Sacramento Street,,Lodi,CA,95240,
-florida,2801 NW 55th Court,Building 1,Fort Lauderdale,FL,33309,
-germany,Athensstraße 6,97424 Schweinfurt,Germany,,,+49 9721 29570 10
-new jersey,56 West Ethel Road,Suite 1,Piscatawat,NJ,08854,
-utah,1981 East Murray Holladay Rd.,Suite 250,Salt Lake City,UT,84117,
-wisconsin,242 Michigan Street,Suite 301A,Sturgeon Bay,WI,54235,
+name,address_1,address_2,city,state,zip,telephone,image
+ohio,corporate office,7198 Industrial Park Blvd.,Mentor,OH,44060,+1 440 942 0205,/uploads/location-ohio.jpg
+california,709 N Sacramento Street,,Lodi,CA,95240,,/uploads/location-california.jpg
+florida,2801 NW 55th Court,Building 1,Fort Lauderdale,FL,33309,,/uploads/location-florida.jpg
+germany,Athensstraße 6,97424 Schweinfurt,Germany,,,+49 9721 29570 10,/uploads/location-germany.jpg
+new jersey,56 West Ethel Road,Suite 1,Piscatawat,NJ,08854,,/uploads/location-new-jersey.jpg
+utah,1981 East Murray Holladay Rd.,Suite 250,Salt Lake City,UT,84117,,/uploads/location-utah.jpg
+wisconsin,242 Michigan Street,Suite 301A,Sturgeon Bay,WI,54235,,/uploads/location-wisconsin.jpg
