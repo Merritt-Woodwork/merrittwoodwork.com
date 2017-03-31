@@ -53,8 +53,6 @@ gallery_items:
     work-type: superyacht
   - image: /uploads/gallery-24.jpg
     work-type: transitional
-  - image: /uploads/gallery-25.jpg
-    work-type:  transitional
 ---
 
 
@@ -72,7 +70,7 @@ gallery_items:
           {% for item in page.case_studies %}
             {% assign case = site.case_studies | where:"slug",item | first %}
             <a href="{{case.url}}" class="casestudy" data-img="{{case.portfolio_image}}">
-              <h5 class="header-text">{{case.work_type}}</h5>
+              <h5 class="header-text">{{case.work-type}}</h5>
               <h2 class="header-text-condensed">{{case.title}}</h2>
             </a>
           {% endfor %}
@@ -114,74 +112,21 @@ gallery_items:
       <div class="grid">
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
-        <div class="grid-item superyacht">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-1.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item contemporary">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-2.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item superyacht">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-5.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item superyacht">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-4.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item traditional">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-3.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item superyacht">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-6.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item contemporary">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-7.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item contemporary">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-8.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item traditional">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-9.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item transitional">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-10.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item traditional">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-11.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
-        <div class="grid-item transitional">
-          <a data-remodal-target="modal">
-            <img src="/uploads/gallery-12.jpg" data-aos="fade-up" alt="">
-          </a>
-        </div>
+        {% for item in page.gallery_items %}
+          <div class="grid-item {{item.work-type}}">
+            <a data-remodal-target="modal-{{item.image}}">
+              <img src="{{item.image}}" data-aos="fade-up" alt="">
+            </a>
+          </div>
+          <div class="remodal" data-remodal-id="modal-{{item.image}}">
+            <img src="{{item.image}}" data-remodal-action="close" class="remodal-close">
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
 </section>
 
-<div class="remodal" data-remodal-id="modal">
-  <img src="/uploads/gallery-7.jpg" data-remodal-action="close" class="remodal-close">
-</div>
 
 
 <section class="next">

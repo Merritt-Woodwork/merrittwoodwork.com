@@ -1,6 +1,6 @@
 ---
 title: Central Park West
-work_type: transitional
+work-type: transitional
 hero_image: /uploads/casestudy-cpw.jpg
 portfolio_image: /uploads/portfolio-cpw.jpg
 details:

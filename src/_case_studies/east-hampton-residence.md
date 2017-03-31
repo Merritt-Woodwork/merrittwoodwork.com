@@ -1,6 +1,6 @@
 ---
 title: East Hampton Residence
-work_type: traditional
+work-type: traditional
 hero_image: /uploads/casestudy-east-hampton.jpg
 portfolio_image: /uploads/portfolio-east-hampton.jpg
 details:

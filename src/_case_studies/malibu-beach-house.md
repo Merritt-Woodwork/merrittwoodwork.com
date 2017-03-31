@@ -1,6 +1,6 @@
 ---
 title: Malibu Beach House
-work_type: contemporary
+work-type: contemporary
 hero_image: /uploads/casestudy-malibu.jpg
 portfolio_image: /uploads/portfolio-malibu.jpg
 details:
