@@ -2871,17 +2871,13 @@ body.home section.case-studies {
       width: calc(87.5% - 31.875px);
       float: left;
       margin-left: 17px;
-      margin-left: calc(6.25% - 18.0625px + 34px); }
-      body.home section.case-studies .grid-column img {
-        width: 60%; } }
+      margin-left: calc(6.25% - 18.0625px + 34px); } }
   @media only screen and (min-width: 1200px) {
     body.home section.case-studies .grid-column {
       width: calc(75% - 29.75px);
       float: left;
       margin-left: 17px;
-      margin-left: calc(12.5% - 19.125px + 34px); }
-      body.home section.case-studies .grid-column img {
-        width: 60%; } }
+      margin-left: calc(12.5% - 19.125px + 34px); } }
   body.home section.case-studies .case-study {
     display: flex;
     flex-wrap: wrap;
@@ -2897,6 +2893,8 @@ body.home section.case-studies {
     @media (min-width: 1200px) {
       body.home section.case-studies .case-study {
         height: 360px; } }
+    body.home section.case-studies .case-study img {
+      display: none; }
   body.home section.case-studies .case-study:nth-child(odd) .case-study-image {
     background-size: cover;
     background-position: center; }

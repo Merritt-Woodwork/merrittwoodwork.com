@@ -29,6 +29,7 @@ gulp.task('scripts', () =>
     'src/assets/javascript/smooth-scroll.js',
     'src/assets/javascript/imagesloaded.js',
     'src/assets/javascript/remodal-custom.js',
+    'node_modules/imgix.js/dist/imgix.js',
     'src/assets/javascript/classie.js',
     'src/assets/javascript/aos.js',
     'src/assets/javascript/rellax.js',

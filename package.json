@@ -36,5 +36,6 @@
     "yargs": "^4.7.0"
   },
   "dependencies": {
+    "imgix.js": "^3.2.0"
   }
 }

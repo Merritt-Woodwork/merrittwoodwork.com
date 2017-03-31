@@ -261,16 +261,12 @@ body.home {
       @include grid-media($lg-grid) {
         @include grid-column(14 of 16);
         @include grid-push(1 of 16);
-        img {
-          width: 60%;
-        }
+
       }
       @include grid-media($xl-grid) {
         @include grid-column(12 of 16);
         @include grid-push(2 of 16);
-        img {
-          width: 60%;
-        }
+
       }
     }
     .case-study {
@@ -288,6 +284,9 @@ body.home {
         height: 360px;
       }
       margin-bottom: 35px;
+      img {
+        display: none;
+      }
     }
 
     .case-study:nth-child(odd) {
