@@ -66,10 +66,32 @@ layout: default
   </div>
   <div class="center">
     <div class="link-wrapper">
-      <a href="/portfolio/casestudy">
-        <h5 class="header-text">next</h5>
-        <span><h2 class="header-text-condensed">case study</h2></span>
-      </a>
+    {% assign items = site.case_studies %}
+    {% for item in items %}
+      {% if item.title != page.title %}
+        {% continue %}
+      {% else %}
+        {% if forloop.last %}
+          <a href="/capabilities">
+            <h5 class="header-text">next</h5>
+            <span><h2 class="header-text-condensed">capabilities</h2></span>
+          </a>
+        {% else %}
+          {% assign next_i = forloop.index0 | plus: 1 %}
+          <a href="{{ items[next_i].url }}">
+            <h5 class="header-text">next</h5>
+            <span><h2 class="header-text-condensed">case study</h2></span>
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
