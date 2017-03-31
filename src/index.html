@@ -1,11 +1,20 @@
 ---
-
+video:
+  headline: BESPOKE woodwork and JOINERY FOR THE MODERN AGE.
+  youtube_id: tAygUFwCrUc
+  placeholder_image: uploads/hero-home.png
+text_block: Innovation is in our DNA. Leading the entire woodwork and joinery industry from the front line is our mission. Delivering unparalleled interiors today, and in the future, is our vision.
+case_studies:
+  - cakewalk
+  - east-hampton-residence
+  - central-park-west
+  - malibu-beach-house
 ---
 <section class="header-video">
   <div class="wrapper">
-    <img src="uploads/hero-home.png"
+    <img src="{{page.video.placeholder_image}}"
          class="header-video__media"
-         data-video-URL="https://www.youtube.com/embed/tAygUFwCrUc"
+         data-video-URL="https://www.youtube.com/embed/{{page.video.youtube_id}}"
          data-teaser=""
          data-video-width="560"
          data-video-height="315"
@@ -14,7 +23,7 @@
       <div class="grid-container">
         <div class="grid-collapse">
           <div class="headline header-text-condensed">
-            <p class="animated customFadeInUp">BESPOKE woodwork and JOINERY FOR THE MODERN AGE.</p>
+            <p class="animated customFadeInUp">{{page.video.headline}}</p>
             <a href="" class="header-video__play-trigger animated staggerFadeIn" id="header-video__play-trigger"><span>watch the video</span></a>
           </div>
         </div>
@@ -26,7 +35,7 @@
   <div class="grid-container">
     <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
-        <h1 class="copy-text">Innovation is in our DNA. Leading the entire woodwork and joinery industry from the front line is our mission. Delivering unparalleled interiors today, and in the future, is our vision.</h1>
+        <h1 class="copy-text">{{page.text_block}}</h1>
         <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">Portfolio</a></h3>
         <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">Capabilities</a></h3>
       </div>
@@ -34,57 +43,29 @@
   </div>
 </section>
 
+
+
+
 <section class="case-studies">
   <h3 class="header header-text-condensed" data-aos="fade-up">Case Studies</h3>
     <div class="grid-container">
-      <!-- <div class="grid-collapse"> -->
         <div class="grid-column">
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('uploads/home-cakewalk.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h5 class="header-text">Superyacht</h5>
-                <h2 class="header-text-condensed">Cakewalk</h2>
+          {% for item in page.case_studies %}
+            {% assign case = site.case_studies | where:"slug",item | first %}
+            <div class="case-study" data-aos="fade-up">
+              <div class="case-study-image" style="background-image: url({{case.hero_image}});">
               </div>
-              <h3 class="header-text-condensed"><a href="/portfolio/casestudy">view case study</a></h3>
-            </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('uploads/home-easthampton.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h5 class="header-text">traditional</h5>
-                <h2 class="header-text-condensed">east hampton residence</h2>
+              <div class="case-study-info">
+                <div class="wrapper">
+                  <h5 class="header-text">{{case.work-type}}</h5>
+                  <h2 class="header-text-condensed">{{case.title}}</h2>
+                </div>
+                <h3 class="header-text-condensed"><a href="{{case.url}}">view case study</a></h3>
               </div>
-              <h3 class="header-text-condensed"><a href="/portfolio/casestudy">view case study</a></h3>
             </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('uploads/home-cpw.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h5 class="header-text">Transitional</h5>
-                <h2 class="header-text-condensed">15 Central Park West</h2>
-              </div>
-              <h3 class="header-text-condensed"><a href="/portfolio/casestudy">view case study</a></h3>
-            </div>
-          </div>
-          <div class="case-study" data-aos="fade-up">
-            <div class="case-study-image" style="background-image: url('uploads/home-malibu.jpg');">
-            </div>
-            <div class="case-study-info">
-              <div class="wrapper">
-                <h5 class="header-text">Contemporary</h5>
-                <h2 class="header-text-condensed">Malibu Beach House</h2>
-              </div>
-              <h3 class="header-text-condensed"><a href="/portfolio/casestudy">view case study</a></h3>
-            </div>
-          </div>
+          {% endfor %}
+
         </div>
-      <!-- </div> -->
     </div>
   </div>
 </section>
