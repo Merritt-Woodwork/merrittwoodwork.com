@@ -7,7 +7,7 @@ layout: default
     <div class="grid-container">
       <!-- <div class="grid-collapse"> -->
         <div class="headline header-text-condensed">
-          <h1 class="animated customFadeInUp">3D modeling drafter </h1>
+          <h1 class="animated customFadeInUp">{{page.role}}</h1>
         </div>
       <!-- </div> -->
     </div>
@@ -28,8 +28,8 @@ layout: default
           <div class="grid-column--headline">
             <h2 class="header-text-condensed">job description</h2>
           </div>
-          <div class="grid-column--copy">
-            <p class="copy-text">Responsible for preparing working plans, detailed drawings, and complete mechanical or electrical drawings of complex components and assemblies from notes, verbal instructions, and rough or detailed sketches, frequently using computerized equipment (Rivet, AutoCAD).  May provide work guidance and supervision to lower level positions.</p>
+          <div class="grid-column--copy copy-text">
+            {{page.description | markdownify}}
           </div>
         </div>
       </div>
@@ -45,14 +45,8 @@ layout: default
           <div class="grid-column--headline">
             <h2 class="header-text-condensed">Duties & responsibilities</h2>
           </div>
-          <div class="grid-column--copy">
-            <ul>
-              <li class="copy-text">Perform engineering computations, write specifications and make adjustments in drawings or specifications</li>
-              <li class="copy-text">Verify completed work, checking dimensions, material and quantities to be used</li>
-              <li class="copy-text">Work at a level generally involving more advanced design/drafting assignments</li>
-              <li class="copy-text">Responsible for all 3D modeling related design and drafting activities</li>
-              <li class="copy-text">Perform physical sampling whenever needed, and update with current and upcoming market trends, ideas, and color directions</li>
-            </ul>
+          <div class="grid-column--copy copy-text">
+            {{page.responsibilities | markdownify}}
           </div>
         </div>
       </div>
@@ -68,14 +62,8 @@ layout: default
           <div class="grid-column--headline">
             <h2 class="header-text-condensed">Requirements & Qualifications</h2>
           </div>
-          <div class="grid-column--copy">
-            <ul>
-              <li class="copy-text">Perform engineering computations, write specifications and make adjustments in drawings or specifications</li>
-              <li class="copy-text">Verify completed work, checking dimensions, material and quantities to be used</li>
-              <li class="copy-text">Work at a level generally involving more advanced design/drafting assignments</li>
-              <li class="copy-text">Responsible for all 3D modeling related design and drafting activities</li>
-              <li class="copy-text">Perform physical sampling whenever needed, and update with current and upcoming market trends, ideas, and color directions</li>
-            </ul>
+          <div class="grid-column--copy copy-text">
+            {{page.requirements | markdownify}}
           </div>
         </div>
       </div>

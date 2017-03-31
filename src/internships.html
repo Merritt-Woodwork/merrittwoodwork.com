@@ -1,7 +1,11 @@
 ---
-layout: default
-class: internships
-permalink: /careers/internships/
+headline: MERRITT IS FAST-PACED, INNOVATIVE AND CHANGING THE LUXURY woodwork AND JOINERY INDUSTRY FROM THE INSIDE OUT.
+culture_block:
+  headline: culture
+  details: |
+    Our paid internship opportunities offer a chance for students and recent graduates to learn both the craft and business of fine woodworking. Our interns gain hands-on experience under the guidance of the best in the industry leading to better career opportunities in the future.
+
+    We count on our relationships with colleges, universities and art institutes to identify the talent we need. Our interns are important to the growth and success of our company.
 ---
 
 <section class="jumbo-hero">
@@ -9,11 +13,12 @@ permalink: /careers/internships/
     <div class="grid-container">
       <!-- <div class="grid-collapse"> -->
         <div class="headline header-text-condensed">
-          <h1 class="animated customFadeInUp">MERRITT IS FAST-PACED, INNOVATIVE AND CHANGING THE LUXURY woodwork AND JOINERY INDUSTRY FROM THE INSIDE OUT. </h1>
+          <h1 class="animated customFadeInUp">{{page.headline}}</h1>
         </div>
       <!-- </div> -->
     </div>
     <div id="tab" style="visibility: hidden;"></div>
+
   </div>
 </section>
 <div class="jumbo-hero-color grid-container">
@@ -33,27 +38,11 @@ permalink: /careers/internships/
         <div class="mobile-wrapper">
           <a href="" class="isoFilter active" data-filter="*">all</a>
         </div>
+        {% for location in site.data.locations %}
         <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".california">california</a>
+          <a href="" class="isoFilter" data-filter=".{{location.name}}">{{location.name}}</a>
         </div>
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".florida">florida</a>
-        </div>
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".germany">germany</a>
-        </div>
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".newjersey">new jersey</a>
-        </div>
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".ohio">ohio</a>
-        </div>
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".utah">utah</a>
-        </div>
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".wisconsin">wisconsin</a>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
@@ -65,12 +54,10 @@ permalink: /careers/internships/
       <div class="grid-collapse">
         <div class="inner-wrapper">
           <div class="grid-column--headline">
-            <h2 class="header-text-condensed">Culture</h2>
+            <h2 class="header-text-condensed">{{page.culture_block.headline}}</h2>
           </div>
           <div class="grid-column--copy">
-            <p class="copy-text">Our paid internship opportunities offer a chance for students and recent graduates to learn both the craft and business of fine woodworking. Our interns gain hands-on experience under the guidance of the best in the industry leading to better career opportunities in the future.</p>
-            <p class="copy-text">
-            We count on our relationships with colleges, universities and art institutes to identify the talent we need. Our interns are important to the growth and success of our company.</p>
+            {{page.culture_block.details | markdownify}}
           </div>
         </div>
       </div>
@@ -86,55 +73,19 @@ permalink: /careers/internships/
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
 
-        <div class="grid-item ohio">
+        {% for job in site.internships %}
+        <div class="grid-item {{job.job-location}}">
           <div class="job-title">
-            <h2 class="header-text-condensed">3d modeling drafter</h2>
+            <h2 class="header-text-condensed">{{job.role}}</h2>
           </div>
           <div class="job-info">
-            <p class="copy-text">Job Type: Full Time</p>
-            <p class="copy-text">Contract: Permanent</p>
-            <p class="copy-text">Location: Ohio</p>
-            <h3 class="header-text-condensed"><a href="/internship/">more info</a></h3>
+            <p class="copy-text">Type: {{job.job-type | capitalize}}</p>
+            {% if job.job.contract %}<p class="copy-text">Contract: {{job.contract | capitalize}}</p>{% endif %}
+            <p class="copy-text">Location: {{job.job-location | capitalize}}</p>
+            <h3 class="header-text-condensed"><a href="{{job.url}}">more info</a></h3>
           </div>
         </div>
-
-        <div class="grid-item ohio">
-          <div class="job-title">
-            <h2 class="header-text-condensed">woodwork engineer draftsman</h2>
-          </div>
-          <div class="job-info">
-            <p class="copy-text">Job Type: Full Time</p>
-            <p class="copy-text">Contract: Permanent</p>
-            <p class="copy-text">Location: Ohio</p>
-            <h3 class="header-text-condensed"><a href="/internship/">more info</a></h3>
-          </div>
-        </div>
-
-        <div class="grid-item florida">
-          <div class="job-title">
-            <h2 class="header-text-condensed">woodwork engineer draftsman</h2>
-          </div>
-          <div class="job-info">
-            <p class="copy-text">Job Type: Full Time</p>
-            <p class="copy-text">Contract: Permanent</p>
-            <p class="copy-text">Location: Ohio</p>
-            <h3 class="header-text-condensed"><a href="/internship/">more info</a></h3>
-          </div>
-        </div>
-
-        <div class="grid-item ohio">
-          <div class="job-title">
-            <h2 class="header-text-condensed">3d modeling drafter</h2>
-          </div>
-          <div class="job-info">
-            <p class="copy-text">Job Type: Full Time</p>
-            <p class="copy-text">Contract: Permanent</p>
-            <p class="copy-text">Location: Ohio</p>
-            <h3 class="header-text-condensed"><a href="/internship/">more info</a></h3>
-          </div>
-        </div>
-
-
+        {% endfor %}
       </div>
     </div>
   </div>
