@@ -1,5 +1,28 @@
 ---
-
+headline: Front page exposure.
+clippings:
+  - image: /uploads/press-1.jpg
+    pdf:
+  - image: /uploads/press-2.jpg
+    pdf:
+  - image: /uploads/press-3.jpg
+    pdf:
+  - image: /uploads/press-4.jpg
+    pdf:
+  - image: /uploads/press-5.jpg
+    pdf:
+  - image: /uploads/press-6.jpg
+    pdf:
+  - image: /uploads/press-7.jpg
+    pdf:
+  - image: /uploads/press-8.jpg
+    pdf:
+  - image: /uploads/press-9.jpg
+    pdf:
+  - image: /uploads/press-10.jpg
+    pdf:
+  - image: /uploads/press-11.jpg
+    pdf:
 ---
 
 <section class="jumbo-hero">
@@ -7,7 +30,7 @@
     <div class="grid-container">
       <!-- <div class="grid-collapse"> -->
         <div class="headline header-text-condensed">
-          <h1 class="animated customFadeInUp">Front page exposure. </h1>
+          <h1 class="animated customFadeInUp">{{page.headline}}</h1>
         </div>
       <!-- </div> -->
     </div>
@@ -22,10 +45,14 @@
 <section class="contact-details">
   <div class="grid-container">
     <div class="grid-column">
-      <h3 class="header-text-condensed">press inquiries</h3>
-      <p class="copy-text">Jenifer Barry</p>
-      <p class="copy-text">+1 310 396-7851</p>
-      <p class="copy-text"><a href="mailto:mediainquiries@merrittwoodwork.com">mediainquiries@merrittwoodwork.com</a></p>
+      {% for item in site.data.contacts %}
+        {% if item.email == "mediainquiries@merrittwoodwork.com" %}
+          <h3 class="header-text-condensed">{{item.headline}}</h3>
+          <p class="copy-text">{{item.name}}</p>
+          <p class="copy-text">{{item.telephone}}</p>
+          <p class="copy-text"><a href="mailto:{{item.email}}">{{item.email}}</a></p>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -37,76 +64,13 @@
       <div class="grid">
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
+        {% for item in page.clippings %}
         <div class="grid-item superyacht" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-1.jpg" alt="">
-          </a>
+          {% if item.pdf %}<a href="#">{% endif %}
+            <img src="{{item.image}}" alt="">
+          {% if item.pdf %}</a>{% endif %}
         </div>
-        <div class="grid-item contemporary" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item superyacht" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-5.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item superyacht" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-4.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item traditional" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item superyacht" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-6.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item contemporary" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-7.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item contemporary" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-8.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item traditional" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-9.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item transitional" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-10.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item traditional" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-11.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item transitional" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-12.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item transitional" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-13.jpg" alt="">
-          </a>
-        </div>
-        <div class="grid-item transitional" data-aos="fade-up">
-          <a href="#">
-            <img src="/uploads/press-14.jpg" alt="">
-          </a>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
