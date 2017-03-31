@@ -53,6 +53,9 @@ capability_block_c:
     details: The final act. Merritt self performs all of our carpentry requirements.
     image: /uploads/capabilities-carpentry.jpg
 text_block_d: With a large production capacity, and offices situated around the globe, we are well positioned to deliver anywhere in the world, on time and within budget.
+next:
+  name: about
+  link: /about/
 ---
 <section class="hero">
   <div class="grid-container fluid">
@@ -306,9 +309,9 @@ text_block_d: With a large production capacity, and offices situated around the 
   </div>
   <div class="center">
     <div class="link-wrapper">
-      <a href="/about">
+      <a href="{{page.next.link}}">
         <h5 class="header-text">next</h5>
-        <span><h2 class="header-text-condensed">about</h2></span>
+        <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
       </a>
     </div>
   </div></section>

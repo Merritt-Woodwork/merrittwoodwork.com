@@ -53,6 +53,9 @@ gallery_items:
     work-type: superyacht
   - image: /uploads/gallery-24.jpg
     work-type: transitional
+next:
+  name: capabilities
+  link: /capabilities/
 ---
 
 
@@ -137,9 +140,9 @@ gallery_items:
   </div>
   <div class="center">
     <div class="link-wrapper">
-      <a href="/capabilities">
+      <a href="{{page.next.link}}">
         <h5 class="header-text">next</h5>
-        <span><h2 class="header-text-condensed">capabilities</h2></span>
+        <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
       </a>
     </div>
   </div>

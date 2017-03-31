@@ -32,6 +32,9 @@ image_pair_b:
   right_image_speed: .75
   right_image_caption: Keith & Michael Merritt
 text_block_b: Through constant innovation and an obsession with perfection, Merritt moves the definition of woodwork forward.
+next:
+  name: clients
+  link: /clients/
 ---
 <section class="hero">
   <div class="grid-container fluid">
@@ -190,9 +193,9 @@ text_block_b: Through constant innovation and an obsession with perfection, Merr
   </div>
   <div class="center">
     <div class="link-wrapper">
-      <a href="/clients">
+      <a href="{{page.next.link}}">
         <h5 class="header-text">next</h5>
-        <span><h2 class="header-text-condensed">clients</h2></span>
+        <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
       </a>
     </div>
   </div>

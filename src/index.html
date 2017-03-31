@@ -9,6 +9,9 @@ case_studies:
   - east-hampton-residence
   - central-park-west
   - malibu-beach-house
+next:
+  name: portfolio
+  link: /portfolio/
 ---
 <section class="header-video">
   <div class="wrapper">
@@ -81,9 +84,9 @@ case_studies:
   </div>
   <div class="center">
     <div class="link-wrapper">
-      <a href="/portfolio">
+      <a href="{{page.next.link}}">
         <h5 class="header-text">next</h5>
-        <span><h2 class="header-text-condensed">portfolio</h2></span>
+        <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
       </a>
     </div>
   </div>

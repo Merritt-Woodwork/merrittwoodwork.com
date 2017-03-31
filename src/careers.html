@@ -27,6 +27,9 @@ equal_opp_block:
   headline: equal opportunity
   details: |
     Merritt Woodwork is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, genetic information, national origin, protected veteran status, disability status, or any other characteristic protected by law.
+next:
+  name: contact
+  link: /contact/
 ---
 
 <section class="jumbo-hero">
@@ -112,9 +115,9 @@ equal_opp_block:
   </div>
   <div class="center">
     <div class="link-wrapper">
-      <a href="/contact">
+      <a href="{{page.next.link}}">
         <h5 class="header-text">next</h5>
-        <span><h2 class="header-text-condensed">contact</h2></span>
+        <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
       </a>
     </div>
   </div>
