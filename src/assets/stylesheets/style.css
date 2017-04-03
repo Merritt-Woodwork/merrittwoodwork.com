@@ -5924,6 +5924,8 @@ body.about .remodal p.quote {
     @media (min-width: 1200px) {
       .contact section.case-studies .case-study {
         height: 360px; } }
+    .contact section.case-studies .case-study img {
+      display: none; }
   .contact section.case-studies .case-study-info {
     display: flex;
     flex-wrap: nowrap;

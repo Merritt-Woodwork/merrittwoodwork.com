@@ -50,6 +50,14 @@ next:
       {% for location in site.data.locations %}
         <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
           <div class="case-study-image" style="background-image: url({{location.image}});">
+            <img
+              class="js-img"
+              ix-path="{{location.image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(max-width: 700px) 100vw, 40vw"
+            >
           </div>
           <div class="case-study-info">
             <div class="wrapper">
