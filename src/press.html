@@ -68,10 +68,11 @@ next:
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
         {% for item in page.clippings %}
+        {% assign pdf = item.pdf_path | size %}
         <div class="grid-item superyacht" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-          {% if item.pdf %}<a href="#">{% endif %}
+          {% if pdf > 3 %}<a href="{{item.pdf_path}}">{% endif %}
             <img src="{{item.image}}" alt="">
-          {% if item.pdf %}</a>{% endif %}
+          {% if pdf > 3 %}</a>{% endif %}
         </div>
         {% endfor %}
       </div>

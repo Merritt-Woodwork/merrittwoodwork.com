@@ -4859,6 +4859,10 @@ body.about .remodal p.quote {
     width: 48%; }
   .press section.gallery .grid-item {
     margin-bottom: 4%; }
+    .press section.gallery .grid-item img {
+      cursor: default; }
+    .press section.gallery .grid-item a img {
+      cursor: pointer; }
   .press section.gallery .grid-item:hover {
     cursor: pointer; } }
 

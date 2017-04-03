@@ -141,6 +141,12 @@
       }
       .grid-item {
         margin-bottom: 4%;
+        img {
+          cursor: default;
+        }
+        a img {
+          cursor: pointer;
+        }
       }
       .grid-item:hover{
         cursor: pointer;
