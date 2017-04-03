@@ -489,7 +489,6 @@ body.home {
             color: #FFFFFF;
             text-transform: uppercase;
             margin: 0;
-            font-size: 28px;
             padding-right: 30px;
           }
           h3 {
@@ -497,8 +496,7 @@ body.home {
             bottom: 16px; // 50%
             left: 30px; // 50%
             font-size: 16px;
-            line-height: 1.5;
-            border-bottom: 1px solid $brand;
+            // line-height: 1.5;
             letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
@@ -506,8 +504,15 @@ body.home {
             margin-left: 0;
             margin-right: 0;
             a {
+              transition: all 0.3s ease;
               color: #fff;
               text-decoration: none;
+              padding-bottom: 2px;
+              border-bottom: 1px solid $brand;
+              &:hover {
+                color: $brand;
+                border-bottom: 1px solid transparent;
+              }
             }
           }
         }
@@ -540,7 +545,6 @@ body.home {
             left: 44px;
             font-size: 18px;
             line-height: 1.5;
-            border-bottom: 1px solid $brand;
             letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;
@@ -581,7 +585,6 @@ body.home {
             left: 60px;
             font-size: 18px;
             line-height: 1.5;
-            border-bottom: 1px solid $brand;
             letter-spacing: 1.5px;
             color: #fff;
             text-transform: uppercase;

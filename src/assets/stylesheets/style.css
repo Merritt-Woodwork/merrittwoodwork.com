@@ -3061,15 +3061,12 @@ body.home section.case-studies {
         color: #FFFFFF;
         text-transform: uppercase;
         margin: 0;
-        font-size: 28px;
         padding-right: 30px; }
       body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 {
         position: absolute;
         bottom: 16px;
         left: 30px;
         font-size: 16px;
-        line-height: 1.5;
-        border-bottom: 1px solid #a45833;
         letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
@@ -3077,8 +3074,14 @@ body.home section.case-studies {
         margin-left: 0;
         margin-right: 0; }
         body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 a {
+          transition: all 0.3s ease;
           color: #fff;
-          text-decoration: none; } }
+          text-decoration: none;
+          padding-bottom: 2px;
+          border-bottom: 1px solid #a45833; }
+          body.home section.case-studies .case-study:nth-child(even) .case-study-info h3 a:hover {
+            color: #a45833;
+            border-bottom: 1px solid transparent; } }
     @media (min-width: 768px) {
       body.home section.case-studies .case-study:nth-child(even) .case-study-info .wrapper {
         position: absolute;
@@ -3104,7 +3107,6 @@ body.home section.case-studies {
         left: 44px;
         font-size: 18px;
         line-height: 1.5;
-        border-bottom: 1px solid #a45833;
         letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
@@ -3139,7 +3141,6 @@ body.home section.case-studies {
         left: 60px;
         font-size: 18px;
         line-height: 1.5;
-        border-bottom: 1px solid #a45833;
         letter-spacing: 1.5px;
         color: #fff;
         text-transform: uppercase;
@@ -4484,6 +4485,9 @@ body.about .c-hamburger:hover span::after {
   transition: all 0.3s ease;
   background-color: #a45833; }
 
+body.about button.c-hamburger:hover {
+  background-color: transparent; }
+
 body.about .remodal h2 {
   font-size: 36px;
   line-height: 1;
@@ -4521,7 +4525,7 @@ body.about .remodal p {
 
 body.about .remodal p.quote {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 33px;
   color: #a45833;
   padding-bottom: 5%;
   margin: 0; }

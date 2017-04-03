@@ -452,6 +452,10 @@ body.about {
     background-color: $brand;
   }
 
+  button.c-hamburger:hover {
+    background-color: transparent;
+  }
+
   .remodal {
     h2 {
       font-size: 36px;
@@ -490,7 +494,7 @@ body.about {
     }
     p.quote {
       font-size: 24px;
-      line-height: 36px;
+      line-height: 33px;
       @include breakpoint(768px) {
         font-size: 36px;
         line-height: 45px;
