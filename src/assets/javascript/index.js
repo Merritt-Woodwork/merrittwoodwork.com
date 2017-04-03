@@ -18216,6 +18216,14 @@ window.Modernizr = (function( window, document, undefined ) {
     $('body').removeClass('grid');
   });
 
+  // touch links
+  $(document).ready(function() {
+    $('.touch').bind('touchstart', function(e) {
+      e.preventDefault();
+      $(this).toggleClass('active');
+    });
+  });
+
   // remove 300ms delay on mobile
   $(function() {
       FastClick.attach(document.body);

@@ -12,15 +12,15 @@
           </button>
           </div>
           <div class="left header-text">
-            <a {% if page.class == 'portfolio' or page.class == 'casestudy' %}class="active"{% endif %} href="/portfolio">PORTFOLIO</a>
-            <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">CAPABILITIES</a>
-            <a {% if page.class == 'about' %}class="active"{% endif %} href="/about">ABOUT</a>
+            <a class="touch {% if page.class == 'portfolio' or page.class == 'casestudy' %}active{% endif %}" href="/portfolio">PORTFOLIO</a>
+            <a class="touch {% if page.class == 'capabilities' %}active{% endif %}" href="/capabilities">CAPABILITIES</a>
+            <a class="touch {% if page.class == 'about' %}active{% endif %}" href="/about">ABOUT</a>
           </div>
           <div class="right header-text">
-            <a {% if page.class == 'clients' %}class="active"{% endif %} href="/clients">CLIENTS</a>
-            <a {% if page.class == 'press' %}class="active"{% endif %} href="/press">PRESS</a>
-            <a {% if page.class == 'careers' %}class="active"{% endif %} href="/careers">CAREERS</a>
-            <a {% if page.class == 'contact' %}class="active"{% endif %} href="/contact">CONTACT</a>
+            <a class="touch {% if page.class == 'clients' %}active{% endif %}" href="/clients">CLIENTS</a>
+            <a class="touch {% if page.class == 'press' %}active{% endif %}" href="/press">PRESS</a>
+            <a class="touch {% if page.class == 'careers' %}active{% endif %}" href="/careers">CAREERS</a>
+            <a class="touch {% if page.class == 'contact' %}active{% endif %}" href="/contact">CONTACT</a>
           </div>
         </div>
       </div>
