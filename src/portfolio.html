@@ -111,7 +111,10 @@ next:
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
         {% for item in page.gallery_items %}
-          <div class="grid-item {{item.work-type}}" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+                                    {% comment %}
+                                      {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
+                                    {% endcomment %}
+          <div class="grid-item {{item.work-type}}">
             <a data-remodal-target="modal-{{item.image}}">
               <img
                 ix-path="{{item.image}}"

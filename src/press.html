@@ -69,7 +69,12 @@ next:
         <div class="gutter-sizer"></div>
         {% for item in page.clippings %}
         {% assign pdf = item.pdf_path | size %}
-        <div class="grid-item superyacht" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+
+                        {% comment %}
+                          {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
+                        {% endcomment %}
+
+        <div class="grid-item superyacht">
           {% if pdf > 3 %}<a target="_blank" href="{{item.pdf_path}}">{% endif %}
             <img
               ix-path="{{item.image}}"
