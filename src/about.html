@@ -73,26 +73,29 @@ next:
 <section class="offset-images">
   <div class="grid-container">
     <div class="grid-column">
-      <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.left_image_speed}}">
-       <img
-          ix-path="{{page.image_pair_a.left_image}}"
-          ix-params='{
-            "auto": "compress"
-          }'
-          sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
-        >
-        {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
+
+        <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.left_image_speed}}">
+         <img
+            ix-path="{{page.image_pair_a.left_image}}"
+            ix-params='{
+              "auto": "compress"
+            }'
+            sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+          >
+          {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
         </div>
-      <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.right_image_speed}}">
-        <img
-           ix-path="{{page.image_pair_a.right_image}}"
-           ix-params='{
-             "auto": "compress"
-           }'
-           sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
-         >
-        {% if page.image_pair_a.right_image_caption %}<p class="header-text">{{page.image_pair_a.right_image_caption}}</p>{% endif %}
+
+        <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.right_image_speed}}">
+          <img
+            ix-path="{{page.image_pair_a.right_image}}"
+            ix-params='{
+              "auto": "compress"
+            }'
+            sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+          >
+          {% if page.image_pair_a.right_image_caption %}<p class="header-text">{{page.image_pair_a.right_image_caption}}</p>{% endif %}
         </div>
+
     </div>
   </div>
 </section>
