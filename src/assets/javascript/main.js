@@ -10,9 +10,9 @@
 
   // touch links
   $(document).ready(function() {
-    $('.touch').bind('touchstart', function(e) {
+    $('.touch').bind('touchstart touchend', function(e) {
       e.preventDefault();
-      $(this).toggleClass('active');
+      $(this).toggleClass('touched');
     });
   });
 
