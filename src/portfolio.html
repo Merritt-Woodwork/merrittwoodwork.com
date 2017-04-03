@@ -1,9 +1,4 @@
 ---
-case_studies:
-  - cakewalk
-  - east-hampton-residence
-  - central-park-west
-  - malibu-beach-house
 gallery_items:
   - image: /uploads/gallery-1.jpg
     work-type: superyacht
@@ -62,19 +57,18 @@ next:
 <section class="casestudies">
   <h3 class="header-text-condensed">case studies</h3>
   <div class="left"></div>
-  {% assign slug = page.case_studies[0] %}
-  {% assign first_case_study = site.case_studies | where:"slug", slug | first %}
+  {% assign casestudies = site.case_studies | sort:"list_order" %}
+  {% assign first_case_study = casestudies | first %}
   <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
 
   <div class="grid-container">
       <div class="grid-column">
         <div class="inner animated customFadeInUp">
-          {% for item in page.case_studies %}
-            {% assign case = site.case_studies | where:"slug",item | first %}
+          {% for item in casestudies %}
             <div>
-              <a href="{{case.url}}" class="casestudy" data-img="{{case.portfolio_image}}">
-                <h5 class="header-text">{{case.work-type}}</h5>
-                <h2 class="header-text-condensed">{{case.title}}</h2>
+              <a href="{{item.url}}" class="casestudy" data-img="{{item.portfolio_image}}">
+                <h5 class="header-text">{{item.work-type}}</h5>
+                <h2 class="header-text-condensed">{{item.title}}</h2>
               </a>
             </div>
 

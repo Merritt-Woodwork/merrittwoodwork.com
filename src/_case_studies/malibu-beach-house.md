@@ -1,6 +1,7 @@
 ---
 title: Malibu Beach House
 work-type: contemporary
+list_order: 4
 hero_image: /uploads/casestudy-malibu.jpg
 portfolio_image: /uploads/portfolio-malibu.jpg
 details:

@@ -1,6 +1,7 @@
 ---
 title: Cakewalk
 work-type: superyacht
+list_order: 1
 hero_image: /uploads/casestudy-cakewalk.jpg
 portfolio_image: /uploads/portfolio-cakewalk.jpg
 details:

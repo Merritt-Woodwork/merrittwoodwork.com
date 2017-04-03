@@ -93,7 +93,7 @@ layout: default
   </div>
   <div class="center">
     <div class="link-wrapper">
-    {% assign items = site.case_studies %}
+    {% assign items = site.case_studies | sort:"list_order" %}
     {% for item in items %}
       {% if item.title != page.title %}
         {% continue %}
