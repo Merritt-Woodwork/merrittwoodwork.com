@@ -2332,8 +2332,11 @@ header {
     transition: color 0.2s;
     text-decoration: none;
     text-transform: uppercase; }
-  .overlay a:hover {
-    color: #a45833; }
+  .overlay a:hover, .overlay a:active {
+    color: #a45833 !important; }
+  .overlay a:hover, .overlay a:active {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none; }
   .overlay ul li a:hover,
   .overlay ul li a:focus {
     color: #202020; }

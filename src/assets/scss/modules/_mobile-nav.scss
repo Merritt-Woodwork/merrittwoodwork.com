@@ -75,8 +75,13 @@
     text-transform: uppercase;
   }
 
-  .overlay a:hover {
-    color: #a45833;
+  .overlay a:hover, .overlay a:active {
+    color: #a45833 !important;
+  }
+
+  .overlay a:hover, .overlay a:active {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none /*only to disable context menu on long press*/
   }
 
   .overlay ul li a:hover,
