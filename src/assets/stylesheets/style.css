@@ -2180,9 +2180,6 @@ header {
           margin-left: 0; }
         header .grid-column .left a.active {
           border-bottom: 1px solid #a45833; }
-        header .grid-column .left a a.touched {
-          color: #a45833;
-          border-bottom: 1px solid #a45833; }
       header .grid-column .left a:before {
         content: '';
         display: block;
@@ -2335,6 +2332,8 @@ header {
     transition: color 0.2s;
     text-decoration: none;
     text-transform: uppercase; }
+  .overlay a.touched {
+    color: #a45833; }
   .overlay ul li a:hover,
   .overlay ul li a:focus {
     color: #202020; }

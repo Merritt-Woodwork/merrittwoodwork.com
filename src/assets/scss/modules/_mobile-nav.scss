@@ -75,6 +75,10 @@
     text-transform: uppercase;
   }
 
+  .overlay a.touched {
+    color: #a45833;
+  }
+
   .overlay ul li a:hover,
   .overlay ul li a:focus {
     color: #202020;
