@@ -50,37 +50,40 @@
     });
   }
 
-  // init Isotope
-  var $grid = $('.grid').isotope({
-                // options
-                columnWidth: '.grid-sizer',
-                itemSelector: '.grid-item',
-                hiddenStyle: {
-                  opacity: 0 // this allows AOS to handle these transitions on scroll
-                },
-                visibleStyle: {
-                  opacity: 1 // this allows AOS to handle these transitions on scroll
-                },
-                masonry: {
-                  gutter: '.gutter-sizer',
-                  percentPosition: true
-                }
-              });
+  $(function(){ // document ready
+    // init Isotope
+    var $grid = $('.grid').isotope({
+      // options
+      columnWidth: '.grid-sizer',
+      itemSelector: '.grid-item',
+      hiddenStyle: {
+        opacity: 0 // this allows AOS to handle these transitions on scroll
+      },
+      visibleStyle: {
+        opacity: 1 // this allows AOS to handle these transitions on scroll
+      },
+      masonry: {
+        gutter: '.gutter-sizer',
+        percentPosition: true
+      }
+    });
 
-  // trigger layout after each image loads to avoid overlap
-  $grid.imagesLoaded().progress( function() {
-    $grid.isotope('layout');
+    // trigger layout after each image loads to avoid overlap
+    $grid.imagesLoaded().progress( function() {
+      $grid.isotope('layout');
+    });
+
+    $('.tabs').on( 'click', '.isoFilter', function(e) {
+        e.preventDefault();
+        $(this).parents().find('.isoFilter').removeClass('active');
+        $(this).addClass('active');
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+
+    AOS.init();
+
   });
-
-  $('.tabs').on( 'click', '.isoFilter', function(e) {
-      e.preventDefault();
-      $(this).parents().find('.isoFilter').removeClass('active');
-      $(this).addClass('active');
-      var filterValue = $(this).attr('data-filter');
-      $grid.isotope({ filter: filterValue });
-  });
-
-  AOS.init();
 
   })();
 </script>
