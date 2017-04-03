@@ -4532,6 +4532,9 @@ body.about .remodal p.quote {
   .capabilities .fluid.grid-container {
     width: 100%; } }
 
+.capabilities .hero img {
+  display: none; }
+
 @media only screen and (min-width: 300px) {
   .capabilities .hero .grid-column {
     width: calc(100% - 32px);
