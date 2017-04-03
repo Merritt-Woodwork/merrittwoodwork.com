@@ -54,15 +54,15 @@
     // init Isotope
     var $grid = $('.grid').isotope({
       // options
-      columnWidth: '.grid-sizer',
       itemSelector: '.grid-item',
-      hiddenStyle: {
-        opacity: 0 // this allows AOS to handle these transitions on scroll
-      },
-      visibleStyle: {
-        opacity: 1 // this allows AOS to handle these transitions on scroll
-      },
+      // hiddenStyle: {
+      //   opacity: 0 // this allows AOS to handle these transitions on scroll
+      // },
+      // visibleStyle: {
+      //   opacity: 1 // this allows AOS to handle these transitions on scroll
+      // },
       masonry: {
+        columnWidth: '.grid-sizer',
         gutter: '.gutter-sizer',
         percentPosition: true
       }

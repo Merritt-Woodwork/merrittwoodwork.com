@@ -53,14 +53,14 @@
   $(function(){ // document ready
     // init Isotope
     var $grid = $('.grid').isotope({
-                  // options
-                  itemSelector: '.grid-item',
-                  masonry: {
-                    columnWidth: '.grid-sizer',
-                    gutter: '.gutter-sizer',
-                    percentPosition: true
-                  }
-                });
+        // options
+        itemSelector: '.grid-item',
+        masonry: {
+          columnWidth: '.grid-sizer',
+          gutter: '.gutter-sizer',
+          percentPosition: true
+        }
+      });
 
     // trigger layout after each image loads to avoid overlap
     $grid.imagesLoaded().progress( function() {
