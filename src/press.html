@@ -2,25 +2,25 @@
 headline: Front page exposure.
 clippings:
   - image: /uploads/press-1.jpg
-    pdf_path:
+    pdf_path: /uploads/florida-design.pdf
   - image: /uploads/press-2.jpg
     pdf_path:
   - image: /uploads/press-3.jpg
     pdf_path:
   - image: /uploads/press-4.jpg
-    pdf_path:
+    pdf_path: /uploads/Boat_International_Cakewalk.pdf
   - image: /uploads/press-5.jpg
-    pdf_path:
+    pdf_path: /uploads/Mentor-City-Magazine-2016.pdf
   - image: /uploads/press-6.jpg
     pdf_path:
   - image: /uploads/press-7.jpg
     pdf_path:
   - image: /uploads/press-8.jpg
-    pdf_path:
+    pdf_path: /uploads/Yachts_International_Setting-New-Standards.pdf
   - image: /uploads/press-9.jpg
     pdf_path:
   - image: /uploads/press-10.jpg
-    pdf_path:
+    pdf_path: /uploads/SBI_CAKEWALK_Dec_Jan10-2.pdf
   - image: /uploads/press-11.jpg
     pdf_path:
 next:
@@ -70,7 +70,7 @@ next:
         {% for item in page.clippings %}
         {% assign pdf = item.pdf_path | size %}
         <div class="grid-item superyacht" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-          {% if pdf > 3 %}<a href="{{item.pdf_path}}">{% endif %}
+          {% if pdf > 3 %}<a target="_blank" href="{{item.pdf_path}}">{% endif %}
             <img src="{{item.image}}" alt="">
           {% if pdf > 3 %}</a>{% endif %}
         </div>
