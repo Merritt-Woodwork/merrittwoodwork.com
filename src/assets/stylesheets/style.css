@@ -5944,6 +5944,7 @@ body.about .remodal p.quote {
     position: relative; }
     .contact section.case-studies .case-study-info a {
       color: #fff;
+      text-decoration: none;
       border-bottom: 1px solid #a45833; }
     .contact section.case-studies .case-study-info .wrapper {
       flex: 0 1 auto; }
