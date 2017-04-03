@@ -64,10 +64,9 @@ next:
   <div class="left"></div>
   {% assign slug = page.case_studies[0] %}
   {% assign first_case_study = site.case_studies | where:"slug", slug | first %}
-  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;">1</div>
+  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
 
   <div class="grid-container">
-    <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
         <div class="inner animated customFadeInUp">
           {% for item in page.case_studies %}
@@ -80,7 +79,6 @@ next:
 
       </div>
       <a data-scroll href="#gallery" class="view header-text-condensed animated staggerFadeIn" id="header-video__play-trigger"><span>view gallery</span></a>
-    <!-- </div> -->
   </div>
 </section>
 
