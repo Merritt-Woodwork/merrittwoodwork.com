@@ -3604,7 +3604,9 @@ body.portfolio section.casestudies h3 {
     color: #202020;
     text-transform: uppercase; }
   body.portfolio section.casestudies a {
-    text-decoration: none; }
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease; }
     body.portfolio section.casestudies a h5 {
       font-size: 12px;
       letter-spacing: 2px;
@@ -3619,7 +3621,10 @@ body.portfolio section.casestudies h3 {
       color: #FFFFFF;
       text-transform: uppercase;
       margin-top: 0;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      border-bottom: 1px solid transparent; }
+  body.portfolio section.casestudies a:hover h2 {
+    border-bottom: 1px solid #a45833; }
   body.portfolio section.casestudies a.view {
     position: absolute;
     left: 0;

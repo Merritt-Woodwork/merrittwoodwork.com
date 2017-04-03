@@ -127,7 +127,9 @@ body.portfolio {
         text-transform: uppercase;
       }
       a {
+        display: inline-block;
         text-decoration: none;
+        transition: all 0.3s ease;
         h5 {
           font-size: 12px;
           letter-spacing: 2px;
@@ -144,7 +146,11 @@ body.portfolio {
           text-transform: uppercase;
           margin-top: 0;
           margin-bottom: 30px;
+          border-bottom: 1px solid transparent;
         }
+      }
+      a:hover h2 {
+        border-bottom: 1px solid $brand;
       }
       a.view {
         position: absolute;

@@ -71,10 +71,13 @@ next:
         <div class="inner animated customFadeInUp">
           {% for item in page.case_studies %}
             {% assign case = site.case_studies | where:"slug",item | first %}
-            <a href="{{case.url}}" class="casestudy" data-img="{{case.portfolio_image}}">
-              <h5 class="header-text">{{case.work-type}}</h5>
-              <h2 class="header-text-condensed">{{case.title}}</h2>
-            </a>
+            <div>
+              <a href="{{case.url}}" class="casestudy" data-img="{{case.portfolio_image}}">
+                <h5 class="header-text">{{case.work-type}}</h5>
+                <h2 class="header-text-condensed">{{case.title}}</h2>
+              </a>
+            </div>
+
           {% endfor %}
 
       </div>
