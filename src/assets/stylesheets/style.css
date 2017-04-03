@@ -3929,6 +3929,9 @@ body.portfolio section.next {
   body.casestudy .fluid.grid-container {
     width: 100%; } }
 
+body.casestudy .hero img {
+  display: none; }
+
 @media only screen and (min-width: 300px) {
   body.casestudy .hero .grid-column {
     width: calc(100% - 32px);

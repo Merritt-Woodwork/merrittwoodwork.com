@@ -3,10 +3,8 @@ layout: default
 ---
 <section class="hero">
   <div class="grid-container fluid">
-    <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
         <div class="hero-image animated fastStaggerFadeIn rellax" data-rellax-speed="-2.5" style="background-image: url({{page.hero_image}});"></div>
-      <!-- </div> -->
     </div>
   </div>
 </section>
@@ -38,16 +36,34 @@ layout: default
       {% for block in page.image_blocks %}
         {% if block.image_block.image %}
           <div class="grid-item grid-item--width2">
-            <img src="{{block.image_block.image}}" alt="">
+            <img
+              ix-path="{{block.image_block.image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(min-width: 992px) 836px, (min-width: 1200px) 1018px, (min-width: 1440px) 1228px, 90vw"
+            >
           </div>
         {% endif %}
         {% if block.image_pair.right_image %}
           <div class="grid-item">
-            <img src="{{block.image_pair.left_image}}" alt="">
+            <img
+              ix-path="{{block.image_block.image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(min-width: 992px) 402px, (min-width: 1200px) 489px, (min-width: 1440px) 590px, 45vw"
+            >
           </div>
 
           <div class="grid-item">
-            <img src="{{block.image_pair.right_image}}" alt="">
+            <<img
+              ix-path="{{block.image_block.image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(min-width: 992px) 402px, (min-width: 1200px) 489px, (min-width: 1440px) 590px, 45vw"
+            >
           </div>
         {% endif %}
       {% endfor %}
