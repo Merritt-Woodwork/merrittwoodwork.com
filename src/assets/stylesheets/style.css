@@ -2180,6 +2180,9 @@ header {
           margin-left: 0; }
         header .grid-column .left a.active {
           border-bottom: 1px solid #a45833; }
+        header .grid-column .left a a.touched {
+          color: #a45833;
+          border-bottom: 1px solid #a45833; }
       header .grid-column .left a:before {
         content: '';
         display: block;

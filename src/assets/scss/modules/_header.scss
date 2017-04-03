@@ -133,6 +133,10 @@ header {
           &.active {
             border-bottom: 1px solid $brand;
           }
+          a.touched {
+            color: $brand;
+            border-bottom: 1px solid $brand;
+          }
           // &:hover{
           //   border-bottom: 1px solid $brand;
           // }
