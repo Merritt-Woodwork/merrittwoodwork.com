@@ -2332,7 +2332,7 @@ header {
     transition: color 0.2s;
     text-decoration: none;
     text-transform: uppercase; }
-  .overlay a.touched {
+  .overlay a:hover {
     color: #a45833; }
   .overlay ul li a:hover,
   .overlay ul li a:focus {

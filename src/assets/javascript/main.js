@@ -9,11 +9,7 @@
   });
 
   // touch links
-  $(document).ready(function() {
-    $('.touch a').bind('touchstart', function(e) {
-      $(this).toggleClass('touched');
-    });
-  });
+  $('.overlay').bind('touchstart', function() {});
 
   // remove 300ms delay on mobile
   $(function() {
