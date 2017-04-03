@@ -64,7 +64,7 @@ next:
   <div class="left"></div>
   {% assign slug = page.case_studies[0] %}
   {% assign first_case_study = site.case_studies | where:"slug", slug | first %}
-  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
+  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;">1</div>
 
   <div class="grid-container">
     <!-- <div class="grid-collapse"> -->
@@ -118,7 +118,15 @@ next:
         {% for item in page.gallery_items %}
           <div class="grid-item {{item.work-type}}">
             <a data-remodal-target="modal-{{item.image}}">
-              <img src="{{item.image}}" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %} alt="">
+              <img
+                ix-path="{{item.image}}"
+                ix-params='{
+                  "auto": "compress"
+                }'
+                sizes="(min-width: 800px) 30vw, 45vw"
+                {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
+              >
+
             </a>
           </div>
           <div class="remodal" data-remodal-id="modal-{{item.image}}">

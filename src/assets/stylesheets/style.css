@@ -3586,6 +3586,8 @@ body.portfolio section.casestudies h3 {
     height: 540px; }
   body.portfolio section.casestudies .left {
     background-color: #202020; }
+  body.portfolio section.casestudies .right {
+    overflow: hidden; }
   body.portfolio section.casestudies .grid-container {
     position: relative; }
   body.portfolio section.casestudies .grid-column {
