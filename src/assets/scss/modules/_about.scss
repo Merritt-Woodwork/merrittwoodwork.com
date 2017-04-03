@@ -7,6 +7,9 @@ body.about {
   }
 
   .hero {
+    img {
+      display: none;
+    }
     .grid-column {
       @include grid-media($sm-grid) {
         @include grid-column(8 of 8);

@@ -4052,6 +4052,9 @@ body.casestudy section.gallery img {
   body.about .fluid.grid-container {
     width: 100%; } }
 
+body.about .hero img {
+  display: none; }
+
 @media only screen and (min-width: 300px) {
   body.about .hero .grid-column {
     width: calc(100% - 32px);

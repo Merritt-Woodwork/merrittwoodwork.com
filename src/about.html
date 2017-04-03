@@ -39,7 +39,17 @@ next:
 <section class="hero">
   <div class="grid-container fluid">
       <div class="grid-column">
-        <div class="hero-image animated fastStaggerFadeIn rellax" data-rellax-speed="-3" style="background-image: url({{page.hero_image}})"></div>
+        <div class="hero-image animated fastStaggerFadeIn rellax" data-rellax-speed="-3">
+          <img
+            class="js-img"
+            ix-path="{{page.hero_image}}"
+            ix-params='{
+              "auto": "compress"
+            }'
+            sizes="(min-width: 1200px) 1166px, (min-width: 1440px) 1440px, 100vw"
+            data-rellax-speed="-2.5"
+          >
+        </div>
       </div>
   </div>
 </section>
@@ -63,11 +73,23 @@ next:
   <div class="grid-container">
     <div class="grid-column">
       <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.left_image_speed}}">
-        <img src="{{page.image_pair_a.left_image}}" alt="">
+       <img
+          ix-path="{{page.image_pair_a.left_image}}"
+          ix-params='{
+            "auto": "compress"
+          }'
+          sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+        >
         {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
         </div>
       <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.right_image_speed}}">
-        <img src="{{page.image_pair_a.right_image}}" alt="">
+        <img
+           ix-path="{{page.image_pair_a.right_image}}"
+           ix-params='{
+             "auto": "compress"
+           }'
+           sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+         >
         {% if page.image_pair_a.right_image_caption %}<p class="header-text">{{page.image_pair_a.right_image_caption}}</p>{% endif %}
         </div>
     </div>
@@ -101,7 +123,13 @@ next:
   <div class="grid-container fluid">
     <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
-        <img src="{{page.image_block.image}}" alt="">
+      <img
+          ix-path="{{page.image_block.image}}"
+          ix-params='{
+            "auto": "compress"
+          }'
+          sizes="(min-width: 1200px) 1018px, (min-width: 1440px) 1228px, 100vw"
+        >
       </div>
     <!-- </div> -->
   </div>
@@ -126,11 +154,23 @@ next:
   <div class="grid-container">
     <div class="grid-column">
       <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.left_image_speed}}">
-        <img src="{{page.image_pair_b.left_image}}" alt="">
+        <img
+           ix-path="{{page.image_pair_b.left_image}}"
+           ix-params='{
+             "auto": "compress"
+           }'
+           sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+         >
         {% if page.image_pair_b.left_image_caption %}<p class="header-text">{{page.image_pair_b.left_image_caption}}</p>{% endif %}
         </div>
       <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.right_image_speed}}">
-        <img src="{{page.image_pair_b.right_image}}" alt="">
+        <img
+           ix-path="{{page.image_pair_b.right_image}}"
+           ix-params='{
+             "auto": "compress"
+           }'
+           sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+         >
         {% if page.image_pair_b.right_image_caption %}<p class="header-text">{{page.image_pair_b.right_image_caption}}</p>{% endif %}
         </div>
     </div>
@@ -157,7 +197,13 @@ next:
         <div class="grid-item">
           <div {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <a data-remodal-target="modal-{{person.name | slugify}}">
-              <img src="{{person.image}}" alt="">
+              <img
+                 ix-path="{{person.image}}"
+                 ix-params='{
+                   "auto": "compress"
+                 }'
+                 sizes="(max-width: 799px) 50vw, (max-width: 991px) 30vw, (min-width: 992px) 214px, (min-width: 1200px) 261px, (min-width: 1440px) 315px, 90vw"
+               >
             </a>
             <div class="name">
               <h3 class="header-text-condensed staff-name">{{person.name}}</h3>
