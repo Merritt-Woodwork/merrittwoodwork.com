@@ -18219,7 +18219,6 @@ window.Modernizr = (function( window, document, undefined ) {
   // touch links
   $(document).ready(function() {
     $('.touch a').bind('touchstart', function(e) {
-      e.preventDefault();
       $(this).toggleClass('touched');
     });
   });
