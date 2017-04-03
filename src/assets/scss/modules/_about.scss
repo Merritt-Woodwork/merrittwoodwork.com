@@ -117,7 +117,7 @@ body.about {
         margin-bottom: 0;
       }
       @include breakpoint(300px, 767px) {
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
       }
       @include breakpoint(md) {
         float: left;
@@ -217,7 +217,7 @@ body.about {
     }
     .left {
       @include breakpoint(300px, 767px) {
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
       }
       @include breakpoint(md) {
         float: left;
@@ -249,22 +249,22 @@ body.about {
          width: 100%;
          max-width: 100%;
          @include breakpoint(md) {
-          margin-top: 74px;
+          // margin-top: 74px;
           width: 50vw;
           max-width: 50vw;
          }
          @include breakpoint(lg) {
-           margin-top: 96px;
+           // margin-top: 96px;
            width: 413px;
            max-width: 413px;
          }
          @include breakpoint(xl) {
-           margin-top: 116px;
+           // margin-top: 116px;
            width: 500px;
            max-width: 500px;
          }
         @include breakpoint(xxl) {
-          margin-top: 140px;
+          // margin-top: 140px;
           width: 600px;
           max-width: 600px;
         }
