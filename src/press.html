@@ -71,7 +71,13 @@ next:
         {% assign pdf = item.pdf_path | size %}
         <div class="grid-item superyacht" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
           {% if pdf > 3 %}<a target="_blank" href="{{item.pdf_path}}">{% endif %}
-            <img src="{{item.image}}" alt="">
+            <img
+              ix-path="{{item.image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+            >
           {% if pdf > 3 %}</a>{% endif %}
         </div>
         {% endfor %}
