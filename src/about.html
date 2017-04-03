@@ -25,11 +25,11 @@ headline_block_b:
   details: |
     As a young man, George A. Merritt honed his craft as an artisan woodworker in his hometown of Cleveland, Ohio. In 1967 he founded Merritt Woodwork where he went on to mentor his own team of apprentices. By building a reputation for perfectionism and artistry, Merritt honed a niche delivering the highest-quality cabinetry and woodwork in the region. Today, sons Michael and Keith continue their father’s legacy of extraordinary craftsmanship, premium materials and hands-on management but have also grown the company in unexpected directions with exceptional results.
 image_pair_b:
-  left_image: /uploads/about-1.jpg
-  left_image_speed: -.5
+  left_image: /uploads/founder.jpg
+  left_image_speed: 0
   left_image_caption: George A. Merritt, Founder
-  right_image: /uploads/about-2.jpg
-  right_image_speed: .75
+  right_image: /uploads/leadership.jpg
+  right_image_speed: .65
   right_image_caption: Keith & Michael Merritt
 text_block_b: Through constant innovation and an obsession with perfection, Merritt moves the definition of woodwork forward.
 next:
@@ -64,11 +64,11 @@ next:
     <div class="grid-column">
       <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.left_image_speed}}">
         <img src="{{page.image_pair_a.left_image}}" alt="">
-        {% if page.image_pair_a.left_caption %}<p class="header-text">{{page.image_pair_a.left_caption}}</p>{% endif %}
+        {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
         </div>
       <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.right_image_speed}}">
         <img src="{{page.image_pair_a.right_image}}" alt="">
-        {% if page.image_pair_a.right_caption %}<p class="header-text">{{page.image_pair_a.right_caption}}</p>{% endif %}
+        {% if page.image_pair_a.right_image_caption %}<p class="header-text">{{page.image_pair_a.right_image_caption}}</p>{% endif %}
         </div>
     </div>
   </div>
@@ -127,11 +127,11 @@ next:
     <div class="grid-column">
       <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.left_image_speed}}">
         <img src="{{page.image_pair_b.left_image}}" alt="">
-        {% if page.image_pair_b.left_caption %}<p class="header-text">{{page.image_pair_b.left_caption}}</p>{% endif %}
+        {% if page.image_pair_b.left_image_caption %}<p class="header-text">{{page.image_pair_b.left_image_caption}}</p>{% endif %}
         </div>
       <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.right_image_speed}}">
         <img src="{{page.image_pair_b.right_image}}" alt="">
-        {% if page.image_pair_b.right_caption %}<p class="header-text">{{page.image_pair_b.right_caption}}</p>{% endif %}
+        {% if page.image_pair_b.right_image_caption %}<p class="header-text">{{page.image_pair_b.right_image_caption}}</p>{% endif %}
         </div>
     </div>
   </div>
