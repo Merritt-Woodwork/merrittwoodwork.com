@@ -6,10 +6,10 @@ intro_block:
     Merritt is the artist’s atelier. We are innovators. We plan with precision, craft with care and build boldly knowing that our work lives on for generations of tomorrow. We only work with the finest designers, builders and craftsmen, and deliver woodwork that is unparalleled in our industry.
 image_pair_a:
   left_image: /uploads/about-1.jpg
-  left_image_speed: -.5
+  left_image_speed: 0
   left_image_caption:
   right_image: /uploads/about-2.jpg
-  right_image_speed: .75
+  right_image_speed: 1.5
   right_image_caption:
 text_block_a: Only the extraordinary is acceptable for the world’s finest estates and superyachts.
 headline_block_a:
@@ -209,7 +209,7 @@ next:
             <div class="name">
               <h3 class="header-text-condensed staff-name">{{person.name}}</h3>
               <p class="staff-title header-text">{{person.title}}</p>
-              <a data-remodal-target="modal" class="staff-bio header-text">read bio</a>
+              <a data-remodal-target="modal-{{person.name | slugify}}" class="staff-bio header-text">read bio</a>
             </div>
           </div>
         </div>

@@ -4217,17 +4217,17 @@ body.about section.offset-images .right {
     max-width: 100%; }
     @media (min-width: 768px) {
       body.about section.offset-images .right img {
-        margin-top: 74px;
+        margin-top: 120px;
         width: 40vw;
         max-width: 40vw; } }
     @media (min-width: 992px) {
       body.about section.offset-images .right img {
-        margin-top: 96px;
+        margin-top: 120px;
         width: 341px;
         max-width: 341px; } }
     @media (min-width: 1200px) {
       body.about section.offset-images .right img {
-        margin-top: 116px;
+        margin-top: 140px;
         width: 413px;
         max-width: 413px; } }
     @media (min-width: 1440px) {

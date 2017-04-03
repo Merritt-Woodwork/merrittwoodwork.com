@@ -157,17 +157,17 @@ body.about {
          width: 100%;
          max-width: 100%;
          @include breakpoint(md) {
-          margin-top: 74px;
+          margin-top: 120px;
           width: 40vw;
           max-width: 40vw;
          }
          @include breakpoint(lg) {
-           margin-top: 96px;
+           margin-top: 120px;
            width: 341px;
            max-width: 341px;
          }
          @include breakpoint(xl) {
-           margin-top: 116px;
+           margin-top: 140px;
            width: 413px;
            max-width: 413px;
          }
