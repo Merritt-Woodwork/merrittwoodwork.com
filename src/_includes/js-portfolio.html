@@ -104,6 +104,7 @@
 
   // trigger layout after each image loads to avoid overlap
   $grid.imagesLoaded().progress(function() {
+    // console.log('image loaded!');
     $grid.isotope('layout');
   });
 
@@ -117,7 +118,7 @@
     });
   });
 
-  AOS.init();
+  // AOS.init();
 
 })();
 </script>
