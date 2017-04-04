@@ -2,6 +2,10 @@
 (function() {
 
   AOS.init();
+  // refresh AOS when images have loaded
+  window.addEventListener('load', function() {
+    AOS.refresh();
+  });
 
 })();
 </script>
