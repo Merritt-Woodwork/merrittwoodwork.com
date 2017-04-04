@@ -52,11 +52,11 @@ defaults:
     values:
       layout: "default"
       class: "home"
-      _comments:
-        text_block: this is a test
-        # next:
-        #   name: the name of the next link
-        #   link: the page the next link leads to
+        _comments:
+          text_block: this is a test
+          next:
+            name: the name of the next link
+            link: the page the next link leads to
   -
     scope:
       path: "portfolio.html"
@@ -120,8 +120,6 @@ defaults:
       layout: "default"
       class: "contact"
       permalink: "/contact/"
-      _comments:
-        headline: 'wtf'
   -
     scope:
       path: "press.html"
