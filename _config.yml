@@ -52,6 +52,8 @@ defaults:
     values:
       layout: "default"
       class: "home"
+      _comments:
+        next: This is a test
   -
     scope:
       path: "portfolio.html"
