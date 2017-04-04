@@ -1,9 +1,14 @@
 ---
 name: stefan sekula
 title: PROJECT PRINCIPAL
-quote:
+quote: Producing some of the highest quality, most complex work on either coast has earned our reputation for excellence.
 details: |
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+  A woodworker by trade, Stefan Sekula’s background includes hands-on experience in carpentry, framing, shop drawing, fabrication, finishing and installation of architectural millwork. In 1989 he partnered with Design Woodworking founder David Wolfolk and together they grew the Lodi, California-based company to $9 million in annual revenue.
+
+  Stefan and Design Woodworking joined Merritt in 2016 sharing very similar clients, projects and philosophies. Stefan and team have become valuable assets to the Merritt family and together they are approaching great new opportunities to grow, learn and problem solve as one.
+
+  Stefan continues in his role as a senior project principal and now oversees Merritt West’s operations.
 image: /uploads/staff-8.jpg
 display_order: 8
 ---
+

@@ -1,7 +1,7 @@
 ---
 name: G. Michael Merritt
 title: PRESIDENT & CHIEF EXECUTIVE OFFICER
-quote: Because we never accept the status quo, we are constantly innovating and identifying new ways to meet old challenges. We have never been afraid of going against the grain in pursuit of perfection.
+quote: Because we never accept the status quo, we are constantly innovating, identifying new ways to meet old challenges. We have never been afraid of going against the grain in pursuit of perfection.
 details: |
   G. Michael Merritt has a singular vision for Merritt, the company his father, George A. Merritt, founded in 1967: to be the best, most forward thinking and in-demand provider of ultra-high-end architectural millwork and joinery for residential estates and super yachts. Through his strategic leadership and a collaborative executive team, Merritt has become one of the world’s leading luxury interior solutions firms.
 
@@ -11,3 +11,4 @@ details: |
 image: /uploads/staff-1.jpg
 display_order: 1
 ---
+

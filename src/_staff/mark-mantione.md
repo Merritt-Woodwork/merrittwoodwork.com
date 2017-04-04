@@ -1,9 +1,12 @@
 ---
 name: MARK MANTIONE
 title: vp of sales & marketing
-quote:
+quote: Serving the world’s most discerning home and yacht owners, architects and builders is an art.  Merritt is a family of fine artisans.
 details: |
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+  As vice president of sales and marketing, Mark brings his own background as a luxury residential builder and as an entrepreneur to his role of expanding awareness and opportunities for Merritt.  A master networker and relationship builder, Mark has built a powerful contact database of designers, architects, general contractors, and owner's representatives both domestically and internationally.
+
+  Mark’s personal understanding of the demands on both the architect/designer side, as well as on the millworking team, enable him to be both connector and problem solver at the critical stage of project inception. He knows no limits to ensuring that both client and company are served and that all expectations are exceeded. He sees his role not solely as sales and marketing but one that always keeps the entire project cycle in focus. 
 image: /uploads/staff-3.jpg
 display_order: 3
 ---
+
