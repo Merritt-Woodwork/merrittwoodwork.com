@@ -59,7 +59,7 @@ layout: default
         {% if block.image_pair.right_image %}
           <div class="grid-item">
             <img
-              ix-path="{{block.image_block.image}}"
+              ix-path="{{block.image_pair.left_image}}"
               ix-params='{
                 "auto": "compress"
               }'
@@ -69,7 +69,7 @@ layout: default
 
           <div class="grid-item">
             <img
-              ix-path="{{block.image_block.image}}"
+              ix-path="{{block.image_pair.right_image}}"
               ix-params='{
                 "auto": "compress"
               }'
