@@ -53,7 +53,9 @@ defaults:
       layout: "default"
       class: "home"
       _comments:
-        next: This is a test
+        next:
+          name: the name of the next link
+          link: the page the next link leads to
   -
     scope:
       path: "portfolio.html"
