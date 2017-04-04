@@ -10,5 +10,7 @@ details: |
   Nick is equally active out of the office playing adult soccer, volleyball and softball, and is a diehard Cleveland sports fan. Nick has two sons and lives with his wife in Chagrin Falls.
 image: /uploads/staff-12.jpg
 display_order: 12
+_comments:
+  image: file should be ~600px wide
 ---
 

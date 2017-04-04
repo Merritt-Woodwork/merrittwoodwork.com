@@ -42,4 +42,10 @@ image_blocks:
     image_pair:
       left_image: /uploads/cakewalk-2.jpg
       right_image: /uploads/cakewalk-3.jpg
+_comments:
+  hero_image: file should be ~2000px wide
+  portfolio_image: file should be ~1200px wide
+  image: file should be ~1800px wide
+  left_image: file should be ~800px wide
+  right_image: file should be ~800px wide
 ---

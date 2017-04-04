@@ -12,5 +12,7 @@ details: |
   Prior to joining Merritt, Jochen was a project manager, head of estimating and general manager for Sinnex Steinheimer Innenausbau, the prestigious German millwork firm. Germany is highly regarded for the value it places on craft, attention to detail and precision in execution. Jochen embodies these values and it informs his work and his team at Merritt every day.
 image: /uploads/staff-7.jpg
 display_order: 7
+_comments:
+  image: file should be ~600px wide
 ---
 

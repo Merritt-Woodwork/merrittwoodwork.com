@@ -8,5 +8,7 @@ details: |
   Mark’s personal understanding of the demands on both the architect/designer side, as well as on the millworking team, enable him to be both connector and problem solver at the critical stage of project inception. He knows no limits to ensuring that both client and company are served and that all expectations are exceeded. He sees his role not solely as sales and marketing but one that always keeps the entire project cycle in focus. 
 image: /uploads/staff-3.jpg
 display_order: 3
+_comments:
+  image: file should be ~600px wide
 ---
 

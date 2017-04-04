@@ -36,6 +36,10 @@ next:
   name: clients
   link: /clients/
 _comments:
+  hero_image: file should be ~2000px wide
+  left_image: file should be ~800px wide
+  right_image: file should be ~800px wide
+  image: file should be ~2000px wide
   next: the'next' link
   name: the text of the 'next' link
   link: where the 'next' link takes you
@@ -83,7 +87,7 @@ _comments:
             ix-params='{
               "auto": "compress"
             }'
-            sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+            sizes="(min-width: 768px) 40vw, 90vw"
           >
           {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
         </div>
@@ -94,7 +98,7 @@ _comments:
             ix-params='{
               "auto": "compress"
             }'
-            sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+            sizes="(min-width: 768px) 40vw, 90vw"
           >
           {% if page.image_pair_a.right_image_caption %}<p class="header-text">{{page.image_pair_a.right_image_caption}}</p>{% endif %}
         </div>
@@ -166,7 +170,7 @@ _comments:
            ix-params='{
              "auto": "compress"
            }'
-           sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+           sizes="(min-width: 768px) 40vw, 90vw"
          >
         {% if page.image_pair_b.left_image_caption %}<p class="header-text">{{page.image_pair_b.left_image_caption}}</p>{% endif %}
         </div>
@@ -176,7 +180,7 @@ _comments:
            ix-params='{
              "auto": "compress"
            }'
-           sizes="(max-width: 768px) 40vw, (min-width: 992px) 341px, (min-width: 1200px) 413px, (min-width: 1440px) 496px, 90vw"
+           sizes="(min-width: 768px) 40vw, 90vw"
          >
         {% if page.image_pair_b.right_image_caption %}<p class="header-text">{{page.image_pair_b.right_image_caption}}</p>{% endif %}
         </div>

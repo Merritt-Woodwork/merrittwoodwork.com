@@ -8,5 +8,7 @@ details: |
   Albert lives in Savannah, Georgia and is a member of the Historic Savannah Foundation.
 image: /uploads/staff-6.jpg
 display_order: 6
+_comments:
+  image: file should be ~600px wide
 ---
 

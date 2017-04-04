@@ -8,4 +8,6 @@ details: |
   Alex holds a degree from the Sacramento-based Woodworking Institute. In addition to his passion for his craft, Alex is an avid soccer player, family man and volunteer.
 image: /uploads/staff-11.jpg
 display_order: 11
+_comments:
+  image: file should be ~600px wide
 ---

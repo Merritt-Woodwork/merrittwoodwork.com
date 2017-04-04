@@ -10,4 +10,6 @@ details: |
   Don sits on the Advisory Board for the University of Akron’s Interior School of Design and is also a guest lecturer for the school’s Design and Project Management courses.
 image: /uploads/staff-5.jpg
 display_order: 5
+_comments:
+  image: file should be ~600px wide
 ---

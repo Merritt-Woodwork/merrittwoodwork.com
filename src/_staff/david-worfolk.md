@@ -10,6 +10,8 @@ details: |
   Outside of business, David enjoys many athletic and creative passions. He lives in Northern California along with his wife, two sons and twin grandsons. David is a Trustee for the Lodi Unified School District School Board.
 image: /uploads/staff-9.jpg
 display_order: 9
+_comments:
+  image: file should be ~600px wide
 ---
 
 

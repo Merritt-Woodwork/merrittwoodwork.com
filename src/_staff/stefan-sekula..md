@@ -10,5 +10,7 @@ details: |
   Stefan continues in his role as a senior project principal and now oversees Merritt West’s operations.
 image: /uploads/staff-8.jpg
 display_order: 8
+_comments:
+  image: file should be ~600px wide
 ---
 

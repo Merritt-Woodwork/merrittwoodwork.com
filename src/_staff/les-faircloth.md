@@ -10,5 +10,7 @@ details: |
   Today, Les combines his highly personal understanding of being a client and his experience operating a profitable and perfectionist millwork operation to his all his interactions with customers and co-workers.
 image: /uploads/staff-4.jpg
 display_order: 4
+_comments:
+  image: file should be ~600px wide
 ---
 

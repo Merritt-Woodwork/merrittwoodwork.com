@@ -10,5 +10,7 @@ details: |
   Outside of work, Jeff enjoys history, art and architecture, which have driven him in his career. He also enjoys concerts, hiking and traveling with friends and family. Jeff won the 2014 AWI Award of Excellence for Our Savior Parish Church and USC Caruso Catholic Center and the 2013 Southern California IIDA Team Award for the Conrad Hilton Foundation.
 image: /uploads/staff-10.jpg
 display_order: 10
+_comments:
+  image: file should be ~600px wide
 ---
 

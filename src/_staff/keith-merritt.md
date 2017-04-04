@@ -8,5 +8,7 @@ details: |
   Early on, Keith pledged himself to mastering old-world craftsmanship techniques to further Merritt’s foundation in the art of woodwork and joinery.  Along with his team, he continues to research the world’s finest materials and technological advancements, fusing them together with the industry’s most advanced equipment and creative people to create exquisite monumental architectural millwork.
 image: /uploads/staff-2.jpg
 display_order: 2
+_comments:
+  image: file should be ~600px wide
 ---
 
