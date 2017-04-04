@@ -4,11 +4,6 @@ video:
   youtube_id: fT4qn4_HKx8
   placeholder_image: /uploads/hero-home.png
 text_block: Innovation is in our DNA. Leading the entire woodwork and joinery industry from the front line is our mission. Delivering unparalleled interiors today, and in the future, is our vision.
-case_studies:
-  - cakewalk
-  - east-hampton-residence
-  - central-park-west
-  - malibu-beach-house
 next:
   name: portfolio
   link: /portfolio/
@@ -59,8 +54,8 @@ next:
   <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>Case Studies</h3>
     <div class="grid-container">
         <div class="grid-column">
-          {% for item in page.case_studies %}
-            {% assign case = site.case_studies | where:"slug",item | first %}
+          {% assign casestudies = site.case_studies | sort:"list_order" %}
+          {% for case in casestudies %}
             <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
               <div class="case-study-image">
                 <img
