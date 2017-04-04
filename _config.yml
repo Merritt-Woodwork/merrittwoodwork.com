@@ -120,6 +120,8 @@ defaults:
       layout: "default"
       class: "contact"
       permalink: "/contact/"
+      _comments:
+        headline: 'wtf'
   -
     scope:
       path: "press.html"
