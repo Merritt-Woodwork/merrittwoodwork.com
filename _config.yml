@@ -136,6 +136,13 @@ defaults:
     values:
       layout: "job"
       class: "job"
+  -
+    scope:
+      path: "cms.md"
+    values:
+      layout: "cms"
+      permalink: "/cms/"
+      _hide_content: true
 
 
 # Extending Jekyll
