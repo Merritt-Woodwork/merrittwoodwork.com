@@ -1,6 +1,6 @@
 ---
 role: Millwork Engineer/Draftsman
-job-location: ohop
+job-location: ohio
 job-type: full time
 contract: permanent
 description_markdown: |
