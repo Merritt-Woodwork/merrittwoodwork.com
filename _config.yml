@@ -1,8 +1,8 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
 title: Merritt Woodwork
-description:
-url: http://www.merrittwoodwork.com
+description: Luxury woodwork and joinery for the modern age.
+url: https://www.merrittwoodwork.com
 
 # CloudCannon uses these:
 source: src
