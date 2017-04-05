@@ -1854,7 +1854,8 @@ section.text-block {
 
 @media (min-width: 769px) {
   section.image-text-block .grid-column {
-    display: flex; } }
+    display: flex;
+    display: -ms-flexbox; } }
 
 @media only screen and (min-width: 300px) {
   section.image-text-block .grid-column {
@@ -1928,7 +1929,7 @@ section.text-block {
   section.image-text-block .grid-column--headline {
     height: 100%;
     display: flex;
-    flex: 1;
+    flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center; } }

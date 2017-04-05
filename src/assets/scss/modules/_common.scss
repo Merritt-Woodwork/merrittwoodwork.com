@@ -523,6 +523,7 @@ section.image-text-block {
   .grid-column {
     @media (min-width: 769px) {
       display: flex; // to use flexbox inside
+      display: -ms-flexbox;
     }
     @include grid-media($sm-grid) {
       @include grid-column(8 of 8);
@@ -586,10 +587,18 @@ section.image-text-block {
     }
     @media (min-width: 769px) {
       height: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
-      flex: 1;
       flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
       align-items: center;
       .wrapper {
         // -webkit-flex: 0 1 auto;
