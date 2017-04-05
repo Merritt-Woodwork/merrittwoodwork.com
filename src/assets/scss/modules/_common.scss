@@ -522,8 +522,9 @@ section.image-text-block {
   }
   .grid-column {
     @media (min-width: 769px) {
-      display: flex; // to use flexbox inside
+      display: -webkit-flex;
       display: -ms-flexbox;
+      display: flex; // to use flexbox inside
     }
     @include grid-media($sm-grid) {
       @include grid-column(8 of 8);
@@ -590,7 +591,6 @@ section.image-text-block {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
@@ -600,15 +600,6 @@ section.image-text-block {
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      .wrapper {
-        // -webkit-flex: 0 1 auto;
-        // -ms-flex: 0 1 auto;
-        // flex: 0 1 auto;
-        // -webkit-align-self: center;
-        // -ms-flex-item-align: center;
-        // -ms-grid-row-align: center;
-        //  align-self: center
-      }
     }
     @include breakpoint(md) {
       h2 {
