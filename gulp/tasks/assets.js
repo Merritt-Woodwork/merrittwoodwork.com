@@ -75,7 +75,7 @@ gulp.task('styles', () =>
       precision: 10
     }).on('error', sass.logError))
     .pipe(postcss([
-      autoprefixer({browsers: 'last 1 version'}) // modify as needed
+      autoprefixer({browsers: 'last 2 versions'}) // modify as needed
     ]))
     .pipe(size({
       showFiles: true

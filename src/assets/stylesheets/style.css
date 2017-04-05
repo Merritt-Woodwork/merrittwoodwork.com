@@ -1928,6 +1928,7 @@ section.text-block {
   section.image-text-block .grid-column--headline {
     height: 100%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center; } }
