@@ -1930,11 +1930,7 @@ section.text-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    section.image-text-block .grid-column--headline .wrapper {
-      flex: 0 1 auto;
-      -ms-grid-row-align: center;
-      align-self: center; } }
+    align-items: center; } }
 
 @media (min-width: 768px) {
   section.image-text-block .grid-column--headline h2 {

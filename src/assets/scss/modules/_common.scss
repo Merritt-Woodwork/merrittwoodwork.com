@@ -599,13 +599,13 @@ section.image-text-block {
       -ms-flex-align: center;
       align-items: center;
       .wrapper {
-        -webkit-flex: 0 1 auto;
-        -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
-        -webkit-align-self: center;
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-         align-self: center
+        // -webkit-flex: 0 1 auto;
+        // -ms-flex: 0 1 auto;
+        // flex: 0 1 auto;
+        // -webkit-align-self: center;
+        // -ms-flex-item-align: center;
+        // -ms-grid-row-align: center;
+        //  align-self: center
       }
     }
     @include breakpoint(md) {

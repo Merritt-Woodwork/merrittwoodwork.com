@@ -24,15 +24,15 @@ details:
       Lacewood, South American Mahogany, Fiddleback English Sycamore, Figured Makore
 image_blocks:
   - image_block:
-      image: /uploads/east-hampton-1.jpg
+      image: /uploads/cpw-1.jpg
     image_pair:
-      left_image: /uploads/east-hampton-2.jpg
-      right_image: /uploads/east-hampton-3.jpg
+      left_image: /uploads/cpw-2.jpg
+      right_image: /uploads/cpw-3.jpg
   - image_block:
       image:
     image_pair:
-      left_image: /uploads/east-hampton-4.jpg
-      right_image: /uploads/east-hampton-5.jpg
+      left_image: /uploads/cpw-4.jpg
+      right_image: /uploads/cpw-5.jpg
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
