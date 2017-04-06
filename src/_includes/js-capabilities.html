@@ -7,6 +7,16 @@
       // If supplied, triggered when a media query matches.
       match: function() {
         var rellax = new Rellax('.rellax');
+
+        $('body').imagesLoaded( function() {
+          // images have loaded
+          $('.grid-column--image').each(function(){
+            var height = $(this).outerHeight()
+            $(this).siblings(".grid-column--headline.not-small" ).css( "height", height );
+          })
+
+        });
+
       },
 
       // OPTIONAL

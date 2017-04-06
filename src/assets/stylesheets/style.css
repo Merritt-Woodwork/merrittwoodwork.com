@@ -1930,15 +1930,10 @@ section.text-block {
     margin: 0 0 .5em 0; } }
 
 @media (min-width: 769px) {
-  section.image-text-block .grid-column--headline {
-    height: 100%;
-    min-height: 100%;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center; } }
+  section.image-text-block .grid-column--headline .wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); } }
 
 @media (min-width: 768px) {
   section.image-text-block .grid-column--headline h2 {
