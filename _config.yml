@@ -52,9 +52,24 @@ defaults:
     values:
       layout: "default"
       class: "home"
+      permalink: "/"
+  -
+    scope:
+      path: "index.de.html"
+    values:
+      layout: "default"
+      class: "home"
+      permalink: "/"
   -
     scope:
       path: "portfolio.html"
+    values:
+      layout: "default"
+      class: "portfolio"
+      permalink: "/portfolio/"
+  -
+    scope:
+      path: "portfolio.de.html"
     values:
       layout: "default"
       class: "portfolio"
@@ -68,7 +83,21 @@ defaults:
       permalink: "/about/"
   -
     scope:
+      path: "about.de.html"
+    values:
+      layout: "default"
+      class: "about"
+      permalink: "/about/"
+  -
+    scope:
       path: "capabilities.html"
+    values:
+      layout: "default"
+      class: "capabilities"
+      permalink: "/capabilities/"
+  -
+    scope:
+      path: "capabilities.de.html"
     values:
       layout: "default"
       class: "capabilities"
@@ -82,6 +111,13 @@ defaults:
       permalink: "/careers/"
   -
     scope:
+      path: "careers.de.html"
+    values:
+      layout: "default"
+      class: "careers"
+      permalink: "/careers/"
+  -
+    scope:
       path: "jobs.html"
     values:
       layout: "default"
@@ -89,7 +125,21 @@ defaults:
       permalink: "/careers/jobs/"
   -
     scope:
+      path: "jobs.de.html"
+    values:
+      layout: "default"
+      class: "jobs"
+      permalink: "/careers/jobs/"
+  -
+    scope:
       path: "internships.html"
+    values:
+      layout: "default"
+      class: "internships"
+      permalink: "/careers/internships/"
+  -
+    scope:
+      path: "internships.de.html"
     values:
       layout: "default"
       class: "internships"
@@ -110,6 +160,13 @@ defaults:
       permalink: "/clients/"
   -
     scope:
+      path: "clients.de.html"
+    values:
+      layout: "default"
+      class: "clients"
+      permalink: "/clients/"
+  -
+    scope:
       path: "contact.html"
     values:
       layout: "default"
@@ -117,7 +174,21 @@ defaults:
       permalink: "/contact/"
   -
     scope:
+      path: "contact.de.html"
+    values:
+      layout: "default"
+      class: "contact"
+      permalink: "/contact/"
+  -
+    scope:
       path: "press.html"
+    values:
+      layout: "default"
+      class: "press"
+      permalink: "/press/"
+  -
+    scope:
+      path: "press.de.html"
     values:
       layout: "default"
       class: "press"
@@ -145,8 +216,14 @@ defaults:
       _hide_content: true
 
 
+languages: ["en", "de"]
+default_lang: "en"
+exclude_from_localization: ["assets", "uploads"]
+parallel_localization: true
+
 # Extending Jekyll
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-polyglot
