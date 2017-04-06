@@ -3,26 +3,37 @@ headline: Front page exposure.
 clippings:
   - image: /uploads/press-1.jpg
     pdf_path: /uploads/florida-design.pdf
+    press_link:
   - image: /uploads/press-2.jpg
     pdf_path:
+    press_link:
   - image: /uploads/press-3.jpg
     pdf_path:
+    press_link:
   - image: /uploads/press-4.jpg
     pdf_path: /uploads/Boat_International_Cakewalk.pdf
+    press_link:
   - image: /uploads/press-5.jpg
     pdf_path: /uploads/Mentor-City-Magazine-2016.pdf
+    press_link:
   - image: /uploads/press-6.jpg
     pdf_path:
+    press_link:
   - image: /uploads/press-7.jpg
     pdf_path:
+    press_link:
   - image: /uploads/press-8.jpg
     pdf_path: /uploads/Yachts_International_Setting-New-Standards.pdf
+    press_link:
   - image: /uploads/press-9.jpg
     pdf_path:
+    press_link:
   - image: /uploads/press-10.jpg
     pdf_path: /uploads/SBI_CAKEWALK_Dec_Jan10-2.pdf
+    press_link:
   - image: /uploads/press-11.jpg
     pdf_path:
+    press_link:
 next:
   name: contact
   link: /contact/
@@ -35,6 +46,8 @@ _comments:
   link: where the 'next' link takes you
   title: for meta property='og:title'
   description: (optional) for meta property='og:description'
+  pdf_path: to link to a pdf
+  press_link: to link to an external url
 ---
 
 <section class="jumbo-hero">
@@ -84,7 +97,8 @@ _comments:
                         {% endcomment %}
 
         <div class="grid-item superyacht">
-          {% if pdf > 3 %}<a target="_blank" href="{{item.pdf_path}}">{% endif %}
+          {% if pdf > 3 %}
+            <a target="_blank" href="{{item.pdf_path}}">
             <img
               ix-path="{{item.image}}"
               ix-params='{
@@ -92,7 +106,18 @@ _comments:
               }'
               sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
             >
-          {% if pdf > 3 %}</a>{% endif %}
+            </a>
+          {% else if press_link > 3 %}
+            <a target="_blank" href="{{item.press_link}}">
+            <img
+              ix-path="{{item.image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+            >
+            </a>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
