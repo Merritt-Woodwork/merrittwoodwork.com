@@ -49,10 +49,10 @@ gallery_items:
   - image: /uploads/gallery-24.jpg
     work-type: transitional
 next:
-  name: capabilities
+  name: leistungen
   link: /capabilities/
 title: Portfolio
-description:
+description: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
 _comments:
   next: "the'next' link"
   name: "the text of the 'next' link"
@@ -60,12 +60,12 @@ _comments:
   image: image should not be wider or taller tha  ~1200px
   title: for meta property='og:title'
   description: (optional) for meta property='og:description'
-lang: en
+lang: de
 ---
 
 
 <section class="casestudies">
-  <h3 class="header-text-condensed">case studies</h3>
+  <h3 class="header-text-condensed">KUNDENBEISPIELE</h3>
   <div class="left"></div>
   {% assign casestudies = site.case_studies | sort:"list_order" %}
   {% assign first_case_study = casestudies | first %}
@@ -85,29 +85,29 @@ lang: en
           {% endfor %}
 
       </div>
-      <a data-scroll href="#gallery" class="view header-text-condensed animated staggerFadeIn" id="header-video__play-trigger"><span>view gallery</span></a>
+      <a data-scroll href="#gallery" class="view header-text-condensed animated staggerFadeIn" id="header-video__play-trigger"><span>GALERIE ANZEIGEN</span></a>
   </div>
 </section>
 
 <section id="gallery" class="gallery-tabs">
   <div class="full-grid-container">
     <div class="grid-column">
-      <h3 class="header-text-condensed">gallery</h3>
+      <h3 class="header-text-condensed">GALERIE</h3>
       <div class="header-text tabs">
         <div class="mobile-wrapper">
           <a href="" class="isoFilter active" data-filter="*">all</a>
         </div>
         <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".superyacht">superyachts</a>
+          <a href="" class="isoFilter" data-filter=".superyacht">SUPERYACHTEN</a>
         </div>
         <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".contemporary">contemporary residences</a>
+          <a href="" class="isoFilter" data-filter=".contemporary">MODERNE WOHNHÄUSER</a>
         </div>
         <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".transitional">transitional residences</a>
+          <a href="" class="isoFilter" data-filter=".transitional">KLASSISCH MODERNE WOHNHÄUSER</a>
         </div>
         <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".traditional">traditional residences</a>
+          <a href="" class="isoFilter" data-filter=".traditional">TRADITIONELLE WOHNHÄUSER</a>
         </div>
       </div>
     </div>
@@ -156,7 +156,7 @@ lang: en
   <div class="center">
     <div class="link-wrapper">
       <a href="{{page.next.link}}">
-        <h5 class="header-text">next</h5>
+        <h5 class="header-text">weiter</h5>
         <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
       </a>
     </div>

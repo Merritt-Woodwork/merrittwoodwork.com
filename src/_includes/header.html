@@ -11,7 +11,6 @@
             <span>toggle menu</span>
           </button>
           </div>
-          {% assign lang = site.active_lang %}
           <div class="left header-text">
             <a {% if page.class == 'portfolio' or page.class == 'casestudy' %}class="active"{% endif %} href="/portfolio">{{ site.portfolio[lang] | upcase }}</a>
             <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">{{ site.capabilities[lang] | upcase }}</a>

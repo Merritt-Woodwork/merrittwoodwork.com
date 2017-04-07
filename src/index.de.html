@@ -1,14 +1,14 @@
 ---
 video:
-  headline: auf deutsch
+  headline: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
   youtube_id: fT4qn4_HKx8
   placeholder_image: /uploads/hero-home.png
-text_block: Innovation is in our DNA. Leading the entire woodwork and joinery industry from the front line is our mission. Delivering unparalleled interiors today, and in the future, is our vision.
+text_block: Innovation ist unser Antrieb. Mit unseren Holz- und Schreinerarbeiten sind wir eines der führenden Unternehmen der Branche.
 next:
   name: portfolio
   link: /portfolio/
 title: Home
-description: Luxury woodwork and joinery for the digital age
+description: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
 _comments:
   video: set the video source and text
   placeholder_image: a still from the video source
@@ -39,7 +39,7 @@ lang: de
         <div class="grid-collapse">
           <div class="headline header-text-condensed">
             <p class="animated customFadeInUp">{{page.video.headline}}</p>
-            <a href="" class="header-video__play-trigger animated staggerFadeIn" id="header-video__play-trigger"><span>watch the video</span></a>
+            <a href="" class="header-video__play-trigger animated staggerFadeIn" id="header-video__play-trigger"><span>VIDEO ANSEHEN</span></a>
           </div>
         </div>
       </div>
@@ -51,8 +51,8 @@ lang: de
     <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
         <h1 class="copy-text">{{page.text_block}}</h1>
-        <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">Portfolio</a></h3>
-        <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">Capabilities</a></h3>
+        <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">{{ site.portfolio[lang] | upcase }}</a></h3>
+        <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">{{ site.capabilities[lang] | upcase }}</a></h3>
       </div>
     <!-- </div> -->
   </div>
@@ -62,7 +62,7 @@ lang: de
 
 
 <section class="case-studies">
-  <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>Case Studies</h3>
+  <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>KUNDENBEISPIELE</h3>
     <div class="grid-container">
         <div class="grid-column">
           {% assign casestudies = site.case_studies | sort:"list_order" %}
@@ -83,7 +83,7 @@ lang: de
                   <h5 class="header-text">{{case.work-type}}</h5>
                   <h2 class="header-text-condensed">{{case.title}}</h2>
                 </div>
-                <h3 class="header-text-condensed"><a href="{{case.url}}">view case study</a></h3>
+                <h3 class="header-text-condensed"><a href="{{case.url}}">KUNDENBEISPIEL ANSEHEN</a></h3>
               </div>
             </div>
           {% endfor %}
@@ -105,7 +105,7 @@ lang: de
   <div class="center">
     <div class="link-wrapper">
       <a href="{{page.next.link}}">
-        <h5 class="header-text">next</h5>
+        <h5 class="header-text">weiter</h5>
         <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
       </a>
     </div>

@@ -3,6 +3,8 @@
 
   {% include head.html %}
 
+  {% assign lang = site.active_lang %}
+
   <body class="{% if page.class %}{{ page.class }}{% endif %}">
 
     {% include header.html %}
@@ -18,13 +20,13 @@
         <div class="grid-column">
           <nav>
             <ul>
-              <li class="header-text-condensed"><a href="/portfolio">Portfolio</a></li>
-              <li class="header-text-condensed"><a href="/capabilities">Capabilities</a></li>
-              <li class="header-text-condensed"><a href="/about">About</a></li>
-              <li class="header-text-condensed"><a href="/clients">Clients</a></li>
-              <li class="header-text-condensed"><a href="/press">Press</a></li>
-              <li class="header-text-condensed"><a href="/careers">Careers</a></li>
-              <li class="header-text-condensed"><a href="/contact">Contact</a></li>
+              <li class="header-text-condensed"><a href="/portfolio">{{ site.portfolio[lang] | upcase }}</a></li>
+              <li class="header-text-condensed"><a href="/capabilities">{{ site.capabilities[lang] | upcase }}</a></li>
+              <li class="header-text-condensed"><a href="/about">{{ site.about[lang] | upcase }}</a></li>
+              <li class="header-text-condensed"><a href="/clients">{{ site.clients[lang] | upcase }}</a></li>
+              <li class="header-text-condensed"><a href="/press">{{ site.press[lang] | upcase }}</a></li>
+              <li class="header-text-condensed"><a href="/careers">{{ site.careers[lang] | upcase }}</a></li>
+              <li class="header-text-condensed"><a href="/contact">{{ site.contact[lang] | upcase }}</a></li>
             </ul>
           </nav>
         </div>
