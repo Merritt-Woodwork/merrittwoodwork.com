@@ -124,13 +124,6 @@ defaults:
       permalink: "/capabilities/"
   -
     scope:
-      path: "capabilities.de.html"
-    values:
-      layout: "default"
-      class: "capabilities"
-      permalink: "/capabilities/"
-  -
-    scope:
       path: "careers.html"
     values:
       layout: "default"
