@@ -87,7 +87,7 @@ defaults:
     values:
       layout: "default"
       class: "home"
-      permalink: "
+      permalink: ""
       _hide_content: true
   -
     scope:
@@ -102,7 +102,7 @@ defaults:
     values:
       layout: "default"
       class: "portfolio"
-      permalink: "/portfolio/"
+      permalink: "portfolio/"
       _hide_content: true
   -
     scope:
