@@ -19,7 +19,7 @@
       <div class="grid-container">
         <div class="grid-column">
           <div class="lang">
-    <a href="{% if site.active_lang == 'en' %}{{site.url}}{% elsif site.active_lang == 'de' %}../{%endif%}" class="header-text{% if site.active_lang == 'en' %} active{% endif %}">EN</a> | <a href="{% if site.active_lang == 'en' %}{{site.url}}/de/{% elsif site.active_lang == 'de' %}/{%endif%}" class="header-text{% if site.active_lang == 'de' %} active{% endif %}">DE</a>
+    <a href="{% if site.active_lang == 'en' %}{{site.url}}{% elsif site.active_lang == 'de' %}../{%endif%}" class="header-text{% if site.active_lang == 'en' %} active{% endif %}">EN</a> | <a href="{% if site.active_lang == 'en' %}{{site.url}}/de/{% elsif site.active_lang == 'de' %}{{site.url}}{%endif%}" class="header-text{% if site.active_lang == 'de' %} active{% endif %}">DE</a>
   </div>
           <nav>
             <ul>
