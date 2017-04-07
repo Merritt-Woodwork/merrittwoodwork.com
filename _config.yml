@@ -101,7 +101,7 @@ defaults:
     values:
       layout: "default"
       class: "portfolio"
-      permalink: "/de/portfolio/"
+      permalink: "/portfolio/de/"
       _hide_content: true
   -
     scope:
