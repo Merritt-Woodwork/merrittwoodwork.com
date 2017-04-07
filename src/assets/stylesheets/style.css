@@ -5312,15 +5312,15 @@ body.about .remodal p.quote {
         flex-wrap: wrap;
     -ms-flex-align: stretch;
         align-items: stretch;
-    margin-bottom: 1rem; } }
+    margin-bottom: 32px; } }
   @media (min-width: 300px) and (min-width: 300px) and (max-width: 991px) {
     .jobs section.gallery .grid-item .job-title {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%; } }
   @media (min-width: 300px) and (min-width: 992px) {
     .jobs section.gallery .grid-item .job-title {
-      -ms-flex-preferred-size: 60%;
-          flex-basis: 60%; } }
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
 
 @media (min-width: 300px) {
     .jobs section.gallery .grid-item .job-title h2 {
@@ -5331,8 +5331,8 @@ body.about .remodal p.quote {
           flex-basis: 100%; } }
   @media (min-width: 300px) and (min-width: 992px) {
     .jobs section.gallery .grid-item .job-info {
-      -ms-flex-preferred-size: 40%;
-          flex-basis: 40%; } }
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
 
 @media (min-width: 300px) {
     .jobs section.gallery .grid-item .job-info p {
@@ -5363,7 +5363,7 @@ body.about .remodal p.quote {
   .jobs section.gallery .grid-sizer, .jobs section.gallery .grid-item {
     width: 100%; }
   .jobs section.gallery .grid-item {
-    margin-bottom: 1.5rem; } }
+    margin-bottom: 32px; } }
 
 @media (min-width: 736px) {
   .jobs section.gallery .grid-sizer, .jobs section.gallery .grid-item {
@@ -5443,13 +5443,13 @@ body.about .remodal p.quote {
 
 @media (min-width: 576px) {
   .job .headline-block.flow .grid-column {
-    padding-top: 27px;
-    padding-bottom: 27px; } }
+    padding-top: 40px;
+    padding-bottom: 40px; } }
 
 @media (min-width: 768px) {
   .job .headline-block.flow .grid-column {
-    padding-top: 27px;
-    padding-bottom: 27px; } }
+    padding-top: 40px;
+    padding-bottom: 40px; } }
 
 @media (min-width: 992px) {
   .job .headline-block.flow .grid-column {

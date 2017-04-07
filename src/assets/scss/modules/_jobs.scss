@@ -241,13 +241,13 @@
         flex-wrap: wrap;
         align-items: stretch;
         // height: 150px;
-        margin-bottom: 1rem;
+        margin-bottom: 32px;
         .job-title {
           @include breakpoint(300px, 991px) {
             flex-basis: 100%;
           }
           @include breakpoint(992px) {
-            flex-basis: 60%;
+            flex-basis: 50%;
           }
           h2 {
             padding-right: 2rem;
@@ -258,7 +258,7 @@
             flex-basis: 100%;
           }
           @include breakpoint(992px) {
-            flex-basis: 40%;
+            flex-basis: 50%;
           }
           p {
             font-size: 19px;
@@ -299,7 +299,7 @@
         width: 100%;
       }
       .grid-item {
-        margin-bottom: 1.5rem;
+        margin-bottom: 32px;
       }
     }
 

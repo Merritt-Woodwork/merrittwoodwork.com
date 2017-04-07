@@ -1,5 +1,5 @@
 ---
-role: Millwork Engineer/Draftsman
+role: Millwork Engineer/ Draftsman
 job-location: ohio
 job-type: full time
 contract: permanent
