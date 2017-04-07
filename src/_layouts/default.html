@@ -18,6 +18,9 @@
     <div class="overlay overlay-huge">
       <div class="grid-container">
         <div class="grid-column">
+          <div class="lang">
+    <a href="{% if site.active_lang == 'en' %}/{% elsif site.active_lang == 'de' %}../{%endif%}" class="header-text{% if site.active_lang == 'en' %} active{% endif %}">EN</a> | <a href="{% if site.active_lang == 'en' %}/de/{% elsif site.active_lang == 'de' %}/{%endif%}" class="header-text{% if site.active_lang == 'de' %} active{% endif %}">DE</a>
+  </div>
           <nav>
             <ul>
               <li class="header-text-condensed"><a href="/portfolio">{{ site.portfolio[lang] | upcase }}</a></li>

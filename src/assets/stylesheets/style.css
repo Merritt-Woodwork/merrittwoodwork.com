@@ -2085,21 +2085,7 @@ section.jumbo-hero {
     .fixed-header-wrapper .grid-container {
       width: 100%; }
     .fixed-header-wrapper .lang {
-      position: absolute;
-      top: 15px;
-      right: 120px;
-      font-size: 12px;
-      color: #555;
-      z-index: 99999; }
-      .fixed-header-wrapper .lang a {
-        font-size: 14px;
-        text-decoration: none;
-        color: #a45833;
-        font-weight: 100;
-        letter-spacing: 1px;
-        display: inline-block; }
-      .fixed-header-wrapper .lang a.active {
-        color: 700; } }
+      display: none; } }
 
 @media (min-width: 992px) {
   .fixed-header-wrapper {
@@ -2323,20 +2309,25 @@ header {
     top: 45px;
     left: 0;
     background: white; }
+    .overlay .lang {
+      position: absolute;
+      top: 1rem;
+      right: 20px;
+      font-size: 15px;
+      color: #555; }
+      .overlay .lang a {
+        z-index: 9999;
+        font-size: 15px;
+        text-decoration: none;
+        color: #a45833;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block; }
+      .overlay .lang a.active {
+        color: 700; }
   /* Overlay closing cross */
   .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    overflow: hidden;
-    border: none;
-    background: url(../img/cross.png) no-repeat center center;
-    text-indent: 200%;
-    color: transparent;
-    outline: none;
-    z-index: 100; }
+    display: none; }
   /* Menu style */
   .overlay nav {
     text-align: left;
@@ -2399,20 +2390,25 @@ header {
     top: 45px;
     left: 0;
     background: rgba(255, 255, 255, 0.95); }
+    .overlay .lang {
+      position: absolute;
+      top: 1rem;
+      right: 20px;
+      font-size: 15px;
+      color: #555; }
+      .overlay .lang a {
+        z-index: 9999;
+        font-size: 15px;
+        text-decoration: none;
+        color: #a45833;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block; }
+      .overlay .lang a.active {
+        color: 700; }
   /* Overlay closing cross */
   .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    overflow: hidden;
-    border: none;
-    background: url(../img/cross.png) no-repeat center center;
-    text-indent: 200%;
-    color: transparent;
-    outline: none;
-    z-index: 100; }
+    display: none; }
   /* Menu style */
   .overlay nav {
     text-align: left;
@@ -2470,20 +2466,25 @@ header {
     top: 45px;
     left: 0;
     background: rgba(255, 255, 255, 0.95); }
+    .overlay .lang {
+      position: absolute;
+      top: 1rem;
+      right: 20px;
+      font-size: 15px;
+      color: #555; }
+      .overlay .lang a {
+        z-index: 9999;
+        font-size: 15px;
+        text-decoration: none;
+        color: #a45833;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block; }
+      .overlay .lang a.active {
+        color: 700; }
   /* Overlay closing cross */
   .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    overflow: hidden;
-    border: none;
-    background: url(../img/cross.png) no-repeat center center;
-    text-indent: 200%;
-    color: transparent;
-    outline: none;
-    z-index: 100; }
+    display: none; }
   /* Menu style */
   .overlay nav {
     text-align: left;
@@ -2689,7 +2690,8 @@ button.c-hamburger {
 body.home section.header-video {
   position: relative;
   overflow: hidden;
-  clear: both; }
+  clear: both;
+  min-height: 350px; }
   body.home section.header-video img {
     height: 100% !important;
     position: absolute; }

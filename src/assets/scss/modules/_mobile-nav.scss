@@ -19,22 +19,42 @@
     top: 45px;
     left: 0;
     background: rgba(255,255,255,1);
+    .lang {
+      position: absolute;
+      top: 1rem;
+      right: 20px;
+      font-size: 15px;
+      color: #555;
+      a {
+        z-index: 9999;
+        font-size: 15px;
+        text-decoration: none;
+        color: $brand;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
+      a.active {
+        color: 700;
+      }
+    }
   }
 
   /* Overlay closing cross */
   .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    overflow: hidden;
-    border: none;
-    background: url(../img/cross.png) no-repeat center center;
-    text-indent: 200%;
-    color: transparent;
-    outline: none;
-    z-index: 100;
+    display: none;
+    // width: 80px;
+    // height: 80px;
+    // position: absolute;
+    // right: 20px;
+    // top: 20px;
+    // overflow: hidden;
+    // border: none;
+    // background: url(../img/cross.png) no-repeat center center;
+    // text-indent: 200%;
+    // color: transparent;
+    // outline: none;
+    // z-index: 100;
   }
 
   /* Menu style */
@@ -140,22 +160,42 @@
     top: 45px;
     left: 0;
     background: rgba(255,255,255,0.95);
+    .lang {
+      position: absolute;
+      top: 1rem;
+      right: 20px;
+      font-size: 15px;
+      color: #555;
+      a {
+        z-index: 9999;
+        font-size: 15px;
+        text-decoration: none;
+        color: $brand;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
+      a.active {
+        color: 700;
+      }
+    }
   }
 
   /* Overlay closing cross */
   .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    overflow: hidden;
-    border: none;
-    background: url(../img/cross.png) no-repeat center center;
-    text-indent: 200%;
-    color: transparent;
-    outline: none;
-    z-index: 100;
+    display: none;
+    // width: 80px;
+    // height: 80px;
+    // position: absolute;
+    // right: 20px;
+    // top: 20px;
+    // overflow: hidden;
+    // border: none;
+    // background: url(../img/cross.png) no-repeat center center;
+    // text-indent: 200%;
+    // color: transparent;
+    // outline: none;
+    // z-index: 100;
   }
 
   /* Menu style */
@@ -252,22 +292,42 @@
     top: 45px;
     left: 0;
     background: rgba(255,255,255,0.95);
+    .lang {
+      position: absolute;
+      top: 1rem;
+      right: 20px;
+      font-size: 15px;
+      color: #555;
+      a {
+        z-index: 9999;
+        font-size: 15px;
+        text-decoration: none;
+        color: $brand;
+        font-weight: 100;
+        letter-spacing: 1px;
+        display: inline-block;
+      }
+      a.active {
+        color: 700;
+      }
+    }
   }
 
   /* Overlay closing cross */
   .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    overflow: hidden;
-    border: none;
-    background: url(../img/cross.png) no-repeat center center;
-    text-indent: 200%;
-    color: transparent;
-    outline: none;
-    z-index: 100;
+    display: none;
+    // width: 80px;
+    // height: 80px;
+    // position: absolute;
+    // right: 20px;
+    // top: 20px;
+    // overflow: hidden;
+    // border: none;
+    // background: url(../img/cross.png) no-repeat center center;
+    // text-indent: 200%;
+    // color: transparent;
+    // outline: none;
+    // z-index: 100;
   }
 
   /* Menu style */
