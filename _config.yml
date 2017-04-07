@@ -87,7 +87,7 @@ defaults:
     values:
       layout: "default"
       class: "home"
-      permalink: "/de/"
+      permalink: "
       _hide_content: true
   -
     scope:
@@ -102,7 +102,7 @@ defaults:
     values:
       layout: "default"
       class: "portfolio"
-      permalink: "/de/portfolio/"
+      permalink: "/portfolio/"
       _hide_content: true
   -
     scope:
@@ -117,7 +117,7 @@ defaults:
     values:
       layout: "default"
       class: "about"
-      permalink: "/de/about/"
+      permalink: "/about/"
       _hide_content: true
   -
     scope:
@@ -147,7 +147,7 @@ defaults:
     values:
       layout: "default"
       class: "careers"
-      permalink: "/de/careers/"
+      permalink: "/careers/"
       _hide_content: true
   -
     scope:
@@ -162,7 +162,7 @@ defaults:
     values:
       layout: "default"
       class: "jobs"
-      permalink: "/de/careers/jobs/"
+      permalink: "/careers/jobs/"
       _hide_content: true
   -
     scope:
@@ -177,7 +177,7 @@ defaults:
     values:
       layout: "default"
       class: "internships"
-      permalink: "/de/careers/internships/"
+      permalink: "/careers/internships/"
       _hide_content: true
   -
     scope:
@@ -199,7 +199,7 @@ defaults:
     values:
       layout: "default"
       class: "clients"
-      permalink: "/de/clients/"
+      permalink: "/clients/"
       _hide_content: true
   -
     scope:
@@ -214,7 +214,7 @@ defaults:
     values:
       layout: "default"
       class: "contact"
-      permalink: "/de/contact/"
+      permalink: "/contact/"
       _hide_content: true
   -
     scope:
@@ -229,7 +229,7 @@ defaults:
     values:
       layout: "default"
       class: "press"
-      permalink: "/de/press/"
+      permalink: "/press/"
       _hide_content: true
   -
     scope:
