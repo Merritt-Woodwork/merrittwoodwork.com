@@ -1,13 +1,14 @@
 ---
 name: G. Michael Merritt
-title: PRESIDENT & CHIEF EXECUTIVE OFFICER
-quote: Because we never accept the status quo, we are constantly innovating, identifying new ways to meet old challenges. We have never been afraid of going against the grain in pursuit of perfection.
+title: VORSITZENDER UND GESCHÄFTSFÜHRER
+quote: Wir geben uns niemals mit dem Status quo zufrieden und schaffen durch Innovationen stets Lösungen für bekannte Herausforderungen. Bei der Suche nach Perfektion gehen wir auch ungewöhnliche Wege.
 details: |
-  G. Michael Merritt has a singular vision for Merritt, the company his father, George A. Merritt, founded in 1967: to be the best, most forward thinking and in-demand provider of ultra-high-end architectural millwork and joinery for residential estates and super yachts. Through his strategic leadership and a collaborative executive team, Merritt has become one of the world’s leading luxury interior solutions firms.
+  G. Michael Merritt möchte das von seinem Vater George A. Merritt im Jahr 1967 gegründete Unternehmen zum besten, fortschrittlichsten und gefragtesten Anbieter für den anspruchsvollen Innenausbauen mit Holz sowie Schreinerarbeiten der Spitzenklasse für Wohnanlagen und Superyachten machen.
+  Seine strategische Führung und das kooperative Führungsteam haben Merritt zu einem internationalen Marktführer für luxuriöse Innenausstattungen gemacht.
 
-  Throughout his tenure, Michael has practiced every trade and held nearly every key position in the company from cabinetry to operations. Today Michael provides strategic and practical support of Merritt’s many teams, departments and divisions, while focusing on human capital, team results, mentoring and ensuring controlled company growth.
+  Michael Merritt war im Laufe seiner Karriere in sämtlichen Unternehmensbereichen – von der Kunstschreinerei bis hin zur Betriebsleitung – und in fast jeder Schlüsselposition im Unternehmen tätig. Heute berät Michael Merritt die verschiedenen Teams, Abteilungen und Bereiche von Merritt in strategischen und praktischen Fragen, insbesondere kümmert er sich um Personal, Teamergebnisse, Mentoring und den kontrollierten Ausbau des Unternehmens.
 
-  Michael’s goals for Merritt today and in the future are clear: generate flawless results for our clients, mentor and motivate our company team and provide security and future opportunities to our employees, vendors, consultants and friends.
+  Michael Merritt hat klare Ziele für die gegenwärtige und zukünftige Entwicklung des Unternehmens: einwandfreie Ergebnisse für alle Kunden, Beratung und Motivierung des Teams sowie Sicherheit und Zukunftschancen für Mitarbeiter, Anbieter, Berater und Partner.
 image: /uploads/staff-1.jpg
 display_order: 1
 _comments:

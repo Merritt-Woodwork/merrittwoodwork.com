@@ -1,13 +1,13 @@
 ---
 name: nick turchan
-title: finance director
-quote: I take pride in adding value through innovation. I am always searching for the most efficient and effective way to get work done so that those who operate the business can do just that.
+title: LEITER FINANZEN
+quote: Ich bin stolz darauf, durch Innovation einne Beitrag leisten zu können. Ich möchte Aufgaben stets möglichst effizient und effektiv erledigen, damit sich die Geschäftsführer eben auf die Führung der Geschäfte konzentrieren können.
 details: |
-  Nick leads the overall finance and accounting function for all aspects of Merritt. He is a strategic partner to the company CEO, as well as other department leaders, directing the finance and accounting integration of newly acquired businesses.
+  Nick Turchan leitet die Finanz- und Rechnungsabteilung von Merritt. Er berät als strategischer Partner die Unternehmensleitung und steht auch anderen Abteilungsleitern beratend zur Seite. Darüber hinaus kümmert er sich um sämtliche Finanz- und Buchhaltungsfragen bei der Integration neu erworbener Unternehmen.
 
-  Nick is a certified public accountant in the state of Ohio bringing more than 13 years of financial and operational experience in a variety of industries to his role at Merritt. Positions such as senior auditor at Ernst & Young, corporate accounting manager and auditor for Anthony & Sylva Pools Corporation, director of finance for the Cleveland Cavaliers and then director of accounting operations for the sports and entertainment conglomerate IMG, have prepared him well for the fast paced and ever evolving operations at Merritt.
+  Nick Turchan ist amtlich zugelassener Buch- und Rechnungsprüfer in Ohio und bringt seine 13-jährige Erfahrung mit finanziellen und betrieblichen Abläufen aus früheren Tätigkeiten in zahlreichen Branchen bei Merritt ein. Seine frühren Positionen als Senior Auditor bei Ernst & Young, als Corporate Accounting Manager und Auditor bei der Anthony & Sylva Pools Corporation, als Director of Finance für Cleveland Cavaliers und als Director of Accounting Operations für die Sportrechtevermarktungsgruppe IMG haben ihn optimal auf die schnelllebigen und in stetigem Wandel befindlichen Betriebsabläufe bei Merritt vorbereitet.
 
-  Nick is equally active out of the office playing adult soccer, volleyball and softball, and is a diehard Cleveland sports fan. Nick has two sons and lives with his wife in Chagrin Falls.
+  Nick Turchan ist auch außerhalb des Büros aktiv und spielt Fußball, Volleyball und Softball. Sein Herz schlägt für Sportler und Mannschaften aus Cleveland. Nick Turchan hat zwei Söhne und lebt mit seiner Frau in Chagrin Falls.
 image: /uploads/staff-12.jpg
 display_order: 12
 _comments:

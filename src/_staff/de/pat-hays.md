@@ -1,13 +1,13 @@
 ---
 name: pat hays
-title: hr director
-quote: The sense of teamwork and family at Merritt is key to our success as a company. We aim to engage and motivate our staff and ensure each employee knows how vital their contribution is individually and to the entire Merritt process.
+title: PERSONALLEITERIN
+quote: Teamwork und Familiarität machen Merritt als Unternehmen erfolgreich. Wir geben alles für das Engagement und die Motivation unserer Mitarbeiter und stellen sicher, dass jeder genau weiß, wie wertvoll die jeweils geleistete Arbeit für das gesamte Unternehmen ist.
 details: |
-  Patricia Hays is Merritt’s human resource manager and plays a critical role in maintaining and enhancing the organization’s team and structure. Pat has been with Merritt for three years and brings with her more than 25 years of experience as an HR professional.
+  Patricia „Pat“ Hays ist als Personalleiterin von Merritt vorrangig mit der Optimierung von Unternehmensstruktur und Teams betraut. Pat Hays ist seit drei Jahren bei Merritt tätig und bringt ihre 25-jährige Erfahrungen als Personalexpertin in ihre Arbeit ein.
 
-  Pat oversees the planning, implementation and evaluation of employee relations, policies, programs and practices. Pat is responsible for the breadth of HR functions within Merritt including compliance, orientation programs, management training, hiring and exit practices and interviews, pay structure recommendations, benefits programs and day-to-day employee relations. She brings insight and understanding to her role and embraces the daily challenge of helping employees meet their personal and professional goals in the workplace.
+  Personalmanagement sowie entsprechende Richtlinien, Programme und Prozesse gehören in den Verantwortungsbereich von Pat Hays. Sie ist zuständig für sämtliche Personalangelegenheiten bei Merritt, einschließlich Compliance, Einarbeitung, Managementschulungen, Einstellungs- und Entlassungsverfahren, Vorstellungsgespräche, Vergütungsempfehlungen, Boniprogramme und tägliche Mitarbeiterfragen. Mit ihrer herausragenden Kenntnisse und Fertigkeiten bewätligt sich alle Herausforderungen in Tagesgeschäfts und unterstützt Mitarbeiter beim Erreichen privater sowie beruflicher Ziele.
 
-  Pat is a member of the Society of Human Resource Management and Certified Professional Human Resources.
+  Pat Hays ist Mitglied der Society of Human Resource Management und Certified Professional Human Resources.
 image: /uploads/staff-13.jpg
 display_order: 13
 _comments:

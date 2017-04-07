@@ -1,13 +1,13 @@
 ---
 name: don alexander
-title: project principal
-quote: We work on some of the most monumental projects in the country. Collaborating with our industry’s top professionals, including our own Merritt team, is deeply rewarding.
+title: PROJEKTLEITER
+quote: Wir waren an einigen der größten Projekte in den USA beteiligt. Die Zusammenarbeit mit den Besten der Branche, dazu gehört auch unser eigenes Merritt-Team, sorgt für höchste berufliche Zufriedenheit.
 details: |
-  A nine-year veteran of Merritt, Don Alexander brings a passion for design and architecture to work every day. Prior to joining Merritt, Don owned and operated Falls Lumber and Millwork, a high-end architectural millwork firm. His personal knowledge of both the craft and business side of woodworking make him an ideal ally for both his clients and Merritt.
+  Don Alexander widmet sich bereits seit neun Jahren jeden Tag voller Leidenschaft für Design und Architektur seiner Tätigkeit bei Merritt. Zuvor leitete Don Alexander als Geschäftsführer Falls Lumber and Millwork, ein Unternehmen für den Innenausbau mit Holz im Luxussegment.Dank seiner handwerklichen wie geschäftlichen Expertise im Bereich hochwertigen Holzbearbeitung ist er idealer Ansprechpartner für Kunden und Mitarbeiter von Merritt.
 
-  Don oversees an exceptional team of project managers, project engineers, field installation managers and project coordinating staff. Together they provide comprehensive project direction and solutions for Merritt’s clients who include the most discerning general contractors, architects, designers and homeowners anywhere.
+  Don Alexander leitet ein herausragendes Team aus Projektmanagern, Projektingenieuren, Außendienstmitarbeitern und anderen Projektmitarbeitern. Er erarbeitet mit seinem Team einen umfassende Projektpläne sowie Lösungen für Kunden von Merritt, darunter anspruchvollste Generalunternehmer, Architekten, Designer und Immobilienbesitzer auf der ganzen Welt.
 
-  Don sits on the Advisory Board for the University of Akron’s Interior School of Design and is also a guest lecturer for the school’s Design and Project Management courses.
+  Don Alexander sitzt im Beirat der Interior School of Design der University of Akron und leitet dort als Gastdozent auch Kurse zum Design- und Projektmanagement.
 image: /uploads/staff-5.jpg
 display_order: 5
 _comments:

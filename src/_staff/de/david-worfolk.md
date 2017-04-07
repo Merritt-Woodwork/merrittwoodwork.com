@@ -1,13 +1,13 @@
 ---
 name: david worfolk
-title: PRINCIPAL
-quote: I have never wanted to live or work in a mediocre manner and have always sought to challenge myself to achieve the next level of quality, beauty and perfection.
+title: LEITER
+quote: Ich habe mich noch nie mit Mittelmäßigkeit zufrieden gegeben und stelle mir stets selbst die Herausforderung, die nächste Ebene an Qualität, Schönheit und Perfektion zu erreichen.
 details: |
-  In 1972, with a degree in history, David Worfolk took a summer job in Connecticut helping to convert an old foundry into a full residence and immediately fell for the craft of carpentry. Ten years later, he started Design Woodworking in Lodi, California providing high-end custom architectural woodworking to Bay Area homeowners. In 1989, Stefan Sekula joined David and together they consistently grew DWW to lead the market until they merged with Merritt in 2016.
+  1972 half David Worfolk, mit einem Abschluss in Geschichte in der Tasche, im Rahmen eines Ferienjobs beim Umbau einer alten Gießerei in Connecticut in ein Eigenheim. Damals erwachte seine Leidenschaft für die Tischlerei. Zehn Jahre später gründete er im kalifornischen Lodi Design Woodworking, ein Unternehmen für den Luxusinnenausbau mit Holz. Das Unternehmen sprach vor alle Immobilienbesitzer aus der Bay Area an. Ab 1989 baute David Worfolk gemeinsam mit Stefan Sekula das Unternehmen weiter aus. 2016 fusionierte Design Woodworking mit Merritt.
 
-  In his role at DWW, David managed the financial, personnel and plant operations, as well as shared in project responsibilities regarding contracts, communications and project oversight. David takes great pride in nurturing and supporting a loyal workforce who share his commitment to quality, service and cooperation.
+  Bei Design Woodworking war David Worfolk für Finanzen, Personal und Betriebsleitung sowie für Projektverträge, Kommunikation und Projektbetreuung verantwortlich. David Worfolk hat sich eine loyale Belegschaft aufgebaut, die seinen Anspruch bezüglich Qualität, Service und Kooperation teilt.
 
-  Outside of business, David enjoys many athletic and creative passions. He lives in Northern California along with his wife, two sons and twin grandsons. David is a Trustee for the Lodi Unified School District School Board.
+  David Worfolk ist neben seiner Arbeit sportlich und künstlerisch aktiv. Er lebt gemeinsam mit seiner Frau, zwei Söhnen und zwei Enkeln in Nordkalifornien. David Worfolk ist Mitglied im Lodi Unified School District School Board.
 image: /uploads/staff-9.jpg
 display_order: 9
 _comments:

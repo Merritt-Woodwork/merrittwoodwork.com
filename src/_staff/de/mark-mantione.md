@@ -1,11 +1,11 @@
 ---
 name: MARK MANTIONE
-title: vp of sales & marketing
-quote: Serving the world’s most discerning home and yacht owners, architects and builders is an art.  Merritt is a family of fine artisans.
+title: LEITER VERTRIEB UND MARKETING
+quote: „Die Arbeit für die weltweit anspruchsvollsten Eigenheim- und Yachtbesitzer, Architekten und Bauunternehmen ist eine Kunst. Die Merritts sind eine Familie von Künstlern.“
 details: |
-  As vice president of sales and marketing, Mark brings his own background as a luxury residential builder and as an entrepreneur to his role of expanding awareness and opportunities for Merritt.  A master networker and relationship builder, Mark has built a powerful contact database of designers, architects, general contractors, and owner's representatives both domestically and internationally.
+  Als Vice President of Sales and Marketing stärkt Mark Mantione dank seiner Erfahrungen als Bauunternehmer für Luxusimmobilien die Bekanntheit von und Chancen für Merritt in diesem Bereich. Der Netzwerker Mark Mantione verfügt über hervorragende Beziehungen zu zahlreichen Designern, Architekten, Generalunternehmern und Eigentümervertretern auf US-amerikanischer und internationaler Ebene.
 
-  Mark’s personal understanding of the demands on both the architect/designer side, as well as on the millworking team, enable him to be both connector and problem solver at the critical stage of project inception. He knows no limits to ensuring that both client and company are served and that all expectations are exceeded. He sees his role not solely as sales and marketing but one that always keeps the entire project cycle in focus. 
+  Mark Mantione kennt sowohl die Anforderungen von Architekten und Designern als auch diejenigen der Schreiner. Er fungiert in der kritischen Anlaufphase der Projekte als Ansprechpartner und Problemlöser. Mark Mantione setzt sich stets dafür ein, dass sämtliche Erwartungen auf Kunden- wie Unternehmensseite übertroffen werden. Er beschränkt sich nicht nur auf seine Position als Vice President of Sales and Marketing, sondern behält stets auch das Gesamtkonzept vor Augen.
 image: /uploads/staff-3.jpg
 display_order: 3
 _comments:

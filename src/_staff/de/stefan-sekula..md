@@ -1,13 +1,13 @@
 ---
 name: stefan sekula
-title: PROJECT PRINCIPAL
-quote: Producing some of the highest quality, most complex work on either coast has earned our reputation for excellence.
+title: PROJEKTLEITER
+quote: Merritt hat sich durch den Abschluss komplexer Projekte in den gesamten USA einen exzellenten Ruf erarbeitet.
 details: |
-  A woodworker by trade, Stefan Sekula’s background includes hands-on experience in carpentry, framing, shop drawing, fabrication, finishing and installation of architectural millwork. In 1989 he partnered with Design Woodworking founder David Wolfolk and together they grew the Lodi, California-based company to $9 million in annual revenue.
+  Als Spezialist für Holzbearbeitung profitiert Stefan Sekula von seinen praktischen Erfahrungen in den Bereichen Zimmerei und Rohbau. Außerdem kennt er sich bestens mit technischen Zeichnungen, Fertigung, Veredelung und Montage beim Innenausbau mit Holz aus. 1989 kam er zu Design Woodworking. Das Unternehmen wurde von David Wolfolk im kalifornischen Lodi gegründet erzielte zuletzt einen Jahresumsatz von 9 Millionen US-Dollar.
 
-  Stefan and Design Woodworking joined Merritt in 2016 sharing very similar clients, projects and philosophies. Stefan and team have become valuable assets to the Merritt family and together they are approaching great new opportunities to grow, learn and problem solve as one.
+  Stefan Sekula und Design Woodworking gehören seit 2016 zu Merritt. Unternehmensphilosophie, Kunden und Projekte der beiden Unternehmen sind sehr ähnlich. Stefan Sekula und sein Team gehören als wertvolle Assets zur Merritt-Familie. Gemeinsam sollen neue Wachstumsmöglichkeiten und Problemlösungsstrategien ermittelt werden.
 
-  Stefan continues in his role as a senior project principal and now oversees Merritt West’s operations.
+  Stefan Sekula leitet als Senior Project Principal den Betrieb bei Merritt West.
 image: /uploads/staff-8.jpg
 display_order: 8
 _comments:

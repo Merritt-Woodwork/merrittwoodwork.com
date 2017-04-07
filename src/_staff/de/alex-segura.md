@@ -1,11 +1,11 @@
 ---
 name: alex segura
-title: PRINCIPAL
-quote: My role overseeing complex installations from start to finish is uniquely rewarding. Managing each step, I have an opportunity to witness up close the end result of all our collective efforts.
+title: LEITER
+quote: Meine Tätigkeit als bei der Leitung von Großprojekten vom Angebot bis zur Abnahme ist äußerst befriedigend. Da ich für das Management der einzelnen Schritte verantwortlich bin, darf ich das Endergebnis unserer gemeinsamen Anstrengungen hautnah miterleben.
 details: |
-  Alex Segura manages Merritt’s carpentry and installation group, overseeing a team of some of the finest craftsmen in North America. With a thorough background in the millworking industry, he brings a trifecta of experience as a master carpenter, carpentry supervisor and millwork business owner to his position with Merritt. Today, he supervises the entire department of field operations managers, field installation managers, field superintendents and carpenters. From start to finish, from build to installation, he accepts and delivers only flawless craftsmanship and perfect results.
+  Alex Segura leitet das Zimmermanns- und Montageteam von Merritt mit vortrefflichen Handwerkern in Nordamerika. Seine umfassenden Erfahrungen in der Holzbaubranche, die er durch seine Ausbildung als Zimmermannsmeister, seine Tätigkeit als Leiter einer Zimmerei und Inhaber einer Bauschreinerei erworben hat, bringt er bei Merritt ein. Heute koordiniert er sämtliche Mitarbeiter im Außendienst. Alex Segura gibt sich während des gesamten Projektverlaufs, von der Fertigung bis zum Einbau, nur mit einwandfreier Handwerksarbeit und perfekten Ergebnissen zufrieden.
 
-  Alex holds a degree from the Sacramento-based Woodworking Institute. In addition to his passion for his craft, Alex is an avid soccer player, family man and volunteer.
+  Alex Segura hat einen Abschluss am Woodworking Institute in Sacramento erworben. Neben seiner Leidenschaft für den Holzbau ist Alex Segura auch leidenschaftlicher Fußballspieler, Familienmensch und engagiert sich in der Freiwilligenarbeit.
 image: /uploads/staff-11.jpg
 display_order: 11
 _comments:

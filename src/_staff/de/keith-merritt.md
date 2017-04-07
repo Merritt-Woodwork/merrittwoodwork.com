@@ -1,11 +1,11 @@
 ---
 name: KEITH MERRITT
-title: EXECUTIVE VICE PRESIDENT & TREASURER
-quote: Taking an architect’s dream and turning it into reality is a daily joy for my team. The challenges we face in the process become fuel driving us to exceed what we thought were limitations.
+title: LEITER BETRIEB UND FINANZEN
+quote: Mein Team hat das Glück, jeden Tag Träume verwirklichen zu können. Die Herausforderungen, denen wir dabei begegnen, motivieren uns Grenzen zu überwinden.
 details: |
-  Keith Merritt, younger son of founder George A. Merritt, has a long history within the company. Like his brother Michael, Keith has worked in nearly every position he now oversees from production, manufacturing and logistics to plant management, engineering management and project management. Today, in addition to his roles as executive vice president and treasurer, he also functions as day to day director of operations.
+  Keith Merritt, der jüngere Sohn des Unternehmensgründers George A. Merritt, ist bereits seit langer Zeit im Unternehmen tätig. Wie sein Bruder Michael war auch Keith Merritt in fast jeder Position tätig. Er betreut nun verschiedene Bereiche von Produktion, Fertigung und Logistik bis hin zu Anlagen-, Technik- und Projektmanagement. Neben seiner Position als Executive Vice President und Treasurer leitet er heute auch das Tagesgeschäft.
 
-  Early on, Keith pledged himself to mastering old-world craftsmanship techniques to further Merritt’s foundation in the art of woodwork and joinery.  Along with his team, he continues to research the world’s finest materials and technological advancements, fusing them together with the industry’s most advanced equipment and creative people to create exquisite monumental architectural millwork.
+  Keith Merritt ist bestens mit den traditionellen Techniken des Handwerks vertraut und stärkt dadurch das Fundament des Unternehmens in der Kunst der Holzbearbeitung und Schreinerei. Gemeinsam mit seinem Team sucht er weltweit nach den besten Materialien und technologischen Neuerungen. Mit der fortschrittlichsten Ausrüstung und den kreativsten Mitarbeitern der Branche schafft das Unternehmen exquisite und imposante Schreinerarbeiten im Innenausbau.
 image: /uploads/staff-2.jpg
 display_order: 2
 _comments:

@@ -1,13 +1,13 @@
 ---
 name: jeff sessions
-title: project PRINCIPAL
-quote: I am proud to have the opportunity to work within a company that holds craftsmanship, quality and customer satisfaction to the highest standards in the industry.
+title: PROJEKTLEITER
+quote: Ich bin stolz auf meine Chance, in einem Unternehmen zu arbeiten, das höchsten Wert auf Handwerkskunst, Qualität und Kundenzufriedenheit legt.
 details: |
-  As team leader of the Utah office, he is responsible for providing project management and engineering leadership on multiple simultaneous projects from inception through completion. Jeff brings years of experience with him to Merritt, previously serving as CEO & Vice President at Wavell-Huber Wood Products, Inc. where he developed the company from a regional Southern California firm into a national architectural woodworking organization.
+  Als Teamleiter in unserer Niederlassung in Utah ist Jeff Sessions zuständig für unterschiedlichste Aufgaben im Projektmanagement und der technischen Projektplanung. Jeff Sessions war vor seiner Tätigkeit bei Merritt CEO & Vice President bei Wavell-Huber Wood Products, Inc., das er von einem regionalen Kleinunternehmen zu einer US-weit agierenden Holzbauorganisation führte.
 
-  Jeff holds a Master of Architecture, California Polytechnic University and a Bachelor of Arts, with emphasis in Environmental Design from San Diego State University.
+  Jeff Sessions verfügt über einen Master in Architektur der California Polytechnic University und einen BA mit Schwerpunkt in Environmental Design der San Diego State University.
 
-  Outside of work, Jeff enjoys history, art and architecture, which have driven him in his career. He also enjoys concerts, hiking and traveling with friends and family. Jeff won the 2014 AWI Award of Excellence for Our Savior Parish Church and USC Caruso Catholic Center and the 2013 Southern California IIDA Team Award for the Conrad Hilton Foundation.
+  In seiner Freizeit beschäftigt sich Jeff Sessions mit Geschichte, Kunst und Architektur, die auch in seinem Arbeitsleben eine gewichtige Rolle spielen. Er liebt außerdem die Musik, Wandern und Reisen mit Freunden und Familie. Jeff Sessions hat 2014 den AWI Award of Excellence von Our Savior Parish Church und USC Caruso Catholic Center und 2013 den Southern California IIDA Team Award der Conrad Hilton Foundation gewonnen.
 image: /uploads/staff-10.jpg
 display_order: 10
 _comments:
