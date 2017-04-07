@@ -1,29 +1,29 @@
 ---
-title: East Hampton Residence
+title: WOHNHAUS IN EAST HAMPTON
 work-type: traditional
 list_order: 2
 hero_image: /uploads/casestudy-east-hampton.jpg
 portfolio_image: /uploads/portfolio-east-hampton.jpg
 details:
-  - heading: architect
+  - heading: ARCHITEKT
     copy_markdown: >-
       Hart Howerton
-  - heading: interior designer
+  - heading: INNENARCHITEKT
     copy_markdown: >-
       Bunny Williams Inc.
-  - heading: Builder
+  - heading: AUSFÜHRUNG
     copy_markdown: >-
       Bulgin & Associates Inc.
-  - heading: specialties
+  - heading: BESONDERHEITEN
     copy_markdown: >-
-      - French polish finish
+      - Schellackveredelung
 
-      - Lumber / timber veneer grade logs (boules) required to execute design aesthetic
+      - Holz in Furnierqualität zur ansprechenden Ausführung erforderlich
 
-      - Custom metal, lighting and glass integration
-  - heading: species
+      - Kundenspezifische Metall-, Beleuchtungs- und Glaselemente
+  - heading: HOLZARTEN
     copy_markdown: >-
-      European Baltic Pine, Birdseye maple, American Black Cherry, American White Oak
+      Baltische Kiefer, Birdseye-Ahorne, amerikanische Traubenkirsche,  amerikanische Weißeiche
 image_blocks:
   - image_block:
       image: /uploads/east-hampton-1.jpg

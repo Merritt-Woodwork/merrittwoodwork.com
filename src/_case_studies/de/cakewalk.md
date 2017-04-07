@@ -5,37 +5,37 @@ list_order: 1
 hero_image: /uploads/casestudy-cakewalk.jpg
 portfolio_image: /uploads/portfolio-cakewalk.jpg
 details:
-  - heading: Exterior Designer
+  - heading: AUSSENENTWURF
     copy_markdown: >-
       Tim Heywood Design
-  - heading: Naval Architect
+  - heading: SCHIFFBAUINGENIEUR
     copy_markdown: >-
       Azure Naval Architecture
-  - heading: Interior Designer
+  - heading: INNENARCHITEKT
     copy_markdown: >-
       Dalton Designs Inc.
-  - heading: Length
+  - heading: LÄNGE
     copy_markdown: >-
       86M
-  - heading: Specialties
+  - heading: BESONDERHEITEN
     copy_markdown: >-
-      - Project wide detail book
+      - Detailkatalog für das gesamte Projekt
 
-      - Veneer, timber and finish specifications
+      - Vorgaben bezüglich Furnier, Holz und Veredelung
 
-      - Control mockups
+      - Kontrollmodelle
 
-      - Complete engineering
+      - Komplette technische Planung/Ausführung
 
-      - Fabrication
+      - Fertigung
 
-      - Delivery and install
+      - Lieferung und Montage
 
-      - Upholstery, leather, metal, glass, mirror, lighting, and shade integration
+      - Polster-, Leder-, Metall-, Glas-, Spiegel- und Beleuchtungselemente sowie Sonnenblenden
 
-  - heading: Species
+  - heading: HOLZARTEN
     copy_markdown: >-
-      American Black Cherry, East Indian Rosewood, American Rift Sawn White Oak
+      Amerikanische Traubenkirsche, ostindischer Palisander, amerikanische Weißeiche
 image_blocks:
   - image_block:
       image: /uploads/cakewalk-1.jpg

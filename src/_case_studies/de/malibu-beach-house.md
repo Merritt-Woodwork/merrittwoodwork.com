@@ -1,29 +1,29 @@
 ---
-title: Malibu Beach House
+title: STRANDHAUS IN MALIBU
 work-type: contemporary
 list_order: 4
 hero_image: /uploads/casestudy-malibu.jpg
 portfolio_image: /uploads/portfolio-malibu.jpg
 details:
-  - heading: architect
+  - heading: ARCHITEKT
     copy_markdown: >-
       Richard Meier & Partners Architects
-  - heading: interior designer
+  - heading: INNENARCHITEKT
     copy_markdown: >-
       Christian Liaigre Inc.
-  - heading: Builder
+  - heading: AUSFÜHRUNG
     copy_markdown: >-
       Hilgendorf Corporation
-  - heading: specialties
+  - heading: BESONDERHEITEN
     copy_markdown: >-
-      - Opaque gloss polished polyester finish
+      - Dunkelglänzend poliertes Polyester-Finish
 
-      - French polished wood finishes
+      - Holzveredelung mit Schellackpolitur
 
-      - Custom metal and glass integration
-  - heading: species
+      - Kundenspezifische Metall- und Glaselemente
+  - heading: HOLZARTEN
     copy_markdown: >-
-      Macassar Ebony, Fumed Larch, White Oak, Brazilian Rosewood
+      Makassar-Ebenholz, Räucherlärche, Weißeiche, Rio-Palisander
 image_blocks:
   - image_block:
       image: /uploads/malibu-1.jpg

@@ -87,6 +87,7 @@ defaults:
       layout: "default"
       class: "home"
       permalink: "/"
+      _hide_content: true
   -
     scope:
       path: "portfolio.html"
@@ -101,6 +102,7 @@ defaults:
       layout: "default"
       class: "portfolio"
       permalink: "/portfolio/"
+      _hide_content: true
   -
     scope:
       path: "about.html"
@@ -115,6 +117,7 @@ defaults:
       layout: "default"
       class: "about"
       permalink: "/about/"
+      _hide_content: true
   -
     scope:
       path: "capabilities.html"
@@ -129,6 +132,7 @@ defaults:
       layout: "default"
       class: "capabilities"
       permalink: "/capabilities/"
+      _hide_content: true
   -
     scope:
       path: "careers.html"
@@ -143,6 +147,7 @@ defaults:
       layout: "default"
       class: "careers"
       permalink: "/careers/"
+      _hide_content: true
   -
     scope:
       path: "jobs.html"
@@ -157,6 +162,7 @@ defaults:
       layout: "default"
       class: "jobs"
       permalink: "/careers/jobs/"
+      _hide_content: true
   -
     scope:
       path: "internships.html"
@@ -171,6 +177,7 @@ defaults:
       layout: "default"
       class: "internships"
       permalink: "/careers/internships/"
+      _hide_content: true
   -
     scope:
       path: ""
@@ -192,6 +199,7 @@ defaults:
       layout: "default"
       class: "clients"
       permalink: "/clients/"
+      _hide_content: true
   -
     scope:
       path: "contact.html"
@@ -206,6 +214,7 @@ defaults:
       layout: "default"
       class: "contact"
       permalink: "/contact/"
+      _hide_content: true
   -
     scope:
       path: "press.html"
@@ -220,6 +229,7 @@ defaults:
       layout: "default"
       class: "press"
       permalink: "/press/"
+      _hide_content: true
   -
     scope:
       path: ""
