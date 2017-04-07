@@ -1,6 +1,8 @@
 <div class="fixed-header-wrapper">
   <div class="lang">
-    <a href="{% if site.active_lang == 'en' %}/{% elsif site.active_lang == 'de' %}../{%endif%}" class="header-text{% if site.active_lang == 'en' %} active{% endif %}">EN</a> | <a href="{% if site.active_lang == 'en' %}/de/{% elsif site.active_lang == 'de' %}/{%endif%}" class="header-text{% if site.active_lang == 'de' %} active{% endif %}">DE</a>
+    {% assign english = site.localurl %}
+    {% assign german = site.localurl | append: '/de' %}
+    <a href="{{english}}" class="header-text{% if site.active_lang == 'en' %} active{% endif %}">EN</a> | <a href="{{german}}" class="header-text{% if site.active_lang == 'de' %} active{% endif %}">DE</a>
   </div>
   <header class="grid-container">
     <!-- <div class="grid-collapse"> -->

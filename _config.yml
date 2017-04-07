@@ -3,6 +3,7 @@
 title: Merritt Woodwork
 description: Luxury woodwork and joinery for the modern age.
 url: https://www.merrittwoodwork.com
+localurl: http://mww.netlify.com
 
 # CloudCannon uses these:
 source: src
@@ -82,7 +83,7 @@ defaults:
       permalink: "/"
   -
     scope:
-      path: "index.de.html"
+      path: "index-de.html"
     values:
       layout: "default"
       class: "home"
@@ -97,11 +98,11 @@ defaults:
       permalink: "/portfolio/"
   -
     scope:
-      path: "portfolio.de.html"
+      path: "portfolio-de.html"
     values:
       layout: "default"
       class: "portfolio"
-      permalink: "/portfolio/de/"
+      permalink: "/de/portfolio/"
       _hide_content: true
   -
     scope:
@@ -112,7 +113,7 @@ defaults:
       permalink: "/about/"
   -
     scope:
-      path: "about.de.html"
+      path: "about-de.html"
     values:
       layout: "default"
       class: "about"
@@ -127,7 +128,7 @@ defaults:
       permalink: "/capabilities/"
   -
     scope:
-      path: "capabilities.de.html"
+      path: "capabilities-de.html"
     values:
       layout: "default"
       class: "capabilities"
@@ -142,7 +143,7 @@ defaults:
       permalink: "/careers/"
   -
     scope:
-      path: "careers.de.html"
+      path: "careers-de.html"
     values:
       layout: "default"
       class: "careers"
@@ -157,7 +158,7 @@ defaults:
       permalink: "/careers/jobs/"
   -
     scope:
-      path: "jobs.de.html"
+      path: "jobs-de.html"
     values:
       layout: "default"
       class: "jobs"
@@ -172,7 +173,7 @@ defaults:
       permalink: "/careers/internships/"
   -
     scope:
-      path: "internships.de.html"
+      path: "internships-de.html"
     values:
       layout: "default"
       class: "internships"
@@ -194,7 +195,7 @@ defaults:
       permalink: "/clients/"
   -
     scope:
-      path: "clients.de.html"
+      path: "clients-de.html"
     values:
       layout: "default"
       class: "clients"
@@ -209,7 +210,7 @@ defaults:
       permalink: "/contact/"
   -
     scope:
-      path: "contact.de.html"
+      path: "contact-de.html"
     values:
       layout: "default"
       class: "contact"
@@ -224,7 +225,7 @@ defaults:
       permalink: "/press/"
   -
     scope:
-      path: "press.de.html"
+      path: "press-de.html"
     values:
       layout: "default"
       class: "press"
