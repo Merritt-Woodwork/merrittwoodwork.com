@@ -102,7 +102,7 @@ defaults:
       layout: "default"
       class: "portfolio"
       permalink: "/portfolio/de/"
-    #   _hide_content: true
+    #   _hide_cwontent: true
   -
     scope:
       path: "about.html"
