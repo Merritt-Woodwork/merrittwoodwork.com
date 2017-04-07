@@ -131,7 +131,7 @@ defaults:
     values:
       layout: "default"
       class: "capabilities"
-      permalink: "/de/capabilities/"
+      permalink: "/capabilities/"
       _hide_content: true
   -
     scope:
