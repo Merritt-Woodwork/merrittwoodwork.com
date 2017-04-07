@@ -116,7 +116,7 @@ defaults:
     values:
       layout: "default"
       class: "about"
-      permalink: "/about/"
+      # permalink: "/about/"
       _hide_content: true
   -
     scope:
