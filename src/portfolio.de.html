@@ -77,7 +77,13 @@ lang: de
           {% for item in casestudies %}
             <div>
               <a href="{{item.url}}" class="casestudy" data-img="{{item.portfolio_image}}">
-                <h5 class="header-text">{{item.work-type}}</h5>
+                <h5 class="header-text">
+                  {% if item.work-type == 'superyacht' %}superyacht
+                  {% elsif item.work-type == 'traditional' %}TRADITIONELL WOHNHAUS
+                  {% elsif item.work-type == 'transitional' %}KLASSISCH MODERN WOHNHAUS
+                  {% elsif item.work-type == 'contemporary' %}MODERNE WOHNHAUS
+                  {% endif %}
+                </h5>
                 <h2 class="header-text-condensed">{{item.title}}</h2>
               </a>
             </div>
