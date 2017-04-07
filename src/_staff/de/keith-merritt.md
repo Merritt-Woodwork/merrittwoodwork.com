@@ -10,5 +10,6 @@ image: /uploads/staff-2.jpg
 display_order: 2
 _comments:
   image: file should be ~600px wide
+lang: de
 ---
 

@@ -12,5 +12,6 @@ image: /uploads/staff-8.jpg
 display_order: 8
 _comments:
   image: file should be ~600px wide
+lang: de
 ---
 

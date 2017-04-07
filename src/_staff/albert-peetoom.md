@@ -10,5 +10,6 @@ image: /uploads/staff-6.jpg
 display_order: 6
 _comments:
   image: file should be ~600px wide
+lang: en
 ---
 

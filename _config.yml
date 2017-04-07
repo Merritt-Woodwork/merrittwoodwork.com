@@ -28,6 +28,30 @@ job-types:
   - full time
   - part time
 
+# multi-language
+portfolio:
+  en: portfolio
+  de: portfolio
+capabilities:
+  en: capabilities
+  de: LEISTUNGEN
+about:
+  en: about
+  de: INFORMATIONEN
+clients:
+  en: clients
+  de: KUNDEN
+press:
+  en: press
+  de: PRESSE
+careers:
+  en: careers
+  de: STELLENANGEBOTE
+contact:
+  en: contact
+  de: KONTAKT
+
+
 collections:
   case_studies:
     output: true

@@ -11,16 +11,17 @@
             <span>toggle menu</span>
           </button>
           </div>
+          {% assign lang = site.active_lang %}
           <div class="left header-text">
-            <a {% if page.class == 'portfolio' or page.class == 'casestudy' %}class="active"{% endif %} href="/portfolio">PORTFOLIO</a>
-            <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">CAPABILITIES</a>
-            <a {% if page.class == 'about' %}class="active"{% endif %} href="/about">ABOUT</a>
+            <a {% if page.class == 'portfolio' or page.class == 'casestudy' %}class="active"{% endif %} href="/portfolio">{{ site.portfolio[lang] | upcase }}</a>
+            <a {% if page.class == 'capabilities' %}class="active"{% endif %} href="/capabilities">{{ site.capabilities[lang] | upcase }}</a>
+            <a {% if page.class == 'about' %}class="active"{% endif %} href="/about">{{ site.about[lang] | upcase }}</a>
           </div>
           <div class="right header-text">
-            <a {% if page.class == 'clients' %}class="active"{% endif %} href="/clients">CLIENTS</a>
-            <a {% if page.class == 'press' %}class="active"{% endif %} href="/press">PRESS</a>
-            <a {% if page.class == 'careers' %}class="active"{% endif %} href="/careers">CAREERS</a>
-            <a {% if page.class == 'contact' %}class="active"{% endif %} href="/contact">CONTACT</a>
+            <a {% if page.class == 'clients' %}class="active"{% endif %} href="/clients">{{ site.clients[lang] | upcase }}</a>
+            <a {% if page.class == 'press' %}class="active"{% endif %} href="/press">{{ site.press[lang] | upcase }}</a>
+            <a {% if page.class == 'careers' %}class="active"{% endif %} href="/careers">{{ site.careers[lang] | upcase }}</a>
+            <a {% if page.class == 'contact' %}class="active"{% endif %} href="/contact">{{ site.contact[lang] | upcase }}</a>
           </div>
         </div>
       </div>
