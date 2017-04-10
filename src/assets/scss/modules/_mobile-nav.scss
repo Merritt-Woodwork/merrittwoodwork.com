@@ -29,13 +29,14 @@
         z-index: 9999;
         font-size: 15px;
         text-decoration: none;
-        color: $brand;
+        color: #a7a7a7;
         font-weight: 100;
         letter-spacing: 1px;
         display: inline-block;
+        padding: 0 .25em;
       }
       a.active {
-        color: 700;
+        color: $brand;
       }
     }
   }
@@ -170,13 +171,14 @@
         z-index: 9999;
         font-size: 15px;
         text-decoration: none;
-        color: $brand;
+        color: #a7a7a7;
         font-weight: 100;
         letter-spacing: 1px;
         display: inline-block;
+        padding: 0 .25em;
       }
       a.active {
-        color: 700;
+        color: $brand;
       }
     }
   }

@@ -29,13 +29,17 @@ body.home {
     }
 
     .header-video__teaser-video {
-      // width: 100%;
-      // height: auto;
+      @include breakpoint(768px) {
+        width: 100%;
+        height: auto;
+      }
     }
 
     .header-video__media {
-      // width: 100%;
-      // height: auto;
+      @include breakpoint(768px) {
+        width: 100%;
+        height: auto;
+      }
     }
 
     .grid-container {

@@ -2319,12 +2319,13 @@ header {
         z-index: 9999;
         font-size: 15px;
         text-decoration: none;
-        color: #a45833;
+        color: #a7a7a7;
         font-weight: 100;
         letter-spacing: 1px;
-        display: inline-block; }
+        display: inline-block;
+        padding: 0 .25em; }
       .overlay .lang a.active {
-        color: 700; }
+        color: #a45833; }
   /* Overlay closing cross */
   .overlay .overlay-close {
     display: none; }
@@ -2400,12 +2401,13 @@ header {
         z-index: 9999;
         font-size: 15px;
         text-decoration: none;
-        color: #a45833;
+        color: #a7a7a7;
         font-weight: 100;
         letter-spacing: 1px;
-        display: inline-block; }
+        display: inline-block;
+        padding: 0 .25em; }
       .overlay .lang a.active {
-        color: 700; }
+        color: #a45833; }
   /* Overlay closing cross */
   .overlay .overlay-close {
     display: none; }
@@ -2707,6 +2709,14 @@ body.home section.header-video {
     width: 100%; }
   body.home section.header-video video {
     width: 100%; }
+  @media (min-width: 768px) {
+    body.home section.header-video .header-video__teaser-video {
+      width: 100%;
+      height: auto; } }
+  @media (min-width: 768px) {
+    body.home section.header-video .header-video__media {
+      width: 100%;
+      height: auto; } }
   @media only screen and (min-width: 300px) {
     body.home section.header-video .headline {
       width: calc(75% - 28px);
