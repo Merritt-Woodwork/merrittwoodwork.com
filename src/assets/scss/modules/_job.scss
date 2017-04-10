@@ -5,8 +5,8 @@
     }
     .grid-column {
       @include breakpoint(xs) {
-        padding-top: .75em;
-        padding-bottom: .75em;
+        padding-top: 30px;
+        padding-bottom: 30px;
       }
       @include breakpoint(sm) {
         padding-top: 40px;
@@ -148,6 +148,7 @@ section.job-application {
         border-bottom: 1px solid $brand;
         &:hover {
           color: $brand;
+          border-bottom: 1px solid transparent;
         }
       }
     }

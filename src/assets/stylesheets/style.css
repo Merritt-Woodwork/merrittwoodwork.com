@@ -2707,12 +2707,6 @@ body.home section.header-video {
     width: 100%; }
   body.home section.header-video video {
     width: 100%; }
-  body.home section.header-video .header-video__teaser-video {
-    width: 100%;
-    height: auto; }
-  body.home section.header-video .header-video__media {
-    width: 100%;
-    height: auto; }
   @media only screen and (min-width: 300px) {
     body.home section.header-video .headline {
       width: calc(75% - 28px);
@@ -5194,7 +5188,7 @@ body.about .remodal p.quote {
       .jobs section.gallery-tabs .tabs .mobile-wrapper {
         display: inline-block;
         text-align: left;
-        margin-bottom: 1rem; } }
+        margin-bottom: .5rem; } }
     @media (min-width: 769px) {
       .jobs section.gallery-tabs .tabs .mobile-wrapper {
         display: inline-block; } }
@@ -5443,8 +5437,8 @@ body.about .remodal p.quote {
 
 @media (max-width: 575px) {
   .job .headline-block.flow .grid-column {
-    padding-top: .75em;
-    padding-bottom: .75em; } }
+    padding-top: 30px;
+    padding-bottom: 30px; } }
 
 @media (min-width: 576px) {
   .job .headline-block.flow .grid-column {
@@ -5599,7 +5593,8 @@ section.job-application {
       text-decoration: none;
       border-bottom: 1px solid #a45833; }
       section.job-application .grid-column--left p a:hover, section.job-application .grid-column--right p a:hover {
-        color: #a45833; }
+        color: #a45833;
+        border-bottom: 1px solid transparent; }
   @media (min-width: 576px) {
     section.job-application .grid-column--left h5, section.job-application .grid-column--right h5 {
       font-size: 18px;

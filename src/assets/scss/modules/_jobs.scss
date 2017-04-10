@@ -100,7 +100,7 @@
         @include breakpoint(300px, 768px) {
           display: inline-block;
           text-align: left;
-          margin-bottom: 1rem;
+          margin-bottom: .5rem;
         }
         @include breakpoint(769px) {
           display: inline-block;
