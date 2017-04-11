@@ -2722,7 +2722,8 @@ body.home section.header-video {
     body.home section.header-video .headline {
       width: calc(75% - 28px);
       float: left;
-      margin-left: 16px; } }
+      margin-left: 16px;
+      margin-left: calc(12.5% - 18px + 32px); } }
   @media only screen and (min-width: 992px) {
     body.home section.header-video .headline {
       width: calc(50% - 25.5px);

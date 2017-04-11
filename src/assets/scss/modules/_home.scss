@@ -49,6 +49,7 @@ body.home {
     .headline {
       @include grid-media($sm-grid) {
         @include grid-column(6 of 8);
+        @include grid-push(1 of 8);
       }
       @include grid-media($lg-grid) {
         @include grid-column(8 of 16);
