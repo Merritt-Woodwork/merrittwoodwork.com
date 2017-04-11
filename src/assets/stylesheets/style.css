@@ -2104,12 +2104,12 @@ section.jumbo-hero {
     .lang a {
       font-size: 12px;
       text-decoration: none;
-      color: #a45833;
+      color: #a7a7a7;
       font-weight: 100;
       letter-spacing: 1px;
       display: inline-block; }
     .lang a.active {
-      color: 700; } }
+      color: #a45833; } }
 
 header {
   font-size: 12px; }
@@ -2312,7 +2312,7 @@ header {
     .overlay .lang {
       position: absolute;
       top: 1rem;
-      right: 20px;
+      left: 0px;
       font-size: 15px;
       color: #555; }
       .overlay .lang a {
@@ -2333,7 +2333,7 @@ header {
   .overlay nav {
     text-align: left;
     position: relative;
-    top: 20%;
+    top: 22%;
     height: 60%;
     font-size: 36px;
     transform: translateY(-20%); }
@@ -2394,7 +2394,7 @@ header {
     .overlay .lang {
       position: absolute;
       top: 1rem;
-      right: 20px;
+      left: 0px;
       font-size: 15px;
       color: #555; }
       .overlay .lang a {
@@ -2471,7 +2471,7 @@ header {
     .overlay .lang {
       position: absolute;
       top: 1rem;
-      right: 20px;
+      left: 0px;
       font-size: 15px;
       color: #555; }
       .overlay .lang a {

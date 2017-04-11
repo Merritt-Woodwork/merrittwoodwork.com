@@ -35,13 +35,13 @@
     a {
       font-size: 12px;
       text-decoration: none;
-      color: $brand;
+      color: #a7a7a7;
       font-weight: 100;
       letter-spacing: 1px;
       display: inline-block;
     }
     a.active {
-      color: 700;
+      color: $brand;
     }
   }
 }
