@@ -2696,7 +2696,8 @@ body.home section.header-video {
   min-height: 350px; }
   body.home section.header-video img {
     height: 100% !important;
-    position: absolute; }
+    position: absolute;
+    right: 0; }
   body.home section.header-video iframe,
   body.home section.header-video video {
     position: absolute;
