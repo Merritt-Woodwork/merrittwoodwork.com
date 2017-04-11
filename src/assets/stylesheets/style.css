@@ -6155,6 +6155,7 @@ section.job-application {
             flex-basis: 40%; } }
     @media (min-width: 300px) {
       .contact section.case-studies .case-study-info h5 {
+        display: inline-block;
         font-size: 12px;
         line-height: 1.3;
         letter-spacing: 2px;
@@ -6173,6 +6174,7 @@ section.job-application {
         padding-right: 30px; } }
     @media (min-width: 768px) {
       .contact section.case-studies .case-study-info h5 {
+        display: inline-block;
         font-size: 12px;
         letter-spacing: 2px;
         color: #FFFFFF;
