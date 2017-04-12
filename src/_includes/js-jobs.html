@@ -18,9 +18,8 @@
     }
   });
 
-  // trigger layout after each image loads to avoid overlap
-  $grid.imagesLoaded().progress(function() {
-    $grid.isotope('layout');
+  $(function(){ // document ready
+    $grid.isotope('layout')
   });
 
   $('.tabs').on('click', '.isoFilter', function(e) {
