@@ -133,7 +133,6 @@ defaults:
       layout: "default"
       class: "capabilities"
       permalink: "/capabilities/"
-      _hide_content: true
   -
     scope:
       path: "careers.html"
