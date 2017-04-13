@@ -113,13 +113,13 @@
       margin-bottom: 100px;
     }
     @include breakpoint(lg) {
-      margin-bottom: 150px;
+      margin-bottom: 100px;
     }
     @include breakpoint(300px, 768px) {
       padding-top: 30px;
     }
     @include breakpoint(769px) {
-      padding-top: 43px;
+      padding-top: 100px;
     }
     .grid-column {
       @include grid-media($sm-grid) {

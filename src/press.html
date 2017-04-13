@@ -68,21 +68,6 @@ lang: en
   </div>
 </div>
 
-<section class="contact-details">
-  <div class="grid-container">
-    <div class="grid-column">
-      {% for item in site.data.contacts %}
-        {% if item.email == "mediainquiries@merrittwoodwork.com" %}
-          <h3 class="header-text-condensed">{{item.headline}}</h3>
-          <p class="copy-text">{{item.name}}</p>
-          <p class="copy-text">{{item.telephone}}</p>
-          <p class="copy-text"><a href="mailto:{{item.email}}">{{item.email}}</a></p>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
 
 <section class="gallery">
   <div class="grid-container">
@@ -108,8 +93,7 @@ lang: en
               sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
             >
             </a>
-          {% else if press_link > 3 %}
-            <a target="_blank" href="{{item.press_link}}">
+          {% else %}
             <img
               ix-path="{{item.image}}"
               ix-params='{
@@ -117,11 +101,26 @@ lang: en
               }'
               sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
             >
-            </a>
+
           {% endif %}
         </div>
         {% endfor %}
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-details">
+  <div class="grid-container">
+    <div class="grid-column">
+      {% for item in site.data.contacts %}
+        {% if item.email == "mediainquiries@merrittwoodwork.com" %}
+          <h3 class="header-text-condensed">{{item.headline}}</h3>
+          <p class="copy-text">{{item.name}}</p>
+          <p class="copy-text">{{item.telephone}}</p>
+          <p class="copy-text"><a href="mailto:{{item.email}}">{{item.email}}</a></p>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>

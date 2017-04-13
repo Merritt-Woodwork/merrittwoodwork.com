@@ -4910,7 +4910,7 @@ body.about .remodal p.quote {
 
 @media (min-width: 992px) {
   .press section.gallery {
-    margin-bottom: 150px; } }
+    margin-bottom: 100px; } }
 
 @media (min-width: 300px) and (max-width: 768px) {
   .press section.gallery {
@@ -4918,7 +4918,7 @@ body.about .remodal p.quote {
 
 @media (min-width: 769px) {
   .press section.gallery {
-    padding-top: 43px; } }
+    padding-top: 100px; } }
 
 @media only screen and (min-width: 300px) {
   .press section.gallery .grid-column {
