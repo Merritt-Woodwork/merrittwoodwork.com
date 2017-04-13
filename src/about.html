@@ -6,10 +6,8 @@ intro_block:
     Merritt is the artist’s atelier. We are innovators. We plan with precision, craft with care and build boldly knowing that our work lives on for generations of tomorrow. We only work with the finest designers, builders and craftsmen, and deliver woodwork that is unparalleled in our industry.
 image_pair_a:
   left_image: /uploads/about-1.jpg
-  left_image_speed: -.1
   left_image_caption:
   right_image: /uploads/about-2.jpg
-  right_image_speed: 1
   right_image_caption:
 text_block_a: Only the extraordinary is acceptable for the world’s finest estates and superyachts.
 headline_block_a:
@@ -23,13 +21,11 @@ image_block:
 headline_block_b:
   headline: A LEGACY OF ART AND VISION
   details: |
-    As a young man, George A. Merritt honed his craft as an artisan woodworker in his hometown of Cleveland, Ohio. In 1967 he founded Merritt Woodwork where he went on to mentor his own team of apprentices. By building a reputation for perfectionism and artistry, Merritt honed a niche delivering the highest-quality cabinetry and woodwork in the region. Today, sons Michael and Keith continue their father’s legacy of extraordinary craftsmanship, premium materials and hands-on management but have also grown the company in unexpected directions with exceptional results.
+    As a young man, George A. Merritt honed his craft as an artisan woodworker in his hometown of Cleveland, Ohio. In 1967 he founded Merritt Woodwork where he went on to mentor his own team of apprentices. By building a reputation for perfectionism and artistry, Merritt honed a niche delivering the highest-quality cabinetry and woodwork in the region. Today his sons Michael and Keith cnot only ontinue their father’s legacy of extraordinary craftsmanship, premium materials and hands-on management but have also grown the company in unexpected directions with exceptional results.
 image_pair_b:
   left_image: /uploads/founder.jpg
-  left_image_speed: -.35
   left_image_caption: George A. Merritt, Founder
   right_image: /uploads/leadership.jpg
-  right_image_speed: .4
   right_image_caption: Keith & Michael Merritt
 text_block_b: Through constant innovation and an obsession with perfection, Merritt moves the definition of woodwork forward.
 next:
@@ -60,7 +56,6 @@ lang: en
               "auto": "compress"
             }'
             sizes="(min-width: 1200px) 1166px, (min-width: 1440px) 1440px, 85vw"
-            data-rellax-speed="-2.5"
           >
         </div>
       </div>
@@ -86,7 +81,7 @@ lang: en
   <div class="grid-container">
     <div class="grid-column">
 
-        <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.left_image_speed}}">
+        <div class="left animated staggerFadeIn">
          <img
             ix-path="{{page.image_pair_a.left_image}}"
             ix-params='{
@@ -97,7 +92,7 @@ lang: en
           {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
         </div>
 
-        <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.right_image_speed}}">
+        <div class="right animated staggerFadeIn">
           <img
             ix-path="{{page.image_pair_a.right_image}}"
             ix-params='{
@@ -169,7 +164,7 @@ lang: en
 <section class="offset-images bottom">
   <div class="grid-container">
     <div class="grid-column">
-      <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.left_image_speed}}">
+      <div class="left animated staggerFadeIn">
         <img
            ix-path="{{page.image_pair_b.left_image}}"
            ix-params='{
@@ -179,7 +174,7 @@ lang: en
          >
         {% if page.image_pair_b.left_image_caption %}<p class="header-text">{{page.image_pair_b.left_image_caption}}</p>{% endif %}
         </div>
-      <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.right_image_speed}}">
+      <div class="right animated staggerFadeIn">
         <img
            ix-path="{{page.image_pair_b.right_image}}"
            ix-params='{
@@ -215,7 +210,7 @@ lang: en
                                         {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
                                       {% endcomment %}
           <div>
-            <a data-remodal-target="modal-{{person.name | slugify}}">
+            <a data-remodal-target="{{person.name | slugify}}">
               <img src="{{person.image}}" alt="">
               <!-- <img
                  ix-path="{{person.image}}"
@@ -228,11 +223,11 @@ lang: en
             <div class="name">
               <h3 class="header-text-condensed staff-name">{{person.name}}</h3>
               <p class="staff-title header-text">{{person.title}}</p>
-              <a data-remodal-target="modal-{{person.name | slugify}}" class="staff-bio header-text">read bio</a>
+              <a data-remodal-target="{{person.name | slugify}}" class="staff-bio header-text">read bio</a>
             </div>
           </div>
         </div>
-        <div class="remodal" data-remodal-id="modal-{{person.name | slugify}}">
+        <div class="remodal" data-remodal-id="{{person.name | slugify}}">
           <button data-remodal-action="close" class="remodal-close c-hamburger c-hamburger--htx is-active" aria-label="Close">
             <span>toggle</span>
           </button>
