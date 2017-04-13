@@ -106,7 +106,7 @@
     // trigger layout after each image loads to avoid overlap
     $grid.imagesLoaded().progress(function() {
       // console.log('image loaded!');
-      $grid.isotope('layout');
+      $('.grid').isotope('layout');
     });
 
     $('.tabs').on('click', '.isoFilter', function(e) {

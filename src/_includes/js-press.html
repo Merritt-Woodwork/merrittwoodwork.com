@@ -21,7 +21,7 @@
     });
 
     // trigger layout after each image loads to avoid overlap
-    $grid.imagesLoaded().progress(function() {
+    $('.grid').imagesLoaded().progress(function() {
       $grid.isotope('layout');
     });
 
