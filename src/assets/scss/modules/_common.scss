@@ -610,7 +610,7 @@ section.image-text-block {
       // -ms-flex-align: center;
       // align-items: center;
       .wrapper {
-        @include vertical-align();
+        // @include vertical-align(); // doing this in js now
       }
     }
     @include breakpoint(md) {

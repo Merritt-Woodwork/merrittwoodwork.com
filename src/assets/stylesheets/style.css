@@ -1929,12 +1929,6 @@ section.text-block {
     color: #202020;
     margin: 0 0 .5em 0; } }
 
-@media (min-width: 769px) {
-  section.image-text-block .grid-column--headline .wrapper {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); } }
-
 @media (min-width: 768px) {
   section.image-text-block .grid-column--headline h2 {
     font-size: 44px;
