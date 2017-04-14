@@ -117,7 +117,7 @@ lang: en
         {% if item.email == "mediainquiries@merrittwoodwork.com" %}
           <h3 class="header-text-condensed">{{item.headline}}</h3>
           <p class="copy-text">{{item.name}}</p>
-          <p class="copy-text">{{item.telephone}}</p>
+          <p class="copy-text phone">{{item.telephone}}</p>
           <p class="copy-text"><a href="mailto:{{item.email}}">{{item.email}}</a></p>
         {% endif %}
       {% endfor %}

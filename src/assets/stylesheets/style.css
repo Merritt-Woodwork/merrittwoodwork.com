@@ -4849,6 +4849,9 @@ body.about .remodal p.quote {
       line-height: 27px;
       color: #202020;
       margin: 0; }
+    .press section.contact-details p.phone {
+      font-size: 18px;
+      font-feature-settings: "lnum" 1; }
     .press section.contact-details a {
       transition: all 0.3s ease;
       text-decoration: none;
@@ -4875,6 +4878,9 @@ body.about .remodal p.quote {
       line-height: 27px;
       color: #202020;
       margin: 0; }
+    .press section.contact-details p.phone {
+      font-size: 18px;
+      font-feature-settings: "lnum" 1; }
     .press section.contact-details a {
       transition: all 0.3s ease;
       text-decoration: none;

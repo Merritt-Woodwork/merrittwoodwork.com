@@ -68,21 +68,6 @@ lang: de
   </div>
 </div>
 
-<section class="contact-details">
-  <div class="grid-container">
-    <div class="grid-column">
-      {% for item in site.data.contacts %}
-        {% if item.email == "mediainquiries@merrittwoodwork.com" %}
-          <h3 class="header-text-condensed">{{item.headline}}</h3>
-          <p class="copy-text">{{item.name}}</p>
-          <p class="copy-text">{{item.telephone}}</p>
-          <p class="copy-text"><a href="mailto:{{item.email}}">{{item.email}}</a></p>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
 
 <section class="gallery">
   <div class="grid-container">
@@ -126,6 +111,21 @@ lang: de
   </div>
 </section>
 
+
+<section class="contact-details">
+  <div class="grid-container">
+    <div class="grid-column">
+      {% for item in site.data.contacts %}
+        {% if item.email == "mediainquiries@merrittwoodwork.com" %}
+          <h3 class="header-text-condensed">{{item.headline}}</h3>
+          <p class="copy-text">{{item.name}}</p>
+          <p class="copy-text phone">{{item.telephone}}</p>
+          <p class="copy-text"><a href="mailto:{{item.email}}">{{item.email}}</a></p>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
 
 <section class="next">
