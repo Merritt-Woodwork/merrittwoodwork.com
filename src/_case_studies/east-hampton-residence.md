@@ -23,7 +23,7 @@ details:
       - Custom metal, lighting and glass integration
   - heading: species
     copy_markdown: >-
-      European Baltic Pine, Birdseye maple, American Black Cherry, American White Oak
+      European Baltic Pine, Birdseye Maple, American Black Cherry, American White Oak
 image_blocks:
   - image_block:
       image: /uploads/east-hampton-1.jpg
