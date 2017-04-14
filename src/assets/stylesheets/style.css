@@ -4779,7 +4779,7 @@ body.about .remodal p.quote {
       padding-bottom: 100px; } }
 
 .clients p {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   color: #202020;
   margin-top: 0;
@@ -6016,6 +6016,9 @@ section.job-application {
       line-height: 27px;
       color: #202020;
       margin: 0; }
+    .contact section.contact-details p.phone {
+      font-size: 18px;
+      font-feature-settings: "lnum" 1; }
     .contact section.contact-details a {
       transition: all 0.3s ease;
       text-decoration: none;
@@ -6042,6 +6045,9 @@ section.job-application {
       line-height: 27px;
       color: #202020;
       margin: 0; }
+    .contact section.contact-details p.phone {
+      font-size: 18px;
+      font-feature-settings: "lnum" 1; }
     .contact section.contact-details a {
       transition: all 0.3s ease;
       text-decoration: none;

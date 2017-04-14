@@ -40,7 +40,7 @@ lang: en
         <h3 class="header-text-condensed">{{contact.headline}}</h3>
         {% if contact.name %}<p class="copy-text">{{contact.name}}</p>{% endif %}
         {% if contact.title %}<p class="copy-text">{{contact.title}}</p>{% endif %}
-        <p class="copy-text">{{contact.telephone}}</p>
+        <p class="copy-text phone">{{contact.telephone}}</p>
         <p class="copy-text"><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
       </div>
     {% endfor %}

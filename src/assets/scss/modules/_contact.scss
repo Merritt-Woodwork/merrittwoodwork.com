@@ -73,6 +73,10 @@
         color: $near-black;
         margin: 0;
       }
+      p.phone {
+        font-size: 18px;
+        font-feature-settings: "lnum" 1;
+      }
       a {
         transition: all 0.3s ease;
         text-decoration: none;
@@ -104,6 +108,10 @@
         line-height: 27px;
         color: $near-black;
         margin: 0;
+      }
+      p.phone {
+        font-size: 18px;
+        font-feature-settings: "lnum" 1;
       }
       a {
         transition: all 0.3s ease;
