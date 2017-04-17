@@ -1,11 +1,11 @@
 ---
-name: Jöchen Schrocker
+name: Jochen Schröcker
 title: PROJEKTLEITER UND GESCHÄFTSFÜHRER MERRITT, GERMANY GMBH
 quote: Höchstes Niveau ist mein beruflicher Antrieb – bei Material, Kollegen und Kunden.
 details: |
   Jochen Schröcker leitet seit 2015 die deutsche Niederlassung von Merritt mit ihren hochqualifizierten Handwerkern. Er koordiniert die Arbeiten und betrieblichen Abläufe mit dem Hauptsitz des Unternehmens in den USA.
 
-  Jochen Schröcker, Schreiner in der dritten Generation, hat 1994 seine Meisterprüfung abgelegt und fertigt seit nunmehr 18 Jahren Holzarbeiten für Yachten und internationale Luxuswohnprojekte.
+  Jochen Schröcker, Schreiner in der dritten Generation, hat 1994 seine Meisterprüfung abgelegt und sich vor 18 Jahren auf das Segment Yachten und internationale Luxuswohnprojekte spezialisiert.
 
   Während seiner beeindruckenden Karriere hat er beispielsweise am Bau bekannter Superyachten wie der Maltese Falcon, der Royal Romance und der Nourah of Riyad mitgewirkt. Luxuspenthouses in St. Petersburg, Istanbul und San Francisco von Kunden mit höchsten Ansprüchen sind ebenfalls mit seinen einmaligen Arbeiten ausgestattet.
 

@@ -23,7 +23,7 @@ details:
       - Kundenspezifische Metall-, Beleuchtungs- und Glaselemente
   - heading: HOLZARTEN
     copy_markdown: >-
-      Baltische Kiefer, Birdseye-Ahorne, amerikanische Traubenkirsche,  amerikanische Weißeiche
+      Baltische Kiefer, Vogelaugenahorn, amerikanische Traubenkirsche,  amerikanische Weißeiche
 image_blocks:
   - image_block:
       image: /uploads/east-hampton-1.jpg

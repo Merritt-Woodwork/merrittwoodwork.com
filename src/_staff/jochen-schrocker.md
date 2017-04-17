@@ -1,9 +1,9 @@
 ---
-name: Jöchen Schrocker
+name: Jochen Schröcker
 title: PROJECT PRINCIPAL & GENERAL MANAGER
 quote: I am driven by working with the very best – in materials, colleagues and clients.
 details: |
-  Since 2015 Jochen Schroecker has led Merritt’s Germany-based team of highly skilled craftsmen, integrating their work, heritage and operations with Merritt’s U.S.-based headquarters.
+  Since 2015 Jochen Schröcker has led Merritt’s Germany-based team of highly skilled craftsmen, integrating their work, heritage and operations with Merritt’s U.S.-based headquarters.
 
   Jochen is at heart a schreinermeister, German for master cabinetmaker. A third generation cabinetmaker, Jochen has been a master craftsman since 1994 and has worked in the yacht and international premium residential business for 18 years.
 
