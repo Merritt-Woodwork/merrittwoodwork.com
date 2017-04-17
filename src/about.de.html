@@ -6,10 +6,8 @@ intro_block:
     Merritt steht für Perfektionismus. Wir sind Vorreiter. Wir planen präzise, gehen die Ausführung sorgfältig und mit der Gewissheit an, dass unsere Arbeit Generationen überdauert. Wir arbeiten bei unseren unübertroffenen Holzarbeiten nur mit den besten Designern, Bauunternehmen und Handwerkern zusammen.
 image_pair_a:
   left_image: /uploads/about-1.jpg
-  left_image_speed: -.1
   left_image_caption:
   right_image: /uploads/about-2.jpg
-  right_image_speed: 1
   right_image_caption:
 text_block_a: Für außergewöhnliche Häuser und Superjachten ist nur das Beste gut genug.
 headline_block_a:
@@ -26,10 +24,8 @@ headline_block_b:
     Heute führen seine beiden Söhne Michael und Keith Merritt das Unternehmen. Sie setzen weiterhin auf herausragende Handwerkskunst, hochwertige Materialien und aktives Management. Das Unternehmen hat sich unter ihrer Leitung erfolgreich auch neuen Branchen geöffnet.
 image_pair_b:
   left_image: /uploads/founder.jpg
-  left_image_speed: -.35
   left_image_caption: George A. Merritt, GRÜNDER
   right_image: /uploads/leadership.jpg
-  right_image_speed: .4
   right_image_caption: Keith & Michael Merritt
 text_block_b: Durch stetige Innovation und eine Leidenschaft für Perfektion setzt Merritt neue Maßstäbe in der Branche.
 next:
@@ -86,7 +82,7 @@ lang: de
   <div class="grid-container">
     <div class="grid-column">
 
-        <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.left_image_speed}}">
+        <div class="left animated staggerFadeIn">
          <img
             ix-path="{{page.image_pair_a.left_image}}"
             ix-params='{
@@ -97,7 +93,7 @@ lang: de
           {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
         </div>
 
-        <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_a.right_image_speed}}">
+        <div class="right animated staggerFadeIn">
           <img
             ix-path="{{page.image_pair_a.right_image}}"
             ix-params='{
@@ -169,7 +165,7 @@ lang: de
 <section class="offset-images bottom">
   <div class="grid-container">
     <div class="grid-column">
-      <div class="left rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.left_image_speed}}">
+      <div class="left animated staggerFadeIn">
         <img
            ix-path="{{page.image_pair_b.left_image}}"
            ix-params='{
@@ -179,7 +175,7 @@ lang: de
          >
         {% if page.image_pair_b.left_image_caption %}<p class="header-text">{{page.image_pair_b.left_image_caption}}</p>{% endif %}
         </div>
-      <div class="right rellax animated staggerFadeIn" data-rellax-speed="{{page.image_pair_b.right_image_speed}}">
+      <div class="right animated staggerFadeIn">
         <img
            ix-path="{{page.image_pair_b.right_image}}"
            ix-params='{
@@ -239,7 +235,7 @@ lang: de
             <h2 class="header-text-condensed">{{person.name}}</h2>
             <h5 class="header-text">{{person.title}}</h5>
             {% if person.quote %}
-              <p class="copy-text quote">&ldquo;{{person.quote}}&rdquo;</p>
+              <p class="copy-text quote">&bdquo;{{person.quote}}&ldquo;</p>
             {% endif %}
             <div class="copy-text">{{person.details | markdownify}}</div>
           </div>

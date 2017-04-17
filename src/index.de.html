@@ -19,6 +19,9 @@ _comments:
   description: (optional) for meta property='og:description'
 lang: de
 ---
+
+{% assign lang = site.active_lang %}
+
 <section class="header-video">
   <div class="wrapper">
       <img
@@ -80,7 +83,20 @@ lang: de
               </div>
               <div class="case-study-info">
                 <div class="wrapper">
-                  <h5 class="header-text">{{case.work-type}}</h5>
+
+                  {% if site.active_lang == 'en' %}
+                    <h5 class="header-text">{{case.work-type}}</h5>
+                  {% elsif site.active_lang == 'de' %}
+                    {% if case.work-type == 'superyacht'%}<h5 class="header-text">superyacht</h5>{% endif %}
+                    {% if case.work-type == 'contemporary'%}<h5 class="header-text">MODERN</h5>{% endif %}
+                    {% if case.work-type == 'traditional'%}<h5 class="header-text">TRADITIONELL</h5>{% endif %}
+                    {% if case.work-type == 'transitional'%}<h5 class="header-text">KLASSISCH MODERN</h5>{% endif %}
+                  {% endif %}
+
+
+
+
+
                   <h2 class="header-text-condensed">{{case.title}}</h2>
                 </div>
                 <h3 class="header-text-condensed"><a href="{{case.url}}">KUNDENBEISPIEL ANSEHEN</a></h3>
