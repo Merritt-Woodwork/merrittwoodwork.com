@@ -2,7 +2,7 @@
 title: Cakewalk
 work-type: superyacht
 list_order: 1
-hero_image: /uploads/casestudy-cakewalk.jpg
+hero_image: /uploads/casestudy-cakewalk-2.jpg
 portfolio_image: /uploads/portfolio-cakewalk.jpg
 details:
   - heading: AUSSENENTWURF
