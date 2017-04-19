@@ -3,7 +3,7 @@ hero_image: /uploads/hero-capabilities.jpg
 intro_block:
   headline: OUR CAPABILITIES AND EXPERTISE
   details: 'Bringing our clients’ wildest interiors dreams to life is our calling and what drives us every single day. To meet this challenge, we have built ourselves into a multi-faceted company capable of delivering on every request, regardless of scope, materials and demand. Our only limitation is our clients’ imaginations.'
-services:
+<!-- services:
   - CONSULTATION
   - ENGINEERING
   - SPECIALTY MATERIALS
@@ -11,7 +11,7 @@ services:
   - ARCHITECTURAL METALWORK
   - CLASSICAL DECORATION
   - HARDWARE
-  - CARPENTRY
+  - CARPENTRY -->
 expertise:
   top:
     headline: CONSULTATION
@@ -101,7 +101,15 @@ lang: en
   </div>
 </section>
 
-<section class="list-block animated staggerFadeIn">
+<section class="text-block">
+  <div class="grid-container">
+      <div class="grid-column">
+        <h1 class="copy-text">{{page.text_block_a}}</h1>
+      </div>
+  </div>
+</section>
+
+<!-- <section class="list-block animated staggerFadeIn">
   <div class="outer grid-container">
       <div class="grid-column">
         <div class="grid-collapse">
@@ -113,7 +121,7 @@ lang: en
       </div>
       </div>
   </div>
-</section>
+</section> -->
 
 <section class="headline-block flow">
   <div class="outer grid-container">
@@ -141,13 +149,13 @@ lang: en
   </div>
 </section>
 
-<section class="text-block">
+<!-- <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
         <h1 class="copy-text">{{page.text_block_a}}</h1>
       </div>
   </div>
-</section>
+</section> -->
 
 <section class="image-text-block top">
   <div class="outer grid-container">
@@ -196,7 +204,7 @@ lang: en
               sizes="(min-width: 992px) 470px, (min-width: 1200px) 575px, (min-width: 1440px) 695px, 90vw"
             >
           </div>
-          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+          <div class="grid-column--headline both" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <div class="wrapper">
               <h2 class="header-text-condensed">{{page.capability_block_a.bottom.headline}}</h2>
               <p class="copy-text">
@@ -272,7 +280,7 @@ lang: en
               sizes="(min-width: 992px) 470px, (min-width: 1200px) 575px, (min-width: 1440px) 695px, 90vw"
             >
           </div>
-          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+          <div class="grid-column--headline both" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <div class="wrapper">
               <h2 class="header-text-condensed">{{page.capability_block_b.bottom.headline}}</h2>
               <p class="copy-text">
@@ -340,7 +348,7 @@ lang: en
               sizes="(min-width: 992px) 470px, (min-width: 1200px) 575px, (min-width: 1440px) 695px, 90vw"
             >
           </div>
-          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+          <div class="grid-column--headline both" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
             <div class="wrapper">
               <h2 class="header-text-condensed">{{page.capability_block_c.bottom.headline}}</h2>
               <p class="copy-text">
