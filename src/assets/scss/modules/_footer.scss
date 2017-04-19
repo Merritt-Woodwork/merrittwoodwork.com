@@ -43,6 +43,7 @@ footer {
     .right {
       float: right;
       height: 100%;
+      margin-right: 1rem;
     }
     .left p, .right p {
       @include vertical-align();
@@ -56,6 +57,45 @@ footer {
     }
   }
 
+  .social-wrapper-right {
+    @include breakpoint(300px, 767px) {
+      display: none;
+    }
+    float: right;
+    height: 72px;
+    a {
+      @include vertical-align();
+      display: inline-block;
+      height: 25px;
+      margin-left: .35rem;
+    }
+    img {
+      // @include vertical-align();
+      height: 25px;
+      padding-top: 1px;
+    }
+  }
+
+  .social-wrapper-bottom {
+    @include breakpoint(768px) {
+      display: none;
+    }
+    clear: both;
+    text-align: left;
+    height: 50px;
+    // margin-top: 20px;
+    a {
+      @include vertical-align();
+      display: inline-block;
+      height: 25px;
+      margin-left: .35rem;
+    }
+    img {
+      // @include vertical-align();
+      height: 25px;
+      padding-top: 1px;
+    }
+  }
 
 }
 
