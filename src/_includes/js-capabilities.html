@@ -8,17 +8,18 @@
       match: function() {
         var rellax = new Rellax('.rellax');
 
-        $('body').imagesLoaded( function() {
-          // images have loaded
-          $('.grid-column--image').each(function(){
-            var height = $(this).outerHeight()
-            $(this).siblings(".grid-column--headline.not-small" ).css( "height", height );
-            $(this).siblings(".grid-column--headline.both" ).css( "height", height );
-          })
-          $('.grid-column--headline .wrapper').each(function(){
-            $(this).css({"position": "relative", "top": "50%", "transform": "translateY(-50%)", "-ms-transform": "translateY(-50%)"});
-          })
-
+        $(function(){ // document ready
+          $('body').imagesLoaded( function() {
+            // images have loaded
+            $('.grid-column--image').each(function(){
+              var height = $(this).outerHeight()
+              $(this).siblings(".grid-column--headline.not-small" ).css( "height", height );
+              $(this).siblings(".grid-column--headline.both" ).css( "height", height );
+            })
+            $('.grid-column--headline .wrapper').each(function(){
+              $(this).css({"position": "relative", "top": "50%", "transform": "translateY(-50%)", "-ms-transform": "translateY(-50%)"});
+            })
+          });
         });
 
       },
