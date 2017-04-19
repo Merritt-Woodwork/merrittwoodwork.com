@@ -3782,6 +3782,7 @@ body.portfolio section.casestudies h3 {
 
 @media (min-width: 1200px) {
   body.portfolio section.casestudies .left, body.portfolio section.casestudies .right {
+    min-height: 676px;
     height: calc(100vh - 140px); }
   body.portfolio section.casestudies .inner {
     margin-top: 15vh; } }

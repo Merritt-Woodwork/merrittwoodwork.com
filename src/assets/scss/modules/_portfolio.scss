@@ -235,6 +235,7 @@ body.portfolio {
 
     @include breakpoint(xl) {
       .left, .right {
+        min-height: 676px;
         height: calc(100vh - 140px);
       }
       .inner {
