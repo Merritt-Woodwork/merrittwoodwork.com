@@ -3,7 +3,7 @@ role: IT Technician
 job-location: ohio
 job-type: full time
 contract: permanent
-description_markdown: 'Assist customers via phone and remote assist by troubleshooting, diagnosing, and repairing of hardware and software.&nbsp; Provide technical assistance to client on a variety of products as required for problem determination and resolution.&nbsp; Diagnose system hardware, software, and operator problems and recommends or performs remedial actions to correct problems based on knowledge of system operation.&nbsp; Verify client information and log calls with appropriate information into call tracking system.&nbsp; Perform desk side support for remediation, if needed.'
+description_markdown: 'Assist customers via phone and remote assist by troubleshooting, diagnosing, and repairing of hardware and software. Provide technical assistance to client on a variety of products as required for problem determination and resolution. Diagnose system hardware, software, and operator problems and recommends or performs remedial actions to correct problems based on knowledge of system operation. Verify client information and log calls with appropriate information into call tracking system. Perform desk side support for remediation, if needed.'
 responsibilities_markdown: >-
   * Configure, test, and troubleshoot equipment.
 
