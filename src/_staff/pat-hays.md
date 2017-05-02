@@ -3,10 +3,12 @@ name: pat hays
 title: hr director
 quote: The sense of teamwork and family at Merritt is key to our success as a company. We aim to engage and motivate our staff and ensure each employee knows how vital their contribution is individually and to the entire Merritt process.
 details: >-
-  Patricia Hays is Merritt’s human resource manager and plays a critical role in
+  Patricia Hays is Merritt’s human resource director and plays a critical role in
   maintaining and enhancing the organization’s team and structure. Pat has been
   with Merritt for three years and brings with her more than 25 years of
   experience as an HR professional.
+
+
 
 
 
@@ -17,6 +19,8 @@ details: >-
   benefits programs and day-to-day employee relations. She brings insight and
   understanding to her role and embraces the daily challenge of helping employees
   meet their personal and professional goals in the workplace.
+
+
 
 
 
