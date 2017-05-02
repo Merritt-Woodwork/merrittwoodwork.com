@@ -12,6 +12,8 @@ details: >-
 
 
 
+
+
   Prior to joining Merritt, Nick served in several senior level financial roles,
   including serving as business unit finance director and director of accounting
   operations for the private equity backed sports, entertainment and media
@@ -25,6 +27,8 @@ details: >-
 
 
 
+
+
   Nick holds a Bachelor of Science in Business Administration and a MBA from John
   Carroll University and is a certified public accountant.  Nick stays active out
   of the office playing soccer and softball, while also volunteering as a youth
@@ -33,7 +37,7 @@ details: >-
   Nick and his wife Lynn live in Chagrin Falls, Ohio with their two sons, Nicky
   and Sam.
 image: /uploads/staff-12.jpg
-display_order: 12
+display_order: 13
 _comments:
   image: file should be ~600px wide
 lang: en
