@@ -1,16 +1,14 @@
 ---
 name: nick turchan
 title: finance director
-quote: I take pride in adding value to the organization through innovation in all aspects of my role.  I am always in search of the most efficient and effective financial and operational processes.  Eliminating the friction of out dated systems and processes frees everyone up to focus on tasks that are more valuable to our external and internal customers.
+quote: I take pride in adding value to the organization through innovation in all aspects of my role.  I am always in search of the most efficient and effective financial and operational processes.
 details: >-
   Nick leads the finance and accounting function for Merritt, which also includes
-  oversight for purchasing, legal and the general administrative functions of the
+  purchasing, legal and the general administrative functions of the
   organization.  He serves as a strategic partner to the CEO, as well as other
   project and department leaders.  Nick also has responsibility for aligning
   Merritt’s systems to support growth and driving the seamless integration of
   newly acquired businesses.
-
-
 
 
 
@@ -24,8 +22,6 @@ details: >-
   multiple ERP system integrations and also brings strong financial reporting and
   strategic financial planning experience.  Nick started his career in public
   accounting with the big four firm Ernst & Young.
-
-
 
 
 
