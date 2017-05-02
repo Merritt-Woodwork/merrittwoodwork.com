@@ -11,6 +11,8 @@ details: >-
 
 
 
+
+
   Stefan and Design Woodworking joined Merritt in 2016 sharing very similar
   clients, projects and philosophies. Stefan and team have become valuable assets
   to the Merritt family and together they are approaching great new opportunities
@@ -18,10 +20,12 @@ details: >-
 
 
 
+
+
   Stefan continues in his role as a senior project principal and now oversees
   Merritt's west coast operations.
 image: /uploads/staff-8.jpg
-display_order: 7
+display_order: 8
 _comments:
   image: file should be ~600px wide
 lang: en
