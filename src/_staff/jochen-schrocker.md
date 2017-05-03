@@ -30,7 +30,7 @@ details: >-
   attention to detail and precision in execution. Jochen embodies these values
   and it informs his work and his team at Merritt every day.
 image: /uploads/staff-7.jpg
-display_order: 6
+display_number: 6
 _comments:
   image: file should be ~600px wide
 lang: en

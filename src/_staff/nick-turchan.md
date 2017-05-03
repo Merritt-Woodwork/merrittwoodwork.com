@@ -33,7 +33,7 @@ details: >-
   Nick and his wife Lynn live in Chagrin Falls, Ohio with their two sons, Nicky
   and Sam.
 image: /uploads/staff-12.jpg
-display_order: 13
+display_number: 13
 _comments:
   image: file should be ~600px wide
 lang: en

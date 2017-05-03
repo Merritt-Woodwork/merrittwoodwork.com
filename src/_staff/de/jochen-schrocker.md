@@ -11,7 +11,7 @@ details: |
 
   Vor seiner Tätigkeit bei Merritt war Jochen Schröcker Projektmanager und Geschäftsführer beim renommierten deutsch-österreichischen Unternehmen Sinnex Steinheimer Innenausbau. Deutschland ist weltweit bekannt für präzises Handwerk und Liebe zum Detail. Jochen Schröcker steht für diese Werte und fordert sie jeden Tag von sich und seinem Team bei Merritt aufs Neue ein.
 image: /uploads/staff-7.jpg
-display_order: 7
+display_number: 7
 _comments:
   image: file should be ~600px wide
 lang: de

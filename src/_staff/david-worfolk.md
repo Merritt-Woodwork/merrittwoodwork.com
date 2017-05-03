@@ -21,7 +21,7 @@ details: >-
   supporting a loyal workforce who share his commitment to quality, service and
   cooperation.
 image: /uploads/staff-9.jpg
-display_order: 8
+display_number: 8
 _comments:
   image: file should be ~600px wide
 lang: en

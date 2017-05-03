@@ -9,7 +9,7 @@ details: |
 
   Michael’s goals for Merritt today and in the future are clear: generate flawless results for our clients, mentor and motivate our company team and provide security and future opportunities to our employees, vendors, consultants and friends.
 image: /uploads/staff-1.jpg
-display_order: 1
+display_number: 1
 _comments:
   image: file should be ~600px wide
 lang: en

@@ -25,7 +25,7 @@ details: >-
   gemeinsam mit seiner Frau, zwei Söhnen und zwei Enkeln in Nordkalifornien.
   David Worfolk ist Mitglied im Lodi Unified School District School Board.
 image: /uploads/staff-9.jpg
-display_order: 9
+display_number: 9
 _comments:
   image: file should be ~600px wide
 lang: de

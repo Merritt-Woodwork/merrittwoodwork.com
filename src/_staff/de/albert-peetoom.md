@@ -9,7 +9,7 @@ details: |
 
   Albert Peetoom lebt in Savannah (USA) und ist Mitglied der Historic Savannah Foundation.
 image: /uploads/staff-6.jpg
-display_order: 6
+display_number: 6
 _comments:
   image: file should be ~600px wide
 lang: de

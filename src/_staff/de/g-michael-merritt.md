@@ -9,7 +9,7 @@ details: |
 
   Michael Merritt hat klare Ziele für die gegenwärtige und zukünftige Entwicklung des Unternehmens: einwandfreie Ergebnisse für alle Kunden, Beratung und Motivierung des Teams sowie Sicherheit und Zukunftschancen für Mitarbeiter, Anbieter, Berater und Partner.
 image: /uploads/staff-1.jpg
-display_order: 1
+display_number: 1
 _comments:
   image: file should be ~600px wide
 lang: de

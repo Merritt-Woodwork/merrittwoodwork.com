@@ -7,7 +7,7 @@ details: |
 
   Keith Merritt ist bestens mit den traditionellen Techniken des Handwerks vertraut und stärkt dadurch das Fundament des Unternehmens in der Kunst der Holzbearbeitung und Schreinerei. Gemeinsam mit seinem Team sucht er weltweit nach den besten Materialien und technologischen Neuerungen. Mit der fortschrittlichsten Ausrüstung und den kreativsten Mitarbeitern der Branche schafft das Unternehmen exquisite und imposante Schreinerarbeiten im Innenausbau.
 image: /uploads/staff-2.jpg
-display_order: 2
+display_number: 2
 _comments:
   image: file should be ~600px wide
 lang: de

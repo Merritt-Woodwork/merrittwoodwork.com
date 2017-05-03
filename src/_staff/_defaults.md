@@ -5,7 +5,7 @@ quote:
 details: |
 
 image:
-display_order:
+display_number:
 _comments:
   image: file should be ~600px wide
 lang: en

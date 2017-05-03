@@ -24,7 +24,7 @@ details: >-
   Pat Hays ist Mitglied der Society of Human Resource Management und Certified
   Professional Human Resources.
 image: /uploads/staff-13.jpg
-display_order: 14
+display_number: 14
 _comments:
   image: file should be ~600px wide
 lang: de

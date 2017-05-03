@@ -27,7 +27,7 @@ details: >-
   Pat is a member of the Society of Human Resource Management and Certified
   Professional Human Resources.
 image: /uploads/staff-13.jpg
-display_order: 14
+display_number: 14
 _comments:
   image: file should be ~600px wide
 lang: en

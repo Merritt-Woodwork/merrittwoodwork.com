@@ -9,7 +9,7 @@ details: |
 
   Stefan Sekula leitet als Senior Project Principal den Betrieb bei Merritt West.
 image: /uploads/staff-8.jpg
-display_order: 8
+display_number: 8
 _comments:
   image: file should be ~600px wide
 lang: de

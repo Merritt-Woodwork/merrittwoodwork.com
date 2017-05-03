@@ -26,7 +26,7 @@ details: >-
   und Softball. Sein Herz schlägt für Sportler und Mannschaften aus Cleveland.
   Nick Turchan hat zwei Söhne und lebt mit seiner Frau in Chagrin Falls.
 image: /uploads/staff-12.jpg
-display_order: 13
+display_number: 13
 _comments:
   image: file should be ~600px wide
 lang: de

@@ -9,7 +9,7 @@ details: |
 
   Don Alexander sitzt im Beirat der Interior School of Design der University of Akron und leitet dort als Gastdozent auch Kurse zum Design- und Projektmanagement.
 image: /uploads/staff-5.jpg
-display_order: 5
+display_number: 5
 _comments:
   image: file should be ~600px wide
 lang: de

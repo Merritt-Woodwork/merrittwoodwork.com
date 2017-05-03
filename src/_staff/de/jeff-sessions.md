@@ -9,7 +9,7 @@ details: |
 
   In seiner Freizeit beschäftigt sich Jeff Sessions mit Geschichte, Kunst und Architektur, die auch in seinem Arbeitsleben eine gewichtige Rolle spielen. Er liebt außerdem die Musik, Wandern und Reisen mit Freunden und Familie. Jeff Sessions hat 2014 den AWI Award of Excellence von Our Savior Parish Church und USC Caruso Catholic Center und 2013 den Southern California IIDA Team Award der Conrad Hilton Foundation gewonnen.
 image: /uploads/staff-10.jpg
-display_order: 10
+display_number: 10
 _comments:
   image: file should be ~600px wide
 lang: de

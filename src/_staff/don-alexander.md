@@ -23,7 +23,7 @@ details: >-
   Design and is also a guest lecturer for the school’s Design and Project
   Management courses.
 image: /uploads/staff-5.jpg
-display_order: 4
+display_number: 4
 _comments:
   image: file should be ~600px wide
 lang: en
