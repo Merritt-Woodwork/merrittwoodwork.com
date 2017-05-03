@@ -1,5 +1,5 @@
 ---
-name: jeff sessions
+name: 'jeff sessions, AIA'
 title: project PRINCIPAL
 quote: 'I am proud to have the opportunity to work within a company that holds craftsmanship, quality and customer satisfaction to the highest standards in the industry.'
 details: >-
@@ -9,6 +9,8 @@ details: >-
   Merritt, previously serving as CEO & Vice President at Wavell-Huber Wood
   Products, Inc. where he developed the company from a regional Southern
   California firm into a national architectural woodworking organization.
+
+
 
 
 
