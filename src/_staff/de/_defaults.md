@@ -4,7 +4,7 @@ title:
 quote:
 details: |
 
-image:
+image: /uploads/staff-1.jpg
 display_number:
 _comments:
   image: file should be ~600px wide
