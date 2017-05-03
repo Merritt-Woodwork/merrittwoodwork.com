@@ -13,13 +13,15 @@ details: >-
 
 
 
+
+
   In his role at DWW, David managed the financial, personnel and plant
   operations, as well as shared in project responsibilities regarding contracts,
   communications and project oversight. David takes great pride in nurturing and
   supporting a loyal workforce who share his commitment to quality, service and
   cooperation.
 image: /uploads/staff-9.jpg
-display_order: 9
+display_order: 8
 _comments:
   image: file should be ~600px wide
 lang: en
