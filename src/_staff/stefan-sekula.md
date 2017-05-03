@@ -1,13 +1,21 @@
 ---
 name: stefan sekula
 title: PROJECT PRINCIPAL
-quote: 'Producing some of the highest quality, most complex work on either coast has earned our reputation for excellence.'
+quote: 'Producing some of the highest quality, most complex work on either coast has earned us a reputation for excellence.'
 details: >-
   A woodworker by trade, Stefan Sekula’s background includes hands-on experience
   in carpentry, framing, shop drawing, fabrication, finishing and installation of
   architectural millwork. In 1989 he partnered with Design Woodworking founder
-  David Wolfolk and together they grew the Lodi, California-based company to $9
+  David Worfolk and together they grew the Lodi, California-based company to $9
   million in annual revenue.
+
+
+
+
+
+
+
+
 
 
 
@@ -21,6 +29,14 @@ details: >-
   clients, projects and philosophies. Stefan and team have become valuable assets
   to the Merritt family and together they are approaching great new opportunities
   to grow, learn and problem-solve as one.
+
+
+
+
+
+
+
+
 
 
 
