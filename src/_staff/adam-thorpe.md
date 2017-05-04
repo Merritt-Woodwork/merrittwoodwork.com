@@ -1,7 +1,7 @@
 ---
 name: Adam Thorpe
 title: Director of Classical Decoration
-quote: 'Woodworking is not only my job, but my passion. I am proud of the work we do and for the opportunity to be part of Merritt’s extraordinary team.'
+quote: 'Woodworking is not only my job, but my passion. I am proud of the work that we do and for the opportunity to be a part of Merritt’s extraordinary team.'
 details: >-
   Adam started woodcarving at an early age in his father’s home workshop in
   England. He apprenticed with British Master Carver Ian Agrell, and went on to
@@ -14,11 +14,19 @@ details: >-
 
 
 
+
+
+
+
   Adam joined Merritt in March of 2017 to lead the promotion and execution of
   design development for decorative and ornamental schemes. His responsibilities
   include ensuring effective communication of design intent through the
   manufacturing process, as well as internal and external education, and the
   marketing and promotion of classical decoration.
+
+
+
+
 
 
 
