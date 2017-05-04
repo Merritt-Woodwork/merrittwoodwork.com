@@ -14,6 +14,8 @@ details: >-
 
 
 
+
+
   Bei Design Woodworking war David Worfolk für Finanzen, Personal und
   Betriebsleitung sowie für Projektverträge, Kommunikation und Projektbetreuung
   verantwortlich. David Worfolk hat sich eine loyale Belegschaft aufgebaut, die
@@ -21,11 +23,13 @@ details: >-
 
 
 
+
+
   David Worfolk ist neben seiner Arbeit sportlich und künstlerisch aktiv. Er lebt
   gemeinsam mit seiner Frau, zwei Söhnen und zwei Enkeln in Nordkalifornien.
   David Worfolk ist Mitglied im Lodi Unified School District School Board.
 image: /uploads/staff-9.jpg
-display_number: 9
+display_number: 8
 _comments:
   image: file should be ~600px wide
 lang: de
