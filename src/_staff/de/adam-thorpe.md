@@ -7,5 +7,5 @@ image: /uploads/Adam Thorpe.jpg
 display_number: 12
 _comments:
   image: file should be ~600px wide
-lang: en
+lang: de
 ---
