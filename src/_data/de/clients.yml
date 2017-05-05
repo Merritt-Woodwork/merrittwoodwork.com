@@ -74,9 +74,8 @@
   type: architect
 - name: 'Patino Architecture, PLLC'
   type: architect
-- name: Peter Marino Architects
+- name: Peter Marino Architect
   type: architect
-- name: Portuondo Perrotti Architects
 - name: '4BI & Associés'
   type: interior designer
 - name: 'Albert Hadley, Inc.'
@@ -213,3 +212,13 @@
   type: owner rep
 - name: 'Tapestry Associates, LLC'
   type: owner rep
+- name: Alden Architecture
+  type: architect
+- name: Anderson McKelvey Architects
+  type: architect
+- name: Andrew Skurman Architects
+  type: architect
+- name: Appleton Partners LLP - Architects
+  type: architect
+- name: 'Portuondo Perotti Architects, Inc'
+  type: architect
