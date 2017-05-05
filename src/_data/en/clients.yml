@@ -32,7 +32,11 @@
   type: architect
 - name: 'Ferguson & Shamamian Architects, LLP'
   type: architect
+- name: Francis Gough Arthitect Inc.
+  type: architect
 - name: 'Frederick Fisher & Partners Architects'
+  type: architect
+- name: G2 Design
   type: architect
 - name: 'Gene Farmer &  Associates'
   type: architect
@@ -237,5 +241,3 @@
   type: owner rep
 - name: 'Tapestry Associates, LLC'
   type: owner rep
-- name: G2 Design
-  type: architect
