@@ -36,7 +36,7 @@ lang: de
     <div class="label-column">
       <h3 class="header-text-condensed">ARCHITEKTEN</h3>
     </div>
-    {% assign architects = site.data.clients | where:"type","architect" %}
+    {% assign architects = site.data.clients | where:"type","architect" | sort:"name" %}
     <div class="list-column">
       <div class="grid-collapse">
         <div class="inner-grid">
@@ -58,7 +58,7 @@ lang: de
     <div class="label-column">
       <h3 class="header-text-condensed">INNENARCHITEKTEN</h3>
     </div>
-    {% assign designers = site.data.clients | where:"type","interior designer" %}
+    {% assign designers = site.data.clients | where:"type","interior designer" | sort:"name" %}
     <div class="list-column">
       <div class="grid-collapse">
         <div class="inner-grid">
@@ -80,7 +80,7 @@ lang: de
     <div class="label-column">
       <h3 class="header-text-condensed">BAUUNTERNEHMEN UND WERFTEN</h3>
     </div>
-    {% assign builders = site.data.clients | where:"type","builder" %}
+    {% assign builders = site.data.clients | where:"type","builder" | sort:"name" %}
     <div class="list-column">
       <div class="grid-collapse">
         <div class="inner-grid">
@@ -102,7 +102,7 @@ lang: de
     <div class="label-column">
       <h3 class="header-text-condensed">EIGENTÜMER-VERTRETER</h3>
     </div>
-    {% assign owners = site.data.clients | where:"type","owner rep" %}
+    {% assign owners = site.data.clients | where:"type","owner rep" | sort:"name" %}
     <div class="list-column">
       <div class="grid-collapse">
         <div class="inner-grid">
