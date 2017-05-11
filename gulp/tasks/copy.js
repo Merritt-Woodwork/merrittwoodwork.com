@@ -14,3 +14,7 @@ gulp.task('copy:site', () =>
     .pipe(gulp.dest('dist'))
 );
 
+gulp.task('copy:redirects', () =>
+  gulp.src('_redirects')
+    .pipe(gulp.dest('dist'))
+);
