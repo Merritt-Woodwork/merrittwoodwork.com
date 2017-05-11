@@ -1,30 +1,42 @@
 ---
 name: nick turchan
 title: LEITER FINANZEN
-quote: 'Ich bin stolz darauf, durch Innovation einne Beitrag leisten zu können. Ich möchte Aufgaben stets möglichst effizient und effektiv erledigen, damit sich die Geschäftsführer eben auf die Führung der Geschäfte konzentrieren können.'
+quote: 'Ich bin stolz darauf, durch Innovation in allen Aspekten meiner Funktion zum Unternehmenserfolg beizutragen. Ich bin stets auf der Suche nach den effizientesten und effektivsten Finanz- und Betriebsabläufen.'
 details: >-
-  Nick Turchan leitet die Finanz- und Rechnungsabteilung von Merritt. Er berät
-  als strategischer Partner die Unternehmensleitung und steht auch anderen
-  Abteilungsleitern beratend zur Seite. Darüber hinaus kümmert er sich um
-  sämtliche Finanz- und Buchhaltungsfragen bei der Integration neu erworbener
-  Unternehmen.
+  Nick Turchan leitet die Bereiche Finanzen und Buchhaltung bei Merritt, wozu
+  auch die Beschaffung, das Rechtswesen und allgemeine Verwaltungsaufgaben im
+  Unternehmen gehören. Er fungiert als strategischer Partner der
+  Unternehmensleitung und berät auch Abteilungsleiter. Herr Turchan ist auch für
+  die wachstumsorientierte Ausrichtung von Merritts Systemen und die nahtlose
+  Integration neu erworbener Unternehmen federführend zuständig.
 
 
 
-  Nick Turchan ist amtlich zugelassener Buch- und Rechnungsprüfer in Ohio und
-  bringt seine 13-jährige Erfahrung mit finanziellen und betrieblichen Abläufen
-  aus früheren Tätigkeiten in zahlreichen Branchen bei Merritt ein. Seine frühren
-  Positionen als Senior Auditor bei Ernst & Young, als Corporate Accounting
-  Manager und Auditor bei der Anthony & Sylva Pools Corporation, als Director of
-  Finance für Cleveland Cavaliers und als Director of Accounting Operations für
-  die Sportrechtevermarktungsgruppe IMG haben ihn optimal auf die schnelllebigen
-  und in stetigem Wandel befindlichen Betriebsabläufe bei Merritt vorbereitet.
+
+
+  Vor seiner Zeit bei Merritt besetzte Herr Turchan verschiedene
+  Führungspositionen im Finanzwesen, u. a. als Finanzleiter eines
+  Geschäftsbereichs und Buchhaltungsleiter für IMG, ein in den Sparten Sport,
+  Unterhaltung und Medien tätiger, eigenkapitalfinanzierter Mischkonzern. Zudem
+  leitete er die Finanzabteilung von Cleveland Cavaliers sowie zuvor das Audit-
+  und Konzernrechnungswesen von Anthony & Sylvan Pools, dem größten
+  Schwimmbad-Bauunternehmen der USA. Herr Turchan spielte bei mehreren
+  Akquisitionen im Wert von 1 bis 110 Millionen USD und diversen
+  ERP-Systemintegrationen eine zentrale Rolle und verfügt über umfassende
+  Erfahrung auf den Gebieten Finanzberichterstattung und strategische
+  Finanzplanung. Herr Turchan begann seine berufliche Laufbahn im öffentlichen
+  Rechnungswesen der „Big-Four“-Prüfungsgesellschaft Ernst & Young.
 
 
 
-  Nick Turchan ist auch außerhalb des Büros aktiv und spielt Fußball, Volleyball
-  und Softball. Sein Herz schlägt für Sportler und Mannschaften aus Cleveland.
-  Nick Turchan hat zwei Söhne und lebt mit seiner Frau in Chagrin Falls.
+
+
+  Er hat einen Bachelor-Abschluss in Betriebswirtschaftslehre und einen
+  MBA-Abschluss von der John Carroll University und ist als Wirtschaftsprüfer
+  zugelassen. In seiner Freizeit spielt Herr Turchan gern Fußball und Softball
+  und ist ehrenamtlicher Trainer für die Jugendliga im Fußball und Baseball.
+  Gemeinsam mit seiner Frau und den beiden Söhnen Nicky und Sam lebt Herr Turchan
+  in Chagrin Falls, Ohio.
 image: /uploads/staff-12.jpg
 display_number: 13
 _comments:

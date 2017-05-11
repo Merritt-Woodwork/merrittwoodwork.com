@@ -1,5 +1,5 @@
 ---
-name: jeff sessions
+name: 'jeff sessions, AIA'
 title: PROJEKTLEITER
 quote: 'Ich bin stolz auf meine Chance, in einem Unternehmen zu arbeiten, das höchsten Wert auf Handwerkskunst, Qualität und Kundenzufriedenheit legt.'
 details: >-
@@ -11,9 +11,13 @@ details: >-
 
 
 
+
+
   Jeff Sessions verfügt über einen Master in Architektur der California
   Polytechnic University und einen BA mit Schwerpunkt in Environmental Design der
   San Diego State University.
+
+
 
 
 
