@@ -50,29 +50,29 @@
     });
   }
 
-  // $(function(){ // document ready
+  jQuery(document).ready(function(){ // document ready
     // init Isotope
-    // var $grid = $('.grid').isotope({
-    //     // options
-    //     itemSelector: '.grid-item',
-    //     masonry: {
-    //       columnWidth: '.grid-sizer',
-    //       gutter: '.gutter-sizer',
-    //       percentPosition: true
-    //     }
-    //   });
+    $('.grid').isotope({
+        // options
+        itemSelector: '.grid-item',
+        masonry: {
+          columnWidth: '.grid-sizer',
+          gutter: '.gutter-sizer',
+          percentPosition: true
+        }
+      });
 
     // trigger layout after each image loads to avoid overlap
-    // $('.grid').imagesLoaded().progress( function() {
-    //   console.log('images loaded!');
-    //   $grid.isotope('layout');
-    // });
+    $('.grid').imagesLoaded().progress( function() {
+      console.log('an image loaded!');
+      $('.grid').isotope('layout');
+    });
     // $grid.imagesLoaded(function() {
     //   console.log('images loaded!');
     //   $('.grid').isotope('layout');
     // });
 
-  // });
+  });
 
 
   })();
@@ -81,19 +81,19 @@
 
 
 <script>
-  $(function(){ // document ready
-    var $grid = $('.grid').isotope({
-      // options
-      itemSelector: '.grid-item',
-      masonry: {
-        columnWidth: '.grid-sizer',
-        gutter: '.gutter-sizer',
-        percentPosition: true
-      }
-    });
-    $grid.imagesLoaded(function() {
-      console.log('images loaded!');
-      $('.grid').isotope('layout');
-    });
-  });
+  // $(function(){ // document ready
+  //   var $grid = $('.grid').isotope({
+  //     // options
+  //     itemSelector: '.grid-item',
+  //     masonry: {
+  //       columnWidth: '.grid-sizer',
+  //       gutter: '.gutter-sizer',
+  //       percentPosition: true
+  //     }
+  //   });
+  //   $grid.imagesLoaded(function() {
+  //     console.log('images loaded!');
+  //     $grid.isotope('layout');
+  //   });
+  // });
 </script>
