@@ -21,8 +21,12 @@
     });
 
     // trigger layout after each image loads to avoid overlap
-    $('.grid').imagesLoaded().progress(function() {
-      $grid.isotope('layout');
+    // $('.grid').imagesLoaded().progress(function() {
+    //   $grid.isotope('layout');
+    // });
+    $grid.imagesLoaded(function() {
+      console.log('image loaded!');
+      $('.grid').isotope('layout');
     });
 
     // AOS.init();

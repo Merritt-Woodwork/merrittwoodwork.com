@@ -90,12 +90,6 @@
     var $grid = $('.grid').isotope({
       // options
       itemSelector: '.grid-item',
-      // hiddenStyle: {
-      //   opacity: 0 // this allows AOS to handle these transitions on scroll
-      // },
-      // visibleStyle: {
-      //   opacity: 1 // this allows AOS to handle these transitions on scroll
-      // },
       masonry: {
         columnWidth: '.grid-sizer',
         gutter: '.gutter-sizer',
@@ -104,8 +98,12 @@
     });
 
     // trigger layout after each image loads to avoid overlap
-    $grid.imagesLoaded().progress(function() {
-      // console.log('image loaded!');
+    // $grid.imagesLoaded().progress(function() {
+    //   console.log('image loaded!');
+    //   $('.grid').isotope('layout');
+    // });
+    $grid.imagesLoaded(function() {
+      console.log('images loaded!');
       $('.grid').isotope('layout');
     });
 
