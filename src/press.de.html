@@ -40,7 +40,8 @@ lang: de
       <div class="grid">
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
-        {% for item in site.press %}
+        {% assign press = site.press | sort:"press_date" | reverse %}
+        {% for item in press %}
         {% assign pdf = item.pdf_path | size %}
 
                         {% comment %}
