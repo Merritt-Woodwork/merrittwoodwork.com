@@ -75,10 +75,6 @@ collections:
   press:
     output: false
     _hide_content: true
-    _comments:
-      image: file should be 500px wide
-      pdf_path: to link to a pdf
-      press_link: to link to an external url
 
 defaults:
   -
@@ -244,6 +240,15 @@ defaults:
     values:
       layout: "job"
       class: "job"
+  -
+    scope:
+      path: ""
+      type: "press"
+    values:
+      _comments:
+        press_image: file should be 500px wide
+        pdf_path: to link to a pdf
+        press_link: to link to an external url
   -
     scope:
       path: ""
