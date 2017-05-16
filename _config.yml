@@ -42,7 +42,7 @@ about:
 clients:
   en: clients
   de: KUNDEN
-press:
+presslink:
   en: press
   de: PRESSE
 careers:
@@ -72,6 +72,13 @@ collections:
     output: true
     permalink: /careers/:slug/
     _hide_content: true
+  press:
+    output: false
+    _hide_content: true
+    _comments:
+      image: file should be 500px wide
+      pdf_path: to link to a pdf
+      press_link: to link to an external url
 
 defaults:
   -
