@@ -1,8 +1,9 @@
 ---
 lang: de
 ---
-{% assign translation = site.pages | where:'original','about' %}
+{% assign translation = site.pages | where:'source','about' %}
 {% for page in translation %}
+
 
 <section class="hero">
   <div class="grid-container fluid">
