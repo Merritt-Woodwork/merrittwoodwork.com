@@ -57,5 +57,5 @@ _comments:
   link: where the 'next' link takes you
   title: for meta property='og:title'
   description: (optional) for meta property='og:description'
-lang: de
+_hide_content: true
 ---
