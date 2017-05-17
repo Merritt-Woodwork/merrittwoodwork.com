@@ -24,7 +24,11 @@
     // });
     $grid.imagesLoaded(function() {
       console.log('images all loaded!');
-      $('.grid').isotope('layout');
+      var setLayout = function(){
+        $('.grid').isotope('layout');
+        console.log('layout set!');
+      };
+      setTimeout(setLayout, 400);
     });
 
     // AOS.init();
