@@ -1,5 +1,5 @@
 <script>
-(function() {
+$(function(){ // document ready
 
   smoothScroll.init({
     easing: 'easeInOutCubic',
@@ -85,7 +85,7 @@
   });
 
 
-  $(function(){ // document ready
+
     // init Isotope
     var $grid = $('.grid').isotope({
       // options
@@ -103,8 +103,12 @@
     //   $('.grid').isotope('layout');
     // });
     $grid.imagesLoaded(function() {
-      console.log('images loaded!');
-      $('.grid').isotope('layout');
+      console.log('images all loaded!');
+      var setLayout = function(){
+        $('.grid').isotope('layout');
+        console.log('layout set!');
+      };
+      setTimeout(setLayout, 400);
     });
 
     $('.tabs').on('click', '.isoFilter', function(e) {
@@ -119,12 +123,6 @@
 
     // AOS.init();
 
-  });
+});
 
-
-
-
-
-
-})();
 </script>

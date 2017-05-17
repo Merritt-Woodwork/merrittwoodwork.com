@@ -1,5 +1,5 @@
 <script>
-  (function() {
+  $(function(){ // document ready
 
     enquire.register("screen and (min-width:992px)", {
 
@@ -50,7 +50,7 @@
     });
   }
 
-  $(function(){ // document ready
+
     // init Isotope
     var $grid = $('.grid').isotope({
       // options
@@ -69,8 +69,16 @@
     });
 
     // trigger layout after each image loads to avoid overlap
-    $('.grid').imagesLoaded().progress( function() {
-      $grid.isotope('layout');
+    // $('.grid').imagesLoaded().progress( function() {
+    //   $grid.isotope('layout');
+    // });
+    $grid.imagesLoaded(function() {
+      console.log('images all loaded!');
+      var setLayout = function(){
+        $('.grid').isotope('layout');
+        console.log('layout set!');
+      };
+      setTimeout(setLayout, 400);
     });
 
     $('.tabs').on( 'click', '.isoFilter', function(e) {
@@ -85,5 +93,4 @@
 
   });
 
-  })();
 </script>
