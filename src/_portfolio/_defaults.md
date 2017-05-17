@@ -1,0 +1,5 @@
+---
+title:
+image:
+work-type:
+---

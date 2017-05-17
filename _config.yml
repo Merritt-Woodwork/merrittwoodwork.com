@@ -30,25 +30,25 @@ job-types:
   - part time
 
 # multi-language
-portfolio:
+portfolio-link:
   en: portfolio
   de: portfolio
-capabilities:
+capabilities-link:
   en: capabilities
   de: LEISTUNGEN
-about:
+about-link:
   en: about
   de: INFORMATIONEN
-clients:
+clients-link:
   en: clients
   de: KUNDEN
-presslink:
+press-link:
   en: press
   de: PRESSE
-careers:
+careers-link:
   en: careers
   de: STELLENANGEBOTE
-contact:
+contact-link:
   en: contact
   de: KONTAKT
 copyright:
@@ -73,6 +73,9 @@ collections:
     permalink: /careers/:slug/
     _hide_content: true
   press:
+    output: false
+    _hide_content: true
+  portfolio:
     output: false
     _hide_content: true
 
@@ -249,6 +252,13 @@ defaults:
         press_image: file should be 500px wide
         pdf_path: to link to a pdf
         press_link: to link to an external url
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+      _comments:
+        image: image should not be wider or taller tha  ~1200px
   -
     scope:
       path: ""
