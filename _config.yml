@@ -265,9 +265,33 @@ defaults:
       _hide_content: true
   -
     scope:
+      path: "german-index.md"
+    values:
+      source: index
+      _hide_content: true
+  -
+    scope:
+      path: "german-capabilities.md"
+    values:
+      source: capabilities
+      _hide_content: true
+  -
+    scope:
       path: "german-about.md"
     values:
-      original: 'about'
+      source: about
+      _hide_content: true
+  -
+    scope:
+      path: "german-careers.md"
+    values:
+      source: careers
+      _hide_content: true
+  -
+    scope:
+      path: "german-contact.md"
+    values:
+      source: contact
       _hide_content: true
 
 
