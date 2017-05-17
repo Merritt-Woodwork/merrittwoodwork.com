@@ -1,7 +1,4 @@
 <script>
-  (function() {
-
-
   $(function(){ // document ready
     // init Isotope
     var $grid = $('.grid').isotope({
@@ -26,13 +23,11 @@
     //   $grid.isotope('layout');
     // });
     $grid.imagesLoaded(function() {
-      console.log('image loaded!');
+      console.log('images all loaded!');
       $('.grid').isotope('layout');
     });
 
     // AOS.init();
 
   });
-
-  })();
 </script>
