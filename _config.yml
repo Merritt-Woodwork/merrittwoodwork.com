@@ -263,6 +263,13 @@ defaults:
       layout: "cms"
       permalink: "/cms/"
       _hide_content: true
+  -
+    scope:
+      path: "german-about.md"
+    values:
+      original: 'about'
+      _hide_content: true
+
 
 
 languages: ["en", "de"]
