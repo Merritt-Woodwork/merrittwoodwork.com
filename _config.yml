@@ -271,6 +271,12 @@ defaults:
       _hide_content: true
   -
     scope:
+      path: "german-portfolio.md"
+    values:
+      source: 'portfolio'
+      _hide_content: true
+  -
+    scope:
       path: "german-capabilities.md"
     values:
       source: 'capabilities'

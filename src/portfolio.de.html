@@ -1,0 +1,169 @@
+---
+gallery_items:
+  - image: /uploads/gallery-1.jpg
+    work-type: traditional
+  - image: /uploads/gallery-2.jpg
+    work-type: contemporary
+  - image: /uploads/gallery-3.jpg
+    work-type: transitional
+  - image: /uploads/gallery-4.jpg
+    work-type: contemporary
+  - image: /uploads/gallery-5.jpg
+    work-type: contemporary
+  - image: /uploads/gallery-6.jpg
+    work-type: traditional
+  - image: /uploads/gallery-7.jpg
+    work-type: traditional
+  - image: /uploads/gallery-8.jpg
+    work-type: contemporary
+  - image: /uploads/gallery-9.jpg
+    work-type: contemporary
+  - image: /uploads/gallery-10.jpg
+    work-type: contemporary
+  - image: /uploads/gallery-11.jpg
+    work-type: traditional
+  - image: /uploads/gallery-12.jpg
+    work-type: transitional
+  - image: /uploads/gallery-13.jpg
+    work-type: transitional
+  - image: /uploads/gallery-14.jpg
+    work-type: superyacht
+  - image: /uploads/gallery-15.jpg
+    work-type: traditional
+  - image: /uploads/gallery-16.jpg
+    work-type: superyacht
+  - image: /uploads/gallery-17.jpg
+    work-type: traditional
+  - image: /uploads/gallery-18.jpg
+    work-type: traditional
+  - image: /uploads/gallery-19.jpg
+    work-type: traditional
+  - image: /uploads/gallery-20.jpg
+    work-type: traditional
+  - image: /uploads/gallery-21.jpg
+    work-type: superyacht
+  - image: /uploads/gallery-22.jpg
+    work-type: transitional
+  - image: /uploads/gallery-23.jpg
+    work-type: superyacht
+  - image: /uploads/gallery-24.jpg
+    work-type: transitional
+next:
+  name: leistungen
+  link: /capabilities/
+title: Portfolio
+description: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
+_comments:
+  next: "the'next' link"
+  name: "the text of the 'next' link"
+  link: "where the 'next' link takes you"
+  image: image should not be wider or taller tha  ~1200px
+  title: for meta property='og:title'
+  description: (optional) for meta property='og:description'
+lang: de
+---
+
+<section class="casestudies">
+  <h3 class="header-text-condensed">KUNDENBEISPIELE</h3>
+  <div class="left"></div>
+  {% assign casestudies = site.case_studies | sort:"list_order" %}
+  {% assign first_case_study = casestudies | first %}
+  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
+
+  <div class="grid-container">
+      <div class="grid-column">
+        <div class="inner animated customFadeInUp">
+          {% for item in casestudies %}
+            <div>
+              <a href="{{item.url}}" class="casestudy" data-img="{{item.portfolio_image}}">
+                <h5 class="header-text">
+                  {% if item.work-type == 'superyacht' %}superyacht
+                  {% elsif item.work-type == 'traditional' %}TRADITIONELL
+                  {% elsif item.work-type == 'transitional' %}KLASSISCH MODERN
+                  {% elsif item.work-type == 'contemporary' %}MODERN
+                  {% endif %}
+                </h5>
+                <h2 class="header-text-condensed">{{item.title}}</h2>
+              </a>
+            </div>
+
+          {% endfor %}
+
+      </div>
+      <a data-scroll href="#gallery" class="view header-text-condensed animated staggerFadeIn" id="header-video__play-trigger"><span>GALERIE ANZEIGEN</span></a>
+  </div>
+</section>
+
+<section id="gallery" class="gallery-tabs">
+  <div class="full-grid-container">
+    <div class="grid-column">
+      <h3 class="header-text-condensed">GALERIE</h3>
+      <div class="header-text tabs">
+        <div class="mobile-wrapper">
+          <a href="" class="isoFilter active" data-filter="*">alle</a>
+        </div>
+        <div class="mobile-wrapper">
+          <a href="" class="isoFilter" data-filter=".superyacht">SUPERYACHTEN</a>
+        </div>
+        <div class="mobile-wrapper">
+          <a href="" class="isoFilter" data-filter=".contemporary">MODERNE WOHNHÄUSER</a>
+        </div>
+        <div class="mobile-wrapper">
+          <a href="" class="isoFilter" data-filter=".transitional">KLASSISCH MODERNE WOHNHÄUSER</a>
+        </div>
+        <div class="mobile-wrapper">
+          <a href="" class="isoFilter" data-filter=".traditional">TRADITIONELLE WOHNHÄUSER</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="grid-container">
+    <div class="grid-column">
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+        {% for item in page.gallery_items %}
+                                    {% comment %}
+                                      {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
+                                    {% endcomment %}
+          <div class="grid-item {{item.work-type}}">
+            <a data-remodal-target="modal-{{item.image}}">
+              <img
+                ix-path="{{item.image}}"
+                ix-params='{
+                  "auto": "compress"
+                }'
+                sizes="(min-width: 800px) 20vw, 30vw"
+
+              >
+            </a>
+          </div>
+          <div class="remodal" data-remodal-id="modal-{{item.image}}">
+            <img src="{{item.image}}" data-remodal-action="close" class="remodal-close">
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="next">
+  <div class="grid-container">
+    <div class="grid-column">
+      <div class="color"></div>
+    </div>
+  </div>
+  <div class="center">
+    <div class="link-wrapper">
+      <a href="{{page.next.link}}">
+        <h5 class="header-text">weiter</h5>
+        <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
+      </a>
+    </div>
+  </div>
+</section>
