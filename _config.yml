@@ -279,36 +279,42 @@ defaults:
     values:
       source: 'index'
       _hide_content: true
+      permalink: "/german-index/"
   -
     scope:
       path: "german-portfolio.md"
     values:
       source: 'portfolio'
       _hide_content: true
+      permalink: "/german-portfolio/"
   -
     scope:
       path: "german-capabilities.md"
     values:
       source: 'capabilities'
       _hide_content: true
+      permalink: "/german-capabilities/"
   -
     scope:
       path: "german-about.md"
     values:
       source: 'about'
       _hide_content: true
+      permalink: "/german-about/"
   -
     scope:
       path: "german-careers.md"
     values:
       source: 'careers'
       _hide_content: true
+      permalink: "/german-careers/"
   -
     scope:
       path: "german-contact.md"
     values:
       source: 'contact'
       _hide_content: true
+      permalink: "/german-contact/"
 
 
 
