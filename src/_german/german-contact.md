@@ -1,4 +1,5 @@
 ---
+_source: 'contact'
 title: German Contact
 headline: ALS KUNSTTISCHLER MACHEN WIR IHRE TRÄUME BEIM INNENAUSBAU WAHR.
 next:
@@ -12,5 +13,4 @@ _comments:
   link: where the 'next' link takes you
   title: for meta property='og:title'
   description: (optional) for meta property='og:description'
-_hide_content: true
 ---

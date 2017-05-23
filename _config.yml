@@ -78,6 +78,9 @@ collections:
   portfolio:
     output: false
     _hide_content: true
+  german:
+    output: false
+    _hide_content: true
 
 defaults:
   -
@@ -273,48 +276,7 @@ defaults:
       layout: "cms"
       permalink: "/cms/"
       _hide_content: true
-  -
-    scope:
-      path: "german-index.html"
-    values:
-      source: 'index'
-      _hide_content: true
-      permalink: "/german-index/"
-  -
-    scope:
-      path: "german-portfolio.html"
-    values:
-      source: 'portfolio'
-      _hide_content: true
-      permalink: "/german-portfolio/"
-  -
-    scope:
-      path: "german-capabilities.html"
-    values:
-      source: 'capabilities'
-      _hide_content: true
-      permalink: "/german-capabilities/"
-  -
-    scope:
-      path: "german-about.html"
-    values:
-      source: 'about'
-      _hide_content: true
-      permalink: "/german-about/"
-  -
-    scope:
-      path: "german-careers.html"
-    values:
-      source: 'careers'
-      _hide_content: true
-      permalink: "/german-careers/"
-  -
-    scope:
-      path: "german-contact.html"
-    values:
-      source: 'contact'
-      _hide_content: true
-      permalink: "/german-contact/"
+
 
 
 

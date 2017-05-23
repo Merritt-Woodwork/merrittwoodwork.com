@@ -1,4 +1,5 @@
 ---
+_source: 'about'
 title: German About
 hero_image: /uploads/hero-about.jpg
 intro_block:
@@ -44,5 +45,4 @@ _comments:
   link: where the 'next' link takes you
   title: for meta property='og:title'
   description: (optional) for meta property='og:description'
-_hide_content: true
 ---

@@ -1,4 +1,5 @@
 ---
+_source: 'index'
 title: German Index
 video:
   headline: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
@@ -18,5 +19,4 @@ _comments:
   link: where the 'next' link takes you
   title: for meta property='og:title'
   description: (optional) for meta property='og:description'
-_hide_content: true
 ---

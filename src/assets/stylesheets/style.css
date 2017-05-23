@@ -2103,6 +2103,14 @@ section.jumbo-hero {
       letter-spacing: 1px;
       display: inline-block; }
     .lang a.active {
+      color: #a45833; }
+    .lang span {
+      font-size: 12px;
+      color: #a7a7a7;
+      font-weight: 100;
+      letter-spacing: 1px;
+      display: inline-block; }
+    .lang span.active {
       color: #a45833; } }
 
 header {
