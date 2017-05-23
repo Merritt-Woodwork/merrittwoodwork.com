@@ -1,6 +1,6 @@
 ---
 _source: 'careers'
-title: German Careers
+title: Stellenangebote
 headline: MERRITT IST EIN DYNAMISCHES, INNOVATIVES UNTERNEHMEN, DAS DIE HOLZBAU- UND SCHREINEREIBRANCHE VON INNEN HERAUS REVOLUTIONIERT.
 culture_block:
   headline: UNTERNEHMEN-SKULTUR

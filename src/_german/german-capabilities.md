@@ -1,6 +1,6 @@
 ---
 _source: 'capabilities'
-title: German Capabilities
+title: Leistungen
 hero_image: /uploads/hero-capabilities.jpg
 intro_block:
   headline: UNSERE LEISTUNGEN UND EXPERTISE

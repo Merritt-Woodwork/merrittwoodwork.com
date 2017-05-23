@@ -1,10 +1,10 @@
 ---
-_source: 'contact'
-headline: ALS KUNSTTISCHLER MACHEN WIR IHRE TRÄUME BEIM INNENAUSBAU WAHR.
+_source: 'clients'
+headline: WANN IMMER PERFEKTION GEFRAGT IST, ENTSCHEIDEN SICH AUSGEZEICHNETE UND ANSPRUCHSVOLLE ARCHITEKTEN, DESIGNER, BAUUNTERNEHMER UND EIGENTÜMER FÜR MERRITT.
 next:
-  name: stellenangebote
-  link: /careers/
-title: Kontakt
+  name: presse
+  link: /press/
+title: Kunden
 description: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
 _comments:
   next: the'next' link
