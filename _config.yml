@@ -275,7 +275,7 @@ defaults:
       _hide_content: true
   -
     scope:
-      path: "german-index.md"
+      path: "german-index.html"
     values:
       source: 'index'
       _hide_content: true
