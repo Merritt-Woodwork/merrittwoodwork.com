@@ -47,7 +47,6 @@ text_block_b: Durch stetige Innovation und eine Leidenschaft für Perfektion set
 next:
   name: kunden
   link: /clients/
-description: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
 _comments:
   hero_image: file should be ~2000px wide
   left_image: file should be ~800px wide
@@ -57,5 +56,4 @@ _comments:
   name: "the text of the 'next' link"
   link: "where the 'next' link takes you"
   title: "for meta property='og:title'"
-  description: "(optional) for meta property='og:description'"
 ---

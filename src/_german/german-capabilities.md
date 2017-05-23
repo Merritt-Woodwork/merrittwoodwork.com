@@ -50,7 +50,6 @@ next:
   name: INFORMATIONEN
   link: /about/
 title: Leistungen
-description: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
 _comments:
   hero_image: file should be ~2000px wide
   image: file should be ~1000px wide
@@ -58,5 +57,4 @@ _comments:
   name: the text of the 'next' link
   link: where the 'next' link takes you
   title: for meta property='og:title'
-  description: (optional) for meta property='og:description'
 ---

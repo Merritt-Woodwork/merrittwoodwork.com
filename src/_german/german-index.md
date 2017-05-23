@@ -9,7 +9,6 @@ text_block: Innovation ist unser Antrieb. Mit unseren Holz- und Schreinerarbeite
 next:
   name: portfolio
   link: /portfolio/
-description: ZEITGEMÄSSE UND MASSGEFERTIGTE HOLZ- UND SCHREINERARBEITEN.
 _comments:
   video: set the video source and text
   placeholder_image: a still from the video source
@@ -17,5 +16,4 @@ _comments:
   name: "the text of the 'next' link"
   link: "where the 'next' link takes you"
   title: "for meta property='og:title'"
-  description: "(optional) for meta property='og:description'"
 ---
