@@ -282,35 +282,35 @@ defaults:
       permalink: "/german-index/"
   -
     scope:
-      path: "german-portfolio.md"
+      path: "german-portfolio.html"
     values:
       source: 'portfolio'
       _hide_content: true
       permalink: "/german-portfolio/"
   -
     scope:
-      path: "german-capabilities.md"
+      path: "german-capabilities.html"
     values:
       source: 'capabilities'
       _hide_content: true
       permalink: "/german-capabilities/"
   -
     scope:
-      path: "german-about.md"
+      path: "german-about.html"
     values:
       source: 'about'
       _hide_content: true
       permalink: "/german-about/"
   -
     scope:
-      path: "german-careers.md"
+      path: "german-careers.html"
     values:
       source: 'careers'
       _hide_content: true
       permalink: "/german-careers/"
   -
     scope:
-      path: "german-contact.md"
+      path: "german-contact.html"
     values:
       source: 'contact'
       _hide_content: true
