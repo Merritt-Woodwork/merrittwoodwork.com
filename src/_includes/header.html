@@ -2,7 +2,7 @@
   <div class="lang">
     {% if jekyll.environment == 'production' %}
       {% assign english = site.cloudcannonurl %}
-      {% assign german = site.cloudcannonurl | append: '/de' %}
+      {% assign german = site.cloudcannonurl | append: 'de' %}
 
       {% if site.active_lang == 'de' %}
         <a href="{{english}}" class="header-text">EN</a> | <span class="header-text active">DE</span>
