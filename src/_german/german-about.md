@@ -10,7 +10,7 @@ image_pair_a:
   left_image_caption:
   right_image: /uploads/about-2.jpg
   right_image_caption:
-text_block_a: Für außergewöhnliche Häuser und Superjachten ist nur das Beste gut genug.
+text_block_a: Für außergewöhnliche Häuser und Superjachten ist nur das Beste gut genug..
 headline_block_a:
   headline: 'ZEITLOSES HANDWERK, MODERNSTE TECHNOLOGIE'
   details: Merritt revolutioniert den Möbel- und Innenausbau von innen heraus. Als familiengeführtes Unternehmen setzt Merritt seit fünfzig Jahren auf starke Ideale.
@@ -25,6 +25,8 @@ headline_block_b:
     Merritt hat sich einen Ruf als Perfektionist und Künstler erarbeitet, dank
     dem er sich mit Kunstschreiner- und Holzbauarbeiten von höchster Qualität in
     der Region etablieren konnte.
+
+
 
 
 
