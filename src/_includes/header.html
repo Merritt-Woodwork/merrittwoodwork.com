@@ -1,11 +1,24 @@
 <div class="fixed-header-wrapper">
   <div class="lang">
-    {% assign english = site.url %}
-    {% assign german = site.url | append: '/de' %}
-    {% if site.active_lang == 'de' %}
-      <a href="{{english}}" class="header-text">EN</a> | <span class="header-text active">DE</span>
+
+    {% if jekyll.environment == 'production' %}
+      {% assign english = site.cloudcannonurl %}
+      {% assign german = site.cloudcannonurl | append: '/de' %}
+
+      {% if jekyll.environment == 'de' site.active_lang == 'de' %}
+        <a href="{{english}}" class="header-text">EN</a> | <span class="header-text active">DE</span>
+      {% else %}
+        <span class="header-text active">EN</span> | <a href="{{german}}" class="header-text">DE</a>
+      {% endif %}
     {% else %}
-      <span class="header-text active">EN</span> | <a href="{{german}}" class="header-text">DE</a>
+      {% assign english = site.url %}
+      {% assign german = site.url | append: '/de' %}
+
+      {% if jekyll.environment == 'de' site.active_lang == 'de' %}
+        <a href="{{english}}" class="header-text">EN</a> | <span class="header-text active">DE</span>
+      {% else %}
+        <span class="header-text active">EN</span> | <a href="{{german}}" class="header-text">DE</a>
+      {% endif %}
     {% endif %}
   </div>
   <header class="grid-container">
