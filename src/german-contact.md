@@ -1,4 +1,5 @@
 ---
+title: German Contact
 headline: ALS KUNSTTISCHLER MACHEN WIR IHRE TRÄUME BEIM INNENAUSBAU WAHR.
 next:
   name: stellenangebote

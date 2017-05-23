@@ -1,4 +1,5 @@
 ---
+title: German Capabilities
 hero_image: /uploads/hero-capabilities.jpg
 intro_block:
   headline: UNSERE LEISTUNGEN UND EXPERTISE

@@ -1,4 +1,5 @@
 ---
+title: German About
 hero_image: /uploads/hero-about.jpg
 intro_block:
   headline: LEIDENSCHAFT IST UNSER ANTRIEB
