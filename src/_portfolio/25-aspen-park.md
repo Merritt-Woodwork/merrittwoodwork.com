@@ -1,5 +1,5 @@
 ---
 title: 25-aspen-park
-image:
-work-type:
+image: /uploads/aspen-3.jpg
+work-type: contemporary
 ---
