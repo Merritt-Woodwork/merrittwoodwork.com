@@ -1,5 +1,5 @@
 ---
 title: Aspen Park 1
-image:
-work-type:
+image: /uploads/Aspen Park 1.jpg
+work-type: contemporary
 ---
