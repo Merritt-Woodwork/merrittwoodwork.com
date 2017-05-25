@@ -261,7 +261,7 @@ defaults:
       type: "portfolio"
     values:
       _comments:
-        image: image should not be wider or taller tha  ~1200px
+        image: image should not be wider or taller than  ~1200px
   -
     scope:
       path: ""

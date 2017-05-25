@@ -70,7 +70,7 @@ lang: en
       <div class="grid">
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
-        {% assign gallery_items = site.portfolio | sort:"title" | reverse %}
+        {% assign gallery_items = site.portfolio | sort:"title" %}
         {% for item in gallery_items %}
                                     {% comment %}
                                       {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
