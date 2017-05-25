@@ -1,5 +1,5 @@
 ---
 title: 30-aspen-park
-image:
-work-type:
+image: /uploads/AspenPark-6.jpg
+work-type: contemporary
 ---
