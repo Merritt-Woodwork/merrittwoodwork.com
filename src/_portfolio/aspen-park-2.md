@@ -1,5 +1,5 @@
 ---
 title: Aspen Park 2
-image:
-work-type:
+image: /uploads/AspenPark-2.jpg
+work-type: contemporary
 ---
