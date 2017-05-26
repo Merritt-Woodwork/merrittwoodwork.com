@@ -1,5 +1,5 @@
 ---
 title: 32-cakewalk
-image:
-work-type:
+image: /uploads/cakewalk-2.jpg
+work-type: superyacht
 ---
