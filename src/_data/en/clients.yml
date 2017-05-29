@@ -298,8 +298,6 @@
   type: interior designer
 - name: Kitchell Brusnighan Interior Design Associates
   type: interior designer
-- name: Five Design
-  type: interior designer
 - name: Misugi Design Inc.
   type: interior designer
 - name: Seccombe Design Associates
@@ -338,3 +336,73 @@
   type: builder
 - name: Espen Øino International
   type: interior designer
+- name: Sands Construction Co Inc
+  type: builder
+- name: Remick Associates
+  type: architect
+- name: 'Richard Meier & Partners Architects, LLP'
+  type: architect
+- name: Tim Hruska
+  type: owner rep
+- name: 'Robert Maschke Architects, Inc.'
+  type: architect
+- name: Roger Ferris + Partners
+  type: architect
+- name: 'Sawyer | Berson'
+  type: architect
+- name: Shope Reno Wharton LLC
+  type: architect
+- name: 'Smith Architectural Group, Inc'
+  type: architect
+- name: STA Architectural Group
+  type: architect
+- name: 'Taylor & Taylor Inc.'
+  type: architect
+- name: Voorsanger Architects PC
+  type: architect
+- name: Warren Platner Associates Architects
+  type: architect
+- name: 'Marc-Michaels Interior Design, Inc.'
+  type: interior designer
+- name: Patrick Knowles Designs
+  type: interior designer
+- name: Remi Tessier Design
+  type: interior designer
+- name: 'S.R. Gambrel, Inc.'
+  type: interior designer
+- name: Scott Snyder Inc.
+  type: interior designer
+- name: Seymour Diamond
+  type: interior designer
+- name: Stephen Miller Siegel
+  type: interior designer
+- name: Tiger Rose Designs
+  type: interior designer
+- name: Victoria Hagan Interiors
+  type: interior designer
+- name: Yabu Pushelberg
+  type: interior designer
+- name: Shaeffer Hyde Construction
+  type: builder
+- name: Shawmut Design and Construction
+  type: builder
+- name: Silver Rail Construction Corporation
+  type: builder
+- name: 'Sweeney & Conroy, Inc.'
+  type: builder
+- name: The I-Grace Company
+  type: builder
+- name: Marker Construction Group
+  type: builder
+- name: Trinity Yachts
+  type: builder
+- name: Tyler Development Corporation
+  type: builder
+- name: Uberto Construction
+  type: builder
+- name: Van Acker Construction
+  type: builder
+- name: Wilson Project Management
+  type: builder
+- name: Xhema Industries
+  type: builder
