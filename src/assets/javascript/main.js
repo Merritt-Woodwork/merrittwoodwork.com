@@ -8,6 +8,14 @@
     $('body').removeClass('grid');
   });
 
+  // fade-in content
+  $(document).ready(function() {
+     var main = $('main');
+     setTimeout(function(){
+       $(main).removeClass('load').addClass('loaded');
+     }, 250);
+  });
+
   // touch links
   $('.overlay').bind('touchstart', function() {});
 
@@ -15,12 +23,6 @@
   $(function() {
       FastClick.attach(document.body);
   });
-
-  // fade-in content
-  var main = $('main');
-  setTimeout(function(){
-    $(main).fadeIn().removeClass('load').addClass('loaded');
-  }, 250);
 
   // mobile menu
   (function() {
