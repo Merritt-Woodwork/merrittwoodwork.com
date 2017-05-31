@@ -74,7 +74,7 @@ lang: en
             <h2 class="header-text-condensed">{{page.intro_block.headline}}</h2>
           </div>
           <div class="grid-column--copy">
-            <p class="copy-text">{{ page.intro_block.details }}</p>
+            <p class="copy-text">{{ page.intro_block.details | strip_html }}</p>
           </div>
         </div>
       </div>
@@ -158,7 +158,7 @@ lang: en
           <h2 class="header-text-condensed">{{page.headline_block_b.headline}}</h2>
         </div>
         <div class="grid-column--copy copy-text">
-          <p class="copy-text">{{page.headline_block_b.details | markdownify}}</p>
+          <p class="copy-text">{{page.headline_block_b.details}}</p>
         </div>
       </div>
       </div>
