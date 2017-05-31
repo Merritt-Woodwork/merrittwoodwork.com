@@ -7,89 +7,33 @@
       // If supplied, triggered when a media query matches.
       match: function() {
         var rellax = new Rellax('.rellax');
-      },
-
-      // OPTIONAL
-      // If supplied, triggered when the media query transitions
-      // *from a matched state to an unmatched state*.
-      unmatch: function() {
-      },
-
-      // OPTIONAL
-      // If supplied, triggered once, when the handler is registered.
-      setup: function() {},
-
-      // OPTIONAL, defaults to false
-      // If set to true, defers execution of the setup function
-      // until the first time the media query is matched
-      deferSetup: true,
-
-      // OPTIONAL
-      // If supplied, triggered when handler is unregistered.
-      // Place cleanup code here
-      destroy: function() {}
+      }
 
     });
 
   // imgix responsive background-image
   // https://gist.github.com/croxton/9cfa0cca85fbb5f135441653a5b1dd9f
   var $img = $(".js-img");
-  if ($img.length) {
-    // triggered whenever an image is loaded, including on resize
-    $img.on('load', function(){
 
-      // legacy browser support
-      // picturefill();
+  $img.imagesLoaded(function() {
+    // fallback to src for browsers without srcset support
+    var src = $img.prop('currentSrc') || $img.prop('src');
 
-      // fallback to src for browsers without srcset support
-      var src = $img.prop('currentSrc') || $img.prop('src');
+    // set the background image for the parent
+    var $parent = $img.parent();
+    $parent.css('backgroundImage', 'url('+src+')');
+    console.log('bg-image set successfully');
+  });
 
-      // set the background image for the parent
-      var $parent = $img.parent();
-      $parent.css('backgroundImage', 'url('+src+')');
-    });
-  }
+  $grid.imagesLoaded(function() {
+    console.log('images all loaded!');
+    var setLayout = function(){
+      $('.grid').isotope('layout');
+      console.log('layout set!');
+    };
+    setTimeout(setLayout, 400);
+  });
 
-
-    // init Isotope
-    var $grid = $('.grid').isotope({
-      // options
-      itemSelector: '.grid-item',
-      // hiddenStyle: {
-      //   opacity: 0 // this allows AOS to handle these transitions on scroll
-      // },
-      // visibleStyle: {
-      //   opacity: 1 // this allows AOS to handle these transitions on scroll
-      // },
-      masonry: {
-        columnWidth: '.grid-sizer',
-        gutter: '.gutter-sizer',
-        percentPosition: true
-      }
-    });
-
-    // trigger layout after each image loads to avoid overlap
-    // $('.grid').imagesLoaded().progress( function() {
-    //   $grid.isotope('layout');
-    // });
-    $grid.imagesLoaded(function() {
-      console.log('images all loaded!');
-      var setLayout = function(){
-        $('.grid').isotope('layout');
-        console.log('layout set!');
-      };
-      setTimeout(setLayout, 400);
-    });
-
-    $('.tabs').on( 'click', '.isoFilter', function(e) {
-        e.preventDefault();
-        $(this).parents().find('.isoFilter').removeClass('active');
-        $(this).addClass('active');
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-    });
-
-    // AOS.init();
 
   });
 
