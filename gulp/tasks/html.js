@@ -10,13 +10,13 @@ const argv = require('yargs').argv;
 // 'gulp html --prod' -- minifies and gzips our HTML files
 gulp.task('html', () =>
   gulp.src('dist/**/*.html')
-    .pipe(when(argv.prod, htmlmin({
-      removeComments: true,
-      collapseWhitespace: true,
-      collapseBooleanAttributes: true,
-      removeAttributeQuotes: true,
-      removeRedundantAttributes: true
-    })))
+    // .pipe(when(argv.prod, htmlmin({
+    //   removeComments: true,
+    //   collapseWhitespace: true,
+    //   collapseBooleanAttributes: true,
+    //   removeAttributeQuotes: true,
+    //   removeRedundantAttributes: true
+    // })))
     .pipe(when(argv.prod, size({title: 'optimized HTML'})))
     .pipe(when(argv.prod, gulp.dest('dist')))
     .pipe(when(argv.prod, gzip({append: true})))
