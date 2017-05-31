@@ -1,11 +1,13 @@
 ---
 name: Jochen Schröcker
-title: 'PROJEKTLEITER UND GESCHÄFTSFÜHRER MERRITT, GERMANY GMBH'
+title: PROJEKTLEITER UND GESCHÄFTSFÜHRER
 quote: 'Höchstes Niveau ist mein beruflicher Antrieb – bei Material, Kollegen und Kunden.'
 details: >-
   Jochen Schröcker leitet seit 2015 die deutsche Niederlassung von Merritt mit
   ihren hochqualifizierten Handwerkern. Er koordiniert die Arbeiten und
   betrieblichen Abläufe mit dem Hauptsitz des Unternehmens in den USA.
+
+
 
 
 
@@ -15,11 +17,15 @@ details: >-
 
 
 
+
+
   Während seiner beeindruckenden Karriere hat er beispielsweise am Bau bekannter
   Superyachten wie der Maltese Falcon, der Royal Romance und der Nourah of Riyad
   mitgewirkt. Luxuspenthouses in St. Petersburg, Istanbul und San Francisco von
   Kunden mit höchsten Ansprüchen sind ebenfalls mit seinen einmaligen Arbeiten
   ausgestattet.
+
+
 
 
 
