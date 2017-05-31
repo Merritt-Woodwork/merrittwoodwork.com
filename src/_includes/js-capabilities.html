@@ -53,21 +53,16 @@
   // imgix responsive background-image
   // https://gist.github.com/croxton/9cfa0cca85fbb5f135441653a5b1dd9f
   var $img = $(".js-img");
-  if ($img.length) {
-    // triggered whenever an image is loaded, including on resize
-    $img.on('load', function(){
 
-      // legacy browser support
-      // picturefill();
+  $img.imagesLoaded(function() {
+    // fallback to src for browsers without srcset support
+    var src = $img.prop('currentSrc') || $img.prop('src');
 
-      // fallback to src for browsers without srcset support
-      var src = $img.prop('currentSrc') || $img.prop('src');
-
-      // set the background image for the parent
-      var $parent = $img.parent();
-      $parent.css('backgroundImage', 'url('+src+')');
-    });
-  }
+    // set the background image for the parent
+    var $parent = $img.parent();
+    $parent.css('backgroundImage', 'url('+src+')');
+    // console.log('bg-image set successfully');
+  });
 
     AOS.init();
     // refresh AOS when images have loaded

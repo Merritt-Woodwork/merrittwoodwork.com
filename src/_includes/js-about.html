@@ -22,7 +22,18 @@
     // set the background image for the parent
     var $parent = $img.parent();
     $parent.css('backgroundImage', 'url('+src+')');
-    console.log('bg-image set successfully');
+    // console.log('bg-image set successfully');
+  });
+
+  // init Isotope
+  var $grid = $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    masonry: {
+      columnWidth: '.grid-sizer',
+      gutter: '.gutter-sizer',
+      percentPosition: true
+    }
   });
 
   $grid.imagesLoaded(function() {
