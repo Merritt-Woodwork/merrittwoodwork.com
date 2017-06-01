@@ -50,12 +50,23 @@ gulp.task('scripts', () =>
     .pipe(when(argv.prod, size({
       showFiles: true
     })))
+    .pipe(when(argv.dev, rename({suffix: '.min'})))
+    .pipe(when(argv.dev, when('*.js', uglify({preserveComments: 'some'}))))
+    .pipe(when(argv.dev, size({
+      showFiles: true
+    })))
     // we want link to always be the same
     // .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
     .pipe(when(argv.prod, gulp.dest('.tmp/assets/javascript')))
     .pipe(when(argv.prod, when('*.js', gzip({append: true}))))
     .pipe(when(argv.prod, size({
+      gzip: true,
+      showFiles: true
+    })))
+    .pipe(when(argv.dev, gulp.dest('.tmp/assets/javascript')))
+    .pipe(when(argv.dev, when('*.js', gzip({append: true}))))
+    .pipe(when(argv.dev, size({
       gzip: true,
       showFiles: true
     })))
@@ -85,12 +96,23 @@ gulp.task('styles', () =>
     .pipe(when(argv.prod, size({
       showFiles: true
     })))
+    .pipe(when(argv.dev, rename({suffix: '.min'})))
+    .pipe(when(argv.dev, when('*.css', cssnano({autoprefixer: false}))))
+    .pipe(when(argv.dev, size({
+      showFiles: true
+    })))
     // we want link to always be the same
     // .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
     .pipe(when(argv.prod, gulp.dest('.tmp/assets/stylesheets')))
     .pipe(when(argv.prod, when('*.css', gzip({append: true}))))
     .pipe(when(argv.prod, size({
+      gzip: true,
+      showFiles: true
+    })))
+    .pipe(when(argv.dev, gulp.dest('.tmp/assets/stylesheets')))
+    .pipe(when(argv.dev, when('*.css', gzip({append: true}))))
+    .pipe(when(argv.dev, size({
       gzip: true,
       showFiles: true
     })))

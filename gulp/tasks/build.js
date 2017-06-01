@@ -15,11 +15,13 @@ gulp.task('site:tmp', () =>
 // 'gulp jekyll' -- builds your site with development settings
 // 'gulp jekyll --prod' -- builds your site with production settings
 gulp.task('site', done => {
-  if (!argv.prod) {
-    // shell.exec('jekyll build'); // this does not have jekyllized settings
+  if (argv.prod) {
     shell.exec('jekyll build --config _config.yml,_config.build.yml');
     done();
-  } else if (argv.prod) {
+  } else if (argv.dev) {
+    shell.exec('JEKYLL_ENV=dev jekyll build --config _config.yml,_config.build.yml');
+    done();
+  } else {
     shell.exec('jekyll build --config _config.yml,_config.build.yml');
     done();
   }

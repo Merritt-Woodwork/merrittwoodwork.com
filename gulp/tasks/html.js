@@ -25,4 +25,12 @@ gulp.task('html', () =>
       gzip: true
     })))
     .pipe(when(argv.prod, gulp.dest('dist')))
+    .pipe(when(argv.dev, size({title: 'optimized HTML'})))
+    .pipe(when(argv.dev, gulp.dest('dist')))
+    .pipe(when(argv.dev, gzip({append: true})))
+    .pipe(when(argv.dev, size({
+      title: 'gzipped HTML',
+      gzip: true
+    })))
+    .pipe(when(argv.dev, gulp.dest('dist')))
 );

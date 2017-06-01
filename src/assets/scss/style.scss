@@ -143,6 +143,16 @@ html.loaded {
   opacity: 1;
 }
 
+.fixed-header-wrapper.load {
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+
+.fixed-header-wrapper.loaded {
+  transition: all .3s ease-in;
+  opacity: 1;
+}
+
 body {
   @include breakpoint(300px, 991px) {
     margin-top: 45px;
