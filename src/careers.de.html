@@ -29,9 +29,13 @@ lang: de
 <section id="" class="gallery-tabs">
   <div class="full-grid-container">
     <div class="grid-column">
-      <h3 class="header-text-condensed"><a class="active" href="#tab">ARBEITEN BEI MERRITT</a></h3>
+      <h3 class="header-text-condensed"><a class="active" href="/careers/#tab">ARBEITEN BEI MERRITT</a></h3>
+      {% if site.jobs.size > 0 %}
       <h3 class="header-text-condensed"><a href="/careers/jobs#tab">STELLEN</a></h3>
+      {% endif %}
+      {% if site.intenships.size > 0 %}
       <h3 class="header-text-condensed"><a href="/careers/internships#tab">PRAKTIKA</a></h3>
+      {% endif %}
     </div>
   </div>
 </section>
