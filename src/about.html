@@ -214,7 +214,7 @@ lang: en
                                         {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
                                       {% endcomment %}
           <div>
-            <a data-remodal-target="modal-{{person.name | slugify}}">
+            <a data-remodal-target="{{person.name | slugify}}">
               <img src="{{person.image}}" alt="">
               <!-- <img
                  ix-path="{{person.image}}"
