@@ -16,9 +16,9 @@ details: >-
   führen sämtliche Projekte für Kunden von Merritt zum erfolgreichen Abschluss
   mit exzellenten Ergebnissen.
 
-image: /uploads/staff-6.jpg		
-display_number: 6		
-_comments:		
-  image: file should be ~600px wide		
-lang: de		
- ----
+image: /uploads/staff-6.jpg
+display_number: 6
+_comments:
+  image: file should be ~600px wide
+lang: de
+---
