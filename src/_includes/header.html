@@ -1,8 +1,19 @@
-<div class="fixed-header-wrapper">
+<div class="fixed-header-wrapper load">
   <div class="lang">
 
-    {% assign english = site.url %}
-    {% assign german = site.url | append: '/de' %}
+    {% if jekyll.environment == 'dev' %}
+      {% assign english = 'http://dev.merrittwoodwork.com' %}
+    {% else %}
+      {% assign english = site.url %}
+    {% endif %}
+
+    {% if jekyll.environment == 'dev' %}
+      {% assign german = 'http://dev.merrittwoodwork.com/de' %}
+    {% else %}
+      {% assign german = site.url | append: '/de' %}
+    {% endif %}
+
+
 
     {% if site.active_lang == 'de' %}
       <a href="{{english}}" class="header-text">EN</a> | <span class="header-text active">DE</span>

@@ -18218,9 +18218,11 @@ window.Modernizr = (function( window, document, undefined ) {
 
   // fade-in content
   $(document).ready(function() {
-     var main = $('main');
+     var html = $('html');
+     var header = $('.fixed-header-wrapper'); // hack for IE 11 which made header visible otherwise
      setTimeout(function(){
-       $(main).removeClass('load').addClass('loaded');
+      $(header).removeClass('load').addClass('loaded');
+      $(html).removeClass('load').addClass('loaded');
      }, 250);
   });
 

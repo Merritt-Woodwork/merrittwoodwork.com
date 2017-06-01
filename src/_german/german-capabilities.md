@@ -46,14 +46,14 @@ capability_block_c:
     details: Der finale Akt. Merritt führt sämtliche Montagearbeiten selbst aus.
     image: /uploads/capabilities-carpentry.jpg
 text_block_d: Dank unserer hohen Fertigungskapazität und Niederlassungen weltweit bringen wir Projekte überall und jederzeit termin- und budgetgerecht zum Abschluss.
-next:
+next_link:
   name: INFORMATIONEN
   link: /about/
 title: Leistungen
 _comments:
   hero_image: file should be ~2000px wide
   image: file should be ~1000px wide
-  next: the'next' link
+  next_link: the'next' link
   name: the text of the 'next' link
   link: where the 'next' link takes you
   title: for meta property='og:title'

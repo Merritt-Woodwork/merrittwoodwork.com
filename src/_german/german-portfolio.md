@@ -1,11 +1,11 @@
 ---
 _source: 'portfolio'
-next:
+next_link:
   name: leistungen
   link: /capabilities/
 title: Portfolio
 _comments:
-  next: "the'next' link"
+  next_link: "the'next' link"
   name: "the text of the 'next' link"
   link: "where the 'next' link takes you"
   image: image should not be wider or taller tha  ~1200px

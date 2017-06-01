@@ -38,16 +38,23 @@ lang: en
   <div class="full-grid-container">
     <div class="grid-column">
       <h3 class="header-text-condensed"><a href="/careers#tab">working at merritt</a></h3>
+      {% if site.jobs.size > 0 %}
       <h3 class="header-text-condensed"><a class="active" href="/careers/jobs#tab">jobs</a></h3>
+      {% endif %}
+      {% if site.intenships.size > 0 %}
       <h3 class="header-text-condensed"><a href="/careers/internships#tab">internships</a></h3>
+      {% endif %}
       <div class="header-text tabs">
-        <div class="mobile-wrapper">
+        <!-- <div class="mobile-wrapper">
           <a href="" class="isoFilter active" data-filter="*">all</a>
-        </div>
+        </div> -->
         {% for location in site.data.locations %}
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter" data-filter=".{{location.name}}">{{location.name}}</a>
-        </div>
+          {% assign jobs = site.jobs | where:'job-location',{{location.name}} %}
+          {% if jobs.size > 0 %}
+            <div class="mobile-wrapper">
+              <a href="" class="isoFilter" data-filter=".{{location.name}}">{{location.name}}</a>
+            </div>
+          {% endif %}
         {% endfor %}
       </div>
     </div>

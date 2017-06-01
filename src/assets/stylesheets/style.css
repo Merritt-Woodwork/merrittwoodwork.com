@@ -7081,11 +7081,19 @@ body.grid .grid-container {
   font-weight: normal;
   font-style: normal; }
 
-main.load {
+html.load {
   transition: all .3s ease-in;
   opacity: 0; }
 
-main.loaded {
+html.loaded {
+  transition: all .3s ease-in;
+  opacity: 1; }
+
+.fixed-header-wrapper.load {
+  transition: all .3s ease-in;
+  opacity: 0; }
+
+.fixed-header-wrapper.loaded {
   transition: all .3s ease-in;
   opacity: 1; }
 
