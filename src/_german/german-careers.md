@@ -70,26 +70,14 @@ benefits_block:
     - Mitarbeiterempfehlungsprogramm
 equal_opp_block:
   headline: CHANCENGLEICHHEIT
-<<<<<<< HEAD
-  details: 'Merritt setzt sich als Arbeitgeber für Chancengleichheit ein. Alle qualifizierten Bewerber werden ohne Rücksicht auf ethnische Zugehörigkeit, Hautfarbe, Religion, Geschlecht, sexuelle Orientierung, Geschlechtsidentität, genetische Merkmale, nationale Herkunft, Veteranenstatus, Behinderung und alle anderen gesetzlich geschützten Merkmale für eine Beschäftigung in Erwägung gezogen.'
-next:
-=======
   details: |
-    Merritt Woodwork setzt sich als Arbeitgeber für Chancengleichheit ein. Alle qualifizierten Bewerber werden ohne Rücksicht auf ethnische Zugehörigkeit, Hautfarbe, Religion, Geschlecht, sexuelle Orientierung, Geschlechtsidentität, genetische Merkmale, nationale Herkunft, Veteranenstatus, Behinderung und alle anderen gesetzlich geschützten Merkmale für eine Beschäftigung in Erwägung gezogen.
+    Merritt setzt sich als Arbeitgeber für Chancengleichheit ein. Alle qualifizierten Bewerber werden ohne Rücksicht auf ethnische Zugehörigkeit, Hautfarbe, Religion, Geschlecht, sexuelle Orientierung, Geschlechtsidentität, genetische Merkmale, nationale Herkunft, Veteranenstatus, Behinderung und alle anderen gesetzlich geschützten Merkmale für eine Beschäftigung in Erwägung gezogen..
 next_link:
->>>>>>> dev
   name: Kontakt
   link: /contact/
 _comments:
-<<<<<<< HEAD
-  next: "the'next' link"
-  name: "the text of the 'next' link"
-  link: "where the 'next' link takes you"
-  title: "for meta property='og:title'"
-=======
   next_link: the'next' link
   name: the text of the 'next' link
   link: where the 'next' link takes you
   title: for meta property='og:title'
->>>>>>> dev
 ---
