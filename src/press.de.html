@@ -1,0 +1,101 @@
+---
+title: Presse
+description: Presse
+lang: de
+---
+{% assign translation = site.german | where:'_source','press' %}
+{% for page in translation %}
+
+<section class="jumbo-hero">
+  <div class="wrapper">
+    <div class="grid-container">
+      <!-- <div class="grid-collapse"> -->
+        <div class="headline header-text-condensed">
+          <h1 class="animated customFadeInUp">{{page.headline}}</h1>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>
+<div class="jumbo-hero-color grid-container">
+  <div class="grid-column">
+    <div class="color"></div>
+  </div>
+</div>
+
+
+<section class="gallery">
+  <div class="grid-container">
+    <div class="grid-column">
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+        {% assign press = site.press | sort:"press_date" | reverse %}
+        {% for item in press %}
+        {% assign pdf = item.pdf_path | size %}
+
+                        {% comment %}
+                          {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
+                        {% endcomment %}
+
+        <div class="grid-item superyacht">
+          {% if pdf > 3 %}
+            <a target="_blank" href="{{item.pdf_path}}">
+            <img
+              ix-path="{{item.press_image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+            >
+            </a>
+          {% else %}
+            <img
+              ix-path="{{item.press_image}}"
+              ix-params='{
+                "auto": "compress"
+              }'
+              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+            >
+
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-details">
+  <div class="grid-container">
+    <div class="grid-column">
+      {% for item in site.data.contacts %}
+        {% if item.email == "mediainquiries@merrittwoodwork.com" %}
+          <h3 class="header-text-condensed">{{item.headline}}</h3>
+          <p class="copy-text">{{item.name}}</p>
+          <p class="copy-text phone">{{item.telephone}}</p>
+          <p class="copy-text"><a href="mailto:{{item.email}}">{{item.email}}</a></p>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+
+<section class="next">
+  <div class="grid-container">
+    <div class="grid-column">
+      <div class="color"></div>
+    </div>
+  </div>
+  <div class="center">
+    <div class="link-wrapper">
+      <a href="{{page.next_link.link}}">
+        <h5 class="header-text">next</h5>
+        <span><h2 class="header-text-condensed">{{page.next_link.name}}</h2></span>
+      </a>
+    </div>
+  </div>
+</section>
+{% endfor %}

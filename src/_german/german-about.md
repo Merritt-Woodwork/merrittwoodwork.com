@@ -44,7 +44,7 @@ image_pair_b:
   right_image: /uploads/leadership.jpg
   right_image_caption: 'Keith & Michael Merritt'
 text_block_b: Durch stetige Innovation und eine Leidenschaft für Perfektion setzt Merritt neue Maßstäbe in der Branche.
-next:
+next_link:
   name: kunden
   link: /clients/
 _comments:
@@ -52,7 +52,7 @@ _comments:
   left_image: file should be ~800px wide
   right_image: file should be ~800px wide
   image: file should be ~2000px wide
-  next: "the'next' link"
+  next_link: "the'next' link"
   name: "the text of the 'next' link"
   link: "where the 'next' link takes you"
   title: "for meta property='og:title'"

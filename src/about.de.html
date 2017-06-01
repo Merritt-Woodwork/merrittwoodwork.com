@@ -173,7 +173,7 @@ lang: de
                                         {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
                                       {% endcomment %}
           <div>
-            <a data-remodal-target="{{person.name | slugify}}">
+            <a data-remodal-target="modal-{{person.name | slugify}}">
               <img src="{{person.image}}" alt="">
               <!-- <img
                  ix-path="{{person.image}}"
@@ -217,9 +217,9 @@ lang: de
   </div>
   <div class="center">
     <div class="link-wrapper">
-      <a href="{{page.next.link}}">
+      <a href="{{page.next_link.link}}">
         <h5 class="header-text">weiter</h5>
-        <span><h2 class="header-text-condensed">{{page.next.name}}</h2></span>
+        <span><h2 class="header-text-condensed">{{page.next_link.name}}</h2></span>
       </a>
     </div>
   </div>

@@ -33,12 +33,12 @@ equal_opp_block:
   headline: CHANCENGLEICHHEIT
   details: |
     Merritt Woodwork setzt sich als Arbeitgeber für Chancengleichheit ein. Alle qualifizierten Bewerber werden ohne Rücksicht auf ethnische Zugehörigkeit, Hautfarbe, Religion, Geschlecht, sexuelle Orientierung, Geschlechtsidentität, genetische Merkmale, nationale Herkunft, Veteranenstatus, Behinderung und alle anderen gesetzlich geschützten Merkmale für eine Beschäftigung in Erwägung gezogen.
-next:
+next_link:
   name: Kontakt
   link: /contact/
 title: Karriere
 _comments:
-  next: the'next' link
+  next_link: the'next' link
   name: the text of the 'next' link
   link: where the 'next' link takes you
   title: for meta property='og:title'
