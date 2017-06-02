@@ -25,14 +25,20 @@ details:
 image_blocks:
   - image_block:
       image: /uploads/cpw-1.jpg
+      image_alt-text:
     image_pair:
       left_image: /uploads/cpw-2.jpg
+      left_image_alt-text:
       right_image: /uploads/cpw-3.jpg
+      right_image_alt-text:
   - image_block:
       image:
+      image_alt-text:
     image_pair:
       left_image: /uploads/cpw-4.jpg
+      left_image_alt-text:
       right_image: /uploads/cpw-5.jpg
+      right_image_alt-text:
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide

@@ -27,14 +27,20 @@ details:
 image_blocks:
   - image_block:
       image: /uploads/east-hampton-1.jpg
+      image_alt-text:
     image_pair:
       left_image: /uploads/east-hampton-2.jpg
+      left_image_alt-text:
       right_image: /uploads/east-hampton-3.jpg
+      right_image_alt-text:
   - image_block:
       image:
+      image_alt-text:
     image_pair:
       left_image: /uploads/east-hampton-4.jpg
+      left_image_alt-text:
       right_image: /uploads/east-hampton-5.jpg
+      right_image_alt-text:
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide

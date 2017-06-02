@@ -4,6 +4,7 @@ work-type: contemporary
 list_order: 4
 hero_image: /uploads/casestudy-malibu.jpg
 portfolio_image: /uploads/portfolio-malibu.jpg
+portfolio_image_alt_text:
 details:
   - heading: ARCHITEKT
     copy_markdown: >-
@@ -27,14 +28,20 @@ details:
 image_blocks:
   - image_block:
       image: /uploads/malibu-1.jpg
+      image_alt_text:
     image_pair:
       left_image: /uploads/malibu-2.jpg
+      left_image_alt_text:
       right_image: /uploads/malibu-3.jpg
+      right_image_alt_text:
   - image_block:
       image:
+      image_alt_text:
     image_pair:
       left_image: /uploads/malibu-4.jpg
+      left_image_alt_text:
       right_image: /uploads/malibu-5.jpg
+      right_image_alt_text:
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
