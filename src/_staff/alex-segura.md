@@ -7,5 +7,6 @@ image: /uploads/staff-11.jpg
 display_number: 10
 _comments:
   image: file should be ~600px wide
+  lang: EN for english, DE for german
 lang: en
 ---
