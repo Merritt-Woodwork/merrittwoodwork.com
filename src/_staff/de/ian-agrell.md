@@ -41,7 +41,7 @@ image: /uploads/Ian Agrell.jpg
 display_number: 11
 _comments:
   image: file should be ~600px wide
-  lang: EN for english, DE for german
+  lang: "'en' for english, 'de' for german (lowercase)"
   draft: drafts are saved but not published
 lang: de
 ---

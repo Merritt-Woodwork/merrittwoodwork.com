@@ -12,7 +12,7 @@ display_number: 3
 _comments:
   image: file should be ~600px wide
   draft: drafts are saved but not published
-  lang: EN for english, DE for german
+  lang: "'en' for english, 'de' for german (lowercase)"
 lang: en
 ---
 
