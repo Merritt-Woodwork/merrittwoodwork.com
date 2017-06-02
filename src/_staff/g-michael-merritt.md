@@ -1,5 +1,6 @@
 ---
 name: G. Michael Merritt
+draft: false
 title: PRESIDENT & CHIEF EXECUTIVE OFFICER
 quote: Because we never accept the status quo, we are constantly innovating, identifying new ways to meet old challenges. We have never been afraid of going against the grain in pursuit of perfection.
 details: |
@@ -13,6 +14,7 @@ display_number: 1
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: en
 ---
 

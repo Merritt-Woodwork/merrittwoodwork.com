@@ -207,7 +207,7 @@ lang: en
       <div class="grid">
         <div class="grid-sizer"></div>
         <div class="gutter-sizer"></div>
-        {% assign people = site.staff | sort:"display_number" %}
+        {% assign people = site.staff | where:'draft','false' | sort:"display_number" %}
         {% for person in people %}
         <div class="grid-item">
                                       {% comment %}

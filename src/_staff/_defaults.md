@@ -1,5 +1,6 @@
 ---
 name:
+draft: true
 title:
 quote:
 details: |
@@ -10,4 +11,5 @@ lang:
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 ---

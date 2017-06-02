@@ -1,5 +1,6 @@
 ---
 name: david worfolk
+draft: false
 title: PROJEKTLEITER
 quote: 'Ich habe mich noch nie mit Mittelmäßigkeit zufrieden gegeben und stelle mir stets selbst die Herausforderung, die nächste Ebene an Qualität, Schönheit und Perfektion zu erreichen.'
 details: >-
@@ -33,6 +34,7 @@ display_number: 8
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: de
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: albert peetoom
+draft: false
 title: PROJEKTLEITER
 quote: 'Bei Merritt kann ich meine Erfahrung als gelernter Yachtbauer sowohl im Kerngeschäft mit Luxuswohnanlagen als auch in der Kategorie der Superyachten voll und ganz einbringen. Mein Team und ich freuen uns über jede neue Herausforderung, die wir – selbstverständlich erfolgreich – angehen dürfen.'
 details: >-
@@ -21,5 +22,6 @@ display_number: 6
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: de
 ---

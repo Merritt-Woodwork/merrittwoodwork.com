@@ -1,5 +1,6 @@
 ---
 name: 'jeff sessions, AIA'
+draft: false
 title: project PRINCIPAL
 quote: 'I am proud to have the opportunity to work within a company that holds craftsmanship, quality and customer satisfaction to the highest standards in the industry.'
 details: >-
@@ -22,6 +23,7 @@ display_number: 9
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: en
 ---
 

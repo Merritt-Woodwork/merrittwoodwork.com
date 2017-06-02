@@ -1,5 +1,6 @@
 ---
 name: Adam Thorpe
+draft: false
 title: Director of Classical Decoration
 quote: 'Woodworking is not only my job, but my passion. I am proud of the work that we do and for the opportunity to be a part of Merritt’s extraordinary team.'
 details: >-
@@ -42,5 +43,6 @@ display_number: 12
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: en
 ---

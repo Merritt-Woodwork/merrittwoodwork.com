@@ -1,5 +1,6 @@
 ---
 name: Ian Agrell
+draft: false
 title: Leiter Klassische Dekoration
 quote: 'Das derzeit wieder erwachende Interesse an Schnitzverzierungen und die Hochachtung davor sind inspirierend. Ich freue mich darauf, zur Weiterentwicklung dieser besonderen Kunstform beizutragen.'
 details: >-
@@ -41,5 +42,6 @@ display_number: 11
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: de
 ---

@@ -1,5 +1,6 @@
 ---
 name: KEITH MERRITT
+draft: false
 title: LEITER BETRIEB UND FINANZEN
 quote: Mein Team hat das Glück, jeden Tag Träume verwirklichen zu können. Die Herausforderungen, denen wir dabei begegnen, motivieren uns Grenzen zu überwinden.
 details: |
@@ -11,6 +12,7 @@ display_number: 2
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: de
 ---
 

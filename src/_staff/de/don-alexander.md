@@ -1,5 +1,6 @@
 ---
 name: don alexander
+draft: false
 title: PROJEKTLEITER
 quote: 'Wir waren an einigen der größten Projekte in den USA beteiligt. Die Zusammenarbeit mit den Besten der Branche, dazu gehört auch unser eigenes Merritt-Team, sorgt für höchste berufliche Zufriedenheit.'
 details: >-
@@ -29,5 +30,6 @@ display_number: 4
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: de
 ---

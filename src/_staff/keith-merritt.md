@@ -1,5 +1,6 @@
 ---
 name: KEITH MERRITT
+draft: false
 title: EXECUTIVE VICE PRESIDENT & TREASURER
 quote: Taking an architect’s dream and turning it into reality is a daily joy for my team. The challenges we face in the process become fuel driving us to exceed what we thought were limitations.
 details: |
@@ -11,6 +12,7 @@ display_number: 2
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: en
 ---
 

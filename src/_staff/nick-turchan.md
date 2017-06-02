@@ -1,5 +1,6 @@
 ---
 name: nick turchan
+draft: false
 title: finance director
 quote: I take pride in adding value to the organization through innovation in all aspects of my role.  I am always in search of the most efficient and effective financial and operational processes.
 details: >-
@@ -37,6 +38,7 @@ display_number: 13
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: en
 ---
 

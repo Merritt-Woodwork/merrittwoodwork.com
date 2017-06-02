@@ -1,5 +1,6 @@
 ---
 name: Jochen Schröcker
+draft: false
 title: 'PROJECT PRINCIPAL & GENERAL MANAGER'
 quote: 'I am driven by working with the very best – in materials, colleagues and clients.'
 details: >-
@@ -34,6 +35,7 @@ display_number: 6
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: en
 ---
 

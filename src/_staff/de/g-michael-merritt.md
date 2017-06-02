@@ -1,5 +1,6 @@
 ---
 name: G. Michael Merritt
+draft: false
 title: VORSITZENDER UND GESCHÄFTSFÜHRER
 quote: Wir geben uns niemals mit dem Status quo zufrieden und schaffen durch Innovationen stets Lösungen für bekannte Herausforderungen. Bei der Suche nach Perfektion gehen wir auch ungewöhnliche Wege.
 details: |
@@ -12,6 +13,7 @@ image: /uploads/staff-1.jpg
 display_number: 1
 _comments:
   image: file should be ~600px wide
+  draft: drafts are saved but not published
   lang: EN for english, DE for german
 lang: de
 ---

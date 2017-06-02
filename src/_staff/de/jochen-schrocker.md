@@ -1,5 +1,6 @@
 ---
 name: Jochen Schröcker
+draft: false
 title: PROJEKTLEITER UND GESCHÄFTSFÜHRER
 quote: 'Höchstes Niveau ist mein beruflicher Antrieb – bei Material, Kollegen und Kunden.'
 details: >-
@@ -39,6 +40,7 @@ display_number: 6
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: de
 ---
 

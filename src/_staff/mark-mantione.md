@@ -1,5 +1,6 @@
 ---
 name: MARK MANTIONE
+draft: false
 title: vp of sales & marketing
 quote: Serving the world’s most discerning home and yacht owners, architects and builders is an art.  Merritt is a family of fine artisans.
 details: |
@@ -10,6 +11,7 @@ image: /uploads/staff-3.jpg
 display_number: 3
 _comments:
   image: file should be ~600px wide
+  draft: drafts are saved but not published
   lang: EN for english, DE for german
 lang: en
 ---

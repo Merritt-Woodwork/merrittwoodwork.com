@@ -1,5 +1,6 @@
 ---
 name: pat hays
+draft: false
 title: PERSONALLEITERIN
 quote: 'Teamwork und Familiarität machen Merritt als Unternehmen erfolgreich. Wir geben alles für das Engagement und die Motivation unserer Mitarbeiter und stellen sicher, dass jeder genau weiß, wie wertvoll die jeweils geleistete Arbeit für das gesamte Unternehmen ist.'
 details: >-
@@ -28,5 +29,6 @@ display_number: 14
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: de
 ---

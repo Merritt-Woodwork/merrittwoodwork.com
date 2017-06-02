@@ -1,5 +1,6 @@
 ---
 name: don alexander
+draft: false
 title: project principal
 quote: 'We work on some of the most monumental projects in the country. Collaborating with our industry’s top professionals, including our own Merritt team, is deeply rewarding.'
 details: >-
@@ -27,5 +28,6 @@ display_number: 4
 _comments:
   image: file should be ~600px wide
   lang: EN for english, DE for german
+  draft: drafts are saved but not published
 lang: en
 ---

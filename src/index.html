@@ -65,7 +65,7 @@ lang: en
   <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>Case Studies</h3>
     <div class="grid-container">
         <div class="grid-column">
-          {% assign casestudies = site.case_studies | sort:"list_order" %}
+          {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
           {% for case in casestudies %}
             <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
               <div class="case-study-image">

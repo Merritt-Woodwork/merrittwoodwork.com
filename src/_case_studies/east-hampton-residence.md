@@ -1,5 +1,6 @@
 ---
 title: East Hampton Residence
+draft: false
 work-type: traditional
 list_order: 2
 hero_image: /uploads/casestudy-east-hampton.jpg
@@ -47,6 +48,7 @@ _comments:
   image: file should be ~1800px wide
   left_image: file should be ~800px wide
   right_image: file should be ~800px wide
+  lang: EN for english, DE for german
 lang: en
 ---
 

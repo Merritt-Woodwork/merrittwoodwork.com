@@ -1,5 +1,6 @@
 ---
 title: Cakewalk
+draft: false
 work-type: superyacht
 list_order: 1
 hero_image: /uploads/casestudy-cakewalk-2.jpg
@@ -51,5 +52,6 @@ _comments:
   image: file should be ~1800px wide
   left_image: file should be ~800px wide
   right_image: file should be ~800px wide
+  lang: EN for english, DE for german
 lang: de
 ---
