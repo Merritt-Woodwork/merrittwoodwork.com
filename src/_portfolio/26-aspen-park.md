@@ -1,5 +1,5 @@
 ---
-title: 26-aspen-park
+title: 26-AspenPark
 image: /uploads/AspenPark-1.jpg
 image_alt-text:
 work-type: contemporary
