@@ -24,17 +24,17 @@ image_blocks:
       image_alt-text: Transitional Central Park West bedroom with custom woodwork and joinery
     image_pair:
       left_image: /uploads/cpw-2.jpg
-      left_image_alt-text:
+      left_image_alt-text: Transitional Central Park West Residence with custom woodwork and joinery
       right_image: /uploads/cpw-3.jpg
-      right_image_alt-text:
+      right_image_alt-text: Transitional Central Park West Residence with exceptional custom woodwork art
   - image_block:
       image:
       image_alt-text:
     image_pair:
       left_image: /uploads/cpw-4.jpg
-      left_image_alt-text:
+      left_image_alt-text: 'Transitional Central Park West dining room with custom metalwork, woodwork and joinery design'
       right_image: /uploads/cpw-5.jpg
-      right_image_alt-text:
+      right_image_alt-text: 'Transitional Central Park West bedroom with custom woodwork and joinery, metalwork and hardware'
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
