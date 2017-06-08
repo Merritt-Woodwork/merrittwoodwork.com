@@ -34,7 +34,7 @@ image_blocks:
       image_alt_text:
     image_pair:
       left_image: /uploads/malibu-4.jpg
-      left_image_alt_text:
+      left_image_alt_text: Contemporary Malibu Residence with custom woodwork and joinery design
       right_image: /uploads/malibu-5.jpg
       right_image_alt_text: Contemporary Malibu Residence bookshelves with custom woodwork
 _comments:
