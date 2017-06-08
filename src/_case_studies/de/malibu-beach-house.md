@@ -36,7 +36,7 @@ image_blocks:
       left_image: /uploads/malibu-4.jpg
       left_image_alt_text:
       right_image: /uploads/malibu-5.jpg
-      right_image_alt_text:
+      right_image_alt_text: Contemporary Malibu Residence bookshelves with custom woodwork
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
