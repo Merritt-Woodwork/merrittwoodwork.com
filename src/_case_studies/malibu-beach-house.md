@@ -25,9 +25,9 @@ image_blocks:
       image_alt-text: Contemporary Malibu Residence with custom woodwork and joinery design
     image_pair:
       left_image: /uploads/malibu-2.jpg
-      left_image_alt-text:
+      left_image_alt-text: Contemporary Malibu Residence with custom staircase woodwork and joinery design
       right_image: /uploads/malibu-3.jpg
-      right_image_alt-text:
+      right_image_alt-text: Contemporary Malibu Residence with custom woodwork and joinery design
   - image_block:
       image:
       image_alt-text:
