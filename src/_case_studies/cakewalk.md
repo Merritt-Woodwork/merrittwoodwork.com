@@ -33,7 +33,7 @@ image_blocks:
       left_image: /uploads/cakewalk-2.jpg
       left_image_alt-text: 'Superyacht, Cakewalk, with astonishing custom dining room design. Custom woodwork and joinery, metalwork and hardware'
       right_image: /uploads/cakewalk-3.jpg
-      right_image_alt-text:
+      right_image_alt-text: 'Superyacht, Cakewalk, with custom woodwork and joinery design'
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
