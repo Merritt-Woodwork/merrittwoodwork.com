@@ -22,7 +22,7 @@ details:
 image_blocks:
   - image_block:
       image: /uploads/malibu-6.jpg
-      image_alt-text:
+      image_alt-text: Contemporary Malibu Residence with custom woodwork and joinery design
     image_pair:
       left_image: /uploads/malibu-2.jpg
       left_image_alt-text:
