@@ -25,7 +25,7 @@ image_blocks:
       image_alt-text: 'Traditional Hamptons Residence with custom home office including desk and cabinetry. Custom metalwork, woodwork and joinery.'
     image_pair:
       left_image: /uploads/east-hampton-2.jpg
-      left_image_alt-text:
+      left_image_alt-text: 'Traditional Hamptons Residence with custom woodwork and joinery design, metalwork and hardware.'
       right_image: /uploads/east-hampton-3.jpg
       right_image_alt-text:
   - image_block:
