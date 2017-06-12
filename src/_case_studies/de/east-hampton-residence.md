@@ -35,7 +35,7 @@ image_blocks:
       left_image: /uploads/east-hampton-4.jpg
       left_image_alt-text:
       right_image: /uploads/east-hampton-5.jpg
-      right_image_alt-text:
+      right_image_alt-text: 'Traditional Hamptons Residence with custom bathroom/vanity. Design includes custom metalwork, glass work, hardware, woodwork and joinery.'
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
