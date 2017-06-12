@@ -27,7 +27,7 @@ image_blocks:
       left_image: /uploads/east-hampton-2.jpg
       left_image_alt-text: 'Traditional Hamptons Residence with custom woodwork and joinery design, metalwork and hardware.'
       right_image: /uploads/east-hampton-3.jpg
-      right_image_alt-text: 'Traditional Hamptons Residence with custom bathroom. Design includes custom metalwork, glass work, hardware, woodwork and joinery.'
+      right_image_alt-text: 'Traditional Hamptons Residence with custom bathroom and vanity room. Design includes custom metalwork, glass work, hardware, woodwork and joinery.'
   - image_block:
       image:
       image_alt-text:
@@ -35,7 +35,7 @@ image_blocks:
       left_image: /uploads/east-hampton-4.jpg
       left_image_alt-text:
       right_image: /uploads/east-hampton-5.jpg
-      right_image_alt-text: 'Traditional Hamptons Residence with custom bathroom/vanity. Design includes custom metalwork, glass work, hardware, woodwork and joinery.'
+      right_image_alt-text: 'Traditional Hamptons Residence with custom bathroom and vanity room. Design includes custom metalwork, glass work, hardware, woodwork and joinery.'
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
