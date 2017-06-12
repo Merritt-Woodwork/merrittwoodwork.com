@@ -36,9 +36,9 @@ image_blocks:
       image_alt-text:
     image_pair:
       left_image: /uploads/east-hampton-4.jpg
-      left_image_alt-text:
+      left_image_alt-text: 'Traditional Hamptons Residence with custom home theater. The home theater includes custom metalwork, hardware, glass work, woodwork and joinery.'
       right_image: /uploads/east-hampton-5.jpg
-      right_image_alt-text:
+      right_image_alt-text: 'Traditional Hamptons Residence with custom bathroom and vanity room. Design includes custom metalwork, glass work, hardware, woodwork and joinery.'
 _comments:
   hero_image: file should be ~2000px wide
   portfolio_image: file should be ~1200px wide
