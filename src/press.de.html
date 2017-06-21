@@ -38,28 +38,38 @@ lang: de
                           {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
                         {% endcomment %}
 
-        <div class="grid-item superyacht">
-          {% if pdf > 3 %}
-            <a target="_blank" href="{{item.pdf_path}}">
-            <img
-              ix-path="{{item.press_image}}"
-              ix-params='{
-                "auto": "compress"
-              }'
-              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
-            >
-            </a>
-          {% else %}
-            <img
-              ix-path="{{item.press_image}}"
-              ix-params='{
-                "auto": "compress"
-              }'
-              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
-            >
+                        <div class="grid-item superyacht">
+                          {% if item.press_link %}
+                            <a target="_blank" href="{{item.press_link}}">
+                            <img
+                              ix-path="{{item.press_image}}"
+                              ix-params='{
+                                "auto": "compress"
+                              }'
+                              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+                            >
+                            </a>
+                          {% elsif pdf > 3 %}
+                            <a target="_blank" href="{{item.pdf_path}}">
+                            <img
+                              ix-path="{{item.press_image}}"
+                              ix-params='{
+                                "auto": "compress"
+                              }'
+                              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+                            >
+                            </a>
+                          {% else %}
+                            <img
+                              ix-path="{{item.press_image}}"
+                              ix-params='{
+                                "auto": "compress"
+                              }'
+                              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+                            >
 
-          {% endif %}
-        </div>
+                          {% endif %}
+                        </div>
         {% endfor %}
       </div>
     </div>
