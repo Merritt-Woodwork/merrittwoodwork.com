@@ -74,7 +74,7 @@ lang: en
               <h2 class="header-text-condensed">{{location.name}}</h2>
               <h5 class="header-text title">{{location.address_1}}</h5>
               <h5 class="header-text address-1">{{location.address_2}}</h5>
-              <h5 class="header-text address-2">{{location.city}}{% if location.state %}, {% endif %}{{location.state}} {{location.zip}}</h5>
+              <h5 class="header-text address-2">{{location.city}}{% if location.state %}, {% endif %}{{location.state}} {{location.zip | replace: "'",""}}</h5>
               <h5 class="header-text phone">{{location.telephone}}</h5>
             </div>
           </div>
