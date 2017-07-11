@@ -31,8 +31,6 @@ lang: en
   </div>
 </div>
 
-
-
 <section class="contact-details">
   <div class="grid-container">
     {% for contact in site.data.contacts %}
@@ -51,12 +49,12 @@ lang: en
   </div>
 </section>
 
-
 <section class="case-studies">
   <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>locations</h3>
   <div class="grid-container">
     <div class="grid-column">
-      {% for location in site.data.locations %}
+      {% assign locations = site.data.locations | sort: 'order' %}
+      {% for location in locations %}
         <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
           <div class="case-study-image" style="background-image: url({{location.image}});">
             <img
