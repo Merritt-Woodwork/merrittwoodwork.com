@@ -10,7 +10,7 @@ description_markdown: >-
   opportunity for you!
 
 
-  Merritt Woodwork is America’s unsurpassed provider of monumental architectural
+  Merritt is America’s unsurpassed provider of monumental architectural
   woodwork, joinery and fine furniture for elite residential and super yacht
   interiors. Although Merritt Woodwork has grown from a hands-on, two-man
   operation, to an organization of two hundred, Merritt Woodwork maintains the
