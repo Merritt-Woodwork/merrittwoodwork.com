@@ -4,10 +4,10 @@ job-location: ohio
 job-type: full time
 contract: permanent
 description_markdown: >-
-  Purpose of Position:&nbsp; Assemble millwork components, prepare
-  subassemblies, and assemble finished product to package and prepare for
-  complete product shipment. Work consists of routine tasks, processes, and
-  performing operations prescribed by drawings, work orders and procedures.
+  Assemble millwork components, prepare subassemblies, and assemble finished
+  product to package and prepare for complete product shipment. Work consists of
+  routine tasks, processes, and performing operations prescribed by drawings,
+  work orders and procedures.
 responsibilities_markdown: >-
   * Required to work with other associates in assembly of millwork and casework
 
