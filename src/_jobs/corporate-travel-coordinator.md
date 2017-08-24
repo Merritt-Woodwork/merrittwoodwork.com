@@ -17,14 +17,14 @@ description_markdown: >-
   traditions, principles, and devotion of an intimate family business.
 
 
-  Purpose of position:&nbsp; We have an exclusive and exciting opportunity for a
-  highly-motivated self-starter to join our team as the Corporate Travel
-  Coordinator within our Mentor headquarters office.&nbsp; The incumbent will be
-  responsible for coordinating the company's travel needs for all employees and
-  locations. They are also responsible for making travel accommodations and
-  procure necessary documentation such as passports, visas, or other clearances.
-  They are to ensure that travel needs are met within the constraints of the
-  company travel policy with the utmost customer service.&nbsp;&nbsp;
+  We have an exclusive and exciting opportunity for a highly-motivated
+  self-starter to join our team as the Corporate Travel Coordinator within our
+  Mentor headquarters office.&nbsp; The incumbent will be responsible for
+  coordinating the company's travel needs for all employees and locations. They
+  are also responsible for making travel accommodations and procure necessary
+  documentation such as passports, visas, or other clearances. They are to
+  ensure that travel needs are met within the constraints of the company travel
+  policy with the utmost customer service.&nbsp;&nbsp;
 responsibilities_markdown: >-
   * Book air travel, car and hotel reservations for employees, prospective
   employees, and company guests per the Corporate travel policy in a timely and
