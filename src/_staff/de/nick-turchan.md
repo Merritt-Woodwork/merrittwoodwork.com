@@ -2,7 +2,10 @@
 name: nick turchan
 draft: true
 title: LEITER FINANZEN
-quote: 'Ich bin stolz darauf, durch Innovation in allen Aspekten meiner Funktion zum Unternehmenserfolg beizutragen. Ich bin stets auf der Suche nach den effizientesten und effektivsten Finanz- und Betriebsabläufen.'
+quote: >-
+  Ich bin stolz darauf, durch Innovation in allen Aspekten meiner Funktion zum
+  Unternehmenserfolg beizutragen. Ich bin stets auf der Suche nach den
+  effizientesten und effektivsten Finanz- und Betriebsabläufen.
 details: >-
   Nick Turchan leitet die Bereiche Finanzen und Buchhaltung bei Merritt, wozu
   auch die Beschaffung, das Rechtswesen und allgemeine Verwaltungsaufgaben im
@@ -36,13 +39,13 @@ details: >-
   MBA-Abschluss von der John Carroll University und ist als Wirtschaftsprüfer
   zugelassen. In seiner Freizeit spielt Herr Turchan gern Fußball und Softball
   und ist ehrenamtlicher Trainer für die Jugendliga im Fußball und Baseball.
-  Gemeinsam mit seiner Frau und den beiden Söhnen Nicky und Sam lebt Herr Turchan
-  in Chagrin Falls, Ohio.
+  Gemeinsam mit seiner Frau und den beiden Söhnen Nicky und Sam lebt Herr
+  Turchan in Chagrin Falls, Ohio.
 image: /uploads/staff-12.jpg
 display_number: 13
 _comments:
   image: file should be ~600px wide
-  lang: "'en' for english, 'de' for german (lowercase)"
+  lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 lang: de
 ---

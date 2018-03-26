@@ -2,7 +2,11 @@
 name: pat hays
 draft: true
 title: PERSONALLEITERIN
-quote: 'Teamwork und Familiarität machen Merritt als Unternehmen erfolgreich. Wir geben alles für das Engagement und die Motivation unserer Mitarbeiter und stellen sicher, dass jeder genau weiß, wie wertvoll die jeweils geleistete Arbeit für das gesamte Unternehmen ist.'
+quote: >-
+  Teamwork und Familiarität machen Merritt als Unternehmen erfolgreich. Wir
+  geben alles für das Engagement und die Motivation unserer Mitarbeiter und
+  stellen sicher, dass jeder genau weiß, wie wertvoll die jeweils geleistete
+  Arbeit für das gesamte Unternehmen ist.
 details: >-
   Patricia „Pat“ Hays ist als Personalleiterin von Merritt vorrangig mit der
   Optimierung von Unternehmensstruktur und Teams betraut. Pat Hays ist seit drei
@@ -28,7 +32,7 @@ image: /uploads/staff-13.jpg
 display_number: 14
 _comments:
   image: file should be ~600px wide
-  lang: "'en' for english, 'de' for german (lowercase)"
+  lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 lang: de
 ---
