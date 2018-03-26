@@ -1,6 +1,6 @@
 ---
 name: pat hays
-draft: false
+draft: true
 title: hr director
 quote: The sense of teamwork and family at Merritt is key to our success as a company. We aim to engage and motivate our staff and ensure each employee knows how vital their contribution is individually and to the entire Merritt process.
 details: >-

@@ -1,6 +1,6 @@
 ---
 name: nick turchan
-draft: false
+draft: true
 title: LEITER FINANZEN
 quote: 'Ich bin stolz darauf, durch Innovation in allen Aspekten meiner Funktion zum Unternehmenserfolg beizutragen. Ich bin stets auf der Suche nach den effizientesten und effektivsten Finanz- und Betriebsabläufen.'
 details: >-
