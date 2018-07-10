@@ -24,13 +24,13 @@
   type: architect
 - name: Eric J. Smith Architects
   type: architect
-- name: 'Fairfax & Sammons Architects'
+- name: Fairfax & Sammons Architects
   type: architect
 - name: 'Ferguson & Shamamian Architects, LLP'
   type: architect
-- name: 'Frederick Fisher & Partners Architects'
+- name: Frederick Fisher & Partners Architects
   type: architect
-- name: 'Gene Farmer &  Associates'
+- name: Gene Farmer &  Associates
   type: architect
 - name: Gensler
   type: architect
@@ -60,7 +60,7 @@
   type: architect
 - name: 'Mark P. Finlay Architects, AIA'
   type: architect
-- name: 'McKellar & Associates Architecture'
+- name: McKellar & Associates Architecture
   type: architect
 - name: McMahon-Baek LLC
   type: architect
@@ -72,7 +72,7 @@
   type: architect
 - name: Peter Marino Architect
   type: architect
-- name: '4BI & Associés'
+- name: 4BI & Associés
   type: interior designer
 - name: 'Albert Hadley, Inc.'
   type: interior designer
@@ -154,7 +154,7 @@
   type: builder
 - name: Horizon Builders Inc.
   type: builder
-- name: 'John G. Early Contractor & Builders Inc.'
+- name: John G. Early Contractor & Builders Inc.
   type: builder
 - name: 'Kean Development Co, Inc.'
   type: builder
@@ -164,7 +164,7 @@
   type: builder
 - name: Kimmel Construction
   type: builder
-- name: 'Knickerbocker & Associates'
+- name: Knickerbocker & Associates
   type: builder
 - name: Lico Contracting Inc.
   type: builder
@@ -178,13 +178,13 @@
   type: builder
 - name: Men at Work Construction Corp.
   type: builder
-- name: 'Moran Yacht &  Ship'
+- name: Moran Yacht &  Ship
   type: builder
 - name: Moroso Construction
   type: builder
 - name: 'Newbury North Associates, Inc.'
   type: builder
-- name: 'Payne | Bouchier Fine Builders'
+- name: Payne | Bouchier Fine Builders
   type: builder
 - name: Remick Associates
   type: builder
@@ -236,7 +236,7 @@
   type: architect
 - name: G2 Design
   type: architect
-- name: 'Gorny & Associates Architecture'
+- name: Gorny & Associates Architecture
   type: architect
 - name: Ken Linsteadt Architects
   type: architect
@@ -260,7 +260,7 @@
   type: architect
 - name: Sagan-Piechota Architecture
   type: architect
-- name: 'Stamps & Stamps'
+- name: Stamps & Stamps
   type: architect
 - name: Studio VARA
   type: architect
@@ -274,7 +274,7 @@
   type: architect
 - name: Walker and Moody Architects
   type: architect
-- name: 'Black Mountain Construction|Development'
+- name: Black Mountain Construction|Development
   type: builder
 - name: 'Crapsey and Gilles Contractors, Inc.'
   type: builder
@@ -302,11 +302,11 @@
   type: interior designer
 - name: Holly Hulburd Design
   type: interior designer
-- name: 'Jacobs & Co. Inc.'
+- name: Jacobs & Co. Inc.
   type: interior designer
-- name: 'Joan Behnke & Associates'
+- name: Joan Behnke & Associates
   type: interior designer
-- name: 'Jones | Haydu'
+- name: Jones | Haydu
   type: interior designer
 - name: Kitchell Brusnighan Interior Design Associates
   type: interior designer
@@ -348,7 +348,7 @@
   type: architect
 - name: Roger Ferris + Partners
   type: architect
-- name: 'Sawyer | Berson'
+- name: Sawyer | Berson
   type: architect
 - name: Shope Reno Wharton LLC
   type: architect
@@ -356,7 +356,7 @@
   type: architect
 - name: STA Architectural Group
   type: architect
-- name: 'Taylor & Taylor Inc.'
+- name: Taylor & Taylor Inc.
   type: architect
 - name: Voorsanger Architects PC
   type: architect
@@ -410,3 +410,25 @@
   type: builder
 - name: Nuvolari Lenard
   type: interior designer
+- name: Zeckendorf Development
+  type: builder
+- name: Mutchnik Construction Group Inc.
+  type: builder
+- name: Stern Projects
+  type: architect
+- name: D Reis Contracting Group
+  type: builder
+- name: Hatteras Yachts
+  type: builder
+- name: AMK Concepts
+  type: builder
+- name: 'Wavell-Huber Wood Products, Inc.'
+  type: architect
+- name: Zodiac Maritime LTD
+  type: builder
+- name:
+  type:
+- name:
+  type:
+- name:
+  type:
