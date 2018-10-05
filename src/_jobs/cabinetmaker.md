@@ -1,6 +1,6 @@
 ---
 role: Cabinetmaker
-job-location: ohio
+job-location: california
 job-type: full time
 contract: permanent
 description_markdown: >-
