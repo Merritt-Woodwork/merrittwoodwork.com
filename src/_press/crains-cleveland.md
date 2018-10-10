@@ -1,6 +1,7 @@
 ---
-press_date:
-press_image:
-pdf_path:
-press_link:
+press_date: 2018-08-12 14:03:00
+press_image: /uploads/crains-cleveland-website-cover.jpeg
+pdf_path: /uploads/crains-cleveland-article.pdf
+press_link: >-
+  https://www.crainscleveland.com/manufacturing/merritt-acquires-agrell-architectural-carving
 ---
