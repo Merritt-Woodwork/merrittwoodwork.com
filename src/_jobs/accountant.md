@@ -2,7 +2,7 @@
 role: Accountant
 job-location: ohio
 job-type: full time
-contract:
+contract: Permanent
 description_markdown: >-
   Responsible for compiling, consolidating, and analyzing accounting and
   financial information for the production of statements, schedules, filings,
