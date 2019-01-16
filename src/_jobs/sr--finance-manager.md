@@ -1,5 +1,5 @@
 ---
-role: Controller
+role: Accounting Manager
 job-location: ohio
 job-type: full time
 contract: Permanent
@@ -8,7 +8,7 @@ description_markdown: >-
   in the architectural mill work industry.&nbsp; Responsible for overseeing all
   financial and accounting activities of the Finance Department.&nbsp; This
   position has direct reporting responsibility over the AP/AR Administrator and
-  Corporate Accountant.&nbsp; The controller will report directly to the
+  Corporate Accountant.&nbsp; The Accounting Manager will report directly to the
   Director of Finance.
 responsibilities_markdown: >-
   • &nbsp; &nbsp;Lead the implementation of a best in class financial statement
@@ -47,8 +47,6 @@ responsibilities_markdown: >-
   teams.<br>&nbsp;
 requirements_markdown: >-
   * BS in Accounting or Finance, MBA is desirable
-
-  * CPA accounting designation is extremely desirable
 
   * Must have at least 8+ years in a progressively responsible financial
   leadership role
