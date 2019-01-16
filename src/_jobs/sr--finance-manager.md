@@ -11,40 +11,57 @@ description_markdown: >-
   Corporate Accountant.&nbsp; The Accounting Manager will report directly to the
   Director of Finance.
 responsibilities_markdown: >-
-  • &nbsp; &nbsp;Lead the implementation of a best in class financial statement
-  close and consolidation process (monthly, quarterly, and annually), including
+  * Lead the implementation of a best in class financial statement close and
+  consolidation process (monthly, quarterly, and annually), including
   standardizing account reconciliations, financial statement preparation and
-  analysis, subsidiary accounting and analyzing inter company transactions.<br>•
-  &nbsp; &nbsp;Assist in developing the financial planning and analysis function
-  that will standardize the full cycle budgeting and forecasting process,
-  including revenues and expenses, capital planning and in-depth job costing and
-  profitability analysis.<br>• &nbsp; &nbsp;Lead in the implementation of a
-  streamlined and standardized billing, collections, and accounts payable
-  process across the corporation’s family of companies.<br>• &nbsp; &nbsp;Assist
-  in developing a top-notch treasury management function, including optimizing
-  bank relationships and cash flow position by enhancing the cash flow
-  projection process across the corporation’s family of companies.<br>• &nbsp;
-  &nbsp;Manage accounts receivable, ensuring project teams are kept apprised of
+  analysis, subsidiary accounting and analyzing inter company transactions.
+
+  * Assist in developing the financial planning and analysis function that will
+  standardize the full cycle budgeting and forecasting process, including
+  revenues and expenses, capital planning and in-depth job costing and
+  profitability analysis.
+
+  * Lead in the implementation of a streamlined and standardized billing,
+  collections, and accounts payable process across the corporation’s family of
+  companies.
+
+  * Assist in developing a top-notch treasury management function, including
+  optimizing bank relationships and cash flow position by enhancing the cash
+  flow projection process across the corporation’s family of companies.
+
+  * Manage accounts receivable, ensuring project teams are kept apprised of
   accounts that are past due, as well as following up with clients regarding
-  past due balances.<br>• &nbsp; &nbsp;Monthly, quarterly and annual bank
-  compliance reporting, including developing reporting to forecast bank
-  compliance.<br>• &nbsp; &nbsp;Lead new ERP software conversions.<br>• &nbsp;
-  &nbsp;Assist in integrating all financial processes of two newly acquired
+  past due balances.
+
+  * Monthly, quarterly and annual bank compliance reporting, including
+  developing reporting to forecast bank compliance.
+
+  * Lead new ERP software conversions.
+
+  * Assist in integrating all financial processes of two newly acquired
   businesses and the organization’s German subsidiary, then taking lead on any
-  future acquisition integrations.<br>• &nbsp; &nbsp;Assist in merger and
-  acquisition due diligence.<br>• &nbsp; &nbsp;Ensure organization is following
-  all federal, state, and local tax requirements and implement a standard
-  process to ensure ongoing compliance.<br>• &nbsp; &nbsp;Provide technical
-  financial advice and knowledge.<br>• &nbsp; &nbsp;Provide strategic input and
-  leadership on decision making issues affecting the organization.<br>• &nbsp;
-  &nbsp;Evaluate direct reports and their respective teams and look for
-  continuous improvement opportunities for efficiencies and group effectiveness;
-  as well as provide individuals with tools necessary to achieve professional
-  and personal growth with emphasis on opportunities.<br>• &nbsp;
-  &nbsp;Coordinate with external accounting firm to ensure timely financial
-  statement audits and reviews.<br>• &nbsp; &nbsp;Prepare ad hoc analysis when
-  requested by Senior Management, Plant Operations or Project Management
-  teams.<br>&nbsp;
+  future acquisition integrations.
+
+  * Assist in merger and acquisition due diligence.
+
+  * Ensure organization is following all federal, state, and local tax
+  requirements and implement a standard process to ensure ongoing compliance.
+
+  * Provide technical financial advice and knowledge.
+
+  * Provide strategic input and leadership on decision making issues affecting
+  the organization.
+
+  * Evaluate direct reports and their respective teams and look for continuous
+  improvement opportunities for efficiencies and group effectiveness; as well as
+  provide individuals with tools necessary to achieve professional and personal
+  growth with emphasis on opportunities.
+
+  * Coordinate with external accounting firm to ensure timely financial
+  statement audits and reviews.
+
+  * Prepare ad hoc analysis when requested by Senior Management, Plant
+  Operations or Project Management teams.<br>&nbsp;
 requirements_markdown: >-
   * BS in Accounting or Finance, MBA is desirable
 
