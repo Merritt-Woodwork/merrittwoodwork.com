@@ -430,5 +430,35 @@
   type: builder
 - name: 'Mlinaric, Henry & Zervudachi'
   type: interior designer
-- name:
-  type:
+- name: Lurssen Yachts
+  type: builder
+- name: Stern Projects
+  type: builder
+- name: 'Taconic Builders, Inc.'
+  type: builder
+- name: The Marker Group
+  type: builder
+- name: Nathalie Droulers
+  type: architect
+- name: Randall Stofft Architects
+  type: architect
+- name: Richard Manion Architecture Inc.
+  type: architect
+- name: Siemasko + Verbridge
+  type: architect
+- name: Stofft Cooney Architects
+  type: architect
+- name: The Austin Company
+  type: architect
+- name: William Hablinski
+  type: architect
+- name: Wolfgang Ludes Studio
+  type: architect
+- name: Yabu Pushelberg
+  type: architect
+- name: 450 Designer
+  type: interior designer
+- name: Phyllis Taylor
+  type: interior designer
+- name: Suzanne Tucker
+  type: interior designer
