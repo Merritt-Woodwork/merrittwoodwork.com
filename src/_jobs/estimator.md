@@ -2,7 +2,7 @@
 role: Estimator
 job-location: ohio
 job-type: full time
-contract: 'Mentor, Ohio or Remote'
+contract: Permanent
 description_markdown: >-
   Position is part of the sales team for a high-end “monumental” Architectural
   Woodworking company with Global reach. Full responsibility and management of
@@ -11,7 +11,8 @@ description_markdown: >-
   of all labor and materials. Takeoffs are done using Merritt's proprietary
   excel based takeoff format. Knowledge of woodworking materials, manufacturing
   techniques and installation costs required. Training on Merritt standards and
-  system will be provided.
+  system will be provided. This position can either be worked from our Mentor,
+  Ohio location or remote.
 responsibilities_markdown: >-
   * Review all proposal request documents and prepare estimating schedules and
   process
