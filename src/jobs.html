@@ -44,7 +44,41 @@ lang: en
       {% if site.internships.size > 0 %}
       <h3 class="header-text-condensed"><a href="/careers/internships#tab">internships</a></h3>
       {% endif %}
-   
+      <div class="header-text tabs">
+        <!-- <div class="mobile-wrapper">
+          <a href="" class="isoFilter active" data-filter="*">all</a>
+        </div> -->
+    {% for location in site.data.locations %}
+          {% assign jobs = site.jobs | where:'job-location',{{location.name}} %}
+          {% if jobs.size > 0 %}
+            <div class="mobile-wrapper">
+              <a href="" class="isoFilter" data-filter=".{{location.name}}">{{location.name}}</a>
+<section class="gallery">
+  <div class="grid-container">
+    <div class="grid-column">
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+
+        {% for job in site.jobs %}
+        <div class="grid-item {{job.job-location}}">
+          <div class="job-title">
+            <h2 class="header-text-condensed">{{job.role}}</h2>
+          </div>
+          <div class="job-info">
+            <p class="copy-text">Job Type: {{job.job-type | capitalize}}</p>
+            {% if job.job.contract %}<p class="copy-text">Contract: {{job.contract | capitalize}}</p>{% endif %}
+            <p class="copy-text">Location: {{job.job-location | capitalize}}</p>
+            <h3 class="header-text-condensed"><a href="{{job.url}}">more info</a></h3>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <section class="text-block">
   <div class="grid-container">
