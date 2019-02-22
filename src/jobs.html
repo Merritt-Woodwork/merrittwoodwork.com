@@ -48,15 +48,11 @@ lang: en
         <!-- <div class="mobile-wrapper">
           <a href="" class="isoFilter active" data-filter="*">all</a>
         </div> -->
-        <script id="gnewtonjs" type="text/javascript" src="//newton.newtonsoftware.com/career/iframe.action?clientId=8a7883c66859e56401687156a3335854"></script>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
-
+    {% for location in site.data.locations %}
+          {% assign jobs = site.jobs | where:'job-location',{{location.name}} %}
+          {% if jobs.size > 0 %}
+            <div class="mobile-wrapper">
+              <a href="" class="isoFilter" data-filter=".{{location.name}}">{{location.name}}</a>
 <section class="gallery">
   <div class="grid-container">
     <div class="grid-column">
