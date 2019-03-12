@@ -1,8 +1,8 @@
 ---
-role:
-job-location:
-job-type:
-contract:
+role: CNC Programmer
+job-location: california
+job-type: full time
+contract: Permanent
 description_markdown:
 responsibilities_markdown:
 requirements_markdown:
