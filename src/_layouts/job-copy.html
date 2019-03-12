@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<section class="jumbo-hero">
+  <div class="wrapper">
+    <div class="grid-container">
+      <!-- <div class="grid-collapse"> -->
+        <div class="headline header-text-condensed">
+          <h1 class="animated customFadeInUp">{{page.role}}</h1>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+</section>
+<div class="jumbo-hero-color grid-container">
+  <div class="grid-column">
+    <div class="color"></div>
+  </div>
+</div>
+
+
+<section class="headline-block flow top">
+  <div class="outer grid-container">
+    <div class="grid-column">
+      <div class="grid-collapse">
+        <div class="inner-wrapper">
+          <div class="grid-column--headline">
+            <h2 class="header-text-condensed">job description</h2>
+          </div>
+          <div class="grid-column--copy copy-text">
+            {{page.description_markdown | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="headline-block flow">
+  <div class="outer grid-container">
+    <div class="grid-column">
+      <div class="grid-collapse">
+        <div class="inner-wrapper">
+          <div class="grid-column--headline">
+            <h2 class="header-text-condensed">Duties & responsibilities</h2>
+          </div>
+          <div class="grid-column--copy copy-text">
+            {{page.responsibilities_markdown | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="headline-block flow bottom">
+  <div class="outer grid-container">
+    <div class="grid-column">
+      <div class="grid-collapse">
+        <div class="inner-wrapper">
+          <div class="grid-column--headline">
+            <h2 class="header-text-condensed">Requirements & Qualifications</h2>
+          </div>
+          <div class="grid-column--copy copy-text">
+            {{page.requirements_markdown | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="job-application">
+  <div class="outer grid-container">
+    <div class="grid-column">
+      <div class="grid-collapse">
+        <div class="inner-wrapper">
+          <div class="grid-column--left">
+            <h3 class="header-text-condensed">{{page.role | upcase }}</h3>
+            <p class="copy-text">Job Type: {{page.job-type | capitalize }}</p>
+            {% if page.contract %}<p class="copy-text">Contract: {{page.contract | capitalize}}</p>{% endif %}
+            <p class="copy-text">Location: {{page.job-location | capitalize}}</p>
+          </div>
+          <div class="grid-column--right">
+            <h5 class="header-text-condensed">Apply for this position</h5>
+            <p class="copy-text">Send resume and cover letter to:<br /> <a href="mailto:careers@merrittwoodwork.com">careers@merrittwoodwork.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="next">
+  <div class="grid-container">
+    <div class="grid-column">
+      <div class="color"></div>
+    </div>
+  </div>
+  <div class="center">
+    <div class="link-wrapper">
+      <a href="/careers/jobs">
+        <h5 class="header-text">back</h5>
+        <span><h2 class="header-text-condensed">careers</h2></span>
+      </a>
+    </div>
+  </div>
+</section>
