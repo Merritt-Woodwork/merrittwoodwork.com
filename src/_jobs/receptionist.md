@@ -4,7 +4,7 @@ job-location: ohio
 job-type: full time
 contract: Permanent
 description_markdown: >-
-  * The ideal candidate will
+  The ideal candidate will
 
 
   * be enthusiastic and personable with very strong verbal and written
