@@ -1,5 +1,5 @@
 ---
-name: Adam Thorpe 1
+name: Adam Thorpe
 draft: false
 title: Director of Classical Decoration
 quote: >-
