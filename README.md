@@ -1,9 +1,10 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/313d3be5-1e6d-42fb-a31a-ee4458f11448/deploy-status)](https://app.netlify.com/sites/mww/deploys)
+
 ## To get started
 
 ```sh
-$ echo '.gems' > .rbenv-gemsets
-$ bundle instsll
-$ yarn install
+$ bundle install
+$ npm install
 ```
 ## Dev branch for surge.sh preview
 
