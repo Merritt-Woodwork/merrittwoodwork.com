@@ -4,10 +4,6 @@ job-location: ohio
 job-type: full time
 contract: Permanent
 description_markdown: >-
-  We are looking for an enthusiastic receptionist | administrative assistant to
-  provide excellent customer service to our external and internal clients.
-
-
   The ideal candidate will
 
 
