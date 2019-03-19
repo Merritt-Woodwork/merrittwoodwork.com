@@ -3,7 +3,24 @@ role: Receptionist | Administrative Assistant
 job-location: ohio
 job-type: full time
 contract: Permanent
-description_markdown:
+description_markdown: >-
+  * The ideal candidate will
+
+
+  * be enthusiastic and personable with very strong verbal and written
+  communication skills.
+
+  * serve visitors by greeting, welcoming, and directing them appropriately;
+  notifying company personnel of visitor arrival and maintaining security and
+  telecommunications system.
+
+  * be able to perform routine clerical, reporting and data entry support to
+  various departments such as Accounting and Human Resources.
+
+  * be highly flexible, able to multi-task, a team player, organized, and
+  dependable.
+
+  * have strong computer skills and Microsoft Office experience
 responsibilities_markdown: >-
   * Answer phone calls, direct to the appropriate associate, take and retrieve
   messages
@@ -36,3 +53,4 @@ requirements_markdown: |-
   * Associate degree in Business, Communications or related field
   * Proficiency with Microsoft Office (Excel, Word, Outlook, PowerPoint)
 ---
+
