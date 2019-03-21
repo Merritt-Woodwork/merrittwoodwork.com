@@ -247,17 +247,21 @@
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
+        justify-content: space-between;
         // height: 150px;
         margin-bottom: 1rem;
+        @include breakpoint(530px) {
+          flex-wrap: nowrap;
+        }
         .job-title {
-          @include breakpoint(300px, 991px) {
+          @include breakpoint(300px, 529px) {
             flex-basis: 100%;
           }
-          @include breakpoint(992px) {
+          @include breakpoint(530px) {
             flex-basis: 60%;
           }
           h2 {
-            padding-right: 2rem;
+            padding-right: 1rem;
           }
         }
         .job-info {
@@ -331,7 +335,7 @@
     }
     @include breakpoint(lg) {
       .gutter-sizer {
-        width: 2%;
+        width: 8%;
       }
       .grid-sizer, .grid-item {
         width: 46%;
