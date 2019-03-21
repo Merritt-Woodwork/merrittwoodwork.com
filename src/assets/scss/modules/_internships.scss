@@ -353,6 +353,43 @@
 
   section.headline-block.flow {
     .grid-column {
+
+      // Overriding to match job list grid below
+      @include grid-media($md-grid) {
+        @include grid-column(16 of 16);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+      @include grid-media($xl-grid) {
+        @include grid-column(14 of 16);
+        @include grid-push(1 of 16);
+      }
+
+      &--headline {
+        @include grid-media($lg-grid) {
+          @include grid-column(6 of 16);
+        }
+        @include grid-media($xl-grid) {
+          @include grid-column(5 of 16);
+        }
+      }
+
+      &--copy {
+        @include grid-media($lg-grid) {
+          @include grid-column(10 of 16);
+        }
+        @include grid-media($xl-grid) {
+          @include grid-column(11 of 16);
+        }
+      }
+
+      .inner-wrapper {
+        // Fix full width after xxl breakpoint
+        width: 100%;
+      }
+
       @include breakpoint(xs) {
         padding-top: 40px;
         padding-bottom: 40px;
