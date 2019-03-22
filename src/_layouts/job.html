@@ -19,8 +19,33 @@ layout: default
   </div>
 </div>
 
-
+{% assign contact = false %}
+{% if page.description_markdown == nil %}
+  {% assign contact = true %}
+{% endif %}
+{% if page.responsibilities_markdown == nil %}
+  {% assign contact = true %}
+{% endif %}
+{% if page.requirements_markdown == nil %}
+  {% assign contact = true %}
+{% endif %}
+{% if contact %}
 <section class="headline-block flow top">
+  <div class="outer grid-container">
+    <div class="grid-column">
+      <div class="grid-collapse">
+        <div class="inner-wrapper">
+          <div class="grid-column--stretch">
+            <h2 class="header-text-condensed">Contact HR for more information: <a href="mailto:careers@merrittwoodwork.com?subject=Careers Inquiry: {{page.role}}">careers@merrittwoodwork.com</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="headline-block flow {% if contact == false %}top{% endif %}">
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">

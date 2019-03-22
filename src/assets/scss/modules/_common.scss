@@ -273,6 +273,19 @@ section.headline-block {
     @include breakpoint(lg) {
     }
   }
+
+  .grid-column--stretch {
+    @include grid-media($sm-grid) {
+     @include grid-column(8 of 8);
+    }
+    @include grid-media($md-grid) {
+      @include grid-column(8 of 8);
+    }
+    @include grid-media($lg-grid) {
+      @include grid-column(10 of 12);
+      @include grid-push(1 of 12);
+    }
+  }
 }
 
 section.headline-block.flow {
@@ -281,7 +294,7 @@ section.headline-block.flow {
       padding-top: 40px;
       padding-bottom: 40px;
       .inner-wrapper {
-        float: left;
+        //float: left;
         margin-bottom: 48px;
       }
     }
@@ -289,7 +302,7 @@ section.headline-block.flow {
       padding-top: 80px;
       padding-bottom: 80px;
       .inner-wrapper {
-        float: left;
+        //float: left;
         margin-bottom: 48px;
       }
     }
@@ -755,12 +768,3 @@ section.jumbo-hero {
     }
   }
 }
-
-
-
-
-
-
-
-
-
