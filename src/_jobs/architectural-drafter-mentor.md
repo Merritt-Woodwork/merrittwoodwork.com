@@ -1,5 +1,5 @@
 ---
-role: Architectural Drafer
+role: Architectural Drafter
 job-location: ohio
 job-type: full time
 contract: Permanent
