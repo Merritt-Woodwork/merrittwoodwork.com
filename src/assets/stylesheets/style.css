@@ -353,6 +353,24 @@ td,
 th {
   padding: 0; }
 
+@font-face {
+  font-family: 'Portrait Web';
+  src: url("../fonts/Portrait-Light-Web.eot");
+  src: url("../fonts/Portrait-Light-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Portrait-Light-Web.woff2") format("woff2"), url("../fonts/Portrait-Light-Web.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'UniversLT-Condensed';
+  src: url("../fonts/321C3D_0_0.eot");
+  src: url("../fonts/321C3D_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/321C3D_0_0.woff2") format("woff2"), url("../fonts/321C3D_0_0.woff") format("woff"), url("../fonts/321C3D_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'UniversLTPro-UltraCn';
+  src: url("../fonts/321C3D_1_0.eot");
+  src: url("../fonts/321C3D_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/321C3D_1_0.woff2") format("woff2"), url("../fonts/321C3D_1_0.woff") format("woff"), url("../fonts/321C3D_1_0.ttf") format("truetype"); }
+
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
@@ -1641,12 +1659,30 @@ section.list-block {
       font-style: normal;
       font-stretch: normal; } }
 
+@media only screen and (min-width: 300px) {
+  section.headline-block .grid-column--stretch {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 769px) {
+  section.headline-block .grid-column--stretch {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  section.headline-block .grid-column--stretch {
+    width: calc(83.3333333333% - 31.1666666667px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(8.3333333333% - 18.4166666667px + 34px); } }
+
 @media (max-width: 575px) {
   section.headline-block.flow .grid-column {
     padding-top: 40px;
     padding-bottom: 40px; }
     section.headline-block.flow .grid-column .inner-wrapper {
-      float: left;
       margin-bottom: 48px; } }
 
 @media (min-width: 576px) {
@@ -1654,7 +1690,6 @@ section.list-block {
     padding-top: 80px;
     padding-bottom: 80px; }
     section.headline-block.flow .grid-column .inner-wrapper {
-      float: left;
       margin-bottom: 48px; } }
 
 @media (min-width: 768px) {
@@ -5367,27 +5402,33 @@ body.about .remodal p.quote {
         flex-wrap: wrap;
     -ms-flex-align: stretch;
         align-items: stretch;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     margin-bottom: 32px; } }
-  @media (min-width: 300px) and (min-width: 300px) and (max-width: 991px) {
+  @media (min-width: 300px) and (min-width: 530px) {
+    .jobs section.gallery .grid-item {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; } }
+  @media (min-width: 300px) and (min-width: 300px) and (max-width: 529px) {
     .jobs section.gallery .grid-item .job-title {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%; } }
-  @media (min-width: 300px) and (min-width: 992px) {
+  @media (min-width: 300px) and (min-width: 530px) {
     .jobs section.gallery .grid-item .job-title {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; } }
+      -ms-flex-preferred-size: 60%;
+          flex-basis: 60%; } }
 
 @media (min-width: 300px) {
     .jobs section.gallery .grid-item .job-title h2 {
-      padding-right: 2rem; } }
-  @media (min-width: 300px) and (min-width: 300px) and (max-width: 991px) {
+      padding-right: 1rem; } }
+  @media (min-width: 300px) and (min-width: 300px) and (max-width: 529px) {
     .jobs section.gallery .grid-item .job-info {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%; } }
-  @media (min-width: 300px) and (min-width: 992px) {
+  @media (min-width: 300px) and (min-width: 530px) {
     .jobs section.gallery .grid-item .job-info {
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; } }
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%; } }
 
 @media (min-width: 300px) {
     .jobs section.gallery .grid-item .job-info p {
@@ -5434,8 +5475,8 @@ body.about .remodal p.quote {
 
 @media (min-width: 992px) {
   .jobs section.gallery .gutter-sizer {
-    width: 2%; }
-  .jobs section.gallery .grid-sizer, .jobs section.gallery .grid-item {
+    width: 8%; }
+  .jobs section.gallery .grid-item {
     width: 46%; }
   .jobs section.gallery .grid-item {
     margin-bottom: 83px; } }
@@ -5444,12 +5485,58 @@ body.about .remodal p.quote {
   .jobs section.gallery .grid-item {
     margin-bottom: 100px; } }
 
+@media only screen and (min-width: 769px) {
+  .jobs section.headline-block.flow .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  .jobs section.headline-block.flow .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 1200px) {
+  .jobs section.headline-block.flow .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 992px) {
+  .jobs section.headline-block.flow .grid-column--headline {
+    width: calc(37.5% - 23.375px);
+    float: left;
+    margin-left: 17px; } }
+
+@media only screen and (min-width: 1200px) {
+  .jobs section.headline-block.flow .grid-column--headline {
+    width: calc(31.25% - 22.3125px);
+    float: left;
+    margin-left: 17px; } }
+
+@media only screen and (min-width: 992px) {
+  .jobs section.headline-block.flow .grid-column--copy {
+    width: calc(62.5% - 27.625px);
+    float: left;
+    margin-left: 17px; } }
+
+@media only screen and (min-width: 1200px) {
+  .jobs section.headline-block.flow .grid-column--copy {
+    width: calc(68.75% - 28.6875px);
+    float: left;
+    margin-left: 17px; } }
+
+.jobs section.headline-block.flow .grid-column .inner-wrapper {
+  width: 100%; }
+
 @media (max-width: 575px) {
   .jobs section.headline-block.flow .grid-column {
     padding-top: 40px;
     padding-bottom: 40px; }
     .jobs section.headline-block.flow .grid-column .inner-wrapper {
-      float: left;
       margin-bottom: 48px; } }
 
 @media (min-width: 576px) {
@@ -5457,7 +5544,6 @@ body.about .remodal p.quote {
     padding-top: 40px;
     padding-bottom: 40px; }
     .jobs section.headline-block.flow .grid-column .inner-wrapper {
-      float: left;
       margin-bottom: 48px; } }
 
 @media (min-width: 768px) {
@@ -5887,19 +5973,25 @@ section.job-application {
         flex-wrap: wrap;
     -ms-flex-align: stretch;
         align-items: stretch;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     margin-bottom: 1rem; } }
-  @media (min-width: 300px) and (min-width: 300px) and (max-width: 991px) {
+  @media (min-width: 300px) and (min-width: 530px) {
+    .internships section.gallery .grid-item {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap; } }
+  @media (min-width: 300px) and (min-width: 300px) and (max-width: 529px) {
     .internships section.gallery .grid-item .job-title {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%; } }
-  @media (min-width: 300px) and (min-width: 992px) {
+  @media (min-width: 300px) and (min-width: 530px) {
     .internships section.gallery .grid-item .job-title {
       -ms-flex-preferred-size: 60%;
           flex-basis: 60%; } }
 
 @media (min-width: 300px) {
     .internships section.gallery .grid-item .job-title h2 {
-      padding-right: 2rem; } }
+      padding-right: 1rem; } }
   @media (min-width: 300px) and (min-width: 300px) and (max-width: 991px) {
     .internships section.gallery .grid-item .job-info {
       -ms-flex-preferred-size: 100%;
@@ -5954,7 +6046,7 @@ section.job-application {
 
 @media (min-width: 992px) {
   .internships section.gallery .gutter-sizer {
-    width: 2%; }
+    width: 8%; }
   .internships section.gallery .grid-sizer, .internships section.gallery .grid-item {
     width: 46%; }
   .internships section.gallery .grid-item {
@@ -5963,6 +6055,53 @@ section.job-application {
 @media (min-width: 1200px) {
   .internships section.gallery .grid-item {
     margin-bottom: 100px; } }
+
+@media only screen and (min-width: 769px) {
+  .internships section.headline-block.flow .grid-column {
+    width: calc(100% - 32px);
+    float: left;
+    margin-left: 16px; } }
+
+@media only screen and (min-width: 992px) {
+  .internships section.headline-block.flow .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 1200px) {
+  .internships section.headline-block.flow .grid-column {
+    width: calc(87.5% - 31.875px);
+    float: left;
+    margin-left: 17px;
+    margin-left: calc(6.25% - 18.0625px + 34px); } }
+
+@media only screen and (min-width: 992px) {
+  .internships section.headline-block.flow .grid-column--headline {
+    width: calc(37.5% - 23.375px);
+    float: left;
+    margin-left: 17px; } }
+
+@media only screen and (min-width: 1200px) {
+  .internships section.headline-block.flow .grid-column--headline {
+    width: calc(31.25% - 22.3125px);
+    float: left;
+    margin-left: 17px; } }
+
+@media only screen and (min-width: 992px) {
+  .internships section.headline-block.flow .grid-column--copy {
+    width: calc(62.5% - 27.625px);
+    float: left;
+    margin-left: 17px; } }
+
+@media only screen and (min-width: 1200px) {
+  .internships section.headline-block.flow .grid-column--copy {
+    width: calc(68.75% - 28.6875px);
+    float: left;
+    margin-left: 17px; } }
+
+.internships section.headline-block.flow .grid-column .inner-wrapper {
+  width: 100%; }
 
 @media (max-width: 575px) {
   .internships section.headline-block.flow .grid-column {
@@ -7046,24 +7185,6 @@ body.grid .grid-container {
   .grid-container.fluid .grid-column {
     width: 100% !important;
     margin: 0 !important; } }
-
-@font-face {
-  font-family: 'Portrait Web';
-  src: url("../fonts/Portrait-Light-Web.eot");
-  src: url("../fonts/Portrait-Light-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/Portrait-Light-Web.woff2") format("woff2"), url("../fonts/Portrait-Light-Web.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal; }
-
-@font-face {
-  font-family: 'UniversLT-Condensed';
-  src: url("../fonts/321C3D_0_0.eot");
-  src: url("../fonts/321C3D_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/321C3D_0_0.woff2") format("woff2"), url("../fonts//321C3D_0_0.woff") format("woff"), url("../fonts/321C3D_0_0.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'UniversLTPro-UltraCn';
-  src: url("../fonts/321C3D_1_0.eot");
-  src: url("../fonts/321C3D_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/321C3D_1_0.woff2") format("woff2"), url("../fonts/321C3D_1_0.woff") format("woff"), url("../fonts/321C3D_1_0.ttf") format("truetype"); }
 
 .copy-text {
   font-family: 'Portrait Web';

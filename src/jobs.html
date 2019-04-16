@@ -46,22 +46,6 @@ lang: en
     <div class="grid-column">
       <h3 class="header-text-condensed"><a href="/careers#tab">working at merritt</a></h3>
       <h3 class="header-text-condensed"><a class="active" href="/careers/jobs#tab">jobs</a></h3>
-      {% if site.internships.size > 0 %}
-      <h3 class="header-text-condensed"><a href="/careers/internships#tab">internships</a></h3>
-      {% endif %}
-      <div class="header-text tabs">
-        <div class="mobile-wrapper">
-          <a href="" class="isoFilter active" data-filter="*">all</a>
-        </div>
-        {% for location in site.data.locations %}
-          {% assign jobs = site.jobs | where:'job-location',{{location.name}} %}
-          {% if jobs.size > 0 %}
-            <div class="mobile-wrapper">
-              <a href="" class="isoFilter" data-filter=".{{location.name}}">{{location.name}}</a>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
     </div>
   </div>
 </section>
@@ -69,42 +53,7 @@ lang: en
 <section class="headline-block flow">
   <div class="outer grid-container">
     <div class="grid-column">
-      <div class="grid-collapse">
-        <div class="inner-wrapper">
-          <div class="grid-column--headline">
-            <h2 class="header-text-condensed">{{page.culture_block.headline}}</h2>
-          </div>
-          <div class="grid-column--copy">
-            {{page.culture_block.details | markdownify}}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="gallery">
-  <div class="grid-container">
-    <div class="grid-column">
-      <div class="grid">
-
-        <div class="grid-sizer"></div>
-        <div class="gutter-sizer"></div>
-
-        {% for job in site.jobs %}
-        <div class="grid-item {{job.job-location}}">
-          <div class="job-title">
-            <h2 class="header-text-condensed">{{job.role}}</h2>
-          </div>
-          <div class="job-info">
-            <p class="copy-text">Type: {{job.job-type | capitalize}}</p>
-            {% if job.job.contract %}<p class="copy-text">Contract: {{job.contract | capitalize}}</p>{% endif %}
-            <p class="copy-text">Location: {{job.job-location | capitalize}}</p>
-            <h3 class="header-text-condensed"><a href="{{job.url}}">more info</a></h3>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
+      <script id="gnewtonjs" type="text/javascript" src="//newton.newtonsoftware.com/career/iframe.action?clientId=8a7883c66859e56401687156a3335854"></script>
     </div>
   </div>
 </section>

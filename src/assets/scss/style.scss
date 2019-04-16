@@ -9,6 +9,7 @@
 @import
   "node_modules/normalize.scss/normalize",
   "settings/settings",
+  "settings/fonts",
   "neat/neat";
 
 // modules
@@ -97,25 +98,7 @@ html, body {
 
 
 
-  // fonts
-  @font-face {
-      font-family: 'Portrait Web';
-      src: url('../fonts/Portrait-Light-Web.eot');
-      src: url('../fonts/Portrait-Light-Web.eot?#iefix') format('embedded-opentype'), url('../fonts/Portrait-Light-Web.woff2') format('woff2'), url('../fonts/Portrait-Light-Web.woff') format('woff');
-      font-weight: 300;
-      font-style: normal;
-      font-stretch: normal;
-  }
-  @font-face {
-      font-family: 'UniversLT-Condensed';
-      src: url('../fonts/321C3D_0_0.eot');
-      src: url('../fonts/321C3D_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/321C3D_0_0.woff2') format('woff2'), url('../fonts//321C3D_0_0.woff') format('woff'), url('../fonts/321C3D_0_0.ttf') format('truetype');
-  }
-  @font-face {
-      font-family: 'UniversLTPro-UltraCn';
-      src: url('../fonts/321C3D_1_0.eot');
-      src: url('../fonts/321C3D_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/321C3D_1_0.woff2') format('woff2'), url('../fonts/321C3D_1_0.woff') format('woff'), url('../fonts/321C3D_1_0.ttf') format('truetype');
-  }
+
   .copy-text {
       font-family: 'Portrait Web';
       font-weight: 300;
@@ -164,4 +147,3 @@ body {
     margin-top: 72px;
   }
 }
-
