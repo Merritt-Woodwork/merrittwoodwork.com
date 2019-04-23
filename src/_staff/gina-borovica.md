@@ -1,6 +1,6 @@
 ---
 name: Gina Borovica
-draft: true
+draft: false
 title: Chief of Staff
 quote:
 details:
