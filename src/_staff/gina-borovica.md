@@ -5,7 +5,7 @@ title: Chief of Staff
 quote:
 details:
 image: /uploads/merritt-022719-286-bw.jpg
-display_number: 11
+display_number: 1
 lang: en
 _comments:
   image: file should be ~600px wide
