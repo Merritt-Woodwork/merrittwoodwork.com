@@ -5,7 +5,7 @@ title: Director of Business Development
 quote:
 details:
 image: /uploads/merritt-022719-338-bw.jpg
-display_number: 13
+display_number: 3
 lang: en
 _comments:
   image: file should be ~600px wide
