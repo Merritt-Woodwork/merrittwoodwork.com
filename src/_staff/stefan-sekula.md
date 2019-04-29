@@ -17,7 +17,7 @@ details: >-
   as one.Stefan continues in his role as a senior project principal and now
   oversees Merritt's west coast operations.
 image: /uploads/staff-8.jpg
-display_number: 9
+display_number: 16
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
