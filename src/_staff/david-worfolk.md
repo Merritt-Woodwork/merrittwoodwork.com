@@ -19,7 +19,7 @@ details: >-
   nurturing and supporting a loyal workforce who share his commitment to
   quality, service and cooperation.
 image: /uploads/staff-9.jpg
-display_number: 5
+display_number: 12
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
