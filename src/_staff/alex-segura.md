@@ -16,7 +16,7 @@ details: >-
   carpenters. From start to finish, from build to installation, he accepts and
   delivers only flawless craftsmanship and perfect results.
 image: /uploads/staff-11.jpg
-display_number: 4
+display_number: 11
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
