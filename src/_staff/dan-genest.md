@@ -4,7 +4,7 @@ draft: false
 title: 'General Manager, SCI-Merritt'
 quote:
 details:
-image: /uploads/merritt-022719-167-bw.jpg
+image: /uploads/merritt-022719-167-bw-1.jpg
 display_number: 14
 lang:
 _comments:
