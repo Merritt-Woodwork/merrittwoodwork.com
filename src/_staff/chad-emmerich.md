@@ -4,7 +4,7 @@ draft: false
 title: Director of Human Resources
 quote:
 details:
-image: /uploads/merritt-022719-177-bw.jpg
+image: /uploads/merritt-022719-177-bw-1.jpg
 display_number: 16
 lang:
 _comments:
