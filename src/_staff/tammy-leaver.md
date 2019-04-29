@@ -5,7 +5,7 @@ title: Sr. Human Resources Business Partner
 quote:
 details:
 image: /uploads/merritt-022719-284-bw-1.jpg
-display_number: 17
+display_number: 8
 lang:
 _comments:
   image: file should be ~600px wide
