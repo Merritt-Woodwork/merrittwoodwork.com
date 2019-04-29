@@ -1,10 +1,10 @@
 ---
 name: Robert Scarborough
 draft: false
-title: Program Director of Interior Strategies
+title: Program Director Interior Strategies
 quote:
 details:
-image: /uploads/merritt-022719-225-bw.jpg
+image: /uploads/merritt-022719-225-bw-1.jpg
 display_number: 18
 lang:
 _comments:
