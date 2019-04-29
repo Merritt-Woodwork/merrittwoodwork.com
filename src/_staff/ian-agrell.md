@@ -23,7 +23,7 @@ details: >-
   he founded the School of Classical Woodcarving where he teaches several
   classes each year.
 image: /uploads/Ian Agrell.jpg
-display_number: 10
+display_number: 17
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
