@@ -5,7 +5,7 @@ title: Program Director Interior Strategies
 quote:
 details:
 image: /uploads/merritt-022719-225-bw-1.jpg
-display_number: 18
+display_number: 9
 lang:
 _comments:
   image: file should be ~600px wide
