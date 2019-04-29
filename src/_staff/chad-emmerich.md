@@ -5,7 +5,7 @@ title: Director of Human Resources
 quote:
 details:
 image: /uploads/merritt-022719-177-bw-1.jpg
-display_number: 16
+display_number: 5
 lang:
 _comments:
   image: file should be ~600px wide
