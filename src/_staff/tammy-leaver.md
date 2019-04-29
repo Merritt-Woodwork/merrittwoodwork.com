@@ -4,7 +4,7 @@ draft: false
 title: Sr. Human Resources Business Partner
 quote:
 details:
-image: /uploads/merritt-022719-284-bw.jpg
+image: /uploads/merritt-022719-284-bw-1.jpg
 display_number: 17
 lang:
 _comments:
