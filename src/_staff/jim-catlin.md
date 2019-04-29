@@ -4,7 +4,7 @@ draft: false
 title: Director of Business Development
 quote:
 details:
-image: /uploads/merritt-022719-338-bw.jpg
+image: /uploads/merritt-022719-338-bw-1.jpg
 display_number: 13
 lang: en
 _comments:
