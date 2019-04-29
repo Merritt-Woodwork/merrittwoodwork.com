@@ -23,7 +23,7 @@ details: >-
   2016.  Adam serves as Merritt’s representative to the Institute of Classical
   Art & Architecture (ICAA).
 image: /uploads/Adam Thorpe.jpg
-display_number: 11
+display_number: 18
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
