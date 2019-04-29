@@ -19,7 +19,7 @@ details: >-
   drives Albert and his team to excellence.Albert lives in Savannah, Georgia and
   is a member of the Historic Savannah Foundation.
 image: /uploads/staff-6.jpg
-display_number: 3
+display_number: 10
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
