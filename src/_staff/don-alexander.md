@@ -20,7 +20,7 @@ details: >-
   is also a guest lecturer for the school’s Design and Project Management
   courses.
 image: /uploads/staff-5.jpg
-display_number: 6
+display_number: 13
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
