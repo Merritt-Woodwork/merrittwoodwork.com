@@ -4,7 +4,7 @@ draft: false
 title: Chief of Staff
 quote:
 details:
-image: /uploads/merritt-022719-286-bw.jpg
+image: /uploads/merritt-022719-286-bw-1.jpg
 display_number: 12
 lang: en
 _comments:
