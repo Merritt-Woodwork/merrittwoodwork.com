@@ -4,7 +4,7 @@ draft: false
 title: Operations Manager
 quote:
 details:
-image: /uploads/merritt-022719-244-bw.jpg
+image: /uploads/merritt-022719-244-bw-1.jpg
 display_number: 15
 lang:
 _comments:
