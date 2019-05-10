@@ -3,9 +3,9 @@ name: Jim Catlin
 draft: false
 title: VP of Business Development
 quote: >-
-  “Being in the continuous pursuit of perfection is knowing nothing is ever
+  Being in the continuous pursuit of perfection is knowing nothing is ever
   perfect, but I never stop trying to improve to get closer every day. I enjoy
-  the challenges this industry brings to that pursuit.”
+  the challenges this industry brings to that pursuit.
 details: >-
   Jim has recently joined Merritt as VP of Business Development. A graduate of
   the Ben Franklin Institute in Boston, Catlin studied architecture at Boston
