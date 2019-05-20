@@ -1,35 +1,139 @@
+- name: 450 Designer
+  type: interior designer
+- name: 4BI & Associés
+  type: interior designer
+- name: 'Albert Hadley, Inc.'
+  type: interior designer
 - name: 'Albert, Righter & Tittmann Architects'
+  type: architect
+- name: Alden Architecture
   type: architect
 - name: Allan Greenberg Architect
   type: architect
+- name: Alpha Builders Group
+  type: builder
+- name: AMK Concepts
+  type: builder
+- name: Anderson McKelvey Architects
+  type: architect
+- name: Andrée Putman
+  type: interior designer
+- name: Andrew Skurman Architects
+  type: architect
 - name: Anthony Minichetti Architect LLC
+  type: architect
+- name: Appleton Partners LLP - Architects
   type: architect
 - name: Arcologica Ltd
   type: architect
 - name: ASD Architects
   type: architect
+- name: Atelier Ugo Sap
+  type: architect
+- name: Barbara Barry Inc.
+  type: architect
+- name: Barbara Ostrom Associates
+  type: interior designer
+- name: 'Bernsohn & Fetner, LLC'
+  type: builder
+- name: BFI Construction Corp.
+  type: builder
+- name: Black Mountain Construction|Development
+  type: builder
+- name: Bohlin Cywinski Jackson
+  type: architect
+- name: 'Brian J. McCarthy, Inc.'
+  type: interior designer
+- name: 'Bruce Bierman Design, Inc.'
+  type: interior designer
+- name: 'Bulgin & Associates, Inc.'
+  type: builder
+- name: 'Bunny Williams, Inc.'
+  type: interior designer
+- name: Butler Armsden Architects
+  type: architect
 - name: Callison RTKL Associates
   type: architect
+- name: 'Carol John Designs, Inc.'
+  type: interior designer
 - name: Carver + Schicketanz
   type: architect
+- name: Chambers + Chambers
+  type: architect
+- name: Chapelle Interior Design
+  type: interior designer
+- name: Chapi Chapo Design
+  type: interior designer
 - name: Charles Cunniffe Architects
   type: architect
+- name: 'Chris Pollack, LTD'
+  type: owner rep
+- name: 'Christian Liaigre, Inc.'
+  type: interior designer
+- name: Christina Murphy Interiors
+  type: interior designer
+- name: Christine Van Deusen Incorporated
+  type: interior designer
+- name: Coastal Construction
+  type: builder
+- name: 'Coble Builders, LLC'
+  type: builder
+- name: Cork-Howard Construction
+  type: builder
+- name: 'Crapsey and Gilles Contractors, Inc.'
+  type: builder
+- name: D Reis Contracting Group
+  type: builder
+- name: D+DSAO
+  type: owner rep
+- name: 'Dalton Designs, Inc.'
+  type: interior designer
+- name: Dan Pearson Studio
+  type: interior designer
+- name: 'David Easton, Inc.'
+  type: interior designer
+- name: David Kensington
+  type: interior designer
 - name: David M. Schwarz Architects
   type: architect
+- name: Davis General Contracting Corporation
+  type: builder
 - name: Deborah Berke Partners
   type: architect
+- name: Derecktor Shipyards
+  type: builder
+- name: 'Dibico Construction, Inc.'
+  type: builder
 - name: Diller Scofidio + Renfro
   type: architect
+- name: Donecho Construction
+  type: builder
+- name: Douglas Durkin Design Inc.
+  type: interior designer
 - name: Droulers Architecture
   type: architect
+- name: Eliane Pinheiro
+  type: interior designer
 - name: Eric J. Smith Architects
   type: architect
+- name: Espen Øino International
+  type: interior designer
 - name: Fairfax & Sammons Architects
   type: architect
 - name: 'Ferguson & Shamamian Architects, LLP'
   type: architect
+- name: Fiedler Marciano LLP
+  type: interior designer
+- name: Forde Mazzola Associates Inc.
+  type: builder
+- name: Foster + Partners
+  type: architect
 - name: Francis Gough Architect Inc.
   type: architect
+- name: Frank de Biasi Interiors
+  type: interior designer
+- name: Frank Nicholson Incorporated
+  type: interior designer
 - name: Frederick Fisher & Partners Architects
   type: architect
 - name: G2 Design
@@ -38,9 +142,9 @@
   type: architect
 - name: Gensler
   type: architect
-- name: Hagman Architects
-  type: architect
 - name: Hariri Pontarini Architects
+  type: architect
+- name: Hagman Architects
   type: architect
 - name: Harrison Design
   type: architect
@@ -78,46 +182,6 @@
   type: architect
 - name: Paul Murdoch Architects
   type: architect
-- name: 4BI & Associés
-  type: interior designer
-- name: 'Albert Hadley, Inc.'
-  type: interior designer
-- name: Andrée Putman
-  type: interior designer
-- name: Barbara Ostrom Associates
-  type: interior designer
-- name: 'Brian J. McCarthy, Inc.'
-  type: interior designer
-- name: 'Bruce Bierman Design, Inc.'
-  type: interior designer
-- name: 'Bunny Williams, Inc.'
-  type: interior designer
-- name: 'Carol John Designs, Inc.'
-  type: interior designer
-- name: Chapelle Interior Design
-  type: interior designer
-- name: Chapi Chapo Design
-  type: interior designer
-- name: 'Christian Liaigre, Inc.'
-  type: interior designer
-- name: Christina Murphy Interiors
-  type: interior designer
-- name: Christine Van Deusen Incorporated
-  type: interior designer
-- name: 'Dalton Designs, Inc.'
-  type: interior designer
-- name: 'David Easton, Inc.'
-  type: interior designer
-- name: David Kensington
-  type: interior designer
-- name: Douglas Durkin Design Inc.
-  type: interior designer
-- name: Fiedler Marciano LLP
-  type: interior designer
-- name: Frank de Biasi Interiors
-  type: interior designer
-- name: Frank Nicholson Incorporated
-  type: interior designer
 - name: 'Haynes-Roberts, Inc.'
   type: interior designer
 - name: Ivette Arango Interior Design
@@ -140,30 +204,6 @@
   type: interior designer
 - name: Rose Uniacke
   type: interior designer
-- name: Alpha Builders Group
-  type: builder
-- name: 'Bernsohn & Fetner, LLC'
-  type: builder
-- name: BFI Construction Corp.
-  type: builder
-- name: Black Mountain Construction|Development
-  type: builder
-- name: 'Bulgin & Associates, Inc.'
-  type: builder
-- name: Coastal Construction
-  type: builder
-- name: 'Coble Builders, LLC'
-  type: builder
-- name: Cork-Howard Construction
-  type: builder
-- name: Davis General Contracting Corporation
-  type: builder
-- name: Derecktor Shipyards
-  type: builder
-- name: 'Dibico Construction, Inc.'
-  type: builder
-- name: Donecho Construction
-  type: builder
 - name: 'GGD, Inc.'
   type: builder
 - name: Hansen Construction
@@ -196,9 +236,9 @@
   type: builder
 - name: Mayfair Construction
   type: builder
-- name: 'McCoy Construction Co., Inc.'
-  type: builder
 - name: MCG Mutchnik Construction Group
+  type: builder
+- name: 'McCoy Construction Co., Inc.'
   type: builder
 - name: Men at Work Construction Corp.
   type: builder
@@ -214,18 +254,14 @@
   type: builder
 - name: Royal Huisman Shipyard B.V.
   type: builder
-- name: Ryan Associates
-  type: builder
 - name: Rybovich
+  type: builder
+- name: Ryan Associates
   type: builder
 - name: 'Summit Professional Builders, Inc.'
   type: builder
 - name: 'Woolems, Inc.'
   type: builder
-- name: 'Chris Pollack, LTD'
-  type: owner rep
-- name: D+DSAO
-  type: owner rep
 - name: James Remez
   type: owner rep
 - name: Karen Thomas Associates
@@ -238,43 +274,23 @@
   type: owner rep
 - name: Stamps & Stamps
   type: architect
-- name: Atelier Ugo Sap
-  type: architect
 - name: Gorny & Associates Architecture
   type: architect
-- name: Appleton Partners LLP - Architects
-  type: architect
 - name: Peter Marino Architect
-  type: architect
-- name: Butler Armsden Architects
-  type: architect
-- name: Barbara Barry Inc.
   type: architect
 - name: Timothy Hatton Architects
   type: architect
 - name: Studio VARA
   type: architect
-- name: Anderson McKelvey Architects
-  type: architect
 - name: Mark Cavagnero Associates
   type: architect
 - name: Rossington Architecture
-  type: architect
-- name: Alden Architecture
-  type: architect
-- name: Foster + Partners
   type: architect
 - name: Lundberg Design
   type: architect
 - name: Robert A.M. Stern Architects LLP
   type: architect
-- name: Andrew Skurman Architects
-  type: architect
 - name: ODADA (Orlando Diaz-Azcuy Design Associates)
-  type: architect
-- name: Bohlin Cywinski Jackson
-  type: architect
-- name: Chambers + Chambers
   type: architect
 - name: Sagan-Piechota Architecture
   type: architect
@@ -288,10 +304,6 @@
   type: builder
 - name: Peninsula Custom Homes Inc
   type: builder
-- name: Forde Mazzola Associates Inc.
-  type: builder
-- name: Dan Pearson Studio
-  type: interior designer
 - name: Linda London Ltd.
   type: interior designer
 - name: The Wiseman Group
@@ -320,22 +332,16 @@
   type: architect
 - name: Wade Weissmann Architecture
   type: architect
-- name: 'Crapsey and Gilles Contractors, Inc.'
-  type: builder
 - name: Sutro Architects
   type: architect
 - name: 'Portuondo Perotti Architects, Inc'
   type: architect
 - name: The Swans Nest Interiors Inc.
   type: interior designer
-- name: Eliane Pinheiro
-  type: interior designer
 - name: Studio Cicetti Architect
   type: architect
 - name: Ulstein Group ASA
   type: builder
-- name: Espen Øino International
-  type: interior designer
 - name: Sands Construction Co Inc
   type: builder
 - name: Remick Associates
@@ -414,11 +420,7 @@
   type: builder
 - name: Stern Projects
   type: architect
-- name: D Reis Contracting Group
-  type: builder
 - name: Hatteras Yachts
-  type: builder
-- name: AMK Concepts
   type: builder
 - name: 'Wavell-Huber Wood Products, Inc.'
   type: architect
@@ -456,8 +458,6 @@
   type: architect
 - name: Yabu Pushelberg
   type: architect
-- name: 450 Designer
-  type: interior designer
 - name: Phyllis Taylor
   type: interior designer
 - name: Suzanne Tucker
