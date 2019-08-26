@@ -74,7 +74,7 @@ body.home {
           cursor: pointer;
         }
         a {
-          display: block;
+          display: inline-block;
           text-decoration: none;
           &:hover {
             background-color: transparent;
@@ -92,7 +92,7 @@ body.home {
           cursor: pointer;
         }
         a {
-          display: block;
+          display: inline-block;
           text-decoration: none;
           &:hover {
             background-color: transparent;
@@ -112,7 +112,7 @@ body.home {
         a {
           display: block;
           text-decoration: none;
-          padding: 0 3rem 3rem 0;
+          //padding: 0 3rem 3rem 0;
           &:hover {
             background-color: transparent;
           }

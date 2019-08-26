@@ -11,88 +11,109 @@
     HeaderVideo.prototype.init = function(settings) {
         this.$element = $(settings.element);
         this.settings = settings;
-        this.videoDetails = this.getVideoDetails();
+        this.$content = this.$element.find(settings.content);
+        this.$close = this.$element.find(settings.closeTrigger);
+        this.$links = this.$element.find(settings.links);
 
-        $(this.settings.closeTrigger).hide();
+        this.$element.data('aspectRatio', 0.5625);
+
+        this.$close.hide();
         this.setFluidContainer();
         this.bindUIActions();
 
+        /*
         if(this.videoDetails.teaser && Modernizr.video && !Modernizr.touch) {
             this.appendTeaserVideo();
         }
+        */
     };
 
     HeaderVideo.prototype.bindUIActions = function() {
         var that = this;
-        $(this.settings.playTrigger).on('click', function(e) {
+
+        this.$links.on('click', 'a', function(e) {
             e.preventDefault();
-            that.appendIframe();
+            that.appendIframe(that.getVideoDetails(this));
         });
-        $(this.settings.closeTrigger).on('click', function(e){
+        this.$close.on('click', function(e){
             e.preventDefault();
             that.removeIframe();
         });
     };
 
-    HeaderVideo.prototype.appendIframe = function() {
-        // var html = '<iframe id="header-video__video-element" src="'+this.videoDetails.videoURL+'?rel=0&amp;hd=1&autohide=1&showinfo=0&autoplay=1&enablejsapi=1&origin=*" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
-        if (this.videoDetails.videoStart)
-          var html = '<iframe id="header-video__video-element" src="'+this.videoDetails.videoURL+'?rel=0&amp;hd=1&autohide=1&showinfo=0&autoplay=1&enablejsapi=1&origin=*&start='+this.videoDetails.videoStart+'" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
-        else
-          var html = '<iframe id="header-video__video-element" src="'+this.videoDetails.videoURL+'?rel=0&amp;hd=1&autohide=1&showinfo=0&autoplay=1&enablejsapi=1&origin=*" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
-        $(this.settings.playTrigger).fadeOut();
-        $(this.settings.closeTrigger).fadeIn();
+    HeaderVideo.prototype.appendIframe = function(videoDetails) {
+        // Set video aspect ratio
+        if (videoDetails.videoWidth && videoDetails.videoHeight) {
+            this.$element.data('aspectRatio', videoDetails.videoHeight / videoDetails.videoWidth);
+        }
+
+        var html = '';
+        if (videoDetails.videoStart) {
+            html = '<iframe id="header-video__video-element" src="'+videoDetails.videoURL+'?rel=0&amp;hd=1&autohide=1&showinfo=0&autoplay=1&enablejsapi=1&origin=*&start='+videoDetails.videoStart+'" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        }
+        else {
+            html = '<iframe id="header-video__video-element" src="'+videoDetails.videoURL+'?rel=0&amp;hd=1&autohide=1&showinfo=0&autoplay=1&enablejsapi=1&origin=*" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        }
+        this.$content.fadeOut();
+        this.$close.fadeIn();
         this.$element.append(html);
     };
 
     HeaderVideo.prototype.removeIframe = function() {
-        $(this.settings.playTrigger).fadeIn();
-        $(this.settings.closeTrigger).fadeOut();
+        this.$content.fadeIn();
+        this.$close.fadeOut();
         this.$element.find('#header-video__video-element').remove();
     };
 
+    /*
     HeaderVideo.prototype.appendTeaserVideo = function() {
         var source = this.videoDetails.teaser;
         var html = '<video autoplay="true" loop="true" muted id="header-video__teaser-video" class="header-video__teaser-video"><source src="'+source+'.webm" type="video/mp4"><source src="'+source+'.mp4" type="video/mp4"></video>';
         this.$element.append(html);
     };
+    */
 
-    HeaderVideo.prototype.setFluidContainer = function() {
+    HeaderVideo.prototype.setFluidContainer = function(videoDetails) {
         var element = this.$element;
-        element.data('aspectRatio', this.videoDetails.videoHeight / this.videoDetails.videoWidth);
 
-        $(window).resize(function() {
-            var windowWidth = $(window).width();
-            var windowHeight = $(window).height();
-
-            element.width(Math.ceil(windowWidth));
-            element.height(Math.ceil(windowWidth * element.data('aspectRatio'))); //Set the videos aspect ratio, see https://css-tricks.com/fluid-width-youtube-videos/
-
-            if(windowHeight < element.height()) {
-                element.width(Math.ceil(windowWidth));
-                element.height(Math.ceil(windowHeight));
-            }
-        }).trigger('resize');
+        $(window).resize(this.windowResize.bind(this));
+        this.windowResize();
     };
 
-    HeaderVideo.prototype.getVideoDetails = function() {
-        var mediaElement = $(this.settings.media);
+    HeaderVideo.prototype.getVideoDetails = function(dataElement) {
+        var $data = $(dataElement);
 
         return {
-            videoURL: mediaElement.attr('data-video-URL'),
-            videoStart: mediaElement.attr('data-video-start'),
-            teaser: mediaElement.attr('data-teaser'),
-            videoHeight: mediaElement.attr('data-video-height'),
-            videoWidth: mediaElement.attr('data-video-width')
+            videoURL: $data.attr('href'),
+            videoStart: $data.data('video-start'),
+            //teaser: $data.data('teaser'),
+            videoHeight: $data.data('video-height'),
+            videoWidth: $data.data('video-width')
         };
     };
 
+    HeaderVideo.prototype.windowResize = function() {
+        var element = this.$element;
+        //element.data('aspectRatio', this.videoDetails.videoHeight / this.videoDetails.videoWidth);
+
+        var windowWidth = $(window).width();
+        var windowHeight = $(window).height();
+
+        element.width(Math.ceil(windowWidth));
+        element.height(Math.ceil(windowWidth * element.data('aspectRatio'))); //Set the videos aspect ratio, see https://css-tricks.com/fluid-width-youtube-videos/
+
+        if(windowHeight < element.height()) {
+        element.width(Math.ceil(windowWidth));
+        element.height(Math.ceil(windowHeight));
+        }
+    }
+
     $('.header-video').each(function(i, elem) {
-        headerVideo = new HeaderVideo({
+        new HeaderVideo({
           element: elem,
-          media: '.header-video__media',
-          playTrigger: '.headline',
-          closeTrigger: '.header-video__close-trigger'
+          content: '.headline',
+          links: '.header-video__links',
+          closeTrigger: '.header-video__close-trigger',
         });
     });
 
