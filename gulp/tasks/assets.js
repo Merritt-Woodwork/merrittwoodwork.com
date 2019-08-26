@@ -3,7 +3,7 @@ const argv = require('yargs').argv;
 const autoprefixer = require('autoprefixer');
 const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');
-const cssnano = require('gulp-cssnano');
+const cssnano = require('cssnano');
 const gulp = require('gulp');
 const gzip = require('gulp-gzip');
 const newer = require('gulp-newer');
@@ -86,21 +86,14 @@ gulp.task('styles', () =>
       precision: 10
     }).on('error', sass.logError))
     .pipe(postcss([
-      autoprefixer({browsers: 'last 2 versions'}) // modify as needed
+        autoprefixer({browsers: ['last 2 versions']}),
+        cssnano(),
     ]))
+    .pipe(when(argv.prod, rename({suffix: '.min'})))
+    .pipe(when(argv.dev, rename({suffix: '.min'})))
     .pipe(size({
       showFiles: true
     }))
-    .pipe(when(argv.prod, rename({suffix: '.min'})))
-    .pipe(when(argv.prod, when('*.css', cssnano({autoprefixer: false}))))
-    .pipe(when(argv.prod, size({
-      showFiles: true
-    })))
-    .pipe(when(argv.dev, rename({suffix: '.min'})))
-    .pipe(when(argv.dev, when('*.css', cssnano({autoprefixer: false}))))
-    .pipe(when(argv.dev, size({
-      showFiles: true
-    })))
     // we want link to always be the same
     // .pipe(when(argv.prod, rev()))
     .pipe(when(!argv.prod, sourcemaps.write('.')))
@@ -131,7 +124,7 @@ function reload(done) {
 gulp.task('serve', (done) => {
   browserSync.init({
     // tunnel: true,
-    // open: false,
+    open: false,
     server: ['.tmp', 'dist']
   });
   done();
