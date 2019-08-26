@@ -1,12 +1,20 @@
 {
-  "name": "jekyllized-boilerplate",
-  "version": "0.0.0",
+  "name": "merrittwoodwork.com",
+  "version": "1.1.0",
   "description": "",
-  "homepage": "http://www.example.com",
-  "author": {
-    "name": "Ryan Deussing",
-    "email": ""
-  },
+  "homepage": "https://www.merrittwoodwork.com",
+  "contributors": [
+    {
+      "name": "Ryan Deussing",
+      "email": "ryan@ryandeussing.com",
+      "url": "https://ryandeussing.com"
+    },
+    {
+      "name": "Cory Hughart",
+      "email": "cory@blackbird.digital",
+      "url": "https://blackbird.digital"
+    }
+  ],
   "devDependencies": {
     "autoprefixer": "^6.2.3",
     "babel-preset-es2015": "^6.9.0",
