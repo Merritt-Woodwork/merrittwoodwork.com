@@ -11,23 +11,31 @@ lang: de
     <div class="wrapper">
         <img
           class="header-video__media"
-          data-video-URL="https://www.youtube.com/ embed/{{page.video.youtube_id}}"
-          data-teaser=""
-          data-video-width="560"
-          data-video-height="315"
-          data-video-start=""
-          ix-path="{{page.video.placeholder_image}}"
+          ix-path="{{page.header_image}}"
           ix-params='{
             "auto": "compress"
           }'
           sizes="85vw"
         >
-        <div class="header-video__close-trigger header-text-condensed" id="header-video__close-trigger">stop</div>
+        <div class="header-video__close-trigger header-text-condensed" id="header-video__close-trigger">halt</div>
         <div class="grid-container">
           <div class="grid-collapse">
             <div class="headline header-text-condensed">
-              <p class="animated customFadeInUp">{{page.video.headline}}</p>
-              <a href="" class="header-video__play-trigger" id="header-video__play-trigger"><span>VIDEO ANSEHEN</span></a>
+              <p class="animated customFadeInUp">{{page.headline}}</p>
+              <div class="header-video__links">
+              {% for video in page.video %}
+                <a
+                  href="https://www.youtube.com/embed/{{video.youtube_id}}"
+                  class="header-video__play-trigger"
+                  data-video-width="560"
+                  data-video-height="315"
+                  data-video-start=""
+                  target="_blank"
+                  rel="nofollow noopener">
+                  <span>{{video.name}}</span>
+                </a>
+              {% endfor %}
+              </div>
             </div>
           </div>
         </div>
@@ -39,8 +47,8 @@ lang: de
       <!-- <div class="grid-collapse"> -->
         <div class="grid-column">
           <h1 class="copy-text">{{page.text_block}}</h1>
-          <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">{{ site.portfolio[lang] | upcase }}</a></h3>
-          <h3 class="header-text-condensed animated fadeIn"><a href="/leistungen">{{ site.capabilities[lang] | upcase }}</a></h3>
+          <h3 class="header-text-condensed animated fadeIn"><a href="/portfolio">{{ site.portfolio-link[lang] | upcase }}</a></h3>
+          <h3 class="header-text-condensed animated fadeIn"><a href="/capabilities">{{ site.capabilities-link[lang] | upcase }}</a></h3>
         </div>
       <!-- </div> -->
     </div>
@@ -51,45 +59,40 @@ lang: de
 
   <section class="case-studies">
     <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>KUNDENBEISPIELE</h3>
-      <div class="grid-container">
-          <div class="grid-column">
-            {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
-            {% for case in casestudies %}
-              <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-                <div class="case-study-image">
-                  <img
-                    class="js-img"
-                    ix-path="{{case.hero_image}}"
-                    ix-params='{
-                      "auto": "compress"
-                    }'
-                    sizes="(max-width: 700px) 100vw, 40vw"
-                  >
-                </div>
-                <div class="case-study-info">
-                  <div class="wrapper">
+    <div class="grid-container">
+      <div class="grid-column">
+        {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
+        {% for case in casestudies %}
+          <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+            <div class="case-study-image">
+              <img
+                class="js-img"
+                ix-path="{{case.hero_image}}"
+                ix-params='{
+                  "auto": "compress"
+                }'
+                sizes="(max-width: 700px) 100vw, 40vw"
+              >
+            </div>
+            <div class="case-study-info">
+              <div class="wrapper">
 
-                    {% if site.active_lang == 'en' %}
-                      <h5 class="header-text">{{case.work-type}}</h5>
-                    {% elsif site.active_lang == 'de' %}
-                      {% if case.work-type == 'superyacht'%}<h5 class="header-text">superyacht</h5>{% endif %}
-                      {% if case.work-type == 'contemporary'%}<h5 class="header-text">MODERN</h5>{% endif %}
-                      {% if case.work-type == 'traditional'%}<h5 class="header-text">TRADITIONELL</h5>{% endif %}
-                      {% if case.work-type == 'transitional'%}<h5 class="header-text">KLASSISCH MODERN</h5>{% endif %}
-                    {% endif %}
+                {% if site.active_lang == 'en' %}
+                  <h5 class="header-text">{{case.work-type}}</h5>
+                {% elsif site.active_lang == 'de' %}
+                  {% if case.work-type == 'superyacht'%}<h5 class="header-text">superyacht</h5>{% endif %}
+                  {% if case.work-type == 'contemporary'%}<h5 class="header-text">MODERN</h5>{% endif %}
+                  {% if case.work-type == 'traditional'%}<h5 class="header-text">TRADITIONELL</h5>{% endif %}
+                  {% if case.work-type == 'transitional'%}<h5 class="header-text">KLASSISCH MODERN</h5>{% endif %}
+                {% endif %}
 
-
-
-
-
-                    <h2 class="header-text-condensed">{{case.title}}</h2>
-                  </div>
-                  <h3 class="header-text-condensed"><a href="{{case.url}}">KUNDENBEISPIEL ANSEHEN</a></h3>
-                </div>
+                <h2 class="header-text-condensed">{{case.title}}</h2>
               </div>
-            {% endfor %}
-
+              <h3 class="header-text-condensed"><a href="{{case.url}}">KUNDENBEISPIEL ANSEHEN</a></h3>
+            </div>
           </div>
+        {% endfor %}
+
       </div>
     </div>
   </section>
