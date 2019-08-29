@@ -1,3 +1,5 @@
-headline,name,title,telephone,email
-ALLGEMEINE ANFRAGEN,,,+1 440 942 0205,inquiries@merrittwoodwork.com
-MEDIENANFRAGEN,Gina Borovica,,+1 440 602 6893,mediainquiries@merrittwoodwork.com
+type,headline,name,title,telephone,email
+general,Allgemeine Anfragen,,,+1 440 942 0205,inquiries@merrittwoodwork.com
+media,Medienanfragen,Gina Borovica,,+1 440 602 6893,mediainquiries@merrittwoodwork.com
+sales,VerkaufsanfrageN,Jim Catlin,,+1 774 312 3964,jdc@merrittwoodwork.com
+careers,Stellenangebote,,,,careers@merrittwoodwork.com

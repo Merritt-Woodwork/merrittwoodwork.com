@@ -1,4 +1,5 @@
-headline,name,title,telephone,email
-GENERAL INQUIRIES,,,+1 440 942 0205,inquiries@merrittwoodwork.com
-MEDIA INQUIRIES,Gina Borovica,Chief of Staff,+1 440 602 6893,gab@merrittwoodwork.com
-Sales Inquiries,Jim Catlin,VP of Business Development,+1 774 312 3964,jdc@merrittwoodwork.com
+type,headline,name,title,telephone,email
+general,General Inquiries,,,+1 440 942 0205,inquiries@merrittwoodwork.com
+media,Media Inquiries,Gina Borovica,Chief of Staff,+1 440 602 6893,gab@merrittwoodwork.com
+sales,Sales Inquiries,Jim Catlin,VP of Business Development,+1 774 312 3964,jdc@merrittwoodwork.com
+careers,Careers,,,,careers@merrittwoodwork.com

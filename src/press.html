@@ -1,17 +1,17 @@
 ---
+title: Press
+description: "Merritt's exemplary work is featured in a variety of publications."
 headline: Front page exposure.
 next:
   name: Careers
   link: /careers/
-title: Press
-description: "Merritt's exemplary work is featured in a variety of publications."
 _comments:
+  title: "for meta property='og:title'"
+  description: "(optional) for meta property='og:description'"
   image: file should be 500px wide
   next: "the'next' link"
   name: "the text of the 'next' link"
   link: "where the 'next' link takes you"
-  title: "for meta property='og:title'"
-  description: "(optional) for meta property='og:description'"
   pdf_path: to link to a pdf
   press_link: to link to an external url
 lang: en
@@ -49,7 +49,7 @@ lang: en
                           {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
                         {% endcomment %}
 
-        <div class="grid-item superyacht">
+        <div class="grid-item">
           {% if item.press_link %}
             <a target="_blank" href="{{item.press_link}}">
             <img
@@ -91,7 +91,7 @@ lang: en
   <div class="grid-container">
     <div class="grid-column">
       {% for item in site.data.contacts %}
-        {% if item.email == "mediainquiries@merrittwoodwork.com" %}
+        {% if item.type == "media" %}
           <h3 class="header-text-condensed">{{item.headline}}</h3>
           <p class="copy-text">{{item.name}}</p>
           <p class="copy-text phone">{{item.telephone}}</p>
