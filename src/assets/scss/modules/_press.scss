@@ -2,7 +2,7 @@
 
   section.contact-details {
     margin-top: -9px;
-    background-color: #f8f7f5;
+    background-color: $cream;
     .grid-column {
       @include grid-media($sm-grid) {
         @include grid-column(8 of 8);
@@ -111,6 +111,16 @@
   }
 
   section.gallery {
+
+    .grid-item {
+
+      // img {
+      //   background-color: $cream;
+      //   height: 0;
+      //   padding-bottom: 130%;
+      // }
+    }
+
     @include breakpoint(xs) {
       margin-bottom: 40px;
     }

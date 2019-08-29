@@ -63,7 +63,7 @@
 }
 
 section.job-application {
-  background-color: #f8f7f5;
+  background-color: $cream;
   @include breakpoint(xs) {
     padding-top: 2rem;
     padding-bottom: 2rem;

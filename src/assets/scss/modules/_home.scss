@@ -164,7 +164,7 @@ body.home {
 
 
   section.intro {
-    background-color: #f8f7f5;
+    background-color: $cream;
     text-align: center;
     padding: 85px 0 60px 0; // 50%
     @include breakpoint(md) {

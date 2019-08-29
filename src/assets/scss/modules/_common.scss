@@ -23,7 +23,7 @@ html {
 
 // LIST-BLOCK
 section.list-block {
-  background-color: #f8f7f5;
+  background-color: $cream;
   .outer.grid-container {
   }
   .grid-column {
@@ -499,7 +499,7 @@ section.next {
 
 
 section.text-block {
-  background-color: #f8f7f5;
+  background-color: $cream;
   text-align: center;
   padding: 63px 0 63px 0; // 50%
   @include breakpoint(md) {
