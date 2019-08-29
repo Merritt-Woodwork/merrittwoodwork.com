@@ -2,42 +2,42 @@
 headline: >-
   MERRITT IS FAST-PACED, INNOVATIVE AND CHANGING THE LUXURY WOODWORK AND JOINERY
   INDUSTRY FROM THE INSIDE OUT.
-culture_block:
-  headline: culture
-  details: >-
-    Merritt employees transform architectural dreams into realities. The Merritt
-    process is a complex collaboration of skilled individuals, from carpenters
-    to engineers to project managers, everyone at Merritt contributes to our
-    renowned and in-demand finished product. Merritt is a growth focused
-    international company and operates multiple offices throughout the U.S.,
-    Germany and United Kingdom. We are always in search of individuals who want
-    to propel themselves and this organization into the future. Forward thinkers
-    and motivational leaders are our kind of people. Merritt encourages personal
-    growth and career development at all levels. We maintain culture that
-    embraces change, offers visibility to senior management and provides the
-    opportunity to work with professional artisans, technicians and industry
-    experts. Social events such as company picnics and holiday parties bring us
-    together for fun and friendship. Contact us if you are looking to become
-    part of a winning team, see your contribution make a difference and grow
-    both yourself and the organization in the process.
-benefits_block:
-  headline: benefits
-  details: >-
-    We provide a comprehensive benefits program that allows you the opportunity
-    to choose the type of coverage you want. Our coverage includes medical,
-    dental, vision, disability, life insurance, health savings account, flexible
-    spending accounts, and other programs that provide value and peace of mind
-    to our employees. Our benefits include, 401K, Quarterly Financial Meetings
-    with a 401K Representative, Tuition Reimbursement, Reimbursement for
-    Professional Organizations and an Employee Referral Program.
-equal_opp_block:
-  headline: equal opportunity
-  details: >-
-    Merritt is an equal opportunity employer, and all qualified applicants will
-    receive consideration for employment without regard to race, color,
-    religion, sex, sexual orientation, gender identity, genetic information,
-    national origin, protected veteran status, disability status, or any other
-    characteristic protected by law.
+sections:
+  - headline: Training
+    details: Test
+  - headline: Culture
+    details: >-
+      Merritt employees transform architectural dreams into realities. The Merritt
+      process is a complex collaboration of skilled individuals, from carpenters
+      to engineers to project managers, everyone at Merritt contributes to our
+      renowned and in-demand finished product. Merritt is a growth focused
+      international company and operates multiple offices throughout the U.S.,
+      Germany and United Kingdom. We are always in search of individuals who want
+      to propel themselves and this organization into the future. Forward thinkers
+      and motivational leaders are our kind of people. Merritt encourages personal
+      growth and career development at all levels. We maintain culture that
+      embraces change, offers visibility to senior management and provides the
+      opportunity to work with professional artisans, technicians and industry
+      experts. Social events such as company picnics and holiday parties bring us
+      together for fun and friendship. Contact us if you are looking to become
+      part of a winning team, see your contribution make a difference and grow
+      both yourself and the organization in the process.
+  - headline: Benefits
+    details: >-
+      We provide a comprehensive benefits program that allows you the opportunity
+      to choose the type of coverage you want. Our coverage includes medical,
+      dental, vision, disability, life insurance, health savings account, flexible
+      spending accounts, and other programs that provide value and peace of mind
+      to our employees. Our benefits include, 401K, Quarterly Financial Meetings
+      with a 401K Representative, Tuition Reimbursement, Reimbursement for
+      Professional Organizations and an Employee Referral Program.
+  - headline: Equal Opportunity
+    details: >-
+      Merritt is an equal opportunity employer, and all qualified applicants will
+      receive consideration for employment without regard to race, color,
+      religion, sex, sexual orientation, gender identity, genetic information,
+      national origin, protected veteran status, disability status, or any other
+      characteristic protected by law.
 next:
   name: contact
   link: /contact/
@@ -87,33 +87,16 @@ lang: en
   <div class="outer grid-container">
     <div class="grid-column">
       <div class="grid-collapse">
+        {% for section in page.sections %}
         <div class="inner-wrapper">
           <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-            <h2 class="header-text-condensed">{{page.culture_block.headline}}</h2>
+            <h2 class="header-text-condensed">{{section.headline}}</h2>
           </div>
           <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-            {{page.culture_block.details | markdownify}}
+            {{section.details | markdownify}}
           </div>
         </div>
-
-        <div class="inner-wrapper">
-          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-            <h2 class="header-text-condensed">{{page.benefits_block.headline}}</h2>
-          </div>
-          <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-            {{page.benefits_block.details | markdownify}}
-          </div>
-        </div>
-
-        <div class="inner-wrapper">
-          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-            <h2 class="header-text-condensed">{{page.equal_opp_block.headline}}</h2>
-          </div>
-          <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
-            {{page.equal_opp_block.details | markdownify}}
-          </div>
-        </div>
-
+        {% endfor %}
       </div>
     </div>
   </div>

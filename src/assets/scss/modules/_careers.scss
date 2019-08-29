@@ -92,6 +92,9 @@
 
   section.headline-block.flow {
     .grid-column {
+      .inner-wrapper {
+        width: 100%;
+      }
       @include breakpoint(xs) {
         padding-top: 40px;
         padding-bottom: 40px;
