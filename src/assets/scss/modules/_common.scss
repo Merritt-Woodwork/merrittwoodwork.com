@@ -778,6 +778,30 @@ $plyr-color-main: $brand;
 
 @import '../../../node_modules/plyr/src/sass/plyr.scss';
 
-section.audio-block {
-  padding: 100px 0;
+section.audio-block,
+section.video-block {
+  @include breakpoint(xs) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  @include breakpoint(sm) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @include breakpoint(md) {
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+  @include breakpoint(lg) {
+    padding-top: 69px;
+    padding-bottom: 69px;
+  }
+  @include breakpoint(xl) {
+    padding-top: 83px;
+    padding-bottom: 83px;
+  }
+  @include breakpoint(xxl) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }

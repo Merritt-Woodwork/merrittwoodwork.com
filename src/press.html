@@ -2,6 +2,9 @@
 title: Press
 description: "Merritt's exemplary work is featured in a variety of publications."
 headline: Front page exposure.
+video:
+  title: Michael Merritt, CEO | EY Entrepreneur Of The Year 2017 Finalist
+  youtube_id: jpAFn82GvoU
 next:
   name: Careers
   link: /careers/
@@ -45,10 +48,6 @@ lang: en
         {% for item in press %}
         {% assign pdf = item.pdf_path | size %}
 
-                        {% comment %}
-                          {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
-                        {% endcomment %}
-
         <div class="grid-item">
           {% if item.press_link %}
             <a class="grid-item__wrap" target="_blank" href="{{item.press_link}}">
@@ -88,6 +87,22 @@ lang: en
     </div>
   </div>
 </section>
+
+{% if page.video.youtube_id %}
+<section class="video-block">
+  <div class="grid-container">
+    <h3 class="header header-text-condensed">{{page.video.title}}</h3>
+    <div class="plyr__video-embed">
+      <iframe
+        src="https://www.youtube.com/embed/{{page.video.youtube_id}}?origin=https://www.merrittwoodwork.com&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+        allowfullscreen
+        allowtransparency
+        allow="autoplay"
+      ></iframe>
+    </div>
+  </div>
+</section>
+{% endif %}
 
 <section class="contact-details">
   <div class="grid-container">

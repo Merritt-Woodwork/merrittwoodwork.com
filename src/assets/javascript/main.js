@@ -93,7 +93,7 @@
   }
 
   // Audio players
-  var players = Plyr.setup('audio', {
+  var players = Plyr.setup('audio, video, .plyr__video-embed', {
     controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'airplay', 'pip'],
   });
 
