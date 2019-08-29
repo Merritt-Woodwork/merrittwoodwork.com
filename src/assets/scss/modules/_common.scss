@@ -768,3 +768,16 @@ section.jumbo-hero {
     }
   }
 }
+
+
+/**
+ * Audio
+ */
+
+$plyr-color-main: $brand;
+
+@import '../../../node_modules/plyr/src/sass/plyr.scss';
+
+section.audio-block {
+  padding: 100px 0;
+}

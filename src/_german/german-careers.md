@@ -69,12 +69,17 @@ sections:
       - Mitarbeiterempfehlungsprogramm
   - headline: CHANCENGLEICHHEIT
     details: |
-      Merritt setzt sich als Arbeitgeber für Chancengleichheit ein. Alle qualifizierten Bewerber werden ohne Rücksicht auf ethnische Zugehörigkeit, Hautfarbe, Religion, Geschlecht, sexuelle Orientierung, Geschlechtsidentität, genetische Merkmale, nationale Herkunft, Veteranenstatus, Behinderung und alle anderen gesetzlich geschützten Merkmale für eine Beschäftigung in Erwägung gezogen..
+      Merritt setzt sich als Arbeitgeber für Chancengleichheit ein. Alle qualifizierten Bewerber werden ohne Rücksicht auf ethnische Zugehörigkeit, Hautfarbe, Religion, Geschlecht, sexuelle Orientierung, Geschlechtsidentität, genetische Merkmale, nationale Herkunft, Veteranenstatus, Behinderung und alle anderen gesetzlich geschützten Merkmale für eine Beschäftigung in Erwägung gezogen.
+audio_title:
+audio:
 quote: Wir suchen Individualisten.
 next_link:
   name: Kontakt
   link: /contact/
 _comments:
+  sections: Sections of text on the page
+  audio_title: Title above the audio player
+  audio: MP3 audio file (leave blank to not show audio player)
   next_link: the'next' link
   name: the text of the 'next' link
   link: where the 'next' link takes you

@@ -1,3 +1,9 @@
+/**
+ * The main JavaScript entrypoint
+ *
+ * @note All scripts are included via /gulp/tasks/assets.js
+ */
+
 (function() {
 
   // visual grid
@@ -77,13 +83,18 @@
   // hamburger
   var toggle = document.querySelector(".c-hamburger");
 
-    toggleHandler(toggle);
+  toggleHandler(toggle);
 
-    function toggleHandler(toggle) {
-      toggle.addEventListener( "click", function(e) {
-        e.preventDefault();
-        (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
-      });
-    }
+  function toggleHandler(toggle) {
+    toggle.addEventListener( "click", function(e) {
+      e.preventDefault();
+      (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+    });
+  }
+
+  // Audio players
+  var players = Plyr.setup('audio', {
+    controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'airplay', 'pip'],
+  });
 
 })();

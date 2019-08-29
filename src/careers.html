@@ -7,8 +7,6 @@ headline: >-
   MERRITT IS FAST-PACED, INNOVATIVE AND CHANGING THE LUXURY WOODWORK AND JOINERY
   INDUSTRY FROM THE INSIDE OUT.
 sections:
-  - headline: Training
-    details: Test
   - headline: Culture
     details: >-
       Merritt employees transform architectural dreams into realities. The Merritt
@@ -42,16 +40,22 @@ sections:
       religion, sex, sexual orientation, gender identity, genetic information,
       national origin, protected veteran status, disability status, or any other
       characteristic protected by law.
+audio_title: Now Hiring
+audio: /uploads/hiring.mp3
 quote: If you dare go against the grain, you may be one of us.
 next:
   name: contact
   link: /contact/
 _comments:
+  title: 'for meta property=''og:title'''
+  description: '(optional) for meta property="og:description"'
+  sections: Sections of text on the page
+  audio_title: Title above the audio player
+  audio: MP3 audio file (leave blank to not show audio player)
+  quote: Large quote at the bottom of the page
   next: the'next' link
   name: the text of the 'next' link
   link: where the 'next' link takes you
-  title: 'for meta property=''og:title'''
-  description: '(optional) for meta property=''og:description'''
 lang: en
 ---
 
@@ -103,13 +107,24 @@ lang: en
   </div>
 </section>
 
+{% if page.audio %}
+<section class="audio-block">
+  <div class="grid-container">
+    <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>{{page.audio_title}}</h3>
+    <audio src="{{page.audio}}" controls></audio>
+  </div>
+</section>
+{% endif %}
+
 <section class="text-block">
   <div class="grid-container">
       <div class="grid-column">
         <h1 class="copy-text">{{page.quote}}</h1>
       </div>
   </div>
-</section><section class="next">
+</section>
+
+<section class="next">
   <div class="grid-container">
     <div class="grid-column">
       <div class="color"></div>
