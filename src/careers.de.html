@@ -62,7 +62,7 @@ lang: de
 {% if page.audio %}
 <section class="audio-block">
   <div class="grid-container">
-    <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>{{page.audio_title}}</h3>
+    {% if page.audio_title %}<h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>{{page.audio_title}}</h3>{% endif %}
     <audio src="{{page.audio}}" controls></audio>
   </div>
 </section>

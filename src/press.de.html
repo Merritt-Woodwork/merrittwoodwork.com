@@ -74,6 +74,22 @@ lang: de
   </div>
 </section>
 
+{% if page.video.youtube_id %}
+<section class="video-block">
+  <div class="grid-container">
+    {% if page.video.title %}<h3 class="header header-text-condensed">{{page.video.title}}</h3>{% endif %}
+    <div class="plyr__video-embed">
+      <iframe
+        src="https://www.youtube.com/embed/{{page.video.youtube_id}}?origin=https://www.merrittwoodwork.com&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+        allowfullscreen
+        allowtransparency
+        allow="autoplay"
+      ></iframe>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="contact-details">
   <div class="grid-container">
     <div class="grid-column">

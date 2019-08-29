@@ -1,6 +1,9 @@
 ---
 _source: 'press'
 headline: Titelseite.
+video:
+  title: Michael Merritt, CEO | EY Unternehmer des Jahres 2017 Finalist
+  youtube_id: jpAFn82GvoU
 next_link:
   name: Stellenangebote
   link: /careers/
