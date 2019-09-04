@@ -42,12 +42,12 @@ lang: de
 
 
 <section class="case-studies">
-  <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>standorte</h3>
+  <h3 class="header header-text-condensed" data-aos="fade-up">standorte</h3>
   <div class="grid-container">
     <div class="grid-column">
       {% assign locations = site.data.locations | sort: 'order' %}
       {% for location in locations %}
-        <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+        <div class="case-study" data-aos="fade-up">
           <div class="case-study-image" style="background-image: url({{location.image}});">
             <img
               class="js-img"

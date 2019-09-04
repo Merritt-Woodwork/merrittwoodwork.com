@@ -71,7 +71,7 @@ lang: de
         {% assign gallery_items = site.portfolio | sort:"title" | reverse %}
         {% for item in gallery_items %}
                                     {% comment %}
-                                      {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
+                                      data-aos="fade-up"
                                     {% endcomment %}
           <div class="grid-item {{item.work-type}}">
             <a data-remodal-target="modal-{{item.image}}">

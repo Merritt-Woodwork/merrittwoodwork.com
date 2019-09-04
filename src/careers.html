@@ -40,7 +40,7 @@ sections:
       religion, sex, sexual orientation, gender identity, genetic information,
       national origin, protected veteran status, disability status, or any other
       characteristic protected by law.
-audio_title: Now Hiring
+audio_title: Merritt is hiring, as heard on WMMS and IHeart Radio
 audio: /uploads/hiring.mp3
 quote: If you dare go against the grain, you may be one of us.
 next:
@@ -94,10 +94,10 @@ lang: en
       <div class="grid-collapse">
         {% for section in page.sections %}
         <div class="inner-wrapper">
-          <div class="grid-column--headline" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+          <div class="grid-column--headline" data-aos="fade-up">
             <h2 class="header-text-condensed">{{section.headline}}</h2>
           </div>
-          <div class="grid-column--copy" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+          <div class="grid-column--copy" data-aos="fade-up">
             {{section.details | markdownify}}
           </div>
         </div>
@@ -110,7 +110,7 @@ lang: en
 {% if page.audio %}
 <section class="audio-block">
   <div class="grid-container">
-    {% if page.audio_title %}<h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>{{page.audio_title}}</h3>{% endif %}
+    {% if page.audio_title %}<h3 class="header header-text-condensed" data-aos="fade-up">{{page.audio_title}}</h3>{% endif %}
     <audio src="{{page.audio}}" controls></audio>
   </div>
 </section>

@@ -213,7 +213,7 @@ lang: en
         {% for person in people %}
         <div class="grid-item">
                                       {% comment %}
-                                        {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}
+                                        data-aos="fade-up"
                                       {% endcomment %}
           <div>
             <a data-remodal-target="{{person.name | slugify}}">

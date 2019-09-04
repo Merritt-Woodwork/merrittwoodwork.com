@@ -58,12 +58,12 @@ lang: de
 
 
   <section class="case-studies">
-    <h3 class="header header-text-condensed" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>KUNDENBEISPIELE</h3>
+    <h3 class="header header-text-condensed" data-aos="fade-up">KUNDENBEISPIELE</h3>
     <div class="grid-container">
       <div class="grid-column">
         {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
         {% for case in casestudies %}
-          <div class="case-study" {% unless jekyll.environment == 'production' %}data-aos="fade-up"{% endunless %}>
+          <div class="case-study" data-aos="fade-up">
             <div class="case-study-image">
               <img
                 class="js-img"
