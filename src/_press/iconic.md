@@ -1,6 +1,6 @@
 ---
 press_date: 2018-09-14 00:00:00
-press_image: /uploads/iconic-website-cover.JPG
-pdf_path: /uploads/iconic-article-september.pdf
+press_image: /uploads/iconic-cover.PNG
+pdf_path: /uploads/iconic-9-17-18.pdf
 press_link:
 ---
