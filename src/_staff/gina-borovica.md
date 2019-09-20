@@ -1,7 +1,7 @@
 ---
 name: Gina Borovica
 draft: false
-title: Chief of Staff
+title: Chief of Staff | Director of Marketing
 quote:
 details:
 image: /uploads/merritt-022719-286-bw-1.jpg
