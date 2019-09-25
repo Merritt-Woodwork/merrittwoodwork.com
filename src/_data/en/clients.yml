@@ -146,6 +146,8 @@
   type: builder
 - name: Hagman Architects
   type: architect
+- name: Halper Architects
+  type: Architect
 - name: Hansen Construction
   type: builder
 - name: Hariri Pontarini Architects
@@ -158,16 +160,16 @@
   type: builder
 - name: 'Haynes-Roberts, Inc.'
   type: interior designer
-- name: Hilgendorf Construction
-  type: builder
 - name: Hedrick Brothers Construction
+  type: builder
+- name: Hilgendorf Construction
   type: builder
 - name: 'Hobbs, Inc.'
   type: builder
-- name: Hulburddesign
-  type: Architect
 - name: Horizon Builders Inc.
   type: builder
+- name: Hulburddesign
+  type: Architect
 - name: Hughes Design Associates
   type: interior designer
 - name: Ike Kligerman Barkley
@@ -424,8 +426,6 @@
   type: Builder
 - name: Nordic PCL Construction Inc.
   type: Builder
-- name: Halper Architects
-  type: Architect
 - name: Ingrao Inc.
   type: Architect
 - name: John Milander Architects
