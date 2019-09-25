@@ -36,8 +36,6 @@
   type: interior designer
 - name: 'Bernsohn & Fetner, LLC'
   type: builder
-- name: BFI Construction Corp.
-  type: builder
 - name: Black Mountain Construction|Development
   type: builder
 - name: Bohlin Cywinski Jackson
@@ -77,8 +75,6 @@
 - name: Coastal Construction
   type: builder
 - name: 'Coble Builders, LLC'
-  type: builder
-- name: Cork-Howard Construction
   type: builder
 - name: 'Crapsey and Gilles Contractors, Inc.'
   type: builder
@@ -206,8 +202,6 @@
   type: architect
 - name: Ken Linsteadt Architects
   type: architect
-- name: Kenneth Vona Construction
-  type: builder
 - name: 'KH Webb Architects, PC'
   type: architect
 - name: Kimmel Construction
@@ -352,8 +346,6 @@
   type: interior designer
 - name: Seymour Diamond
   type: interior designer
-- name: Shaeffer Hyde Construction
-  type: builder
 - name: Shawmut Design and Construction
   type: builder
 - name: Shope Reno Wharton Architecture
@@ -418,8 +410,6 @@
   type: builder
 - name: Van Acker Construction
   type: builder
-- name: Vedder Construction
-  type: builder
 - name: Victoria Hagan Interiors
   type: interior designer
 - name: Voorsanger Architects PC
@@ -434,8 +424,6 @@
   type: architect
 - name: William Hablinski Architecture
   type: architect
-- name: Wilson Project Management
-  type: builder
 - name: Wolfgang Ludes Studio
   type: architect
 - name: 'Woolems, Inc.'
@@ -444,7 +432,3 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: Zeckendorf Development
-  type: builder
-- name: Zodiac Maritime LTD
-  type: builder
