@@ -292,38 +292,50 @@
   type: builder
 - name: 'Newbury North Associates, Inc.'
   type: builder
+- name: Nordic PCL Construction Inc.
+  type: Builder
 - name: Nuvolari Lenard
   type: interior designer
-- name: Orlando Diaz-Azcuy Design Associates
-  type: interior designer
-- name: Reis Contracting Group
-  type: builder
 - name: Oliver Cope Architect
   type: architect
 - name: Olson Kundig
   type: architect
+- name: Orlando Diaz-Azcuy Design Associates
+  type: interior designer
 - name: Palmer Johnson Yachts
   type: builder
 - name: 'Patino Architecture, PLLC'
   type: architect
 - name: Patrick Knowles Designs
   type: interior designer
-- name: Paul Murdoch Architects
-  type: architect
 - name: Paul Marchese & Associates
+  type: architect
+- name: Paul Murdoch Architects
   type: architect
 - name: Payne | Bouchier Fine Builders
   type: builder
 - name: Peninsula Custom Homes Inc
   type: builder
+- name: Pembrooke and Ives
+  type: interior designer
+- name: Peter David Studio
+  type: interior designer
 - name: Peter Marino Architect
   type: architect
+- name: Peter Pennoyer Architects
+  type: Architect
+- name: Piechota Architecture
+  type: Architect
 - name: Planning Partners Limited
   type: owner rep
-- name: Redhorse Constructors Inc.
-  type: builder
 - name: 'Portuondo Perotti Architects, Inc'
   type: architect
+- name: Poss Architecture + Planning
+  type: Architect
+- name: Redhorse Constructors Inc.
+  type: builder
+- name: Reis Contracting Group
+  type: builder
 - name: Remi Tessier Design
   type: interior designer
 - name: Remick Associates
@@ -336,12 +348,12 @@
   type: architect
 - name: Robert A.M. Stern Architects LLP
   type: architect
-- name: 'Robert Maschke Architects, Inc.'
-  type: architect
 - name: Roger Ferris + Partners
   type: architect
 - name: Rose Tarlow Melrose House
   type: interior designer
+- name: 'Robert Maschke Architects, Inc.'
+  type: architect
 - name: Rose Uniacke
   type: interior designer
 - name: Rossington Architecture
@@ -388,9 +400,9 @@
   type: architect
 - name: 'Summit Professional Builders, Inc.'
   type: builder
-- name: Sutro Architects
-  type: architect
 - name: Sutton Suzuki Architects
+  type: architect
+- name: Sutro Architects
   type: architect
 - name: 'Sweeney & Conroy, Inc.'
   type: builder
@@ -410,11 +422,11 @@
   type: owner rep
 - name: Timothy Hatton Architects
   type: architect
-- name: Trinity Yachts
-  type: builder
 - name: Tyler Development Corporation
   type: builder
 - name: Uberto Construction
+  type: builder
+- name: Trinity Yachts
   type: builder
 - name: Ulstein Group ASA
   type: builder
@@ -440,24 +452,12 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: Nordic PCL Construction Inc.
-  type: Builder
-- name: Peter Pennoyer Architects
-  type: Architect
-- name: Piechota Architecture
-  type: Architect
-- name: Poss Architecture + Planning
-  type: Architect
 - name: Shubin Donaldson
   type: Architect
 - name: Studio Schicketanz
   type: Architect
 - name: SV Design
   type: Architect
-- name: Pembrooke and Ives
-  type: interior designer
-- name: Peter David Studio
-  type: interior designer
 - name: Rhoades Young
   type: interior designer
 - name: Steven Volpe Design
