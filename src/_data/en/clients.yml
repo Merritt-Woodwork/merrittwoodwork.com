@@ -214,16 +214,22 @@
   type: architect
 - name: 'Keelty Construction, Inc.'
   type: builder
+- name: Keith Yates Design
+  type: interior designer
 - name: Ken Linsteadt Architects
+  type: architect
+- name: 'KH Webb Architects, PC'
   type: architect
 - name: Kimmel Construction
   type: builder
-- name: Knickerbocker & Associates
-  type: builder
-- name: 'KH Webb Architects, PC'
-  type: architect
 - name: Kitchell Brusnighan Interior Design Associates
   type: interior designer
+- name: Knickerbocker & Associates
+  type: builder
+- name: K | R Architects
+  type: Architect
+- name: KVC Builders
+  type: Builder
 - name: Liaigre
   type: interior designer
 - name: Landry Design Group
@@ -280,8 +286,6 @@
   type: builder
 - name: Moroso Construction
   type: builder
-- name: Nathalie Droulers
-  type: architect
 - name: 'Newbury North Associates, Inc.'
   type: builder
 - name: Nuvolari Lenard
@@ -310,10 +314,10 @@
   type: architect
 - name: Planning Partners Limited
   type: owner rep
-- name: 'Portuondo Perotti Architects, Inc'
-  type: architect
 - name: Redhorse Constructors Inc.
   type: builder
+- name: 'Portuondo Perotti Architects, Inc'
+  type: architect
 - name: Remi Tessier Design
   type: interior designer
 - name: Remick Associates
@@ -429,12 +433,6 @@
 - name: Xhema Industries
   type: builder
 - name: Yabu Pushelberg
-  type: interior designer
-- name: KVC Builders
-  type: Builder
-- name: K | R Architects
-  type: Architect
-- name: Keith Yates Design
   type: interior designer
 - name: Nordic PCL Construction Inc.
   type: Builder
