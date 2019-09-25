@@ -258,17 +258,15 @@
   type: interior designer
 - name: Mark Cavagnero Associates
   type: architect
-- name: Reis Contracting Group
-  type: builder
 - name: 'Mark P. Finlay Architects, AIA'
   type: architect
 - name: Marker Construction Group
   type: builder
+- name: Martin Kemp Design
+  type: interior designer
 - name: Mayfair Construction
   type: builder
 - name: 'McCoy Construction Co., Inc.'
-  type: builder
-- name: Mutchnik Construction Group
   type: builder
 - name: McKellar & Associates Architecture
   type: architect
@@ -276,6 +274,8 @@
   type: architect
 - name: Men at Work Construction Corp.
   type: builder
+- name: Michael C.F. Chan & Associates
+  type: Architect
 - name: Michael Vanderpoel
   type: owner rep
 - name: Misugi Design Inc.
@@ -288,12 +288,16 @@
   type: builder
 - name: Moroso Construction
   type: builder
+- name: Mutchnik Construction Group
+  type: builder
 - name: 'Newbury North Associates, Inc.'
   type: builder
 - name: Nuvolari Lenard
   type: interior designer
 - name: Orlando Diaz-Azcuy Design Associates
   type: interior designer
+- name: Reis Contracting Group
+  type: builder
 - name: Oliver Cope Architect
   type: architect
 - name: Olson Kundig
@@ -424,9 +428,9 @@
   type: architect
 - name: Walker and Moody Architects
   type: architect
-- name: William Hablinski Architecture
-  type: architect
 - name: Warren Platner Associates Architects
+  type: architect
+- name: William Hablinski Architecture
   type: architect
 - name: Wolfgang Ludes Studio
   type: architect
@@ -438,8 +442,6 @@
   type: interior designer
 - name: Nordic PCL Construction Inc.
   type: Builder
-- name: Michael C.F. Chan & Associates
-  type: Architect
 - name: Peter Pennoyer Architects
   type: Architect
 - name: Piechota Architecture
@@ -452,8 +454,6 @@
   type: Architect
 - name: SV Design
   type: Architect
-- name: Martin Kemp Design
-  type: interior designer
 - name: Pembrooke and Ives
   type: interior designer
 - name: Peter David Studio
