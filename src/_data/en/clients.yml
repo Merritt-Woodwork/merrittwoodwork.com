@@ -6,6 +6,8 @@
   type: architect
 - name: Alden Architecture
   type: architect
+- name: Alex Compagno Architects
+  type: Architect
 - name: Allan Greenberg Architect
   type: architect
 - name: Alpha Builders Group
@@ -46,6 +48,8 @@
   type: interior designer
 - name: Butler Armsden Architects
   type: architect
+- name: Blue Rock Development
+  type: Builder
 - name: Callison RTKL Associates
   type: architect
 - name: 'Carol John Designs, Inc.'
@@ -90,9 +94,9 @@
   type: builder
 - name: Deborah Berke & Partners
   type: architect
-- name: Derecktor Shipyards
-  type: builder
 - name: 'Dibico Construction, Inc.'
+  type: builder
+- name: Derecktor Shipyards
   type: builder
 - name: Diller Scofidio + Renfro
   type: architect
@@ -142,9 +146,9 @@
   type: builder
 - name: Hariri Pontarini Architects
   type: architect
-- name: Harrison Design
-  type: architect
 - name: Hart Howerton
+  type: architect
+- name: Harrison Design
   type: architect
 - name: Hatteras Yachts
   type: builder
@@ -404,8 +408,6 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: Blue Rock Development
-  type: Builder
 - name: 'Centerline Management, LLC'
   type: Builder
 - name: Inspirit Development + Construction
@@ -416,8 +418,6 @@
   type: Builder
 - name: Nordic PCL Construction Inc.
   type: Builder
-- name: Alex Compagno Architects
-  type: Architect
 - name: Daniel Romualdez Architects
   type: Architect
 - name: Davis Design Development
@@ -450,8 +450,6 @@
   type: Architect
 - name: SV Design
   type: Architect
-- name: 'Atelier AM, Inc.'
-  type: interior designer
 - name: James Augustus Seymour Gregg van Wynen
   type: interior designer
 - name: Keith Yates Design
