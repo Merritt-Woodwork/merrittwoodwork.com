@@ -172,10 +172,14 @@
   type: Architect
 - name: Hughes Design Associates
   type: interior designer
+- name: I-Grace
+  type: builder
 - name: Ike Kligerman Barkley
   type: architect
 - name: Ingrao Inc.
   type: Architect
+- name: Inspirit Development + Construction
+  type: Builder
 - name: Ivette Arango Interiors
   type: interior designer
 - name: Jacobs & Co. Inc.
@@ -386,8 +390,6 @@
   type: owner rep
 - name: Taylor & Taylor Inc.
   type: architect
-- name: I-Grace
-  type: builder
 - name: The Swans Nest Interiors Inc.
   type: interior designer
 - name: The Wiseman Group
@@ -428,18 +430,16 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: Inspirit Development + Construction
-  type: Builder
 - name: KVC Builders
-  type: Builder
-- name: Nordic PCL Construction Inc.
   type: Builder
 - name: K | R Architects
   type: Architect
-- name: Leroy Street Studio
-  type: Architect
 - name: Keith Yates Design
   type: interior designer
+- name: Nordic PCL Construction Inc.
+  type: Builder
+- name: Leroy Street Studio
+  type: Architect
 - name: Michael C.F. Chan & Associates
   type: Architect
 - name: Peter Pennoyer Architects
