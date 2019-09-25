@@ -340,6 +340,8 @@
   type: interior designer
 - name: Remick Associates
   type: builder
+- name: Rhoades Young
+  type: interior designer
 - name: 'Richard Holz, Inc'
   type: builder
 - name: Richard Manion Architecture Inc.
@@ -348,12 +350,12 @@
   type: architect
 - name: Robert A.M. Stern Architects LLP
   type: architect
+- name: 'Robert Maschke Architects, Inc.'
+  type: architect
 - name: Roger Ferris + Partners
   type: architect
 - name: Rose Tarlow Melrose House
   type: interior designer
-- name: 'Robert Maschke Architects, Inc.'
-  type: architect
 - name: Rose Uniacke
   type: interior designer
 - name: Rossington Architecture
@@ -458,8 +460,6 @@
   type: Architect
 - name: SV Design
   type: Architect
-- name: Rhoades Young
-  type: interior designer
 - name: Steven Volpe Design
   type: interior designer
 - name: Studio Putman
