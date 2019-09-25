@@ -50,8 +50,6 @@
   type: architect
 - name: 'Carol John Designs, Inc.'
   type: interior designer
-- name: Carver + Schicketanz
-  type: architect
 - name: Chambers + Chambers
   type: architect
 - name: Chapelle Interior and Architectural Design
@@ -132,8 +130,6 @@
   type: architect
 - name: Gene Farmer &  Associates
   type: architect
-- name: Gensler
-  type: architect
 - name: 'GGD, Inc.'
   type: builder
 - name: Gorny & Associates Architecture
@@ -194,8 +190,6 @@
   type: architect
 - name: 'Keelty Construction, Inc.'
   type: builder
-- name: 'Keenen/Riley Architect, PC'
-  type: architect
 - name: Ken Linsteadt Architects
   type: architect
 - name: 'KH Webb Architects, PC'
@@ -270,8 +264,6 @@
   type: architect
 - name: Olson Kundig
   type: architect
-- name: 'Olson-Olson Architects, LLP'
-  type: architect
 - name: Palmer Johnson Yachts
   type: builder
 - name: 'Patino Architecture, PLLC'
@@ -291,8 +283,6 @@
 - name: Planning Partners Limited
   type: owner rep
 - name: 'Portuondo Perotti Architects, Inc'
-  type: architect
-- name: Randall Stofft Architects
   type: architect
 - name: Redhorse Constructors Inc.
   type: builder
@@ -326,8 +316,6 @@
   type: builder
 - name: 'S.R. Gambrel, Inc.'
   type: interior designer
-- name: Sagan-Piechota Architecture
-  type: architect
 - name: Sands Construction
   type: builder
 - name: Sawyer | Berson
@@ -341,8 +329,6 @@
 - name: Shawmut Design and Construction
   type: builder
 - name: Shope Reno Wharton Architecture
-  type: architect
-- name: Siemasko + Verbridge
   type: architect
 - name: Silver Rail Construction Corporation
   type: builder
@@ -376,8 +362,6 @@
   type: owner rep
 - name: Taylor & Taylor Inc.
   type: architect
-- name: The Austin Company
-  type: architect
 - name: I-Grace
   type: builder
 - name: The Swans Nest Interiors Inc.
@@ -409,8 +393,6 @@
 - name: Walker and Moody Architects
   type: architect
 - name: Warren Platner Associates Architects
-  type: architect
-- name: 'Wavell-Huber Wood Products, Inc.'
   type: architect
 - name: William Hablinski Architecture
   type: architect
