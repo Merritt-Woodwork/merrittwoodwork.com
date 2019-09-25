@@ -1,5 +1,3 @@
-- name: 450 Designer
-  type: interior designer
 - name: 4BI & Associés
   type: Architect
 - name: 'Albert Hadley, Inc.'
@@ -16,8 +14,6 @@
   type: builder
 - name: Anderson McKelvey Architects
   type: architect
-- name: Andrée Putman
-  type: interior designer
 - name: Andrew Skurman Architects
   type: architect
 - name: Anthony Minichetti Architect LLC
@@ -232,8 +228,6 @@
   type: architect
 - name: 'Marcia Tucker Interiors, LLC'
   type: interior designer
-- name: 'Marc-Michaels Interior Design, Inc.'
-  type: interior designer
 - name: Mark Cavagnero Associates
   type: architect
 - name: 'Mark P. Finlay Architects, AIA'
@@ -294,8 +288,6 @@
   type: builder
 - name: Peter Marino Architect
   type: architect
-- name: Phyllis Taylor
-  type: interior designer
 - name: Planning Partners Limited
   type: owner rep
 - name: 'Portuondo Perotti Architects, Inc'
@@ -376,8 +368,6 @@
   type: architect
 - name: Sutton Suzuki Architects
   type: architect
-- name: Suzanne Tucker
-  type: interior designer
 - name: 'Sweeney & Conroy, Inc.'
   type: builder
 - name: 'Taconic Builders, Inc.'
@@ -444,3 +434,5 @@
   type: Builder
 - name: Nordic PCL Construction Inc.
   type: Builder
+- name: Alex Compagno Architects
+  type: Architect
