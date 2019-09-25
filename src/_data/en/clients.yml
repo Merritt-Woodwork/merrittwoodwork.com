@@ -230,10 +230,12 @@
   type: Architect
 - name: KVC Builders
   type: Builder
-- name: Liaigre
-  type: interior designer
 - name: Landry Design Group
   type: architect
+- name: Leroy Street Studio
+  type: Architect
+- name: Liaigre
+  type: interior designer
 - name: Lico Contracting Inc.
   type: builder
 - name: Lily Home + Design
@@ -242,12 +244,12 @@
   type: interior designer
 - name: 'Livingston Builders, Inc.'
   type: builder
-- name: Luis Navarette Decoration
-  type: interior designer
 - name: Louis Ptak Construction Inc.
   type: builder
 - name: LS3P
   type: architect
+- name: Luis Navarette Decoration
+  type: interior designer
 - name: Luiz de Basto Designs
   type: interior designer
 - name: Lundberg Design
@@ -368,10 +370,10 @@
   type: architect
 - name: Stamps & Stamps
   type: architect
-- name: STA Architectural Group
-  type: architect
 - name: Stephen Miller Siegel
   type: interior designer
+- name: STA Architectural Group
+  type: architect
 - name: Stern Projects
   type: builder
 - name: Stofft Cooney Architects
@@ -436,8 +438,6 @@
   type: interior designer
 - name: Nordic PCL Construction Inc.
   type: Builder
-- name: Leroy Street Studio
-  type: Architect
 - name: Michael C.F. Chan & Associates
   type: Architect
 - name: Peter Pennoyer Architects
