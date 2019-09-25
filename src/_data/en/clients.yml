@@ -120,14 +120,10 @@
   type: architect
 - name: Fiedler Marciano LLP
   type: Architect
-- name: Liaigre
-  type: interior designer
 - name: Forde Mazzola Associates Inc.
   type: builder
 - name: Foster + Partners
   type: architect
-- name: Reis Contracting Group
-  type: builder
 - name: Francis Gough Architect Inc.
   type: architect
 - name: Frank de Biasi Interiors
@@ -144,6 +140,8 @@
   type: builder
 - name: Gorny & Associates Architecture
   type: architect
+- name: Granoff Architects
+  type: Architect
 - name: Grey Management
   type: builder
 - name: Hagman Architects
@@ -160,9 +158,9 @@
   type: builder
 - name: 'Haynes-Roberts, Inc.'
   type: interior designer
-- name: Hedrick Brothers Construction
-  type: builder
 - name: Hilgendorf Construction
+  type: builder
+- name: Hedrick Brothers Construction
   type: builder
 - name: 'Hobbs, Inc.'
   type: builder
@@ -204,11 +202,13 @@
   type: architect
 - name: Kimmel Construction
   type: builder
-- name: 'KH Webb Architects, PC'
-  type: architect
 - name: Knickerbocker & Associates
   type: builder
+- name: 'KH Webb Architects, PC'
+  type: architect
 - name: Kitchell Brusnighan Interior Design Associates
+  type: interior designer
+- name: Liaigre
   type: interior designer
 - name: Landry Design Group
   type: architect
@@ -234,6 +234,8 @@
   type: interior designer
 - name: Mark Cavagnero Associates
   type: architect
+- name: Reis Contracting Group
+  type: builder
 - name: 'Mark P. Finlay Architects, AIA'
   type: architect
 - name: Marker Construction Group
@@ -422,8 +424,6 @@
   type: Builder
 - name: Nordic PCL Construction Inc.
   type: Builder
-- name: Granoff Architects
-  type: Architect
 - name: Halper Architects
   type: Architect
 - name: Ingrao Inc.
