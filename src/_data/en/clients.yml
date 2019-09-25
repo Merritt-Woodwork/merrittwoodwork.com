@@ -366,8 +366,6 @@
   type: builder
 - name: Rybovich Boat Company
   type: builder
-- name: 'S.R. Gambrel, Inc.'
-  type: interior designer
 - name: Sands Construction
   type: builder
 - name: Sawyer | Berson
@@ -382,30 +380,42 @@
   type: builder
 - name: Shope Reno Wharton Architecture
   type: architect
+- name: Shubin Donaldson
+  type: Architect
 - name: Silver Rail Construction Corporation
   type: builder
 - name: 'Smith Architectural Group, Inc'
+  type: architect
+- name: STA Architectural Group
   type: architect
 - name: Stamps & Stamps
   type: architect
 - name: Stephen Miller Siegel
   type: interior designer
-- name: STA Architectural Group
-  type: architect
 - name: Stern Projects
   type: builder
+- name: Steven Volpe Design
+  type: interior designer
 - name: Stofft Cooney Architects
   type: architect
 - name: Studio Cicetti Architect
   type: architect
+- name: Studio Putman
+  type: interior designer
+- name: Studio Schicketanz
+  type: Architect
 - name: Studio VARA
   type: architect
+- name: 'S.R. Gambrel, Inc.'
+  type: interior designer
 - name: 'Summit Professional Builders, Inc.'
   type: builder
-- name: Sutton Suzuki Architects
-  type: architect
 - name: Sutro Architects
   type: architect
+- name: Sutton Suzuki Architects
+  type: architect
+- name: SV Design
+  type: Architect
 - name: 'Sweeney & Conroy, Inc.'
   type: builder
 - name: 'Taconic Builders, Inc.'
@@ -424,11 +434,13 @@
   type: owner rep
 - name: Timothy Hatton Architects
   type: architect
+- name: Trinity Yachts
+  type: builder
+- name: Tucker & Marks Design
+  type: interior designer
 - name: Tyler Development Corporation
   type: builder
 - name: Uberto Construction
-  type: builder
-- name: Trinity Yachts
   type: builder
 - name: Ulstein Group ASA
   type: builder
@@ -453,16 +465,4 @@
 - name: Xhema Industries
   type: builder
 - name: Yabu Pushelberg
-  type: interior designer
-- name: Shubin Donaldson
-  type: Architect
-- name: Studio Schicketanz
-  type: Architect
-- name: SV Design
-  type: Architect
-- name: Steven Volpe Design
-  type: interior designer
-- name: Studio Putman
-  type: interior designer
-- name: Tucker & Marks Design
   type: interior designer
