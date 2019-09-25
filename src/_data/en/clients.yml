@@ -174,6 +174,8 @@
   type: interior designer
 - name: Ike Kligerman Barkley
   type: architect
+- name: Ingrao Inc.
+  type: Architect
 - name: Ivette Arango Interiors
   type: interior designer
 - name: Jacobs & Co. Inc.
@@ -182,6 +184,8 @@
   type: interior designer
 - name: James Remez
   type: owner rep
+- name: James Augustus Seymour Gregg van Wynen
+  type: interior designer
 - name: 'Jean P. Simmers, Ltd.'
   type: interior designer
 - name: 'Jeffrey Berkus Architects, Inc.'
@@ -192,6 +196,12 @@
   type: interior designer
 - name: John G. Early Contractor & Builders Inc.
   type: builder
+- name: John Hummel & Associates
+  type: Builder
+- name: John Milander Architects
+  type: Architect
+- name: Jon Libasci
+  type: Architect
 - name: Jones | Haydu
   type: interior designer
 - name: Karen Thomas Associates
@@ -348,9 +358,9 @@
   type: builder
 - name: 'Smith Architectural Group, Inc'
   type: architect
-- name: STA Architectural Group
-  type: architect
 - name: Stamps & Stamps
+  type: architect
+- name: STA Architectural Group
   type: architect
 - name: Stephen Miller Siegel
   type: interior designer
@@ -406,9 +416,9 @@
   type: architect
 - name: Walker and Moody Architects
   type: architect
-- name: Warren Platner Associates Architects
-  type: architect
 - name: William Hablinski Architecture
+  type: architect
+- name: Warren Platner Associates Architects
   type: architect
 - name: Wolfgang Ludes Studio
   type: architect
@@ -420,22 +430,16 @@
   type: interior designer
 - name: Inspirit Development + Construction
   type: Builder
-- name: John Hummel & Associates
-  type: Builder
 - name: KVC Builders
   type: Builder
 - name: Nordic PCL Construction Inc.
   type: Builder
-- name: Ingrao Inc.
-  type: Architect
-- name: John Milander Architects
-  type: Architect
-- name: Jon Libasci
-  type: Architect
 - name: K | R Architects
   type: Architect
 - name: Leroy Street Studio
   type: Architect
+- name: Keith Yates Design
+  type: interior designer
 - name: Michael C.F. Chan & Associates
   type: Architect
 - name: Peter Pennoyer Architects
@@ -450,10 +454,6 @@
   type: Architect
 - name: SV Design
   type: Architect
-- name: James Augustus Seymour Gregg van Wynen
-  type: interior designer
-- name: Keith Yates Design
-  type: interior designer
 - name: Martin Kemp Design
   type: interior designer
 - name: Pembrooke and Ives
