@@ -36,6 +36,8 @@
   type: builder
 - name: Black Mountain Construction|Development
   type: builder
+- name: Blue Rock Development
+  type: Builder
 - name: Bohlin Cywinski Jackson
   type: architect
 - name: 'Brian J. McCarthy, Inc.'
@@ -48,12 +50,12 @@
   type: interior designer
 - name: Butler Armsden Architects
   type: architect
-- name: Blue Rock Development
-  type: Builder
 - name: Callison RTKL Associates
   type: architect
 - name: 'Carol John Designs, Inc.'
   type: interior designer
+- name: 'Centerline Management, LLC'
+  type: Builder
 - name: Chambers + Chambers
   type: architect
 - name: Chapelle Interior and Architectural Design
@@ -64,8 +66,6 @@
   type: architect
 - name: 'Chris Pollack, LTD'
   type: owner rep
-- name: Liaigre
-  type: interior designer
 - name: Christina Murphy Interiors
   type: interior designer
 - name: Christine Van Deusen Inc
@@ -76,27 +76,29 @@
   type: builder
 - name: 'Crapsey and Gilles Contractors, Inc.'
   type: builder
-- name: Reis Contracting Group
-  type: builder
 - name: D+DSAO
   type: owner rep
 - name: 'Dalton Designs, Inc.'
   type: interior designer
 - name: Dan Pearson Studio
   type: interior designer
+- name: Daniel Romualdez Architects
+  type: Architect
 - name: 'David Easton, Inc.'
   type: interior designer
 - name: David Kensington & Associates
   type: interior designer
 - name: David M. Schwarz Architects
   type: architect
+- name: Davis Design Development
+  type: Architect
 - name: Davis General Contracting Corporation
   type: builder
 - name: Deborah Berke & Partners
   type: architect
-- name: 'Dibico Construction, Inc.'
-  type: builder
 - name: Derecktor Shipyards
+  type: builder
+- name: 'Dibico Construction, Inc.'
   type: builder
 - name: Diller Scofidio + Renfro
   type: architect
@@ -118,10 +120,14 @@
   type: architect
 - name: Fiedler Marciano LLP
   type: Architect
+- name: Liaigre
+  type: interior designer
 - name: Forde Mazzola Associates Inc.
   type: builder
 - name: Foster + Partners
   type: architect
+- name: Reis Contracting Group
+  type: builder
 - name: Francis Gough Architect Inc.
   type: architect
 - name: Frank de Biasi Interiors
@@ -196,14 +202,14 @@
   type: builder
 - name: Ken Linsteadt Architects
   type: architect
+- name: Kimmel Construction
+  type: builder
 - name: 'KH Webb Architects, PC'
   type: architect
-- name: Kimmel Construction
+- name: Knickerbocker & Associates
   type: builder
 - name: Kitchell Brusnighan Interior Design Associates
   type: interior designer
-- name: Knickerbocker & Associates
-  type: builder
 - name: Landry Design Group
   type: architect
 - name: Lico Contracting Inc.
@@ -408,8 +414,6 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: 'Centerline Management, LLC'
-  type: Builder
 - name: Inspirit Development + Construction
   type: Builder
 - name: John Hummel & Associates
@@ -418,10 +422,6 @@
   type: Builder
 - name: Nordic PCL Construction Inc.
   type: Builder
-- name: Daniel Romualdez Architects
-  type: Architect
-- name: Davis Design Development
-  type: Architect
 - name: Granoff Architects
   type: Architect
 - name: Halper Architects
