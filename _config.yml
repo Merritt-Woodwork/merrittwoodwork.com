@@ -291,9 +291,3 @@ gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-polyglot
-
-Analytics:
-                provider: "google-universal"
-      google:
-      tracking_id: "UA-148514487-1"
-      
