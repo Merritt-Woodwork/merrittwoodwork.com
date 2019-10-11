@@ -28,9 +28,14 @@
   <!-- inject:css -->
   <!-- endinject -->
 
-  <!-- for cloudcannon -->
+  <!-- production only -->
   {% if jekyll.environment == 'production' %}
     {% include gtag.html %}
+  {% endif %}
+  <!-- end -->
+
+  <!-- cloudcannon -->
+  {% if jekyll.environment == 'cloudcannon' %}
     <link rel=stylesheet href=/assets/stylesheets/style.css>
   {% endif %}
   <!-- end -->
