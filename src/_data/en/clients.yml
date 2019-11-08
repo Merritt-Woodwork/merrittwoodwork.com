@@ -118,6 +118,8 @@
   type: architect
 - name: 'Ferguson & Shamamian Architects, LLP'
   type: architect
+- name: Fetzer
+  type: General Contractor
 - name: Fiedler Marciano LLP
   type: Architect
 - name: Forde Mazzola Associates Inc.
@@ -214,6 +216,8 @@
   type: architect
 - name: 'Keelty Construction, Inc.'
   type: builder
+- name: Ken Fulk Design
+  type: interior designer
 - name: Ken Linsteadt Architects
   type: architect
 - name: 'KH Webb Architects, PC'
