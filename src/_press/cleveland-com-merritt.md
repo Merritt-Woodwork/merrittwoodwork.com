@@ -1,6 +1,6 @@
 ---
 press_date: 2017-06-18 00:00:00
 press_image: /uploads/Press-Cleveland-Merritt.jpg
-pdf_path:
-press_link: 'http://www.cleveland.com/business/index.ssf/2017/06/merritt_woodworking_in_mentor.html'
+pdf_path: /uploads/cleveland-com-7-26-17.pdf
+press_link:
 ---
