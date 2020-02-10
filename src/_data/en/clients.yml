@@ -136,6 +136,8 @@
   type: architect
 - name: G2 Design
   type: architect
+- name: Gambrell
+  type: interior designer
 - name: Gene Farmer &  Associates
   type: architect
 - name: 'GGD, Inc.'
@@ -467,6 +469,4 @@
 - name: Xhema Industries
   type: builder
 - name: Yabu Pushelberg
-  type: interior designer
-- name: Gambrell
   type: interior designer
