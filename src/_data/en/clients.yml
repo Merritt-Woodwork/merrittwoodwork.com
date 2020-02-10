@@ -166,6 +166,8 @@
   type: interior designer
 - name: Hedrick Brothers Construction
   type: builder
+- name: Highline Construction
+  type: builder
 - name: Hilgendorf Construction
   type: builder
 - name: 'Hobbs, Inc.'
@@ -472,5 +474,3 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: Highline Construction
-  type: builder
