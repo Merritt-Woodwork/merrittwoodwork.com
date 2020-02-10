@@ -40,6 +40,8 @@
   type: Builder
 - name: Bohlin Cywinski Jackson
   type: architect
+- name: Bonetti | Kozerski Architecture
+  type: architect
 - name: 'Brian J. McCarthy, Inc.'
   type: interior designer
 - name: Bruce Bierman Design
@@ -456,6 +458,8 @@
   type: builder
 - name: Van Acker Construction
   type: builder
+- name: Marmol Radziner
+  type: architect
 - name: Victoria Hagan Interiors
   type: interior designer
 - name: Voorsanger Architects PC
@@ -476,11 +480,3 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: FDG Design Group
-  type: interior designer
-- name: Commune
-  type: interior designer
-- name: Bonetti | Kozerski Architecture
-  type: architect
-- name: Marmol Radziner
-  type: architect
