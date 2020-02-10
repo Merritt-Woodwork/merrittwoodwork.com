@@ -218,6 +218,8 @@
   type: architect
 - name: 'Keelty Construction, Inc.'
   type: builder
+- name: Keith Yates Design
+  type: interior designer
 - name: Ken Fulk Design
   type: interior designer
 - name: Ken Linsteadt Architects
@@ -469,6 +471,4 @@
 - name: Xhema Industries
   type: builder
 - name: Yabu Pushelberg
-  type: interior designer
-- name: Keith Yates Design
   type: interior designer
