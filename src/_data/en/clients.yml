@@ -280,6 +280,8 @@
   type: architect
 - name: McMahon-Baek LLC
   type: architect
+- name: MEM Architecture
+  type: architect
 - name: Men at Work Construction Corp.
   type: builder
 - name: Michael C.F. Chan & Associates
@@ -474,5 +476,3 @@
   type: builder
 - name: Yabu Pushelberg
   type: interior designer
-- name: MEM Architecture
-  type: architect
