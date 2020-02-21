@@ -1,5 +1,5 @@
 ---
-press_title:
+press_title: Woodworking Network
 press_date: 2011-08-11 00:00:00
 press_image: /uploads/woodworking-network-logo.jpg
 pdf_path: /uploads/custom-woodworking-business.pdf
