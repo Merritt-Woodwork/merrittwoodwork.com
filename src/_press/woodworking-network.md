@@ -1,4 +1,5 @@
 ---
+press_title:
 press_date: 2018-10-04 16:40:00
 press_image: /uploads/fdmc-2018.JPG
 pdf_path: /uploads/fdmc-magazine-cover-1.pdf
