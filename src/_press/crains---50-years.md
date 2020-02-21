@@ -1,4 +1,5 @@
 ---
+press_title: Crain's 50 Years
 press_date: 2017-06-03 00:00:00
 press_image: /uploads/Press-Crain's-50Years.jpg
 pdf_path: /uploads/crains-50-years-june-2017.pdf

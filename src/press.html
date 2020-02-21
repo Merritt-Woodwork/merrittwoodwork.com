@@ -46,40 +46,50 @@ lang: en
         <div class="gutter-sizer"></div>
         {% assign press = site.press | sort:"press_date" | reverse %}
         {% for item in press %}
-        {% assign pdf = item.pdf_path | size %}
+        {% assign link = item.press_link %}
+        {% if item.pdf_path %}
+          {% assign link = item.pdf_path %}
+        {% endif %}
+        {% assign link_title = "Link" %}
+        {% if item.pdf_path %}
+          {% assign link_title = "PDF" %}
+        {% endif %}
+        {% assign title = item.title %}
+        {% if item.press_title %}
+          {% assign title = item.press_title %}
+        {% endif %}
 
         <div class="grid-item">
-          {% if item.press_link %}
-            <a class="grid-item__wrap" target="_blank" href="{{item.press_link}}">
-            <img
-              ix-path="{{item.press_image}}"
-              ix-params='{
-                "auto": "compress"
-              }'
-              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
-            >
-            </a>
-          {% elsif pdf > 3 %}
-            <a class="grid-item__wrap" target="_blank" href="{{item.pdf_path}}">
-            <img
-              ix-path="{{item.press_image}}"
-              ix-params='{
-                "auto": "compress"
-              }'
-              sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
-            >
+          {% if link %}
+            <a class="grid-item__wrap" target="_blank" href="{{link}}" {% if link == item.press_link %}rel="nofollow noopener"{% endif %}>
+              <div class="grid-item__inner">
+                <img
+                  ix-path="{{item.press_image}}"
+                  ix-params='{
+                    "auto": "compress"
+                  }'
+                  sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+                >
+                <h5 class="header-text-condensed press-title">{{title}}</h5>
+                <span class="header-text press-date">{{ item.press_date | date: "%b %e, %Y" }}</span>
+                <span class="header-text press-link">{{link_title}}</span>
+              </div>
             </a>
           {% else %}
             <div class="grid-item__wrap">
-              <img
-                ix-path="{{item.press_image}}"
-                ix-params='{
-                  "auto": "compress"
-                }'
-                sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
-              >
+              <div class="grid-item__inner">
+                <img
+                  ix-path="{{item.press_image}}"
+                  ix-params='{
+                    "auto": "compress"
+                  }'
+                  sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
+                >
+                <h5 class="header-text-condensed press-title">{{title}}</h5>
+                <span class="header-text press-date">{{ item.press_date | date: "%b %e, %Y" }}</span>
+                <span class="header-text press-link empty"></span>
+              </div>
             </div>
-
           {% endif %}
         </div>
         {% endfor %}
