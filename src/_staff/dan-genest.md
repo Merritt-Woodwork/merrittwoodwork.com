@@ -5,7 +5,7 @@ title: 'General Manager, SCI-Merritt'
 quote:
 details:
 image: /uploads/merritt-022719-167-bw-1.jpg
-display_number: 4
+display_number: 7
 lang:
 _comments:
   image: file should be ~600px wide
