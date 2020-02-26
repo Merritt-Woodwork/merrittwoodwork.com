@@ -50,7 +50,9 @@ lang: de
             <h2 class="header-text-condensed">{{section.headline}}</h2>
           </div>
           <div class="grid-column--copy" data-aos="fade-up">
-            {{section.details | markdownify}}
+            <p class="copy-text">
+              {{section.details | markdownify | remove: '<p>' | remove: '</p>'}}
+            </p>
           </div>
         </div>
         {% endfor %}
