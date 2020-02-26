@@ -18,11 +18,11 @@
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
-    color: #202020;
+    color: $text;
     letter-spacing: 1px;
     margin-top: .8rem;
     padding-bottom: 2px;
-    border-bottom: 1px solid #a45833;
+    border-bottom: 1px solid $brand;
 
     &.empty {
       border-bottom: none;
@@ -206,7 +206,7 @@
           */
 
           .press-link {
-            color: #a45833;
+            color: $brand;
             border-bottom: 1px solid transparent;
           }
         }

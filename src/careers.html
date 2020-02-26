@@ -27,15 +27,15 @@ sections:
       in the process.
   - headline: Training
     details: >-
-        At Merritt, we value our employees and are committed to providing the necessary 
-        tools to help them succeed and further their development. In 2019, Merritt hired 
-        a full-time instructor and opened a 3,000 sq. ft facility in Mentor, OH, which is 
-        dedicated solely to training. The training center provides a more comprehensive 
-        onboarding process for new hires and offers all employees a variety of classroom 
-        style soft-skill and technical course modules and hands-on instructional guidance 
-        on a collection of saws and machines. Whether you have a few years of experience 
-        or are an experienced woodworking professional looking to take your career to the 
-        next level, Merritt has the training program to help you succeed. 
+        At Merritt, we value our employees and are committed to providing the necessary
+        tools to help them succeed and further their development. In 2019, Merritt hired
+        a full-time instructor and opened a 3,000 sq. ft facility in Mentor, OH, which is
+        dedicated solely to training. The training center provides a more comprehensive
+        onboarding process for new hires and offers all employees a variety of classroom
+        style soft-skill and technical course modules and hands-on instructional guidance
+        on a collection of saws and machines. Whether you have a few years of experience
+        or are an experienced woodworking professional looking to take your career to the
+        next level, Merritt has the training program to help you succeed.
   - headline: Benefits
     details: >-
       We provide a comprehensive benefits program that allows you the
@@ -111,7 +111,9 @@ lang: en
             <h2 class="header-text-condensed">{{section.headline}}</h2>
           </div>
           <div class="grid-column--copy" data-aos="fade-up">
-            {{section.details | markdownify}}
+              <p class="copy-text">
+                {{section.details | markdownify | remove: '<p>' | remove: '</p>'}}
+              </p>
           </div>
         </div>
         {% endfor %}

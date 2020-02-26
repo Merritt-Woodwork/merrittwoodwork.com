@@ -40,7 +40,7 @@ button.c-hamburger {
   left: 5px;
   right: 5px;
   height: 1px;
-  background: #202020;
+  background: $text;
 }
 
 .c-hamburger span::before,
@@ -50,7 +50,7 @@ button.c-hamburger {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #202020;
+  background-color: $text;
   content: "";
 }
 

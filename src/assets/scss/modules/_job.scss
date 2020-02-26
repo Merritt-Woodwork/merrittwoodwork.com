@@ -129,7 +129,7 @@ section.job-application {
       margin-bottom: 1em;
       // text-align: left;
       letter-spacing: 1px;
-      color: #202020;
+      color: $text;
       text-transform: uppercase;
     }
     p {
@@ -143,7 +143,7 @@ section.job-application {
       font-stretch: normal;
       a {
         transition: all 0.3s ease;
-        color: #202020;
+        color: $text;
         text-decoration: none;
         border-bottom: 1px solid $brand;
         &:hover {
@@ -159,7 +159,7 @@ section.job-application {
         margin-bottom: 1em;
         // text-align: left;
         letter-spacing: 1px;
-        color: #202020;
+        color: $text;
         text-transform: uppercase;
       }
       p {

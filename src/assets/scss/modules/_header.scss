@@ -104,7 +104,7 @@ header {
         text-transform: uppercase;
         font-weight: 200;
         letter-spacing: 1px;
-        color: #202020;
+        color: $text;
         p {
           @include vertical-align();
           margin: 0;

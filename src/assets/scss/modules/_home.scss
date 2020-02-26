@@ -197,7 +197,7 @@ body.home {
       font-weight: 300;
       margin: 0;
       text-align: center;
-      color: #A45833;
+      color: $brand;
       margin-bottom: 40px;
     }
     h3 {
@@ -251,7 +251,7 @@ body.home {
     h3 {
       font-size: 18px;
       // line-height: 1.5;
-      // border-bottom: 1px solid #a45833;
+      // border-bottom: 1px solid $brand;
       // display: inline-block;
       letter-spacing: 1.5px;
       color: $near-black;
@@ -635,7 +635,7 @@ body.home {
 
   //       width: 100%;
   //       height: 18px;
-  //       background-color: #A45833;
+  //       background-color: $brand;
   //       margin-top: -9px;
   //     }
   //   }
@@ -647,7 +647,7 @@ body.home {
   //     h5 {
   //       font-size: 12px;
   //       letter-spacing: 2px;
-  //       color: #A45833;
+  //       color: $brand;
   //       text-transform: uppercase;
   //       margin-top: 0px;
   //       margin-bottom: .8em;

@@ -1,6 +1,115 @@
+
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+html.load {
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+
+html.loaded {
+  transition: all .3s ease-in;
+  opacity: 1;
+}
+
+html, body {
+  // overflow-x: hidden; // deal with grid-collapse negative margin
+}
+
+body {
+  color: $text;
+  font-family: 'Portrait Web', 'Bodoni MT', 'Didot', 'Palatino', 'Times New Roman', serif;
+
+  // visual grid
+  &.grid {
+    .grid-container {
+      @include grid-visual(rgba(255, 255, 0, .5), $lg-grid);
+    }
+  }
+
+  @include breakpoint(300px, 991px) {
+    margin-top: 45px;
+    &.open {
+      overflow: hidden;
+    }
+  }
+  @include breakpoint(lg) {
+    margin-top: 72px;
+  }
+}
+
+.grid-collapse {
+  @include grid-container;
+  @include breakpoint(300px, 991px) {
+    @include grid-collapse($sm-grid);
+  }
+  @include breakpoint(lg) {
+    @include grid-collapse($lg-grid);
+  }
+}
+
+// grid-container
+.grid-container {
+  @include grid-container;
+  margin: 0 auto;
+  width: 95%;
+  // width: calc(100vw - 20px);
+  @include breakpoint(lg) {
+    width: 992px;
+  }
+  @include breakpoint(xl) {
+    width: 1200px;
+  }
+  @include breakpoint(xxl) {
+    width: 1440px;
+  }
+}
+
+/*
+.inner-grid-container {
+  clear: both;
+  content: "";
+  display: block;
+}
+*/
+
+// full-width outer grid hack
+.grid-container.fluid {
+  @media (max-width: 1234px) {
+    .grid-column {
+      width: 100% !important;
+      margin: 0 !important;
+    }
+  }
+}
+
+.copy-text {
+  font-family: 'Portrait Web', 'Bodoni MT', 'Didot', 'Palatino', 'Times New Roman', serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: justify;
+}
+.header-text {
+  font-family: 'UniversLT-Condensed', 'Helvetica Condensed', 'Arial Narrow', 'Helvetica', 'Arial' sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.header-text-condensed {
+  font-family: 'UniversLTPro-UltraCn', 'Helvetica Condensed', 'Arial Narrow', 'Helvetica', 'Arial' sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fixed-header-wrapper.load {
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+
+.fixed-header-wrapper.loaded {
+  transition: all .3s ease-in;
+  opacity: 1;
 }
 
 .small .wrapper {
@@ -84,7 +193,6 @@ section.list-block {
         margin-top: 0px;
         margin-bottom: 1.75rem;
         letter-spacing: 1px;
-        color: #202020;
         text-transform: uppercase;
       }
     }
@@ -94,7 +202,6 @@ section.list-block {
         margin-top: 0px;
         margin-bottom: 1.75rem;
         letter-spacing: 1px;
-        color: #202020;
         text-transform: uppercase;
       }
 
@@ -148,7 +255,6 @@ section.headline-block {
         font-size: 36px;
         line-height: 36px;
         letter-spacing: 1.5px;
-        color: $near-black;
         text-transform: uppercase;
         margin-top: 0;
         margin-bottom: 25px;
@@ -159,7 +265,6 @@ section.headline-block {
         font-size: 36px;
         line-height: 36px;
         letter-spacing: 1.5px;
-        color: $near-black;
         text-transform: uppercase;
         margin-top: 0;
         margin-bottom: 25px;
@@ -188,28 +293,31 @@ section.headline-block {
       @include grid-column(6 of 12);
       // @include grid-push(1 of 12);
     }
+
+    h3 {
+      text-transform: uppercase;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+
+    p {
+
+    }
+
     @include breakpoint(xs) {
       h3 {
         font-size: 18px;
         line-height: 21px;
         letter-spacing: 1.5px;
-        color: $text;
         margin-top: 30px;
         margin-bottom: 6px;
-        text-transform: uppercase;
-        &:first-of-type {
-          margin-top: 0px;
-        }
       }
       p {
         font-size: 19px;
         line-height: 27px;
-        color: $near-black;
         margin: 0 0 .5em 0;
-        font-family: 'Portrait Web';
-        font-weight: 300;
-        font-style: normal;
-        font-stretch: normal;
       }
       ul {
         padding-left: 1.5em;
@@ -218,10 +326,8 @@ section.headline-block {
           padding-left: .3em;
           font-size: 19px;
           line-height: 27px;
-          color: $near-black;
           margin-top: 0;
           margin-bottom: 6px;
-          font-family: 'Portrait Web';
           font-weight: 300;
           font-style: normal;
           font-stretch: normal;
@@ -233,23 +339,13 @@ section.headline-block {
         font-size: 18px;
         line-height: 21px;
         letter-spacing: 1.5px;
-        color: $text;
         margin-top: 30px;
         margin-bottom: 6px;
-        text-transform: uppercase;
-        &:first-of-type {
-          margin-top: 0px;
-        }
       }
       p {
         font-size: 19px;
         line-height: 27px;
-        color: $near-black;
         margin: 0 0 .5em 0;
-        font-family: 'Portrait Web';
-        font-weight: 300;
-        font-style: normal;
-        font-stretch: normal;
       }
       ul {
         padding-left: 1.5em;
@@ -258,10 +354,8 @@ section.headline-block {
           padding-left: .3em;
           font-size: 19px;
           line-height: 27px;
-          color: $near-black;
           margin-top: 0;
           margin-bottom: 6px;
-          font-family: 'Portrait Web';
           font-weight: 300;
           font-style: normal;
           font-stretch: normal;
@@ -387,7 +481,7 @@ section.next {
   }
   @include breakpoint(xxl) {
   }
-  background-color: $near-black;
+  background-color: $text;
   text-align: center;
   .grid-column {
     @include grid-media($sm-grid) {
@@ -405,7 +499,7 @@ section.next {
     .color {
       width: 100%;
       height: 18px;
-      background-color: #A45833;
+      background-color: $brand;
       margin-top: -9px;
     }
   }
@@ -435,7 +529,7 @@ section.next {
       transition: all 0.3s ease;
       font-size: 12px;
       letter-spacing: 2px;
-      color: #A45833;
+      color: $brand;
       text-transform: uppercase;
       margin-top: 0px;
       margin-bottom: .8em;
@@ -452,7 +546,7 @@ section.next {
     span {
       transition: all 0.3s ease;
       display: inline-block;
-      background-color: #202020;
+      background-color: $text;
     }
   }
   a:hover {
@@ -532,7 +626,7 @@ section.text-block {
     font-weight: 300;
     margin: 0;
     text-align: center;
-    color: #A45833;
+    color: $brand;
   }
 }
 
@@ -677,7 +771,7 @@ section.image-text-block {
 }
 
 section.jumbo-hero {
-  background-color: #202020;
+  background-color: $text;
   @include breakpoint(xs) {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -763,7 +857,7 @@ section.jumbo-hero {
     .color {
       width: 100%;
       height: 18px;
-      background-color: #A45833;
+      background-color: $brand;
       margin-top: -9px;
     }
   }

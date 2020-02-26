@@ -164,7 +164,7 @@ body.portfolio {
           letter-spacing: 2px;
           font-size: 18px;
           line-height: 1.16;
-          border-bottom: 1px solid #a45833;
+          border-bottom: 1px solid $brand;
           &:hover {
             color: $brand;
             border-bottom: 1px solid transparent;
@@ -224,7 +224,7 @@ body.portfolio {
           letter-spacing: 2px;
           font-size: 18px;
           line-height: 1.16;
-          border-bottom: 1px solid #a45833;
+          border-bottom: 1px solid $brand;
           &:hover {
             color: $brand;
             border-bottom: 1px solid transparent;
@@ -485,7 +485,7 @@ body.portfolio {
 
         width: 100%;
         height: 18px;
-        background-color: #A45833;
+        background-color: $brand;
         margin-top: -9px;
       }
     }
@@ -497,7 +497,7 @@ body.portfolio {
       h5 {
         font-size: 12px;
         letter-spacing: 2px;
-        color: #A45833;
+        color: $brand;
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: .8em;
