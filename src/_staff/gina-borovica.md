@@ -5,7 +5,7 @@ title: Director of Sales and Marketing
 quote:
 details:
 image: /uploads/merritt-022719-286-bw-1.jpg
-display_number: 7
+display_number: 5
 lang: en
 _comments:
   image: file should be ~600px wide
