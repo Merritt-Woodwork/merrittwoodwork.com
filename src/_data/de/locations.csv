@@ -3,6 +3,5 @@ order,name,address_1,address_2,city,state,zip,telephone,image,link
 2,california,709 N Sacramento Street,,Lodi,CA,95240,+1 209 334 6674,/uploads/location-california.jpg,https://www.google.com/maps/place/709+N+Sacramento+St+Lodi+CA+95240/
 3,mersham, kent, united kingdom
 4,germany,Amsterdamstraße 6A,Schweinfurt,Germany,97424,+49 9721 29570 10,,/uploads/location-germany.jpg,https://www.google.com/maps/place/Amsterdamstra%C3%9Fe+6a+97424+Schweinfurt+Germany/
-5,new jersey,56 West Ethel Road,Suite 1,Piscataway,NJ,08854,,/uploads/location-new-jersey.jpg,https://www.google.com/maps/place/56+Ethel+Rd+Piscataway+Township+NJ+08854/
-6,utah,1981 East Murray Holladay Rd.,Suite 250,Salt Lake City,UT,84117,,/uploads/location-utah.jpg,https://www.google.com/maps/place/1981+E+Murray+Holladay+Rd+Salt+Lake+City+UT+84117/
-7,wisconsin,242 Michigan Street,Suite 301A,Sturgeon Bay,WI,54235,,/uploads/location-wisconsin.jpg,https://www.google.com/maps/place/242+Michigan+St+Sturgeon+Bay+WI+54235/
+5,utah,1981 East Murray Holladay Rd.,Suite 250,Salt Lake City,UT,84117,,/uploads/location-utah.jpg,https://www.google.com/maps/place/1981+E+Murray+Holladay+Rd+Salt+Lake+City+UT+84117/
+6,wisconsin,242 Michigan Street,Suite 301A,Sturgeon Bay,WI,54235,,/uploads/location-wisconsin.jpg,https://www.google.com/maps/place/242+Michigan+St+Sturgeon+Bay+WI+54235/
