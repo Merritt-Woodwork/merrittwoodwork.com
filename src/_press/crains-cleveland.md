@@ -1,5 +1,5 @@
 ---
-press_title: Crain's Cleveland
+press_title: Merritt Acquires Agrell Architectural Carving
 press_date: 2018-08-21 00:00:00
 press_image: /uploads/crains-cleveland-website-cover.jpeg
 pdf_path: /uploads/crains-cleveland-article.pdf
