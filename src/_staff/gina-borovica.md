@@ -1,11 +1,11 @@
 ---
 name: Gina Borovica
 draft: false
-title: Director of Sales and Marketing
+title: Director of Marketing
 quote:
 details:
 image: /uploads/merritt-022719-286-bw-1.jpg
-display_number: 5
+display_number: 6
 lang: en
 _comments:
   image: file should be ~600px wide
