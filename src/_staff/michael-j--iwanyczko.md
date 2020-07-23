@@ -4,7 +4,7 @@ draft: false
 title: Director of Business Development
 quote:
 details:
-image: /uploads/michael-iwanyczko-final-bw.jpg
+image: /uploads/michael-iwanyczko-final-600-px.jpg
 display_number: 5
 lang: en
 _comments:
