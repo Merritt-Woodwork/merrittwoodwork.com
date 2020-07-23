@@ -5,7 +5,7 @@ title: Program Director Interior Strategies
 quote:
 details:
 image: /uploads/rs.jpg
-display_number: 18
+display_number: 17
 lang:
 _comments:
   image: file should be ~600px wide
