@@ -4,7 +4,7 @@ draft: false
 title: Operations Manager
 quote:
 details:
-image: /uploads/mike-mitchell-finaljpg-600.jpg
+image: /uploads/mdm.jpg
 display_number: 9
 lang:
 _comments:
