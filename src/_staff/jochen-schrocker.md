@@ -22,8 +22,8 @@ details: >-
   is highly regarded for the value it places on craft, attention to detail and
   precision in execution. Jochen embodies these values and it informs his work
   and his team at Merritt every day.
-image: /uploads/jochen-schrocker-final-600-px.jpg
-display_number: 15
+image: /uploads/jochen-schrocker-finaljpg-600.jpg
+display_number: 14
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
