@@ -4,8 +4,8 @@ draft: false
 title: Director of Marketing
 quote:
 details:
-image: /uploads/gina-borovica-final-600-px.jpg
-display_number: 6
+image: /uploads/gina-borovica-finaljpg-600.jpg
+display_number: 5
 lang: en
 _comments:
   image: file should be ~600px wide
