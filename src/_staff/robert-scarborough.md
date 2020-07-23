@@ -4,7 +4,7 @@ draft: false
 title: Program Director Interior Strategies
 quote:
 details:
-image: /uploads/robert-scarborough-finaljpg-600.jpg
+image: /uploads/rs.jpg
 display_number: 18
 lang:
 _comments:
