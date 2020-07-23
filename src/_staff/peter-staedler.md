@@ -4,7 +4,7 @@ draft: false
 title: Project Principal
 quote:
 details:
-image: /uploads/no-photo-available-600-px-2.jpg
+image: /uploads/ps.jpg
 display_number: 16
 lang: en
 _comments:
