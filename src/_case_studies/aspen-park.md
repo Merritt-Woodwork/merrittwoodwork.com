@@ -1,6 +1,6 @@
 ---
 title: Aspen Park
-draft: true
+draft: false
 work-type: contemporary
 list_order: 4
 hero_image: /uploads/aspen-park-entertainment-area-2.jpg
