@@ -4,8 +4,8 @@ draft: false
 title: Operations Manager
 quote:
 details:
-image: /uploads/mike-mitchell-final-600-px.jpg
-display_number: 7
+image: /uploads/mike-mitchell-finaljpg-600.jpg
+display_number: 9
 lang:
 _comments:
   image: file should be ~600px wide
