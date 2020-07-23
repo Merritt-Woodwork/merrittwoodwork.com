@@ -22,7 +22,7 @@ details: >-
   won the prestigious Julia Morgan Award for Craftsmanship and Artisanship in
   2016.  Adam serves as Merritt’s representative to the Institute of Classical
   Art & Architecture (ICAA).
-image: /uploads/Adam Thorpe.jpg
+image: /uploads/adam-thorpe-final-600-px.jpg
 display_number: 18
 _comments:
   image: file should be ~600px wide
