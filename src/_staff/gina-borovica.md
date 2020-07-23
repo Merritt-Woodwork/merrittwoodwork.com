@@ -4,7 +4,7 @@ draft: false
 title: Director of Marketing
 quote:
 details:
-image: /uploads/gina-borovica-finaljpg-600.jpg
+image: /uploads/gab.jpg
 display_number: 5
 lang: en
 _comments:
