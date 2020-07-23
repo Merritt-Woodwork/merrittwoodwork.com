@@ -4,7 +4,7 @@ draft: false
 title: Director of Marketing
 quote:
 details:
-image: /uploads/merritt-022719-286-bw-1.jpg
+image: /uploads/gina-borovica-final-600-px.jpg
 display_number: 6
 lang: en
 _comments:
