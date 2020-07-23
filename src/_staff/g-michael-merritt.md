@@ -21,7 +21,7 @@ details: >-
   flawless results for our clients, mentor and motivate our company team and
   provide security and future opportunities to our employees, vendors,
   consultants and friends.
-image: /uploads/michael-merritt-final-600-px.jpg
+image: /uploads/michael-merritt-finaljpg-600.jpg
 display_number: 1
 _comments:
   image: file should be ~600px wide
