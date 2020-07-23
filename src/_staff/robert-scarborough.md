@@ -5,7 +5,7 @@ title: Program Director Interior Strategies
 quote:
 details:
 image: /uploads/robert-scarborough-finaljpg-600.jpg
-display_number: 17
+display_number: 18
 lang:
 _comments:
   image: file should be ~600px wide
