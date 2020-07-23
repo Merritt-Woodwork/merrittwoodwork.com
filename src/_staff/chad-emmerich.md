@@ -4,7 +4,7 @@ draft: false
 title: Director of Human Resources
 quote:
 details:
-image: /uploads/chad-emmerich-final-600-px.jpg
+image: /uploads/chad-emmerich-finaljpg-600.jpg
 display_number: 4
 lang:
 _comments:
