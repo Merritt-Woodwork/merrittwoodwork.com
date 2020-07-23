@@ -4,8 +4,8 @@ draft: false
 title: 'General Manager, SCI-Merritt'
 quote:
 details:
-image: /uploads/dan-genest-final-600-px.jpg
-display_number: 8
+image: /uploads/dan-genest-finaljpg-600.jpg
+display_number: 10
 lang:
 _comments:
   image: file should be ~600px wide
