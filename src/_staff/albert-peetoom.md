@@ -18,7 +18,7 @@ details: >-
   and nautical. Delivering extraordinary results to Merritt clients continually
   drives Albert and his team to excellence.Albert lives in Savannah, Georgia and
   is a member of the Historic Savannah Foundation.
-image: /uploads/albert-peetoom-finaljpg-600.jpg
+image: /uploads/abp.jpg
 display_number: 11
 _comments:
   image: file should be ~600px wide
