@@ -16,8 +16,8 @@ details: >-
   they are approaching great new opportunities to grow, learn and problem-solve
   as one.Stefan continues in his role as a senior project principal and now
   oversees Merritt's west coast operations.
-image: /uploads/stefan-sekula-final-600-px.jpg
-display_number: 16
+image: /uploads/stefan-sekula-finaljpg-600.jpg
+display_number: 18
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
