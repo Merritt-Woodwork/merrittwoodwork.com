@@ -15,7 +15,7 @@ details: >-
   operations managers, field installation managers, field superintendents and
   carpenters. From start to finish, from build to installation, he accepts and
   delivers only flawless craftsmanship and perfect results.
-image: /uploads/alex-segura-finaljpg-600.jpg
+image: /uploads/as.jpg
 display_number: 12
 _comments:
   image: file should be ~600px wide
