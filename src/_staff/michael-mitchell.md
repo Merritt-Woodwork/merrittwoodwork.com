@@ -4,7 +4,7 @@ draft: false
 title: Operations Manager
 quote:
 details:
-image: /uploads/merritt-022719-244-bw-1.jpg
+image: /uploads/mike-mitchell-final-600-px.jpg
 display_number: 7
 lang:
 _comments:
