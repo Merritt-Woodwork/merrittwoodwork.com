@@ -16,7 +16,7 @@ details: >-
   holds a Master of Architecture, California Polytechnic University and a
   Bachelor of Arts, with emphasis in Environmental Design from San Diego State
   University.
-image: /uploads/jeff-sessions-finaljpg-600.jpg
+image: /uploads/jsessions.jpg
 display_number: 13
 _comments:
   image: file should be ~600px wide
