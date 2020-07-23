@@ -4,7 +4,7 @@ draft: false
 title: 'General Manager, SCI-Merritt'
 quote:
 details:
-image: /uploads/dan-genest-finaljpg-600.jpg
+image: /uploads/dlg.jpg
 display_number: 10
 lang:
 _comments:
