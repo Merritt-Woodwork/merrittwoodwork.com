@@ -4,7 +4,7 @@ draft: false
 title: Program Director Interior Strategies
 quote:
 details:
-image: /uploads/merritt-022719-225-bw-1.jpg
+image: /uploads/robert-scarborough-final-600-px.jpg
 display_number: 9
 lang:
 _comments:
