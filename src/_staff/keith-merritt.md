@@ -18,7 +18,7 @@ details: >-
   world’s finest materials and technological advancements, fusing them together
   with the industry’s most advanced equipment and creative people to create
   exquisite monumental architectural millwork.
-image: /uploads/keith-merritt-final-600-px.jpg
+image: /uploads/keith-merritt-finaljpg-600.jpg
 display_number: 2
 _comments:
   image: file should be ~600px wide
