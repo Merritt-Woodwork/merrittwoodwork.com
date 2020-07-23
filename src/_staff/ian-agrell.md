@@ -22,7 +22,7 @@ details: >-
   woodcarving and to ensure the future of these unique skills, thirty years ago
   he founded the School of Classical Woodcarving where he teaches several
   classes each year.
-image: /uploads/ian-agrell-finaljpg-600.jpg
+image: /uploads/ia.jpg
 display_number: 6
 _comments:
   image: file should be ~600px wide
