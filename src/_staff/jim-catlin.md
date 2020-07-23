@@ -16,7 +16,7 @@ details: >-
   architects, designers and contractors. His extensive industry knowledge,
   experience, and customer service skills add to the continued growth of Merritt
   as the industry leader in providing monumental architectural interiors.
-image: /uploads/jim-catlin-finaljpg-600.jpg
+image: /uploads/jdc.jpg
 display_number: 7
 lang: en
 _comments:
