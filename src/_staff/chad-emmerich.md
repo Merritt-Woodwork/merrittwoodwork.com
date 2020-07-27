@@ -17,7 +17,11 @@ details: >-
   and led an $8M office buildout and relocation. Before that, Chad spent 13
   years with Nationwide Insurance where he, among many other responsibilities,
   led various call centers and field environments as well as coordinated the
-  merge and integration of THI Holdings, Inc.
+  merge and integration of THI Holdings, Inc. In addition to his corporate
+  experiences, Chad has pursued independent ventures that demonstrate an
+  enterprising drive and brings a big picture perspective to his role at
+  Merritt. Chad graduated Cum Laude with a bachelor’s degree in Mathematics from
+  Providence College and has achieved the Senior Professional in HR designation.
 image: /uploads/cme.jpg
 display_number: 4
 lang:
