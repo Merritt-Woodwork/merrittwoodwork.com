@@ -9,7 +9,10 @@ quote: >-
 details: >-
   A member of the Merritt team since 2017, Chad Emmerich serves as Director of
   Human Resources where he is responsible for overseeing the strategic and
-  operational Human Resources activities for Merritt.
+  operational Human Resources activities for Merritt. Chad brings his expertise
+  to Merritt after holding the position of Senior Vice President of Human
+  Resources and Administration for Affirmative Insurance, a publicly traded
+  holdings company that specializes in mergers and acquisitions.
 image: /uploads/cme.jpg
 display_number: 4
 lang:
