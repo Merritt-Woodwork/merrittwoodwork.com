@@ -16,26 +16,28 @@ lang: en
 
 <section class="casestudies">
   <h3 class="header-text-condensed">case studies</h3>
-  <div class="left"></div>
-  {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
-  {% assign first_case_study = casestudies | first %}
-  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
+  <div class="casestudies__container">
+    <div class="left"></div>
+    {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
+    {% assign first_case_study = casestudies | first %}
+    <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
 
-  <div class="grid-container">
-      <div class="grid-column">
-        <div class="inner animated customFadeInUp">
-          {% for item in casestudies %}
-            <div>
-              <a href="{{item.url}}" class="casestudy" data-img="{{item.portfolio_image}}">
-                <h5 class="header-text">{{item.work-type}}</h5>
-                <h2 class="header-text-condensed">{{item.title}}</h2>
-              </a>
-            </div>
+    <div class="grid-container">
+        <div class="grid-column">
+          <div class="inner animated customFadeInUp">
+            {% for item in casestudies %}
+              <div>
+                <a href="{{item.url}}" class="casestudy" data-img="{{item.portfolio_image}}">
+                  <h5 class="header-text">{{item.work-type}}</h5>
+                  <h2 class="header-text-condensed">{{item.title}}</h2>
+                </a>
+              </div>
 
-          {% endfor %}
+            {% endfor %}
 
-      </div>
-      <a data-scroll href="#gallery" class="view header-text-condensed" id="header-video__play-trigger"><span>view gallery</span></a>
+        </div>
+        <a data-scroll href="#gallery" class="view header-text-condensed" id="header-video__play-trigger"><span>view gallery</span></a>
+    </div>
   </div>
 </section>
 

@@ -1,7 +1,45 @@
 body.portfolio {
 
-  section.casestudies {
+  .casestudies {
     // clear: both;
+
+    &__container {
+      position: relative;
+    }
+
+    .left, .right {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 0;
+      width: 100%;
+    }
+    .left {
+      left: 0;
+      background-color: $near-black;
+    }
+    .right {
+      right: 0;
+      display: none;
+      overflow: hidden;
+    }
+
+    .grid-container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .grid-column {
+      overflow: hidden;
+
+      @include grid-media($sm-grid) {
+        @include grid-column(8 of 8);
+      }
+      @include grid-media($lg-grid) {
+        @include grid-column(7 of 16);
+        @include grid-push(1 of 16);
+      }
+    }
 
     h3 {
       @include breakpoint(md) {
@@ -14,46 +52,39 @@ body.portfolio {
       text-transform: uppercase;
     }
 
-    .grid-column {
-      @include grid-media($sm-grid) {
-        @include grid-column(8 of 8);
-      }
-      @include grid-media($lg-grid) {
-        @include grid-column(7 of 16);
-        @include grid-push(1 of 16);
+    a {
+      display: inline-block;
+      text-decoration: none;
+      transition: all 0.3s ease;
+
+      h2 {
+        border-bottom: 1px solid transparent;
       }
     }
 
-    @include breakpoint(300px, 500px) {
-      .left {
-        float: left;
-        width: 100%;
-        height: 575px;
-        background-color: $near-black;
-      }
+    a:hover h2 {
+      border-bottom: 1px solid $brand;
     }
-    @include breakpoint(501px, 799px) {
-      .left {
-        float: left;
-        width: 100%;
-        height: 504px;
-        background-color: $near-black;
+
+    a.view {
+      margin-bottom: 50px;
+      span {
+        transition: all 0.3s ease;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 18px;
+        line-height: 1.16;
+        border-bottom: 1px solid $brand;
+        &:hover {
+          color: $brand;
+          border-bottom: 1px solid transparent;
+        }
       }
     }
 
     @include breakpoint(300px, 799px) {
-      .right {
-        display: none;
-      }
-      .grid-container {
-        position: relative;
-      }
-
-      .grid-column {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-      }
 
       .inner {
         // margin-left: 91px;
@@ -68,7 +99,7 @@ body.portfolio {
         text-transform: uppercase;
       }
       a {
-        text-decoration: none;
+
         h5 {
           font-size: 12px;
           letter-spacing: 2px;
@@ -87,31 +118,12 @@ body.portfolio {
           margin-bottom: 50px;
         }
       }
-      a.view {
-        display: none;
-      }
     }
 
     @include breakpoint(800px) {
       .left, .right {
-        float: left;
+        display: block;
         width: 50%;
-        height: 540px;
-      }
-      .left {
-        background-color: $near-black;
-      }
-      .right {
-        overflow: hidden;
-      }
-      .grid-container {
-        position: relative;
-      }
-
-      .grid-column {
-        position: absolute;
-        top: 0;
-        bottom: 0;
       }
 
       .inner {
@@ -127,9 +139,7 @@ body.portfolio {
         text-transform: uppercase;
       }
       a {
-        display: inline-block;
-        text-decoration: none;
-        transition: all 0.3s ease;
+
         h5 {
           font-size: 12px;
           letter-spacing: 2px;
@@ -146,54 +156,18 @@ body.portfolio {
           text-transform: uppercase;
           margin-top: 0;
           margin-bottom: 30px;
-          border-bottom: 1px solid transparent;
-        }
-      }
-      a:hover h2 {
-        border-bottom: 1px solid $brand;
-      }
-      a.view {
-        position: absolute;
-        left: 0;
-        bottom: 35px;
-        span {
-          transition: all 0.3s ease;
-          display: inline-block;
-          text-transform: uppercase;
-          color: #fff;
-          letter-spacing: 2px;
-          font-size: 18px;
-          line-height: 1.16;
-          border-bottom: 1px solid $brand;
-          &:hover {
-            color: $brand;
-            border-bottom: 1px solid transparent;
-          }
+
         }
       }
     }
 
     @include breakpoint(lg) {
-      .left, .right {
-        float: left;
-        width: 50%;
-        height: 676px;
-      }
-      .grid-container {
-        position: relative;
-      }
-
-      .grid-column {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-      }
 
       .inner {
         margin-top: 79px;
       }
       a {
-        text-decoration: none;
+
         h5 {
           font-size: 12px;
           letter-spacing: 2px;
@@ -212,43 +186,14 @@ body.portfolio {
           margin-bottom: 56px;
         }
       }
-      a.view {
-        position: absolute;
-        bottom: 75px;
-        left: 0;
-        span {
-          transition: all 0.3s ease;
-          display: inline-block;
-          text-transform: uppercase;
-          color: #fff;
-          letter-spacing: 2px;
-          font-size: 18px;
-          line-height: 1.16;
-          border-bottom: 1px solid $brand;
-          &:hover {
-            color: $brand;
-            border-bottom: 1px solid transparent;
-          }
-        }
-      }
     }
 
     @include breakpoint(xl) {
       .left, .right {
         min-height: 676px;
-        height: calc(100vh - 140px);
       }
       .inner {
         margin-top: 15vh;
-      }
-    }
-
-    @include breakpoint(xxl) {
-      .left, .right {
-        float: left;
-        width: 50%;
-        // height: 818px;
-        height: calc(100vh - 140px);
       }
     }
   }

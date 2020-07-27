@@ -8,12 +8,13 @@ lang: de
 
 <section class="casestudies">
   <h3 class="header-text-condensed">KUNDENBEISPIELE</h3>
-  <div class="left"></div>
-  {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
-  {% assign first_case_study = casestudies | first %}
-  <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
+  <div class="casestudies__container">
+    <div class="left"></div>
+    {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
+    {% assign first_case_study = casestudies | first %}
+    <div id="images" class="right" style="background: url({{first_case_study.portfolio_image}}); background-position:center; background-size:cover;"></div>
 
-  <div class="grid-container">
+    <div class="grid-container">
       <div class="grid-column">
         <div class="inner animated customFadeInUp">
           {% for item in casestudies %}
@@ -34,6 +35,7 @@ lang: de
 
       </div>
       <a data-scroll href="#gallery" class="view header-text-condensed" id="header-video__play-trigger"><span>GALERIE ANZEIGEN</span></a>
+    </div>
   </div>
 </section>
 
