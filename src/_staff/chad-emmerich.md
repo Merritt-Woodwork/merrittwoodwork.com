@@ -3,9 +3,9 @@ name: Chad Emmerich
 draft: false
 title: Director of Human Resources
 quote: >-
-  “At Merritt, I value the opportunity to make an impact on results and have
-  been able to positively do so by using my HR experience and entrepreneurial
-  spirit to guide our team to success.”
+  At Merritt, I value the opportunity to make an impact on results and have been
+  able to positively do so by using my HR experience and entrepreneurial spirit
+  to guide our team to success.
 details: >-
   A member of the Merritt team since 2017, Chad Emmerich serves as Director of
   Human Resources where he is responsible for overseeing the strategic and
@@ -20,9 +20,8 @@ details: >-
   merge | integration of THI Holdings, Inc. In addition to his corporate
   experiences, Chad has pursued independent ventures that demonstrate an
   enterprising drive and brings a big picture perspective to his role at
-  Merritt.  Chad graduated Cum Laude with a bachelor’s degree in Mathematics
-  from Providence College and has achieved the Senior Professional in HR
-  designation.
+  Merritt. Chad graduated Cum Laude with a bachelor’s degree in Mathematics from
+  Providence College and has achieved the Senior Professional in HR designation.
 image: /uploads/cme.jpg
 display_number: 4
 lang:
