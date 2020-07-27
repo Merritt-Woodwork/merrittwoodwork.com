@@ -29,11 +29,12 @@
   var $grid = $('.grid').isotope({
     // options
     itemSelector: '.grid-item',
-    masonry: {
+    percentPosition: true,
+    layoutMode: 'fitRows',
+    fitRows: {
       columnWidth: '.grid-sizer',
       gutter: '.gutter-sizer',
-      percentPosition: true
-    }
+    },
   });
 
   $grid.imagesLoaded(function() {
