@@ -17,7 +17,7 @@ details: >-
   and led an $8M office buildout and relocation. Before that, Chad spent 13
   years with Nationwide Insurance where he, among many other responsibilities,
   led various call centers and field environments as well as coordinated the
-  merge | integration
+  merge and integration of THI Holdings, Inc.
 image: /uploads/cme.jpg
 display_number: 4
 lang:
