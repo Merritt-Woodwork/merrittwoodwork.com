@@ -5,7 +5,7 @@ title: Project Principal
 quote:
 details:
 image: /uploads/mu.jpg
-display_number: 15
+display_number: 16
 lang: en
 _comments:
   image: file should be ~600px wide
