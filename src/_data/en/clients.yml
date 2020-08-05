@@ -432,6 +432,8 @@
   type: architect
 - name: Studio Cicetti Architect
   type: architect
+- name: StudioMIG Architecture
+  type: architect
 - name: Studio Putman
   type: interior designer
 - name: Studio Schicketanz
