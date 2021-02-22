@@ -19,7 +19,7 @@ details: >-
   for 32 years and have a son and a 3-month old grandson. In his free time, he
   enjoys playing golf, riding his 2012 modern Vespa and experimenting with
   recipes as a home chef.
-image: /uploads/photo-in-process.jpg
+image: /uploads/in-process.png
 display_number: 16
 lang: en
 _comments:
