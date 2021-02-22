@@ -4,7 +4,7 @@ draft: true
 title: Plant Manager Merritt West
 quote:
 details:
-image:
+image: /uploads/in-process.png
 display_number:
 lang:
 _comments:
@@ -12,4 +12,3 @@ _comments:
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 ---
-
