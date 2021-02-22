@@ -1,7 +1,7 @@
 ---
 name: Gina Borovica
 draft: false
-title: Director of Marketing
+title: Director of Sales and Marketing
 quote: >-
   I value working for a 50+ year old family owned company and take pride in
   promoting Merritt’s artistry and interior solutions. Being able to work
