@@ -19,7 +19,7 @@ details: >-
   to an installer for 10 years, and was then promoted to production manager for
   4 years. Outside of work, Peter loves spending time outdoors while camping,
   fishing and horseback riding.
-image: /uploads/photo-in-process.jpg
+image: /uploads/in-process.png
 display_number: 17
 lang: en
 _comments:
