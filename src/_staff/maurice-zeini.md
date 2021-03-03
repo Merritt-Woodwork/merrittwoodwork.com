@@ -15,7 +15,7 @@ details: >-
   manager and eventually an operations manager. In Maurice’s free time he loves
   spending time with his three daughters, cooking and playing and watching
   sports such as table tennis, squash, billiards and boxing.
-image: /uploads/in-process.png
+image: /uploads/maurice-zeini.jpg
 display_number: 15
 lang:
 _comments:
