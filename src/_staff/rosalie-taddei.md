@@ -1,7 +1,7 @@
 ---
 name: Rosalie Taddei
 draft: true
-title: ffice Manager Merritt West
+title: HR|Office Manager Merritt West
 quote:
 details:
 image: /uploads/in-process.png
@@ -12,4 +12,5 @@ _comments:
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 ---
+
 
