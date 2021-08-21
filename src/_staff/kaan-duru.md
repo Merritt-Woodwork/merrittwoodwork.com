@@ -4,7 +4,7 @@ draft: true
 title: Project Principal
 quote:
 details:
-image: /uploads/staff-1.jpg
+image: /uploads/photo-in-process.jpg
 display_number:
 lang:
 _comments:
@@ -12,3 +12,5 @@ _comments:
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 ---
+
+
