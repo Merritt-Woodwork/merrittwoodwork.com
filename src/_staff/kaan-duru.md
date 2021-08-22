@@ -5,7 +5,7 @@ title: Project Principal
 quote:
 details:
 image: /uploads/photo-in-process.jpg
-display_number: 20
+display_number: 21
 lang: en
 _comments:
   image: file should be ~600px wide
