@@ -1,6 +1,6 @@
 ---
 name: Lin Hernandez
-draft: true
+draft: false
 title: Plant Manager Merritt West
 quote:
 details:
