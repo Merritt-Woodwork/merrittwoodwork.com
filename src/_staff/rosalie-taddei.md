@@ -1,6 +1,6 @@
 ---
 name: Rosalie Taddei
-draft: true
+draft: false
 title: HR|Office Manager Merritt West
 quote:
 details:
