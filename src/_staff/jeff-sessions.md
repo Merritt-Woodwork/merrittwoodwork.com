@@ -1,7 +1,7 @@
 ---
-name: 'jeff sessions, AIA'
+name: Jeff sessions, AIA
 draft: false
-title: project PRINCIPAL
+title: Project Principal
 quote: >-
   I am proud to have the opportunity to work within a company that holds
   craftsmanship, quality and customer satisfaction to the highest standards in
@@ -17,11 +17,10 @@ details: >-
   Bachelor of Arts, with emphasis in Environmental Design from San Diego State
   University.
 image: /uploads/jsessions.jpg
-display_number: 13
+display_number: 9
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 lang: en
 ---
-
