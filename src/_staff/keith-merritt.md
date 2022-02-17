@@ -1,7 +1,7 @@
 ---
 name: KEITH MERRITT
 draft: false
-title: EXECUTIVE VICE PRESIDENT & TREASURER
+title: CHIEF OPERATING OFFICER
 quote: >-
   Taking an architect’s dream and turning it into reality is a daily joy for my
   team. The challenges we face in the process become fuel driving us to exceed
@@ -26,4 +26,3 @@ _comments:
   draft: drafts are saved but not published
 lang: en
 ---
-
