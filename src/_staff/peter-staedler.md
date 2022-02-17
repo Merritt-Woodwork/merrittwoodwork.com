@@ -20,7 +20,7 @@ details: >-
   4 years. Outside of work, Peter loves spending time outdoors while camping,
   fishing and horseback riding.
 image: /uploads/in-process.png
-display_number: 17
+display_number: 10
 lang: en
 _comments:
   image: file should be ~600px wide
