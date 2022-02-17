@@ -1,7 +1,7 @@
 ---
 name: Dan Genest
 draft: false
-title: 'General Manager, SCI-Merritt'
+title: General Manager, SCI-Merritt
 quote: >-
   At Merritt, I enjoy the challenges my job entails. Overseeing a group of
   hardworking men and women and leading the team to provide quality customer
@@ -17,7 +17,7 @@ details: >-
   spending time with his wife and two daughters as well as watching NASCAR and
   football.
 image: /uploads/dlg.jpg
-display_number: 10
+display_number: 13
 lang:
 _comments:
   image: file should be ~600px wide
