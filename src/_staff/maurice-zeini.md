@@ -16,7 +16,7 @@ details: >-
   spending time with his three daughters, cooking and playing and watching
   sports such as table tennis, squash, billiards and boxing.
 image: /uploads/maurice-zeini.jpg
-display_number: 15
+display_number: 11
 lang:
 _comments:
   image: file should be ~600px wide
