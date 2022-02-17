@@ -22,11 +22,10 @@ details: >-
   provide security and future opportunities to our employees, vendors,
   consultants and friends.
 image: /uploads/gmm.jpg
-display_number: 1
+display_number: 0
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 lang: en
 ---
-
