@@ -23,7 +23,7 @@ details: >-
   Merritt. Chad graduated Cum Laude with a bachelor’s degree in Mathematics from
   Providence College and has achieved the Senior Professional in HR designation.
 image: /uploads/cme.jpg
-display_number: 4
+display_number: 5
 lang:
 _comments:
   image: file should be ~600px wide
