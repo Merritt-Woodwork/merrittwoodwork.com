@@ -1,16 +1,14 @@
 ---
 name: Stephanie Cherok
 draft: false
-title: Director of Finance
+title: Chief Financial & Accountability Officer
 quote:
 details:
 image: /uploads/stephanie-cherok.jpg
-display_number: 22
+display_number: 2
 lang: en
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 ---
-
-
