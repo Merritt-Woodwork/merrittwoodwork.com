@@ -1,7 +1,7 @@
 ---
 name: KEITH MERRITT
 draft: false
-title: CHIEF OPERATING OFFICER
+title: Chief Operating Officer
 quote: >-
   Taking an architect’s dream and turning it into reality is a daily joy for my
   team. The challenges we face in the process become fuel driving us to exceed
