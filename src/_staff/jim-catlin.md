@@ -1,6 +1,6 @@
 ---
 name: Jim Catlin
-draft: false
+draft: true
 title: Director of Projects
 quote: >-
   Being in the continuous pursuit of perfection is knowing nothing is ever
