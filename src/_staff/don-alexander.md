@@ -4,9 +4,9 @@ draft: true
 title: Operations Manager, Merritt West
 quote:
 details:
-image: /uploads/photo-in-process.jpg
+image: /uploads/microsoftteams-image.png
 display_number: 14
-lang:
+lang: en
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
