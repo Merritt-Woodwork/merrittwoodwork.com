@@ -1,11 +1,11 @@
 ---
 name: Jennifer Berry
-draft: true
+draft: false
 title: SENIOR HUMAN RESOURCES MANAGER
 quote:
 details: ''
 image: /uploads/in-process.png
-display_number:
+display_number: -2
 lang: en
 _comments:
   image: file should be ~600px wide
