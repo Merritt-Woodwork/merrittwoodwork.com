@@ -4,7 +4,7 @@ draft: true
 title: SENIOR HUMAN RESOURCES MANAGER
 quote:
 details: ''
-image: /uploads/staff-1.jpg
+image: /uploads/in-process.png
 display_number:
 lang: en
 _comments:
