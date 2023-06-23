@@ -1,6 +1,6 @@
 ---
 name: Chad Emmerich
-draft: false
+draft: true
 title: Director of Human Resources
 quote: >-
   At Merritt, I value the opportunity to make an impact on results and have been
