@@ -1,6 +1,6 @@
 ---
 name: Don Alexander
-draft: true
+draft: false
 title: Operations Manager, Merritt West
 quote:
 details:
