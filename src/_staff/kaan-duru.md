@@ -4,7 +4,7 @@ draft: false
 title: Project Principal
 quote:
 details:
-image: /uploads/photo-in-process.jpg
+image: /uploads/merritt-14.jpg
 display_number: 21
 lang: en
 _comments:
@@ -12,5 +12,3 @@ _comments:
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 ---
-
-
