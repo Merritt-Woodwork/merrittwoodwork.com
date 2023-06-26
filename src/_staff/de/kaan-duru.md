@@ -4,7 +4,7 @@ draft: false
 title: Project Principal
 quote:
 details:
-image: /uploads/photo-in-process.jpg
+image: /uploads/merritt-14.jpg
 display_number: 10
 lang: de
 _comments:
