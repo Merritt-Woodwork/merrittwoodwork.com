@@ -17,7 +17,7 @@ details: >-
   spending time with his wife and two daughters as well as watching NASCAR and
   football.
 image: /uploads/dlg.jpg
-display_number: 13
+display_number: 4
 lang:
 _comments:
   image: file should be ~600px wide
