@@ -1,5 +1,5 @@
 ---
-name: Jeff sessions, AIA
+name: Jeff Sessions, AIA
 draft: false
 title: Project Principal
 quote: >-
@@ -17,7 +17,7 @@ details: >-
   Bachelor of Arts, with emphasis in Environmental Design from San Diego State
   University.
 image: /uploads/jsessions.jpg
-display_number: 9
+display_number: 10
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
