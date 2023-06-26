@@ -22,7 +22,7 @@ details: >-
   outdoors and on the water. Family is extremely important to her and she is the
   proud mother of her daughter Allison.
 image: /uploads/gab.jpg
-display_number: 4
+display_number: 3
 lang: en
 _comments:
   image: file should be ~600px wide
