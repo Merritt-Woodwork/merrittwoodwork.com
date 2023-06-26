@@ -5,7 +5,7 @@ title: Project Principal
 quote:
 details:
 image: /uploads/merritt-14.jpg
-display_number: 21
+display_number: 10
 lang: en
 _comments:
   image: file should be ~600px wide
