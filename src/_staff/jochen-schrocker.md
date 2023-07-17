@@ -23,7 +23,7 @@ details: >-
   precision in execution. Jochen embodies these values and it informs his work
   and his team at Merritt every day.
 image: /uploads/js.jpg
-display_number: 7
+display_number: 8
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
