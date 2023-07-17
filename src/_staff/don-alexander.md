@@ -20,7 +20,7 @@ details: >-
   Interior School of Design and is also a guest lecturer for the school’s Design
   and Project Management courses.  
 image: /uploads/microsoftteams-image.png
-display_number: 5
+display_number: 6
 lang: en
 _comments:
   image: file should be ~600px wide
