@@ -1,25 +1,25 @@
 ---
-name: Maurice Zeini
+name: Peter Staedler
 draft: false
 title: Projektleiter
 quote: >-
-  Ich schätze es, für ein über 50 Jahre altes Familienunternehmen zu arbeiten
-  und bin stolz darauf, die Kunstfertigkeit und die Einrichtungslösungen von
-  Merritt zu fördern. Die Möglichkeit, mit einem Team von talentierten
-  Handwerkern zusammenzuarbeiten, motiviert und inspiriert mich jeden Tag.
+  Es macht mir Spaß, Seite an Seite mit den Besten der Branche zu arbeiten, um
+  unseren Kunden qualitativ hochwertige Holzarbeiten zu liefern.
 details: >-
-  Als einer der Projektleiter von Merritt verwaltet und leitet Maurice Zeini
-  Projekte und Projektteams, um hochwertige Ergebnisse innerhalb der Deadline zu
-  erzielen. Obwohl Maurice erst vor kurzem zum Merritt-Team gestoßen ist, bringt
-  er einen starken Hintergrund und wertvolle Erfahrung in den Bereichen Yachten,
-  Gastgewerbe und Wohninterieur mit. Bevor Maurice zu Merritt kam, war er
-  Schreinermeister, Produktionsleiter und Betriebsleiter.  Da Maurice Wert
-  darauf legt ein Teamplayer zu sein, genießt er den Merritt Teamgeist und ist
-  stolz auf die Kundenbeziehungen und Leistungen des Unternehmens.  In seiner
-  Freizeit ist er gerne mit seinen drei Töchtern zusammen, kocht, spielt oder
-  schaut Sportarten wie Tischtennis, Squash, Billard und Boxen.
-image: /uploads/maurice-zeini.jpg
-display_number: 11
+  Peter Staedler, einer von Merritt´s Projektleitern, ist für die gesamte
+  Projektabwicklung verantwortlich. Zu seinen Aufgaben gehören die Überwachung
+  des Projekts, die finanzielle Verantwortung und die Einhaltung des Budgets,
+  die Konstruktion, die Beschaffung, die Koordinierung der Fertigung sowie die
+  Lieferung und die Installation. Nach seinem College-Abschluss begann Peter
+  seine berufliche Laufbahn in einer Schreinerei in der Schweiz, wo er als
+  Schreiner und Monteur tätig war. Einige Jahre später zog er in die Vereinigten
+  Staaten und arbeitete 18 Jahre lang für Wavell-Huber Wood Products. Aufgrund
+  seiner jahrelangen Erfahrung als gelernter Schreiner, Installateur sowie
+  Produktionsleiter kann Peter auf ein großes Branchenwissen zurückgreifen. 
+  Außerhalb der Arbeit verbringt Peter gerne Zeit im Freien beim Camping, Angeln
+  und Reiten. 
+image: /uploads/merritt-8.jpg
+display_number: 12
 lang: de
 _comments:
   image: file should be ~600px wide
