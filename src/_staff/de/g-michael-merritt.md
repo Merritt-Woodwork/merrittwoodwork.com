@@ -30,7 +30,7 @@ details: >
   Beratung und Motivierung des Teams sowie Sicherheit und Zukunftschancen für
   Mitarbeiter, Anbieter, Berater und Partner.
 image: /uploads/staff-1.jpg
-display_number: 0
+display_number: 1
 _comments:
   image: file should be ~600px wide
   draft: drafts are saved but not published
