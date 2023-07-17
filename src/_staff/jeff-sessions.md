@@ -17,7 +17,7 @@ details: >-
   Bachelor of Arts, with emphasis in Environmental Design from San Diego State
   University.
 image: /uploads/jsessions.jpg
-display_number: 10
+display_number: 11
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
