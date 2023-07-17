@@ -1,27 +1,25 @@
 ---
-name: Bruce Bartholomew
+name: Maurice Zeini
 draft: false
 title: Projektleiter
 quote: >-
-  Bei Merritt schätze ich die Verantwortung ein Projekt von Anfang bis Ende zu
-  betreuen und abzuschließen.
+  Ich schätze es, für ein über 50 Jahre altes Familienunternehmen zu arbeiten
+  und bin stolz darauf, die Kunstfertigkeit und die Einrichtungslösungen von
+  Merritt zu fördern. Die Möglichkeit, mit einem Team von talentierten
+  Handwerkern zusammenzuarbeiten, motiviert und inspiriert mich jeden Tag.
 details: >-
-  Um stets außergewöhnliche Ergebnisse zu liefern, arbeitet Bruce Barthlomew als
-  Projektleiter mit seinen Teams daran, die Projekte zu verwalten, zu leiten und
-  zu überwachen. Er sorgt dafür, dass Fristen eingehalten und alle Projektziele
-  von Beginn bis Ende übertroffen werden. Bruce hatte schon immer eine
-  Leidenschaft und ein Interesse für die holzverarbeitende Industrie. Bevor er
-  zu Merritt kam, war er 8 Jahre lang Leiter der Produktions- und
-  Planungsabteilung bei Rimi Woodcraft sowie 29 Jahre lang Vizepräsident der
-  Produktionsabteilung bei Mielach Woodwork. Bruce trat 2018 als Senior Project
-  Manager in die Merritt-Familie ein und bringt seitdem sein umfangreiches
-  Wissen und seine langjährige Erfahrung in der Holzbearbeitung mit ein. Im Jahr
-  2022 wurde Bruce zum Project Principal befördert. Sein Engagement und seine
-  Zielstrebigkeit inspirieren alle bei Merritt. Neben seiner Leidenschaft für
-  Holz hat Bruce auch ein großes Interesse an Oldtimern. Zudem verbringt er
-  gerne Zeit mit seiner Familie und genießt die Sonne am Strand.
-image: /uploads/merritt-20.jpg
-display_number: 9
+  Als einer der Projektleiter von Merritt verwaltet und leitet Maurice Zeini
+  Projekte und Projektteams, um hochwertige Ergebnisse innerhalb der Deadline zu
+  erzielen. Obwohl Maurice erst vor kurzem zum Merritt-Team gestoßen ist, bringt
+  er einen starken Hintergrund und wertvolle Erfahrung in den Bereichen Yachten,
+  Gastgewerbe und Wohninterieur mit. Bevor Maurice zu Merritt kam, war er
+  Schreinermeister, Produktionsleiter und Betriebsleiter.  Da Maurice Wert
+  darauf legt ein Teamplayer zu sein, genießt er den Merritt Teamgeist und ist
+  stolz auf die Kundenbeziehungen und Leistungen des Unternehmens.  In seiner
+  Freizeit ist er gerne mit seinen drei Töchtern zusammen, kocht, spielt oder
+  schaut Sportarten wie Tischtennis, Squash, Billard und Boxen.
+image: /uploads/maurice-zeini.jpg
+display_number: 11
 lang: de
 _comments:
   image: file should be ~600px wide
