@@ -3,21 +3,20 @@ name: Albert Peetoom
 draft: false
 title: Project Principal
 quote: >-
-  At Merritt I have been able to bring my experience as a professional yacht
-  builder to bear on both Merritt’s heritage of residential work, as well as its
-  super yacht category. Finding new challenges in both continually drives me and
-  my team to new levels of success.
+  Bei Merritt kann ich meine Erfahrung als professioneller Yachtbauer in den
+  Bereichen Wohninnenausbau und Superyachten einbringen. Die Suche nach neuen
+  Herausforderungen treibt mich und mein Team ständig zu neuen Erfolgen an. 
 details: >-
-  Albert Peetoom has been a project principal with Merritt’s residential and
-  super yacht divisions since 2013. He brings more than 20 years of experience
-  as a professional yacht builder specializing in leading interior fit-out. His
-  team leadership includes oversight of residential and yacht projects from
-  start to finish including all aspects of engineering, budgets, communication
-  and procurement. His deep experience in the yachting industry, particularly
-  interior outfitting, informs his work at Merritt every day, both residential
-  and nautical. Delivering extraordinary results to Merritt clients continually
-  drives Albert and his team to excellence. Albert lives in Savannah, Georgia
-  and is a member of the Historic Savannah Foundation.
+  Albert Peetoom ist seit 2013 Projektleiter in den Abteilungen der Superyachten
+  und des Wohninnenausbaus. Er verfügt über mehr als 20 Jahre Erfahrung als
+  professioneller Yachtbauer spezialisiert auf den Innenausbau. Seine Aufgabe
+  als Teamleitung umfasst die Projektabwicklung während des gesamten Zeitraums
+  einschließlich aller Aspekte über Konstruktion, Budgets, Kommunikation und
+  Beschaffung. Seine umfassende Berufserfahrung bringt Albert tagtäglich in
+  seine Arbeit mit ein. Das erreichen außergewöhnlicher Ergebnisse für Merritt´s
+  Kunden treibt Albert und sein Team kontinuierlich zu Höchstleistungen an. 
+  Albert lebt in Savannah, Georgia und ist Mitglied der Historic Savannah
+  Foundation.
 image: /uploads/abp.jpg
 display_number: 12
 lang: de
@@ -26,4 +25,3 @@ _comments:
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 ---
-
