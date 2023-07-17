@@ -18,7 +18,7 @@ details: >-
   football.
 image: /uploads/dlg.jpg
 display_number: 4
-lang:
+lang: en
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
