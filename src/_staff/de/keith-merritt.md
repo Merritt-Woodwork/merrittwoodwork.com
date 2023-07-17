@@ -1,7 +1,7 @@
 ---
 name: KEITH MERRITT
 draft: false
-title: CHIEF OPERATING OFFICER
+title: Leiter des operativen Geschäfts
 quote: >-
   Mein Team hat das Glück, jeden Tag Träume verwirklichen zu können. Die
   Herausforderungen, denen wir dabei begegnen, motivieren uns Grenzen zu
@@ -30,4 +30,3 @@ _comments:
   draft: drafts are saved but not published
 lang: de
 ---
-
