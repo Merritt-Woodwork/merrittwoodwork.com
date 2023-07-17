@@ -20,7 +20,7 @@ details: >-
   a passion and interest in vintage cars. He loves spending time with his family
   and getting some sunshine at the beach.
 image: /uploads/merritt-20.jpg
-display_number: 9
+display_number: 10
 lang: en
 _comments:
   image: file should be ~600px wide
