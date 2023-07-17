@@ -1,6 +1,6 @@
 ---
 name: Jennifer Berry
-draft: true
+draft: false
 title: SENIOR HUMAN RESOURCES MANAGER
 quote: >-
   It's inspiring to work with so much creativity and talent at Merritt. I am
