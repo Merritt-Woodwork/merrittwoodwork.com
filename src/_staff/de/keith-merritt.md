@@ -23,7 +23,7 @@ details: >
   schafft das Unternehmen exquisite und imposante Schreinerarbeiten im
   Innenausbau.
 image: /uploads/staff-2.jpg
-display_number: 1
+display_number: 2
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
