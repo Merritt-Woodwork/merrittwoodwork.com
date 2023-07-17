@@ -27,7 +27,7 @@ details: >-
   and hopes to pass on the same values to his sons that the sport has endowed on
   him. 
 image: /uploads/merritt-14.jpg
-display_number: 10
+display_number: 12
 lang: en
 _comments:
   image: file should be ~600px wide
