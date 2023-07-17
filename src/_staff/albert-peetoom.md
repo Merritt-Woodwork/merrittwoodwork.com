@@ -9,7 +9,7 @@ quote: >-
   my team to new levels of success. 
 details: ' Albert Peetoom has been a project principal with Merritt’s residential and super yacht divisions since 2013. He brings more than 20 years of experience as a professional yacht builder specializing in leading interior fit-out. His team leadership includes oversight of residential and yacht projects from start to finish including all aspects of engineering, budgets, communication and procurement. His deep experience in the yachting industry, particularly interior outfitting, informs his work at Merritt every day, both residential and nautical. Delivering extraordinary results to Merritt clients continually drives Albert and his team to excellence.  Albert lives in Savannah, Georgia and is a member of the Historic Savannah Foundation.'
 image: /uploads/abp.jpg
-display_number: 8
+display_number: 9
 lang: en
 _comments:
   image: file should be ~600px wide
