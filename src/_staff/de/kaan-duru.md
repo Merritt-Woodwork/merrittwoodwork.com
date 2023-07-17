@@ -1,7 +1,7 @@
 ---
 name: Kaan Duru
 draft: false
-title: Projektleiter
+title: Project Principal (Projektleiter)
 quote: >-
   Merritt ist grenzenlos. Sie lassen dich der Beste sein. Egal, ob es darum
   geht, die besten Holzarbeiten für Ihr Haus zu schaffen oder in Ihrer Karriere
