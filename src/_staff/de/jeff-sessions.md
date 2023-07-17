@@ -1,7 +1,7 @@
 ---
 name: jeff sessions, AIA
 draft: false
-title: PROJEKTLEITER
+title: Project Principal (Projektleiter)
 quote: >-
   Ich bin stolz auf meine Chance, in einem Unternehmen zu arbeiten, das höchsten
   Wert auf Handwerkskunst, Qualität und Kundenzufriedenheit legt.
