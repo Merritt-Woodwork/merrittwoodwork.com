@@ -1,7 +1,7 @@
 ---
 name: G. Michael Merritt
 draft: false
-title: VORSITZENDER UND GESCHÄFTSFÜHRER
+title: GESCHÄFTSFÜHRER
 quote: >-
   Wir geben uns niemals mit dem Status quo zufrieden und schaffen durch
   Innovationen stets Lösungen für bekannte Herausforderungen. Bei der Suche nach
@@ -37,4 +37,3 @@ _comments:
   lang: '''en'' for english, ''de'' for german (lowercase)'
 lang: de
 ---
-
