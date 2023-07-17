@@ -1,7 +1,7 @@
 ---
 name: Albert Peetoom
 draft: false
-title: Project Principal
+title: Projektleiter
 quote: >-
   Bei Merritt kann ich meine Erfahrung als professioneller Yachtbauer in den
   Bereichen Wohninnenausbau und Superyachten einbringen. Die Suche nach neuen
