@@ -20,7 +20,7 @@ details: >-
   4 years. Outside of work, Peter loves spending time outdoors while camping,
   fishing and horseback riding.
 image: /uploads/merritt-8.jpg
-display_number: 12
+display_number: 14
 lang: en
 _comments:
   image: file should be ~600px wide
