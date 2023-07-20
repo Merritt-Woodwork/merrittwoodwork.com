@@ -1,6 +1,6 @@
 ---
 name: Peter Staedler
-draft: false
+draft: true
 title: Project Principal
 quote: >-
   I enjoy working side by side with the best in the business to deliver the
