@@ -18,7 +18,7 @@ details: >-
   Arbeit kann man sie beim Anfeuern der Philadelphia Eagles oder beim Spielen
   mit ihren drei Dalmatinern Scout, Hunter und Tracker antreffen. Zudem reist
   Jennifer gerne, mag Strandtage und probiert neue Restaurants aus.
-image: /uploads/in-process.png
+image: /uploads/jennifer-berry-bw.jpg
 display_number: 4
 lang: de
 _comments:
