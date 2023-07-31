@@ -1,5 +1,5 @@
 ---
-name: Peter Staedler
+name: NO - Peter Staedler
 draft: true
 title: Projektleiter
 quote: >-
