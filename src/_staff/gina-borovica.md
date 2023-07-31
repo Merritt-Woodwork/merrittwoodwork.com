@@ -1,6 +1,6 @@
 ---
 name: Gina Borovica
-draft: false
+draft: true
 title: Director of Sales and Marketing
 quote: >-
   I value working for a 50+ year old family owned company and take pride in
