@@ -1,5 +1,5 @@
 ---
-role: Master Cabinet Maker
+role: Master Cabinetmaker
 job-location: california
 job-type: full time
 contract: Permanent
