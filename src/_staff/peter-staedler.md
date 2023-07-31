@@ -1,5 +1,5 @@
 ---
-name: Peter Staedler
+name: 1 Peter Staedler
 draft: false
 title: Project Principal
 quote: >-
