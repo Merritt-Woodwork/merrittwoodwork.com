@@ -1,6 +1,6 @@
 ---
 name: Peter Staedler
-draft: false
+draft: true
 title: Projektleiter
 quote: >-
   Es macht mir Spaß, Seite an Seite mit den Besten der Branche zu arbeiten, um
