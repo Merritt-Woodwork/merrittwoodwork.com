@@ -23,7 +23,7 @@ details: >-
   proud mother of her daughter Allison.
 image: /uploads/gab.jpg
 display_number: 3
-lang:
+lang: en
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
