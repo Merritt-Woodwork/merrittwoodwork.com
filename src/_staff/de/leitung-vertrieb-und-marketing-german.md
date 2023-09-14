@@ -1,7 +1,7 @@
 ---
 name: Gina Borovica
 draft: false
-title: Leitung Vertrieb und Marketing
+title: 'Leitung Vertrieb '
 quote: >-
   In einem familiengeführten Unternehmen zu arbeiten, welches seit über 50
   Jahren besteht weis ich sehr zu schätzen und bin stolz darauf, für die
