@@ -1,6 +1,6 @@
 ---
 name: Gina Borovica
-draft: false
+draft: true
 title: Leitung Vertrieb
 quote: >-
   In einem familiengeführten Unternehmen zu arbeiten, welches seit über 50
