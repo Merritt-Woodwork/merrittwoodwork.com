@@ -2,7 +2,9 @@
 name: Jochen Schröcker
 draft: false
 title: PROJEKTLEITER UND GESCHÄFTSFÜHRER
-quote: 'Höchstes Niveau ist mein beruflicher Antrieb – bei Material, Kollegen und Kunden.'
+quote: >-
+  Höchstes Niveau ist mein beruflicher Antrieb – bei Material, Kollegen und
+  Kunden.
 details: >-
   Jochen Schröcker leitet seit 2015 die deutsche Niederlassung von Merritt mit
   ihren hochqualifizierten Handwerkern. Er koordiniert die Arbeiten und
@@ -32,15 +34,14 @@ details: >-
 
   Vor seiner Tätigkeit bei Merritt war Jochen Schröcker Projektmanager und
   Geschäftsführer beim renommierten deutsch-österreichischen Unternehmen Sinnex
-  Steinheimer Innenausbau. Deutschland ist weltweit bekannt für präzises Handwerk
-  und Liebe zum Detail. Jochen Schröcker steht für diese Werte und fordert sie
-  jeden Tag von sich und seinem Team bei Merritt aufs Neue ein.
+  Steinheimer Innenausbau. Deutschland ist weltweit bekannt für präzises
+  Handwerk und Liebe zum Detail. Jochen Schröcker steht für diese Werte und
+  fordert sie jeden Tag von sich und seinem Team bei Merritt aufs Neue ein.
 image: /uploads/staff-7.jpg
-display_number: 6
+display_number: 8
 _comments:
   image: file should be ~600px wide
-  lang: "'en' for english, 'de' for german (lowercase)"
+  lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
 lang: de
 ---
-
