@@ -1,6 +1,6 @@
 ---
 name: Dan Genest
-draft: true
+draft: false
 title: General Manager, SCI-Merritt
 quote: >-
   Bei Merritt genieße ich die Herausforderungen die mein Job mit sich bringt.
