@@ -26,9 +26,9 @@ details: >-
   Familie ist ihr sehr wichtig, und sie ist stolze Mutter ihrer Tochter Allison.
 image: /uploads/gina-borovica-finaljpg-600.jpg
 display_number: 3
-lang: de
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
   draft: drafts are saved but not published
+lang: de
 ---
