@@ -1,6 +1,6 @@
 ---
 name: Jennifer Berry
-draft: true
+draft: false
 title: Abteilungsleitung der Personalabteilung
 quote: >-
   Es ist inspirierend, mit so viel Kreativität und Talent bei Merritt zu
