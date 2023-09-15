@@ -20,7 +20,7 @@ details: >-
   Sportarten wie Tischtennis, Squash, Billard und Boxen.
 image: /uploads/maurice-zeini.jpg
 display_number: 13
-lang: en
+lang: de
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
