@@ -1,7 +1,7 @@
 ---
 name: Peter Staedler
 draft: false
-title: PeterS
+title: PROJECT PRINCIPAL (PROJEKTLEITER)
 quote: >-
   Es macht mir Spaß, Seite an Seite mit den Besten der Branche zu arbeiten, um
   unseren Kunden qualitativ hochwertige Holzarbeiten zu liefern.
