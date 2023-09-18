@@ -174,14 +174,14 @@ lang: de
                                       {% endcomment %}
           <div>
             <a class="photo" data-remodal-target="{{person.name | slugify}}">
-              <img src="{{person.image}}" alt="">
-              <!-- <img
+              {% comment %}<img src="{{person.image}}" alt="">{% endcomment }%}
+              <img
                  ix-path="{{person.image}}"
                  ix-params='{
                    "auto": "compress"
                  }'
                  sizes="(max-width: 799px) 50vw, (max-width: 991px) 30vw, (min-width: 992px) 214px, (min-width: 1200px) 261px, (min-width: 1440px) 315px, 90vw"
-               > -->
+               >
             </a>
             <div class="name">
               <h3 class="header-text-condensed staff-name">{{person.name}}</h3>
