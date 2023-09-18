@@ -1,7 +1,7 @@
 ---
 name: Dan Genest
 draft: false
-title: General Manager, SCI-Merritt
+title: GESCHÄFTSFÜHRER, SCI-Merritt
 quote: >-
   Bei Merritt genieße ich die Herausforderungen die mein Job mit sich bringt.
   Eine Gruppe fleißiger Männer und Frauen zu leiten und das Team zu führen, um
