@@ -60,6 +60,9 @@
       padding-bottom: 100px;
     }
   }
+  #gnewtonGeneric {
+    display: none;
+  }
 }
 
 section.job-application {
@@ -177,9 +180,5 @@ section.job-application {
     }
     @include breakpoint(lg) {
     }
-  }
-  
-  #gnewtonGeneric {
-    display: none;
   }
 }
