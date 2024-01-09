@@ -30,7 +30,7 @@
     var css = '<style type="text/css">' +
               '#gnewtonGeneric{display:none}; ' +
               '</style>';
-    $(head).append(css);
+    head.append(css);
   });
 
 
