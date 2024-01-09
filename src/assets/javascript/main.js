@@ -23,6 +23,16 @@
       $(html).removeClass('load').addClass('loaded');
      }, 250);
   });
+  
+  // hide jobs banner content
+  $(document).ready(function() {
+    var head = $("#iframe").contents().find("head");
+    var css = '<style type="text/css">' +
+              '#gnewtonGeneric{display:none}; ' +
+              '</style>';
+    $(head).append(css);
+  });
+
 
   // touch links
   $('.overlay').bind('touchstart', function() {});
