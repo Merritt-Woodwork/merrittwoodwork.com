@@ -178,4 +178,8 @@ section.job-application {
     @include breakpoint(lg) {
     }
   }
+  
+  #gnewtonGeneric {
+    display: none;
+  }
 }
