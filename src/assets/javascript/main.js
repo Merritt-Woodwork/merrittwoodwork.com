@@ -26,8 +26,8 @@
   
   // hide jobs banner content
   $(document).ready(function() {
-    var head = $("#iframe").contents().find("head");
-    var css = '<style type="text/css">' +
+    var head = $("#gnewtonIframe").contents().find("head");
+    var css = '<style type="text/css"> ' +
               '#gnewtonGeneric{display:none}; ' +
               '</style>';
     head.append(css);
