@@ -1,8 +1,9 @@
 .press {
 
   .press-title {
-    margin: 1rem 0 0;
     font-size: 18px;
+    margin: 0.5rem 0 0.8rem;
+    text-align: center;
     text-transform: uppercase;
   }
 
@@ -222,7 +223,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
       }
 
       img {
