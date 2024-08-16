@@ -19,7 +19,7 @@ details: >-
   the craft inspire all of us at Merritt. Aside from woodworking, Bruce also has
   a passion and interest in vintage cars. He loves spending time with his family
   and getting some sunshine at the beach.
-image: /uploads/merritt-20.jpg
+image: /uploads/bruce.jpg
 display_number: 10
 lang: en
 _comments:
