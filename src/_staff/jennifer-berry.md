@@ -17,6 +17,7 @@ details: >-
   playing with her three dalmations, Scout, Hunter, and Tracker. Jennifer also
   enjoys traveling, visiting the beach, and trying out new restaurants. 
 image: https://big-mink.cloudvent.net/uploads/jb.jpg
+display_number: 4
 lang: en
 _comments:
   image: file should be ~600px wide
