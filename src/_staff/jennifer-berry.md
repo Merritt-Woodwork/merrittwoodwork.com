@@ -16,7 +16,7 @@ details: >-
   Outside of work, you can find her cheering on the Philadelphia Eagles or
   playing with her three dalmations, Scout, Hunter, and Tracker. Jennifer also
   enjoys traveling, visiting the beach, and trying out new restaurants. 
-image: /uploads/jb-correct-size.jpg
+image: /uploads/jennifer-berry-bw-1.jpg
 display_number: 4
 lang: en
 _comments:
