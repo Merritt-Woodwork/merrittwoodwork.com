@@ -1,5 +1,5 @@
 order,name,address_1,address_2,city,state,zip,telephone,image,link
 1,ohio,corporate office,7198 Industrial Park Blvd.,Mentor,OH,44060,+1 440 942 0205,/uploads/mentor.png,https://www.google.com/maps/place/7198+Industrial+Park+Blvd+Mentor+OH+44060/
-2,california,709 N Sacramento Street,,Lodi,CA,95240,+1 209 334 6674,/uploads/lodi.png,https://www.google.com/maps/place/709+N+Sacramento+St+Lodi+CA+95240/
-3,germany,Amsterdamstraße 6A,Schweinfurt,Germany,0,97426,+49 9721 29570 10,/uploads/germany.png,https://www.google.com/maps/place/Amsterdamstra%C3%9Fe+6a+97424+Schweinfurt+Germany/
+2,california,709 N Sacramento Street,,Lodi,CA,95240,,/uploads/lodi.png,https://www.google.com/maps/place/709+N+Sacramento+St+Lodi+CA+95240/
+3,germany,Amsterdamstraße 6A,Schweinfurt,Germany,0,97426,,/uploads/germany.png,https://www.google.com/maps/place/Amsterdamstra%C3%9Fe+6a+97424+Schweinfurt+Germany/
 4,agrell architectural carving,,San Rafael,CA,94901,,"  +44 0 1233 500252",/uploads/agrell-architectural-carving-1.png,
