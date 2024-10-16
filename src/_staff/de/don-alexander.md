@@ -1,6 +1,6 @@
 ---
 name: Don Alexander
-draft: true
+draft: false
 title: Betriebsleiter, Merritt West
 quote: >-
   Wir arbeiten an einigen der monumentalsten Projekte des Landes. Die
