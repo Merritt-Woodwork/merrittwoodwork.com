@@ -19,7 +19,7 @@ details: >-
   Don sits on the Advisory Board for the University of Akron’s Interior School
   of Design and is also a guest lecturer for the school’s Design and Project
   Management courses.
-image:
+image: /uploads/merritt-alexander-don.jpg
 display_number: 6
 lang: en
 _comments:
