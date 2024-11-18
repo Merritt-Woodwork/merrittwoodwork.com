@@ -3,9 +3,9 @@ name: DON ALEXANDER
 draft: false
 title: General Manager, Production Operations
 quote: >-
-  “We work on some of the most monumental projects in the country. Collaborating
+  We work on some of the most monumental projects in the country. Collaborating
   with our industry’s top professionals, including our own Merritt team, is
-  deeply rewarding.”
+  deeply rewarding.
 details: >-
   A veteran of Merritt since 2007, Don Alexander brings a passion for design and
   architecture to work every day. Prior to joining Merritt, Don owned and
