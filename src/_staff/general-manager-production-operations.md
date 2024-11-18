@@ -1,6 +1,6 @@
 ---
 name: DON ALEXANDER
-draft: true
+draft: false
 title: General Manager, Production Operations
 quote: >-
   We work on some of the most monumental projects in the country. Collaborating
