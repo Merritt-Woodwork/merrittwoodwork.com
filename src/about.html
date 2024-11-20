@@ -88,24 +88,26 @@ lang: en
     <div class="grid-column">
 
         <div class="left">
-         <img
+          <img src="{{page.image_pair_a.left_image}}" alt="{{page.image_pair_a.left_image_caption}}">
+         <!-- <img
             ix-path="{{page.image_pair_a.left_image}}"
             ix-params='{
               "auto": "compress"
             }'
             sizes="(min-width: 768px) 40vw, 90vw"
-          >
+          > -->
           {% if page.image_pair_a.left_image_caption %}<p class="header-text">{{page.image_pair_a.left_image_caption}}</p>{% endif %}
         </div>
 
         <div class="right">
-          <img
+          <img src="{{page.image_pair_a.right_image}}" alt="{{page.image_pair_a.right_image_caption}}">
+          <!-- <img
             ix-path="{{page.image_pair_a.right_image}}"
             ix-params='{
               "auto": "compress"
             }'
             sizes="(min-width: 768px) 40vw, 90vw"
-          >
+          > -->
           {% if page.image_pair_a.right_image_caption %}<p class="header-text">{{page.image_pair_a.right_image_caption}}</p>{% endif %}
         </div>
 
