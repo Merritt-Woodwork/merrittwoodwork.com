@@ -3,22 +3,23 @@ name: DON ALEXANDER
 draft: true
 title: General Manager, Production Operations
 quote: >-
-  We work on some of the most monumental projects in the country. Collaborating
-  with our industry’s top professionals, including our own Merritt team, is
-  deeply rewarding.
+  Wir arbeiten an einigen der monumentalsten Projekte des Landes. Die
+  Zusammenarbeit mit den besten Fachleuten unserer Branche, einschließlich
+  unseres eigenen Merritt-Teams, ist äußerst bereichernd.
 details: >-
-  A veteran of Merritt since 2007, Don Alexander brings a passion for design and
-  architecture to work every day. Prior to joining Merritt, Don owned and
-  operated Falls Lumber and Millwork, a high-end architectural millwork firm.
-  His personal knowledge of both the craft and business side of woodworking make
-  him an ideal ally for both his clients and Merritt. Don oversees an
-  exceptional team of project managers, project engineers, field installation
-  managers and project coordinating staff. Together they provide comprehensive
-  project direction and solutions for Merritt’s clients who include the most
-  discerning general contractors, architects, designers and homeowners anywhere.
-  Don sits on the Advisory Board for the University of Akron’s Interior School
-  of Design and is also a guest lecturer for the school’s Design and Project
-  Management courses.
+  Don Alexander, der seit 2007 bei Merritt arbeitet, bringt jeden Tag seine
+  Leidenschaft für Design und Architektur in seine Arbeit ein. Bevor er zu
+  Merritt kam, war er Eigentümer und Betreiber von Falls Lumber and Millwork,
+  einem Unternehmen für hochwertige architektonische Holzarbeiten. Sein
+  persönliches Wissen der handwerklichen als auch der geschäftlichen Seite der
+  Holzverarbeitung machen ihn zu einem idealen Verbündeten sowohl für seine
+  Kunden als auch für Merritt.   Don leitet ein außergewöhnliches Team von
+  Projektmanagern, Projektingenieuren, Montageleitern vor Ort und
+  Projektkoordinatoren. Gemeinsam sorgen sie für eine umfassende Projektleitung
+  und Lösungen für die Kunden von Merritt, zu denen die anspruchsvollsten
+  Generalunternehmer, Architekten, Designer und Hauseigentümer gehören.  Don
+  sitzt im Beirat der University of Akron's Interior School of Design und ist
+  außerdem dort Gastdozent für die Design- und Projektmanagementkurse.
 image: /uploads/merritt-alexander-don-1.jpg
 display_number: 6
 lang: de
