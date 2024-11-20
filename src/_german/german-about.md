@@ -11,13 +11,13 @@ intro_block:
     Holzarbeiten nur mit den besten Designern, Bauunternehmen und Handwerkern
     zusammen.
 image_pair_a:
-  left_image: /uploads/hamptons-q-dining-room.jpg
+  left_image: /uploads/hamptons-q-dining-room-opt-1.jpg
   left_image_caption:
-  right_image: /uploads/hamptons-q-archway-2.jpg
+  right_image: /uploads/hamptons-q-archway-2-opt-1.jpg
   right_image_caption:
 text_block_a: Für außergewöhnliche Häuser und Superjachten ist nur das Beste gut genug.
 headline_block_a:
-  headline: 'ZEITLOSES HANDWERK, MODERNSTE TECHNOLOGIE'
+  headline: ZEITLOSES HANDWERK, MODERNSTE TECHNOLOGIE
   details: >-
     Merritt revolutioniert den Möbel- und Innenausbau von innen heraus. Als
     familiengeführtes Unternehmen setzt Merritt seit fünfzig Jahren auf starke
@@ -39,7 +39,7 @@ headline_block_b:
     geöffnet.
 image_pair_b:
   left_image: /uploads/george-merritt--web-photo.jpg
-  left_image_caption: 'George A. Merritt, GRÜNDER'
+  left_image_caption: George A. Merritt, GRÜNDER
   right_image: /uploads/in-factory-13.JPG
   right_image_caption: Keith & Michael Merritt
 text_block_b: >-
@@ -56,5 +56,5 @@ _comments:
   next_link: the'next' link
   name: the text of the 'next' link
   link: where the 'next' link takes you
-  title: 'for meta property=''og:title'''
+  title: for meta property='og:title'
 ---
