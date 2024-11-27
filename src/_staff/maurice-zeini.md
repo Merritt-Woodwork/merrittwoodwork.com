@@ -1,7 +1,7 @@
 ---
 name: Maurice Zeini
 draft: false
-title: Project Principal
+title: Engineering Manager
 quote: >-
   While working at Merritt I enjoy the team spirit, take pride in our
   achievements and clientele relationships and value being a team player.
