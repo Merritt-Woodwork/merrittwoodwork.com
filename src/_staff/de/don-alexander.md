@@ -1,7 +1,7 @@
 ---
 name: DON ALEXANDER
 draft: false
-title: General Manager, Production Operations
+title: PRODUKTIONSLEITER*IN
 quote: >-
   Wir arbeiten an einigen der monumentalsten Projekte des Landes. Die
   Zusammenarbeit mit den besten Fachleuten unserer Branche, einschließlich
