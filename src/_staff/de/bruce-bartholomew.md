@@ -1,7 +1,7 @@
 ---
 name: Bruce Bartholomew
 draft: false
-title: PROJECT PRINCIPAL (PROJEKTLEITER)
+title: PROJEKTLEITER
 quote: >-
   Bei Merritt schätze ich die Verantwortung ein Projekt von Anfang bis Ende zu
   betreuen und abzuschließen.
