@@ -49,6 +49,7 @@ lang: de
           {% if link %}
             <a class="grid-item__wrap" target="_blank" href="{{link}}" {% if link == item.press_link %}rel="nofollow noopener"{% endif %}>
               <div class="grid-item__inner">
+                <!-- 
                 <img
                   ix-path="{{item.press_image}}"
                   ix-params='{
@@ -56,6 +57,8 @@ lang: de
                   }'
                   sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
                 >
+                -->
+                <img src="{{item.press_image}}" alt="{{title}}" />
                 <h5 class="header-text-condensed press-title">{{title}}</h5>
                 <span class="header-text press-date">{{ item.press_date | date: "%b %e, %Y" }}</span>
                 <span class="header-text press-link">{{link_title}}</span>
@@ -64,6 +67,7 @@ lang: de
           {% else %}
             <div class="grid-item__wrap">
               <div class="grid-item__inner">
+                <!--
                 <img
                   ix-path="{{item.press_image}}"
                   ix-params='{
@@ -71,6 +75,8 @@ lang: de
                   }'
                   sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
                 >
+                -->
+                <img src="{{item.press_image}}" alt="{{title}}" />
                 <h5 class="header-text-condensed press-title">{{title}}</h5>
                 <span class="header-text press-date">{{ item.press_date | date: "%b %e, %Y" }}</span>
                 <span class="header-text press-link empty"></span>
