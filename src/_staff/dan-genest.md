@@ -1,7 +1,7 @@
 ---
 name: Dan Genest
 draft: false
-title: General Manager, SCI-Merritt
+title: General Manager,  Installation|Field (SCI-Merritt)
 quote: >-
   At Merritt, I enjoy the challenges my job entails. Overseeing a group of
   hardworking men and women and leading the team to provide quality customer
