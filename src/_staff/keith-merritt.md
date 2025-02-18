@@ -14,7 +14,7 @@ details: >-
   oversaw the day-to-day production operations.  Today he provides strategic
   leadership on technical topics, leads the implementation of strategic
   initiatives, provides input to teams on design and "buildability", and serves
-  as master trainer, coach and mentor related to shop|production operations.
+  as master trainer, coach and mentor related to shop/production operations.
   Early on, Keith pledged himself to mastering old-world craftsmanship
   techniques to further Merritt’s foundation in the art of woodwork and joinery.
   This commitment combined with his passion for machinery and tools, positioned
