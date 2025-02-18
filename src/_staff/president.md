@@ -1,6 +1,6 @@
 ---
 name: BRANDON DAVIS
-draft: true
+draft: false
 title: President
 quote: >-
   At Merritt we get to truly dream, make and install beautiful artwork with our
