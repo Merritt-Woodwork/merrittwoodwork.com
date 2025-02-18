@@ -20,7 +20,7 @@ details: >-
   of Design and is also a guest lecturer for the school’s Design and Project
   Management courses.
 image: /uploads/merritt-alexander-don-1.jpg
-display_number: 6
+display_number: 7
 lang: en
 _comments:
   image: file should be ~600px wide

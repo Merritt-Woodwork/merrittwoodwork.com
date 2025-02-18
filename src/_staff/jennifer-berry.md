@@ -17,7 +17,7 @@ details: >-
   playing with her three dalmations, Scout, Hunter, and Tracker. Jennifer also
   enjoys traveling, visiting the beach, and trying out new restaurants. 
 image: /uploads/jennifer-berry-bw.jpg
-display_number: 4
+display_number: 5
 lang: en
 _comments:
   image: file should be ~600px wide
