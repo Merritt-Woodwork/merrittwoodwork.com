@@ -29,7 +29,7 @@ details: >-
   "builder" - more than a builder of physical things made, but a builder of
   people, teams, companies, partnerships, and communities. In his role at
   Merritt, he continues this commitment to being a "builder" - while also being
-  part of making|building some of the finest interiors in the world!
+  part of making/building some of the finest interiors in the world!
 image: /uploads/brandon-davis-1.png
 display_number: 3
 lang: en
