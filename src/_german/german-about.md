@@ -27,16 +27,20 @@ image_block:
 headline_block_b:
   headline: EINE UNTERNEHMENS-GESCHICHTE GEPRÄGT VON KUNSTFERTIGKEIT UND WEITSICHT
   details: >-
-    George A. Merritt war bereits in jungen Jahren in seiner Heimatstadt
-    Cleveland (Ohio) als Kunstschreiner tätig. 1967 gründete er das Unternehmen
-    Merritt Woodwork und bildete dort auch neue Mitarbeiter aus. George A.
-    Merritt hat sich einen Ruf als Perfektionist und Künstler erarbeitet, dank
-    dem er sich mit Kunstschreiner- und Holzbauarbeiten von höchster Qualität in
-    der Region etablieren konnte.Heute führen seine beiden Söhne Michael und
-    Keith Merritt das Unternehmen. Sie setzen weiterhin auf herausragende
-    Handwerkskunst, hochwertige Materialien und aktives Management. Das
-    Unternehmen hat sich unter ihrer Leitung erfolgreich auch neuen Branchen
-    geöffnet.
+    Als junger Mann verfeinerte George A. Merritt in seiner Heimatstadt
+    Cleveland, Ohio, sein Wissen und Können als Tischler und Kunsthandwerker.
+    1967 gründete er Merritt Woodwork und bildete fortan sein eigenes Team von
+    Lehrlingen aus. Durch den wachsenden Ruf für Perfektionismus und
+    Kunstfertigkeit etablierte sich Merritt als führender Anbieter von
+    hochwertigster Schreinerarbeiten und maßgefärtigten Möbeln in der Region.
+    Seine Söhne Michael und Keith führten nicht nur das außergewöhnliche Erbe
+    ihres Vaters fort, welches sich durch die Bereitstellung von
+    außergewöhnlicher Handwerkskunst, das Verwenden von hochwertigen und
+    exklusiven Materialien und ein praxisorientiertes Management auszeichnete,
+    sondern entwickelten das Unternehmen auch in neue, unerwartete Richtungen
+    und erzielten damit herausragende Ergebnisse. Heute steht Merritt weltweit
+    für feinste Handwerkskunst in höchster Qualität und realisiert die
+    exklusivsten maßgeschneiderten Inneneinrichtungen.
 image_pair_b:
   left_image: /uploads/george-merritt--web-photo.jpg
   left_image_caption: George A. Merritt, GRÜNDER
