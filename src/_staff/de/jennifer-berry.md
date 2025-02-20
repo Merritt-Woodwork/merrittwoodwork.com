@@ -19,7 +19,7 @@ details: >-
   mit ihren drei Dalmatinern Scout, Hunter und Tracker antreffen. Zudem reist
   Jennifer gerne, mag Strandtage und probiert neue Restaurants aus.
 image: /uploads/jb-correct-size-1.jpg
-display_number: 4
+display_number: 5
 lang: de
 _comments:
   image: file should be ~600px wide

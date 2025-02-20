@@ -21,7 +21,7 @@ details: >-
   Holz hat Bruce auch ein großes Interesse an Oldtimern. Zudem verbringt er
   gerne Zeit mit seiner Familie und genießt die Sonne am Strand.
 image: /uploads/merritt-20.jpg
-display_number: 10
+display_number: 9
 lang: de
 _comments:
   image: file should be ~600px wide

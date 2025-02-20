@@ -21,7 +21,7 @@ details: >-
   sitzt im Beirat der University of Akron's Interior School of Design und ist
   außerdem dort Gastdozent für die Design- und Projektmanagementkurse.
 image: /uploads/merritt-alexander-don-1.jpg
-display_number: 6
+display_number: 7
 lang: de
 _comments:
   image: file should be ~600px wide

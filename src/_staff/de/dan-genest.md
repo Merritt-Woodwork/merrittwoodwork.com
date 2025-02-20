@@ -19,7 +19,7 @@ details: >-
   Frau und seinen beiden Töchtern und schaut sich außerdem NASCAR-Rennen und
   American Football an.
 image: /uploads/dlg.jpg
-display_number: 5
+display_number: 6
 lang: de
 _comments:
   image: file should be ~600px wide

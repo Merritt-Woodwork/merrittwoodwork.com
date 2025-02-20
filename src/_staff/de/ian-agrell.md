@@ -43,7 +43,7 @@ details: >-
   und den Erhalt dieser Handwerkskunst. Vor 30 Jahren gründete er die School of
   Classical Woodcarving, wo er jedes Jahr auch selbst unterrichtet.
 image: /uploads/Ian Agrell.jpg
-display_number: 7
+display_number: 8
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'

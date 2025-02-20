@@ -25,7 +25,7 @@ details: >-
   ihrer Freizeit verbringt Gina gerne Zeit in der Natur und auf dem Wasser. Die
   Familie ist ihr sehr wichtig, und sie ist stolze Mutter ihrer Tochter Allison.
 image: /uploads/gina-borovica-finaljpg-600.jpg
-display_number: 3
+display_number: 4
 _comments:
   image: file should be ~600px wide
   lang: '''en'' for english, ''de'' for german (lowercase)'
