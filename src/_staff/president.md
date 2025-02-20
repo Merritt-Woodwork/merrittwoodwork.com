@@ -1,5 +1,5 @@
 ---
-name: BRANDON DAVIS
+name: Brandon Davis
 draft: false
 title: President
 quote: >-
