@@ -1,27 +1,31 @@
 ---
 name: KEITH MERRITT
 draft: false
-title: Leiter des operativen Geschäfts
+title: STELLVERTRETENDER VORSITZENDER & HANDWERKSMEISTER
 quote: >-
   Mein Team hat das Glück, jeden Tag Träume verwirklichen zu können. Die
   Herausforderungen, denen wir dabei begegnen, motivieren uns Grenzen zu
   überwinden.
-details: >
-  Keith Merritt, der jüngere Sohn des Unternehmensgründers George A. Merritt,
-  ist bereits seit langer Zeit im Unternehmen tätig. Wie sein Bruder Michael war
-  auch Keith Merritt in fast jeder Position tätig. Er betreut nun verschiedene
-  Bereiche von Produktion, Fertigung und Logistik bis hin zu Anlagen-, Technik-
-  und Projektmanagement. Neben seiner Position als Executive Vice President und
-  Treasurer leitet er heute auch das Tagesgeschäft.
-
-
-  Keith Merritt ist bestens mit den traditionellen Techniken des Handwerks
-  vertraut und stärkt dadurch das Fundament des Unternehmens in der Kunst der
-  Holzbearbeitung und Schreinerei. Gemeinsam mit seinem Team sucht er weltweit
-  nach den besten Materialien und technologischen Neuerungen. Mit der
-  fortschrittlichsten Ausrüstung und den kreativsten Mitarbeitern der Branche
-  schafft das Unternehmen exquisite und imposante Schreinerarbeiten im
-  Innenausbau.
+details: >-
+  Keith Merritt, der jüngere Sohn von Firmengründer George A. Merritt, blickt
+  auf eine lange Geschichte innerhalb des Unternehmens zurück. Wie sein Bruder
+  Michael durchlief auch Keith nahezu alle Unternehmensbereiche. Dazu gehörten
+  unter anderem, die Herstellung von luxuriösen Inneneinrichtungen, die
+  Logistik, das technische Management, sowie die Leitung der Abwicklung von
+  Projekten mit höchsten Ansprüchen. Viele Jahre lang war er direkt für die
+  täglichen Produktionsabläufe verantwortlich. Heute übernimmt Keith die
+  strategische Führung bei technischen Themen. Er leitet die Umsetzung wichtiger
+  Initiativen, berät Teams bei Design- und Fertigungsfragen und ist als
+  Master-Trainer, Coach und Mentor für die Produktionsbereiche tätig. Frühzeitig
+  setzte er sich das Ziel, traditionelle Handwerkstechniken, wie sie weltweit
+  eingesetzt wurden, zu perfektionieren, um das Fundament von Merritt in der
+  Kunst der Holzbearbeitung und der Tischlerei immer weiter zu stärken zu
+  stärken. Diese Hingabe und sein Engagement, gepaart mit seiner Leidenschaft
+  für Maschinen und Werkzeuge, prädestinierte ihn für seine heutige
+  Schlüsselrolle. Gemeinsam mit dem Merritt-Team forscht er kontinuierlich nach
+  den weltweit besten Materialien und neuesten Technologien. In Verbindung mit
+  modernster Ausstattung und kreativen Fachkräften entstehen so herausragende,
+  monumentale Innenausbauten von höchster Qualität.
 image: /uploads/staff-2.jpg
 display_number: 2
 _comments:

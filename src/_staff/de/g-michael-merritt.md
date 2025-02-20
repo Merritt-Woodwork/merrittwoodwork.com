@@ -1,34 +1,31 @@
 ---
 name: G. Michael Merritt
 draft: false
-title: GESCHÄFTSFÜHRER
+title: VORSITZENDER & VISIONÄR
 quote: >-
   Wir geben uns niemals mit dem Status quo zufrieden und schaffen durch
   Innovationen stets Lösungen für bekannte Herausforderungen. Bei der Suche nach
   Perfektion gehen wir auch ungewöhnliche Wege.
-details: >
-  G. Michael Merritt möchte das von seinem Vater George A. Merritt im Jahr 1967
-  gegründete Unternehmen zum besten, fortschrittlichsten und gefragtesten
-  Anbieter für den anspruchsvollen Innenausbauen mit Holz sowie
-  Schreinerarbeiten der Spitzenklasse für Wohnanlagen und Superyachten
-  entwickeln. Seine strategische Führung und das kooperative Führungsteam haben
-  Merritt zu einem internationalen Marktführer für luxuriöse Innenausstattungen
-  gemacht.
-
-
-  Michael Merritt war im Laufe seiner Karriere in sämtlichen
-  Unternehmensbereichen – von der Kunstschreinerei bis hin zur Betriebsleitung –
-  und in fast jeder Schlüsselposition im Unternehmen tätig. Heute berät Michael
-  Merritt die verschiedenen Teams, Abteilungen und Bereiche von Merritt in
-  strategischen und praktischen Fragen, insbesondere kümmert er sich um
-  Personal, Teamergebnisse, Mentoring und den kontrollierten Ausbau des
-  Unternehmens.
-
-
-  Michael Merritt hat klare Ziele für die gegenwärtige und zukünftige
-  Entwicklung des Unternehmens: einwandfreie Ergebnisse für alle Kunden,
-  Beratung und Motivierung des Teams sowie Sicherheit und Zukunftschancen für
-  Mitarbeiter, Anbieter, Berater und Partner.
+details: >-
+  G. Michael Merritt verfolgt eine einzigartige Vision für Merritt, das
+  Unternehmen, das sein Vater, George A. Merritt, 1967 gründete: der führende,
+  zukunftsorientierteste und gefragteste Anbieter von hochwertigstem
+  architektonischem Innenausbau, Tischler- und Schreinerarbeiten für exklusivste
+  Wohnresidenzen und Superyachten zu sein. Unter seiner visionären Führung und
+  in Zusammenarbeit mit einem engagierten Führungsteam hat sich Merritt zu einem
+  der weltweit führenden Anbieter für luxuriöse Einrichtungslösungen entwickelt.
+  Aufgewachsen in der Geschäftswelt, hat Michael nahezu jede Funktion und fast
+  jede Schlüsselposition im Tischlerhandwerk, von der Produktion über die
+  Kalkulation bis hin zur Betriebswirtschaft und der komplexen Abwicklung von
+  Projekten mit höchsten Ansprüchen bekleidet und erlernt. Heute leitet Michael
+  das Unternehmen als übergeordnete Führung und als praxisnaher Visionär. Dabei
+  steuert er das kontrollierte Wachstum des Unternehmens und stellt sicher, dass
+  Merritt weiterhin Spitzenqualität liefert. Er unterstützt darüber hinaus
+  sowohl das Merritt-Team als auch die Kunden mit technischem Coaching,
+  fachlicher Beratung und kreativer Projektentwicklung. Michaels Ziele für
+  Merritt sind dabei stets klar: makellose Ergebnisse für die Kunden erzielen,
+  Mitarbeiter fördern und motivieren sowie Sicherheit und Zukunftsperspektiven
+  für das gesamte Netzwerk aus Teammitgliedern, Partnern und Beratern schaffen.
 image: /uploads/staff-1.jpg
 display_number: 1
 _comments:
