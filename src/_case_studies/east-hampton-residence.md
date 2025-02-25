@@ -3,7 +3,7 @@ title: East Hampton Residence
 draft: false
 work-type: traditional
 list_order: 2
-hero_image:
+hero_image: /uploads/hamptons-b-exterior-1.jpg
 portfolio_image: /uploads/portfolio-east-hampton.jpg
 details:
   - heading: architect
