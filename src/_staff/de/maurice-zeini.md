@@ -1,7 +1,7 @@
 ---
 name: Maurice Zeini
 draft: false
-title: Leiter*in der Zeichenabteilung
+title: Leitung der Konstruktionsabteilung
 quote: >-
   Ich schätze es, für ein über 50 Jahre altes Familienunternehmen zu arbeiten
   und bin stolz darauf, die Kunstfertigkeit und die Einrichtungslösungen von

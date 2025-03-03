@@ -1,7 +1,7 @@
 ---
 name: Jennifer Berry
 draft: false
-title: Abteilungsleitung der Personalabteilung
+title: Leitung der Personalabteilung
 quote: >-
   Es ist inspirierend, mit so viel Kreativität und Talent bei Merritt zu
   arbeiten. Ich bin stolz darauf, Teil des Teams zu sein, das die Zukunft von

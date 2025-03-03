@@ -1,7 +1,7 @@
 ---
 name: DON ALEXANDER
 draft: false
-title: PRODUKTIONSLEITER*IN
+title: Generaldirektor, Fertigung
 quote: >-
   Wir arbeiten an einigen der monumentalsten Projekte des Landes. Die
   Zusammenarbeit mit den besten Fachleuten unserer Branche, einschließlich
