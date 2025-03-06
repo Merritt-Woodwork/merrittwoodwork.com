@@ -9,13 +9,17 @@ lang: de
 {% assign lang = site.active_lang %}
   <section class="header-video">
     <div class="wrapper">
-        <img
+        <!-- <img
           class="header-video__media"
           ix-path="{{page.header_image}}"
           ix-params='{
             "auto": "compress"
           }'
           sizes="85vw"
+        > -->
+        <img
+          class="header-video__media"
+          src="{{page.header_image}}"
         >
         <div class="header-video__close-trigger header-text-condensed" id="header-video__close-trigger">halt</div>
         <div class="grid-container">
