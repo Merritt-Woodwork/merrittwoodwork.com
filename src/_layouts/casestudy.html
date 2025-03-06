@@ -52,36 +52,48 @@ layout: default
         {% if block.image_block.image %}
           <div class="grid-item grid-item--width2">
             <img
+              src="{{block.image_block.image}}"
+              alt="{{block.image_block.image.alt-text}}"
+            >
+            <!-- <img
               ix-path="{{block.image_block.image}}"
               ix-params='{
                 "auto": "compress"
               }'
               sizes="(min-width: 992px) 836px, (min-width: 1200px) 1018px, (min-width: 1440px) 1228px, 90vw"
               alt="{{block.image_block.image.alt-text}}"
-            >
+            > -->
           </div>
         {% endif %}
         {% if block.image_pair.right_image %}
           <div class="grid-item">
             <img
+              src="{{block.image_pair.left_image}}"
+              alt="{{block.image_block.left_image.alt-text}}"
+            >
+            <!-- <img
               ix-path="{{block.image_pair.left_image}}"
               ix-params='{
                 "auto": "compress"
               }'
               sizes="(min-width: 992px) 402px, (min-width: 1200px) 489px, (min-width: 1440px) 590px, 45vw"
               alt="{{block.image_block.left_image.alt-text}}"
-            >
+            > -->
           </div>
 
           <div class="grid-item">
             <img
+              src="{{block.image_pair.right_image}}"
+              alt="{{block.image_block.right_image.alt-text}}"
+            >
+            <!-- <img
               ix-path="{{block.image_pair.right_image}}"
               ix-params='{
                 "auto": "compress"
               }'
               sizes="(min-width: 992px) 402px, (min-width: 1200px) 489px, (min-width: 1440px) 590px, 45vw"
               alt="{{block.image_block.right_image.alt-text}}"
-            >
+            > -->
           </div>
         {% endif %}
       {% endfor %}
