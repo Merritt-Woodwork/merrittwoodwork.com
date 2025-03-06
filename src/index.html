@@ -87,7 +87,7 @@ lang: en
       {% assign casestudies = site.case_studies | where:'draft','false' | sort:"list_order" %}
       {% for case in casestudies %}
         <div class="case-study" data-aos="fade-up">
-          <div class="case-study-image">
+          <div class="case-study-image" style="background-image: url({{case.hero_image}});">
             <img
               class="js-img"
               ix-path="{{case.hero_image}}"
