@@ -73,9 +73,10 @@ lang: en
   <div class="grid-container fluid">
       <div class="grid-column">
         <div class="hero-image rellax" data-rellax-speed="-3">
-          <img class="js-img" ix-path="{{page.hero_image}}" ix-params='{
+          <img class="js-img" src="{{page.hero_image}}" />
+          <!-- <img class="js-img" ix-path="{{page.hero_image}}" ix-params='{
               "auto": "compress"
-            }' sizes="(min-width: 1200px) 1166px, (min-width: 1440px) 1440px, 85vw" />
+            }' sizes="(min-width: 1200px) 1166px, (min-width: 1440px) 1440px, 85vw" /> -->
         </div>
       </div>
   </div>
@@ -155,9 +156,10 @@ lang: en
   <div class="grid-container fluid">
     <!-- <div class="grid-collapse"> -->
       <div class="grid-column">
-      <img ix-path="{{page.image_block.image}}" ix-params='{
+      <img src="{{page.image_block.image}}" />
+      <!-- <img ix-path="{{page.image_block.image}}" ix-params='{
             "auto": "compress"
-          }' sizes="(min-width: 1200px) 1018px, (min-width: 1440px) 1228px, 85vw" />
+          }' sizes="(min-width: 1200px) 1018px, (min-width: 1440px) 1228px, 85vw" /> -->
       </div>
     <!-- </div> -->
   </div>
@@ -182,15 +184,14 @@ lang: en
   <div class="grid-container">
     <div class="grid-column">
       <div class="left">
-        <img ix-path="{{page.image_pair_b.left_image}}" ix-params='{
+        <img src="{{page.image_pair_b.left_image}}" />
+        <!-- <img ix-path="{{page.image_pair_b.left_image}}" ix-params='{
              "auto": "compress"
-           }' sizes="(min-width: 768px) 40vw, 90vw" />
+           }' sizes="(min-width: 768px) 40vw, 90vw" /> -->
         {% if page.image_pair_b.left_image_caption %}<p class="header-text">{{page.image_pair_b.left_image_caption}}</p>{% endif %}
         </div>
       <div class="right">
-        <img ix-path="{{page.image_pair_b.right_image}}" ix-params='{
-             "auto": "compress"
-           }' sizes="(min-width: 768px) 40vw, 90vw" />
+        <img src="{{page.image_pair_b.right_image}}" />
         {% if page.image_pair_b.right_image_caption %}<p class="header-text">{{page.image_pair_b.right_image_caption}}</p>{% endif %}
         </div>
     </div>
@@ -222,9 +223,10 @@ lang: en
             <a class="photo" data-remodal-target="{{person.name | slugify}}">
               <img src="{{person.image}}" alt="" />
               {% comment %}
-              <img ix-path="{{person.image}}" ix-params='{
+              <img src="{{person.image}}"  />
+              <!-- <img ix-path="{{person.image}}" ix-params='{
                    "auto": "compress"
-                 }' sizes="(max-width: 799px) 50vw, (max-width: 991px) 30vw, (min-width: 992px) 214px, (min-width: 1200px) 261px, (min-width: 1440px) 315px, 90vw" />
+                 }' sizes="(max-width: 799px) 50vw, (max-width: 991px) 30vw, (min-width: 992px) 214px, (min-width: 1200px) 261px, (min-width: 1440px) 315px, 90vw" /> -->
                {% endcomment %}
             </a>
             <div class="name">
