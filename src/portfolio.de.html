@@ -78,13 +78,15 @@ lang: de
           <div class="grid-item {{item.work-type}}">
             <a data-remodal-target="modal-{{item.image}}">
               <img
+                src="{{item.image}}"
+              >
+              <!-- <img
                 ix-path="{{item.image}}"
                 ix-params='{
                   "auto": "compress"
                 }'
                 sizes="(min-width: 800px) 20vw, 30vw"
-
-              >
+              > -->
             </a>
           </div>
           <div class="remodal" data-remodal-id="modal-{{item.image}}">
