@@ -81,12 +81,15 @@ lang: en
             <div class="grid-item__wrap">
               <div class="grid-item__inner">
                 <img
+                  src="{{item.press_image}}"
+                >
+                <!-- <img
                   ix-path="{{item.press_image}}"
                   ix-params='{
                     "auto": "compress"
                   }'
                   sizes="(max-width: 779px) 50vw, (max-width: 991px) 22vw, (min-width: 992px) 183px, (min-width: 1200px) 224px, (min-width: 1440px) 270px, 45vw"
-                >
+                > -->
                 <h5 class="header-text-condensed press-title">{{title}}</h5>
                 <span class="header-text press-date">{{ item.press_date | date: "%b %e, %Y" }}</span>
                 <span class="header-text press-link empty"></span>
