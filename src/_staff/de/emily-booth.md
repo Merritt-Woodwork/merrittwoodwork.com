@@ -2,10 +2,10 @@
 name: Emily Booth
 draft: false
 title: Projektdirektor
-quote: 
+quote:
 details:
 image: /uploads/ecb.jpg
-display_number: 14
+display_number: 13
 lang: de
 _comments:
   image: file should be ~600px wide
