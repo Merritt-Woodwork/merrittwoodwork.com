@@ -2,10 +2,8 @@
 name: Emily Booth
 draft: false
 title: Project Principal
-quote: >-
-  Quote goes here
-details: >-
-  Details goes here
+quote:
+details:
 image: /uploads/ecb.jpg
 display_number: 14
 lang: en
