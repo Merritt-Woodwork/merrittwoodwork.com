@@ -5,7 +5,7 @@ title: Project Principal
 quote:
 details:
 image: /uploads/ecb.jpg
-display_number: 14
+display_number: 25
 lang: en
 _comments:
   image: file should be ~600px wide
