@@ -9,7 +9,7 @@ quote: >-
   mit einem Team von talentierten Handwerkern zusammenzuarbeiten, motiviert und
   inspiriert mich jeden Tag.
 details: >-
-  Gina Borovica, die seit fast 8 Jahren zum Merritt-Team gehört, ist derzeit
+  Gina Borovica, die seit fast 13 Jahren zum Merritt-Team gehört, ist derzeit
   Merritts Marketingdirektorin. Ihr Hauptaugenmerk liegt darin, die Geschichte
   von Merritt zu erzählen und die Welt über Merritts handgefertigte Holzarbeiten
   und die noch weiteren vielfältigen Fähigkeiten des Unternehmens aufmerksam zu
