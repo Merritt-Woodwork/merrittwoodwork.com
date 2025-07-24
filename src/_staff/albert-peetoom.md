@@ -1,7 +1,7 @@
 ---
 name: Albert Peetoom
 draft: false
-title: Project Principal & Project Controls Manager
+title: Project Controls Manager
 quote: >-
   At Merritt I have been able to bring my experience as a professional yacht
   builder to bear on both Merritt’s heritage of residential work, as well as its
