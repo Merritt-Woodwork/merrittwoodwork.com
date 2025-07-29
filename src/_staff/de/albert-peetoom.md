@@ -1,22 +1,28 @@
 ---
 name: Albert Peetoom
 draft: false
-title: Projekt Direktor & Projektsteuerung
+title: Leiterder Projektüberwachung und -steuerung
 quote: >-
   Bei Merritt kann ich meine Erfahrung als professioneller Yachtbauer in den
   Bereichen Wohninnenausbau und Superyachten einbringen. Die Suche nach neuen
   Herausforderungen treibt mich und mein Team ständig zu neuen Erfolgen an. 
 details: >-
-  Albert Peetoom ist seit 2013 Projektleiter in den Abteilungen der Superyachten
-  und des Wohninnenausbaus. Er verfügt über mehr als 20 Jahre Erfahrung als
-  professioneller Yachtbauer spezialisiert auf den Innenausbau. Seine Aufgabe
-  als Teamleitung umfasst die Projektabwicklung während des gesamten Zeitraums
-  einschließlich aller Aspekte über Konstruktion, Budgets, Kommunikation und
-  Beschaffung. Seine umfassende Berufserfahrung bringt Albert tagtäglich in
-  seine Arbeit mit ein. Das erreichen außergewöhnlicher Ergebnisse für Merritt´s
-  Kunden treibt Albert und sein Team kontinuierlich zu Höchstleistungen an. 
-  Albert lebt in Savannah, Georgia und ist Mitglied der Historic Savannah
-  Foundation.
+  Albert kam 2013 als Project Principal zu Merritt und brachte mehr als 20 Jahre
+  Erfahrung im hochwertigen Innenausbau mit. Zunächst spezialisierte er sich auf
+  maßgefertigte Yachtinterieurs, bevor er seine Expertise auf den exklusiven
+  Innenausbau von Residenzen ausweitete. In beiden Bereichen leitete er
+  erfolgreich komplexe Projekte und führte sein Team mit Fachwissen und
+  Engagement. Mittlerweile übernimmt Albert die Rolle des Project Controls
+  Managers. In dieser Funktion verantwortet er die übergreifende
+  Projektsteuerung und betreut weiterhin ausgewählte, anspruchsvolle
+  Einzelprojekte. Sein tiefes Branchenwissen – insbesondere im Bereich des
+  Yacht- und Residenzausbaus – ist ein zentraler Faktor für die Qualität und den
+  Erfolg der Projekte bei Merritt. Albert steht für innovative Lösungen, höchste
+  Präzision und maßgeschneiderte Kundenorientierung. Gemeinsam mit Merritt
+  verfolgt er konsequent das Ziel, Kundenerwartungen nicht nur zu erfüllen,
+  sondern sie zu übertreffen. Er lebt in Savannah, Georgia, und findet kreative
+  Inspiration beim Spielen der akustischen Gitarre – eine Leidenschaft, die ihm
+  neue Energie für kommende Herausforderungen gibt.
 image: /uploads/abp.jpg
 display_number: 11
 lang: de
