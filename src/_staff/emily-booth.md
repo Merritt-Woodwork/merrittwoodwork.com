@@ -4,7 +4,7 @@ draft: false
 title: Project Principal
 quote: >-
   The level of talent on this team raises the bar. Every project is a reflection
-  of true skill and dedication, and I’m proud to be a part of.
+  of true skill and dedication, and I’m proud to be a part of it.
 details: >-
   Emily Booth leads a multidisciplinary team of project managers, engineers,
   millworkers, and installers in executing luxury millwork projects worldwide.
