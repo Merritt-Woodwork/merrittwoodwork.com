@@ -15,12 +15,13 @@ details: >-
   ensure Merritt’s clients receive bespoke interiors with flawless execution.
   Prior to her career at Merritt, Gina has held various positions as Chief of
   Staff, Director of Marketing, Product Developer and Product Manager for
-  multiple different companies and industries. Working for entrepreneurial
-  start-ups, corporations and family owned businesses, Gina has been exposed to
-  a lot of diversity in her roles and is certainly willing and capable of taking
-  on any challenge to help Merritt grow and succeed. In her free time, Gina
-  loves spending time outdoors and on the water. Family is extremely important
-  to her and she is the proud mother of her daughter Allison.
+  multiple different companies and industries. Gina’s diverse experience across
+  entrepreneurial start-ups, large corporations, and family-owned businesses in
+  various industries has equipped her with the adaptability and insight needed
+  to tackle challenges and drive Merritt’s continued growth and success. In her
+  free time, Gina loves spending time outdoors and on the water. Family is
+  extremely important to her and she is the proud mother of her daughter
+  Allison.
 image: /uploads/gab.jpg
 display_number: 4
 _comments:
