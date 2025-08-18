@@ -15,7 +15,7 @@ details: >-
   ensure Merritt’s clients receive bespoke interiors with flawless execution.
   Prior to her career at Merritt, Gina has held various positions as Chief of
   Staff, Director of Marketing, Product Developer and Product Manager for
-  multiple different companies and industries. Gina’s experience across
+  multiple different companies and industries. Gina’s diverse experience across
   entrepreneurial start-ups, large corporations, and family-owned businesses in
   various industries has equipped her with the adaptability and insight needed
   to tackle challenges and drive Merritt’s continued growth and success. In her
