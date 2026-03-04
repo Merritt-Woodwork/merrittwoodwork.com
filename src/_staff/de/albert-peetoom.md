@@ -24,7 +24,7 @@ details: >-
   Inspiration beim Spielen der akustischen Gitarre – eine Leidenschaft, die ihm
   neue Energie für kommende Herausforderungen gibt.
 image: /uploads/abp.jpg
-display_number: 11
+display_number: 10
 lang: de
 _comments:
   image: file should be ~600px wide

@@ -23,7 +23,7 @@ details: >-
   dem Reisen, der Lektüre und wöchentlichen Yogakursen. Mit ihrem Ehemann Josh
   hat sie drei Kinder.
 image: /uploads/ecb.jpg
-display_number: 13
+display_number: 12
 lang: de
 _comments:
   image: file should be ~600px wide

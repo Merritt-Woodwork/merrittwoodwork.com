@@ -19,7 +19,7 @@ details: >-
   ist er gerne mit seinen drei Töchtern zusammen, kocht, spielt oder schaut
   Sportarten wie Tischtennis, Squash, Billard und Boxen.
 image: /uploads/maurice-zeini.jpg
-display_number: 14
+display_number: 13
 lang: de
 _comments:
   image: file should be ~600px wide

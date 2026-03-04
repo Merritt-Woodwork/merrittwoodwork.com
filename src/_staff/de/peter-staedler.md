@@ -19,7 +19,7 @@ details: >-
   Außerhalb der Arbeit verbringt Peter gerne Zeit im Freien beim Camping, Angeln
   und Reiten.
 image: /uploads/merritt-8.jpg
-display_number: 12
+display_number: 11
 lang: de
 _comments:
   image: file should be ~600px wide
